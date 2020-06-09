@@ -1,0 +1,287 @@
+﻿### 한국 이벤트 ###
+add_namespace = pk_korea_generic
+add_namespace = pk_korea_politic
+add_namespace = pk_korea_party
+
+#일본의 평화협정 제안
+country_event = {
+    id = pk_korea_generic.1
+    title = pk_korea_generic.1.t
+    desc = pk_korea_generic.1.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_korea_generic.1.a
+        set_capital = 525
+        remove_ideas = KOR_idea_independence_war
+        add_ideas = KOR_idea_vestiges_of_colonization
+        add_ideas = KOR_idea_pro_japanese_collaborators
+        add_ideas = KOR_idea_ideological_conflict
+        hidden_effect = {
+            delete_unit_template_and_units = {
+                division_template = "지역 의용군"
+            }
+            every_owned_state = {
+                limit = {
+                    OR = {
+                        state = 525
+                        state = 527
+                        state = 797
+                        state = 798
+                        state = 799
+                        state = 800
+                        state = 801
+                        state = 802
+                        state = 803
+                        state = 804
+                    }
+                }
+                remove_dynamic_modifier = { modifier = sotokuryo }
+            }
+            add_ideas = {
+                civilian_economy
+                export_focus
+            }
+        }
+    }
+}
+
+#과도정부 수립
+country_event = {
+    id = pk_korea_politic.1
+    title = pk_korea_politic.1.t
+    desc = pk_korea_politic.1.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_korea_politic.1.a
+        set_party_name = { 
+            ideology = neutrality
+            long_name = KOR_neutrality_party_cpki_long 
+            name = KOR_neutrality_party_cpki
+        }
+
+        hidden_effect = {
+            create_country_leader = {
+                name = "CPKI"
+                desc = ""
+                picture = "gfx/leaders/KOR/Portrait_cpki.dds"
+                expire = "1965.1.1"
+                ideology = oligarchism
+                traits = {
+
+                }
+            }
+            set_country_flag = KOR_flag_interim_government
+        }
+    }
+}
+
+#국민회의 조직
+country_event = {
+    id = pk_korea_politic.2
+    title = pk_korea_politic.2.t
+    desc = pk_korea_politic.2.desc
+
+    picture = GFX_report_event_KOR_national_assembly
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_korea_politic.2.a
+    }
+}
+
+#제헌 국회의원 선거
+country_event = {
+    id = pk_korea_politic.3
+    title = pk_korea_politic.3.t
+    desc = pk_korea_politic.3.desc
+
+    picture = GFX_report_event_KOR_national_assembly
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_korea_politic.3.a
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.1
+        }
+    }
+}
+
+#정치체제를 둘러싼 갈등
+country_event = {
+    id = pk_korea_politic.4
+    title = pk_korea_politic.4.t
+    desc = pk_korea_politic.4.desc
+
+    picture = GFX_report_event_election_vote
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_korea_politic.4.a
+        custom_effect_tooltip = pk_korea_politic.4.a_tt
+        hidden_effect = {
+            country_event = {
+                id = pk_korea_politic.5
+                days = 1
+            }
+        }
+    }
+
+    option = {
+        name = pk_korea_politic.4.b
+        custom_effect_tooltip = pk_korea_politic.4.b_tt
+        hidden_effect = {
+            country_event = {
+                id = pk_korea_politic.5
+                days = 1
+            }
+        }
+    }
+}
+
+#대통령제의 승리
+country_event = {
+    id = pk_korea_politic.5
+    title = pk_korea_politic.5.t
+    desc = pk_korea_politic.5.desc
+
+    picture = GFX_report_event_election_vote
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_korea_politic.5.a
+        set_country_flag = KOR_flag_president
+    }
+}
+
+#내각제의 승리
+country_event = {
+    id = pk_korea_politic.6
+    title = pk_korea_politic.6.t
+    desc = pk_korea_politic.6.desc
+
+    picture = GFX_report_event_election_vote
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_korea_politic.6.a
+        set_country_flag = KOR_flag_parliament
+    }
+}
+
+#정부 선출
+country_event = {
+    id = pk_korea_politic.7
+    title = { 
+		text = pk_korea_politic.7.t_president
+		trigger = {
+			has_country_flag = KOR_flag_president
+		}
+	}
+    title = { 
+		text = pk_korea_politic.7.t_parliament
+		trigger = {
+			has_country_flag = KOR_flag_parliament
+		}
+	}
+    desc = { 
+		text = pk_korea_politic.7.desc_president
+		trigger = {
+			has_country_flag = KOR_flag_president
+		}
+    }
+    desc = { 
+		text = pk_korea_politic.7.desc_parliament
+		trigger = {
+			has_country_flag = KOR_flag_parliament
+		}
+	}
+    picture = GFX_report_event_election_vote
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_korea_politic.7.a
+        set_party_name = { 
+            ideology = democratic 
+            long_name = KOR_democratic_party_knp_long 
+            name = KOR_democratic_party_knp 
+        }
+        create_country_leader = {
+            name = "Kim Koo"
+            desc = "POLITICS_Kim_Koo_DESC"
+            picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+            expire = "1965.1.1"
+            ideology = liberalism
+            traits = {
+
+            }
+        }
+        set_country_flag = KOR_flag_government_elected
+    }
+    option = {
+        name = pk_korea_politic.7.b
+        trigger = {
+			has_country_flag = KOR_flag_parliament
+		}
+        set_party_name = { 
+            ideology = democratic 
+            long_name = KOR_democratic_party_kpp_long 
+            name = KOR_democratic_party_kpp 
+        }
+        create_country_leader = {
+            name = "Lyuh Woon-hyung"
+            desc = "POLITICS_Kim_Koo_DESC"
+            picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+            expire = "1965.1.1"
+            ideology = socialism
+            traits = {
+
+            }
+        }
+        set_country_flag = KOR_flag_government_elected
+    }
+    option = {
+        name = pk_korea_politic.7.c
+        trigger = {
+			has_country_flag = KOR_flag_president
+		}
+        set_party_name = { 
+            ideology = democratic 
+            long_name = KOR_democratic_party_klp_long 
+            name = KOR_democratic_party_klp 
+        }
+        create_country_leader = {
+            name = "Syngman Rhee"
+            desc = "POLITICS_Kim_Koo_DESC"
+            picture = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
+            expire = "1965.1.1"
+            ideology = conservatism
+            traits = {
+
+            }
+        }
+        set_country_flag = KOR_flag_government_elected
+    }
+}

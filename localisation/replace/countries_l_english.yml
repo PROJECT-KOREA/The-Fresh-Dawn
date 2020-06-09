@@ -1,0 +1,101 @@
+﻿l_english:
+
+ #조선
+ GGK_fascism:0 "일본령 조선"
+ GGK_fascism_DEF:0 "일본령 조선"
+ GGK_neutrality:0 "일본령 조선"
+ GGK_neutrality_DEF:0 "일본령 조선"
+ GGK_democratic:0 "일본령 조선"
+ GGK_democratic_DEF:0 "일본령 조선"
+ GGK_communism:0 "일본령 조선"
+ GGK_communism_DEF:0 "일본령 조선"
+ 
+ #한국
+ KOR_democratic:0 "대한민국"
+ KOR_democratic_DEF:0 "대한민국"
+ KOR_communism:0 "조선민주주의인민공화국"
+ KOR_communism_DEF:0 "조선민주주의인민공화국"
+ KOR_fascism:0 "대한민국"
+ KOR_fascism_DEF:0 "대한민국"
+ KOR_neutrality:0 "대한민국 임시정부"
+ KOR_neutrality_DEF:0 "대한민국 임시정부"
+ KOR_empire_neutrality:0 "대한제국"
+ KOR_empire_neutrality_DEF:0 "대한제국"
+ KOR_fascism_ADJ:0 "한국"
+ KOR_democratic_ADJ:0 "한국"
+ KOR_communism_ADJ:0 "조선"
+ KOR_neutrality_ADJ:0 "한국"
+ 
+ #중국
+ CHI_neutrality:0 "중화민국 국민정부"
+ CHI_neutrality_DEF:0 "중화민국 국민정부"
+ CHI_fascism:0 "중화민국 국민정부"
+ CHI_fascism_DEF:0 "중화민국 국민정부"
+
+ #중공
+ PRC_communism:0 "중화소비에트공화국"
+ PRC_communism_DEF:0 "중화소비에트공화국"
+
+ #만주
+ MAN_JAP_fascism_autonomy_puppet:0 "만주제국"
+ MAN_JAP_fascism_autonomy_reichsprotectorate:0 "만주제국"
+ MAN_JAP_fascism_autonomy_colony:0 "만주제국"
+ MAN_JAP_fascism_autonomy_dominion:0 "만주제국"
+ MAN_JAP_fascism_autonomy_satellite:0 "만주제국"
+ MAN_JAP_fascism_autonomy_integrated_puppet:0 "만주제국"
+ MAN_JAP_fascism_autonomy_reichskommissariat:0 "만주제국"
+ MAN_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "만주제국"
+ MAN_JAP_fascism_autonomy_wtt_imperial_subject:0 "만주제국"
+ MAN_JAP_fascism_autonomy_wtt_imperial_associate:0 "만주제국"
+ MAN_JAP_fascism_autonomy_puppet_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_reichsprotectorate_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_colony_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_dominion_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_satellite_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_integrated_puppet_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_reichskommissariat_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_wtt_imperial_protectorate_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_wtt_imperial_subject_DEF:0 "만주제국"
+ MAN_JAP_fascism_autonomy_wtt_imperial_associate_DEF:0 "만주제국"
+
+ #산서군벌
+ SHX_neutrality:0 "산서군벌"
+ SHX_neutrality_DEF:0 "산서군벌"
+
+ #마가군벌
+ XSM_neutrality:0 "마가군벌"
+ XSM_neutrality_DEF:0 "마가군벌"
+
+ #운남군벌
+ YUN_neutrality:0 "운남군벌"
+ YUN_neutrality_DEF:0 "운남군벌"
+
+ #광서군벌
+ GXC_neutrality:0 "광서군벌"
+ GXC_neutrality_DEF:0 "광서군벌"
+
+ #신강군벌
+ SIK_communism:0 "신강군벌"
+ SIK_communism_DEF:0 "신강군벌"
+
+ #몽강
+ MEN_fascism:0 "몽고지방자치정무위원회"
+ MEN_fascism_DEF:0 "몽고지방자치정무위원회"
+
+ #몽골
+ MON_communism:0 "몽골인민공화국"
+ MON_communism_DEF:0 "몽골인민공화국"
+
+ #일본
+ JAP_fascism:0 "일본 제국"
+ JAP_fascism_DEF:0 "일본 제국"
+ JAP_neutrality:0 "일본 제국"
+ JAP_neutrality_DEF:0 "일본 제국"
+ JAP_democratic:0 "일본국"
+ JAP_democratic_DEF:0 "일본국"
+ JAP_communism:0 "일본인민공화국"
+ JAP_communism_DEF:0 "일본인민공화국"
+
+ #독일
+ GER_fascism:0 "독일국"
+ GER_fascism_DEF:0 "독일국"

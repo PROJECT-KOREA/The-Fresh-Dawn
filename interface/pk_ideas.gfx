@@ -1,0 +1,93 @@
+spriteTypes = {	
+	
+  	### National Spirits ###
+
+	## GGK ##
+
+	spriteType = {
+		name = "GFX_idea_naisen_ittai"
+		texturefile = "gfx/interface/ideas/GGK/idea_naisen_ittai.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_korean_independence_movement"
+		texturefile = "gfx/interface/ideas/GGK/idea_korean_independence_movement.dds"
+	}
+
+	## KOR ##
+
+    spriteType = {
+		name = "GFX_idea_KOR_idea_firepower_supremacy"
+		texturefile = "gfx/interface/ideas/KOR/idea_firepower_supremacy.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_KOR_idea_independence_army"
+		texturefile = "gfx/interface/ideas/KOR/idea_independence_army.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_KOR_idea_independence_war"
+		texturefile = "gfx/interface/ideas/KOR/idea_independence_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_idea_pro_japanese_collaborators"
+		texturefile = "gfx/interface/ideas/KOR/idea_pro_japanese_collaborators.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_KOR_idea_independence"
+		texturefile = "gfx/interface/ideas/KOR/idea_independence.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_idea_house_of_yi"
+		texturefile = "gfx/interface/ideas/KOR/idea_house_of_yi.dds"
+	}
+	
+	###Ideas###
+	
+	###JAP###
+	
+	spriteType = {
+		name = "GFX_idea_JAP_en_bloc"
+		texturefile = "gfx/interface/ideas/JAP/JAP_yen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_JAP_profit_line"
+		texturefile = "gfx/interface/ideas/JAP/JAP_co_prosper.dds"
+	}
+	
+	### Political Advisor ###
+
+	## GGK ##
+
+	spriteType = {
+		name = "GFX_idea_GGK_advisor_shigezo_hayashi"
+		texturefile = "gfx/interface/ideas/GGK/advisor_shigezo_hayashi.dds"
+	}
+
+	## KOR ##
+
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_kim_koo"
+		texturefile = "gfx/interface/ideas/KOR/advisor_kim_koo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_kim_kyusik"
+		texturefile = "gfx/interface/ideas/KOR/advisor_kim_kyusik.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_syngman_rhee"
+		texturefile = "gfx/interface/ideas/KOR/advisor_syngman_rhee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_ryuh_woonhyung"
+		texturefile = "gfx/interface/ideas/KOR/advisor_ryuh_woonhyung.dds"
+	}
+}

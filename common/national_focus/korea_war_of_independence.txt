@@ -1,0 +1,253 @@
+focus_tree = {
+	id = korea_war_of_independence
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	
+	continuous_focus_position = { x = 20 y = 1800 }
+
+	#조국해방전쟁
+	focus = {
+		id = KOR_focus_war_of_independence
+		icon = GFX_focus_operation_independence
+		x = 8
+		y = 0
+		cost = 1
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#일본군 무기고 습격
+	focus = {
+		id = KOR_focus_raid_japanese_armory
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = KOR_focus_war_of_independence
+		x = -1
+		y = 1
+		cost = 1
+		
+		prerequisite = {
+			focus = KOR_focus_war_of_independence
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#현지산 무기 조달
+	focus = {
+		id = KOR_focus_local_arms_procurement
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = KOR_focus_raid_japanese_armory
+		x = -1
+		y = 1
+		cost = 1
+		
+		prerequisite = {
+			focus = KOR_focus_raid_japanese_armory
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#민병대 확충
+	focus = {
+		id = KOR_focus_expansion_militia
+		icon = GFX_focus_generic_manpower
+		relative_position_id = KOR_focus_war_of_independence
+		x = 1
+		y = 1
+		cost = 1
+		
+		prerequisite = {
+			focus = KOR_focus_war_of_independence
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#유격전 개시
+	focus = {
+		id = KOR_focus_guerrilla_warfare
+		icon = GFX_focus_prc_infiltration
+		relative_position_id = KOR_focus_expansion_militia
+		x = 1
+		y = 1
+		cost = 1
+		
+		prerequisite = {
+			focus = KOR_focus_expansion_militia
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#전시 생산 체제
+	focus = {
+		id = KOR_focus_wartime_production
+		icon = GFX_goal_generic_production
+		relative_position_id = KOR_focus_raid_japanese_armory
+		x = 1
+		y = 1
+		cost = 1
+
+		prerequisite = {
+			focus = KOR_focus_raid_japanese_armory
+		}
+		
+		prerequisite = {
+			focus = KOR_focus_expansion_militia
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#광복군 조직 개편
+	focus = {
+		id = KOR_focus_reorganize_kia
+		icon = GFX_focus_independence_army
+		relative_position_id = KOR_focus_wartime_production
+		x = 0
+		y = 1
+		cost = 1
+
+		prerequisite = {
+			focus = KOR_focus_local_arms_procurement
+		}
+		
+		prerequisite = {
+			focus = KOR_focus_wartime_production
+		}
+		
+		prerequisite = {
+			focus = KOR_focus_guerrilla_warfare
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#신흥무관학교 재건
+	focus = {
+		id = KOR_focus_rebuild_military_acedemy
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = KOR_focus_reorganize_kia
+		x = -3
+		y = 1
+		cost = 1
+
+		prerequisite = {
+			focus = KOR_focus_reorganize_kia
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#해방의용군 모집
+	focus = {
+		id = KOR_focus_recruit_volunteer_troops
+		icon = GFX_goal_generic_major_war
+		relative_position_id = KOR_focus_reorganize_kia
+		x = -1
+		y = 1
+		cost = 1
+
+		prerequisite = {
+			focus = KOR_focus_reorganize_kia
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#애국주의 선전
+	focus = {
+		id = KOR_focus_patriotism_propaganda
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = KOR_focus_reorganize_kia
+		x = 1
+		y = 1
+		cost = 1
+
+		prerequisite = {
+			focus = KOR_focus_reorganize_kia
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#포병대 확충
+	focus = {
+		id = KOR_focus_expansion_artillery
+		icon = GFX_goal_generic_army_artillery2
+		relative_position_id = KOR_focus_reorganize_kia
+		x = 3
+		y = 1
+		cost = 1
+
+		prerequisite = {
+			focus = KOR_focus_reorganize_kia
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#독립전쟁에서의 승리
+	focus = {
+		id = KOR_focus_victory_in_war
+		icon = GFX_focus_korean_independence_movement
+		relative_position_id = KOR_focus_reorganize_kia
+		x = 0
+		y = 2
+		cost = 1
+
+		prerequisite = {
+			focus = KOR_focus_rebuild_military_acedemy
+		}
+
+		prerequisite = {
+			focus = KOR_focus_recruit_volunteer_troops
+		}
+
+		prerequisite = {
+			focus = KOR_focus_patriotism_propaganda
+		}
+
+		prerequisite = {
+			focus = KOR_focus_expansion_artillery
+		}
+
+		completion_reward = {
+			load_focus_tree = korean_focus
+		}
+	}
+}

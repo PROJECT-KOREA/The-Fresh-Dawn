@@ -1,0 +1,692 @@
+focus_tree = {
+	id = ggk_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GGK
+		}
+	}
+
+	continuous_focus_position = { x = 20 y = 1500 }
+
+	#총독부 개편
+    focus = {
+		id = GGK_focus_reform_government
+		icon = GFX_focus_reform_government
+		x = 8
+		y = 0
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+
+	#내선일체
+    focus = {
+		id = GGK_focus_naisen_ittai
+		icon = GFX_focus_naisen_ittai
+		relative_position_id = GGK_focus_reform_government
+		x = -5
+		y = 1
+		cost = 5
+
+		available = {
+			always = no
+		}
+
+		prerequisite = {
+			focus = GGK_focus_reform_government
+		}
+
+		mutually_exclusive = {
+			focus = GGK_focus_korean_independence_movement
+		}
+
+		completion_reward = {
+			# add_autonomy_score = {
+			# 	value = -50
+			# 	localization = GGK_focus_naisen_ittai
+			# }
+			# add_ideas = GGK_idea_naisen_ittai
+		}
+	}
+
+	#정보기관 확대
+    focus = {
+		id = GGK_focus_expand_intelligence_agency
+		icon = GFX_goal_generic_intelligence_exchange
+		relative_position_id = GGK_focus_naisen_ittai
+		x = -2
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_naisen_ittai
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#한반도 공업화 가속
+    focus = {
+		id = GGK_focus_accelerate_industrialization
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = GGK_focus_naisen_ittai
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_naisen_ittai
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#일본어 상용화 정책
+    focus = {
+		id = GGK_focus_japanese_popularization_policy
+		icon = GFX_focus_generic_military_academy
+		relative_position_id = GGK_focus_accelerate_industrialization
+		x = -2
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_accelerate_industrialization
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#황국신민서사
+    focus = {
+		id = GGK_focus_oath_of_the_imperial_people
+		icon = GFX_focus_jap_showa_restoration
+		relative_position_id = GGK_focus_japanese_popularization_policy
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_japanese_popularization_policy
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#창씨개명제 실시
+    focus = {
+		id = GGK_focus_soushikaimei
+		icon = GFX_focus_soushikaimei
+		relative_position_id = GGK_focus_oath_of_the_imperial_people
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_oath_of_the_imperial_people
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+	#농촌진흥운동
+    focus = {
+		id = GGK_focus_rural_promotion_movement
+		icon = GFX_goal_generic_construction2
+		relative_position_id = GGK_focus_accelerate_industrialization
+		x = 1
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_accelerate_industrialization
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#텅스텐 광산 확충
+    focus = {
+		id = GGK_focus_develop_tungsten_deposit
+		icon = GFX_focus_generic_tungsten
+		relative_position_id = GGK_focus_rural_promotion_movement
+		x = -1
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_rural_promotion_movement
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#포항 제철소
+    focus = {
+		id = GGK_focus_pohang_iron_works
+		icon = GFX_focus_generic_steel
+		relative_position_id = GGK_focus_develop_tungsten_deposit
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_develop_tungsten_deposit
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#한반도 횡단 철도
+    focus = {
+		id = GGK_focus_korean_peninsula_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = GGK_focus_rural_promotion_movement
+		x = 1
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_rural_promotion_movement
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#연구 예산
+    focus = {
+		id = GGK_focus_research_spending
+		icon = GFX_focus_research
+		relative_position_id = GGK_focus_korean_peninsula_railway
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_korean_peninsula_railway
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#황민화 정책
+    focus = {
+		id = GGK_focus_kouminka_seisaku
+		icon = GFX_focus_jap_spiritual_mobilization
+		relative_position_id = GGK_focus_pohang_iron_works
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_soushikaimei
+		}
+
+		prerequisite = {
+			focus = GGK_focus_pohang_iron_works
+		}
+
+		prerequisite = {
+			focus = GGK_focus_research_spending
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#조선 내지 편입
+    focus = {
+		id = GGK_focus_intergrate_chosen
+		icon = GFX_focus_jap_pacific_guardian
+		relative_position_id = GGK_focus_kouminka_seisaku
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_kouminka_seisaku
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	#한국 독립운동
+    focus = {
+		id = GGK_focus_korean_independence_movement
+		icon = GFX_focus_korean_independence_movement
+		relative_position_id = GGK_focus_reform_government
+		x = 5
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_reform_government
+		}
+
+		mutually_exclusive = {
+			focus = GGK_focus_naisen_ittai
+		}
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
+			}
+		}
+	}
+	
+	#임시정부의 정통성
+    focus = {
+		id = GGK_focus_legitimacy_of_government
+		icon = GFX_focus_kpg
+		relative_position_id = GGK_focus_korean_independence_movement
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_korean_independence_movement
+		}
+		
+		completion_reward = {
+			country_event = {
+				id = pk_ggk_korea.1
+				days = 0
+			}
+		}
+	}
+	
+	#연립정부 구성
+    focus = {
+		id = GGK_focus_form_coalition_government
+		icon = GFX_focus_generic_self_management
+		relative_position_id = GGK_focus_legitimacy_of_government
+		x = -1
+		y = 1
+		cost = 10
+
+		prerequisite = {
+			focus = GGK_focus_legitimacy_of_government
+		}
+		
+		completion_reward = {
+			country_event = {
+				id = pk_ggk_korea.2
+				days = 0
+			}
+		}
+	}
+	
+	#일제 밀정 색출
+    focus = {
+		id = GGK_track_down_japanese_spies
+		icon = GFX_focus_search_out_spies
+		relative_position_id = GGK_focus_legitimacy_of_government
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = {
+			focus = GGK_focus_legitimacy_of_government
+		}
+		
+		completion_reward = {
+			country_event = {
+				id =  pk_ggk_korea.3
+				days = 0
+			}
+		}
+	}
+
+	#무장투쟁론
+    focus = {
+		id = GGK_focus_armed_struggle_theory
+		icon = GFX_goal_generic_small_arms
+        text = GGK_focus_armed_struggle_theory
+		relative_position_id = GGK_focus_form_coalition_government
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = {
+			focus = GGK_focus_form_coalition_government
+		}
+
+		prerequisite = {
+			focus = GGK_track_down_japanese_spies
+		}
+		
+		completion_reward = {
+			country_event = {
+				id = pk_ggk_korea.4
+				days = 0
+			}
+		}
+	}
+
+	#한국광복군 창설
+    focus = {
+		id = GGK_focus_found_independence_army
+		icon = GFX_focus_independence_army
+		relative_position_id = GGK_focus_armed_struggle_theory
+		x = -2
+		y = 1
+		cost = 15
+
+		available = {
+			country_exists = CHI
+			CHI = {
+				has_war_with = JAP
+				has_capitulated = no
+			}
+		}
+
+		prerequisite = {
+			focus = GGK_focus_armed_struggle_theory
+		}
+		
+		completion_reward = {
+			country_event = {
+				id = pk_ggk_korea.5
+				days = 0
+			}
+		}
+	}
+
+	#미국과의 협력
+    focus = {
+		id = GGK_focus_cooperation_with_the_usa
+		icon = GFX_focus_chi_mission_to_the_us
+        text = GGK_focus_cooperation_with_the_usa
+		relative_position_id = GGK_focus_armed_struggle_theory
+		x = 0
+		y = 1
+		cost = 10
+
+		available = {
+			country_exists = USA
+			USA = {
+				has_government = democratic
+			}
+		}
+
+		prerequisite = {
+			focus = GGK_focus_armed_struggle_theory
+		}
+		
+		completion_reward = {
+			USA = {
+				country_event = {
+					id = pk_ggk_korea.6
+					days = 0
+				}
+			}
+		}
+	}
+
+	#국내 활동 재개
+    focus = {
+		id = GGK_focus_resume_internal_activity
+		icon = GFX_focus_prc_infiltration
+        text = GGK_focus_resume_internal_activity
+		relative_position_id = GGK_focus_armed_struggle_theory
+		x = 2
+		y = 1
+		cost = 10
+
+		prerequisite = {
+			focus = GGK_focus_armed_struggle_theory
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GGK_idea_korean_independence_movement
+				add_idea = GGK_idea_korean_independence_movement_2
+			}
+		}
+	}
+
+	#국내정진군 편성
+    focus = {
+		id = GGK_focus_organize_homeland_recovery_army
+		icon = GFX_focus_generic_little_entente
+        text = GGK_focus_organize_homeland_recovery_army
+		relative_position_id = GGK_focus_found_independence_army
+		x = 1
+		y = 1
+		cost = 15
+
+		prerequisite = {
+			focus = GGK_focus_found_independence_army
+		}
+
+		prerequisite = {
+			focus = GGK_focus_cooperation_with_the_usa
+		}
+		
+		completion_reward = {
+			country_event = {
+				id = pk_ggk_korea.9
+				days = 0
+			}
+		}
+	}
+
+	#건국강령 제정
+    focus = {
+		id = GGK_focus_doctrine_of_foundation
+		icon = GFX_focus_generic_treaty
+        text = GGK_focus_doctrine_of_foundation
+		relative_position_id = GGK_focus_cooperation_with_the_usa
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = {
+			focus = GGK_focus_resume_internal_activity
+		}
+		
+		completion_reward = {
+			country_event = {
+				id = pk_ggk_korea.10
+				days = 0
+			}
+		}
+	}
+
+	#작전명 광복
+    focus = {
+		id = GGK_focus_operation_independence
+		icon = GFX_focus_operation_independence
+		relative_position_id = GGK_focus_organize_homeland_recovery_army
+		x = 1
+		y = 1
+		cost = 20
+
+		available = {
+			fascism < 0.4
+		}
+
+		prerequisite = {
+			focus = GGK_focus_organize_homeland_recovery_army
+		}
+
+		prerequisite = {
+			focus = GGK_focus_doctrine_of_foundation
+		}
+		
+		completion_reward = {
+			hidden_effect = {
+				KOR = {
+					remove_state_core = 525
+					remove_state_core = 527
+					remove_state_core = 797
+					remove_state_core = 799
+					remove_state_core = 800
+					remove_state_core = 801
+					remove_state_core = 802
+					remove_state_core = 803
+					remove_state_core = 804
+				}
+				release = KOR
+				KOR = {
+					add_state_core = 525
+					add_state_core = 527
+					add_state_core = 797
+					add_state_core = 798
+					add_state_core = 799
+					add_state_core = 800
+					add_state_core = 801
+					add_state_core = 802
+					add_state_core = 803
+					add_state_core = 804
+					declare_war_on = {
+						target = GGK
+						type = take_core_state
+					}
+				}
+				set_state_controller = 798
+				KOR = {
+					set_province_controller = 13234 #평양
+					set_province_controller = 3981	#함흥
+					set_province_controller = 11915 #사리원
+					set_province_controller = 848	#원산
+					set_province_controller = 11977	#대전
+					load_oob = "KOR_War_of_Independence"
+					delete_unit_template_and_units = {
+						division_template = "주둔지 사단"
+					}
+					if = {
+						limit = {
+							USA = {
+								has_country_flag = USA_seek_help_korea_promised
+							}
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 10000
+							producer = JAP
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_1
+							amount = 5000
+							producer = JAP
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 7000
+							producer = CHI
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_1
+							amount = 3000
+							producer = CHI
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 5000
+							producer = USA
+						}
+						add_equipment_to_stockpile = {
+							type = artillery_equipment_1
+							amount = 1500
+							producer = USA
+						}
+						add_equipment_to_stockpile = {
+							type = support_equipment_1
+							amount = 5000
+							producer = USA
+						}
+					}
+					else = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 10000
+							producer = JAP
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_1
+							amount = 5000
+							producer = JAP
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 7000
+							producer = CHI
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_1
+							amount = 3000
+							producer = CHI
+						}
+						add_equipment_to_stockpile = {
+							type = artillery_equipment_1
+							amount = 1000
+							producer = JAP
+						}
+					}
+					add_political_power = 900
+				}
+			}
+			if = {
+				limit = {
+					CHI = {
+						has_war_with = JAP
+					}
+				}
+				CHI = {
+					set_faction_name = korean_chinese_united_front
+					add_to_faction = KOR
+				}
+			}
+			if = {
+				limit = {
+					CHI = {
+						is_in_faction = no
+					}
+				}
+				CHI = {
+					create_faction = korean_chinese_united_front
+					add_to_faction = KOR
+				}
+			}
+			custom_effect_tooltip = GGK_focus_operation_independence_tt
+			country_event = {
+				id = pk_ggk_korea.11
+				days = 0
+			}
+		}
+	}
+}

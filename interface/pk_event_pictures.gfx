@@ -1,0 +1,57 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_event_KOR_independence"
+		textureFile = "gfx/event_pictures/news_event_KOR_independence.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_narration"
+		textureFile = "gfx/event_pictures/report_event_narration.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_kim_koo_speech"
+		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_speech.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_jo_soang"
+		textureFile = "gfx/event_pictures/report_event_KOR_jo_soang.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_kim_koo_with_kim_wonbong"
+		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_with_kim_wonbong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_search_out_spies"
+		textureFile = "gfx/event_pictures/report_event_KOR_search_out_spies.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_provisional_assembly"
+		textureFile = "gfx/event_pictures/report_event_KOR_provisional_assembly.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_independence_army"
+		textureFile = "gfx/event_pictures/report_event_KOR_independence_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_independence_army2"
+		textureFile = "gfx/event_pictures/report_event_KOR_independence_army2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_KOR_national_assembly"
+		textureFile = "gfx/event_pictures/report_event_KOR_national_assembly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_KOR_cpk"
+		textureFile = "gfx/event_pictures/report_event_KOR_cpk.dds"
+	}
+}

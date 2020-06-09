@@ -1,0 +1,258 @@
+#제헌 국회
+KOR_constituent_national_assembly_category = {
+
+	#제2대 국회의원 선거
+	KOR_second_general_election = {
+
+		icon = eng_propaganda_campaigns
+		
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		days_mission_timeout = 730
+		
+		activation = {
+			# has_completed_focus = KOR_focus_constitutional_assembly_election
+		}
+
+		visible = {
+			original_tag = KOR
+		}
+
+		timeout_effect = {
+			
+		}
+
+		complete_effect = {
+			
+		}
+	}
+
+	#헌법 제정
+	KOR_constitution = {
+		
+		icon = eng_trade_unions_support
+
+		available = {
+			
+		}
+
+		visible = {
+			original_tag = KOR
+			NOT = {
+				has_idea = KOR_idea_rok_constitution
+			}
+		}
+		
+		fire_only_once = yes
+
+		cost = 50
+
+		days_remove = 35
+
+		modifier = {
+			political_power_gain = -0.50
+			democratic_drift = 0.05
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				country_event = {
+					id = pk_korea_politic.3
+					days = 10
+				}
+			}
+		}
+
+		remove_effect = {
+			set_country_flag = KOR_flag_constitution
+			add_ideas = KOR_idea_rok_constitution
+			hidden_effect = {
+				news_event = {
+					id = pk_news.2
+					days = 0
+				}
+			}
+		}
+	}
+
+	#정부 선출
+	KOR_form_government = {
+		
+		icon = generic_political_discourse
+
+		available = {
+			has_country_flag = KOR_flag_constitution
+		}
+
+		visible = {
+			original_tag = KOR
+			NOT = {
+				has_country_flag = KOR_flag_government_elected
+			}
+		}
+		
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = {
+				id = pk_korea_politic.6
+				days = 0
+			}
+		}
+	}
+
+	#소규모 지지도 확보
+	KOR_small_securement_of_support = {
+
+		icon = generic_political_discourse
+
+		available = {
+			check_variable = { house_support < house_total }
+			NOT = {
+				has_decision = KOR_medium_securement_of_support
+			}
+			OR = {
+				political_power_daily > 0.3
+				has_political_power > 10
+			}
+		}
+
+		visible = {
+			has_country_flag = KOR_flag_government_formed
+		}
+
+		modifier = {
+			political_power_gain = -0.3
+		}
+
+		days_remove = 30
+		
+		remove_effect = {
+			
+		}
+	}
+
+	#중규모 지지도 확보
+	KOR_medium_securement_of_support = {
+
+		icon = generic_political_discourse
+
+		available = {
+			check_variable = { house_support < house_total }
+			NOT = {
+				has_decision = KOR_small_securement_of_support
+			}
+			OR = {
+				political_power_daily > 0.3
+				has_political_power > 10
+			}
+		}
+
+		visible = {
+			has_country_flag = KOR_flag_government_formed
+		}
+
+		modifier = {
+			political_power_gain = -0.3
+		}
+
+		days_remove = 30
+		
+		remove_effect = {
+			
+		}
+	}
+
+	#반민족행위처벌법
+	KOR_anti_people_of_punishment_act = {
+		
+		icon = eng_trade_unions_support
+
+		available = {
+			
+		}
+
+		visible = {
+			has_country_flag = KOR_flag_government_formed
+		}
+		
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			
+		}
+	}
+
+	#국군조직법 제정
+	KOR_act_on_the_organization_of_national_armed_forces = {
+		
+		icon = eng_trade_unions_support
+
+		available = {
+			
+		}
+
+		visible = {
+			has_country_flag = KOR_flag_government_formed
+		}
+		
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			
+		}
+	}
+
+	#농지개혁법 제정
+	KOR_agricultural_land_reform_act = {
+		
+		icon = eng_trade_unions_support
+
+		available = {
+			
+		}
+
+		visible = {
+			has_country_flag = KOR_flag_government_formed
+		}
+		
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			
+		}
+	}
+
+	#병역법 제정
+	KOR_military_service_act = {
+		
+		icon = eng_trade_unions_support
+
+		available = {
+			
+		}
+
+		visible = {
+			has_country_flag = KOR_flag_government_formed
+		}
+		
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			
+		}
+	}
+}

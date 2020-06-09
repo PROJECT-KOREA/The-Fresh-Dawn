@@ -1,0 +1,5 @@
+opinion_modifiers = {
+    KOR_modifier_anti_japan_sentiment = { value = -30 }
+    KOR_modifier_rhee_line = { value = -50 }
+    KOR_modifier_mutual_defense_treaty = { value = 70 }
+}

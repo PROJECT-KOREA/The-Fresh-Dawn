@@ -1,0 +1,44 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { #집권 여당
+	name = GetRulingPartyDecision
+	text = {
+		trigger = {
+			original_tag = KOR
+			NOT = { 
+				has_country_flag = KOR_flag_government_elected
+			}
+		}
+		localization_key = KOR_NO_GOVERNMENT
+	}
+	text = {
+		trigger = {
+			original_tag = KOR
+			has_country_flag = KOR_flag_government_elected
+		}
+		localization_key = KOR_RULING_GOVERNMENT
+	}
+}
+
+defined_text = { #원내 지지도
+	name = GetHouseSupport
+	text = {
+		trigger = {
+			original_tag = KOR
+			has_government = democratic
+			# has_completed_focus = KOR_focus_first_republic
+		}
+		localization_key = KOR_HOUSE_SUPPORT
+	}
+	text = {
+		localization_key = KOR_NO_HOUSE_SUPPORT
+	}
+}

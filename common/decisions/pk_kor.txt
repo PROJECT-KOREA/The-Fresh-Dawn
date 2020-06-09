@@ -1,0 +1,43 @@
+KOR_declaration_of_independence_category = {
+	
+	#독립 선언
+	KOR_declaration_of_independence = {
+
+		icon = generic_independence
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = KOR_declaration_of_independence_required_states_tt
+				owns_state = 525
+				owns_state = 527
+				owns_state = 797
+				owns_state = 798
+				owns_state = 799
+				owns_state = 800
+				owns_state = 801
+				owns_state = 802
+				owns_state = 803
+				owns_state = 804
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			NOT = { has_country_flag = KOR_flag_independence }
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = KOR_idea_independence
+				days = 1095
+			}
+			news_event = {
+				id = pk_news.1
+				days = 0
+			}
+			set_country_flag = KOR_flag_independence
+		}
+	}
+}
