@@ -34,7 +34,7 @@ defined_text = { #원내 지지도
 		trigger = {
 			original_tag = KOR
 			has_government = democratic
-			# has_completed_focus = KOR_focus_first_republic
+			# has_completed_focus = KOR_focus_republic_of_korea
 		}
 		localization_key = KOR_HOUSE_SUPPORT
 	}

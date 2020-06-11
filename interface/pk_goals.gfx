@@ -96,6 +96,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_focus_books"
+		textureFile = "gfx/interface/goals/KOR/focus_books.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_broken_red_star"
+		textureFile = "gfx/interface/goals/KOR/focus_broken_red_star.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_purge_in_the_army"
+		textureFile = "gfx/interface/goals/KOR/focus_purge_in_the_army.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_national_security_law"
 		textureFile = "gfx/interface/goals/KOR/focus_national_security_law.dds"
 	}
@@ -106,8 +121,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_right_wing_groups"
-		textureFile = "gfx/interface/goals/KOR/focus_right_wing_groups.dds"
+		name = "GFX_focus_wcp"
+		textureFile = "gfx/interface/goals/KOR/focus_wcp.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_kyc"
+		textureFile = "gfx/interface/goals/KOR/focus_kyc.dds"
 	}
 
 	spriteType = {
@@ -121,8 +141,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_arrest_sicana"
-		textureFile = "gfx/interface/goals/KOR/focus_arrest_sicana.dds"
+		name = "GFX_focus_disband_sicana"
+		textureFile = "gfx/interface/goals/KOR/focus_disband_sicana.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_liberal_party"
+		textureFile = "gfx/interface/goals/KOR/focus_liberal_party.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_armed_police"
+		textureFile = "gfx/interface/goals/KOR/focus_armed_police.dds"
 	}
 
 	spriteType = {
@@ -173,6 +203,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_railroad"
 		textureFile = "gfx/interface/goals/KOR/focus_railroad.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_kaist"
+		textureFile = "gfx/interface/goals/KOR/focus_kaist.dds"
 	}
 
 	spriteType = {

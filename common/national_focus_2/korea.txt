@@ -12,7 +12,7 @@ focus_tree = {
 
 	continuous_focus_position = { x = 20 y = 1500 }
 	
-	#건국준비위원회 결성
+	#광복준비위원회 결성
     focus = {
 		id = KOR_focus_cpki
 		icon = GFX_focus_cpki
@@ -313,7 +313,7 @@ focus_tree = {
 	
 	#연구 예산
     focus = {
-		id = KOR_focus_research_spending_spending
+		id = KOR_focus_reform_education_spending
 		icon = GFX_focus_research
 		relative_position_id = KOR_focus_agricultural_land_reform_act
 		x = 2

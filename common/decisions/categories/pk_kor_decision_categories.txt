@@ -41,7 +41,7 @@ KOR_constituent_national_assembly_category = {
 # 	}
 
 # 	visible = {
-# 		has_completed_focus = KOR_focus_first_republic
+# 		has_completed_focus = KOR_focus_republic_of_korea
 # 	}
 
 # 	scripted_gui = kor_constituent_national_assembly_decision_ui
