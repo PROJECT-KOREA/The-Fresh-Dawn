@@ -78,7 +78,7 @@ create_country_leader = {
 
 #공산주의 - 김일성
 create_country_leader = {
-	name = "Kim Ilsung"
+	name = "Kim Il-sung"
 	desc = "POLITICS_Kim_Koo_DESC"
 	picture = "gfx/leaders/KOR/Portrait_Kim_Ilsung.dds"
 	expire = "1965.1.1"
