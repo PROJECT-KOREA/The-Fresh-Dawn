@@ -13,13 +13,12 @@ KOR_recruit_militia = {
 		}
 
 		available = {
-			797 = {  }
+			797 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting_militia }
 		}
 
 		visible = {
 			797 = {
-				# is_controlled_by = ROOT
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
 			has_global_flag = KOR_flag_war_of_independence_begun
@@ -105,13 +104,12 @@ KOR_recruit_militia = {
 		}
 
 		available = {
-			798 = {  }
+			798 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting_militia }
 		}
 
 		visible = {
 			798 = {
-				# is_controlled_by = ROOT
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
 			has_global_flag = KOR_flag_war_of_independence_begun
@@ -207,13 +205,12 @@ KOR_recruit_militia = {
 		}
 
 		available = {
-			799 = {  }
+			799 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting_militia }
 		}
 
 		visible = {
 			799 = {
-				# is_controlled_by = ROOT
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
 			has_global_flag = KOR_flag_war_of_independence_begun
@@ -284,13 +281,12 @@ KOR_recruit_militia = {
 		}
 
 		available = {
-			525 = {  }
+			525 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting_militia }
 		}
 
 		visible = {
 			525 = {
-				# is_controlled_by = ROOT
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
 			has_global_flag = KOR_flag_war_of_independence_begun
@@ -376,13 +372,12 @@ KOR_recruit_militia = {
 		}
 
 		available = {
-			527 = {  }
+			527 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting_militia }
 		}
 
 		visible = {
 			527 = {
-				# is_controlled_by = ROOT
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
 			has_global_flag = KOR_flag_war_of_independence_begun
@@ -453,13 +448,12 @@ KOR_recruit_militia = {
 		}
 
 		available = {
-			800 = {  }
+			800 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting_militia }
 		}
 
 		visible = {
 			800 = {
-				# is_controlled_by = ROOT
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
 			has_global_flag = KOR_flag_war_of_independence_begun
@@ -545,13 +539,12 @@ KOR_recruit_militia = {
 		}
 
 		available = {
-			801 = {  }
+			801 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting_militia }
 		}
 
 		visible = {
 			801 = {
-				# is_controlled_by = ROOT
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
 			has_global_flag = KOR_flag_war_of_independence_begun
@@ -672,13 +665,12 @@ KOR_recruit_militia = {
 		}
 
 		available = {
-			802 = {  }
+			802 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting_militia }
 		}
 
 		visible = {
 			802 = {
-				# is_controlled_by = ROOT
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
 			has_global_flag = KOR_flag_war_of_independence_begun

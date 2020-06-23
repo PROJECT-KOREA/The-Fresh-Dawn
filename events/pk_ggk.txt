@@ -174,7 +174,7 @@ country_event = {
 
 ### 한국 독립운동 ###
 
-#대한민국 임시정부의 정부 수립일 기념식"
+#대한민국 임시정부의 정부 수립일 기념식
 country_event = {
     id = pk_ggk_korea.1
     title = pk_ggk_korea.1.t
