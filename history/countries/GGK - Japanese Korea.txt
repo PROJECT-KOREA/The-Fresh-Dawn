@@ -48,6 +48,30 @@ set_popularities = {
 	neutrality = 15
 }
 
+#민주주의 - 이승만
+create_country_leader = {
+	name = "Lyuh Woon-hyung"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+
+	}
+}
+
+#공산주의 - 박헌영
+create_country_leader = {
+	name = "Pak Hon-yong"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+
+	}
+}
+
 #파시스트 - 우가키 카즈시게
 create_country_leader = {
 	name = "Kazushige Ugaki"
@@ -55,6 +79,18 @@ create_country_leader = {
 	picture = "gfx/leaders/JAP_colony/Portrait_Kazushige_Ugaki.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
+	traits = {
+
+	}
+}
+
+#비동맹주의 - 임시정부 국무위원화
+create_country_leader = {
+	name = "Provisional Government"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_CPKI.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
 	traits = {
 
 	}

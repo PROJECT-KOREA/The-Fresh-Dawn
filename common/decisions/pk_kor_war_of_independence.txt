@@ -1,0 +1,779 @@
+#민병대 모집
+KOR_recruit_militia = {
+	
+	#함경도에서 8개 민병대 모집
+	KOR_recruit_hamgyong = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 797 }
+
+		allowed = {
+			tag = KOR
+		}
+
+		available = {
+			797 = {  }
+			NOT = { has_country_flag = KOR_recruiting_militia }
+		}
+
+		visible = {
+			797 = {
+				# is_controlled_by = ROOT
+				NOT = { has_state_flag = KOR_recruited_@ROOT }
+			}
+			has_global_flag = KOR_flag_war_of_independence_begun
+		}
+
+		cancel_trigger = {
+			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision KOR_recruit_pyongan"
+			set_country_flag = KOR_recruiting_militia
+			797 = { set_state_flag = KOR_recruiting_@ROOT }
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove KOR_recruit_pyongan"
+			clr_country_flag = KOR_recruiting_militia
+			797 = {
+				clr_state_flag = KOR_recruiting_@ROOT
+				set_state_flag = KOR_recruited_@ROOT
+			}
+			custom_effect_tooltip = KOR_recruit_8_unit
+			hidden_effect = {
+				797 = {
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#평안도에서 10개 민병대 모집
+	KOR_recruit_pyongan = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 798 }
+
+		allowed = {
+			tag = KOR
+		}
+
+		available = {
+			798 = {  }
+			NOT = { has_country_flag = KOR_recruiting_militia }
+		}
+
+		visible = {
+			798 = {
+				# is_controlled_by = ROOT
+				NOT = { has_state_flag = KOR_recruited_@ROOT }
+			}
+			has_global_flag = KOR_flag_war_of_independence_begun
+		}
+
+		cancel_trigger = {
+			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision KOR_recruit_pyongan"
+			set_country_flag = KOR_recruiting_militia
+			798 = { set_state_flag = KOR_recruiting_@ROOT }
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove KOR_recruit_pyongan"
+			clr_country_flag = KOR_recruiting_militia
+			798 = {
+				clr_state_flag = KOR_recruiting_@ROOT
+				set_state_flag = KOR_recruited_@ROOT
+			}
+			custom_effect_tooltip = KOR_recruit_10_unit
+			hidden_effect = {
+				798 = {
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#황해도에서 5개 민병대 모집
+	KOR_recruit_hwanghae = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 799 }
+
+		allowed = {
+			tag = KOR
+		}
+
+		available = {
+			799 = {  }
+			NOT = { has_country_flag = KOR_recruiting_militia }
+		}
+
+		visible = {
+			799 = {
+				# is_controlled_by = ROOT
+				NOT = { has_state_flag = KOR_recruited_@ROOT }
+			}
+			has_global_flag = KOR_flag_war_of_independence_begun
+		}
+
+		cancel_trigger = {
+			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision KOR_recruit_pyongan"
+			set_country_flag = KOR_recruiting_militia
+			799 = { set_state_flag = KOR_recruiting_@ROOT }
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove KOR_recruit_pyongan"
+			clr_country_flag = KOR_recruiting_militia
+			799 = {
+				clr_state_flag = KOR_recruiting_@ROOT
+				set_state_flag = KOR_recruited_@ROOT
+			}
+			custom_effect_tooltip = KOR_recruit_5_unit
+			hidden_effect = {
+				799 = {
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#경기도에서 8개 민병대 모집
+	KOR_recruit_gyonggi = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 525 }
+
+		allowed = {
+			tag = KOR
+		}
+
+		available = {
+			525 = {  }
+			NOT = { has_country_flag = KOR_recruiting_militia }
+		}
+
+		visible = {
+			525 = {
+				# is_controlled_by = ROOT
+				NOT = { has_state_flag = KOR_recruited_@ROOT }
+			}
+			has_global_flag = KOR_flag_war_of_independence_begun
+		}
+
+		cancel_trigger = {
+			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision KOR_recruit_pyongan"
+			set_country_flag = KOR_recruiting_militia
+			525 = { set_state_flag = KOR_recruiting_@ROOT }
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove KOR_recruit_pyongan"
+			clr_country_flag = KOR_recruiting_militia
+			525 = {
+				clr_state_flag = KOR_recruiting_@ROOT
+				set_state_flag = KOR_recruited_@ROOT
+			}
+			custom_effect_tooltip = KOR_recruit_8_unit
+			hidden_effect = {
+				525 = {
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#강원도에서 5개 민병대 모집
+	KOR_recruit_gangwon = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 527 }
+
+		allowed = {
+			tag = KOR
+		}
+
+		available = {
+			527 = {  }
+			NOT = { has_country_flag = KOR_recruiting_militia }
+		}
+
+		visible = {
+			527 = {
+				# is_controlled_by = ROOT
+				NOT = { has_state_flag = KOR_recruited_@ROOT }
+			}
+			has_global_flag = KOR_flag_war_of_independence_begun
+		}
+
+		cancel_trigger = {
+			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision KOR_recruit_pyongan"
+			set_country_flag = KOR_recruiting_militia
+			527 = { set_state_flag = KOR_recruiting_@ROOT }
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove KOR_recruit_pyongan"
+			clr_country_flag = KOR_recruiting_militia
+			527 = {
+				clr_state_flag = KOR_recruiting_@ROOT
+				set_state_flag = KOR_recruited_@ROOT
+			}
+			custom_effect_tooltip = KOR_recruit_5_unit
+			hidden_effect = {
+				527 = {
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#충청도에서 8개 민병대 모집
+	KOR_recruit_chungcheong = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 800 }
+
+		allowed = {
+			tag = KOR
+		}
+
+		available = {
+			800 = {  }
+			NOT = { has_country_flag = KOR_recruiting_militia }
+		}
+
+		visible = {
+			800 = {
+				# is_controlled_by = ROOT
+				NOT = { has_state_flag = KOR_recruited_@ROOT }
+			}
+			has_global_flag = KOR_flag_war_of_independence_begun
+		}
+
+		cancel_trigger = {
+			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision KOR_recruit_pyongan"
+			set_country_flag = KOR_recruiting_militia
+			800 = { set_state_flag = KOR_recruiting_@ROOT }
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove KOR_recruit_pyongan"
+			clr_country_flag = KOR_recruiting_militia
+			800 = {
+				clr_state_flag = KOR_recruiting_@ROOT
+				set_state_flag = KOR_recruited_@ROOT
+			}
+			custom_effect_tooltip = KOR_recruit_8_unit
+			hidden_effect = {
+				800 = {
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#경상도에서 15개 민병대 모집
+	KOR_recruit_gyeongsang = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 801 }
+
+		allowed = {
+			tag = KOR
+		}
+
+		available = {
+			801 = {  }
+			NOT = { has_country_flag = KOR_recruiting_militia }
+		}
+
+		visible = {
+			801 = {
+				# is_controlled_by = ROOT
+				NOT = { has_state_flag = KOR_recruited_@ROOT }
+			}
+			has_global_flag = KOR_flag_war_of_independence_begun
+		}
+
+		cancel_trigger = {
+			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision KOR_recruit_pyongan"
+			set_country_flag = KOR_recruiting_militia
+			801 = { set_state_flag = KOR_recruiting_@ROOT }
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove KOR_recruit_pyongan"
+			clr_country_flag = KOR_recruiting_militia
+			801 = {
+				clr_state_flag = KOR_recruiting_@ROOT
+				set_state_flag = KOR_recruited_@ROOT
+			}
+			custom_effect_tooltip = KOR_recruit_15_unit
+			hidden_effect = {
+				801 = {
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#전라도에서 13개 민병대 모집
+	KOR_recruit_jeolla = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 802 }
+
+		allowed = {
+			tag = KOR
+		}
+
+		available = {
+			802 = {  }
+			NOT = { has_country_flag = KOR_recruiting_militia }
+		}
+
+		visible = {
+			802 = {
+				# is_controlled_by = ROOT
+				NOT = { has_state_flag = KOR_recruited_@ROOT }
+			}
+			has_global_flag = KOR_flag_war_of_independence_begun
+		}
+
+		cancel_trigger = {
+			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision KOR_recruit_pyongan"
+			set_country_flag = KOR_recruiting_militia
+			802 = { set_state_flag = KOR_recruiting_@ROOT }
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove KOR_recruit_pyongan"
+			clr_country_flag = KOR_recruiting_militia
+			802 = {
+				clr_state_flag = KOR_recruiting_@ROOT
+				set_state_flag = KOR_recruited_@ROOT
+			}
+			custom_effect_tooltip = KOR_recruit_13_unit
+			hidden_effect = {
+				802 = {
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"지역 의용군\"  start_experience_factor = 0.0"
+						allow_spawning_on_enemy_provs = yes
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+}

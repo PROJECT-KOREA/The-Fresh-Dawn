@@ -7,7 +7,6 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = KOR
-			is_subject = no
 		}
 	}
 
@@ -50,7 +49,7 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = KOR_idea_provisional_government
-				add_idea = KOR_idea_interim_government1
+				add_idea = KOR_idea_interim_government_1
 			}
 		}
 	}
@@ -132,8 +131,8 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = KOR_idea_interim_government1
-				add_idea = KOR_idea_interim_government2
+				remove_idea = KOR_idea_interim_government_1
+				add_idea = KOR_idea_interim_government_2
 			}
 		}
 	}
@@ -153,7 +152,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_timed_idea = {
-				idea = KOR_idea_national_recovery1
+				idea = KOR_idea_national_recovery_1
 				days = 1095
 			}
 		}
@@ -192,8 +191,8 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = KOR_idea_national_recovery1
-				add_idea = KOR_idea_national_recovery2
+				remove_idea = KOR_idea_national_recovery_1
+				add_idea = KOR_idea_national_recovery_2
 			}
 		}
 	}
@@ -281,7 +280,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = KOR_idea_interim_government2
+			if = {
+				limit = { has_idea = KOR_idea_interim_government_1 }
+				remove_ideas = KOR_idea_interim_government_1
+			}
+			if = {
+				limit = { has_idea = KOR_idea_interim_government_2 }
+				remove_ideas = KOR_idea_interim_government_2
+			}
 			set_politics = {
 				ruling_party = democratic
 				elections_allowed = yes
@@ -1442,7 +1448,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = KOR_idea_independence_army
+			if = {
+				limit = { has_idea = KOR_idea_independence_army_1 }
+				remove_ideas = KOR_idea_independence_army_1
+			}
+			if = {
+				limit = { has_idea = KOR_idea_independence_army_2 }
+				remove_ideas = KOR_idea_independence_army_2
+			}
 			custom_effect_tooltip = KOR_focus_found_kcpr_tt
 			hidden_effect = {
 				load_oob = "KOR_Constabulary_of_Police_Reserve"

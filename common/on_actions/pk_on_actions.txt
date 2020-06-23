@@ -1,18 +1,7 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			if = {
-				limit = {
-					AND = {
-						tag = GGK
-						is_ai = no
-					}
-				}
-				country_event = {
-					id = pk_ggk_startup.1
-					days = 0
-				}
-			}
+			JAP = { country_event = { id = pk_ggk_startup.1 } }
 		}
 	}
 }

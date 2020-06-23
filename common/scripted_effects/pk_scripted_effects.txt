@@ -1,0 +1,214 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+#####################################
+### emergency_factory_conversion ####
+#####################################
+
+#This is going to give misleading and ugly tooltips. Making it nice will take effort. TODO_WTT_CD make nice or ignore and remove comment. Easiest solution is just making a custom tooltip that says "5 civilian factories will be converted to military factories" and ignore telling the player the states where it will happen.
+
+KOR_create_units = {
+
+	#사리원
+	799 = {
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 11915
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 11915
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 11915
+		}
+	}
+
+	#함경도
+	797 = {
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 848
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 848
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 848
+		}
+
+		
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 4 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 3981
+		}
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 6 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 3981
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 3981
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 3981
+		}
+	}
+
+	#평양
+	798 = {
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 13234
+		}
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 5 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 13234
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 13234
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 13234
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 13234
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 13234
+		}
+	}
+
+	#대전
+	800 = {
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 7 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 13234
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 11977
+		}
+		create_unit = {
+			division = "division_template = \"지역 의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+			owner = KOR
+			prioritize_location = 11977
+		}
+	}
+}
+
+KOR_add_equipments_to_stockplie = {	
+	if = {
+		limit = {
+			USA = { has_country_flag = USA_seek_help_korea_promised }
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_0
+			amount = 5000
+			producer = JAP
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 2000
+			producer = JAP
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_0
+			amount = 4000
+			producer = CHI
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 2000
+			producer = CHI
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_0
+			amount = 7000
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 1500
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 5000
+			producer = USA
+		}
+		else = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 5000
+				producer = JAP
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 2000
+				producer = JAP
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 4000
+				producer = CHI
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 2000
+				producer = CHI
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 700
+				producer = CHI
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 1000
+				producer = CHI
+			}
+		}
+	}
+}

@@ -386,14 +386,86 @@ country_event = {
     is_triggered_only = yes
     fire_only_once = yes
 
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event pk_ggk_korea.11"
+        hidden_effect = {
+            set_global_flag = KOR_flag_war_of_independence_begun
+            KOR = {
+                transfer_state = 798
+                set_capital = 798
+            }
+            set_state_controller = 798
+            KOR = {
+                set_province_controller = 13234 #평양
+                set_province_controller = 3981	#함흥
+                set_province_controller = 11915 #사리원
+                set_province_controller = 848	#원산
+                set_province_controller = 11977	#대전
+                load_oob = KOR_War_of_Independence
+                KOR_create_units = yes
+                KOR_add_equipments_to_stockplie = yes
+                if = {
+                    limit = { has_template = "주둔지 사단" }
+                    delete_unit_template_and_units = { division_template = "주둔지 사단" }
+                }
+                add_political_power = 1000
+                if = {
+                    limit = { CHI = { has_war_with = JAP } }
+                    if = {
+                        limit = { CHI = { is_in_faction = yes } }
+                        CHI = {
+                            set_faction_name = korean_chinese_united_front
+                            add_to_faction = KOR
+                        }
+                        KOR = {
+                            add_to_war = { 
+                                targeted_alliance = CHI 
+                                enemy = JAP 
+                                hostility_reason = asked_to_join
+                            }
+                        }
+                        else = {
+                            CHI = {
+                                create_faction = korean_chinese_united_front
+                                add_to_faction = KOR
+                            }
+                            KOR = {
+                                add_to_war = { 
+                                    targeted_alliance = CHI 
+                                    enemy = JAP 
+                                    hostility_reason = asked_to_join
+                                }
+                            }
+                        }
+                    }
+                }
+                if = {
+                    limit = { NOT = { CHI = { has_war_with = JAP } } }
+                    KOR = {
+                        declare_war_on = {
+                            target = GGK
+                            type = take_core_state
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     option = {
         name = pk_ggk_korea.11.a
-        KOR = { change_tag_from = GGK }
+        custom_effect_tooltip = pk_ggk_korea.11_tt
+        hidden_effect = {
+            KOR = {
+                complete_national_focus = KOR_focus_war_of_independence
+                change_tag_from = GGK
+            }
+        }
     }
 }
 
 
-
+#테스트
 country_event = {
     id = pk_ggk_korea.12
     title = pk_ggk_korea.12.t
@@ -405,6 +477,11 @@ country_event = {
 
     option = {
         name = pk_ggk_korea.12.a
-        load_oob = "KOR_War_of_Independence"
+        JAP = {
+            declare_war_on = {
+                target = CHI
+                type = annex_everything
+            }
+        }
     }
 }

@@ -17,11 +17,19 @@ country_event = {
     option = {
         name = pk_korea_generic.1.a
         set_capital = 525
-        remove_ideas = KOR_idea_independence_war
+        if = {
+            limit = { has_idea = KOR_idea_independence_war_1 }
+            remove_ideas = KOR_idea_independence_war_1
+        }
+        if = {
+            limit = { has_idea = KOR_idea_independence_war_2 }
+            remove_ideas = KOR_idea_independence_war_2
+        }
         add_ideas = KOR_idea_vestiges_of_colonization
         add_ideas = KOR_idea_pro_japanese_collaborators
         add_ideas = KOR_idea_ideological_conflict
         hidden_effect = {
+            clr_global_flag = KOR_flag_war_of_independence_begun
             delete_unit_template_and_units = {
                 division_template = "지역 의용군"
             }

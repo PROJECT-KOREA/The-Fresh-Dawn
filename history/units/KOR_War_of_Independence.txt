@@ -22,8 +22,8 @@
 
 division_template = {
 	name = "지역 의용군"
-	priority = 1
-	division_names_group = KOR_LVF_01
+	division_names_group = KOR_LMF_01
+	is_locked = yes
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -35,229 +35,117 @@ division_template = {
 	priority = 0
 }
 
-#OOB
-units = {
+# #OOB
+# units = {
 
-	#사리원
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11915
-		division_template = "한국 광복군"
-		start_experience_factor = 0.75
-		# force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
-	}
-	division = {
-		location = 11915
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 11915
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
+# 	#사리원
+# 	division = {
+# 		division_name = {
+# 			is_name_ordered = yes
+# 			name_order = 1
+# 		}
+# 		location = 11915
+# 		division_template = "한국 광복군"
+# 		start_experience_factor = 0.75
+# 		force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
+# 		force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
+# 	}
 
-	#원산
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 848
-		division_template = "한국 광복군"
-		start_experience_factor = 0.75
-		# force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
-	}
-	division = {
-		location = 848
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 848
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
+# 	#원산
+# 	division = {
+# 		division_name = {
+# 			is_name_ordered = yes
+# 			name_order = 2
+# 		}
+# 		location = 848
+# 		division_template = "한국 광복군"
+# 		start_experience_factor = 0.75
+# 		force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
+# 		force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
+# 	}
 
-	#평양
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 13234
-		division_template = "한국 광복군"
-		start_experience_factor = 0.75
-		# force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 5
-		}
-		location = 13234
-		division_template = "한국 광복군"
-		start_experience_factor = 0.75
-		# force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
-	}
-	division = {
-		location = 13234
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 13234
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 13234
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 13234
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
+# 	#평양
+# 	division = {
+# 		division_name = {
+# 			is_name_ordered = yes
+# 			name_order = 3
+# 		}
+# 		location = 13234
+# 		division_template = "한국 광복군"
+# 		start_experience_factor = 0.75
+# 		force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
+# 		force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
+# 	}
+# 	division = {
+# 		division_name = {
+# 			is_name_ordered = yes
+# 			name_order = 5
+# 		}
+# 		location = 13234
+# 		division_template = "한국 광복군"
+# 		start_experience_factor = 0.75
+# 		force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
+# 		force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
+# 	}
 
-	#함흥
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 3981
-		division_template = "한국 광복군"
-		start_experience_factor = 0.75
-		# force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 6
-		}
-		location = 3981
-		division_template = "한국 광복군"
-		start_experience_factor = 0.75
-		# force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
-	}
-	division = {
-		location = 3981
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 3981
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 3981
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 3981
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
+# 	#함흥
+# 	division = {
+# 		division_name = {
+# 			is_name_ordered = yes
+# 			name_order = 4
+# 		}
+# 		location = 3981
+# 		division_template = "한국 광복군"
+# 		start_experience_factor = 0.75
+# 		force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
+# 		force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
+# 	}
+# 	division = {
+# 		division_name = {
+# 			is_name_ordered = yes
+# 			name_order = 6
+# 		}
+# 		location = 3981
+# 		division_template = "한국 광복군"
+# 		start_experience_factor = 0.75
+# 		force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
+# 		force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
+# 	}
 
-	#대전
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 7
-		}
-		location = 11977
-		division_template = "한국 광복군"
-		start_experience_factor = 0.75
-		# force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
-	}
-	division = {
-		location = 11977
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-	division = {
-		location = 11977
-		division_template = "지역 의용군"
-		start_experience_factor = 0.1
-		# force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
-		# force_equipment_variants = { artillery_equipment_1 = { owner = "JAP" } }
-		# force_equipment_variants = { support_equipment_1 = { owner = "JAP" } }
-	}
-}
+# 	#대전
+# 	division = {
+# 		division_name = {
+# 			is_name_ordered = yes
+# 			name_order = 7
+# 		}
+# 		location = 11977
+# 		division_template = "한국 광복군"
+# 		start_experience_factor = 0.75
+# 		force_equipment_variants = { infantry_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { infantry_equipment_0 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "CHI" } }
+# 		force_equipment_variants = { artillery_equipment_1 = { owner = "USA" } }
+# 		force_equipment_variants = { support_equipment_1 = { owner = "USA" } }
+# 	}
+# }
 
 instant_effect = {
 	add_equipment_production = {
@@ -265,7 +153,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "KOR"
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.1
 		efficiency = 50
 	}

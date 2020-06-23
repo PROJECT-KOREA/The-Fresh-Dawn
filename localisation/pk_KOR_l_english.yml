@@ -1,10 +1,10 @@
 ﻿l_english:
 
  ### 국가 중점 ###
- ## 독립 전쟁 ##
+ ## 독립전쟁 ##
  KOR_focus_war_of_independence:0 "조국해방전쟁"
  KOR_focus_war_of_independence_desc:0 ""
- KOR_focus_regional_militia:0 "지역 민병대"
+ KOR_focus_regional_militia:0 "지역 의용군"
  KOR_focus_regional_militia_desc:0 ""
  KOR_focus_raid_japanese_armory:0 "일본군 무기고 습격"
  KOR_focus_raid_japanese_armory_desc:0 ""
@@ -264,6 +264,8 @@
  KOR_idea_the_poor_desc:0 ""
  KOR_idea_unstable_industry:0 "불안정한 산업"
  KOR_idea_unstable_industry_desc:0 ""
+ KOR_idea_war_time_production:0 "전시 생산 체제"
+ KOR_idea_war_time_production_desc:0 ""
  KOR_idea_vestiges_of_colonization:0 "식민지배의 잔재"
  KOR_idea_vestiges_of_colonization_desc:0 ""
  KOR_idea_pro_japanese_collaborators:0 "친일반민족행위자"
@@ -290,13 +292,35 @@
  ### 정치 조언가 ###
  KOR_advisor_kim_koo:0 "김구"
  KOR_advisor_kim_kyusik:0 "김규식"
- KOR_advisor_syngman_rhee:0 "이승만"
  KOR_advisor_ryuh_woonhyung:0 "여운형"
+ KOR_advisor_lee_beomseok:0 "이범석"
+ KOR_advisor_syngman_rhee:0 "이승만"
 
+ ### 정치 조언가 특성 ###
+ veteran_politician:0 "노련한 정무가"
 
  ### 디시전 ###
+ KOR_war_of_independence_decision:0 "조국해방전쟁"
+ KOR_war_of_independence_decision_desc:0 ""
+ KOR_recruit_militia:0 "민병대 모집"
+ KOR_recruit_militia_desc:0 ""
+ KOR_recruiting_militia:0 "현재 민병대를 모집 중임"
+ KOR_recruit_5_unit:0 "민병대 §G5§!개 부대가 모집됩니다.\n"
+ KOR_recruit_8_unit:0 "민병대 §G8§!개 부대가 모집됩니다.\n"
+ KOR_recruit_10_unit:0 "민병대 §G10§!개 부대가 모집됩니다.\n"
+ KOR_recruit_13_unit:0 "민병대 §G13§!개 부대가 모집됩니다.\n"
+ KOR_recruit_15_unit:0 "민병대 §G15§!개 부대가 모집됩니다.\n"
+ KOR_recruit_hamgyong:0 "함경도에서 민병대 §G8§!개 부대 모집"
+ KOR_recruit_pyongan:0 "평안도에서 민병대 §G10§!개 부대 모집"
+ KOR_recruit_hwanghae:0 "황해도에서 민병대 §G5§!개 부대 모집"
+ KOR_recruit_gyonggi:0 "경기도에서 민병대 §G8§!개 부대 모집"
+ KOR_recruit_gangwon:0 "강원도에서 민병대 §G5§!개 부대 모집"
+ KOR_recruit_chungcheong:0 "충청도에서 민병대 §G8§!개 부대 모집"
+ KOR_recruit_gyeongsang:0 "경상도에서 민병대 §G15§!개 부대 모집"
+ KOR_recruit_jeolla:0 "전라도에서 민병대 §G13§!개 부대 모집"
+
  KOR_declaration_of_independence_category:0 "독립 선언"
- KOR_declaration_of_independence_category_desc:0 "우리는 오랜 식민지배와 치열한 독립 전쟁을 거쳐 마침내 조국의 해방을 이루어냈습니다. 한국이 자주국가로 발돋움하여 과거의 영광을 되찾기 위해서는 정식으로 독립을 선언해야할 것입니다."
+ KOR_declaration_of_independence_category_desc:0 "우리는 오랜 식민지배와 치열한 독립전쟁을 거쳐 마침내 조국의 해방을 이루어냈습니다. 한국이 자주국가로 발돋움하여 과거의 영광을 되찾기 위해서는 정식으로 독립을 선언해야할 것입니다."
  KOR_declaration_of_independence:0 "독립 선언"
  KOR_declaration_of_independence_required_states_tt:0 "한반도 전역을 지배 중"
 
@@ -370,6 +394,7 @@
 
 
  ### 국가 플래그 ###
+ KOR_flag_war_of_independence_begun:0 "한국 독립전쟁이 진행중임"
  KOR_flag_independence:0 "독립선언문이 발표됨"
  KOR_flag_interim_government:0 "과도정부가 수립됨"
  KOR_flag_constitution:0 "헌법이 제정됨"

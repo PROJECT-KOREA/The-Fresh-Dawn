@@ -29,8 +29,8 @@ set_technology = {
 add_ideas = {
 	KOR_idea_provisional_government
 	KOR_idea_firepower_supremacy
-	KOR_idea_independence_army
-	KOR_idea_independence_war
+	KOR_idea_independence_army_1
+	KOR_idea_independence_war_1
 	KOR_idea_illiteracy_population
 	KOR_idea_the_poor
 	KOR_idea_unstable_industry
@@ -67,7 +67,7 @@ set_popularities = {
 #민주주의 - 이승만
 create_country_leader = {
 	name = "Syngman Rhee"
-	desc = "POLITICS_Kim_Koo_DESC"
+	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -79,7 +79,7 @@ create_country_leader = {
 #공산주의 - 김일성
 create_country_leader = {
 	name = "Kim Il-sung"
-	desc = "POLITICS_Kim_Koo_DESC"
+	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_Kim_Ilsung.dds"
 	expire = "1965.1.1"
 	ideology = stalinism

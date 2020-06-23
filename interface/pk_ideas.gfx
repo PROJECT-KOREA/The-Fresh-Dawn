@@ -82,12 +82,17 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_KOR_advisor_syngman_rhee"
-		texturefile = "gfx/interface/ideas/KOR/advisor_syngman_rhee.dds"
+		name = "GFX_idea_KOR_advisor_ryuh_woonhyung"
+		texturefile = "gfx/interface/ideas/KOR/advisor_ryuh_woonhyung.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_KOR_advisor_ryuh_woonhyung"
-		texturefile = "gfx/interface/ideas/KOR/advisor_ryuh_woonhyung.dds"
+		name = "GFX_idea_KOR_advisor_lee_beomseok"
+		texturefile = "gfx/interface/ideas/KOR/advisor_lee_beomseok.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_syngman_rhee"
+		texturefile = "gfx/interface/ideas/KOR/advisor_syngman_rhee.dds"
 	}
 }

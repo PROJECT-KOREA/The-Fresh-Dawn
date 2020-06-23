@@ -1,3 +1,4 @@
+#독립 선언
 KOR_declaration_of_independence_category = {
 	
 	#독립 선언

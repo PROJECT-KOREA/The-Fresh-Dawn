@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 20
 			tag = KOR
 		}
 	}
@@ -25,11 +25,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_war_support = 0.05
 		}
 	}
 
-	#지역 민병대
+	#지역 의용군
 	focus = {
 		id = KOR_focus_regional_militia
 		icon = GFX_focus_generic_manpower
@@ -43,7 +43,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			unlock_decision_category_tooltip = KOR_recruit_militia
 		}
 	}
 
@@ -54,14 +54,23 @@ focus_tree = {
 		relative_position_id = KOR_focus_regional_militia
 		x = -3
 		y = 1
-		cost = 1
+		cost = 5
 		
 		prerequisite = {
 			focus = KOR_focus_regional_militia
 		}
 
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 15000
+				producer = JAP
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 3000
+				producer = JAP
+			}
 		}
 	}
 
@@ -72,14 +81,21 @@ focus_tree = {
 		relative_position_id = KOR_focus_regional_militia
 		x = -1
 		y = 1
-		cost = 1
+		cost = 5
 		
 		prerequisite = {
 			focus = KOR_focus_regional_militia
 		}
 
 		completion_reward = {
-			
+			random_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -90,14 +106,17 @@ focus_tree = {
 		relative_position_id = KOR_focus_regional_militia
 		x = 1
 		y = 1
-		cost = 1
+		cost = 5
 		
 		prerequisite = {
 			focus = KOR_focus_regional_militia
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = KOR_idea_independence_army_1
+				add_idea = KOR_idea_independence_army_2
+			}
 		}
 	}
 
@@ -108,14 +127,18 @@ focus_tree = {
 		relative_position_id = KOR_focus_regional_militia
 		x = 3
 		y = 1
-		cost = 1
+		cost = 5
 
 		prerequisite = {
 			focus = KOR_focus_regional_militia
 		}
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 
@@ -126,7 +149,7 @@ focus_tree = {
 		relative_position_id = KOR_focus_raid_japanese_armory
 		x = 1
 		y = 1
-		cost = 1
+		cost = 10
 
 		prerequisite = {
 			focus = KOR_focus_raid_japanese_armory
@@ -137,7 +160,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_ideas = KOR_idea_war_time_production
 		}
 	}
 
@@ -148,7 +171,7 @@ focus_tree = {
 		relative_position_id = KOR_focus_wartime_production
 		x = 0
 		y = 1
-		cost = 1
+		cost = 10
 
 		prerequisite = {
 			focus = KOR_focus_wartime_production
@@ -166,7 +189,7 @@ focus_tree = {
 		relative_position_id = KOR_focus_guerrilla_warfare
 		x = 1
 		y = 1
-		cost = 1
+		cost = 10
 		
 		prerequisite = {
 			focus = KOR_focus_guerrilla_warfare
@@ -177,7 +200,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_command_power = 20
+			army_experience = 50
 		}
 	}
 
@@ -188,14 +212,17 @@ focus_tree = {
 		relative_position_id = KOR_focus_reorganize_kia
 		x = 0
 		y = 1
-		cost = 1
+		cost = 2
 
 		prerequisite = {
 			focus = KOR_focus_reorganize_kia
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = KOR_idea_independence_war_1
+				add_idea = KOR_idea_independence_war_2
+			}
 		}
 	}
 
@@ -208,6 +235,10 @@ focus_tree = {
 		y = 1
 		cost = 1
 
+		available = {
+			controls_state = 525
+		}
+
 		prerequisite = {
 			focus = KOR_focus_wartime_production
 		}
@@ -217,7 +248,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			set_capital = 525
+			add_political_power = 100
+			add_stability = 0.05
 		}
 	}
 
@@ -228,14 +261,15 @@ focus_tree = {
 		relative_position_id = KOR_focus_establish_hanseong_government
 		x = 0
 		y = 1
-		cost = 1
+		cost = 5
 
 		prerequisite = {
 			focus = KOR_focus_establish_hanseong_government
 		}
 
 		completion_reward = {
-			
+			add_stability = 0.05
+			add_war_support = 0.1
 		}
 	}
 }

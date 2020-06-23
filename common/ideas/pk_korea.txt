@@ -6,6 +6,8 @@ ideas = {
 		#임시정부
 		KOR_idea_provisional_government = {
 
+			picture = generic_pp_unity_bonus
+
 			allowed = {
 				always = no
 			}
@@ -22,8 +24,8 @@ ideas = {
 			}
 		}
 
-		#과도정부
-		KOR_idea_interim_government1 = {
+		#과도정부1
+		KOR_idea_interim_government_1 = {
 
 			name = KOR_idea_interim_government
 
@@ -43,8 +45,8 @@ ideas = {
 			}
 		}
 
-		#과도정부
-		KOR_idea_interim_government2 = {
+		#과도정부2
+		KOR_idea_interim_government_2 = {
 
 			name = KOR_idea_interim_government
 
@@ -87,7 +89,32 @@ ideas = {
 		}
 
 		#한국 광복군
-		KOR_idea_independence_army = {
+		KOR_idea_independence_army_1 = {
+
+			name = KOR_idea_independence_army
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				attrition = -0.05
+				army_morale_factor = 0.10
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+			}
+		}
+
+		#한국 광복군
+		KOR_idea_independence_army_2 = {
+
+			name = KOR_idea_independence_army
 
 			allowed = {
 				always = no
@@ -103,12 +130,14 @@ ideas = {
 				attrition = -0.1
 				army_morale_factor = 0.10
 				army_core_attack_factor = 0.15
-				army_core_defence_factor = 0.15
+				army_core_defence_factor = 0.2
 			}
 		}
 
 		#조국해방전쟁
-		KOR_idea_independence_war = {
+		KOR_idea_independence_war_1 = {
+
+			name = KOR_idea_independence_war
 
 			allowed = {
 				always = no
@@ -121,10 +150,34 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.4
+				conscription_factor = 0.3
 				surrender_limit = 1
-				war_support_factor = 0.3
-				stability_factor = 0.5
+				war_support_factor = 0.2
+				stability_factor = 0.4
+				training_time_army_factor = -0.1
+			}
+		}
+
+		#조국해방전쟁
+		KOR_idea_independence_war_2 = {
+
+			name = KOR_idea_independence_war
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.5
+				surrender_limit = 1
+				war_support_factor = 0.2
+				stability_factor = 0.4
 				training_time_army_factor = -0.1
 			}
 		}
@@ -188,6 +241,28 @@ ideas = {
 
 			research_bonus = {
 				industry = -0.05
+			}
+		}
+
+		#전시 생산 체제
+		KOR_idea_war_time_production  = {
+			
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_speed_arms_factory_factor = 0.2
+				stability_factor = -0.05
+				war_support_factor = -0.1
 			}
 		}
 
@@ -280,8 +355,8 @@ ideas = {
 			}
 		}
 
-		#국가 재건
-		KOR_idea_national_recovery1 = {
+		#국가 재건1
+		KOR_idea_national_recovery_1 = {
 
 			name = KOR_idea_national_recovery
 
@@ -298,8 +373,8 @@ ideas = {
 			}
 		}
 
-		#국가 재건
-		KOR_idea_national_recovery2 = {
+		#국가 재건2
+		KOR_idea_national_recovery_2 = {
 
 			name = KOR_idea_national_recovery
 
@@ -386,7 +461,7 @@ ideas = {
 				}
 			}
 			
-			traits = { democratic_reformer }
+			traits = {  }
 		}
 
 		#김규식
@@ -396,7 +471,27 @@ ideas = {
 				tag = KOR	
 			}
 			
-			traits = { silent_workhorse }
+			traits = { veteran_politician }
+		}
+
+		#여운형
+		KOR_advisor_ryuh_woonhyung = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { popular_figurehead }
+		}
+
+		#이범석
+		KOR_advisor_lee_beomseok = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { propaganda_expert }
 		}
 
 		#이승만
@@ -415,17 +510,7 @@ ideas = {
 				}
 			}
 			
-			traits = { connected_citizen }
-		}
-
-		#여운형
-		KOR_advisor_ryuh_woonhyung = {
-
-			allowed = {
-				tag = KOR	
-			}
-			
-			traits = { popular_figurehead }
+			traits = { backroom_backstabber }
 		}
 	}
 

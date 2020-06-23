@@ -1,3 +1,35 @@
+#조국해방전쟁
+KOR_war_of_independence_decision = {
+	icon = army_reform
+
+	picture = GFX_decision_cat_declaration_of_independence
+
+	allowed = {
+		original_tag = KOR
+		has_war_with = GGK
+		has_global_flag = KOR_KOR_flag_war_of_independence_begun
+		has_completed_focus = KOR_focus_war_of_independence
+	}
+
+	priority = 100
+}
+
+#민병대 모집
+KOR_recruit_militia = {
+	icon = army_reform
+
+	picture = GFX_decision_cat_declaration_of_independence
+
+	allowed = {
+		original_tag = KOR
+		has_war_with = GGK
+		has_global_flag = KOR_flag_war_of_independence_begun
+		has_completed_focus = KOR_focus_regional_militia
+	}
+
+	priority = 100
+}
+
 #독립 선언
 KOR_declaration_of_independence_category = {
 	icon = generic_independence
