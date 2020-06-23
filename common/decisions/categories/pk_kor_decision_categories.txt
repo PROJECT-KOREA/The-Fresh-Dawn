@@ -54,7 +54,7 @@ KOR_constituent_national_assembly_category = {
 	}
 
 	visible = {
-		# has_completed_focus = KOR_focus_constitutional_assembly_election
+		has_completed_focus = KOR_focus_constitutional_assembly_election
 	}
 
 	scripted_gui = kor_constituent_national_assembly_decision_ui
