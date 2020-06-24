@@ -292,12 +292,33 @@
  ### 정치 조언가 ###
  KOR_advisor_kim_koo:0 "김구"
  KOR_advisor_kim_kyusik:0 "김규식"
+ KOR_advisor_kim_wonbong:0 "김원봉"
+ KOR_advisor_song_byungjo:0 "송병조"
+ KOR_advisor_shin_ikhi:0 "신익희"
  KOR_advisor_ryuh_woonhyung:0 "여운형"
- KOR_advisor_lee_beomseok:0 "이범석"
  KOR_advisor_syngman_rhee:0 "이승만"
+ KOR_advisor_cho_soang:0 "조소앙"
+ KOR_advisor_hong_jin:0 "홍진"
+
+ ### 육군 참모 ###
+ KOR_chief_lee_beomseok:0 "이범석"
+ KOR_chief_ji_cheongcheon:0 "지청천"
+ KOR_chief_hong_saik:0 "홍사익"
+
+ ### 공군 참모 ###
+ KOR_chief_choi_yongdeok:0 "최용덕"
+
+ ### 군 지휘관 ###
+ KOR_command_kim_hongil:0 "김홍일"
+ KOR_command_kim_kyungcheon:0 "김경천"
+ KOR_command_song_hosung:0 "송호성"
 
  ### 정치 조언가 특성 ###
+ staunch_nationalist:0 "굳건한 민족주의자"
  veteran_politician:0 "노련한 정무가"
+ determined_diplomatist:0 "철저한 외교론자"
+ samgyunjuui_theorist:0 "삼균주의 이론가"
+ excellent_jurist:0 "유능한 법률가"
 
  ### 디시전 ###
  KOR_war_of_independence_decision:0 "조국해방전쟁"

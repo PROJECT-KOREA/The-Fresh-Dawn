@@ -22,12 +22,12 @@ spriteTypes = {
 	}
 
     spriteType = {
-		name = "GFX_idea_KOR_idea_independence_army"
+		name = "GFX_independence_army"
 		texturefile = "gfx/interface/ideas/KOR/idea_independence_army.dds"
 	}
 
     spriteType = {
-		name = "GFX_idea_KOR_idea_independence_war"
+		name = "GFX_independence_war"
 		texturefile = "gfx/interface/ideas/KOR/idea_independence_war.dds"
 	}
 
@@ -82,17 +82,43 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_KOR_advisor_kim_wonbong"
+		texturefile = "gfx/interface/ideas/KOR/advisor_kim_wonbong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_song_byungjo"
+		texturefile = "gfx/interface/ideas/KOR/advisor_song_byungjo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_shin_ikhi"
+		texturefile = "gfx/interface/ideas/KOR/advisor_shin_ikhi.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_KOR_advisor_ryuh_woonhyung"
 		texturefile = "gfx/interface/ideas/KOR/advisor_ryuh_woonhyung.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_KOR_advisor_lee_beomseok"
-		texturefile = "gfx/interface/ideas/KOR/advisor_lee_beomseok.dds"
+		name = "GFX_idea_KOR_advisor_syngman_rhee"
+		texturefile = "gfx/interface/ideas/KOR/advisor_syngman_rhee.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_KOR_advisor_syngman_rhee"
-		texturefile = "gfx/interface/ideas/KOR/advisor_syngman_rhee.dds"
+		name = "GFX_idea_KOR_advisor_cho_soang"
+		texturefile = "gfx/interface/ideas/KOR/advisor_cho_soang.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_hong_jin"
+		texturefile = "gfx/interface/ideas/KOR/advisor_hong_jin.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_KOR_chief_lee_beomseok"
+		texturefile = "gfx/interface/ideas/KOR/chief_lee_beomseok.dds"
 	}
 }

@@ -1,9 +1,45 @@
 leader_traits = {
 	
+	staunch_nationalist = {
+		political_power_factor = 0.05
+		drift_defence_factor = 0.3
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	veteran_politician = {
-		sprite = 13
 		political_power_factor = 0.1
 		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	determined_diplomatist = {
+		opinion_gain_monthly_factor	= 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	samgyunjuui_theorist = {
+		consumer_goods_factor = 0.02
+		research_speed_factor = 0.05
+		industrial_capacity_factory = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	excellent_jurist = {
+		mobilization_laws_cost_factor = -0.25
+		trade_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
 		
 		ai_will_do = {
 			factor = 1

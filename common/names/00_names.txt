@@ -1952,21 +1952,10 @@ TAN = {
 
 KOR = {
 	male = {
-		names = { Yeongsu Yeongho Yeongsik Yeonggil Yeongcheol Yeongjin Jeongnam Jeongsik Jeongho Jeonghun Seongho Seongmin Sangho Sangwoo Sanghun Sanghyeon Junho Jihun Hyeonwoo Minjun Donghyeon Geonwoo Jaewoo Jaehoon Kiyeong Kicheol Jeonghwan Kihoon Seunghwan Jaesin Mincheol Siheon Minseok Hansae Kyungyeop Kibeom Donghyee Minsu Seonggyeong Dowon Aritomo
-		Goro Gentaro Gonnohyoe
-		Heihachiro Hiroshi Hikonojo Hyoe Hayao
-		Iwao
-		Jiro Jinzaburo
-		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
-		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
-		Nariaki Nobuyoshi
-		Rokuro
-		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
-		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
-		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi }
+		names = { Yeongsu Yeongho Yeongsik Yeonggil Yeongcheol Yeongjin Jeongnam Jeongsik Jeongho Jeonghun Seongho Seongmin Sangho Sangwoo Sanghun Sanghyeon Junho Jihun Hyeonwoo Minjun Donghyeon Geonwoo Jaewoo Jaehoon Kiyeong Kicheol Jeonghwan Kihoon Seunghwan Jaesin Mincheol Siheon Minseok Hansae Kyungyeop Kibeom Donghyee Minsu Seongmok Seonggyeong }
 	}
 	female = {
-		names = {  }
+		names = { Yeonghui }
 	}
 	surnames = { Kim Lee Park Choi Jeong Cho Kang Yoon Jang Lim Han Shin Oh Seo Song Ahn Hwang Kwon Hong Yu Jeon Ko Yang Moon Son Baek Bae Heo Shim Nam Noh Min Joo Kwak Ha Seong }
 	callsigns = { }

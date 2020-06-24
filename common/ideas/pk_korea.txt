@@ -92,6 +92,7 @@ ideas = {
 		KOR_idea_independence_army_1 = {
 
 			name = KOR_idea_independence_army
+			picture = GFX_independence_army
 
 			allowed = {
 				always = no
@@ -115,6 +116,7 @@ ideas = {
 		KOR_idea_independence_army_2 = {
 
 			name = KOR_idea_independence_army
+			picture = GFX_independence_army
 
 			allowed = {
 				always = no
@@ -138,6 +140,7 @@ ideas = {
 		KOR_idea_independence_war_1 = {
 
 			name = KOR_idea_independence_war
+			picture = GFX_independence_war
 
 			allowed = {
 				always = no
@@ -162,6 +165,7 @@ ideas = {
 		KOR_idea_independence_war_2 = {
 
 			name = KOR_idea_independence_war
+			picture = GFX_independence_war
 
 			allowed = {
 				always = no
@@ -474,6 +478,36 @@ ideas = {
 			traits = { veteran_politician }
 		}
 
+		#김원봉
+		KOR_advisor_kim_wonbong = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { propaganda_expert }
+		}
+
+		#송병조
+		KOR_advisor_song_byungjo = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { financial_expert }
+		}
+
+		#신익희
+		KOR_advisor_shin_ikhi = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { silent_workhorse }
+		}
+
 		#여운형
 		KOR_advisor_ryuh_woonhyung = {
 
@@ -482,16 +516,6 @@ ideas = {
 			}
 			
 			traits = { popular_figurehead }
-		}
-
-		#이범석
-		KOR_advisor_lee_beomseok = {
-
-			allowed = {
-				tag = KOR	
-			}
-			
-			traits = { propaganda_expert }
 		}
 
 		#이승만
@@ -504,13 +528,33 @@ ideas = {
 				}
 			}
 			
-			available = {
+			visible = {
 				NOT = {
 					has_country_flag = KOR_flag_parliament
 				}
 			}
 			
-			traits = { backroom_backstabber }
+			traits = { determined_diplomatist }
+		}
+
+		#조소앙
+		KOR_advisor_cho_soang = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { samgyunjuui_theorist }
+		}
+
+		#홍진
+		KOR_advisor_hong_jin = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { excellent_jurist }
 		}
 	}
 
@@ -543,7 +587,36 @@ ideas = {
 
 	#육군 참모총장
 	army_chief = {
-		
+
+		#이범석
+		KOR_chief_lee_beomseok = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { army_chief_maneuver_3 }
+		}
+
+		#지청천
+		KOR_chief_ji_cheongcheon = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { army_chief_offensive_2 }
+		}
+
+		#홍사익
+		KOR_chief_hong_saik = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { army_chief_reform_2 }
+		}
 	}
 
 	#해군 참모총장
@@ -553,12 +626,53 @@ ideas = {
 
 	#공군 참모총장
 	air_chief = {
-		
+
+		#최용덕
+		KOR_chief_choi_yongdeok = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { air_chief_all_weather_3 }
+		}
 	}
 
 	#군 고위 지휘관
 	high_command = {
 		
+		#김홍일
+		KOR_command_kim_hongil = {
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_infantry_3 }
+		}
+		
+		#김경천
+		KOR_command_kim_kyungcheon = {
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_logistics_3 }
+		}
+		
+		#송호성
+		KOR_command_song_hosung = {
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_regrouping_2 }
+		}
 	}
 
 	#이론가
