@@ -1,11 +1,11 @@
 focus_tree = {
-	id = korea_war_of_independence
+	id = korea_war_of_independence_focus
 
 	country = {
 		factor = 0
 		
 		modifier = {
-			add = 20
+			add = 10
 			tag = KOR
 		}
 	}

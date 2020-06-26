@@ -293,10 +293,18 @@
  KOR_advisor_kim_koo:0 "김구"
  KOR_advisor_kim_kyusik:0 "김규식"
  KOR_advisor_kim_wonbong:0 "김원봉"
+ KOR_advisor_kim_wonbong_2:0 "김원봉"
  KOR_advisor_song_byungjo:0 "송병조"
  KOR_advisor_shin_ikhi:0 "신익희"
+ KOR_advisor_ahn_jaehong:0 "안재홍"
+ KOR_advisor_ahn_hosang:0 "안호상"
+ KOR_advisor_ryuh_woonhyung_2:0 "여운형"
  KOR_advisor_ryuh_woonhyung:0 "여운형"
+ KOR_advisor_ilhan_new:0 "유일한"
+ KOR_advisor_yi_kang:0 "의친왕 이강"
  KOR_advisor_syngman_rhee:0 "이승만"
+ KOR_advisor_syngman_rhee_2:0 "이승만"
+ KOR_advisor_cho_mansik:0 "조만식"
  KOR_advisor_cho_soang:0 "조소앙"
  KOR_advisor_hong_jin:0 "홍진"
 
@@ -313,10 +321,16 @@
  KOR_command_kim_kyungcheon:0 "김경천"
  KOR_command_song_hosung:0 "송호성"
 
- ### 정치 조언가 특성 ###
+ ### 지도자 특성 ###
  staunch_nationalist:0 "굳건한 민족주의자"
+
+ ### 정치 조언가 특성 ###
+ national_unificationist:0 "국민통일주의자"
  veteran_politician:0 "노련한 정무가"
- determined_diplomatist:0 "철저한 외교론자"
+ education_torchbearer:0 "교육계몽가"
+ determined_diplomatist:0 "철저한 외교주의자"
+ dislikes_communism:0 "공산주의 혐오자"
+ royal_independence_activist:0 "황족 독립운동가"
  samgyunjuui_theorist:0 "삼균주의 이론가"
  excellent_jurist:0 "유능한 법률가"
 

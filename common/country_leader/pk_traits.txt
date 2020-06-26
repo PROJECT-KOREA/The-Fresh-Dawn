@@ -1,5 +1,7 @@
 leader_traits = {
-	
+
+	## 지도자 특성 ##
+	#굳건한 민족주의자 - 김구
 	staunch_nationalist = {
 		political_power_factor = 0.05
 		drift_defence_factor = 0.3
@@ -9,6 +11,18 @@ leader_traits = {
 		}
 	}
 	
+	## 정치 고문 특성 ##
+	#국민통일주의자 - 김구
+	national_unificationist = {
+		stability_weekly = 0.5
+		political_power_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#노련한 정무가 - 김규식
 	veteran_politician = {
 		political_power_factor = 0.1
 		stability_factor = 0.05
@@ -17,7 +31,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	
+
+	#교육계몽가 - 신익희
+	education_torchbearer = {
+		research_speed_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#철저한 외교주의자 - 이승만
 	determined_diplomatist = {
 		opinion_gain_monthly_factor	= 0.15
 		
@@ -25,10 +49,31 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	#공산주의 혐오자 - 이승만
+	dislikes_communism = {
+		communism_drift	= -0.05
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#황족 독립운동가 - 의친왕
+	royal_independence_activist = {
+		neutrality_drift = 0.05
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
+	#삼균주의 이론가 - 조소앙
 	samgyunjuui_theorist = {
 		consumer_goods_factor = 0.02
-		research_speed_factor = 0.05
+		production_speed_industrial_complex_factor = 0.1
 		industrial_capacity_factory = 0.1
 		
 		ai_will_do = {
@@ -36,6 +81,7 @@ leader_traits = {
 		}
 	}
 	
+	#유능한 법률가 - 홍진
 	excellent_jurist = {
 		mobilization_laws_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25

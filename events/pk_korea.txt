@@ -17,6 +17,7 @@ country_event = {
     option = {
         name = pk_korea_generic.1.a
         set_capital = 525
+        load_focus_tree = korea_independent_focus
         if = {
             limit = { has_idea = KOR_idea_independence_war_1 }
             remove_ideas = KOR_idea_independence_war_1
@@ -33,26 +34,16 @@ country_event = {
             delete_unit_template_and_units = {
                 division_template = "지역 의용군"
             }
-            every_owned_state = {
-                limit = {
-                    OR = {
-                        state = 525
-                        state = 527
-                        state = 797
-                        state = 798
-                        state = 799
-                        state = 800
-                        state = 801
-                        state = 802
-                        state = 803
-                        state = 804
-                    }
-                }
-                remove_dynamic_modifier = { modifier = sotokuryo }
-            }
             add_ideas = {
                 civilian_economy
                 export_focus
+                volunteer_only
+            }
+            set_popularities = {
+                neutrality = 50
+                democratic = 15
+                communism = 30
+                fascism = 5
             }
         }
     }

@@ -28,6 +28,7 @@ ideas = {
 		KOR_idea_interim_government_1 = {
 
 			name = KOR_idea_interim_government
+			picture = generic_pp_unity_bonus
 
 			allowed = {
 				always = no
@@ -49,6 +50,7 @@ ideas = {
 		KOR_idea_interim_government_2 = {
 
 			name = KOR_idea_interim_government
+			picture = generic_pp_unity_bonus
 
 			allowed = {
 				always = no
@@ -88,11 +90,11 @@ ideas = {
 			}
 		}
 
-		#한국 광복군
+		#한국 광복군1
 		KOR_idea_independence_army_1 = {
 
 			name = KOR_idea_independence_army
-			picture = GFX_independence_army
+			picture = independence_army
 
 			allowed = {
 				always = no
@@ -112,11 +114,11 @@ ideas = {
 			}
 		}
 
-		#한국 광복군
+		#한국 광복군2
 		KOR_idea_independence_army_2 = {
 
 			name = KOR_idea_independence_army
-			picture = GFX_independence_army
+			picture = independence_army
 
 			allowed = {
 				always = no
@@ -136,11 +138,11 @@ ideas = {
 			}
 		}
 
-		#조국해방전쟁
+		#조국해방전쟁1
 		KOR_idea_independence_war_1 = {
 
 			name = KOR_idea_independence_war
-			picture = GFX_independence_war
+			picture = independence_war
 
 			allowed = {
 				always = no
@@ -155,17 +157,17 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.3
 				surrender_limit = 1
-				war_support_factor = 0.2
-				stability_factor = 0.4
+				war_support_factor = 0.25
+				stability_factor = 0.3
 				training_time_army_factor = -0.1
 			}
 		}
 
-		#조국해방전쟁
+		#조국해방전쟁2
 		KOR_idea_independence_war_2 = {
 
 			name = KOR_idea_independence_war
-			picture = GFX_independence_war
+			picture = independence_war
 
 			allowed = {
 				always = no
@@ -180,7 +182,7 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.5
 				surrender_limit = 1
-				war_support_factor = 0.2
+				war_support_factor = 0.25
 				stability_factor = 0.4
 				training_time_army_factor = -0.1
 			}
@@ -273,6 +275,8 @@ ideas = {
 		#식민지배의 잔재
 		KOR_idea_vestiges_of_colonization = {
 
+			picture = warrior_traditions_idea
+
 			allowed = {
 				always = no
 			}
@@ -353,9 +357,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				political_power_factor = 0.2
+				political_power_factor = 0.1
 				stability_weekly = 0.001
-				MONTHLY_POPULATION = 0.1
+				MONTHLY_POPULATION = 0.25
 			}
 		}
 
@@ -457,15 +461,13 @@ ideas = {
 			}
 			
 			visible = {
-				NOT = {
-					has_country_leader = {
-						name = "Kim Koo"
-						ruling_only = yes
-					}
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
 				}
 			}
 			
-			traits = {  }
+			traits = { national_unificationist }
 		}
 
 		#김규식
@@ -485,7 +487,33 @@ ideas = {
 				tag = KOR	
 			}
 			
+			visible = {
+				NOT = {
+					has_country_leader = {
+						name = "CPKI"
+						ruling_only = yes
+					}
+				}
+			}
+			
 			traits = { propaganda_expert }
+		}
+
+		#김원봉2
+		KOR_advisor_kim_wonbong_2 = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			visible = {
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
+				}
+			}
+			
+			traits = { backroom_backstabber }
 		}
 
 		#송병조
@@ -505,7 +533,41 @@ ideas = {
 				tag = KOR	
 			}
 			
-			traits = { silent_workhorse }
+			traits = { education_torchbearer }
+		}
+
+		#안재홍
+		KOR_advisor_ahn_jaehong = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			visible = {
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
+				}
+			}
+			
+			traits = { liberal_journalist }
+		}
+
+		#안호상
+		KOR_advisor_ahn_hosang = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			visible = {
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
+				}
+			}
+			
+			traits = { fascist_demagogue }
 		}
 
 		#여운형
@@ -515,11 +577,91 @@ ideas = {
 				tag = KOR	
 			}
 			
+			visible = {
+				NOT = {
+					has_country_leader = {
+						name = "CPKI"
+						ruling_only = yes
+					}
+				}
+			}
+			
 			traits = { popular_figurehead }
+		}
+
+		#여운형2
+		KOR_advisor_ryuh_woonhyung_2 = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			visible = {
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
+				}
+			}
+			
+			traits = { social_reformer }
+		}
+
+		#유일한
+		KOR_advisor_ilhan_new = {
+
+			allowed = {
+				tag = KOR
+			}
+			
+			visible = {
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
+				}
+			}
+
+			traits = { captain_of_industry }
+		}
+
+
+		#의친왕 이강
+		KOR_advisor_yi_kang = {
+
+			allowed = {
+				tag = KOR
+			}
+			
+			visible = {
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
+				}
+			}
+
+			traits = { royal_independence_activist }
 		}
 
 		#이승만
 		KOR_advisor_syngman_rhee = {
+
+			allowed = {
+				tag = KOR
+			}
+			
+			visible = {
+				NOT = {
+					has_country_leader = {
+						name = "CPKI"
+						ruling_only = yes
+					}
+				}
+			}
+
+			traits = { determined_diplomatist }
+		}
+
+		#이승만2
+		KOR_advisor_syngman_rhee_2 = {
 
 			allowed = {
 				tag = KOR
@@ -532,9 +674,30 @@ ideas = {
 				NOT = {
 					has_country_flag = KOR_flag_parliament
 				}
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
+				}
 			}
 			
-			traits = { determined_diplomatist }
+			traits = { dislikes_communism }
+		}
+
+		#조만식
+		KOR_advisor_cho_mansik = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			visible = {
+				has_country_leader = {
+					name = "CPKI"
+					ruling_only = yes
+				}
+			}
+			
+			traits = { appeaser }
 		}
 
 		#조소앙

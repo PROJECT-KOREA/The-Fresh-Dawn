@@ -1,12 +1,15 @@
 focus_tree = {
-	id = korean_focus
+	id = korea_independent_focus
 
 	country = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 20
 			tag = KOR
+			NOT = {
+				has_global_flag = KOR_flag_war_of_independence_begun
+			}
 		}
 	}
 
