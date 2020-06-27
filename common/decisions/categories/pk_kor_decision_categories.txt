@@ -7,7 +7,7 @@ KOR_war_of_independence_decision = {
 	allowed = {
 		original_tag = KOR
 		has_war_with = GGK
-		has_global_flag = KOR_flag_war_of_independence_begun
+		has_global_flag = KOR_flag_woi_in_progress
 		has_completed_focus = KOR_focus_war_of_independence
 	}
 
@@ -23,7 +23,7 @@ KOR_recruit_militia = {
 	allowed = {
 		original_tag = KOR
 		has_war_with = GGK
-		has_global_flag = KOR_flag_war_of_independence_begun
+		has_global_flag = KOR_flag_woi_in_progress
 		has_completed_focus = KOR_focus_regional_militia
 	}
 

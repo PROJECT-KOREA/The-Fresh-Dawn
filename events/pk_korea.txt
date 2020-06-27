@@ -30,7 +30,8 @@ country_event = {
         add_ideas = KOR_idea_pro_japanese_collaborators
         add_ideas = KOR_idea_ideological_conflict
         hidden_effect = {
-            clr_global_flag = KOR_flag_war_of_independence_begun
+            clr_global_flag = KOR_flag_woi_in_progress
+            set_global_flag = KOR_flag_woi_is_over
             delete_unit_template_and_units = {
                 division_template = "지역 의용군"
             }

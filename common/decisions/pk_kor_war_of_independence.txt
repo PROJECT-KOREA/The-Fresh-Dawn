@@ -21,11 +21,11 @@ KOR_recruit_militia = {
 			797 = {
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
-			has_global_flag = KOR_flag_war_of_independence_begun
+			has_global_flag = KOR_flag_woi_in_progress
 		}
 
 		cancel_trigger = {
-			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+			NOT = { has_global_flag = KOR_flag_woi_in_progress }
 		}
 		
 		fire_only_once = no
@@ -112,11 +112,11 @@ KOR_recruit_militia = {
 			798 = {
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
-			has_global_flag = KOR_flag_war_of_independence_begun
+			has_global_flag = KOR_flag_woi_in_progress
 		}
 
 		cancel_trigger = {
-			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+			NOT = { has_global_flag = KOR_flag_woi_in_progress }
 		}
 		
 		fire_only_once = no
@@ -213,11 +213,11 @@ KOR_recruit_militia = {
 			799 = {
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
-			has_global_flag = KOR_flag_war_of_independence_begun
+			has_global_flag = KOR_flag_woi_in_progress
 		}
 
 		cancel_trigger = {
-			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+			NOT = { has_global_flag = KOR_flag_woi_in_progress }
 		}
 		
 		fire_only_once = no
@@ -289,11 +289,11 @@ KOR_recruit_militia = {
 			525 = {
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
-			has_global_flag = KOR_flag_war_of_independence_begun
+			has_global_flag = KOR_flag_woi_in_progress
 		}
 
 		cancel_trigger = {
-			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+			NOT = { has_global_flag = KOR_flag_woi_in_progress }
 		}
 		
 		fire_only_once = no
@@ -380,11 +380,11 @@ KOR_recruit_militia = {
 			527 = {
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
-			has_global_flag = KOR_flag_war_of_independence_begun
+			has_global_flag = KOR_flag_woi_in_progress
 		}
 
 		cancel_trigger = {
-			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+			NOT = { has_global_flag = KOR_flag_woi_in_progress }
 		}
 		
 		fire_only_once = no
@@ -456,11 +456,11 @@ KOR_recruit_militia = {
 			800 = {
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
-			has_global_flag = KOR_flag_war_of_independence_begun
+			has_global_flag = KOR_flag_woi_in_progress
 		}
 
 		cancel_trigger = {
-			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+			NOT = { has_global_flag = KOR_flag_woi_in_progress }
 		}
 		
 		fire_only_once = no
@@ -547,11 +547,11 @@ KOR_recruit_militia = {
 			801 = {
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
-			has_global_flag = KOR_flag_war_of_independence_begun
+			has_global_flag = KOR_flag_woi_in_progress
 		}
 
 		cancel_trigger = {
-			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+			NOT = { has_global_flag = KOR_flag_woi_in_progress }
 		}
 		
 		fire_only_once = no
@@ -673,11 +673,11 @@ KOR_recruit_militia = {
 			802 = {
 				NOT = { has_state_flag = KOR_recruited_@ROOT }
 			}
-			has_global_flag = KOR_flag_war_of_independence_begun
+			has_global_flag = KOR_flag_woi_in_progress
 		}
 
 		cancel_trigger = {
-			NOT = { has_global_flag = KOR_flag_war_of_independence_begun }
+			NOT = { has_global_flag = KOR_flag_woi_in_progress }
 		}
 		
 		fire_only_once = no

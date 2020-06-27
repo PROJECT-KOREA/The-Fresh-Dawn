@@ -15,7 +15,7 @@ KOR_LMF_01 =
 {
 	name = "지역 의용군"
 	for_countries = { KOR }
-	can_use = { has_global_flag = KOR_flag_war_of_independence_begun }
+	can_use = { has_global_flag = KOR_flag_woi_in_progress }
 	division_types = { "infantry" }
 	fallback_name = "지역 의용군"
 	ordered =

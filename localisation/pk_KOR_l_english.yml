@@ -429,7 +429,8 @@
 
 
  ### 국가 플래그 ###
- KOR_flag_war_of_independence_begun:0 "한국 독립전쟁이 진행중임"
+ KOR_flag_woi_in_progress:0 "한국 독립전쟁이 진행중임"
+ KOR_flag_woi_is_over:0 "한국 독립전쟁이 끝남"
  KOR_flag_independence:0 "독립선언문이 발표됨"
  KOR_flag_interim_government:0 "과도정부가 수립됨"
  KOR_flag_constitution:0 "헌법이 제정됨"
