@@ -7,9 +7,7 @@ focus_tree = {
 		modifier = {
 			add = 20
 			tag = KOR
-			NOT = {
-				has_global_flag = KOR_flag_woi_in_progress
-			}
+			has_global_flag = KOR_flag_woi_is_over
 		}
 	}
 
