@@ -1,7 +1,7 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			JAP = { country_event = { id = pk_ggk_startup.1 } }
+			GGK = { country_event = { id = pk_ggk_startup.1 } }
 		}
 	}
 }
