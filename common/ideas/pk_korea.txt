@@ -20,7 +20,6 @@ ideas = {
 
 			modifier = {
 				political_power_factor = -0.2
-				stability_factor = -0.05
 			}
 		}
 
@@ -41,8 +40,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_factor = -0.10
-				stability_factor = -0.05
+				political_power_factor = -0.15
 			}
 		}
 
@@ -63,8 +61,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_factor = -0.05
-				stability_factor = -0.05
+				political_power_factor = -0.10
 			}
 		}
 
@@ -157,8 +154,7 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.3
 				surrender_limit = 1
-				war_support_factor = 0.25
-				stability_factor = 0.3
+				war_support_factor = 0.4
 				training_time_army_factor = -0.1
 			}
 		}
@@ -183,7 +179,7 @@ ideas = {
 				conscription_factor = 0.5
 				surrender_limit = 1
 				war_support_factor = 0.25
-				stability_factor = 0.4
+				stability_factor = 0.2
 				training_time_army_factor = -0.1
 			}
 		}
@@ -250,6 +246,26 @@ ideas = {
 			}
 		}
 
+		#무기 연구기술의 부재 
+		KOR_idea_absence_of_weapon_technology = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			research_bonus = {
+				infantry_weapons = -0.7
+				armor = -0.7
+				naval_equipment = -0.7
+				air_equipment = -0.7
+			}
+		}
+
 		#전시 생산 체제
 		KOR_idea_war_time_production  = {
 			
@@ -269,6 +285,24 @@ ideas = {
 				production_speed_arms_factory_factor = 0.2
 				stability_factor = -0.05
 				war_support_factor = -0.1
+			}
+		}
+
+		#한반도의 무기 부족
+		KOR_arms_raided = {
+
+			picture = generic_army_problems
+
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = KOR
+				attack_bonus_against = -0.25
+				defense_bonus_against = -0.25
 			}
 		}
 
@@ -741,11 +775,77 @@ ideas = {
 
 		designer = yes
 		
+		KOR_incheon_arsenal = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+
+			available = {
+				controls_state = 525
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		KOR_pyongyang_arsenal = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+
+			available = {
+				controls_state = 798
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+		}
 	}
 
 	#산업 업체
 	industrial_concern = {
-		
+
+		KOR_samsung = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+
+			available = {
+				controls_state = 801
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		KOR_toshiba_electric = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+
+			available = {
+				controls_state = 525
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
 	}
 
 	#육군 참모총장

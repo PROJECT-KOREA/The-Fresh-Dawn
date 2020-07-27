@@ -42,3 +42,29 @@ KOR_declaration_of_independence_category = {
 		}
 	}
 }
+
+#파시즘의 대두
+KOR_rise_of_fascism_category = {
+
+	KOR_begin_coup = {
+
+		icon = generic_tank
+
+		available = {
+
+		}
+
+		visible = {
+
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			news_event = {
+				id = pk_korea_politic_fascism.1
+				days = 0
+			}
+		}
+	}
+}

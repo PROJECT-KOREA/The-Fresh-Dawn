@@ -156,9 +156,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KOR/advisor_hong_jin.dds"
 	}
 
-
 	spriteType = {
 		name = "GFX_idea_KOR_chief_lee_beomseok"
 		texturefile = "gfx/interface/ideas/KOR/chief_lee_beomseok.dds"
+	}
+
+
+	### Companies ###
+
+	spriteType = {
+		name = "GFX_idea_KOR_incheon_arsenal"
+		texturefile = "gfx/interface/ideas/KOR/KOR_incheon_arsenal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_pyongyang_arsenal"
+		texturefile = "gfx/interface/ideas/KOR/KOR_pyongyang_arsenal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_samsung"
+		texturefile = "gfx/interface/ideas/KOR/KOR_samsung.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_toshiba_electric"
+		texturefile = "gfx/interface/ideas/KOR/KOR_toshiba_electric.dds"
 	}
 }

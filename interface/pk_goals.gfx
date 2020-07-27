@@ -66,13 +66,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_assembly_election"
-		textureFile = "gfx/interface/goals/KOR/focus_assembly_election.dds"
+		name = "GFX_focus_constitution"
+		textureFile = "gfx/interface/goals/KOR/focus_constitution.dds"
 	}
 
 	spriteType = {
 		name = "GFX_focus_republic_of_korea"
 		textureFile = "gfx/interface/goals/KOR/focus_republic_of_korea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_assembly_election"
+		textureFile = "gfx/interface/goals/KOR/focus_assembly_election.dds"
 	}
 
 	spriteType = {

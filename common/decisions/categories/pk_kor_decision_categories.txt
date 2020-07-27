@@ -43,7 +43,7 @@ KOR_declaration_of_independence_category = {
 	priority = 100
 }
 
-#제헌 국회
+#제헌의회
 KOR_constituent_national_assembly_category = {
 	icon = usa_congress
 
@@ -54,13 +54,32 @@ KOR_constituent_national_assembly_category = {
 	}
 
 	visible = {
-		has_completed_focus = KOR_focus_interim_legislative_assembly
+		has_completed_focus = KOR_focus_constituent_assembly
 	}
 
 	scripted_gui = kor_constituent_national_assembly_decision_ui
 
 	priority = 100
 }
+
+# #제헌 국회
+# KOR_constituent_national_assembly_category = {
+# 	icon = usa_congress
+
+# 	picture = GFX_decision_cat_national_assembly
+
+# 	allowed = {
+# 		original_tag = KOR
+# 	}
+
+# 	visible = {
+# 		has_completed_focus = KOR_focus_constitutional_assembly_election
+# 	}
+
+# 	scripted_gui = kor_constituent_national_assembly_decision_ui
+
+# 	priority = 100
+# }
 
 #제헌 국회 (내각제)
 # KOR_constituent_national_assembly_parliament_category = {
@@ -80,3 +99,20 @@ KOR_constituent_national_assembly_category = {
 
 # 	priority = 100
 # }
+
+#파시즘의 대두
+KOR_rise_of_fascism_category = {
+	icon = generic_fascism
+
+	picture = GFX_decision_cat_national_assembly
+
+	allowed = {
+		original_tag = KOR
+	}
+
+	visible = {
+		has_idea = KOR_advisor_ahn_hosang
+	}
+
+	priority = 100
+}

@@ -1,0 +1,102 @@
+focus_tree = {
+	id = korea_government
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = KOR
+		}
+	}
+
+	continuous_focus_position = { x = 20 y = 1800 }
+	
+	#총선거
+	focus = {
+		id = KOR_focus_general_election
+		icon = GFX_focus_assembly_election
+		x = 4
+		y = 0
+		cost = 5
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#조선인민당 승리
+	focus = {
+		id = KOR_focus_peoples_party_victory
+		icon = GFX_focus_ryuh_woonhyung
+		relative_position_id = KOR_focus_general_election
+		x = -3
+		y = 1
+		cost = 5
+		
+		prerequisite = {
+			focus = KOR_focus_general_election
+		}
+
+		mutually_exclusive = {
+			focus = KOR_focus_independence_party_victory
+			focus = KOR_focus_republic_council_victory
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+
+	#한국독립당의 승리
+	focus = {
+		id = KOR_focus_independence_party_victory
+		icon = GFX_focus_kim_koo
+		relative_position_id = KOR_focus_general_election
+		x = 0
+		y = 1
+		cost = 5
+		
+		prerequisite = {
+			focus = KOR_focus_general_election
+		}
+
+		mutually_exclusive = {
+			focus = KOR_focus_peoples_party_victory
+			focus = KOR_focus_republic_council_victory
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+
+	#공화민정회의 승리
+	focus = {
+		id = KOR_focus_republic_council_victory
+		icon = GFX_focus_syngman_rhee
+		relative_position_id = KOR_focus_general_election
+		x = 3
+		y = 1
+		cost = 5
+		
+		prerequisite = {
+			focus = KOR_focus_general_election
+		}
+
+		mutually_exclusive = {
+			focus = KOR_focus_peoples_party_victory
+			focus = KOR_focus_independence_party_victory
+		}
+
+		completion_reward = {
+
+		}
+	}
+}

@@ -1,6 +1,7 @@
 ﻿### 한국 이벤트 ###
 add_namespace = pk_korea_generic
 add_namespace = pk_korea_politic
+add_namespace = pk_korea_politic_fascism
 add_namespace = pk_korea_party
 
 #일본의 평화협정 제안
@@ -17,7 +18,6 @@ country_event = {
     option = {
         name = pk_korea_generic.1.a
         set_capital = 525
-        load_focus_tree = korea_independent_focus
         if = {
             limit = { has_idea = KOR_idea_independence_war_1 }
             remove_ideas = KOR_idea_independence_war_1
@@ -28,10 +28,11 @@ country_event = {
         }
         add_ideas = KOR_idea_vestiges_of_colonization
         add_ideas = KOR_idea_pro_japanese_collaborators
-        add_ideas = KOR_idea_ideological_conflict
+        # add_ideas = KOR_idea_ideological_conflict
         hidden_effect = {
             clr_global_flag = KOR_flag_woi_in_progress
             set_global_flag = KOR_flag_woi_is_over
+            load_focus_tree = korea_independent_focus
             delete_unit_template_and_units = {
                 division_template = "지역 의용군"
             }
@@ -68,19 +69,13 @@ country_event = {
             long_name = KOR_neutrality_party_cpki_long 
             name = KOR_neutrality_party_cpki
         }
-
-        hidden_effect = {
-            create_country_leader = {
-                name = "CPKI"
-                desc = ""
-                picture = "gfx/leaders/KOR/Portrait_cpki.dds"
-                expire = "1965.1.1"
-                ideology = oligarchism
-                traits = {
-
-                }
-            }
-            set_country_flag = KOR_flag_interim_government
+        create_country_leader = {
+            name = "CPKI"
+            desc = ""
+            picture = "gfx/leaders/KOR/Portrait_CPKI.dds"
+            expire = "1965.1.1"
+            ideology = oligarchism
+            traits = {  }
         }
     }
 }
@@ -283,5 +278,34 @@ country_event = {
             }
         }
         set_country_flag = KOR_flag_government_elected
+    }
+}
+
+#국방경비대 장교단의 군사반란
+country_event = {
+    id = pk_korea_politic_fascism.1
+    title = pk_korea_politic_fascism.1.t
+    desc = pk_korea_politic_fascism.1.desc
+    picture = GFX_report_event_election_vote
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        set_party_name = { 
+            ideology = neutrality
+            long_name = KOR_fascism_party_mrc_long 
+            name = KOR_fascism_party_mrc
+        }
+        create_country_leader = {
+            name = "Military Committee"
+            desc = ""
+            picture = "gfx/leaders/KOR/Portrait_MRC.dds"
+            expire = "1965.1.1"
+            ideology = oligarchism
+            traits = {
+
+            }
+        }
     }
 }
