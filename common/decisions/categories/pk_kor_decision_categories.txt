@@ -1,4 +1,4 @@
-#조국해방전쟁
+#한국 독립전쟁
 KOR_war_of_independence_decision = {
 	icon = army_reform
 
@@ -8,14 +8,14 @@ KOR_war_of_independence_decision = {
 		original_tag = KOR
 		has_war_with = GGK
 		has_global_flag = KOR_flag_woi_in_progress
-		has_completed_focus = KOR_focus_war_of_independence
+		has_completed_focus = KOR_focus_korean_war_of_independence
 	}
 
 	priority = 100
 }
 
 #민병대 모집
-KOR_recruit_militia = {
+KOR_recruit_volunteer_army = {
 	icon = army_reform
 
 	picture = GFX_decision_cat_declaration_of_independence
@@ -24,7 +24,7 @@ KOR_recruit_militia = {
 		original_tag = KOR
 		has_war_with = GGK
 		has_global_flag = KOR_flag_woi_in_progress
-		has_completed_focus = KOR_focus_regional_militia
+		has_completed_focus = KOR_focus_liberation_voulnteer_army
 	}
 
 	priority = 100
@@ -54,7 +54,7 @@ KOR_constituent_national_assembly_category = {
 	}
 
 	visible = {
-		has_completed_focus = KOR_focus_constituent_assembly
+		#has_completed_focus = KOR_focus_constituent_assembly
 	}
 
 	scripted_gui = kor_constituent_national_assembly_decision_ui
@@ -111,7 +111,7 @@ KOR_rise_of_fascism_category = {
 	}
 
 	visible = {
-		has_idea = KOR_advisor_ahn_hosang
+		#has_idea = KOR_advisor_ahn_hosang
 	}
 
 	priority = 100

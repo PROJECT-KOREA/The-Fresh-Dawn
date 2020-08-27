@@ -399,7 +399,7 @@ focus_tree = {
 	#한국광복군 창설
     focus = {
 		id = GGK_focus_found_independence_army
-		icon = GFX_focus_independence_army
+		icon = GFX_focus_kia
 		relative_position_id = GGK_focus_armed_struggle_theory
 		x = -2
 		y = 1
@@ -574,7 +574,7 @@ focus_tree = {
             #         targeted_alliance = CHI 
             #         enemy = JAP 
             #     }
-            #     complete_national_focus = KOR_focus_war_of_independence
+            #     complete_national_focus = KOR_focus_korean_war_of_independence
             #     change_tag_from = GGK
             # }
 			# hidden_effect = {

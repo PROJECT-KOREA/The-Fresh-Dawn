@@ -1,25 +1,3 @@
 spriteTypes = {
-
-	### GGK ###
-	spriteType = {
-		name = "GFX_ideology_GGK_fascism_group"
-		textureFile = "gfx/interface/ideologies/GGK/ggk.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_GGK_neutrality_group"
-		textureFile = "gfx/interface/ideologies/GGK/naikaku.dds"
-	}
-
-	### JAP ###
-	spriteType = {
-		name = "GFX_ideology_JAP_neutrality_group"
-		textureFile = "gfx/interface/ideologies/JAP/naikaku.dds"
-	}
-
-	### KOR ###
-	spriteType = {
-		name = "GFX_ideology_KOR_neutrality_group"
-		textureFile = "gfx/interface/ideologies/KOR/kpg.dds"
-	}
+	
 }

@@ -1,6 +1,6 @@
 ﻿KOR_KIA_01 = 
 {
-	name = "한국 광복군"
+	name = "한국광복군"
 	for_countries = { KOR }
 	can_use = { always = yes }
 	division_types = { "infantry" }

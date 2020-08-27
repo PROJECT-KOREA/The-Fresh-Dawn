@@ -14,12 +14,12 @@
 # 		days_mission_timeout = 730
 		
 # 		activation = {
-# 			has_completed_focus = KOR_focus_constituent_assembly
+# 			has_completed_focus = #KOR_focus_constituent_assembly
 # 		}
 
 # 		visible = {
 # 			original_tag = KOR
-# 			has_completed_focus = KOR_focus_constituent_assembly
+# 			has_completed_focus = #KOR_focus_constituent_assembly
 # 		}
 
 # 		timeout_effect = {

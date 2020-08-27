@@ -3,6 +3,26 @@ ideas = {
 	#국민 정신
 	country = {
 
+		#군사정권
+		KOR_idea_military_junta = {
+
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.2
+			}
+		}
+
 		#임시정부
 		KOR_idea_provisional_government = {
 
@@ -19,7 +39,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_factor = -0.2
+				political_power_factor = -0.15
 			}
 		}
 
@@ -40,7 +60,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_factor = -0.15
+				political_power_factor = -0.10
 			}
 		}
 
@@ -61,7 +81,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_factor = -0.10
+				political_power_factor = -0.5
 			}
 		}
 
@@ -87,7 +107,7 @@ ideas = {
 			}
 		}
 
-		#한국 광복군1
+		#한국광복군1
 		KOR_idea_independence_army_1 = {
 
 			name = KOR_idea_independence_army
@@ -104,14 +124,14 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				attrition = -0.05
+				army_org_factor = 0.05
 				army_morale_factor = 0.10
 				army_core_attack_factor = 0.10
-				army_core_defence_factor = 0.10
+				army_core_defence_factor = 0.20
 			}
 		}
 
-		#한국 광복군2
+		#한국광복군2
 		KOR_idea_independence_army_2 = {
 
 			name = KOR_idea_independence_army
@@ -131,11 +151,11 @@ ideas = {
 				attrition = -0.1
 				army_morale_factor = 0.10
 				army_core_attack_factor = 0.15
-				army_core_defence_factor = 0.2
+				army_core_defence_factor = 0.20
 			}
 		}
 
-		#조국해방전쟁1
+		#한국 독립전쟁1
 		KOR_idea_independence_war_1 = {
 
 			name = KOR_idea_independence_war
@@ -152,14 +172,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.3
-				surrender_limit = 1
-				war_support_factor = 0.4
-				training_time_army_factor = -0.1
+				surrender_limit = 1.5
+				war_support_factor = 0.5
 			}
 		}
 
-		#조국해방전쟁2
+		#한국 독립전쟁2
 		KOR_idea_independence_war_2 = {
 
 			name = KOR_idea_independence_war
@@ -176,10 +194,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.5
-				surrender_limit = 1
-				war_support_factor = 0.25
-				stability_factor = 0.2
+				conscription_factor = 0.3
+				surrender_limit = 1.5
+				war_support_factor = 0.5
 				training_time_army_factor = -0.1
 			}
 		}
@@ -289,6 +306,7 @@ ideas = {
 		}
 
 		#한반도의 무기 부족
+		KOR_idea_arms_raided = {
 
 			picture = generic_army_problems
 
@@ -302,6 +320,30 @@ ideas = {
 				tag = KOR
 				attack_bonus_against = -0.25
 				defense_bonus_against = -0.25
+			}
+		}
+
+		#복수의 시간
+		KOR_idea_time_to_revenge = {
+
+			picture = generic_army_problems
+
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			
+			targeted_modifier = {
+				tag = MAN
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
 			}
 		}
 
@@ -587,7 +629,7 @@ ideas = {
 		# }
 
 		# #안호상
-		# KOR_advisor_ahn_hosang = {
+		# #KOR_advisor_ahn_hosang = {
 
 		# 	allowed = {
 		# 		tag = KOR	

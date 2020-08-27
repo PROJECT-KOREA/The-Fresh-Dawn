@@ -25,37 +25,37 @@
 KOR_create_units = {
 	798 = {
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"한국광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 13234
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"한국광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 13234
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"한국광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 13234
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 4 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 4 } division_template = \"한국광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 978
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 5 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 5 } division_template = \"한국광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 978
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 6 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 6 } division_template = \"한국광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 11835
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 7 } division_template = \"한국 광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 7 } division_template = \"한국광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { artillery_equipment_1 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 11835
 		}
@@ -224,4 +224,26 @@ KOR_add_equipments_to_stockplie = {
 			}
 		}
 	}
+}
+
+KOR_reset_state_names = {
+	525 = { set_state_name = "경기도" }
+	set_province_name = {
+		id = 7125
+		name = "서울"
+	}
+	527 = { set_state_name = "강원도" }
+	797 = { set_state_name = "함경북도" }
+	798 = { set_state_name = "함경남도" }
+	799 = { set_state_name = "평안북도" }
+	800 = { set_state_name = "평안남도" }
+	801 = { set_state_name = "황해도" }
+	802 = { set_state_name = "충청북도" }
+	803 = { set_state_name = "충청남도" }
+	804 = { set_state_name = "경상북도" }
+	805 = { set_state_name = "경상남도" }
+	806 = { set_state_name = "전라북도" }
+	807 = { set_state_name = "전라남도" }
+	808 = { set_state_name = "제주도" }
+	809 = { set_state_name = "울릉도" }
 }

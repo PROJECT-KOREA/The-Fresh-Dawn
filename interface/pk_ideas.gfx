@@ -116,7 +116,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_KOR_advisor_ahn_hosang"
+		name = "GFX_idea_#KOR_advisor_ahn_hosang"
 		texturefile = "gfx/interface/ideas/KOR/advisor_ahn_hosang.dds"
 	}
 

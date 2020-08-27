@@ -3,7 +3,7 @@ add_namespace = pk_ggk_startup
 add_namespace = pk_ggk_generic
 add_namespace = pk_ggk_korea
 
-#환영합니다!
+#프로젝트 코리아: 독립전쟁 0.1v 베타
 country_event = {
     id = pk_ggk_startup.1
     title = pk_ggk_startup.1.t
@@ -25,7 +25,7 @@ country_event = {
     }
 }
 
-#자세한 설정
+#1936년의 조선
 country_event = {
     id = pk_ggk_startup.2
     title = pk_ggk_startup.2.t
@@ -390,19 +390,9 @@ country_event = {
         log = "[GetDateText]: [Root.GetName]: event pk_ggk_korea.11"
         hidden_effect = {
             set_global_flag = KOR_flag_woi_in_progress
-            remove_state_core = 525
-            remove_state_core = 527
-            remove_state_core = 797
-            remove_state_core = 798
-            remove_state_core = 799
-            remove_state_core = 800
-            remove_state_core = 801
-            remove_state_core = 802
-            remove_state_core = 803
-            remove_state_core = 804
             KOR = {
-                transfer_state = 798
-                set_capital = 798
+                transfer_state = 799
+                set_capital = 799
                 load_oob = KOR_War_of_Independence
                 KOR_create_units = yes
                 KOR_add_equipments_to_stockplie = yes
@@ -410,7 +400,7 @@ country_event = {
                     limit = { has_template = "주둔지 사단" }
                     delete_unit_template_and_units = { division_template = "주둔지 사단" }
                 }
-                add_political_power = 1000
+                add_political_power = 500
                 if = {
                     limit = { CHI = { has_war_with = JAP } }
                     if = {
@@ -459,7 +449,7 @@ country_event = {
         custom_effect_tooltip = pk_ggk_korea.11_tt
         hidden_effect = {
             KOR = {
-                complete_national_focus = KOR_focus_war_of_independence
+                complete_national_focus = KOR_focus_korean_war_of_independence
                 change_tag_from = GGK
             }
         }

@@ -47,6 +47,7 @@ country_event = {
                 communism = 30
                 fascism = 5
             }
+            KOR_reset_state_names = yes
         }
     }
 }

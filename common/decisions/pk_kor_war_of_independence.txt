@@ -1,5 +1,5 @@
 #민병대 모집
-KOR_recruit_militia = {
+KOR_recruit_volunteer_army = {
 	
 	#함경도에서 8개 민병대 모집
 	KOR_recruit_hamgyong = {

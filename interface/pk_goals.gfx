@@ -23,13 +23,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_focus_kpg"
+		textureFile = "gfx/interface/goals/GGK/focus_kpg.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_search_out_spies"
 		textureFile = "gfx/interface/goals/GGK/focus_search_out_spies.dds"
 	}
 
 	spriteType = {
-		name = "GFX_focus_independence_army"
-		textureFile = "gfx/interface/goals/GGK/focus_independence_army.dds"
+		name = "GFX_focus_kia"
+		textureFile = "gfx/interface/goals/GGK/focus_kia.dds"
 	}
 
 	spriteType = {
@@ -39,10 +44,54 @@ spriteTypes = {
 
 
 	### KOR ###
+	spriteType = {
+		name = "GFX_focus_korean_woi"
+		textureFile = "gfx/interface/goals/KOR/focus_korean_woi.dds"
+	}
 
 	spriteType = {
-		name = "GFX_focus_kpg"
-		textureFile = "gfx/interface/goals/KOR/focus_kpg.dds"
+		name = "GFX_focus_mpc"
+		textureFile = "gfx/interface/goals/KOR/focus_mpc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_raid_jap_armory"
+		textureFile = "gfx/interface/goals/KOR/focus_raid_jap_armory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_guns"
+		textureFile = "gfx/interface/goals/KOR/focus_guns.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_volunteers"
+		textureFile = "gfx/interface/goals/KOR/focus_volunteers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_shinhung"
+		textureFile = "gfx/interface/goals/KOR/focus_shinhung.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_production"
+		textureFile = "gfx/interface/goals/KOR/focus_production.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_politic"
+		textureFile = "gfx/interface/goals/KOR/focus_politic.dds"
+	}
+
+
+
+
+
+
+	spriteType = {
+		name = "GFX_focus_nrc"
+		textureFile = "gfx/interface/goals/KOR/focus_nrc.dds"
 	}
 
 	spriteType = {
@@ -58,11 +107,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_institution"
 		textureFile = "gfx/interface/goals/KOR/focus_institution.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_production"
-		textureFile = "gfx/interface/goals/KOR/focus_production.dds"
 	}
 
 	spriteType = {
@@ -278,11 +322,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_kor_jap_allies"
 		textureFile = "gfx/interface/goals/KOR/focus_kor_jap_allies.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_kia"
-		textureFile = "gfx/interface/goals/KOR/focus_kia.dds"
 	}
 
 	spriteType = {

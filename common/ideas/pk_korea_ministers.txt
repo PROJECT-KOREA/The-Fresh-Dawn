@@ -5,17 +5,20 @@ ideas = {
 
 		#지청천
 		KOR_HoG_Ji_Cheongcheon = {
-			allowed = {
-				original_tag = KOR
-			}
+
+			allowed = { original_tag = KOR }
+
 			available = {
-				always = no
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
 			}
+
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = {
-				factor = 1
-			}
+			ai_will_do = { factor = 1 }
+
 			traits = {
 				hog
 			}
@@ -23,17 +26,20 @@ ideas = {
 
 		#안재홍
 		KOR_HoG_Ahn_Jaehong = {
-			allowed = {
-				original_tag = KOR
-			}
+
+			allowed = { original_tag = KOR }
+
 			available = {
-				always = no
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
 			}
+
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = {
-				factor = 1
-			}
+			ai_will_do = { factor = 1 }
+
 			traits = {
 				hog
 			}
@@ -66,9 +72,18 @@ ideas = {
 		#지청천
 		KOR_CoA_Ji_Cheongcheon = {
 
-			allowed = {
-				tag = KOR	
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
 			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
 			
 			traits = { army_chief_offensive_2 }
 		}
@@ -76,9 +91,18 @@ ideas = {
 		#이범석
 		KOR_CoA_Lee_Beomseok = {
 
-			allowed = {
-				tag = KOR	
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
 			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
 			
 			traits = { army_chief_maneuver_3 }
 		}
@@ -86,9 +110,18 @@ ideas = {
 		#홍사익
 		KOR_CoA_Hong_Saik = {
 
-			allowed = {
-				tag = KOR	
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
 			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
 			
 			traits = { army_chief_reform_2 }
 		}
@@ -105,9 +138,18 @@ ideas = {
 		#최용덕
 		KOR_CAF_Choi_Yongdeok = {
 
-			allowed = {
-				tag = KOR	
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
 			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
 			
 			traits = { air_chief_all_weather_3 }
 		}
