@@ -1,9 +1,8 @@
 spriteTypes = {	
 	
-  	### National Spirits ###
+  	## National Spirits ##
 
-	## GGK ##
-
+	# GGK #
 	spriteType = {
 		name = "GFX_idea_naisen_ittai"
 		texturefile = "gfx/interface/ideas/GGK/idea_naisen_ittai.dds"
@@ -14,8 +13,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GGK/idea_korean_independence_movement.dds"
 	}
 
-	## KOR ##
-
+	# KOR #
     spriteType = {
 		name = "GFX_idea_KOR_idea_firepower_supremacy"
 		texturefile = "gfx/interface/ideas/KOR/idea_firepower_supremacy.dds"
@@ -45,32 +43,48 @@ spriteTypes = {
 		name = "GFX_idea_KOR_idea_house_of_yi"
 		texturefile = "gfx/interface/ideas/KOR/idea_house_of_yi.dds"
 	}
-	
-	###Ideas###
-	
-	###JAP###
-	
-	spriteType = {
-		name = "GFX_idea_JAP_en_bloc"
-		texturefile = "gfx/interface/ideas/JAP/JAP_yen.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_JAP_profit_line"
-		texturefile = "gfx/interface/ideas/JAP/JAP_co_prosper.dds"
-	}
-	
-	### Political Advisor ###
 
-	## GGK ##
 
+	## Cabinet ##
+
+	# KOR #
+	spriteType = {
+		name = "GFX_idea_KOR_HoG_Ji_Cheongcheon"
+		texturefile = "gfx/interface/ideas/KOR/HoG_Ji_Cheongcheon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_HoG_Ahn_Jaehong"
+		texturefile = "gfx/interface/ideas/KOR/HoG_Ahn_Jaehong.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_KOR_CoA_Ji_Cheongcheon"
+		texturefile = "gfx/interface/ideas/KOR/CoA_Ji_Cheongcheon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_CoA_Lee_Beomseok"
+		texturefile = "gfx/interface/ideas/KOR/CoA_Lee_Beomseok.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_no_minister"
+		texturefile = "gfx/interface/ideas/no_minister.dds"
+	}
+
+
+	## Political Advisor ##
+
+	# GGK #
 	spriteType = {
 		name = "GFX_idea_GGK_advisor_shigezo_hayashi"
 		texturefile = "gfx/interface/ideas/GGK/advisor_shigezo_hayashi.dds"
 	}
 
-	## KOR ##
-
+	# KOR #
 	spriteType = {
 		name = "GFX_idea_KOR_advisor_kim_koo"
 		texturefile = "gfx/interface/ideas/KOR/advisor_kim_koo.dds"
@@ -99,11 +113,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_KOR_advisor_shin_ikhi"
 		texturefile = "gfx/interface/ideas/KOR/advisor_shin_ikhi.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_KOR_advisor_ahn_jaehong"
-		texturefile = "gfx/interface/ideas/KOR/advisor_ahn_jaehong.dds"
 	}
 
 	spriteType = {
@@ -154,11 +163,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_KOR_advisor_hong_jin"
 		texturefile = "gfx/interface/ideas/KOR/advisor_hong_jin.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_KOR_chief_lee_beomseok"
-		texturefile = "gfx/interface/ideas/KOR/chief_lee_beomseok.dds"
 	}
 
 

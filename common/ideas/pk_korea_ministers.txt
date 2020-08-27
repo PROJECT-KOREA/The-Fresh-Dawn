@@ -1,0 +1,157 @@
+ideas = {
+
+	#정부수반
+	head_of_gov = {
+
+		#지청천
+		KOR_HoG_Ji_Cheongcheon = {
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = {
+				factor = 1
+			}
+			traits = {
+				hog
+			}
+		}
+
+		#안재홍
+		KOR_HoG_Ahn_Jaehong = {
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = {
+				factor = 1
+			}
+			traits = {
+				hog
+			}
+		}
+	}
+
+	#외무장관
+	foreign_minister = {
+
+	}
+
+	#재무장관
+	economy_minister = {
+
+	}
+
+	#내무장관
+	security_minister = {
+		
+	}
+
+	#정보장관
+	intel_minister = {
+
+	}
+
+	#육군 참모총장
+	army_chief = {
+
+		#지청천
+		KOR_CoA_Ji_Cheongcheon = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { army_chief_offensive_2 }
+		}
+
+		#이범석
+		KOR_CoA_Lee_Beomseok = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { army_chief_maneuver_3 }
+		}
+
+		#홍사익
+		KOR_CoA_Hong_Saik = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { army_chief_reform_2 }
+		}
+	}
+
+	#해군 참모총장
+	navy_chief = {
+		
+	}
+
+	#공군 참모총장
+	air_chief = {
+
+		#최용덕
+		KOR_CAF_Choi_Yongdeok = {
+
+			allowed = {
+				tag = KOR	
+			}
+			
+			traits = { air_chief_all_weather_3 }
+		}
+	}
+
+	#군 고위 지휘관
+	high_command = {
+		
+		#김홍일
+		KOR_command_kim_hongil = {
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_infantry_3 }
+		}
+		
+		#김경천
+		KOR_command_kim_kyungcheon = {
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_logistics_3 }
+		}
+		
+		#송호성
+		KOR_command_song_hosung = {
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_regrouping_2 }
+		}
+	}
+
+	#이론가
+	theorist = {
+		
+	}
+}

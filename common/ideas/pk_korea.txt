@@ -289,7 +289,6 @@ ideas = {
 		}
 
 		#한반도의 무기 부족
-		KOR_arms_raided = {
 
 			picture = generic_army_problems
 
@@ -487,272 +486,272 @@ ideas = {
 	#정치 조언가
 	political_advisor = {
 
-		#김구
-		KOR_advisor_kim_koo = {
+		# #김구
+		# KOR_advisor_kim_koo = {
 
-			allowed = {
-				tag = KOR
-			}
+		# 	allowed = {
+		# 		tag = KOR
+		# 	}
 			
-			visible = {
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 			
-			traits = { national_unificationist }
-		}
+		# 	traits = { national_unificationist }
+		# }
 
-		#김규식
-		KOR_advisor_kim_kyusik = {
+		# #김규식
+		# KOR_advisor_kim_kyusik = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			traits = { veteran_politician }
-		}
+		# 	traits = { veteran_politician }
+		# }
 
-		#김원봉
-		KOR_advisor_kim_wonbong = {
+		# #김원봉
+		# KOR_advisor_kim_wonbong = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			visible = {
-				NOT = {
-					has_country_leader = {
-						name = "CPKI"
-						ruling_only = yes
-					}
-				}
-			}
+		# 	visible = {
+		# 		NOT = {
+		# 			has_country_leader = {
+		# 				name = "CPKI"
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
 			
-			traits = { propaganda_expert }
-		}
+		# 	traits = { propaganda_expert }
+		# }
 
-		#김원봉2
-		KOR_advisor_kim_wonbong_2 = {
+		# #김원봉2
+		# KOR_advisor_kim_wonbong_2 = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			visible = {
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 			
-			traits = { backroom_backstabber }
-		}
+		# 	traits = { backroom_backstabber }
+		# }
 
-		#송병조
-		KOR_advisor_song_byungjo = {
+		# #송병조
+		# KOR_advisor_song_byungjo = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			traits = { financial_expert }
-		}
+		# 	traits = { financial_expert }
+		# }
 
-		#신익희
-		KOR_advisor_shin_ikhi = {
+		# #신익희
+		# KOR_advisor_shin_ikhi = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			traits = { education_torchbearer }
-		}
+		# 	traits = { education_torchbearer }
+		# }
 
-		#안재홍
-		KOR_advisor_ahn_jaehong = {
+		# #안재홍
+		# KOR_advisor_ahn_jaehong = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			visible = {
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 			
-			traits = { liberal_journalist }
-		}
+		# 	traits = { liberal_journalist }
+		# }
 
-		#안호상
-		KOR_advisor_ahn_hosang = {
+		# #안호상
+		# KOR_advisor_ahn_hosang = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			visible = {
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 			
-			traits = { fascist_demagogue }
-		}
+		# 	traits = { fascist_demagogue }
+		# }
 
-		#여운형
-		KOR_advisor_ryuh_woonhyung = {
+		# #여운형
+		# KOR_advisor_ryuh_woonhyung = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			visible = {
-				NOT = {
-					has_country_leader = {
-						name = "CPKI"
-						ruling_only = yes
-					}
-				}
-			}
+		# 	visible = {
+		# 		NOT = {
+		# 			has_country_leader = {
+		# 				name = "CPKI"
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
 			
-			traits = { popular_figurehead }
-		}
+		# 	traits = { popular_figurehead }
+		# }
 
-		#여운형2
-		KOR_advisor_ryuh_woonhyung_2 = {
+		# #여운형2
+		# KOR_advisor_ryuh_woonhyung_2 = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			visible = {
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 			
-			traits = { social_reformer }
-		}
+		# 	traits = { social_reformer }
+		# }
 
-		#유일한
-		KOR_advisor_ilhan_new = {
+		# #유일한
+		# KOR_advisor_ilhan_new = {
 
-			allowed = {
-				tag = KOR
-			}
+		# 	allowed = {
+		# 		tag = KOR
+		# 	}
 			
-			visible = {
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 
-			traits = { captain_of_industry }
-		}
+		# 	traits = { captain_of_industry }
+		# }
 
 
-		#의친왕 이강
-		KOR_advisor_yi_kang = {
+		# #의친왕 이강
+		# KOR_advisor_yi_kang = {
 
-			allowed = {
-				tag = KOR
-			}
+		# 	allowed = {
+		# 		tag = KOR
+		# 	}
 			
-			visible = {
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 
-			traits = { royal_independence_activist }
-		}
+		# 	traits = { royal_independence_activist }
+		# }
 
-		#이승만
-		KOR_advisor_syngman_rhee = {
+		# #이승만
+		# KOR_advisor_syngman_rhee = {
 
-			allowed = {
-				tag = KOR
-			}
+		# 	allowed = {
+		# 		tag = KOR
+		# 	}
 			
-			visible = {
-				NOT = {
-					has_country_leader = {
-						name = "CPKI"
-						ruling_only = yes
-					}
-				}
-			}
+		# 	visible = {
+		# 		NOT = {
+		# 			has_country_leader = {
+		# 				name = "CPKI"
+		# 				ruling_only = yes
+		# 			}
+		# 		}
+		# 	}
 
-			traits = { determined_diplomatist }
-		}
+		# 	traits = { determined_diplomatist }
+		# }
 
-		#이승만2
-		KOR_advisor_syngman_rhee_2 = {
+		# #이승만2
+		# KOR_advisor_syngman_rhee_2 = {
 
-			allowed = {
-				tag = KOR
-				NOT = {
-					has_country_flag = KOR_flag_parliament
-				}
-			}
+		# 	allowed = {
+		# 		tag = KOR
+		# 		NOT = {
+		# 			has_country_flag = KOR_flag_parliament
+		# 		}
+		# 	}
 			
-			visible = {
-				NOT = {
-					has_country_flag = KOR_flag_parliament
-				}
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		NOT = {
+		# 			has_country_flag = KOR_flag_parliament
+		# 		}
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 			
-			traits = { dislikes_communism }
-		}
+		# 	traits = { dislikes_communism }
+		# }
 
-		#조만식
-		KOR_advisor_cho_mansik = {
+		# #조만식
+		# KOR_advisor_cho_mansik = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			visible = {
-				has_country_leader = {
-					name = "CPKI"
-					ruling_only = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_leader = {
+		# 			name = "CPKI"
+		# 			ruling_only = yes
+		# 		}
+		# 	}
 			
-			traits = { appeaser }
-		}
+		# 	traits = { appeaser }
+		# }
 
-		#조소앙
-		KOR_advisor_cho_soang = {
+		# #조소앙
+		# KOR_advisor_cho_soang = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			traits = { samgyunjuui_theorist }
-		}
+		# 	traits = { samgyunjuui_theorist }
+		# }
 
-		#홍진
-		KOR_advisor_hong_jin = {
+		# #홍진
+		# KOR_advisor_hong_jin = {
 
-			allowed = {
-				tag = KOR	
-			}
+		# 	allowed = {
+		# 		tag = KOR	
+		# 	}
 			
-			traits = { excellent_jurist }
-		}
+		# 	traits = { excellent_jurist }
+		# }
 	}
 
 	#전차 설계사
@@ -846,100 +845,5 @@ ideas = {
 			
 			traits = { electronics_concern }
 		}
-	}
-
-	#육군 참모총장
-	army_chief = {
-
-		#이범석
-		KOR_chief_lee_beomseok = {
-
-			allowed = {
-				tag = KOR	
-			}
-			
-			traits = { army_chief_maneuver_3 }
-		}
-
-		#지청천
-		KOR_chief_ji_cheongcheon = {
-
-			allowed = {
-				tag = KOR	
-			}
-			
-			traits = { army_chief_offensive_2 }
-		}
-
-		#홍사익
-		KOR_chief_hong_saik = {
-
-			allowed = {
-				tag = KOR	
-			}
-			
-			traits = { army_chief_reform_2 }
-		}
-	}
-
-	#해군 참모총장
-	navy_chief = {
-		
-	}
-
-	#공군 참모총장
-	air_chief = {
-
-		#최용덕
-		KOR_chief_choi_yongdeok = {
-
-			allowed = {
-				tag = KOR	
-			}
-			
-			traits = { air_chief_all_weather_3 }
-		}
-	}
-
-	#군 고위 지휘관
-	high_command = {
-		
-		#김홍일
-		KOR_command_kim_hongil = {
-			ledger = army
-
-			allowed = {
-				tag = KOR
-			}
-			
-			traits = { army_infantry_3 }
-		}
-		
-		#김경천
-		KOR_command_kim_kyungcheon = {
-			ledger = army
-
-			allowed = {
-				tag = KOR
-			}
-			
-			traits = { army_logistics_3 }
-		}
-		
-		#송호성
-		KOR_command_song_hosung = {
-			ledger = army
-
-			allowed = {
-				tag = KOR
-			}
-			
-			traits = { army_regrouping_2 }
-		}
-	}
-
-	#이론가
-	theorist = {
-		
 	}
 }
