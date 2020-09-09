@@ -1,10 +1,11 @@
 leader_traits = {
 
-	## 내각 ##
+	## 내각 관료 직책 ##
 	hog = {} #정부수반
+	secmin = {} #내무장관
 	frnmin =  {} #외무장관
 	ecomin = {} #재무장관
-	secmin = {} #내무장관
+	milmin = {} #군무장관
 	intmin = {} #정보장관
 	themin = {} #이론가
 	
@@ -14,8 +15,24 @@ leader_traits = {
 	cos = {} #군 참모
 	
 
+	## 내각 관료 특성 ##
+	#한국광복군 지휘관
+	kia_commander = {
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#임시정무위원회
+	ppc_minister= {
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
 	## 지도자 특성 ##
-	#군사정무위원회
+	#광복군 군정위원회
 	kia_mpc = {
 		command_power_gain_mult = 0.05
 		army_attack_factor = 0.05

@@ -27,7 +27,7 @@ news_event = {
     }
 }
 
-#대한민국 헌법 제정
+#대한민국의 헌법 공포식
 news_event = {
     id = pk_news.2
     title = pk_news.2.t

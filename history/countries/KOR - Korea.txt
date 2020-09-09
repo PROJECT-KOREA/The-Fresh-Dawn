@@ -29,10 +29,10 @@ set_technology = {
 add_ideas = {
 	KOR_idea_military_junta
 	KOR_idea_firepower_supremacy
-	KOR_idea_independence_army_1
+	KOR_idea_kia_1
 	KOR_idea_independence_war_1
-	KOR_idea_illiteracy_population
-	KOR_idea_the_poor
+	KOR_idea_illiteracy_population_1
+	KOR_idea_the_poor_1
 	KOR_idea_unstable_industry
 
 	limited_conscription
@@ -43,9 +43,10 @@ add_ideas = {
 	FM_No_One
 	EM_No_One
 	SM_No_One
+	MM_No_One
 	IM_No_One
 
-	CoA_No_One
+	KOR_CoA_Ji_Cheongcheon
 	CoN_No_One
 	CAF_No_One
 }

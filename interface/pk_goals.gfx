@@ -44,6 +44,7 @@ spriteTypes = {
 
 
 	### KOR ###
+
 	spriteType = {
 		name = "GFX_focus_korean_woi"
 		textureFile = "gfx/interface/goals/KOR/focus_korean_woi.dds"
@@ -70,8 +71,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_shinhung"
-		textureFile = "gfx/interface/goals/KOR/focus_shinhung.dds"
+		name = "GFX_focus_sou"
+		textureFile = "gfx/interface/goals/KOR/focus_sou.dds"
 	}
 
 	spriteType = {
@@ -84,14 +85,20 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/KOR/focus_politic.dds"
 	}
 
+	spriteType = {
+		name = "GFX_focus_hra"
+		textureFile = "gfx/interface/goals/KOR/focus_hra.dds"
+	}
 
-
-
+	spriteType = {
+		name = "GFX_focus_military_academy"
+		textureFile = "gfx/interface/goals/KOR/focus_military_academy.dds"
+	}
 
 
 	spriteType = {
-		name = "GFX_focus_nrc"
-		textureFile = "gfx/interface/goals/KOR/focus_nrc.dds"
+		name = "GFX_focus_victory_in_woi"
+		textureFile = "gfx/interface/goals/KOR/focus_victory_in_woi.dds"
 	}
 
 	spriteType = {
@@ -100,13 +107,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_capitol"
-		textureFile = "gfx/interface/goals/KOR/focus_capitol.dds"
+		name = "GFX_focus_ncr"
+		textureFile = "gfx/interface/goals/KOR/focus_ncr.dds"
 	}
 
 	spriteType = {
 		name = "GFX_focus_institution"
 		textureFile = "gfx/interface/goals/KOR/focus_institution.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_capitol"
+		textureFile = "gfx/interface/goals/KOR/focus_capitol.dds"
 	}
 
 	spriteType = {
@@ -177,11 +189,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_kyc"
 		textureFile = "gfx/interface/goals/KOR/focus_kyc.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_npsc"
-		textureFile = "gfx/interface/goals/KOR/focus_npsc.dds"
 	}
 
 	spriteType = {

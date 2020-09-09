@@ -11,9 +11,8 @@ state = {
 		add_core_of = GGK
 		
 		buildings = {
-			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 1
+			industrial_complex = 3
+			arms_factory = 2
 			infrastructure = 5
 			13248 = {
 				naval_base = 2

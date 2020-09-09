@@ -1,0 +1,19 @@
+#	Example:
+#
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+#
+
+KOR_woi_in_progress = {
+	has_global_flag = kor_woi
+	NOT = { has_global_flag = kor_woi_over }
+}

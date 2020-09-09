@@ -1,0 +1,23 @@
+﻿add_namespace = pk_startup
+
+#프로젝트 코리아: 독립전쟁 0.1v 베타
+country_event = {
+    id = pk_startup.1
+    title = pk_startup.1.t
+    desc = pk_startup.1.desc
+    picture = GFX_report_event_narration
+
+    is_triggered_only = yes
+
+    option = {
+        name = pk_startup.1.a
+        hidden_effect = {
+            if = {
+                limit = { tag = GGK }
+                country_event = {
+                    id = pk_ggk_generic.1
+                }
+            }
+        }
+    }
+}

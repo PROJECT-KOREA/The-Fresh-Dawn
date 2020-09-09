@@ -1,45 +1,9 @@
 ﻿### 조선총독부 이벤트 ###
-add_namespace = pk_ggk_startup
+add_namespace = pk_ggk
 add_namespace = pk_ggk_generic
 add_namespace = pk_ggk_korea
 
-#프로젝트 코리아: 독립전쟁 0.1v 베타
-country_event = {
-    id = pk_ggk_startup.1
-    title = pk_ggk_startup.1.t
-    desc = pk_ggk_startup.1.desc
-    picture = GFX_report_event_narration
-
-    is_triggered_only = yes
-
-    option = {
-        name = pk_ggk_startup.1.a
-        country_event = {
-            id = pk_ggk_startup.2
-            days = 0
-        }
-    }
-
-    option = {
-        name = pk_ggk_startup.1.b
-    }
-}
-
 #1936년의 조선
-country_event = {
-    id = pk_ggk_startup.2
-    title = pk_ggk_startup.2.t
-    desc = pk_ggk_startup.2.desc
-    picture = GFX_report_event_narration
-
-    is_triggered_only = yes
-
-    option = {
-        name = pk_ggk_startup.2.a
-    }
-}
-
-#본토의 병력 지원
 country_event = {
     id = pk_ggk_generic.1
     title = pk_ggk_generic.1.t
@@ -50,10 +14,7 @@ country_event = {
 
     option = {
         name = pk_ggk_generic.1.a
-        add_manpower = 2000
-        JAP = {
-	        add_manpower = -2000
-        }
+        
     }
 }
 
@@ -294,9 +255,11 @@ country_event = {
                 is_in_faction_with = JAP
             }
         }
-        country_event = {
-            id = pk_ggk_korea.8
-            days = 0
+        GGK = {
+            country_event = {
+                id = pk_ggk_korea.8
+                days = 1
+            }
         }
     }
 }
@@ -389,10 +352,22 @@ country_event = {
     immediate = {
         log = "[GetDateText]: [Root.GetName]: event pk_ggk_korea.11"
         hidden_effect = {
-            set_global_flag = KOR_flag_woi_in_progress
+            set_global_flag = kor_woi
             KOR = {
                 transfer_state = 799
                 set_capital = 799
+            }
+            799 = {
+                set_state_name = "평안북도"
+                set_province_name = {
+                    id = 11835
+                    name = "신의주"
+                }
+            }
+            set_province_controller = 6963
+            set_province_controller = 906
+            set_province_controller = 11775
+            KOR = {
                 load_oob = KOR_War_of_Independence
                 KOR_create_units = yes
                 KOR_add_equipments_to_stockplie = yes

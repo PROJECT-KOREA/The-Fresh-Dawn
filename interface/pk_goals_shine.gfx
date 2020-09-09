@@ -422,11 +422,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_shinhung_shine"
-		texturefile = "gfx/interface/goals/KOR/focus_shinhung.dds"
+		name = "GFX_focus_sou_shine"
+		texturefile = "gfx/interface/goals/KOR/focus_sou.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KOR/focus_shinhung.dds"
+			animationmaskfile = "gfx/interface/goals/KOR/focus_sou.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -439,7 +439,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KOR/focus_shinhung.dds"
+			animationmaskfile = "gfx/interface/goals/KOR/focus_sou.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -517,15 +517,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-
-
-
 	SpriteType = {
-		name = "GFX_focus_korea_victory_shine"
-		texturefile = "gfx/interface/goals/KOR/focus_korea_victory.dds"
+		name = "GFX_focus_hra_shine"
+		texturefile = "gfx/interface/goals/KOR/focus_hra.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KOR/focus_korea_victory.dds"
+			animationmaskfile = "gfx/interface/goals/KOR/focus_hra.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -538,7 +535,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KOR/focus_korea_victory.dds"
+			animationmaskfile = "gfx/interface/goals/KOR/focus_hra.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -551,6 +548,72 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+
+	SpriteType = {
+		name = "GFX_focus_military_academy_shine"
+		texturefile = "gfx/interface/goals/KOR/focus_military_academy.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/KOR/focus_military_academy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/KOR/focus_military_academy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+
+	SpriteType = {
+		name = "GFX_focus_victory_in_woi_shine"
+		texturefile = "gfx/interface/goals/KOR/focus_victory_in_woi.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/KOR/focus_victory_in_woi.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/KOR/focus_victory_in_woi.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	
 
 	SpriteType = {
 		name = "GFX_focus_cpki_shine"
@@ -585,11 +648,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_pck_shine"
-		texturefile = "gfx/interface/goals/KOR/focus_pck.dds"
+		name = "GFX_focus_ncr_shine"
+		texturefile = "gfx/interface/goals/KOR/focus_ncr.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KOR/focus_pck.dds"
+			animationmaskfile = "gfx/interface/goals/KOR/focus_ncr.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -602,7 +665,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KOR/focus_pck.dds"
+			animationmaskfile = "gfx/interface/goals/KOR/focus_ncr.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

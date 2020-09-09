@@ -30,6 +30,11 @@ test = {
 				add_state_core = 802
 				add_state_core = 803
 				add_state_core = 804
+				add_state_core = 805
+				add_state_core = 806
+				add_state_core = 807
+				add_state_core = 808
+				add_state_core = 809
 			}
 			KOR = {
 				change_tag_from = GGK
@@ -53,18 +58,6 @@ test = {
 		fire_only_once = no
 
 		complete_effect = {
-			GGK = {
-				add_state_core = 525
-				add_state_core = 527
-				add_state_core = 797
-				add_state_core = 798
-				add_state_core = 799
-				add_state_core = 800
-				add_state_core = 801
-				add_state_core = 802
-				add_state_core = 803
-				add_state_core = 804
-			}
 			KOR = {
 				release = GGK
 			}
@@ -79,6 +72,11 @@ test = {
 				add_state_core = 802
 				add_state_core = 803
 				add_state_core = 804
+				add_state_core = 805
+				add_state_core = 806
+				add_state_core = 807
+				add_state_core = 808
+				add_state_core = 809
 			}
 			GGK = {
 				change_tag_from = KOR

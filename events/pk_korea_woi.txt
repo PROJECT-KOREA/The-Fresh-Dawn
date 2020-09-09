@@ -1,7 +1,7 @@
 ﻿### 한국 이벤트 ###
 add_namespace = pk_korea_woi
 
-#군사정무위원회 수립
+#광복군 군정위원회 수립
 country_event = {
     id = pk_korea_woi.1
     title = pk_korea_woi.1.t
@@ -24,15 +24,12 @@ country_event = {
             desc = "POLITICS_KIA_DESC"
             picture = "gfx/leaders/KOR/Portrait_KIA_MPC.dds"
             expire = "1965.1.1"
-            ideology = oligarchism
+            ideology = military_junta
             traits = {
                 kia_mpc
             }
         }
-        add_ideas = {
-            KOR_HoG_Ji_Cheongcheon
-            KOR_CoA_Ji_Cheongcheon
-        }
+        add_ideas = { HoG_Ji_Cheongcheon }
         hidden_effect = {
             set_popularities = {
                 democratic = 7
@@ -72,7 +69,7 @@ country_event = {
                 
             }
         }
-        add_ideas = KOR_HoG_Ahn_Jaehong
+        add_ideas = HoG_Ahn_Jaehong
         hidden_effect = {
             set_popularities = {
                 democratic = 12

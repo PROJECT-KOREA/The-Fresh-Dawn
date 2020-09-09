@@ -24,14 +24,16 @@
 #	can be added to countries, states or unit leaders
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
-sotokuryo = {
+guerrilla_warfare = {
 	enable = {
-		country_exists = GGK
-	}
+        always = yes
+        KOR_woi_in_progress = yes
+    }
 
-	icon = GFX_autonomy_gaichi_icon
+	icon = GFX_MODIFIER_PARTISAN_EFFECT_FACTOR
 
-	local_building_slots_factor = 0.5
-	local_resources = 0.5
-	local_factories = 0.6
+	army_speed_factor = 0.15
+	army_attack_factor = 0.2
+	local_org_regain = 0.1
+	ground_attack_factor = 0.1
 }

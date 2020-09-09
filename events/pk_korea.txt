@@ -1,7 +1,9 @@
 ﻿### 한국 이벤트 ###
 add_namespace = pk_korea_generic
-add_namespace = pk_korea_politic
-add_namespace = pk_korea_politic_fascism
+add_namespace = pk_korea_internal
+add_namespace = pk_korea_internal_kip
+add_namespace = pk_korea_internal_rnc
+add_namespace = pk_korea_internal_kpp
 add_namespace = pk_korea_party
 
 #일본의 평화협정 제안
@@ -30,11 +32,11 @@ country_event = {
         add_ideas = KOR_idea_pro_japanese_collaborators
         # add_ideas = KOR_idea_ideological_conflict
         hidden_effect = {
-            clr_global_flag = KOR_flag_woi_in_progress
-            set_global_flag = KOR_flag_woi_is_over
-            load_focus_tree = korea_independent_focus
+            set_global_flag = kor_woi_over
+            load_focus_tree = KOR_Provisional_Government
+			complete_national_focus = KOR_focus_victory_in_woi
             delete_unit_template_and_units = {
-                division_template = "지역 의용군"
+                division_template = "조국해방의용군"
             }
             add_ideas = {
                 civilian_economy
@@ -52,11 +54,11 @@ country_event = {
     }
 }
 
-#과도정부 수립
+#임시정부의 귀환
 country_event = {
-    id = pk_korea_politic.1
-    title = pk_korea_politic.1.t
-    desc = pk_korea_politic.1.desc
+    id = pk_korea_internal.1
+    title = pk_korea_internal.1.t
+    desc = pk_korea_internal.1.desc
 
     picture = GFX_report_event_generic_sign_treaty1
 
@@ -64,44 +66,66 @@ country_event = {
     fire_only_once = yes
 
     option = {
-        name = pk_korea_politic.1.a
+        name = pk_korea_internal.1.a
         set_party_name = { 
             ideology = neutrality
-            long_name = KOR_neutrality_party_cpki_long 
-            name = KOR_neutrality_party_cpki
+            long_name = KOR_neutrality_party_kpg_long 
+            name = KOR_neutrality_party_kpg
         }
         create_country_leader = {
-            name = "CPKI"
+            name = "Kim Koo"
             desc = ""
-            picture = "gfx/leaders/KOR/Portrait_CPKI.dds"
+            picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
             expire = "1965.1.1"
             ideology = oligarchism
             traits = {  }
         }
+        hidden_effect = {
+            add_ideas = {
+                HoG_Kim_Kyusik
+                SM_Hong_Jin
+                EM_Song_Byeongjo
+                FM_Cho_Soang
+                MM_Ryu_Dongyol
+            }
+        }
     }
 }
 
-#국민회의 조직
+#건국준비위원회 결성
 country_event = {
-    id = pk_korea_politic.2
-    title = pk_korea_politic.2.t
-    desc = pk_korea_politic.2.desc
+    id = pk_korea_internal.2
+    title = pk_korea_internal.2.t
+    desc = pk_korea_internal.2.desc
 
-    picture = GFX_report_event_KOR_national_assembly
+    picture = GFX_report_event_generic_sign_treaty1
 
     is_triggered_only = yes
     fire_only_once = yes
 
     option = {
-        name = pk_korea_politic.2.a
+        name = pk_korea_internal.2.a
+        # set_party_name = { 
+        #     ideology = neutrality
+        #     long_name = KOR_neutrality_party_cpki_long 
+        #     name = KOR_neutrality_party_cpki
+        # }
+        # create_country_leader = {
+        #     name = "CPKI"
+        #     desc = ""
+        #     picture = "gfx/leaders/KOR/Portrait_CPKI.dds"
+        #     expire = "1965.1.1"
+        #     ideology = oligarchism
+        #     traits = {  }
+        # }
     }
 }
 
 #제헌 국회의원 선거
 country_event = {
-    id = pk_korea_politic.3
-    title = pk_korea_politic.3.t
-    desc = pk_korea_politic.3.desc
+    id = pk_korea_internal.3
+    title = pk_korea_internal.3.t
+    desc = pk_korea_internal.3.desc
 
     picture = GFX_report_event_KOR_national_assembly
 
@@ -109,7 +133,8 @@ country_event = {
     fire_only_once = yes
 
     option = {
-        name = pk_korea_politic.3.a
+        name = pk_korea_internal.3.a
+		unlock_decision_category_tooltip = KOR_constituent_national_assembly_decision
         add_popularity = {
             ideology = democratic
             popularity = 0.1
@@ -119,9 +144,9 @@ country_event = {
 
 #정치체제를 둘러싼 갈등
 country_event = {
-    id = pk_korea_politic.4
-    title = pk_korea_politic.4.t
-    desc = pk_korea_politic.4.desc
+    id = pk_korea_internal.4
+    title = pk_korea_internal.4.t
+    desc = pk_korea_internal.4.desc
 
     picture = GFX_report_event_election_vote
 
@@ -129,22 +154,22 @@ country_event = {
     fire_only_once = yes
 
     option = {
-        name = pk_korea_politic.4.a
-        custom_effect_tooltip = pk_korea_politic.4.a_tt
+        name = pk_korea_internal.4.a
+        custom_effect_tooltip = pk_korea_internal.4.a_tt
         hidden_effect = {
             country_event = {
-                id = pk_korea_politic.5
+                id = pk_korea_internal.5
                 days = 1
             }
         }
     }
 
     option = {
-        name = pk_korea_politic.4.b
-        custom_effect_tooltip = pk_korea_politic.4.b_tt
+        name = pk_korea_internal.4.b
+        custom_effect_tooltip = pk_korea_internal.4.b_tt
         hidden_effect = {
             country_event = {
-                id = pk_korea_politic.5
+                id = pk_korea_internal.5
                 days = 1
             }
         }
@@ -153,9 +178,9 @@ country_event = {
 
 #대통령제의 승리
 country_event = {
-    id = pk_korea_politic.5
-    title = pk_korea_politic.5.t
-    desc = pk_korea_politic.5.desc
+    id = pk_korea_internal.5
+    title = pk_korea_internal.5.t
+    desc = pk_korea_internal.5.desc
 
     picture = GFX_report_event_election_vote
 
@@ -163,16 +188,16 @@ country_event = {
     fire_only_once = yes
 
     option = {
-        name = pk_korea_politic.5.a
-        set_country_flag = KOR_flag_president
+        name = pk_korea_internal.5.a
+        set_country_flag = KOR_flag_presidental
     }
 }
 
 #내각제의 승리
 country_event = {
-    id = pk_korea_politic.6
-    title = pk_korea_politic.6.t
-    desc = pk_korea_politic.6.desc
+    id = pk_korea_internal.6
+    title = pk_korea_internal.6.t
+    desc = pk_korea_internal.6.desc
 
     picture = GFX_report_event_election_vote
 
@@ -180,64 +205,45 @@ country_event = {
     fire_only_once = yes
 
     option = {
-        name = pk_korea_politic.6.a
-        set_country_flag = KOR_flag_parliament
+        name = pk_korea_internal.6.a
+        set_country_flag = KOR_flag_parliamentary
     }
 }
 
-#정부 선출
+#총선거
 country_event = {
-    id = pk_korea_politic.7
-    title = { 
-		text = pk_korea_politic.7.t_president
-		trigger = {
-			has_country_flag = KOR_flag_president
-		}
-	}
-    title = { 
-		text = pk_korea_politic.7.t_parliament
-		trigger = {
-			has_country_flag = KOR_flag_parliament
-		}
-	}
-    desc = { 
-		text = pk_korea_politic.7.desc_president
-		trigger = {
-			has_country_flag = KOR_flag_president
-		}
-    }
-    desc = { 
-		text = pk_korea_politic.7.desc_parliament
-		trigger = {
-			has_country_flag = KOR_flag_parliament
-		}
-	}
+    id = pk_korea_internal.7
+    title = pk_korea_internal.7.t
+    desc = pk_korea_internal.7.desc
     picture = GFX_report_event_election_vote
 
     is_triggered_only = yes
     fire_only_once = yes
 
+    #한국독립당
     option = {
-        name = pk_korea_politic.7.a
+        name = pk_korea_internal.7.a
         set_party_name = { 
             ideology = democratic 
-            long_name = KOR_democratic_party_knp_long 
-            name = KOR_democratic_party_knp 
+            long_name = KOR_democratic_party_kip_long 
+            name = KOR_democratic_party_kip 
         }
         create_country_leader = {
             name = "Kim Koo"
             desc = "POLITICS_Kim_Koo_DESC"
             picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
             expire = "1965.1.1"
-            ideology = liberalism
+            ideology = conservatism
             traits = {
 
             }
         }
-        set_country_flag = KOR_flag_government_elected
+        country_event = { id = pk_korea_internal_kip.1 }
     }
+
+    #조선인민당
     option = {
-        name = pk_korea_politic.7.b
+        name = pk_korea_internal.7.b
         trigger = {
 			has_country_flag = KOR_flag_parliament
 		}
@@ -258,8 +264,10 @@ country_event = {
         }
         set_country_flag = KOR_flag_government_elected
     }
+
+    #공화민정회
     option = {
-        name = pk_korea_politic.7.c
+        name = pk_korea_internal.7.c
         trigger = {
 			has_country_flag = KOR_flag_president
 		}
@@ -282,31 +290,34 @@ country_event = {
     }
 }
 
-#국방경비대 장교단의 군사반란
+#한국독립당의 승리
 country_event = {
-    id = pk_korea_politic_fascism.1
-    title = pk_korea_politic_fascism.1.t
-    desc = pk_korea_politic_fascism.1.desc
+    id = pk_korea_internal_kip.1
+    title = pk_korea_internal_kip.1.t
+    desc = pk_korea_internal_kip.1.desc
     picture = GFX_report_event_election_vote
 
     is_triggered_only = yes
     fire_only_once = yes
 
     option = {
-        set_party_name = { 
-            ideology = neutrality
-            long_name = KOR_fascism_party_mrc_long 
-            name = KOR_fascism_party_mrc
-        }
-        create_country_leader = {
-            name = "Military Committee"
-            desc = ""
-            picture = "gfx/leaders/KOR/Portrait_MRC.dds"
-            expire = "1965.1.1"
-            ideology = oligarchism
-            traits = {
-
-            }
-        }
+        name = pk_korea_internal_kip.1.a
+        set_country_flag = KOR_flag_government_elected
     }
 }
+
+
+# #국방경비대 장교단의 군사반란
+# country_event = {
+#     id = pk_korea_internal_fascism.1
+#     title = pk_korea_internal_fascism.1.t
+#     desc = pk_korea_internal_fascism.1.desc
+#     picture = GFX_report_event_election_vote
+
+#     is_triggered_only = yes
+#     fire_only_once = yes
+
+#     option = {
+        
+#     }
+# }

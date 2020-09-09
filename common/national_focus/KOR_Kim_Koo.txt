@@ -1,0 +1,16 @@
+focus_tree = {
+	id = KOR_Kim_Koo
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = KOR
+		}
+	}
+
+	continuous_focus_position = { x = 20 y = 1800 }
+
+	
+}

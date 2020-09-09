@@ -38,9 +38,10 @@ idea_categories = {
 	
 	cabinet = {
 		slot = head_of_gov
-		slot = foreign_minister
-		slot = economy_minister
 		slot = security_minister
+		slot = economy_minister
+		slot = foreign_minister
+		slot = military_minister
 		slot = intel_minister
 		
 		cost = 150

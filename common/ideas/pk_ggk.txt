@@ -193,7 +193,7 @@ ideas = {
 		}
 
 		#한국 독립운동
-		GGK_idea_korean_independence_movement = {
+		GGK_idea_korean_independence_movement_1 = {
 
 			name = GGK_idea_korean_independence_movement
 
@@ -208,8 +208,7 @@ ideas = {
 			removal_cost = -1
 			picture = korean_independence_movement
 			modifier = {
-				fascism_drift = -0.05
-				compliance_gain = -0.01
+				fascism_drift = -0.01
 			}
 		}
 
@@ -229,9 +228,7 @@ ideas = {
 			removal_cost = -1
 			picture = korean_independence_movement
 			modifier = {
-				fascism_drift = -0.1
-				compliance_gain = -0.025
-				resistance_target = 0.01
+				fascism_drift = -0.05
 			}
 		}
 	}

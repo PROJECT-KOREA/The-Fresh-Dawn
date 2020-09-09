@@ -1,5 +1,5 @@
 focus_tree = {
-	id = ggk_focus
+	id = GGK_focus
 
 	country = {
 		factor = 0
@@ -21,7 +21,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
 			add_stability = 0.05
 		}
 	}
@@ -378,7 +378,7 @@ focus_tree = {
 		relative_position_id = GGK_focus_form_coalition_government
 		x = 1
 		y = 1
-		cost = 10
+		cost = 15
 
 		prerequisite = {
 			focus = GGK_focus_form_coalition_government
@@ -403,14 +403,10 @@ focus_tree = {
 		relative_position_id = GGK_focus_armed_struggle_theory
 		x = -2
 		y = 1
-		cost = 10
+		cost = 15
 
 		available = {
-			# country_exists = CHI
-			# CHI = {
-			# 	has_war_with = JAP
-			# 	has_capitulated = no
-			# }
+
 		}
 
 		prerequisite = {
@@ -464,7 +460,7 @@ focus_tree = {
 		relative_position_id = GGK_focus_armed_struggle_theory
 		x = 2
 		y = 1
-		cost = 5
+		cost = 10
 
 		prerequisite = {
 			focus = GGK_focus_armed_struggle_theory
@@ -472,7 +468,7 @@ focus_tree = {
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = GGK_idea_korean_independence_movement
+				remove_idea = GGK_idea_korean_independence_movement_1
 				add_idea = GGK_idea_korean_independence_movement_2
 			}
 		}
@@ -487,6 +483,14 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
+
+		available = {
+			country_exists = CHI
+			CHI = {
+				has_war_with = JAP
+				has_capitulated = no
+			}
+		}
 
 		prerequisite = {
 			focus = GGK_focus_found_independence_army
@@ -553,169 +557,6 @@ focus_tree = {
 				days = 0
 			}
 			custom_effect_tooltip = GGK_focus_operation_independence_tt
-			# if = {
-            #     limit = { CHI = { has_war_with = JAP } }
-            #     if = {
-            #         limit = { CHI = { is_in_faction = yes } }
-            #         CHI = {
-            #             set_faction_name = korean_chinese_united_front
-            #             add_to_faction = KOR
-            #         }
-            #         else = {
-            #             CHI = {
-            #                 create_faction = korean_chinese_united_front
-            #                 add_to_faction = KOR
-            #             }
-            #         }
-            #     }
-            # }
-            # KOR = {
-            #     add_to_war = { 
-            #         targeted_alliance = CHI 
-            #         enemy = JAP 
-            #     }
-            #     complete_national_focus = KOR_focus_korean_war_of_independence
-            #     change_tag_from = GGK
-            # }
-			# hidden_effect = {
-			# 	KOR = {
-			# 		remove_state_core = 525
-			# 		remove_state_core = 527
-			# 		remove_state_core = 797
-			# 		remove_state_core = 799
-			# 		remove_state_core = 800
-			# 		remove_state_core = 801
-			# 		remove_state_core = 802
-			# 		remove_state_core = 803
-			# 		remove_state_core = 804
-			# 	}
-			# 	release = KOR
-			# 	KOR = {
-			# 		add_state_core = 525
-			# 		add_state_core = 527
-			# 		add_state_core = 797
-			# 		add_state_core = 798
-			# 		add_state_core = 799
-			# 		add_state_core = 800
-			# 		add_state_core = 801
-			# 		add_state_core = 802
-			# 		add_state_core = 803
-			# 		add_state_core = 804
-			# 		declare_war_on = {
-			# 			target = GGK
-			# 			type = take_core_state
-			# 		}
-			# 	}
-			# 	set_state_controller = 798
-			# 	KOR = {
-			# 		set_province_controller = 13234 #평양
-			# 		set_province_controller = 3981	#함흥
-			# 		set_province_controller = 11915 #사리원
-			# 		set_province_controller = 848	#원산
-			# 		set_province_controller = 11977	#대전
-			# 		load_oob = "KOR_War_of_Independence"
-			# 		delete_unit_template_and_units = {
-			# 			division_template = "주둔지 사단"
-			# 		}
-			# 		if = {
-			# 			limit = {
-			# 				USA = {
-			# 					has_country_flag = USA_seek_help_korea_promised
-			# 				}
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_0
-			# 				amount = 10000
-			# 				producer = JAP
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_1
-			# 				amount = 5000
-			# 				producer = JAP
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_0
-			# 				amount = 7000
-			# 				producer = CHI
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_1
-			# 				amount = 3000
-			# 				producer = CHI
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_0
-			# 				amount = 5000
-			# 				producer = USA
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = artillery_equipment_1
-			# 				amount = 1500
-			# 				producer = USA
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = support_equipment_1
-			# 				amount = 5000
-			# 				producer = USA
-			# 			}
-			# 		}
-			# 		else = {
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_0
-			# 				amount = 10000
-			# 				producer = JAP
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_1
-			# 				amount = 5000
-			# 				producer = JAP
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_0
-			# 				amount = 7000
-			# 				producer = CHI
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = infantry_equipment_1
-			# 				amount = 3000
-			# 				producer = CHI
-			# 			}
-			# 			add_equipment_to_stockpile = {
-			# 				type = artillery_equipment_1
-			# 				amount = 1000
-			# 				producer = JAP
-			# 			}
-			# 		}
-			# 		add_political_power = 900
-			# 	}
-			# }
-			# if = {
-			# 	limit = {
-			# 		CHI = {
-			# 			has_war_with = JAP
-			# 		}
-			# 	}
-			# 	CHI = {
-			# 		set_faction_name = korean_chinese_united_front
-			# 		add_to_faction = KOR
-			# 	}
-			# }
-			# if = {
-			# 	limit = {
-			# 		CHI = {
-			# 			is_in_faction = no
-			# 		}
-			# 	}
-			# 	CHI = {
-			# 		create_faction = korean_chinese_united_front
-			# 		add_to_faction = KOR
-			# 	}
-			# }
-			# custom_effect_tooltip = GGK_focus_operation_independence_tt
-			# country_event = {
-			# 	id = pk_ggk_korea.11
-			# 	days = 0
-			# }
 		}
 	}
 }

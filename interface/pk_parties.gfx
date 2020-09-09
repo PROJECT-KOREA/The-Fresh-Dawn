@@ -1,3 +1,65 @@
 spriteTypes = {
-	
+
+    #Ideology Groups
+	spriteType = {
+		name = "GFX_ideology_democratic_group"
+		texturefile = "gfx/interface/ideologies/conservative_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/socialism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism.tga"
+	}
+    spriteType = {
+		name = "GFX_ideology_neutrality_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_group.tga"
+	}
+
+    #Sub-ideologies
+    #Democratic
+	spriteType = {
+		name = "GFX_ideology_liberalism"
+		texturefile = "gfx/interface/ideologies/liberalism.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialism"
+		texturefile = "gfx/interface/ideologies/socialism.tga"
+	}
+
+    #Communism
+	spriteType = {
+		name = "GFX_ideology_stalinism"
+		texturefile = "gfx/interface/ideologies/stalinism.tga"
+	}
+
+    #Fascism
+	spriteType = {
+		name = "GFX_ideology_nazism"
+		texturefile = "gfx/interface/ideologies/hitlerism.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_falangism"
+		texturefile = "gfx/interface/ideologies/falangism.tga"
+	}
+
+    #Neutrality
+	#spriteType = {
+	#	name = "GFX_ideology_despotism"
+	#	texturefile = "gfx/interface/ideologies/hitlerism.tga"
+	#}
+	spriteType = {
+		name = "GFX_ideology_oligarchism"
+		texturefile = "gfx/interface/ideologies/oligarchy.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarcho_syndicalism.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_junta"
+		texturefile = "gfx/interface/ideologies/junta.tga"
+	}
 }

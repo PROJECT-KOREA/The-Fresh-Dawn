@@ -1,0 +1,1689 @@
+#의용군 부대 모집
+KOR_recruit_volunteer_army = {
+	
+	#함경북도에서 2개 의용군 부대 모집
+	KOR_recruit_north_hamgyong = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 797 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			797 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			797 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			797 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			797 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_2_unit
+			hidden_effect = {
+				797 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#함경남도에서 4개 의용군 부대 모집
+	KOR_recruit_south_hamgyong = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 798 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			798 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			798 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			798 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			798 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_4_unit
+			hidden_effect = {
+				798 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#평안북도에서 4개 의용군 부대 모집
+	KOR_recruit_north_pyongan = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 799 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			799 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			799 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			799 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			799 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_4_unit
+			hidden_effect = {
+				799 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#평안남도에서 3개 의용군 부대 모집
+	KOR_recruit_south_pyongan = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 800 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			800 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			800 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			800 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			800 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_3_unit
+			hidden_effect = {
+				800 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#황해도에서 4개 의용군 부대 모집
+	KOR_recruit_hwanghae = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 801 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			801 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			801 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			801 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			801 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_4_unit
+			hidden_effect = {
+				801 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#경기도에서 6개 의용군 부대 모집
+	KOR_recruit_gyeonggi = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 525 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			525 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			525 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			525 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			525 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_6_unit
+			hidden_effect = {
+				525 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#강원도에서 3개 의용군 부대 모집
+	KOR_recruit_gangwon = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 527 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			527 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			527 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			527 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			527 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_3_unit
+			hidden_effect = {
+				527 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#충청북도에서 2개 의용군 부대 모집
+	KOR_recruit_north_chungcheong = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 802 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			802 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			802 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			802 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			802 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_2_unit
+			hidden_effect = {
+				802 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#충청남도에서 3개 의용군 부대 모집
+	KOR_recruit_south_chungcheong = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 803 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			803 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			803 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			803 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			803 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_3_unit
+			hidden_effect = {
+				803 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#경상북도에서 6개 의용군 부대 모집
+	KOR_recruit_north_gyeongsang = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 804 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			804 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			804 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			804 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			804 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_6_unit
+			hidden_effect = {
+				804 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#경상남도에서 5개 의용군 부대 모집
+	KOR_recruit_south_gyeongsang = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 805 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			805 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			805 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			805 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			805 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_5_unit
+			hidden_effect = {
+				805 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#전라북도에서 3개 의용군 부대 모집
+	KOR_recruit_north_jeolla = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 806 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			806 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			806 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			806 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			806 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_3_unit
+			hidden_effect = {
+				806 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	#전라남도에서 6개 의용군 부대 모집
+	KOR_recruit_south_jeolla = {
+
+		icon = generic_prepare_civil_war
+
+		highlight_state_targets = { state = 807 }
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			807 = { is_controlled_by = ROOT }
+			NOT = { has_country_flag = KOR_recruiting }
+		}
+
+		visible = {
+			KOR_woi_in_progress = yes
+			807 = { NOT = { has_state_flag = KOR_recruited } }
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+		
+		fire_only_once = no
+		days_remove = 12
+		cost = 0
+
+		on_map_mode = map_only
+
+		complete_effect = { 
+			set_country_flag = KOR_recruiting
+			807 = { set_state_flag = KOR_recruiting }
+		}
+		remove_effect = {
+			clr_country_flag = KOR_recruiting
+			807 = {
+				clr_state_flag = KOR_recruiting
+				set_state_flag = KOR_recruited
+			}
+			custom_effect_tooltip = KOR_recruit_6_unit
+			hidden_effect = {
+				807 = {
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+}
+
+#항일 유격전
+KOR_guerrilla_warfare = {
+	
+	#함경북도에서의 유격전
+	KOR_guerrilla_north_hamgyong = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 797 }
+			797 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 797 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			797 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				797 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#함경남도에서의 유격전
+	KOR_guerrilla_south_hamgyong = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 798 }
+			798 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 798 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			798 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				798 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#평안북도에서의 유격전
+	KOR_guerrilla_north_pyeongan = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 799 }
+			799 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 799 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			799 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				799 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#평안남도에서의 유격전
+	KOR_guerrilla_south_pyeongan = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 800 }
+			800 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 800 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			800 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				800 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#황해도에서의 유격전
+	KOR_guerrilla_hwanghae = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 801 }
+			801 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 801 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			801 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				801 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#경기도에서의 유격전
+	KOR_guerrilla_gyeonggi = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 525 }
+			525 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 525 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			525 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				525 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#강원도에서의 유격전
+	KOR_guerrilla_gangwon = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 527 }
+			527 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 527 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			527 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				527 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#충청남도에서의 유격전
+	KOR_guerrilla_north_chungcheong = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 802 }
+			802 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 802 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			802 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				802 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#충청남도에서의 유격전
+	KOR_guerrilla_south_chungcheong = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 803 }
+			803 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 803 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			803 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				803 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#경상북도에서의 유격전
+	KOR_guerrilla_north_gyeongsang = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 804 }
+			804 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 804 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			804 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				804 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#경상남도에서의 유격전
+	KOR_guerrilla_south_gyeongsang = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 805 }
+			805 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 805 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			805 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				805 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#전라북도에서의 유격전
+	KOR_guerrilla_north_jeolla = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 806 }
+			806 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 806 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			806 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				806 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+	
+	#전라남도에서의 유격전
+	KOR_guerrilla_south_jeolla = {
+
+		icon = infiltrate_state
+
+		allowed = { original_tag = KOR }
+
+		available = {
+			NOT = { has_full_control_of_state = 807 }
+			807 = {
+				OR = {
+					is_controlled_by = ROOT
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			KOR_woi_in_progress = yes
+		}
+
+		cancel_trigger = {
+			NOT = { KOR_woi_in_progress = yes }
+		}
+
+		highlight_state_targets = { state = 807 }
+		highlight_color_while_active = 2
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = yes
+
+		days_remove = 15
+
+		modifier = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = KOR_flag_guerrilla_planning
+			807 = {
+				set_state_flag = KOR_flag_guerrilla_planning
+			}
+		}
+
+		remove_effect = {
+			clr_country_flag = KOR_flag_guerrilla_planning
+			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
+			hidden_effect = {
+				807 = {
+					clr_state_flag = KOR_flag_guerrilla_planning
+					set_state_flag = KOR_flag_guerrilla_planned
+					add_dynamic_modifier = {
+						modifier = guerrilla_warfare
+						scope = KOR
+						days = 70
+					}
+				}
+			}
+		}
+	}
+}

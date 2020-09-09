@@ -188,6 +188,9 @@ ideologies = {
 			
 			centrism = {
 			}
+			
+			military_junta = {
+			}
 		}
 
 		dynamic_faction_names = {

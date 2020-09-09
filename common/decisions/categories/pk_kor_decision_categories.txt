@@ -7,44 +7,87 @@ KOR_war_of_independence_decision = {
 	allowed = {
 		original_tag = KOR
 		has_war_with = GGK
-		has_global_flag = KOR_flag_woi_in_progress
+		KOR_woi_in_progress = yes
 		has_completed_focus = KOR_focus_korean_war_of_independence
 	}
 
-	priority = 100
+	priority = 10
 }
 
-#민병대 모집
+#조국해방의용군 모집
 KOR_recruit_volunteer_army = {
 	icon = army_reform
 
-	picture = GFX_decision_cat_declaration_of_independence
+	picture = GFX_decision_cat_liberation_volunteer_army
 
-	allowed = {
-		original_tag = KOR
-		has_war_with = GGK
-		has_global_flag = KOR_flag_woi_in_progress
+	visible_when_empty = yes
+
+	allowed = { original_tag = KOR }
+
+	visible = {
+		KOR_woi_in_progress = yes
 		has_completed_focus = KOR_focus_liberation_voulnteer_army
 	}
 
-	priority = 100
-}
-
-#독립 선언
-KOR_declaration_of_independence_category = {
-	icon = generic_independence
-
-	picture = GFX_decision_cat_declaration_of_independence
-
-	allowed = {
-		original_tag = KOR
+	on_map_area = {
+		state = 799
+		name = KOR_recruit_volunteer_army_category_name
+		zoom = 200
 	}
 
-	priority = 100
+	priority = 9
 }
 
-#제헌의회
-KOR_constituent_national_assembly_category = {
+#항일 유격전
+KOR_guerrilla_warfare = {
+	icon = infiltration
+
+	picture = GFX_decision_cat_guerrilla_warfare
+
+	visible_when_empty = yes
+	
+	allowed = { original_tag = KOR }
+
+	visible = {
+		KOR_woi_in_progress = yes
+		has_completed_focus = KOR_focus_guerrilla_warfare
+	}
+
+	on_map_area = {
+		state = 799
+		name = KOR_guerrilla_warfare_category_name
+		zoom = 200
+	}
+
+	priority = 8
+}
+
+# #독립 선언
+# KOR_declaration_of_independence_decision = {
+# 	icon = generic_independence
+
+# 	picture = GFX_decision_cat_declaration_of_independence
+
+# 	allowed = { original_tag = KOR }
+
+# 	visible = { KOR_woi_in_progress = no }
+
+# 	priority = 8
+# }
+
+#국가재건위원회
+KOR_national_reconstruction_committee = {
+	icon = generic_industry
+
+	allowed = { original_tag = KOR }
+
+	visible = { has_completed_focus = KOR_focus_nrc }
+
+	priority = 8
+}
+
+#제헌 국회
+KOR_constituent_national_assembly_decision = {
 	icon = usa_congress
 
 	picture = GFX_decision_cat_national_assembly
@@ -54,32 +97,55 @@ KOR_constituent_national_assembly_category = {
 	}
 
 	visible = {
-		#has_completed_focus = KOR_focus_constituent_assembly
+		has_completed_focus = KOR_focus_constituent_national_assembly
 	}
 
-	scripted_gui = kor_constituent_national_assembly_decision_ui
+	priority = 9
+}
+
+#대한민국 국회(단원제)
+KOR_national_assembly_bicameralism_decision = {
+	icon = national_assembly
+
+	picture = GFX_decision_cat_national_assembly
+
+	visible_when_empty = yes
+
+	allowed = {
+		original_tag = KOR
+	}
+
+	visible = {
+		has_completed_focus = KOR_focus_republic_of_korea
+		has_country_flag = KOR_flag_presidental
+	}
+
+	scripted_gui = kor_national_assembly_unicameralism_ui
 
 	priority = 100
 }
 
-# #제헌 국회
-# KOR_constituent_national_assembly_category = {
-# 	icon = usa_congress
+#대한민국 국회(양원제)
+KOR_national_assembly_unicameralism_decision = {
+	icon = national_assembly
 
-# 	picture = GFX_decision_cat_national_assembly
+	picture = GFX_decision_cat_national_assembly
 
-# 	allowed = {
-# 		original_tag = KOR
-# 	}
+	visible_when_empty = yes
 
-# 	visible = {
-# 		has_completed_focus = KOR_focus_constitutional_assembly_election
-# 	}
+	allowed = {
+		original_tag = KOR
+	}
 
-# 	scripted_gui = kor_constituent_national_assembly_decision_ui
+	visible = {
+		has_completed_focus = KOR_focus_republic_of_korea
+		has_country_flag = KOR_flag_parliamentary
+	}
 
-# 	priority = 100
-# }
+	scripted_gui = kor_national_assembly_bicameralism_ui
+
+	priority = 100
+}
 
 #제헌 국회 (내각제)
 # KOR_constituent_national_assembly_parliament_category = {
@@ -101,7 +167,7 @@ KOR_constituent_national_assembly_category = {
 # }
 
 #파시즘의 대두
-KOR_rise_of_fascism_category = {
+KOR_rise_of_fascism_decision = {
 	icon = generic_fascism
 
 	picture = GFX_decision_cat_national_assembly
@@ -111,7 +177,8 @@ KOR_rise_of_fascism_category = {
 	}
 
 	visible = {
-		#has_idea = KOR_advisor_ahn_hosang
+		#has_idea = KOR_advisor_ahn_hosang\
+		always = no
 	}
 
 	priority = 100

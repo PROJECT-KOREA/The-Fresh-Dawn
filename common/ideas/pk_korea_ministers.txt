@@ -4,7 +4,7 @@ ideas = {
 	head_of_gov = {
 
 		#지청천
-		KOR_HoG_Ji_Cheongcheon = {
+		HoG_Ji_Cheongcheon = {
 
 			allowed = { original_tag = KOR }
 
@@ -20,12 +20,13 @@ ideas = {
 			ai_will_do = { factor = 1 }
 
 			traits = {
+				# kia_commander
 				hog
 			}
 		}
 
 		#안재홍
-		KOR_HoG_Ahn_Jaehong = {
+		HoG_Ahn_Jaehong = {
 
 			allowed = { original_tag = KOR }
 
@@ -41,24 +42,134 @@ ideas = {
 			ai_will_do = { factor = 1 }
 
 			traits = {
+				# ppc_minister
 				hog
+			}
+		}
+
+		#김규식
+		HoG_Kim_Kyusik = {
+
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+
+			traits = {
+				# ppc_minister
+				hog
+			}
+		}
+	}
+
+	#내무장관
+	security_minister = {
+		
+		#홍진
+		SM_Hong_Jin = {
+
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+
+			traits = {
+				secmin
 			}
 		}
 	}
 
 	#외무장관
 	foreign_minister = {
+		
+		#조소앙
+		FM_Cho_Soang = {
 
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+
+			traits = {
+				frnmin
+			}
+		}
 	}
 
 	#재무장관
 	economy_minister = {
 
+		#송병조
+		EM_Song_Byeongjo = {
+
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+
+			traits = {
+				ecomin
+			}
+		}
 	}
 
-	#내무장관
-	security_minister = {
-		
+	#군무장관
+	military_minister = {
+
+		#유동열
+		MM_Ryu_Dongyol = {
+
+			allowed = { original_tag = KOR }
+
+			picture = No_Minister
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+
+			traits = {
+				milmin
+			}
+		}
 	}
 
 	#정보장관

@@ -1288,6 +1288,19 @@ country_event = {
 						MAN = {
 							controls_state = 525
 							controls_state = 527
+							controls_state = 797
+							controls_state = 798
+							controls_state = 799
+							controls_state = 800
+							controls_state = 801
+							controls_state = 802
+							controls_state = 803
+							controls_state = 804
+							controls_state = 805
+							controls_state = 806
+							controls_state = 807
+							controls_state = 808
+							controls_state = 809
 						}
 					}
 				}
@@ -1297,10 +1310,16 @@ country_event = {
 					transfer_state = 797
 					transfer_state = 798
 					transfer_state = 799
+					transfer_state = 800
 					transfer_state = 801
 					transfer_state = 802
 					transfer_state = 803
 					transfer_state = 804
+					transfer_state = 805
+					transfer_state = 806
+					transfer_state = 807
+					transfer_state = 808
+					transfer_state = 809
 					white_peace = ROOT
 				}
 			}
@@ -1492,6 +1511,11 @@ country_event = {
 						controls_state = 802
 						controls_state = 803
 						controls_state = 804
+						controls_state = 805
+						controls_state = 806
+						controls_state = 807
+						controls_state = 808
+						controls_state = 809
 					}
 				}
 			}
@@ -1506,11 +1530,22 @@ country_event = {
 				transfer_state = 802
 				transfer_state = 803
 				transfer_state = 804
+				transfer_state = 805
+				transfer_state = 806
+				transfer_state = 807
+				transfer_state = 808
+				transfer_state = 809
 				white_peace = ROOT
-				country_event = {
-					id = pk_korea_politic.1
-					days = 1
+			}
+			hidden_effect = {
+				KOR = {
+					country_event = {
+						id = pk_korea_generic.1
+						days = 1
+					}
+					remove_from_faction = korean_chinese_united_front
 				}
+				CHI = { set_faction_name = chinese_united_front }
 			}
 		}
 		if = {
@@ -1659,6 +1694,19 @@ country_event = {
 							is_literally_china = yes
 							controls_state = 525
 							controls_state = 527
+							controls_state = 797
+							controls_state = 798
+							controls_state = 799
+							controls_state = 800
+							controls_state = 801
+							controls_state = 802
+							controls_state = 803
+							controls_state = 804
+							controls_state = 805
+							controls_state = 806
+							controls_state = 807
+							controls_state = 808
+							controls_state = 809
 						}
 					}
 				}
@@ -1735,6 +1783,19 @@ country_event = {
 						is_literally_china = yes
 						controls_state = 525
 						controls_state = 527
+						controls_state = 797
+						controls_state = 798
+						controls_state = 799
+						controls_state = 800
+						controls_state = 801
+						controls_state = 802
+						controls_state = 803
+						controls_state = 804
+						controls_state = 805
+						controls_state = 806
+						controls_state = 807
+						controls_state = 808
+						controls_state = 809
 					}
 				}
 			}

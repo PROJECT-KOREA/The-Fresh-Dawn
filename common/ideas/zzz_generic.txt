@@ -1988,9 +1988,9 @@ ideas = {
 			}
 		}
 	}
-	
-	foreign_minister = {
-		FM_No_One = {
+
+	security_minister = {
+		SM_No_One = {
 			picture = no_minister
 			allowed = {
 				always = yes
@@ -2028,9 +2028,29 @@ ideas = {
 			}
 		}
 	}
-
-	security_minister = {
-		SM_No_One = {
+	
+	foreign_minister = {
+		FM_No_One = {
+			picture = no_minister
+			allowed = {
+				always = yes
+			}
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	military_minister = {
+		MM_No_One = {
 			picture = no_minister
 			allowed = {
 				always = yes

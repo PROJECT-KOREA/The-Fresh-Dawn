@@ -23,7 +23,7 @@ add_ideas = {
 
 	GGK_idea_colonial_government
 	GGK_idea_militarize_korean_peninsula
-	GGK_idea_korean_independence_movement
+	GGK_idea_korean_independence_movement_1
 }
 
 #연구 슬롯
