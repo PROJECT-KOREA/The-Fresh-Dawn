@@ -1,0 +1,35 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_cabinet_button"
+		texturefile = "gfx/interface/cabinet_button.dds"
+	}
+	spriteType = {
+		name = "GFX_pol_leader_rank_frame"
+		texturefile = "gfx/interface/pol_leader_rank_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Yi_Cheongcheon"
+		texturefile = "gfx/leaders/KOR/Portrait_Yi_Cheongcheon.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Lyuh_Woonhyung"
+		texturefile = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kim_Koo"
+		texturefile = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Ahn_Jaehong"
+		texturefile = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kim_Kyusik"
+		texturefile = "gfx/leaders/KOR/Portrait_Kim_Kyusik.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Hongjin"
+		texturefile = "gfx/leaders/KOR/Portrait_Hongjin.dds"
+	}
+}

@@ -49,29 +49,29 @@ spriteTypes = {
 
 	# KOR #
 	spriteType = {
-		name = "GFX_idea_HoG_Ji_Cheongcheon"
-		texturefile = "gfx/interface/ideas/KOR/KOR_Ji_Cheongcheon.dds"
+		name = "GFX_idea_minister_Lyuh_Woonhyung"
+		texturefile = "gfx/interface/ideas/KOR/KOR_Lyuh_Woonhyung.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_HoG_Ahn_Jaehong"
+		name = "GFX_idea_minister_Ahn_Jaehong"
 		texturefile = "gfx/interface/ideas/KOR/KOR_Ahn_Jaehong.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_HoG_Kim_Kyusik"
+		name = "GFX_idea_minister_Kim_Kyusik"
 		texturefile = "gfx/interface/ideas/KOR/KOR_Kim_Kyusik.dds"
 	}
 	
 
 	spriteType = {
-		name = "GFX_idea_SM_Hong_Jin"
+		name = "GFX_idea_minister_Hong_Jin"
 		texturefile = "gfx/interface/ideas/KOR/KOR_Hong_Jin.dds"
 	}
 	
 
 	spriteType = {
-		name = "GFX_idea_FM_Cho_Soang"
+		name = "GFX_idea_minister_Cho_Soang"
 		texturefile = "gfx/interface/ideas/KOR/KOR_Cho_Soang.dds"
 	}
 	
@@ -90,8 +90,8 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_idea_KOR_CoA_Ji_Cheongcheon"
-		texturefile = "gfx/interface/ideas/KOR/KOR_Ji_Cheongcheon_army.dds"
+		name = "GFX_idea_KOR_CoA_Yi_Cheongcheon"
+		texturefile = "gfx/interface/ideas/KOR/KOR_Yi_Cheongcheon_army.dds"
 	}
 
 	spriteType = {
@@ -151,13 +151,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_KOR_advisor_ryuh_woonhyung"
-		texturefile = "gfx/interface/ideas/KOR/advisor_ryuh_woonhyung.dds"
+		name = "GFX_idea_KOR_advisor_lyuh_woonhyung"
+		texturefile = "gfx/interface/ideas/KOR/advisor_lyuh_woonhyung.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_KOR_advisor_ryuh_woonhyung_2"
-		texturefile = "gfx/interface/ideas/KOR/advisor_ryuh_woonhyung.dds"
+		name = "GFX_idea_KOR_advisor_lyuh_woonhyung_2"
+		texturefile = "gfx/interface/ideas/KOR/advisor_lyuh_woonhyung.dds"
 	}
 
 	spriteType = {

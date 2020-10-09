@@ -44,225 +44,225 @@
 # 	}
 # }
 
-#국가재건위원회
+#국가 재건
 KOR_national_reconstruction_committee = {
 
 	# 농촌 재건축 운동 #
 	# 관서·관북 #
-	KOR_rural_recon_gwanseo_gwanbuk = {
+	# KOR_rural_recon_gwanseo_gwanbuk = {
 		
-		icon = generic_construction
+	# 	icon = generic_construction
 
-		visible = { has_completed_focus = KOR_focus_rural_reconstruction }
+	# 	visible = { has_completed_focus = KOR_focus_redeem_enemy_properties }
 		
-		available = {
-			NOT = { has_country_flag = KOR_flag_rural_recon }
-		}
+	# 	available = {
+	# 		NOT = { has_country_flag = KOR_flag_rural_recon }
+	# 	}
 
-		cost = 50
-		fire_only_once = yes
-		days_remove = 60
+	# 	cost = 50
+	# 	fire_only_once = yes
+	# 	days_remove = 60
 
-		complete_effect = {
-			set_country_flag = KOR_flag_rural_recon
-		}
+	# 	complete_effect = {
+	# 		set_country_flag = KOR_flag_rural_recon
+	# 	}
 
-		remove_effect = {
-			clr_country_flag = KOR_flag_rural_recon
-			797 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			798 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			799 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			800 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+	# 	remove_effect = {
+	# 		clr_country_flag = KOR_flag_rural_recon
+	# 		797 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 		798 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 		799 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 		800 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	# 해서 #
-	KOR_rural_recon_haeseo = {
+	# # 해서 #
+	# KOR_rural_recon_haeseo = {
 		
-		icon = generic_construction
+	# 	icon = generic_construction
 
-		visible = { has_completed_focus = KOR_focus_rural_reconstruction }
+	# 	visible = { has_completed_focus = KOR_focus_redeem_enemy_properties }
 		
-		available = {
-			NOT = { has_country_flag = KOR_flag_rural_recon }
-		}
+	# 	available = {
+	# 		NOT = { has_country_flag = KOR_flag_rural_recon }
+	# 	}
 
-		cost = 50
-		fire_only_once = yes
-		days_remove = 60
+	# 	cost = 50
+	# 	fire_only_once = yes
+	# 	days_remove = 60
 
-		complete_effect = {
-			set_country_flag = KOR_flag_rural_recon
-		}
+	# 	complete_effect = {
+	# 		set_country_flag = KOR_flag_rural_recon
+	# 	}
 
-		remove_effect = {
-			clr_country_flag = KOR_flag_rural_recon
-			801 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+	# 	remove_effect = {
+	# 		clr_country_flag = KOR_flag_rural_recon
+	# 		801 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	# 관동 #
-	KOR_rural_recon_gwandong = {
+	# # 관동 #
+	# KOR_rural_recon_gwandong = {
 		
-		icon = generic_construction
+	# 	icon = generic_construction
 
-		visible = { has_completed_focus = KOR_focus_rural_reconstruction }
+	# 	visible = { has_completed_focus = KOR_focus_redeem_enemy_properties }
 		
-		available = {
-			NOT = { has_country_flag = KOR_flag_rural_recon }
-		}
+	# 	available = {
+	# 		NOT = { has_country_flag = KOR_flag_rural_recon }
+	# 	}
 
-		cost = 50
-		fire_only_once = yes
-		days_remove = 60
+	# 	cost = 50
+	# 	fire_only_once = yes
+	# 	days_remove = 60
 
-		complete_effect = {
-			set_country_flag = KOR_flag_rural_recon
-		}
+	# 	complete_effect = {
+	# 		set_country_flag = KOR_flag_rural_recon
+	# 	}
 
-		remove_effect = {
-			clr_country_flag = KOR_flag_rural_recon
-			527 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+	# 	remove_effect = {
+	# 		clr_country_flag = KOR_flag_rural_recon
+	# 		527 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	# 호서·호남 #
-	KOR_rural_recon_hoseo_honam  = {
+	# # 호서·호남 #
+	# KOR_rural_recon_hoseo_honam  = {
 		
-		icon = generic_construction
+	# 	icon = generic_construction
 
-		visible = { has_completed_focus = KOR_focus_rural_reconstruction }
+	# 	visible = { has_completed_focus = KOR_focus_redeem_enemy_properties }
 		
-		available = {
-			NOT = { has_country_flag = KOR_flag_rural_recon }
-		}
+	# 	available = {
+	# 		NOT = { has_country_flag = KOR_flag_rural_recon }
+	# 	}
 
-		cost = 50
-		fire_only_once = yes
-		days_remove = 60
+	# 	cost = 50
+	# 	fire_only_once = yes
+	# 	days_remove = 60
 
-		complete_effect = {
-			set_country_flag = KOR_flag_rural_recon
-		}
+	# 	complete_effect = {
+	# 		set_country_flag = KOR_flag_rural_recon
+	# 	}
 
-		remove_effect = {
-			clr_country_flag = KOR_flag_rural_recon
-			802 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			803 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			806 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			807 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+	# 	remove_effect = {
+	# 		clr_country_flag = KOR_flag_rural_recon
+	# 		802 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 		803 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 		806 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 		807 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	# 영남 #
-	KOR_rural_recon_yeongnam = {
+	# # 영남 #
+	# KOR_rural_recon_yeongnam = {
 		
-		icon = generic_construction
+	# 	icon = generic_construction
 
-		visible = { has_completed_focus = KOR_focus_rural_reconstruction }
+	# 	visible = { has_completed_focus = KOR_focus_redeem_enemy_properties }
 		
-		available = {
-			NOT = { has_country_flag = KOR_flag_rural_recon }
-		}
+	# 	available = {
+	# 		NOT = { has_country_flag = KOR_flag_rural_recon }
+	# 	}
 
-		cost = 50
-		fire_only_once = yes
-		days_remove = 60
+	# 	cost = 50
+	# 	fire_only_once = yes
+	# 	days_remove = 60
 
-		complete_effect = {
-			set_country_flag = KOR_flag_rural_recon
-		}
+	# 	complete_effect = {
+	# 		set_country_flag = KOR_flag_rural_recon
+	# 	}
 
-		remove_effect = {
-			clr_country_flag = KOR_flag_rural_recon
-			804 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			805 = { 
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+	# 	remove_effect = {
+	# 		clr_country_flag = KOR_flag_rural_recon
+	# 		804 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 		805 = { 
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = industrial_complex
+	# 				level = 1
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
 	#빈민구제 정책
 	KOR_poverty_relief_policy = {
@@ -279,7 +279,7 @@ KOR_national_reconstruction_committee = {
 			}
 		}
 		cost = 50
-		days_remove = 90
+		days_remove = 60
 
 		modifier = {
 			civilian_factory_use = 2
@@ -328,7 +328,7 @@ KOR_national_reconstruction_committee = {
 			}
 		}
 		cost = 50
-		days_remove = 90
+		days_remove = 60
 
 		modifier = {
 			civilian_factory_use = 2

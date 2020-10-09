@@ -1,0 +1,251 @@
+############################################
+# Leader Title
+############################################
+defined_text = {
+	name = Cabinet_Title
+
+	#광복군 군정위원회
+	text = {
+		trigger = { has_country_flag = KOR_flag_kia_mpc }
+		localization_key = cabinet_kia_mpc
+	}
+
+	#한성정무위원회
+	text = {
+		trigger = { has_country_flag = KOR_flag_hpc }
+		localization_key = cabinet_hpc
+	}
+
+	#임시정부 국무위원회
+	text = {
+		trigger = {
+			has_country_flag = KOR_flag_kpg
+			has_country_leader = {
+				name = "Kim Koo"
+				ruling_only = yes
+			}
+		}
+		localization_key = cabinet_kpg
+	}
+}
+
+defined_text = {
+	name = HoS_rank
+
+	#군정장관
+	text = {
+		trigger = { has_country_flag = KOR_flag_kia_mpc }
+		localization_key = mil_gov
+	}
+
+	#정무위원회 위원장
+	text = {
+		trigger = { has_country_flag = KOR_flag_hpc }
+		localization_key = hpc_chairman
+	}
+
+	#국무위원회 주석
+	text = {
+		trigger = { has_country_flag = KOR_flag_kpg }
+		localization_key = kpg_president
+	}
+}
+
+defined_text = {
+	name = HoS_portrait
+
+	#이청천
+	text = {
+		trigger = { has_country_flag = KOR_flag_kia_mpc }
+		localization_key = GFX_Portrait_Yi_Cheongcheon
+	}
+
+	#여운형
+	text = {
+		trigger = { has_country_flag = KOR_flag_hpc }
+		localization_key = GFX_Portrait_Lyuh_Woonhyung
+	}
+
+	#김구
+	text = {
+		trigger = { has_country_flag = KOR_flag_kpg }
+		localization_key = GFX_Portrait_Kim_Koo
+	}
+}
+
+defined_text = {
+	name = HoS_name
+
+	#이청천
+	text = {
+		trigger = { has_country_flag = KOR_flag_kia_mpc }
+		localization_key = yi_cheongcheon
+	}
+
+	#여운형
+	text = {
+		trigger = { has_country_flag = KOR_flag_hpc }
+		localization_key = lyuh_woonhyung
+	}
+
+	#김구
+	text = {
+		trigger = { has_country_flag = KOR_flag_kpg }
+		localization_key = kim_koo
+	}
+}
+
+defined_text = {
+	name = HoS_desc
+
+	#이청천
+	text = {
+		trigger = { has_country_flag = KOR_flag_kia_mpc }
+		localization_key = yi_cheongcheon_desc
+	}
+
+	#여운형
+	text = {
+		trigger = { has_country_flag = KOR_flag_hpc }
+		localization_key = lyuh_woonhyung_desc
+	}
+
+	#김구
+	text = {
+		trigger = { has_country_flag = KOR_flag_kpg }
+		localization_key = kim_koo_desc
+	}
+}
+
+
+defined_text = {
+	name = HoG_rank
+
+	#민정장관
+	text = {
+		trigger = { has_idea = HoG_Lyuh_Woonhyung }
+		localization_key = civ_adm
+	}
+
+	#정무위원회 부위원장
+	text = {
+		trigger = { has_idea = HoG_Ahn_Jaehong }
+		localization_key = hpc_vice_chairman
+	}
+
+	#국무위원회 부주석
+	text = {
+		trigger = {
+			has_idea = HoG_Kim_Kyusik
+			#has_idea = HoG_Syngman_Rhee
+		}
+		localization_key = kpg_vice_president
+	}
+}
+
+defined_text = {
+	name = HoG_portrait
+
+	#여운형
+	text = {
+		trigger = { has_idea = HoG_Lyuh_Woonhyung }
+		localization_key = GFX_Portrait_Lyuh_Woonhyung
+	}
+
+	#안재홍
+	text = {
+		trigger = { has_idea = HoG_Ahn_Jaehong }
+		localization_key = GFX_Portrait_Ahn_Jaehong
+	}
+
+	#김규식
+	text = {
+		trigger = { has_idea = HoG_Kim_Kyusik }
+		localization_key = GFX_Portrait_Kim_Kyusik
+	}
+}
+
+defined_text = {
+	name = HoG_name
+
+	#여운형
+	text = {
+		trigger = { has_idea = HoG_Lyuh_Woonhyung }
+		localization_key = lyuh_woonhyung
+	}
+
+	#안재홍
+	text = {
+		trigger = { has_idea = HoG_Ahn_Jaehong }
+		localization_key = ahn_jaehong
+	}
+
+	#김규식
+	text = {
+		trigger = { has_idea = HoG_Kim_Kyusik }
+		localization_key = kim_kyusik
+	}
+}
+
+defined_text = {
+	name = HoG_desc
+
+	#여운형
+	text = {
+		trigger = { has_idea = HoG_Lyuh_Woonhyung }
+		localization_key = lyuh_woonhyung_desc
+	}
+
+	#안재홍
+	text = {
+		trigger = { has_idea = HoG_Ahn_Jaehong }
+		localization_key = ahn_jaehong_desc
+	}
+
+	#김규식
+	text = {
+		trigger = { has_idea = HoG_Ahn_Jaehong }
+		localization_key = kim_kyusik_desc
+	}
+}
+
+
+defined_text = {
+	name = SM_rank
+
+	#외무부장
+	text = {
+		trigger = { has_idea_with_trait = secmin }
+		localization_key = kpg_sm
+	}
+}
+
+defined_text = {
+	name = SM_portrait
+
+	#홍진
+	text = {
+		trigger = { has_idea = SM_Hong_Jin }
+		localization_key = GFX_Portrait_Hong_Jin
+	}
+}
+
+defined_text = {
+	name = SM_name
+
+	#홍진
+	text = {
+		trigger = { has_idea = SM_Hong_Jin }
+		localization_key = hong_jin
+	}
+}
+
+defined_text = {
+	name = SM_desc
+
+	#홍진
+	text = {
+		trigger = { has_idea = SM_Hong_Jin }
+		localization_key = hong_jin_desc
+	}
+}

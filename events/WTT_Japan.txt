@@ -1540,7 +1540,7 @@ country_event = {
 			hidden_effect = {
 				KOR = {
 					country_event = {
-						id = pk_korea_generic.1
+						id = pk_korea_kpg.1
 						days = 1
 					}
 					remove_from_faction = korean_chinese_united_front

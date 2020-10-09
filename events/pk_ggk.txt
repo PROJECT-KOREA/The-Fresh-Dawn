@@ -8,7 +8,7 @@ country_event = {
     id = pk_ggk_generic.1
     title = pk_ggk_generic.1.t
     desc = pk_ggk_generic.1.desc
-    picture = GFX_report_event_generic_military_parade
+    picture = GFX_report_event_narration
 
     is_triggered_only = yes
 
@@ -444,11 +444,6 @@ country_event = {
 
     option = {
         name = pk_ggk_korea.12.a
-        JAP = {
-            declare_war_on = {
-                target = CHI
-                type = annex_everything
-            }
-        }
+        
     }
 }

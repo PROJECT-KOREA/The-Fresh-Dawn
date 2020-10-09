@@ -1,4 +1,4 @@
-#제헌 국회
+#헌법기초위원회
 KOR_constituent_national_assembly_decision = {
 
 	#헌법 제정
@@ -22,7 +22,7 @@ KOR_constituent_national_assembly_decision = {
 		complete_effect = {
 			hidden_effect = {
 				country_event = {
-					id = pk_korea_internal.4
+					id = pk_korea_kpg.8
 					days = 10
 				}
 			}
@@ -39,34 +39,6 @@ KOR_constituent_national_assembly_decision = {
 			}
 		}
 	}
-
-	# #정부 선출
-	# KOR_form_government = {
-		
-	# 	icon = generic_political_discourse
-
-	# 	available = {
-	# 		has_country_flag = KOR_flag_constitution
-	# 	}
-
-	# 	visible = {
-	# 		original_tag = KOR
-	# 		NOT = {
-	# 			has_country_flag = KOR_flag_government_elected
-	# 		}
-	# 	}
-		
-	# 	fire_only_once = yes
-
-	# 	cost = 50
-
-	# 	complete_effect = {
-	# 		country_event = {
-	# 			id = pk_korea_internal.6
-	# 			days = 0
-	# 		}
-	# 	}
-	# }
 
 	# #소규모 지지도 확보
 	# KOR_small_securement_of_support = {

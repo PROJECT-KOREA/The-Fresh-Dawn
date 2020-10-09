@@ -1,0 +1,82 @@
+scripted_gui = {
+
+	cabinet_button = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "cabinet_button_ui"
+		
+		ai_check = { always = no }
+		visible = { tag = KOR }
+		
+		triggers = {
+			cabinet_button_click_enabled = {
+				NOT = { has_country_flag = show_double_leader }
+			}
+		}
+
+		effects = { cabinet_button_click = { set_country_flag = show_double_leader } }
+	}
+
+	cabinet_start = {
+		context_type = player_context
+		context_type = politics_tab
+		window_name = "cabinet_start_ui_window"
+		
+		ai_check = { always = no }
+		
+		visible = {
+			has_country_flag = show_double_leader
+            has_country_leader = {
+                name = "Korean Independence Army"
+                ruling_only = yes
+            }
+		}
+		
+		effects = { close_click = { clr_country_flag = show_double_leader } }
+	}
+
+	cabinet_woi = {
+		context_type = player_context
+		context_type = politics_tab
+		window_name = "cabinet_woi_ui_window"
+		
+		ai_check = { always = no }
+		
+		visible = {
+			has_country_flag = show_double_leader
+			OR = {
+				has_country_flag = KOR_flag_kia_mpc
+				has_country_flag = KOR_flag_hpc
+			}
+			NOT = { has_country_flag = KOR_flag_kpg }
+		}
+		
+		effects = { close_click = { clr_country_flag = show_double_leader } }
+
+		properties = {
+			HoS = { image = "[This.HoS_portrait]" }
+			HoG = { image = "[This.HoG_portrait]" }
+		}
+	}
+
+	cabinet_kor = {
+		context_type = player_context
+		context_type = politics_tab
+		window_name = "cabinet_kor_ui_window"
+		
+		ai_check = { always = no }
+		
+		visible = {
+			has_country_flag = show_double_leader
+			has_country_flag = KOR_flag_kpg
+		}
+		
+		effects = { close_click = { clr_country_flag = show_double_leader } }
+
+		properties = {
+			HoS = { image = "[This.HoS_portrait]" }
+			HoG = { image = "[This.HoG_portrait]" }
+		}
+	}
+}
+

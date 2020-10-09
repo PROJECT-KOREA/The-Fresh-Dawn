@@ -1,9 +1,6 @@
 spriteTypes = {
 
-	spriteType = {
-		name = "GFX_news_event_KOR_independence"
-		textureFile = "gfx/event_pictures/news_event_KOR_independence.dds"
-	}
+	### Country Event ###
 
 	spriteType = {
 		name = "GFX_report_event_narration"
@@ -13,11 +10,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_KOR_kim_koo_speech"
 		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_speech.dds"
-	}
-
-	spriteType = {
-		name = "GFX_report_event_KOR_jo_soang"
-		textureFile = "gfx/event_pictures/report_event_KOR_jo_soang.dds"
 	}
 
 	spriteType = {
@@ -44,14 +36,48 @@ spriteTypes = {
 		name = "GFX_report_event_KOR_independence_army2"
 		textureFile = "gfx/event_pictures/report_event_KOR_independence_army2.dds"
 	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_jo_soang"
+		textureFile = "gfx/event_pictures/report_event_KOR_jo_soang.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_KOR_return_of_kpg"
+		textureFile = "gfx/event_pictures/report_event_KOR_return_of_kpg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_KOR_election"
+		textureFile = "gfx/event_pictures/report_event_KOR_election.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_KOR_kim_koo_syngman_rhee"
+		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_syngman_rhee.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_KOR_kim_koo_syngman_rhee_kim_kyu_sik"
+		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_syngman_rhee_kim_kyu_sik.dds"
+	}
+
 	
 	spriteType = {
 		name = "GFX_report_event_KOR_national_assembly"
 		textureFile = "gfx/event_pictures/report_event_KOR_national_assembly.dds"
 	}
+
 	
 	spriteType = {
 		name = "GFX_report_event_KOR_cpk"
 		textureFile = "gfx/event_pictures/report_event_KOR_cpk.dds"
+	}
+
+	### News Event ###
+
+	spriteType = {
+		name = "GFX_news_event_KOR_independence"
+		textureFile = "gfx/event_pictures/news_event_KOR_independence.dds"
 	}
 }

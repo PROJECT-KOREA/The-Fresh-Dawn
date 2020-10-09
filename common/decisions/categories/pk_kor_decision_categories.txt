@@ -75,7 +75,7 @@ KOR_guerrilla_warfare = {
 # 	priority = 8
 # }
 
-#국가재건위원회
+#국가 재건
 KOR_national_reconstruction_committee = {
 	icon = generic_industry
 
@@ -97,7 +97,7 @@ KOR_constituent_national_assembly_decision = {
 	}
 
 	visible = {
-		has_completed_focus = KOR_focus_constituent_national_assembly
+		has_completed_focus = KOR_focus_constitution_drafting_committee
 	}
 
 	priority = 9
@@ -117,7 +117,7 @@ KOR_national_assembly_bicameralism_decision = {
 
 	visible = {
 		has_completed_focus = KOR_focus_republic_of_korea
-		has_country_flag = KOR_flag_presidental
+		has_country_flag = KOR_flag_presidential
 	}
 
 	scripted_gui = kor_national_assembly_unicameralism_ui
@@ -148,7 +148,7 @@ KOR_national_assembly_unicameralism_decision = {
 }
 
 #제헌 국회 (내각제)
-# KOR_constituent_national_assembly_parliament_category = {
+# KOR_constitution_drafting_committee_parliament_category = {
 # 	icon = national_assembly
 
 # 	picture = GFX_decision_cat_national_assembly
@@ -161,7 +161,7 @@ KOR_national_assembly_unicameralism_decision = {
 # 		has_completed_focus = KOR_focus_republic_of_korea
 # 	}
 
-# 	scripted_gui = kor_constituent_national_assembly_decision_ui
+# 	scripted_gui = KOR_constituent_national_assembly_decision_ui
 
 # 	priority = 100
 # }

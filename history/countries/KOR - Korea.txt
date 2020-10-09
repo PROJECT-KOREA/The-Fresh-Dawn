@@ -46,7 +46,7 @@ add_ideas = {
 	MM_No_One
 	IM_No_One
 
-	KOR_CoA_Ji_Cheongcheon
+	KOR_CoA_Yi_Cheongcheon
 	CoN_No_One
 	CAF_No_One
 }

@@ -3,8 +3,9 @@ ideas = {
 	#정부수반
 	head_of_gov = {
 
-		#지청천
-		HoG_Ji_Cheongcheon = {
+		#여운형
+		HoG_Lyuh_Woonhyung = {
+			picture = minister_Lyuh_Woonhyung
 
 			allowed = { original_tag = KOR }
 
@@ -17,8 +18,6 @@ ideas = {
 
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = { factor = 1 }
-
 			traits = {
 				# kia_commander
 				hog
@@ -27,6 +26,7 @@ ideas = {
 
 		#안재홍
 		HoG_Ahn_Jaehong = {
+			picture = minister_Ahn_Jaehong
 
 			allowed = { original_tag = KOR }
 
@@ -39,16 +39,15 @@ ideas = {
 
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = { factor = 1 }
-
 			traits = {
-				# ppc_minister
+				# hpc_minister
 				hog
 			}
 		}
 
 		#김규식
 		HoG_Kim_Kyusik = {
+			picture = minister_Kim_Kyusik
 
 			allowed = { original_tag = KOR }
 
@@ -61,10 +60,8 @@ ideas = {
 
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = { factor = 1 }
-
 			traits = {
-				# ppc_minister
+				# hpc_minister
 				hog
 			}
 		}
@@ -75,6 +72,7 @@ ideas = {
 		
 		#홍진
 		SM_Hong_Jin = {
+			picture = minister_Hong_Jin
 
 			allowed = { original_tag = KOR }
 
@@ -87,8 +85,6 @@ ideas = {
 
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = { factor = 1 }
-
 			traits = {
 				secmin
 			}
@@ -100,6 +96,7 @@ ideas = {
 		
 		#조소앙
 		FM_Cho_Soang = {
+			picture = minister_Cho_Soang
 
 			allowed = { original_tag = KOR }
 
@@ -112,8 +109,6 @@ ideas = {
 
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = { factor = 1 }
-
 			traits = {
 				frnmin
 			}
@@ -125,6 +120,7 @@ ideas = {
 
 		#송병조
 		EM_Song_Byeongjo = {
+			picture = minister_Song_Byeongjo
 
 			allowed = { original_tag = KOR }
 
@@ -137,8 +133,6 @@ ideas = {
 
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = { factor = 1 }
-
 			traits = {
 				ecomin
 			}
@@ -150,10 +144,9 @@ ideas = {
 
 		#유동열
 		MM_Ryu_Dongyol = {
+			picture = minister_Ryu_Dongyol
 
 			allowed = { original_tag = KOR }
-
-			picture = No_Minister
 
 			available = {
 				custom_trigger_tooltip = {
@@ -164,8 +157,6 @@ ideas = {
 
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = { factor = 1 }
-
 			traits = {
 				milmin
 			}
@@ -180,8 +171,8 @@ ideas = {
 	#육군 참모총장
 	army_chief = {
 
-		#지청천
-		KOR_CoA_Ji_Cheongcheon = {
+		#이청천
+		KOR_CoA_Yi_Cheongcheon = {
 
 			allowed = { original_tag = KOR }
 

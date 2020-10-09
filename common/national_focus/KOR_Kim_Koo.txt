@@ -5,12 +5,58 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 0
+			add = 20
 			tag = KOR
+			has_country_flag = KOR_kip
 		}
 	}
 
 	continuous_focus_position = { x = 20 y = 1800 }
-
 	
+	#김구 행정부
+	focus = {
+		id = KOR_focus_kim_koo
+		icon = GFX_focus_kim_koo
+		x = 8
+		y = 0
+		cost = 10
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#삼균주의
+	focus = {
+		id = KOR_focus_samgyunjuui
+		icon = GFX_focus_samgyunjuui
+		relative_position_id = KOR_focus_kim_koo
+		x = -6
+		y = 1
+		cost = 10
+		
+		prerequisite = { focus = KOR_focus_kim_koo }
+		mutually_exclusive = { focus = KOR_focus_anti_communism_authoritarianism }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#반공 권위주의
+	focus = {
+		id = KOR_focus_anti_communism_authoritarianism
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		relative_position_id = KOR_focus_kim_koo
+		x = 6
+		y = 1
+		cost = 10
+		
+		prerequisite = { focus = KOR_focus_kim_koo }
+		mutually_exclusive = { focus = KOR_focus_samgyunjuui }
+
+		completion_reward = {
+			
+		}
+	}
 }

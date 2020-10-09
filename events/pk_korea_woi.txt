@@ -14,22 +14,24 @@ country_event = {
 
     option = {
         name = pk_korea_woi.1.a
+        set_country_flag = KOR_flag_kia_mpc
         set_party_name = { 
             ideology = neutrality 
             long_name = KOR_neutrality_party_kia_mpc_long 
             name = KOR_neutrality_party_kia_mpc 
         }
         create_country_leader = {
-            name = "Military Political Committee"
-            desc = "POLITICS_KIA_DESC"
-            picture = "gfx/leaders/KOR/Portrait_KIA_MPC.dds"
+            name = "Yi Cheongcheon"
+            desc = "POLITICS_YI_CHEONGCHEON_DESC"
+            picture = "gfx/leaders/KOR/Portrait_Yi_Cheongcheon.dds"
             expire = "1965.1.1"
             ideology = military_junta
             traits = {
-                kia_mpc
+                kia_commander
+                military_governor
             }
         }
-        add_ideas = { HoG_Ji_Cheongcheon }
+        add_ideas = HoG_Lyuh_Woonhyung
         hidden_effect = {
             set_popularities = {
                 democratic = 7
@@ -54,10 +56,12 @@ country_event = {
 
     option = {
         name = pk_korea_woi.2.a
+        clr_country_flag = KOR_flag_kia_mpc
+        set_country_flag = KOR_flag_hpc
         set_party_name = { 
             ideology = neutrality 
-            long_name = KOR_neutrality_party_ppc_long
-            name = KOR_neutrality_party_ppc 
+            long_name = KOR_neutrality_party_hpc_long
+            name = KOR_neutrality_party_hpc 
         }
         create_country_leader = {
             name = "Lyuh Woonhyung"

@@ -112,6 +112,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_focus_poverty_relief"
+		textureFile = "gfx/interface/goals/KOR/focus_poverty_relief.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_education"
+		textureFile = "gfx/interface/goals/KOR/focus_education.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_recover_enemy_property"
+		textureFile = "gfx/interface/goals/KOR/focus_recover_enemy_property.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_nationality"
+		textureFile = "gfx/interface/goals/KOR/focus_nationality.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_institution"
 		textureFile = "gfx/interface/goals/KOR/focus_institution.dds"
 	}
@@ -137,18 +157,24 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_ryuh_woonhyung"
-		textureFile = "gfx/interface/goals/KOR/focus_ryuh_woonhyung.dds"
+		name = "GFX_focus_kim_koo"
+		textureFile = "gfx/interface/goals/KOR/focus_kim_koo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_samgyunjuui"
+		textureFile = "gfx/interface/goals/KOR/focus_samgyunjuui.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_focus_lyuh_woonhyung"
+		textureFile = "gfx/interface/goals/KOR/focus_lyuh_woonhyung.dds"
 	}
 
 	spriteType = {
 		name = "GFX_focus_social_democracy"
 		textureFile = "gfx/interface/goals/KOR/focus_social_democracy.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_kim_koo"
-		textureFile = "gfx/interface/goals/KOR/focus_kim_koo.dds"
 	}
 
 	spriteType = {
@@ -274,11 +300,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_forfeit_pjc_property"
 		textureFile = "gfx/interface/goals/KOR/focus_forfeit_pjc_property.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_recover_enemy_property"
-		textureFile = "gfx/interface/goals/KOR/focus_recover_enemy_property.dds"
 	}
 
 	spriteType = {
