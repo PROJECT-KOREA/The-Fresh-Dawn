@@ -3,15 +3,16 @@ ideologies = {
 	democratic = {
 	
 		types = {
-			
-			conservatism = {
-			}
 		
-			liberalism = {
-			}
-		
-			socialism = {
-			}
+		    # 기본 이념 #
+			socialism = {} #사회민주주의
+			liberalism = {} #사회자유주의
+			conservatism = {} #보수주의
+
+			# 추가된 이념 #
+			liberal_conservatism =  { can_be_randomly_selected = no } #자유보수주의
+			social_conservatism =  { can_be_randomly_selected = no } #자유보수주의
+			national_conservatism =  { can_be_randomly_selected = no } #국민보수주의
 		}
 		
 		dynamic_faction_names = {
@@ -60,25 +61,14 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-
 	communism = {
 		
 		types = {
-		
-			marxism = {
-			}
-			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
-			}
+			marxism = {}
+			leninism = {}
+			stalinism = {}
+			anti_revisionism = {}
+			anarchist_communism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -122,18 +112,10 @@ ideologies = {
 	fascism = {
 	
 		types = {
-		
-			nazism = {
-			}
-			
-			fascism_ideology = {
-			}
-			
-			falangism = {
-			}
-			
-			rexism = {
-			}
+			nazism = {}
+			fascism_ideology = {}
+			falangism = {}
+			rexism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -172,25 +154,15 @@ ideologies = {
 	neutrality = {
 	
 		types = {
-		
-			despotism  = {
-			}
-			
-			oligarchism  = {
-			}
-
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			moderatism = {
-			}
-			
-			centrism = {
-			}
-			
-			military_junta = {
-			}
+			despotism  = {}
+			oligarchism  = {}
+			anarchism = { can_be_randomly_selected = no }
+			moderatism = {}
+			centrism = {}
+			military_junta = { can_be_randomly_selected = no }
+			warlordism = { can_be_randomly_selected = no }
+			constitutional_monarchy = { can_be_randomly_selected = no }
+			dang_guo = { can_be_randomly_selected = no } 
 		}
 
 		dynamic_faction_names = {

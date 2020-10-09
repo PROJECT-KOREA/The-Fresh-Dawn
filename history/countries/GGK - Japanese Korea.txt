@@ -50,7 +50,7 @@ set_popularities = {
 
 #민주주의 - 이승만
 create_country_leader = {
-	name = "Lyuh Woon-hyung"
+	name = "Lyuh Woonhyung"
 	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
 	expire = "1965.1.1"

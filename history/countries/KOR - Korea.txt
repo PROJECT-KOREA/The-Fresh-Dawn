@@ -55,7 +55,7 @@ add_ideas = {
 set_research_slots = 3
 
 #수송선
-set_convoys = 10
+set_convoys = 0
 
 #연료 비율
 # set_fuel_ratio = 0.5
@@ -81,31 +81,43 @@ create_country_leader = {
 	desc = "POLITICS_KIA_DESC"
 	picture = "gfx/leaders/KOR/Portrait_KIA.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = military_junta
 	traits = {
 		
 	}
 }
 
-#민주주의 - 이승만
+#민주주의 - 여운형
 create_country_leader = {
-	name = "Syngman Rhee"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
+	name = "Lyuh Woonhyung"
+	desc = "POLITICS_LYUH_WOONHYUNG_DESC"
+	picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
+	traits = {
+		
+	}
+}
+
+#공산주의 - 박헌영
+create_country_leader = {
+	name = "Pak Honyong"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds"
+	expire = "1965.1.1"
+	ideology = leninism
 	traits = {
 
 	}
 }
 
-#공산주의 - 김일성
+#파시스트 - 안호상
 create_country_leader = {
-	name = "Kim Il-sung"
+	name = "Ahn Hosang"
 	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Kim_Ilsung.dds"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = fascism_ideology
 	traits = {
 
 	}

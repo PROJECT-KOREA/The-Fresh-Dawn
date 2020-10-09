@@ -7,11 +7,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/socialism_group.tga"
+		texturefile = "gfx/interface/ideologies/authoritarian_socialism_group.tga"
 	}
 	spriteType = {
 		name = "GFX_ideology_fascism_group"
-		texturefile = "gfx/interface/ideologies/fascism.tga"
+		texturefile = "gfx/interface/ideologies/Fascism.tga"
 	}
     spriteType = {
 		name = "GFX_ideology_neutrality_group"
@@ -22,27 +22,43 @@ spriteTypes = {
     #Democratic
 	spriteType = {
 		name = "GFX_ideology_liberalism"
-		texturefile = "gfx/interface/ideologies/liberalism.tga"
+		texturefile = "gfx/interface/ideologies/social_liberal_group.tga"
 	}
 	spriteType = {
 		name = "GFX_ideology_socialism"
-		texturefile = "gfx/interface/ideologies/socialism.tga"
+		texturefile = "gfx/interface/ideologies/social_democratic_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberal_conservatism"
+		texturefile = "gfx/interface/ideologies/jacobin_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_conservatism"
+		texturefile = "gfx/interface/ideologies/democratic_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_conservatism"
+		texturefile = "gfx/interface/ideologies/democratic_group.tga"
 	}
 
     #Communism
 	spriteType = {
+		name = "GFX_ideology_marxism"
+		texturefile = "gfx/interface/ideologies/Centrist_Marxism.tga"
+	}
+	spriteType = {
 		name = "GFX_ideology_stalinism"
-		texturefile = "gfx/interface/ideologies/stalinism.tga"
+		texturefile = "gfx/interface/ideologies/Stalinism.tga"
 	}
 
     #Fascism
 	spriteType = {
 		name = "GFX_ideology_nazism"
-		texturefile = "gfx/interface/ideologies/hitlerism.tga"
+		texturefile = "gfx/interface/ideologies/Hitlerism.tga"
 	}
 	spriteType = {
 		name = "GFX_ideology_falangism"
-		texturefile = "gfx/interface/ideologies/falangism.tga"
+		texturefile = "gfx/interface/ideologies/Falangism.tga"
 	}
 
     #Neutrality
@@ -52,14 +68,26 @@ spriteTypes = {
 	#}
 	spriteType = {
 		name = "GFX_ideology_oligarchism"
-		texturefile = "gfx/interface/ideologies/oligarchy.tga"
+		texturefile = "gfx/interface/ideologies/Oligarchy.tga"
 	}
 	spriteType = {
 		name = "GFX_ideology_anarchism"
-		texturefile = "gfx/interface/ideologies/anarcho_syndicalism.tga"
+		texturefile = "gfx/interface/ideologies/Anarcho_Syndicalism.tga"
 	}
 	spriteType = {
 		name = "GFX_ideology_military_junta"
-		texturefile = "gfx/interface/ideologies/junta.tga"
+		texturefile = "gfx/interface/ideologies/Junta.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_warlordism"
+		texturefile = "gfx/interface/ideologies/Warlordism.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_constitutional_monarchy"
+		texturefile = "gfx/interface/ideologies/Semi_Constitutional_Monarchy.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_dang_guo"
+		texturefile = "gfx/interface/ideologies/Dang_Guo.tga"
 	}
 }
