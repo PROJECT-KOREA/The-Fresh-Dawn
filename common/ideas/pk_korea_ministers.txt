@@ -4,10 +4,15 @@ ideas = {
 	head_of_gov = {
 
 		#여운형
-		HoG_Lyuh_Woonhyung = {
+		HoG_Lyuh_Woonhyung_kia_mpc = {
+			name = lyuh_woonhyung
 			picture = minister_Lyuh_Woonhyung
 
 			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kia_mpc
+			}
 
 			available = {
 				custom_trigger_tooltip = {
@@ -19,16 +24,22 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				# kia_commander
+				gentleman_politician
+				kia_mpc
 				hog
 			}
 		}
 
 		#안재홍
-		HoG_Ahn_Jaehong = {
+		HoG_Ahn_Jaehong_hpc = {
+			name = ahn_jaehong
 			picture = minister_Ahn_Jaehong
 
 			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_hpc
+			}
 
 			available = {
 				custom_trigger_tooltip = {
@@ -40,16 +51,22 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				# hpc_minister
+				media_magnate
+				hpc
 				hog
 			}
 		}
 
 		#김규식
-		HoG_Kim_Kyusik = {
+		HoG_Kim_Kyusik_kpg = {
+			name = kim_kyusik
 			picture = minister_Kim_Kyusik
 
 			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
 
 			available = {
 				custom_trigger_tooltip = {
@@ -61,7 +78,62 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				# hpc_minister
+				veteran_politician
+				kpg
+				hog
+			}
+		}
+
+		#이승만
+		HoG_Syngman_Rhee_kpg = {
+			name = syngman_rhee
+			picture = minister_Syngman_Rhee
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				man_of_self_assertion
+				kpg
+				hog
+			}
+		}
+
+		#김규식
+		HoG_Kim_Kyusik_kor = {
+			name = kim_kyusik
+			picture = minister_Kim_Kyusik
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_rok
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				veteran_politician
+				kip
 				hog
 			}
 		}
@@ -71,11 +143,16 @@ ideas = {
 	security_minister = {
 		
 		#홍진
-		SM_Hong_Jin = {
+		SM_Hong_Jin_kpg = {
+			name = hong_jin
 			picture = minister_Hong_Jin
 
 			allowed = { original_tag = KOR }
 
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
 			available = {
 				custom_trigger_tooltip = {
     				tooltip = minister_tooltip
@@ -86,19 +163,22 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
+				capable_administrator
+				kpg
 				secmin
 			}
 		}
-	}
 
-	#외무장관
-	foreign_minister = {
-		
-		#조소앙
-		FM_Cho_Soang = {
-			picture = minister_Cho_Soang
+		#여운형
+		SM_Lyuh_Woonhyung_kpg = {
+			name = lyuh_woonhyung
+			picture = minister_Lyuh_Woonhyung
 
 			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
 
 			available = {
 				custom_trigger_tooltip = {
@@ -110,7 +190,9 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				frnmin
+				man_of_the_people
+				kpg
+				secmin
 			}
 		}
 	}
@@ -119,10 +201,15 @@ ideas = {
 	economy_minister = {
 
 		#송병조
-		EM_Song_Byeongjo = {
+		EM_Song_Byeongjo_kpg = {
+			name = song_byeongjo
 			picture = minister_Song_Byeongjo
 
 			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
 
 			available = {
 				custom_trigger_tooltip = {
@@ -134,7 +221,94 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
+				financial_reformer
+				kpg
 				ecomin
+			}
+		}
+		
+		#조소앙
+		EM_Cho_Soang_kpg = {
+			name = cho_soang
+			picture = minister_Cho_Soang
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				samgyunjuui_theorist
+				kpg
+				ecomin
+			}
+		}
+	}
+
+	#외무장관
+	foreign_minister = {
+		
+		#조소앙
+		FM_Cho_Soang_kpg = {
+			name = cho_soang
+			picture = minister_Cho_Soang
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				adequate_diplomat
+				kpg
+				frnmin
+			}
+		}
+
+		#김규식
+		FM_Kim_Kyusik_kpg = {
+			name = kim_kyusik
+			picture = minister_Kim_Kyusik
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				competent_ambassador
+				kpg
+				frnmin
 			}
 		}
 	}
@@ -143,10 +317,15 @@ ideas = {
 	military_minister = {
 
 		#유동열
-		MM_Ryu_Dongyol = {
+		MM_Ryu_Dongyol_kpg = {
+			name = ryu_dongyol
 			picture = minister_Ryu_Dongyol
 
 			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
 
 			available = {
 				custom_trigger_tooltip = {
@@ -158,6 +337,33 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
+				kpg
+				milmin
+			}
+		}
+
+		#지청천
+		MM_Ji_Cheongcheon_kpg = {
+			name = ji_cheongcheon
+			picture = minister_Ji_Cheongcheon
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				kpg
 				milmin
 			}
 		}
@@ -171,8 +377,8 @@ ideas = {
 	#육군 참모총장
 	army_chief = {
 
-		#이청천
-		KOR_CoA_Yi_Cheongcheon = {
+		#지청천
+		KOR_CoA_Ji_Cheongcheon = {
 
 			allowed = { original_tag = KOR }
 
@@ -239,6 +445,7 @@ ideas = {
 
 		#최용덕
 		KOR_CAF_Choi_Yongdeok = {
+			picture = no_minister
 
 			allowed = { original_tag = KOR }
 
@@ -262,6 +469,7 @@ ideas = {
 		
 		#김홍일
 		KOR_command_kim_hongil = {
+			picture = no_minister
 			ledger = army
 
 			allowed = {
@@ -273,6 +481,7 @@ ideas = {
 		
 		#김경천
 		KOR_command_kim_kyungcheon = {
+			picture = no_minister
 			ledger = army
 
 			allowed = {
@@ -284,6 +493,7 @@ ideas = {
 		
 		#송호성
 		KOR_command_song_hosung = {
+			picture = no_minister
 			ledger = army
 
 			allowed = {

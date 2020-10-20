@@ -1557,4 +1557,36 @@ bitmapfonts = {
 		}
 	}
 
+	bitmapfont = {
+		name = "tahoma_60"
+		path = "gfx/fonts/mapfont"
+		color = 0xffffffff
+	
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			H = { 238 203 35 }
+			T = { 255 255 255 }
+		}
+	}
+	
+	# bitmapfont = {
+	# 	name = "cg_16b"			####### GENERAL TOOLTIP FONT ########
+	# 	path = "gfx/fonts/aldrich_18_outline"
+	# 	color = 0xffffffff
+	# 	textcolors = {
+	# 		M = { 35 206 255 }
+	# 		L = { 195 176 145 }
+	# 		W = { 47 138 135 }
+	# 		B = { 47 138 135 }
+	# 		G = { 76 168 84 }
+	# 		R = { 125 66 66 }
+	# 		b = { 0 0 0 }
+	# 		g = { 176 176 176 }
+	# 		Y = { 220 218 80 }
+	# 		H = { 220 218 80 }
+	# 		T = { 47 138 135 }
+	# 	}
+	# }
 }

@@ -1,6 +1,6 @@
 ﻿division_template = {
-	name = "국내정진군"
-	division_names_group = KOR_HRF_01
+	name = "한국광복군"
+	division_names_group = KOR_KIA_01
 	is_locked = yes
 	regiments = {
 		infantry = { x = 0 y = 0 }

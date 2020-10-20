@@ -1,47 +1,148 @@
 ﻿l_english:
 
- ##### 내각 개요 시스템 #####
+ ######################
+ ##### 내각 시스템 #####
+ ######################
 
- ### 버튼 ###
+ cabinet:0 "내각"
+ head_of_gov:0 "정부수반"
+ security_minister:0 "내무장관"
+ economy_minister:0 "재무장관"
+ foreign_minister:0 "외무장관"
+ military_minister:0 "국방장관"
+ intel_minister:0 "정보장관"
+
+ hog:0 "정부수반"
+ secmin:0 "내무장관"
+ ecomin:0 "재무장관"
+ frnmin:0 "외무장관"
+ milmin:0 "국방장관"
+ intmin:0 "정보장관"
+
+ # 공석 #
+ HoG_No_One:0 "공석"
+ FM_No_One:0 "공석"
+ EM_No_One:0 "공석"
+ SM_No_One:0 "공석"
+ MM_No_One:0 "공석"
+ IM_No_One:0 "공석"
+ CoA_No_One:0 "공석"
+ CoN_No_One:0 "공석"
+ CAF_No_One:0 "공석"
+
+ # 툴팁 #
+ minister_tooltip:0 "장관을 수동으로 임명하거나 해임할 수 없습니다."
+
+ #### 인물명 ####
+ kim_koo:0 "김구"
+ kim_kyusik:0 "김규식"
+ song_byeongjo:0 "송병조"
+ ahn_jaehong:0 "안재홍"
+ lyuh_woonhyung:0 "여운형"
+ ryu_dongyol:0 "유동열"
+ syngman_rhee:0 "이승만"
+ cho_soang:0 "조소앙"
+ ji_cheongcheon:0 "지청천"
+ hong_jin:0 "홍진"
+
+ vacant:0 "공석"
+
+ #### 소속 ####
+ kia_mpc:0 "§w광복군 군정위원회§!"
+ hpc:0 "§w한성정무위원회§!"
+ kpg:0 "§g임시정부 국무위원회§!"
+ kip:0 "§q한국독립당§!"
+
+ #### 특성 ####
+ # 정부수반 #
+ gentleman_politician:0 "신사적인 정치인"
+ media_magnate:0 "언론계 거물"
+ veteran_politician:0 "노련한 정객"
+ man_of_self_assertion:0 "독불장군"
+
+ # 내무장관 #
+ capable_administrator:0 "유능한 행정가"
+ man_of_the_people:0 "민중의 대변자"
+
+ # 재무장관 #
+ financial_reformer:0 "재정 개혁가"
+ samgyunjuui_theorist:0 "삼균주의 이론가"
+
+ # 외무장관 #
+ adequate_diplomat:0 "적절한 외교관"
+ competent_ambassador:0 "능숙한 대사"
+
+
+ ###########################
+ ##### 내각 개요 시스템 #####
+ ###########################
+
+ # 버튼 #
  cabinet_button_tt:0 "§Y내각 개요§! 보기"
 
- ### 툴팁 ###
+ # 툴팁 #
  vacant_desc:0 "이 직책은 현재 비어있습니다."
 
- ### 내각 타이틀 ###
- cabinet_kia_mpc:0 "한국광복군 군정위원회"
+ # 내각 타이틀 #
+ cabinet_kia_mpc:0 "광복군 군정위원회"
  cabinet_hpc:0 "한성정무위원회"
  cabinet_kpg:0 "임시정부 국무위원회"
+ cabinet_kim_koo:0 "김구 행정부"
 
- ### 국가원수 ###
+ ### 직책명 ###
+ # 국가원수 #
  mil_gov:0 "군정장관"
  hpc_chairman:0 "정무위원회 위원장"
  kpg_president:0 "국무위원회 주석"
- kim_koo:0 "김구"
+ kor_president:0 "대통령"
 
- ### 정부수반 ###
+ # 정부수반 #
  civ_adm:0 "민정장관"
  hpc_vice_chairman:0 "정무위원회 부위원장"
  kpg_vice_president:0 "국무위원회 부주석"
+ kor_prime_minister:0 "국무총리"
 
- ### 내무장관 ###
- kpg_sm:0 "내무부장"
+ # 내무장관 #
+ kpg_secmin:0 "내무부장"
+ kor_sm:0 "내무부장관"
 
- ### 인물명 ###
- yi_cheongcheon:0 "이청천"
- lyuh_woonhyung:0 "여운형"
- ahn_jaehong:0 "안재홍"
- kim_kyusik:0 "김규식"
- hong_jin:0 "홍진"
+ # 재무장관 #
+ kpg_ecomin:0 "재무부장"
+ kor_em:0 "재무부장관"
+ 
+ # 외무장관 #
+ kpg_frnmin:0 "외무부장"
+ kor_fm:0 "외무부장관"
+ 
+ # 국방장관 #
+ kpg_milmin:0 "군무부장"
+ kor_mm:0 "국방부장관"
+
+ # 정보장관 #
+ #
+
 
  ### 인물 설명 ###
- yi_cheongcheon_desc:0 "§L이청천은 조선의 독립운동가 및 군인이다.§!"
+ ji_cheongcheon_desc:0 ""
+ #§L지청천은 조선의 독립운동가 및 군인이다.§!"
  #\n\n§L조선의 국운이 기울어지던 1888년 2월 15일, 지청천은 한성에서 대대로 무관을 배출했던 충주 지씨 가문의 후손인 지재선의 막내아들로 태어났습니다.\n\n다섯 살이 될 무렵에 아버지가 병으로 세상을 떠나면서, 지청천은 홀어머니 밑에서 자라게 되었습니다. 그의 모친인 경주 이씨 부인은 그를 양육함에 있어서 늦은 나이에 얻은 외아들임에도 불구하고 절대로 편애하지 않고, 때로는 자모로 때로는 엄부의 역할을 겸하면서 가장이 없는 어려운 경제적 여건 속에서도 지, 덕, 체 삼육에 고루 마음을 써서 교육하였습니다.\n\n1905년 을사정변 당시 대한제국군 장교들을 중심으로 뭉친 궐기군이 일본군에 맞서 격렬히 저항하는 모습을 보고 군인이 되겠다고 결심한 지청천은, 어머니의 도움을 받아 1908년, 대한제국 육군무관학교에 입교하였습니다. 그러나 이듬해인 1909년, 통감부의 압력으로 무관학교가 폐지되면서 일본 도쿄의 중앙유년학교로 편입하거나 자퇴를 택해야하는 갈림길에 놓이게 되자, '호랑이를 잡으려면 호랑이 굴에 들어가야 한다'는 각오로 동기생들과 함께 일본 유학길에 오르게 되었습니다.\n\n도쿄에서 유학하던 도중 한일합방조약이 체결되면서, 지청천은 함께 유학 중이었던 생도들과 함께 일본 육군사관학교 보병과로 편입되었고, 1914년에 이응준, 홍사익, 김경천 등과 함께 26기생으로 졸업하여 보병소위로 임관하였습니다.\n\n이후 중위로 진급하여 일본군 장교로서 군생활을 이어가던 지청천은 독립군에 가담하기 위해 1919년에 동기였던 김경천과 함께 탈영하여 남만주 삼원보로 망명하였고, 이때 가지고 간 일본군 전술교범과 군용지도 등의 가치와 정규 육군사관학교를 졸업한 능력을 인정받아 신흥무관학교 교성대장이 되어 독립군 간부양성에 진력하였습니다.§!"
- lyuh_woonhyung_desc:0 "§L여운형은 조선의 독립운동가 및 언론인이다.§!"
- ahn_jaehong_desc:0 "§L안재홍은 조선의 독립운동가 및 언론인이다.§!"
+ lyuh_woonhyung_desc:0 ""
+ #§L여운형은 조선의 독립운동가 및 언론인이다.§!"
+ ahn_jaehong_desc:0 ""
+ #§L안재홍은 조선의 독립운동가 및 언론인이다.§!"
 
  ### 툴팁 ###
  HoS_name_tt:0 "§Y[This.HoS_name]§!\n[This.HoS_rank]"
  HoS_desc_tt:0 "[This.HoS_desc]"
  HoG_name_tt:0 "§Y[This.HoG_name]§!\n[This.HoG_rank]"
  HoG_desc_tt:0 "[This.HoG_desc]"
+ SM_name_tt:0 "§Y[This.SM_name]§!\n[This.SM_rank]"
+ SM_desc_tt:0 "[This.SM_desc]"
+ EM_name_tt:0 "§Y[This.EM_name]§!\n[This.EM_rank]"
+ EM_desc_tt:0 "[This.EM_desc]"
+ FM_name_tt:0 "§Y[This.FM_name]§!\n[This.FM_rank]"
+ FM_desc_tt:0 "[This.FM_desc]"
+ MM_name_tt:0 "§Y[This.MM_name]§!\n[This.MM_rank]"
+ MM_desc_tt:0 "[This.MM_desc]"
+ IM_name_tt:0 "§Y[This.IM_name]§!\n[This.IM_rank]"
+ IM_desc_tt:0 "[This.IM_desc]"

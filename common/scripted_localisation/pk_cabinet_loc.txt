@@ -20,12 +20,24 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = KOR_flag_kpg
+			# has_country_leader = {
+			# 	name = "Kim Koo"
+			# 	ruling_only = yes
+			# }
+		}
+		localization_key = cabinet_kpg
+	}
+
+	#김구 행정부
+	text = {
+		trigger = {
+			has_country_flag = KOR_flag_rok
 			has_country_leader = {
 				name = "Kim Koo"
 				ruling_only = yes
 			}
 		}
-		localization_key = cabinet_kpg
+		localization_key = cabinet_kim_koo
 	}
 }
 
@@ -49,15 +61,21 @@ defined_text = {
 		trigger = { has_country_flag = KOR_flag_kpg }
 		localization_key = kpg_president
 	}
+
+	#대통령
+	text = {
+		trigger = { has_country_flag = KOR_flag_rok }
+		localization_key = kor_president
+	}
 }
 
 defined_text = {
 	name = HoS_portrait
 
-	#이청천
+	#지청천
 	text = {
 		trigger = { has_country_flag = KOR_flag_kia_mpc }
-		localization_key = GFX_Portrait_Yi_Cheongcheon
+		localization_key = GFX_Portrait_Ji_Cheongcheon_Army
 	}
 
 	#여운형
@@ -68,7 +86,18 @@ defined_text = {
 
 	#김구
 	text = {
-		trigger = { has_country_flag = KOR_flag_kpg }
+		trigger = {
+			OR = {
+				has_country_flag = KOR_flag_kpg
+				AND = {
+					has_country_flag = KOR_flag_rok
+					has_country_leader = {
+						name = "Kim Koo"
+						ruling_only = yes
+					}
+				}
+			}
+		}
 		localization_key = GFX_Portrait_Kim_Koo
 	}
 }
@@ -76,21 +105,36 @@ defined_text = {
 defined_text = {
 	name = HoS_name
 
-	#이청천
+	#지청천
 	text = {
-		trigger = { has_country_flag = KOR_flag_kia_mpc }
-		localization_key = yi_cheongcheon
+		trigger = {
+			has_country_leader = {
+				name = "Ji Cheongcheon"
+				ruling_only = yes
+			}
+		}
+		localization_key = ji_cheongcheon
 	}
 
 	#여운형
 	text = {
-		trigger = { has_country_flag = KOR_flag_hpc }
+		trigger = {
+			has_country_leader = {
+				name = "Lyuh Woonhyung"
+				ruling_only = yes
+			}
+		}
 		localization_key = lyuh_woonhyung
 	}
 
 	#김구
 	text = {
-		trigger = { has_country_flag = KOR_flag_kpg }
+		trigger = {
+			has_country_leader = {
+				name = "Kim Koo"
+				ruling_only = yes
+			}
+		}
 		localization_key = kim_koo
 	}
 }
@@ -98,21 +142,36 @@ defined_text = {
 defined_text = {
 	name = HoS_desc
 
-	#이청천
+	#지청천
 	text = {
-		trigger = { has_country_flag = KOR_flag_kia_mpc }
-		localization_key = yi_cheongcheon_desc
+		trigger = {
+			has_country_leader = {
+				name = "Ji Cheongcheon"
+				ruling_only = yes
+			}
+		}
+		localization_key = ji_cheongcheon_desc
 	}
 
 	#여운형
 	text = {
-		trigger = { has_country_flag = KOR_flag_hpc }
+		trigger = {
+			has_country_leader = {
+				name = "Lyuh Woonhyung"
+				ruling_only = yes
+			}
+		}
 		localization_key = lyuh_woonhyung_desc
 	}
 
 	#김구
 	text = {
-		trigger = { has_country_flag = KOR_flag_kpg }
+		trigger = {
+			has_country_leader = {
+				name = "Kim Koo"
+				ruling_only = yes
+			}
+		}
 		localization_key = kim_koo_desc
 	}
 }
@@ -123,88 +182,136 @@ defined_text = {
 
 	#민정장관
 	text = {
-		trigger = { has_idea = HoG_Lyuh_Woonhyung }
+		trigger = { has_country_flag = KOR_flag_kia_mpc }
 		localization_key = civ_adm
 	}
 
 	#정무위원회 부위원장
 	text = {
-		trigger = { has_idea = HoG_Ahn_Jaehong }
+		trigger = { has_country_flag = KOR_flag_hpc }
 		localization_key = hpc_vice_chairman
 	}
 
 	#국무위원회 부주석
 	text = {
-		trigger = {
-			has_idea = HoG_Kim_Kyusik
-			#has_idea = HoG_Syngman_Rhee
-		}
+		trigger = { has_country_flag = KOR_flag_kpg }
 		localization_key = kpg_vice_president
+	}
+
+	#국무총리
+	text = {
+		trigger = { has_country_flag = KOR_flag_rok }
+		localization_key = kor_prime_minister
 	}
 }
 
 defined_text = {
 	name = HoG_portrait
 
+	#공석
+	text = {
+		trigger = { has_idea = HoG_No_One }
+		localization_key = GFX_leader_unknown
+	}
+
 	#여운형
 	text = {
-		trigger = { has_idea = HoG_Lyuh_Woonhyung }
+		trigger = { has_idea = HoG_Lyuh_Woonhyung_kia_mpc }
 		localization_key = GFX_Portrait_Lyuh_Woonhyung
 	}
 
 	#안재홍
 	text = {
-		trigger = { has_idea = HoG_Ahn_Jaehong }
+		trigger = { has_idea = HoG_Ahn_Jaehong_hpc }
 		localization_key = GFX_Portrait_Ahn_Jaehong
 	}
 
 	#김규식
 	text = {
-		trigger = { has_idea = HoG_Kim_Kyusik }
+		trigger = {
+			OR = {
+				has_idea = HoG_Kim_Kyusik_kpg
+				has_idea = HoG_Kim_Kyusik_kor
+			}
+		}
 		localization_key = GFX_Portrait_Kim_Kyusik
+	}
+
+	#김규식
+	text = {
+		trigger = { has_idea = HoG_Syngman_Rhee_kpg }
+		localization_key = GFX_Portrait_Syngman_Rhee
 	}
 }
 
 defined_text = {
 	name = HoG_name
 
+	#공석
+	text = {
+		trigger = { has_idea = HoG_No_One }
+		localization_key = vacant
+	}
+
 	#여운형
 	text = {
-		trigger = { has_idea = HoG_Lyuh_Woonhyung }
+		trigger = { has_idea = HoG_Lyuh_Woonhyung_kia_mpc }
 		localization_key = lyuh_woonhyung
 	}
 
 	#안재홍
 	text = {
-		trigger = { has_idea = HoG_Ahn_Jaehong }
+		trigger = { has_idea = HoG_Ahn_Jaehong_hpc }
 		localization_key = ahn_jaehong
 	}
 
 	#김규식
 	text = {
-		trigger = { has_idea = HoG_Kim_Kyusik }
+		trigger = {
+			OR = {
+				has_idea = HoG_Kim_Kyusik_kpg
+				has_idea = HoG_Kim_Kyusik_kor
+			}
+		}
 		localization_key = kim_kyusik
+	}
+
+	#김규식
+	text = {
+		trigger = { has_idea = HoG_Syngman_Rhee_kpg }
+		localization_key = syngman_rhee
 	}
 }
 
 defined_text = {
 	name = HoG_desc
 
+	#공석
+	text = {
+		trigger = { has_idea = HoG_No_One }
+		localization_key = vacant_desc
+	}
+
 	#여운형
 	text = {
-		trigger = { has_idea = HoG_Lyuh_Woonhyung }
+		trigger = { has_idea = HoG_Lyuh_Woonhyung_kia_mpc }
 		localization_key = lyuh_woonhyung_desc
 	}
 
 	#안재홍
 	text = {
-		trigger = { has_idea = HoG_Ahn_Jaehong }
+		trigger = { has_idea = HoG_Ahn_Jaehong_hpc }
 		localization_key = ahn_jaehong_desc
 	}
 
 	#김규식
 	text = {
-		trigger = { has_idea = HoG_Ahn_Jaehong }
+		trigger = {
+			OR = {
+				has_idea = HoG_Kim_Kyusik_kpg
+				has_idea = HoG_Kim_Kyusik_kor
+			}
+		}
 		localization_key = kim_kyusik_desc
 	}
 }
@@ -213,39 +320,370 @@ defined_text = {
 defined_text = {
 	name = SM_rank
 
-	#외무부장
+	#내무부장
 	text = {
-		trigger = { has_idea_with_trait = secmin }
-		localization_key = kpg_sm
+		trigger = { has_country_flag = KOR_flag_kpg }
+		localization_key = kpg_secmin
+	}
+
+	#내무부 장관
+	text = {
+		trigger = { has_country_flag = KOR_flag_rok }
+		localization_key = kor_sm
 	}
 }
 
 defined_text = {
 	name = SM_portrait
 
+	#공석
+	text = {
+		trigger = { has_idea = SM_No_One }
+		localization_key = GFX_leader_unknown
+	}
+
 	#홍진
 	text = {
-		trigger = { has_idea = SM_Hong_Jin }
+		trigger = { has_idea = SM_Hong_Jin_kpg }
 		localization_key = GFX_Portrait_Hong_Jin
+	}
+
+	#여운형
+	text = {
+		trigger = { has_idea = SM_Lyuh_Woonhyung_kpg }
+		localization_key = GFX_Portrait_Lyuh_Woonhyung
 	}
 }
 
 defined_text = {
 	name = SM_name
 
+	#공석
+	text = {
+		trigger = { has_idea = SM_No_One }
+		localization_key = vacant
+	}
+
 	#홍진
 	text = {
-		trigger = { has_idea = SM_Hong_Jin }
+		trigger = { has_idea = SM_Hong_Jin_kpg }
 		localization_key = hong_jin
+	}
+
+	#여운형
+	text = {
+		trigger = { has_idea = SM_Lyuh_Woonhyung_kpg }
+		localization_key = lyuh_woonhyung
 	}
 }
 
 defined_text = {
 	name = SM_desc
 
+	#공석
+	text = {
+		trigger = { has_idea = SM_No_One }
+		localization_key = vacant_desc
+	}
+
 	#홍진
 	text = {
-		trigger = { has_idea = SM_Hong_Jin }
+		trigger = { has_idea = SM_Hong_Jin_kpg }
 		localization_key = hong_jin_desc
+	}
+
+	#여운형
+	text = {
+		trigger = { has_idea = SM_Lyuh_Woonhyung_kpg }
+		localization_key = lyuh_woonhyung_desc
+	}
+}
+
+
+defined_text = {
+	name = EM_rank
+
+	#재무부장
+	text = {
+		trigger = { has_country_flag = KOR_flag_kpg }
+		localization_key = kpg_ecomin
+	}
+
+	#재무부 장관
+	text = {
+		trigger = { has_country_flag = KOR_flag_rok }
+		localization_key = kor_em
+	}
+}
+
+defined_text = {
+	name = EM_portrait
+
+	#공석
+	text = {
+		trigger = { has_idea = EM_No_One }
+		localization_key = GFX_leader_unknown
+	}
+
+	#송병조
+	text = {
+		trigger = { has_idea = EM_Song_Byeongjo_kpg }
+		localization_key = GFX_Portrait_Song_Byeongjo
+	}
+
+	#조소앙
+	text = {
+		trigger = { has_idea = EM_Cho_Soang_kpg }
+		localization_key = GFX_Portrait_Cho_Soang
+	}
+}
+
+defined_text = {
+	name = EM_name
+
+	#공석
+	text = {
+		trigger = { has_idea = EM_No_One }
+		localization_key = vacant
+	}
+
+	#송병조
+	text = {
+		trigger = { has_idea = EM_Song_Byeongjo_kpg }
+		localization_key = song_byeongjo
+	}
+
+	#조소앙
+	text = {
+		trigger = { has_idea = EM_Cho_Soang_kpg }
+		localization_key = cho_soang
+	}
+}
+
+defined_text = {
+	name = EM_desc
+
+	#공석
+	text = {
+		trigger = { has_idea = EM_No_One }
+		localization_key = vacant_desc
+	}
+
+	#송병조
+	text = {
+		trigger = { has_idea = EM_Song_Byeongjo_kpg }
+		localization_key = song_byeongjo_desc
+	}
+
+	#조소앙
+	text = {
+		trigger = { has_idea = EM_Cho_Soang_kpg }
+		localization_key = cho_soang_desc
+	}
+}
+
+
+defined_text = {
+	name = FM_rank
+
+	#외무부장
+	text = {
+		trigger = { has_country_flag = KOR_flag_kpg }
+		localization_key = kpg_frnmin
+	}
+
+	#외무부 장관
+	text = {
+		trigger = { has_country_flag = KOR_flag_rok }
+		localization_key = kor_fm
+	}
+}
+
+defined_text = {
+	name = FM_portrait
+
+	#공석
+	text = {
+		trigger = { has_idea = FM_No_One }
+		localization_key = GFX_leader_unknown
+	}
+
+	#조소앙
+	text = {
+		trigger = { has_idea = FM_Cho_Soang_kpg }
+		localization_key = GFX_Portrait_Cho_Soang
+	}
+
+	#김규식
+	text = {
+		trigger = { has_idea = FM_Kim_Kyusik_kpg }
+		localization_key = GFX_Portrait_Kim_Kyusik
+	}
+}
+
+defined_text = {
+	name = FM_name
+
+	#공석
+	text = {
+		trigger = { has_idea = FM_No_One }
+		localization_key = vacant
+	}
+
+	#조소앙
+	text = {
+		trigger = { has_idea = FM_Cho_Soang_kpg }
+		localization_key = cho_soang
+	}
+
+	#김규식
+	text = {
+		trigger = { has_idea = FM_Kim_Kyusik_kpg }
+		localization_key = kim_kyusik
+	}
+}
+
+defined_text = {
+	name = FM_desc
+
+	#공석
+	text = {
+		trigger = { has_idea = FM_No_One }
+		localization_key = vacant_desc
+	}
+
+	#조소앙
+	text = {
+		trigger = { has_idea = FM_Cho_Soang_kpg }
+		localization_key = cho_soang_desc
+	}
+
+	#김규식
+	text = {
+		trigger = { has_idea = FM_Kim_Kyusik_kpg }
+		localization_key = kim_koo_desc
+	}
+}
+
+
+defined_text = {
+	name = MM_rank
+
+	#군무부장
+	text = {
+		trigger = { has_country_flag = KOR_flag_kpg }
+		localization_key = kpg_milmin
+	}
+
+	#국방부 장관
+	text = {
+		trigger = { has_country_flag = KOR_flag_rok }
+		localization_key = kor_mm
+	}
+}
+
+defined_text = {
+	name = MM_portrait
+
+	#공석
+	text = {
+		trigger = { has_idea = MM_No_One }
+		localization_key = GFX_leader_unknown
+	}
+
+	#유동열
+	text = {
+		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
+		localization_key = GFX_Portrait_Ryu_Dongyol
+	}
+
+	#지청천
+	text = {
+		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
+		localization_key = GFX_Portrait_Ji_Cheongcheon
+	}
+}
+
+defined_text = {
+	name = MM_name
+
+	#공석
+	text = {
+		trigger = { has_idea = MM_No_One }
+		localization_key = vacant
+	}
+
+	#유동열
+	text = {
+		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
+		localization_key = ryu_dongyol
+	}
+
+	#지청천
+	text = {
+		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
+		localization_key = ji_cheongcheon
+	}
+}
+
+defined_text = {
+	name = MM_desc
+
+	#공석
+	text = {
+		trigger = { has_idea = MM_No_One }
+		localization_key = vacant_desc
+	}
+
+	#유동열
+	text = {
+		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
+		localization_key = ryu_dongyol_desc
+	}
+
+	#지청천
+	text = {
+		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
+		localization_key = ji_cheongcheon_desc
+	}
+}
+
+
+defined_text = {
+	name = IM_rank
+
+	#정보장관
+	text = {
+		localization_key = intmin
+	}
+}
+
+# defined_text = {
+# 	name = IM_portrait
+
+# 	#공석
+# 	text = {
+# 		trigger = { # }
+# 		localization_key = GFX_Portrait_
+# 	}
+# }
+
+defined_text = {
+	name = IM_name
+
+	#공석
+	text = {
+		trigger = { has_idea = IM_No_One }
+		localization_key = vacant
+	}
+}
+
+defined_text = {
+	name = IM_desc
+
+	#공석
+	text = {
+		trigger = { has_idea = IM_No_One }
+		localization_key = vacant_desc
 	}
 }

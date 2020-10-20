@@ -174,7 +174,7 @@ ideas = {
 			modifier = {
 				surrender_limit = 1.5
 				war_support_factor = 0.5
-				stability_factor = 0.5
+				# stability_factor = 0.5
 			}
 		}
 
@@ -199,7 +199,6 @@ ideas = {
 				surrender_limit = 1.5
 				war_support_factor = 0.5
 				training_time_army_factor = -0.20
-				stability_factor = 0.5
 			}
 		}
 		
@@ -910,98 +909,5 @@ ideas = {
 			
 		# 	traits = { excellent_jurist }
 		# }
-	}
-
-	#전차 설계사
-	tank_manufacturer = {
-		
-	}
-
-	#함선 설계사
-	naval_manufacturer = {
-		
-	}
-
-	#항공기 설계사
-	aircraft_manufacturer = {
-		
-	}
-
-	#군수품 설계사
-	materiel_manufacturer = {
-
-		designer = yes
-		
-		KOR_incheon_arsenal = {
-			
-			allowed = {
-				original_tag = KOR
-			}
-
-			available = {
-				controls_state = 525
-			}
-			
-			research_bonus = {
-				infantry_weapons = 0.15
-			}
-			
-			traits = { infantry_equipment_manufacturer }
-		}
-
-		KOR_pyongyang_arsenal = {
-			
-			allowed = {
-				original_tag = KOR
-			}
-
-			available = {
-				controls_state = 798
-			}
-			
-			research_bonus = {
-				artillery = 0.15
-			}
-			
-			traits = { artillery_manufacturer }
-		}
-	}
-
-	#산업 업체
-	industrial_concern = {
-
-		KOR_samsung = {
-			
-			allowed = {
-				original_tag = KOR
-			}
-			
-			research_bonus = {
-				industry = 0.15
-			}
-
-			available = {
-				controls_state = 801
-			}
-			
-			traits = { industrial_concern }
-		}
-
-		KOR_toshiba_electric = {
-			
-			allowed = {
-				original_tag = KOR
-			}
-
-			available = {
-				controls_state = 525
-			}
-			
-			research_bonus = {
-				electronics = 0.15
-			}
-			
-			traits = { electronics_concern }
-		}
 	}
 }

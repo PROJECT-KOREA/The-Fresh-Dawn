@@ -5,5 +5,9 @@ tags = {
 	"National Focuses"
 	"Map"
 }
+dependencies={
+	"Korean Language (Europa)"
+}
+replace_path="gfx/loadingscreens"
 name = "PROJECT KOREA: WAR OF INDEPENDENCE"
-supported_version = "1.9.*"
+supported_version = "1.10.*"

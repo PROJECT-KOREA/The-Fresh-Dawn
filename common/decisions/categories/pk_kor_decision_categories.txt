@@ -30,7 +30,7 @@ KOR_recruit_volunteer_army = {
 	}
 
 	on_map_area = {
-		state = 799
+		state = 809
 		name = KOR_recruit_volunteer_army_category_name
 		zoom = 200
 	}
@@ -54,7 +54,7 @@ KOR_guerrilla_warfare = {
 	}
 
 	on_map_area = {
-		state = 799
+		state = 809
 		name = KOR_guerrilla_warfare_category_name
 		zoom = 200
 	}

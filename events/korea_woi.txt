@@ -1,0 +1,87 @@
+﻿### 한국 이벤트 ###
+add_namespace = kor_woi
+
+#광복군 군정위원회 수립
+country_event = {
+    id = kor_woi.1
+    title = kor_woi.1.t
+    desc = kor_woi.1.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.1.a
+        set_country_flag = KOR_flag_kia_mpc
+        set_party_name = { 
+            ideology = neutrality 
+            long_name = KOR_neutrality_party_kia_mpc_long 
+            name = KOR_neutrality_party_kia_mpc 
+        }
+        create_country_leader = {
+            name = "Ji Cheongcheon"
+            desc = "POLITICS_Ji_Cheongcheon_DESC"
+            picture = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
+            expire = "1965.1.1"
+            ideology = military_junta
+            traits = {
+                kia_commander
+                military_governor
+            }
+        }
+        add_stability = 0.1
+        hidden_effect = {
+            add_ideas = HoG_Lyuh_Woonhyung_kia_mpc
+            set_popularities = {
+                democratic = 7
+                neutrality = 86
+                fascism = 5
+                communism = 2
+            }
+        }
+    }
+}
+
+#임시행정위원회 수립
+country_event = {
+    id = kor_woi.2
+    title = kor_woi.2.t
+    desc = kor_woi.2.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.2.a
+        clr_country_flag = KOR_flag_kia_mpc
+        set_country_flag = KOR_flag_hpc
+        set_party_name = { 
+            ideology = neutrality 
+            long_name = KOR_neutrality_party_hpc_long
+            name = KOR_neutrality_party_hpc 
+        }
+        create_country_leader = {
+            name = "Lyuh Woonhyung"
+            desc = "POLITICS_LYUH_WOONHYUNG_DESC"
+            picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+            expire = "1965.1.1"
+            ideology = oligarchism
+            traits = {
+                
+            }
+        }
+        add_ideas = HoG_Ahn_Jaehong_hpc
+        hidden_effect = {
+            set_popularities = {
+                democratic = 12
+                neutrality = 74
+                fascism = 5
+                communism = 9
+            }
+        }
+    }
+}

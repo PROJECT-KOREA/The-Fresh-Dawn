@@ -1,0 +1,105 @@
+#텍스트
+GET_CURRENT_INTRO_TEXT = {
+	name = GET_CURRENT_INTRO_TEXT
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_country_info }
+		localization_key = COUNTRY_INFO_TEXT
+	}
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_region_info }
+		localization_key = REGIONAL_INFO_TEXT
+	}
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_features_info }
+		localization_key = MOD_FEATURES_TEXT
+	}
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_mod_info }
+		localization_key = MOD_INFO_TEXT
+	}
+
+}
+
+#국가 정보
+GET_COUNTRY_INFO = {
+	name = GET_COUNTRY_INFO
+
+	## 일본령 조선
+	text = {
+		trigger = { tag = GGK }
+		localization_key = COUNTRY_INFO_GGK
+	}
+
+	## Default
+	text = {
+		localization_key = COUNTRY_INFO_NO_CONTENT
+	}
+}
+
+#지역 정보
+GET_REGIONAL_INFO = {
+	name = GET_REGIONAL_INFO
+
+	## 일본령 조선
+	text = {
+		trigger = { tag = GGK }
+		localization_key = REGIONAL_INFO_ASIA
+	}
+
+	## Default
+	text = {
+		localization_key = REGIONAL_INFO_NO_CONTENT
+	}
+}
+
+#지역 아이콘
+GET_REGIONALSYMBOL = {
+	name = GET_REGIONALSYMBOL
+
+	## 일본령 조선
+	text = {
+		trigger = { tag = GGK }
+		localization_key = "GFX_TNO_OpeningScreen_Region_EASTERN_ASIA"
+	}
+
+	## Default
+	text = {
+		localization_key = "GFX_TNO_OpeningScreen_Region_EUROPE"
+	}
+}
+
+#포스터
+GET_POSTER = {
+	name = GET_POSTER
+
+	#일본령 조선
+	text = {
+		trigger = { tag = GGK }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_GGK"
+	}
+
+	## Default
+	text = {
+		localization_key = "GFX_TNO_OpeningScreen_Poster_ChairmanPink"
+	}
+}
+
+#클로즈 버튼
+GET_CLOSEBUTTON_TEXT = {
+	name = GET_CLOSEBUTTON_TEXT
+
+	## 일본령 조선
+	text = {
+		trigger = { original_tag = GGK }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GGK
+	}
+
+	## Default
+	text = {
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GEN
+	}
+}

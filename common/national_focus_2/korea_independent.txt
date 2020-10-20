@@ -45,7 +45,7 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = {
-				id = pk_korea_kpg.6
+				id = kor_kpg_internal.6
 				days = 0
 			}
 			swap_ideas = {

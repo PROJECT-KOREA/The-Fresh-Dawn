@@ -3,10 +3,10 @@
 oob = "KOR_1936"
 
 #안정도
-set_stability = 0.6
+set_stability = 0.65
 
 #전쟁 지지도
-set_war_support = 0.3
+set_war_support = 0.05
 
 #시작 기술
 set_technology = {
@@ -46,7 +46,7 @@ add_ideas = {
 	MM_No_One
 	IM_No_One
 
-	KOR_CoA_Yi_Cheongcheon
+	KOR_CoA_Ji_Cheongcheon
 	CoN_No_One
 	CAF_No_One
 }

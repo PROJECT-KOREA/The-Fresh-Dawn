@@ -15,7 +15,7 @@ country_event = {
             if = {
                 limit = { tag = GGK }
                 country_event = {
-                    id = pk_ggk_generic.1
+                    id = ggk_internal.1
                 }
             }
         }

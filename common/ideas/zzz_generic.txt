@@ -1983,9 +1983,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { hog }
 		}
 	}
 
@@ -2003,9 +2001,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { secmin }
 		}
 	}
 
@@ -2023,9 +2019,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { ecomin }
 		}
 	}
 	
@@ -2043,9 +2037,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { frnmin }
 		}
 	}
 	
@@ -2063,9 +2055,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { milmin }
 		}
 	}
 
@@ -2083,9 +2073,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			removal_cost = -1
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { intmin }
 		}
 	}
 }

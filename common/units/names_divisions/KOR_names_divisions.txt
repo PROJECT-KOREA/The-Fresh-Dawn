@@ -1,16 +1,4 @@
-﻿KOR_HRF_01 = {
-	name = "국내정진군"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "infantry" }
-	fallback_name = "국내정진군 제%d사단"
-	ordered =
-	{
-		1 = { "국내정진군 제%d사단" }
-	}
-}
-
-KOR_KIA_01 = {
+﻿KOR_KIA_01 = {
 	name = "한국광복군"
 	for_countries = { KOR }
 	can_use = { always = yes }

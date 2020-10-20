@@ -45,7 +45,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "cabinet_ui_title"
-				position = { x = 75 y = 30 }
+				position = { x = 80 y = 30 }
 				textureFile = ""
 				font = "hoi_36header"
 				text = "내각 개요"
@@ -174,7 +174,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "cabinet_woi_ui_title"
-				position = { x = 75 y = 30 }
+				position = { x = 80 y = 30 }
 				textureFile = ""
 				font = "hoi_36header"
 				text = "[This.Cabinet_Title]"
@@ -286,10 +286,11 @@ guiTypes = {
 	containerWindowType = {
 		name = "cabinet_kor_ui_window"
 		position = { x = 540 y = 79 }
-		size = { width = 1000 height = 750 }
+		size = { width = 985 height = 740 }
 		fade_time = 200
 		fade_type = linear
 		click_to_front = yes
+		moveable = yes
 		show_sound = menu_open_window
 		
 		background = {
@@ -303,7 +304,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "cabinet_kor_ui_title"
-				position = { x = 75 y = 30 }
+				position = { x = 80 y = 30 }
 				textureFile = ""
 				font = "hoi_36header"
 				text = "[This.Cabinet_Title]"
@@ -445,11 +446,191 @@ guiTypes = {
 				allwaystransparent = yes
 			}
 
+
+			iconType = { #직책명 배경
+				name = "EM_rank_frame"
+				spriteType = "GFX_pol_leader_rank_frame"
+				position = { x = 260 y = 402 }
+			}
+			
+			instantTextboxType = { #직책명
+				name = "EM_rank"
+				position = { x = 268 y = 411 }
+				font = "hoi_20b"
+				text = "[This.EM_rank]"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+				allwaystransparent = yes
+			}
+			
+			iconType = { #초상화
+				name = "EM"
+				position = { x = 268 y = 450 }
+				spriteType = "GFX_leader_unknown"
+			}
+			
+			iconType = { #초상화 프레임
+				name = "EM_frame"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = 260 y = 436 }
+				pdx_tooltip = "EM_name_tt"
+				pdx_tooltip_delayed = "EM_desc_tt"
+			}
+					
+			instantTextboxType = { #인물명
+				name = "EM_name"
+				position = { x = 268 y = 662 }
+				font = "hoi_18mbs"
+				text = "[This.EM_name]"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+				allwaystransparent = yes
+			}
+
+
+			iconType = { #직책명 배경
+				name = "FM_rank_frame"
+				spriteType = "GFX_pol_leader_rank_frame"
+				position = { x = 440 y = 402 }
+			}
+			
+			instantTextboxType = { #직책명
+				name = "FM_rank"
+				position = { x = 448 y = 411 }
+				font = "hoi_20b"
+				text = "[This.FM_rank]"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+				allwaystransparent = yes
+			}
+			
+			iconType = { #초상화
+				name = "FM"
+				position = { x = 448 y = 450 }
+				spriteType = "GFX_leader_unknown"
+			}
+			
+			iconType = { #초상화 프레임
+				name = "FM_frame"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = 440 y = 436 }
+				pdx_tooltip = "FM_name_tt"
+				pdx_tooltip_delayed = "FM_desc_tt"
+			}
+					
+			instantTextboxType = { #인물명
+				name = "FM_name"
+				position = { x = 448 y = 662 }
+				font = "hoi_18mbs"
+				text = "[This.FM_name]"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+				allwaystransparent = yes
+			}
+
+
+			iconType = { #직책명 배경
+				name = "MM_rank_frame"
+				spriteType = "GFX_pol_leader_rank_frame"
+				position = { x = 620 y = 402 }
+			}
+			
+			instantTextboxType = { #직책명
+				name = "MM_rank"
+				position = { x = 628 y = 411 }
+				font = "hoi_20b"
+				text = "[This.MM_rank]"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+				allwaystransparent = yes
+			}
+			
+			iconType = { #초상화
+				name = "MM"
+				position = { x = 628 y = 450 }
+				spriteType = "GFX_leader_unknown"
+			}
+			
+			iconType = { #초상화 프레임
+				name = "MM_frame"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = 620 y = 436 }
+				pdx_tooltip = "MM_name_tt"
+				pdx_tooltip_delayed = "MM_desc_tt"
+			}
+					
+			instantTextboxType = { #인물명
+				name = "MM_name"
+				position = { x = 628 y = 662 }
+				font = "hoi_18mbs"
+				text = "[This.MM_name]"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+				allwaystransparent = yes
+			}
+
+
+			iconType = { #직책명 배경
+				name = "IM_rank_frame"
+				spriteType = "GFX_pol_leader_rank_frame"
+				position = { x = 800 y = 402 }
+			}
+			
+			instantTextboxType = { #직책명
+				name = "IM_rank"
+				position = { x = 808 y = 411 }
+				font = "hoi_20b"
+				text = "[This.IM_rank]"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+				allwaystransparent = yes
+			}
+			
+			iconType = { #초상화
+				name = "IM"
+				position = { x = 808 y = 450 }
+				spriteType = "GFX_leader_unknown"
+			}
+			
+			iconType = { #초상화 프레임
+				name = "IM_frame"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = 800 y = 436 }
+				pdx_tooltip = "IM_name_tt"
+				pdx_tooltip_delayed = "IM_desc_tt"
+			}
+					
+			instantTextboxType = { #인물명
+				name = "IM_name"
+				position = { x = 808 y = 662 }
+				font = "hoi_18mbs"
+				text = "[This.IM_name]"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+				allwaystransparent = yes
+			}
+
 			
 			buttonType = {
 				name = "close"
 				spriteType = "GFX_closebutton"
-				position = { x = 997 y = 10 }
+				position = { x = 982 y = 10 }
 				clicksound = click_close
 				pdx_tooltip = "닫기"
 				shortcut = "ESCAPE"

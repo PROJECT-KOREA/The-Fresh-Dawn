@@ -22,7 +22,7 @@ KOR_constituent_national_assembly_decision = {
 		complete_effect = {
 			hidden_effect = {
 				country_event = {
-					id = pk_korea_kpg.8
+					id = kor_kpg_internal.8
 					days = 10
 				}
 			}

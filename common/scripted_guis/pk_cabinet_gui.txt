@@ -19,7 +19,6 @@ scripted_gui = {
 
 	cabinet_start = {
 		context_type = player_context
-		context_type = politics_tab
 		window_name = "cabinet_start_ui_window"
 		
 		ai_check = { always = no }
@@ -37,7 +36,6 @@ scripted_gui = {
 
 	cabinet_woi = {
 		context_type = player_context
-		context_type = politics_tab
 		window_name = "cabinet_woi_ui_window"
 		
 		ai_check = { always = no }
@@ -61,14 +59,16 @@ scripted_gui = {
 
 	cabinet_kor = {
 		context_type = player_context
-		context_type = politics_tab
 		window_name = "cabinet_kor_ui_window"
 		
 		ai_check = { always = no }
 		
 		visible = {
 			has_country_flag = show_double_leader
-			has_country_flag = KOR_flag_kpg
+			OR = {
+				has_country_flag = KOR_flag_kpg
+				has_country_flag = KOR_flag_rok
+			}
 		}
 		
 		effects = { close_click = { clr_country_flag = show_double_leader } }
@@ -76,6 +76,11 @@ scripted_gui = {
 		properties = {
 			HoS = { image = "[This.HoS_portrait]" }
 			HoG = { image = "[This.HoG_portrait]" }
+			SM = { image = "[This.SM_portrait]" }
+			EM = { image = "[This.EM_portrait]" }
+			FM = { image = "[This.FM_portrait]" }
+			MM = { image = "[This.MM_portrait]" }
+			IM = { image = "[This.IM_portrait]" }
 		}
 	}
 }

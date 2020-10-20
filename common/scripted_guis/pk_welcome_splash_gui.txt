@@ -11,7 +11,9 @@ scripted_gui = {
 		effects = {
 			mod_options_button_click = {
 				clr_country_flag = show_welcome_splash
-				country_event = pk_startup.1
+				# country_event = pk_startup.1
+				set_country_flag = TNO_opening_screen_show
+				set_country_flag = OPEN_view_country_info
 			}
 		}
 	}
