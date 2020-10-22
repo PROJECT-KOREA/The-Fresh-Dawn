@@ -650,6 +650,76 @@ bitmapfonts = {
 		}
 	}
 
+
+
+	bitmapfont = {
+		name = "aldrich_48_outline_b"
+		path = "gfx/fonts/aldrich_48_outline"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "aldrich_36_outline_b"
+		path = "gfx/fonts/aldrich_36_outline"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "aldrich_32_outline_b"
+		path = "gfx/fonts/aldrich_32_outline"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "aldrich_30_outline_b"
+		path = "gfx/fonts/aldrich_30_outline"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "aldrich_24_outline_b"
+		path = "gfx/fonts/aldrich_24_outline"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "aldrich_22_outline_b"
+		path = "gfx/fonts/aldrich_22_outline"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "aldrich_20_outline_b"
+		path = "gfx/fonts/aldrich_20_outline"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "aldrich_18_outline_b"
+		path = "gfx/fonts/aldrich_18_outline"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "aldrich_16_outline_b"
+		path = "gfx/fonts/aldrich_16_outline"
+		color = 0xff000000
+	}
+	
+	bitmapfont = {
+		name = "aldrich_14_outline_b"
+		path = "gfx/fonts/aldrich_14_outline"
+		color = 0xff000000
+	}
+	
+	bitmapfont = {
+		name = "aldrich_12_outline_b"
+		path = "gfx/fonts/aldrich_12_outline"
+		color = 0xff000000
+	}
+
+
+
 	bitmapfont = {
 		name = "Bomb_16"
 		path = "gfx/fonts/Bomb_16"

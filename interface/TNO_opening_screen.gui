@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "TNO_OpeningScreen_OpenButton"
-		position = { x =270 y = 0 }
+		position = { x = 275 y = 7 }
 		Orientation = UPPER_RIGHT
 		origo = UPPER_RIGHT
 		buttonType = {
@@ -84,7 +84,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "TNO_OpeningScreen_Poster"
-			spriteType = "GFX_TNO_OpeningScreen_Poster_Korea"
+			spriteType = "GFX_TNO_OpeningScreen_Poster_GEN"
 			position = { x = 748 y = 33 }
 		}
 		
@@ -114,12 +114,45 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			name = "TNO_OpeningScreen_Text"
+			name = "TNO_OpeningScreen_Text_Country"
 			position = { x = 22 y = 49 }
 			font = "aldrich_24_outline"
-			text = "TNO_DEMO_TEXT_APPEAR"
-			maxWidth = 710
-			maxHeight = 410
+			text = "COUNTRY_INFO_TEXT"
+			maxWidth = 700
+			maxHeight = 380
+			# alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_OpeningScreen_Text_Region"
+			position = { x = 22 y = 49 }
+			font = "aldrich_24_outline"
+			text = "REGIONAL_INFO_TEXT"
+			maxWidth = 700
+			maxHeight = 380
+			# alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_OpeningScreen_Text_Mod_Features"
+			position = { x = 22 y = 49 }
+			font = "aldrich_24_outline"
+			text = "MOD_FEATURES_TEXT"
+			maxWidth = 700
+			maxHeight = 380
+			# alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_OpeningScreen_Text_Mod_Info"
+			position = { x = 22 y = 49 }
+			font = "aldrich_24_outline"
+			text = "MOD_INFO_TEXT"
+			maxWidth = 700
+			maxHeight = 380
 			# alwaystransparent = yes
 			scrollbarType = standardtext_slider
 		}
@@ -138,7 +171,7 @@ guiTypes = {
 		buttonType = {
 			name = "TNO_discord_button"
 			quadTextureSprite = "GFX_discord_button"
-			position = { x = 579 y = 414 }
+			position = { x = 575 y = 409 }
 			web_link = "https://discordapp.com/invite/aDxgUy3"
 		}
 		#buttonType = {

@@ -80,11 +80,6 @@ spriteTypes = {
 	}
 	
 	# Regions
-	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_SouthAfrica"
-		textureFile = "gfx/interface/opening_screen/regions/TNO_OpeningScreen_Poster_SouthAfrica.dds"
-	}
-	
 	SpriteType = {
 		name = "GFX_TNO_OpeningScreen_Region_AMERICA"
 		texturefile = "gfx/interface/opening_screen/regions/AMERICA.dds"
@@ -128,7 +123,15 @@ spriteTypes = {
 
 	# Posters
 	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_Korea"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Korea.dds"
+		name = "GFX_TNO_OpeningScreen_Poster_GGK"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_GGK.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_KOR"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_KOR.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_GEN"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_GEN.dds"
 	}
 }

@@ -1,29 +1,3 @@
-#텍스트
-GET_CURRENT_INTRO_TEXT = {
-	name = GET_CURRENT_INTRO_TEXT
-
-	text = {
-		trigger = { has_country_flag = OPEN_view_country_info }
-		localization_key = COUNTRY_INFO_TEXT
-	}
-
-	text = {
-		trigger = { has_country_flag = OPEN_view_region_info }
-		localization_key = REGIONAL_INFO_TEXT
-	}
-
-	text = {
-		trigger = { has_country_flag = OPEN_view_features_info }
-		localization_key = MOD_FEATURES_TEXT
-	}
-
-	text = {
-		trigger = { has_country_flag = OPEN_view_mod_info }
-		localization_key = MOD_INFO_TEXT
-	}
-
-}
-
 #국가 정보
 GET_COUNTRY_INFO = {
 	name = GET_COUNTRY_INFO
@@ -46,7 +20,14 @@ GET_REGIONAL_INFO = {
 
 	## 일본령 조선
 	text = {
-		trigger = { tag = GGK }
+		trigger = {
+			OR = {
+				tag = GGK
+				tag = KOR
+				tag = JAP
+				tag = CHI
+			}
+		}
 		localization_key = REGIONAL_INFO_ASIA
 	}
 
@@ -82,9 +63,15 @@ GET_POSTER = {
 		localization_key = "GFX_TNO_OpeningScreen_Poster_GGK"
 	}
 
+	#대한민국 임시정부
+	text = {
+		trigger = { tag = KOR }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_KOR"
+	}
+
 	## Default
 	text = {
-		localization_key = "GFX_TNO_OpeningScreen_Poster_ChairmanPink"
+		localization_key = "GFX_TNO_OpeningScreen_Poster_GEN"
 	}
 }
 
