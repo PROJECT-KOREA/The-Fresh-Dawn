@@ -1,5 +1,5 @@
-version = "0.1"
-tags = {
+version="0.1"
+tags={
 	"Alternative History"
 	"Events"
 	"National Focuses"
@@ -9,5 +9,5 @@ dependencies={
 	"Korean Language (Europa)"
 }
 replace_path="gfx/loadingscreens"
-name = "PROJECT KOREA: WAR OF INDEPENDENCE"
-supported_version = "1.10.*"
+name="PROJECT KOREA: WAR OF INDEPENDENCE"
+supported_version="1.10.*"
