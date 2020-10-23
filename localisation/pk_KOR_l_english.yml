@@ -69,6 +69,9 @@
  KOR_command_song_hosung:0 "송호성"
 
  ## 정치 조언가 ##
+ KOR_advisor_song_jinwoo:0 "송진우"
+ KOR_advisor_pak_hon_yong:0 "박헌영"
+
  KOR_advisor_kim_koo:0 "김구"
  KOR_advisor_kim_kyusik:0 "김규식"
  KOR_advisor_kim_wonbong:0 "김원봉"
@@ -210,7 +213,7 @@
  ##############
 
  ## 독립전쟁 ##
- kor_woi.1.t:0 "군정위원회를 수립 광복군"
+ kor_woi.1.t:0 "군정위원회를 수립한 광복군"
  kor_woi.1.desc:0 "국내진공작전이 성공적으로 진행되면서 평안북도 대부분의 지역을 확보함에 따라, 한국광복군 사령부에서는 해당 지역의 통치와 치안 유지를 위한 군정위원회를 수립하였습니다.\n\n군정장관에는 광복군 총사령관 지청천 장군이 임명되었으며, 민정장관에는 여운형이 임명되었습니다."
  kor_woi.1.a:0 "그렇군."
 

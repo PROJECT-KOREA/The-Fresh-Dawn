@@ -125,8 +125,8 @@ create_country_leader = {
 
 #육군 원수
 create_field_marshal = {
-	name = "Ji Cheong-cheon"
-	picture = ""
+	name = "Ji Cheongcheon"
+	picture = "Portrait_Ji_Cheongcheon_Army.dds"
 	traits = {
 		#뒷배경
 		brilliant_strategist #명석한 전략가
@@ -137,8 +137,8 @@ create_field_marshal = {
 		#원수 특성
 		offensive_doctrine #공세적 교리
 	}
-	skill = 4
-	attack_skill = 2
+	skill = 5
+	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 3
@@ -146,8 +146,8 @@ create_field_marshal = {
 
 #육군 대장
 create_corps_commander = {
-	name = "Lee Beom-seok"
-	picture = ""
+	name = "Lee Beomseok"
+	picture = "Portrait_Lee_Beomseok.dds"
 	traits = {		
 		#획득한 특성
 		infantry_leader #보병 지휘관
@@ -155,16 +155,50 @@ create_corps_commander = {
 		#장군 특성
 		infantry_expert #보병 전문가
 	}
-	skill = 3
-	attack_skill = 3
+	skill = 4
+	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 3
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "Kim Won-bong"
-	picture = ""
+	name = "Kim Hong-il"
+	picture = "#"
+	traits = {
+		#배경 특성
+		brilliant_strategist #명석한 전략가
+
+		#장군 특성
+		infantry_expert #보병 전문가
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Hong Saik"
+	picture = "Portrait_Hong_Saik.dds"
+	traits = {
+		#획득한 특성
+		organizer #조직가
+
+		#장군 특성
+		infantry_expert #보병 전문가
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kim Wonbong"
+	picture = "Portrait_Kim_Wonbong.dds"
 	traits = {
 		#획득한 특성
 		trickster #계략꾼
@@ -175,20 +209,6 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Kim Hak-gyu"
-	picture = ""
-	traits = {
-		#획득한 특성
-		organizer #조직가
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }

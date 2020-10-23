@@ -643,6 +643,38 @@ ideas = {
 	#정치 조언가
 	political_advisor = {
 
+		#송진우
+		KOR_advisor_song_jinwoo = {
+
+			allowed = { tag = KOR }
+			
+			visible = {
+				OR = { 
+					has_country_flag = KOR_flag_hpc
+					has_country_flag = KOR_flag_kpg
+				}
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		#박헌영
+		KOR_advisor_pak_hon_yong = {
+
+			allowed = { tag = KOR }
+
+			available = { always = no }
+			
+			visible = {
+				OR = { 
+					has_country_flag = KOR_flag_hpc
+					has_country_flag = KOR_flag_kpg
+				}
+			}
+			
+			traits = { communist_revolutionary }
+		}
+
 		# #김구
 		# KOR_advisor_kim_koo = {
 

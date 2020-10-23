@@ -19,6 +19,7 @@ scripted_gui = {
 
 	cabinet_start = {
 		context_type = player_context
+		parent_window_token = top_bar
 		window_name = "cabinet_start_ui_window"
 		
 		ai_check = { always = no }
@@ -36,6 +37,7 @@ scripted_gui = {
 
 	cabinet_woi = {
 		context_type = player_context
+		parent_window_token = top_bar
 		window_name = "cabinet_woi_ui_window"
 		
 		ai_check = { always = no }
@@ -59,6 +61,7 @@ scripted_gui = {
 
 	cabinet_kor = {
 		context_type = player_context
+		parent_window_token = top_bar
 		window_name = "cabinet_kor_ui_window"
 		
 		ai_check = { always = no }

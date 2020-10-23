@@ -92,15 +92,18 @@ spriteTypes = {
 		name = "GFX_idea_KOR_CoA_Ji_Cheongcheon"
 		texturefile = "gfx/interface/ideas/KOR/KOR_Ji_Cheongcheon_army.dds"
 	}
-
 	spriteType = {
 		name = "GFX_idea_KOR_CoA_Lee_Beomseok"
 		texturefile = "gfx/interface/ideas/KOR/KOR_Lee_Beomseok_army.dds"
 	}
-
 	spriteType = {
 		name = "GFX_idea_KOR_CoA_Hong_Saik"
 		texturefile = "gfx/interface/ideas/KOR/KOR_Hong_Saik.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KOR_command_kim_hongil"
+		texturefile = "gfx/interface/ideas/KOR/KOR_Kim_Hongil.dds"
 	}
 
 
@@ -119,6 +122,16 @@ spriteTypes = {
 	}
 
 	# KOR #
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_song_jinwoo"
+		texturefile = "gfx/interface/ideas/KOR/KOR_Song_Jinwoo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_advisor_pak_hon_yong"
+		texturefile = "gfx/interface/ideas/KOR/KOR_Pak_Hon_yong.dds"
+	}
+
+
 	spriteType = {
 		name = "GFX_idea_KOR_advisor_kim_koo"
 		texturefile = "gfx/interface/ideas/KOR/advisor_kim_koo.dds"

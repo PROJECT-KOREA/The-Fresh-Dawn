@@ -469,7 +469,6 @@ ideas = {
 		
 		#김홍일
 		KOR_command_kim_hongil = {
-			picture = no_minister
 			ledger = army
 
 			allowed = {

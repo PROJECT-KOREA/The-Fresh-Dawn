@@ -683,6 +683,12 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
+		name = "aldrich_24_outline_g"
+		path = "gfx/fonts/aldrich_24_outline"
+		color = 0xff606060
+	}
+
+	bitmapfont = {
 		name = "aldrich_22_outline_b"
 		path = "gfx/fonts/aldrich_22_outline"
 		color = 0xff000000

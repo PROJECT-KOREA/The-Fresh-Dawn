@@ -162,15 +162,15 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 		
-		# ButtonType = {
-		# 	name = "sp_tutorial_button"
-		# 	position = { x = 16 y = 138}
-		# 	quadTextureSprite ="GFX_main_lobby_button"	
-		# 	buttonText = "FE_TUTORIAL"
-		# 	buttonFont = "aldrich_24_outline"
-		# 	clicksound = click_default
-		# 	oversound = ui_menu_over
-		# }
+		ButtonType = {
+			name = "sp_tutorial_button"
+			position = { x = 16 y = 6000}
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "FE_TUTORIAL"
+			buttonFont = "aldrich_24_outline"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
 		
 		ButtonType = {
 			name = "sp_back_button"
@@ -203,7 +203,7 @@ guiTypes = {
 			name ="version_label"
 			position = { x = 650 y = -28 }
 			textureFile = ""
-			font = "aldrich_24_outline"
+			font = "aldrich_24_outline_g"
 			borderSize = { x = 0 y = 0 }
 			text = "V1.0.3"
 			format = right
@@ -211,18 +211,18 @@ guiTypes = {
 			maxHeight = 20
 		}
 
-		instantTextBoxType = {
-			name ="tno_version_label"
-			position = { x = 100 y = -28 }
-			textureFile = ""
-			font = "aldrich_24_outline"
-			borderSize = {x = 0 y = 0}
-			text = tno_current_version
-			format = left
-			maxWidth = 300
-			maxHeight = 20
-			pdx_tooltip = tno_current_version_date
-		}
+		# instantTextBoxType = {
+		# 	name ="tno_version_label"
+		# 	position = { x = 100 y = -28 }
+		# 	textureFile = ""
+		# 	font = "aldrich_24_outline"
+		# 	borderSize = {x = 0 y = 0}
+		# 	text = "BETA 0.1"
+		# 	format = left
+		# 	maxWidth = 300
+		# 	maxHeight = 20
+		# 	pdx_tooltip = "Oct 23, 2020"
+		# }
 
 		#ghost window used for buttons background
 		containerWindowType = {
@@ -387,44 +387,44 @@ guiTypes = {
 			}
 		}
 		
-		# ButtonType = {
-		# 	name = "homepage_button"
-		# 	position = { x=0 y=0 }
-		# 	quadTextureSprite ="homepage"
-		# 	clicksound = click_default
-		# 	pdx_tooltip = "MENU_HOMEPAGE"
-		# }
-		# ButtonType = {
-		# 	name = "forum_button"
-		# 	position = { x=50 y=0 }
-		# 	quadTextureSprite ="forum"
-		# 	clicksound = click_default
-		# 	pdx_tooltip = "MENU_FORUM"
-		# 	web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
-		# }
-		# ButtonType = {
-		# 	name = "facebook_button"
-		# 	position = { x=100 y=0 }
-		# 	quadTextureSprite ="facebook"
-		# 	clicksound = click_default
-		# 	pdx_tooltip = "MENU_FACEBOOK"
-		# 	web_link = "https://www.facebook.com/Heartsofiron"
-		# }
-		# ButtonType = {
-		# 	name = "twitter_button"
-		# 	position = { x=150 y=0 }
-		# 	quadTextureSprite ="twitter"
-		# 	#clicksound = click_default
-		# 	pdx_tooltip = "MENU_TWITTER"
-		# 	web_link = "https://twitter.com/hoi_game"
-		# }
-		# ButtonType = {
-		# 	name = "privacy_policy_button"
-		# 	position = { x=200 y=0 }
-		# 	quadTextureSprite ="privacy"
-		# 	#clicksound = click_default
-		# 	pdx_tooltip = "MENU_PRIVACY_POLICY"
-		# }
+		ButtonType = {
+			name = "homepage_button"
+			position = { x=0 y=6000 }
+			quadTextureSprite ="homepage"
+			clicksound = click_default
+			pdx_tooltip = "MENU_HOMEPAGE"
+		}
+		ButtonType = {
+			name = "forum_button"
+			position = { x=50 y=6000 }
+			quadTextureSprite ="forum"
+			clicksound = click_default
+			pdx_tooltip = "MENU_FORUM"
+			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
+		}
+		ButtonType = {
+			name = "facebook_button"
+			position = { x=100 y=6000 }
+			quadTextureSprite ="facebook"
+			clicksound = click_default
+			pdx_tooltip = "MENU_FACEBOOK"
+			web_link = "https://www.facebook.com/Heartsofiron"
+		}
+		ButtonType = {
+			name = "twitter_button"
+			position = { x=150 y=6000 }
+			quadTextureSprite ="twitter"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_TWITTER"
+			web_link = "https://twitter.com/hoi_game"
+		}
+		ButtonType = {
+			name = "privacy_policy_button"
+			position = { x=200 y=6000 }
+			quadTextureSprite ="privacy"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_PRIVACY_POLICY"
+		}
 	}
 
 	## This position needs updated
