@@ -164,7 +164,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Kim Hong-il"
-	picture = "#"
+	picture = "Portrait_Ji_Kim_Hong_il.dds"
 	traits = {
 		#배경 특성
 		brilliant_strategist #명석한 전략가
