@@ -39,6 +39,18 @@ defined_text = {
 		}
 		localization_key = cabinet_kim_koo
 	}
+
+	#이승만 행정부
+	text = {
+		trigger = {
+			has_country_flag = KOR_flag_rok
+			has_country_leader = {
+				name = "Syngman Rhee"
+				ruling_only = yes
+			}
+		}
+		localization_key = cabinet_syngman_rhee
+	}
 }
 
 defined_text = {
@@ -100,6 +112,20 @@ defined_text = {
 		}
 		localization_key = GFX_Portrait_Kim_Koo
 	}
+
+	#이승만
+	text = {
+		trigger = {
+			AND = {
+				has_country_flag = KOR_flag_rok
+				has_country_leader = {
+				name = "Syngman Rhee"
+					ruling_only = yes
+				}
+			}
+		}
+		localization_key = GFX_Portrait_Syngman_Rhee
+	}
 }
 
 defined_text = {
@@ -136,6 +162,17 @@ defined_text = {
 			}
 		}
 		localization_key = kim_koo
+	}
+
+	#이승만
+	text = {
+		trigger = {
+			has_country_leader = {
+				name = "Syngman Rhee"
+				ruling_only = yes
+			}
+		}
+		localization_key = syngman_rhee
 	}
 }
 

@@ -27,9 +27,9 @@ state = {
 		}
 	}
 
-	resources = {
-		steel = 40
-	}
+	# resources = {
+	# 	steel = 40
+	# }
 
 	provinces = {
 		1054 4056 10085 12060 13251

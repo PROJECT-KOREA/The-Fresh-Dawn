@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 20
+			add = 30
 			tag = KOR
 			has_global_flag = kor_woi_over
 		}
@@ -367,11 +367,11 @@ focus_tree = {
 				set_cosmetic_tag = KOR_proclaimed
 				set_party_name = { 
 					ideology = neutrality
-					long_name = KOR_neutrality_party_nrc_long 
-					name = KOR_neutrality_party_nrc
+					long_name = KOR_neutrality_party_ena_long
+					name = KOR_neutrality_party_ena
 				}
 				create_country_leader = {
-					name = "National Representative Committee"
+					name = "Constituent National Assembly"
 					desc = ""
 					picture = "gfx/leaders/KOR/Portrait_CPKI.dds"
 					expire = "1965.1.1"

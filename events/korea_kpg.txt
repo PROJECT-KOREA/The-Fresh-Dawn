@@ -388,7 +388,7 @@ country_event = {
         set_politics = { ruling_party = democratic }
         create_country_leader = {
             name = "Kim Koo"
-            desc = "POLITICS_Kim_Koo_DESC"
+            desc = "POLITICS_KIM_KOO_DESC"
             picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
             expire = "1965.1.1"
             ideology = national_conservatism
@@ -404,8 +404,8 @@ country_event = {
                 FM_No_One
                 MM_No_One
             }
+            load_focus_tree = KOR_Kim_Koo
         }
-        load_focus_tree = KOR_Kim_Koo
     }
 }
 
@@ -423,6 +423,7 @@ country_event = {
         name = kor_kpg_election.2.a
         clr_country_flag = KOR_flag_kpg
         set_country_flag = KOR_flag_rok
+        set_country_flag = KOR_rnc
         set_party_name = { 
             ideology = democratic 
             long_name = KOR_democratic_party_rnc_long 
@@ -431,13 +432,23 @@ country_event = {
         set_politics = { ruling_party = democratic }
         create_country_leader = {
             name = "Syngman Rhee"
-            desc = "POLITICS_Kim_Koo_DESC"
+            desc = "POLITICS_SYNGMAN_RHEE_DESC"
             picture = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
             expire = "1965.1.1"
             ideology = conservatism
             traits = {
 
             }
+        }
+        hidden_effect = {
+            add_ideas = {
+                HoG_No_One
+                SM_No_One
+                EM_No_One
+                FM_No_One
+                MM_No_One
+            }
+            load_focus_tree = KOR_Syngman_Rhee
         }
     }
 }
@@ -456,21 +467,32 @@ country_event = {
         name = kor_kpg_election.3.a
         clr_country_flag = KOR_flag_kpg
         set_country_flag = KOR_flag_rok
+        set_country_flag = KOR_kpp
         set_party_name = { 
             ideology = democratic 
             long_name = KOR_democratic_party_kpp_long 
             name = KOR_democratic_party_kpp
         }
         set_politics = { ruling_party = democratic }
-        create_country_leader = {
-            name = "Lyuh Woonhyung"
-            desc = "POLITICS_Kim_Koo_DESC"
-            picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
-            expire = "1965.1.1"
-            ideology = socialism
-            traits = {
+        # create_country_leader = {
+        #     name = "Lyuh Woonhyung"
+        #     desc = "POLITICS_LYUH_WOONHYUNG_DESC"
+        #     picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+        #     expire = "1965.1.1"
+        #     ideology = socialism
+        #     traits = {
 
+        #     }
+        # }
+        hidden_effect = {
+            add_ideas = {
+                HoG_No_One
+                SM_No_One
+                EM_No_One
+                FM_No_One
+                MM_No_One
             }
+            load_focus_tree = KOR_Lyuh_Woonhyung
         }
     }
 }

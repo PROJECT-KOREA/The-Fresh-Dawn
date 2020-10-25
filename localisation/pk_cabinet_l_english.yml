@@ -88,6 +88,7 @@
  cabinet_hpc:0 "한성정무위원회"
  cabinet_kpg:0 "임시정부 국무위원회"
  cabinet_kim_koo:0 "김구 행정부"
+ cabinet_syngman_rhee:0 "이승만 행정부"
 
  ### 직책명 ###
  # 국가원수 #
