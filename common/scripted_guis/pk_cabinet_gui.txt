@@ -7,14 +7,25 @@ scripted_gui = {
 		
 		ai_check = { always = no }
 		visible = { tag = KOR }
-		
-		triggers = {
-			cabinet_button_click_enabled = {
-				NOT = { has_country_flag = show_double_leader }
+
+		effects = {
+			cabinet_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_cabinet } }
+					set_country_flag = show_cabinet
+				}
+				else_if = {
+					limit = { has_country_flag = show_cabinet }
+					clr_country_flag = show_cabinet
+				}
 			}
 		}
-
-		effects = { cabinet_button_click = { set_country_flag = show_double_leader } }
+		
+		triggers = {
+			# cabinet_button_click_enabled = {
+			# 	NOT = { has_country_flag = show_cabinet }
+			# }
+		}
 	}
 
 	cabinet_start = {
@@ -25,14 +36,14 @@ scripted_gui = {
 		ai_check = { always = no }
 		
 		visible = {
-			has_country_flag = show_double_leader
+			has_country_flag = show_cabinet
             has_country_leader = {
                 name = "Korean Independence Army"
                 ruling_only = yes
             }
 		}
 		
-		effects = { close_click = { clr_country_flag = show_double_leader } }
+		effects = { close_click = { clr_country_flag = show_cabinet } }
 	}
 
 	cabinet_woi = {
@@ -43,7 +54,7 @@ scripted_gui = {
 		ai_check = { always = no }
 		
 		visible = {
-			has_country_flag = show_double_leader
+			has_country_flag = show_cabinet
 			OR = {
 				has_country_flag = KOR_flag_kia_mpc
 				has_country_flag = KOR_flag_hpc
@@ -51,7 +62,7 @@ scripted_gui = {
 			NOT = { has_country_flag = KOR_flag_kpg }
 		}
 		
-		effects = { close_click = { clr_country_flag = show_double_leader } }
+		effects = { close_click = { clr_country_flag = show_cabinet } }
 
 		properties = {
 			HoS = { image = "[This.HoS_portrait]" }
@@ -67,14 +78,14 @@ scripted_gui = {
 		ai_check = { always = no }
 		
 		visible = {
-			has_country_flag = show_double_leader
+			has_country_flag = show_cabinet
 			OR = {
 				has_country_flag = KOR_flag_kpg
 				has_country_flag = KOR_flag_rok
 			}
 		}
 		
-		effects = { close_click = { clr_country_flag = show_double_leader } }
+		effects = { close_click = { clr_country_flag = show_cabinet } }
 
 		properties = {
 			HoS = { image = "[This.HoS_portrait]" }
