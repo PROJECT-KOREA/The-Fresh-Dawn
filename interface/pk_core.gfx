@@ -618,7 +618,7 @@ objectTypes = {
 		textblock = {
 			text = "test!"
 			color = { 1.0 1.0 0.0 }
-			font = "Main_14_bold"
+			font = "AnimatedMapText"
 			position = { x=0 y=40 }
 			size = { x=256 y = 64  }
 			format = centre
@@ -632,7 +632,7 @@ objectTypes = {
 		textblock = {
 			text = "test!"
 			color = { 1.0 1.0 0.0 }
-			font = "Main_14_bold"
+			font = "AnimatedMapText"
 			position = { x=0 y=40 }
 			size = { x=256 y = 64  }
 			format = centre
@@ -645,7 +645,7 @@ objectTypes = {
 		textblock = {
 			text = "test!"
 			color = { 0.8 0.8 0.0 }
-			font = "Main_14_bold"
+			font = "AnimatedMapText"
 			position = { x=0 y=40 }
 			size = { x=256 y = 64  }
 			format = centre
@@ -657,7 +657,7 @@ objectTypes = {
 		textblock = {
 			text = "txt"
 			color = { 1.0 0.0 0.0 }
-			font = "Main_14_bold"
+			font = "AnimatedMapText"
 			position = { x=0 y=40 }
 			size = { x=256 y = 64  }
 			format = centre
@@ -670,7 +670,7 @@ objectTypes = {
 		textblock = {
 			text = "txt"
 			color = { 0.9 0.9 0.0 }
-			font = "Main_14_bold"
+			font = "AnimatedMapText"
 			position = { x=0 y=40 }
 			size = { x=1256 y = 164  }
 			format = centre
@@ -733,7 +733,11 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "ToolTip_Font"
-		path = "gfx/fonts/garamond_16"
+#		path = "gfx/fonts/garamond_16"
+		fontfiles = {
+			"gfx/fonts/garamond_16"
+			"gfx/fonts/garamond_16_kor"
+		}
 		color = 0xffffffff
 
 		
@@ -741,7 +745,11 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "ToolTip_Font_Big"
-		path = "gfx/fonts/garamond_16_bold"
+#		path = "gfx/fonts/garamond_16_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_16_bold"
+			"gfx/fonts/garamond_16_bold_kor"
+		}
 		color = 0xffffffff
 
 		
@@ -749,27 +757,41 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "standard_18"
-		path = "gfx/fonts/hoi_18"
+#		path = "gfx/fonts/standard_18"
+		fontfiles = {
+			"gfx/fonts/standard_18"
+			"gfx/fonts/standard_18_kor"
+		}
 		color = 0xffffffff
 	}
 	
 	bitmapfont = {
 		name = "standard_22"
-		path = "gfx/fonts/standard_22"
+#		path = "gfx/fonts/standard_22"
+		fontfiles = {
+			"gfx/fonts/standard_22"
+			"gfx/fonts/standard_22_kor"
+		}
 		color = 0xffffffff
 	}
 	
 	bitmapfont = {
 		name = "mapfont_small"
-		path = "gfx/fonts/standard_22"
-		color = 0xff000000
+#		path = "gfx/fonts/vic_22_bl"
+		fontfiles = {
+			"gfx/fonts/vic_22_bl"
+			"gfx/fonts/vic_22_bl_kor"
+		}
+		color = 0xff000000	
 	}
 	
 	bitmapfont = {
 		name = "AnimatedMapText"
 #		path = "gfx/fonts/hoi_16mbs"
-		fontfiles = { 
+		fontfiles = {
 			"gfx/fonts/hoi_18"
+			"gfx/fonts/hoi_18_cryllic"
+			"gfx/fonts/hoi_18_kor"
 		}
 		color = 0xff7799ff
 	}
@@ -777,139 +799,231 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "DebugFont"
-		path = "gfx/fonts/garamond_14"
+#		path = "gfx/fonts/garamond_14"
+		fontfiles = {
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/garamond_14_kor"
+		}
 		color = 0xff7799ff
 	}
 	
 
 	bitmapfont = {
 		name = "Main_24"
-		path = "gfx/fonts/garamond_24"
+#		path = "gfx/fonts/garamond_24"
+		fontfiles = {
+			"gfx/fonts/garamond_24"
+			"gfx/fonts/garamond_24_kor"
+		}
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_24_black"
-		path = "gfx/fonts/garamond_24"
+#		path = "gfx/fonts/garamond_24"
+		fontfiles = {
+			"gfx/fonts/garamond_24"
+			"gfx/fonts/garamond_24_kor"
+		}
 		color = 0xff000000
 	}
 
 	bitmapfont = {
 		name = "pie_headline_20"
-		path = "gfx/fonts/garamond_24"
+#		path = "gfx/fonts/garamond_24"
+		fontfiles = {
+			"gfx/fonts/garamond_24"
+			"gfx/fonts/garamond_24_kor"
+		}
 		color = 0xff000000
 	}
 
 	bitmapfont = {
 		name = "messagelog"
-		path = "gfx/fonts/garamond_16_bold"
+#		path = "gfx/fonts/garamond_16_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_16_bold"
+			"gfx/fonts/garamond_16_bold_kor"
+		}
 		color = 0xffffff99
 	}
 
 	bitmapfont = {
 		name = "Main_16"
-		path = "gfx/fonts/garamond_16_bold"
+#		path = "gfx/fonts/garamond_16_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_16_bold"
+			"gfx/fonts/garamond_16_bold_kor"
+		}
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_16_white_bold"
-		path = "gfx/fonts/garamond_16_bold"
+#		path = "gfx/fonts/garamond_16_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_16_bold"
+			"gfx/fonts/garamond_16_bold_kor"
+		}
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_16_black"
-		path = "gfx/fonts/garamond_16_bold"
+#		path = "gfx/fonts/garamond_16_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_16_bold"
+			"gfx/fonts/garamond_16_bold_kor"
+		}
 		color = 0xff000000
 	}
 
 
 	bitmapfont = {
 		name = "Main_14"
-		path = "gfx/fonts/garamond_14"
+#		path = "gfx/fonts/garamond_14"
+		fontfiles = {
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/garamond_14_kor"
+		}
 		color = 0xffffffff
 		border_color = 0x00000000
 	}
 	bitmapfont = {
 		name = "Main_14_plain"
-		path = "gfx/fonts/garamond_14"
+#		path = "gfx/fonts/garamond_14"
+		fontfiles = {
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/garamond_14_kor"
+		}
 		color = 0xff000000
 	}
 
 
 	bitmapfont = {
 		name = "Main_14_grey"
-		path = "gfx/fonts/garamond_14"
+#		path = "gfx/fonts/garamond_14"
+		fontfiles = {
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/garamond_14_kor"
+		}
 		color = 0xffbbbbbb
 	}
 
 	bitmapfont = {
 		name = "Main_16_plain"
-		path = "gfx/fonts/garamond_16"
+#		path = "gfx/fonts/garamond_16"
+		fontfiles = {
+			"gfx/fonts/garamond_16"
+			"gfx/fonts/garamond_16_kor"
+		}
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "Main_14_black"
-		path = "gfx/fonts/garamond_14_bold"
+#		path = "gfx/fonts/garamond_14_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_14_bold"
+			"gfx/fonts/garamond_14_bold_kor"
+		}
 		color = 0xff000000
 	}
 	bitmapfont = {
 		name = "Main_14_red"
-		path = "gfx/fonts/garamond_14_bold"
+#		path = "gfx/fonts/garamond_14_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_14_bold"
+			"gfx/fonts/garamond_14_bold_kor"
+		}
 		color = 0xffff0000
 	}
 	bitmapfont = {
 		name = "Main_14_bold"
-		path = "gfx/fonts/garamond_14_bold"
+#		path = "gfx/fonts/garamond_14_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_14_bold"
+			"gfx/fonts/garamond_14_bold_kor"
+		}
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "Main_14_orange"
-		path = "gfx/fonts/garamond_14_bold"
+#		path = "gfx/fonts/garamond_14_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_14_bold"
+			"gfx/fonts/garamond_14_bold_kor"
+		}
 		color = 0xffffbb00
 	}
 
 	bitmapfont = {
 		name = "Main_14_eu"
-		path = "gfx/fonts/garamond_14"
+#		path = "gfx/fonts/garamond_14"
+		fontfiles = {
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/garamond_14_kor"
+		}
 		color = 0xffaaffff
 	}
 
 
 	bitmapfont = {
 		name = "garamond_14"
-		path = "gfx/fonts/garamond_14"
+#		path = "gfx/fonts/garamond_14"
+		fontfiles = {
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/garamond_14_kor"
+		}
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "garamond_14_bold"
-		path = "gfx/fonts/garamond_14_bold"
+#		path = "gfx/fonts/garamond_14_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_14_bold"
+			"gfx/fonts/garamond_14_bold_kor"
+		}
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "garamond_14_bold_orange"
-		path = "gfx/fonts/garamond_14_bold"
+#		path = "gfx/fonts/garamond_14_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_14_bold"
+			"gfx/fonts/garamond_14_bold_kor"
+		}
 		color = 0xffffc000
 	}
 
 	bitmapfont = {
 		name = "ledger"
-		path = "gfx/fonts/garamond_14"
+#		path = "gfx/fonts/garamond_14"
+		fontfiles = {
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/garamond_14_kor"
+		}
 		color = 0xff000000
 	}
 
 	bitmapfont = {
 		name = "ledger_headline"
-		path = "gfx/fonts/garamond_16_bold"
+#		path = "gfx/fonts/garamond_16_bold"
+		fontfiles = {
+			"gfx/fonts/garamond_16"
+			"gfx/fonts/garamond_16_kor"
+		}
 		color = 0xff000000
 	}
 
 	bitmapfont = {
 		name = "vic_18_black"
-		path = "gfx/fonts/hoi_18"
-		color = 0xff000000
+#		path = "gfx/fonts/vic_18"
+		fontfiles = {
+			"gfx/fonts/vic_18"
+			"gfx/fonts/vic_18_kor"
+		}
+		color = 0xff000000	
 
 		textcolors = {
 			G = { 24 112 26 }
@@ -922,7 +1036,11 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "vic_18"
-		path = "gfx/fonts/hoi_18"
+#		path = "gfx/fonts/vic_18"
+		fontfiles = {
+			"gfx/fonts/vic_18"
+			"gfx/fonts/vic_18_kor"
+		}
 		color = 0xffffffff
 		
 		
@@ -935,9 +1053,24 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
+	
+	bitmapfont_override = {
+		name = "vic_18"
+		fontfiles = {
+			"gfx/fonts/hoi_18"
+			"gfx/fonts/hoi_18_cryllic"
+			"gfx/fonts/hoi_18_kor"
+		}
+		languages = { "l_russian" "l_polish" }
+	}
+	
 	bitmapfont = {
 		name = "vic_18s"
-		path = "gfx/fonts/hoi_18"
+#		path = "gfx/fonts/vic_18s"
+		fontfiles = {
+			"gfx/fonts/vic_18s"
+			"gfx/fonts/vic_18s_kor"
+		}
 		color = 0xffffffff
 		
 		
@@ -953,7 +1086,11 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "vic_18_grey"
-		path = "gfx/fonts/hoi_18"
+#		path = "gfx/fonts/vic_18_grey"
+		fontfiles = {
+			"gfx/fonts/vic_18_grey"
+			"gfx/fonts/vic_18_grey_kor"
+		}
 		color = 0xffffffff
 		
 
@@ -969,8 +1106,12 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "vic_22_black"
-		path = "gfx/fonts/standard_22"
-		color = 0xff000000
+#		path = "gfx/fonts/vic_22"
+		fontfiles = {
+			"gfx/fonts/vic_22"
+			"gfx/fonts/vic_22_kor"
+		}
+		color = 0xff000000	
 
 		textcolors = {
 			G = { 24 112 26 }
@@ -983,7 +1124,11 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/standard_22"
+#		path = "gfx/fonts/vic_22"
+		fontfiles = {
+			"gfx/fonts/vic_22"
+			"gfx/fonts/vic_22_kor"
+		}
 		color = 0xffffffff
 		
 		
@@ -995,9 +1140,24 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
+	
+	bitmapfont_override = {
+		name = "vic_22"
+		fontfiles = {
+			"gfx/fonts/hoi_18"
+			"gfx/fonts/hoi_18_cryllic"
+			"gfx/fonts/hoi_18_kor"
+		}
+		languages = { "l_russian" "l_polish" }
+	}
+	
 	bitmapfont = {
 		name = "vic_22s"
-		path = "gfx/fonts/standard_22"
+#		path = "gfx/fonts/vic_22s"
+		fontfiles = {
+			"gfx/fonts/vic_22s"
+			"gfx/fonts/vic_22s_kor"
+		}
 		color = 0xffffffff
 		
 		
@@ -1012,7 +1172,11 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36_black"
-		path = "gfx/fonts/vic_36"
+#		path = "gfx/fonts/vic_36"
+		fontfiles = {
+			"gfx/fonts/vic_36"
+			"gfx/fonts/vic_36_kor"
+		}
 		color = 0xff000000
 
 		textcolors = {
@@ -1026,7 +1190,11 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "vic_36"
-		path = "gfx/fonts/vic_36"
+#		path = "gfx/fonts/vic_36"
+		fontfiles = {
+			"gfx/fonts/vic_36"
+			"gfx/fonts/vic_36_kor"
+		}
 		color = 0xffffffff
 				
 		textcolors = {
@@ -1037,9 +1205,24 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
+	
+	bitmapfont_override = {
+		name = "vic_36"
+		fontfiles = { 
+			"gfx/fonts/hoi_26mbs"
+			"gfx/fonts/hoi_26mbs_cryllic"
+			"gfx/fonts/hoi_26mbs_kor"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+	
 	bitmapfont = {
 		name = "vic_36s"
-		path = "gfx/fonts/vic_36"
+#		path = "gfx/fonts/vic_36s"
+		fontfiles = {
+			"gfx/fonts/vic_36s"
+			"gfx/fonts/vic_36s_kor"
+		}
 		color = 0xffffffff
 		
 		
@@ -1072,9 +1255,12 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "hoi_16mbs"
-		fontfiles = {
+#		path = "gfx/fonts/hoi_16mbs"
+		fontfiles = { 
 			"gfx/fonts/hoi_16mbs"
-		}
+			"gfx/fonts/hoi_16mbs_cryllic"
+			"gfx/fonts/hoi_16mbs_kor"
+		}		
 		color = 0xffffffff
 
 		textcolors = {
@@ -1088,9 +1274,12 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "hoi_18"
-		fontfiles = {
+#		path = "gfx/fonts/hoi_18"
+		fontfiles = { 
 			"gfx/fonts/hoi_18"
-		}
+			"gfx/fonts/hoi_18_cryllic"		
+			"gfx/fonts/hoi_18_kor"		
+		}	
 		color = 0xffffffff
 
 		textcolors = {
@@ -1104,9 +1293,12 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "hoi_18b"
-		fontfiles = {
+#		path = "gfx/fonts/hoi_18b"
+		fontfiles = { 
 			"gfx/fonts/hoi_18"
-		}
+			"gfx/fonts/hoi_18_cryllic"		
+			"gfx/fonts/hoi_18_kor"		
+		}			
 		color = 0xffffffff
 
 		textcolors = {
@@ -1122,6 +1314,8 @@ bitmapfonts = {
 		name = "hoi_18mbs"
 		fontfiles = { 
 			"gfx/fonts/hoi_18mbs"
+			"gfx/fonts/hoi_18mbs_cryllic"
+			"gfx/fonts/hoi_18mbs_kor"
 		}
 		color = 0xffffffff
 
@@ -1136,8 +1330,10 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "hoi_20b"
-		fontfiles = {
+#		path = "gfx/fonts/hoi_20b"
+		fontfiles = { 
 			"gfx/fonts/hoi_20b"
+			"gfx/fonts/hoi_20b_kor"
 		}		
 		color = 0xffffffff
 
@@ -1154,15 +1350,18 @@ bitmapfonts = {
 		name = "hoi_20b"
 		fontfiles = { 
 			"gfx/fonts/hoi_20b"
-
+			"gfx/fonts/hoi_20b_cryllic"
+			"gfx/fonts/hoi_20b_kor"
 		}
 	languages = { "l_russian" "l_polish" } 
 	}	
 	
 	bitmapfont = {
 		name = "hoi_20bs"
-		fontfiles = {
+#		path = "gfx/fonts/hoi_20bs"
+		fontfiles = { 
 			"gfx/fonts/hoi_20bs"
+			"gfx/fonts/hoi_20bs_kor"
 		}		
 		color = 0xffffffff
 
@@ -1179,7 +1378,8 @@ bitmapfonts = {
 		name = "hoi_20bs"
 		fontfiles = { 
 			"gfx/fonts/hoi_20bs"
-
+			"gfx/fonts/hoi_20bs_cryllic"
+			"gfx/fonts/hoi_20bs_kor"
 		}
 	languages = { "l_russian" "l_polish" } 
 	}	
@@ -1189,6 +1389,7 @@ bitmapfonts = {
 		fontfiles = { 	
 			"gfx/fonts/hoi4_typewriter16"
 			"gfx/fonts/hoi_16typewriter"			
+			"gfx/fonts/hoi_16typewriter_kor"			
 		}		
 		color = 0xff000000
 
@@ -1205,6 +1406,8 @@ bitmapfonts = {
 		name = "hoi4_typewriter16"
 		fontfiles = { 
 			"gfx/fonts/hoi_16typewriter"
+			"gfx/fonts/hoi_16typewriter_cryllic"
+			"gfx/fonts/hoi_16typewriter_kor"			
 		}
 	languages = { "l_russian" "l_polish" } 
 	}
@@ -1213,7 +1416,9 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "hoi4_typewriter16_inverted"
 		fontfiles = { 	
-			"gfx/fonts/hoi_16typewriter"
+			"gfx/fonts/hoi4_typewriter16_inverted"
+			"gfx/fonts/hoi_16typewriter_inverted"			
+			"gfx/fonts/hoi_16typewriter_kor_inverted"			
 		}		
 		color = 0xffffffff
 
@@ -1229,17 +1434,23 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "hoi4_typewriter16_inverted"
 		fontfiles = { 
-			"gfx/fonts/hoi_16typewriter"
+			"gfx/fonts/hoi_16typewriter_inverted"
+			"gfx/fonts/hoi_16typewriter_cryllic_inverted"
+			"gfx/fonts/hoi_16typewriter_kor_inverted"			
 		}
 	languages = { "l_russian" "l_polish" } 
-	}	
+	}		
 	
 	bitmapfont = {
 		name = "hoi4_typewriter22"
-		fontfiles = {
+#		path = "gfx/fonts/hoi4_typewriter22"
+		fontfiles = { 
+			"gfx/fonts/hoi4_typewriter22"		
 			"gfx/fonts/hoi_22typewriter"
-		}
-		color = 0xffffffff
+			"gfx/fonts/hoi_22typewriter_kor"
+#			"gfx/fonts/hoi_22typewriter_cryllic"
+		}		
+		color = 0xff000000
 
 		textcolors = {
 			G = { 86 172 91 }
@@ -1249,19 +1460,25 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
-	
+
 	bitmapfont_override = {
 		name = "hoi4_typewriter22"
 		fontfiles = { 
 			"gfx/fonts/hoi_22typewriter"
+			"gfx/fonts/hoi_22typewriter_cryllic"
+			"gfx/fonts/hoi_22typewriter_kor"
 		}
 	languages = { "l_russian" "l_polish" } 
 	}	
 
 	bitmapfont = {
 		name = "hoi4_typewriter22_inverted"
+#		path = "gfx/fonts/hoi4_typewriter22"
 		fontfiles = { 
-			"gfx/fonts/hoi_22typewriter"
+			"gfx/fonts/hoi4_typewriter22_inverted"		
+			"gfx/fonts/hoi_22typewriter_inverted"
+			"gfx/fonts/hoi_22typewriter_kor_inverted"
+#			"gfx/fonts/hoi_22typewriter_cryllic"
 		}		
 		color = 0xffffffff
 
@@ -1277,17 +1494,22 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "hoi4_typewriter22_inverted"
 		fontfiles = { 
-			"gfx/fonts/hoi_22typewriter"
+			"gfx/fonts/hoi_22typewriter_inverted"
 			"gfx/fonts/hoi_22typewriter_cryllic_inverted"
+			"gfx/fonts/hoi_22typewriter_kor_inverted"
 		}
 	languages = { "l_russian" "l_polish" } 
 	}		
 
 	bitmapfont = {
 		name = "hoi_24header"
-		fontfiles = {
-			"gfx/fonts/hoi_24header"
-		}
+#		path = "gfx/fonts/hoi_24header"
+		fontfiles = { 
+			"gfx/fonts/hoi_24header_kor"		
+			"gfx/fonts/hoi_24header"		
+#			"gfx/fonts/hoi_20bs"
+#			"gfx/fonts/hoi_20bs_cryllic"
+		}		
 		cursor_offset = { 0 4 }
 		color = 0xffffffff
 
@@ -1306,15 +1528,20 @@ bitmapfonts = {
 		fontfiles = { 
 			"gfx/fonts/hoi_20bs"
 			"gfx/fonts/hoi_20bs_cryllic"
+			"gfx/fonts/hoi_20bs_kor"
 		}
 	languages = { "l_russian" "l_polish" } 
 	}		
 	
 	bitmapfont = {
 		name = "hoi_30header"
-		fontfiles = {
+#		path = "gfx/fonts/hoi_30header"
+		fontfiles = { 
+			"gfx/fonts/hoi_30header_kor"
 			"gfx/fonts/hoi_30header"
-		}
+#			"gfx/fonts/hoi_20bs"
+#			"gfx/fonts/hoi_20bs_cryllic"
+		}		
 		color = 0xffffffff
 
 		textcolors = {
@@ -1331,13 +1558,16 @@ bitmapfonts = {
 		fontfiles = { 
 			"gfx/fonts/hoi_20bs"
 			"gfx/fonts/hoi_20bs_cryllic"
+			"gfx/fonts/hoi_20bs_kor"
 		}
 	languages = { "l_russian" "l_polish" } 
 	}	
 	
 	bitmapfont = {
 		name = "hoi_36header"
-		fontfiles = {
+#		path = "gfx/fonts/hoi_30header"
+		fontfiles = { 
+			"gfx/fonts/hoi_36header_kor"
 			"gfx/fonts/hoi_36header"
 		}	
 		color = 0xffffffff
@@ -1356,6 +1586,7 @@ bitmapfonts = {
 		fontfiles = { 
 			"gfx/fonts/hoi_26mbs"
 			"gfx/fonts/hoi_26mbs_cryllic"
+			"gfx/fonts/hoi_26mbs_kor"
 		}
 		languages = { "l_russian" "l_polish" } 
 	}
@@ -1363,7 +1594,9 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "hoi_26header"
 		fontfiles = { 
-			"gfx/fonts/hoi_26mbs" #원본 그대로 폰트
+			"gfx/fonts/hoi_26mbs"
+			"gfx/fonts/hoi_26mbs_cryllic"
+			"gfx/fonts/hoi_26mbs_kor"
 		} 
 		color = 0xffffffff
 
@@ -1380,6 +1613,7 @@ bitmapfonts = {
 		name = "hoi_22tech"
 		fontfiles = { 
 			"gfx/fonts/hoi_22tech"
+			"gfx/fonts/hoi_22tech_kor"
 
 		}		
 		color = 0x44ffffff
@@ -1391,13 +1625,25 @@ bitmapfonts = {
 			H = { 238 201 35 }
 			T = { 255 255 255 }
 		}
-	}	
+	}
+
+	bitmapfont = {
+		name = "hoi_22chat"
+		fontfiles = { 
+			"gfx/fonts/hoi_22tech"
+			"gfx/fonts/hoi_22tech_kor"
+
+		}		
+		color = 0x4ffffffff
+	}
 	
 	bitmapfont = {
 		name = "hoi_33"
-		fontfiles = {
-			"gfx/fonts/hoi_33"
-		}
+#		path = "gfx/fonts/hoi_33"
+		fontfiles = { 
+			"gfx/fonts/hoi_33"		
+			"gfx/fonts/hoi_33_kor"		
+		}		
 		color = 0x44ffffff
 
 		textcolors = {
@@ -1411,9 +1657,10 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "hoi_arrow_font"
-		fontfiles = {
-			"gfx/fonts/hoi_arrow_fontNew"
-		}
+		fontfiles = { 
+			"gfx/fonts/hoi_arrow_font"		
+			"gfx/fonts/hoi_arrow_font_kor"		
+		}		
 		color = 0x44ffffff
 
 		textcolors = {
@@ -1423,11 +1670,16 @@ bitmapfonts = {
 			H = { 238 201 35 }
 			T = { 255 255 255 }
 		}
-	}		
+	}			
 	
 	bitmapfont = {
 		name = "tahoma_60"
-		path = "gfx/fonts/hoi_mapfont4"
+#		path = "gfx/fonts/hoi_mapfont4"
+		fontfiles = { 
+			"gfx/fonts/hoi_mapfont4_kor_1"
+			"gfx/fonts/hoi_mapfont4_kor_2"
+			"gfx/fonts/hoi_mapfont4"
+		}
 		color = 0xffffffff
 	
 		textcolors = {
@@ -1441,7 +1693,11 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "Arial12"
-		path = "gfx/fonts/Arial12"
+#		path = "gfx/fonts/Arial12"
+		fontfiles = { 
+			"gfx/fonts/Arial12"
+			"gfx/fonts/Arial12_kor"	
+		}
 		color = 0xffffffff
 		
 		textcolors = {
@@ -1455,7 +1711,11 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "FPS_Font"
-		path = "gfx/fonts/Arial12"
+#		path = "gfx/fonts/Arial12"
+		fontfiles = { 
+			"gfx/fonts/Arial12"
+			"gfx/fonts/Arial12_kor"	
+		}
 		color = 0xffffffff
 	
 		textcolors = {
@@ -1472,8 +1732,9 @@ bitmapfonts = {
 #		path = "gfx/fonts/cg_16b"
 		fontfiles = { 
 			"gfx/fonts/cg_16b"		
-			"gfx/fonts/hoi_16tooltip3"					
-		}			
+			"gfx/fonts/cg_16b_kor"
+			"gfx/fonts/hoi_16tooltip3"
+		}
 		color = 0xffffffff
 	}
 
@@ -1481,13 +1742,18 @@ bitmapfonts = {
 		name = "cg_16b"
 		fontfiles = { 
 			"gfx/fonts/hoi_16tooltip3"
+			"gfx/fonts/hoi_16tooltip3_kor"
 		}
 	languages = { "l_russian" "l_polish" } 
 	}
 	
 	bitmapfont = {
 		name = "cg_18b"
-		path = "gfx/fonts/hoi_18"
+#		path = "gfx/fonts/cg_18b"
+		fontfiles = { 
+			"gfx/fonts/cg_18b"		
+			"gfx/fonts/cg_18b_kor"
+		}
 		color = 0xffffffff
 	}
 
@@ -1503,6 +1769,20 @@ bitmapfonts = {
 		texturefile = "gfx//interface//button_type_1.tga"
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate.lua";
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_pink_selection_frame"
+		size= {x=39 y=39 }
+		textureFile ="gfx//interface//tiles//tiled_selection.dds"
+		borderSize = { x=16 y=16 }
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_pink_bold_selection_frame"
+		size= {x=39 y=39 }
+		textureFile ="gfx//interface//tiles//tiled_selection_bold.dds"
+		borderSize = { x=1 y=1 }
 	}
 
 	###### For Custom Fonts ########
