@@ -73,7 +73,7 @@ ideas = {
 			}
 
 			visible = {
-				kor_woi_over = yes
+				has_country_flag = kor_woi_over
 			}
 			
 			traits = { industrial_concern }
@@ -90,7 +90,7 @@ ideas = {
 			}
 
 			visible = {
-				kor_woi_over = yes
+				has_country_flag = kor_woi_over
 			}
 			
 			research_bonus = {

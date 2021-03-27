@@ -12,3 +12,6 @@
  INIT_MAP_LOGIC:0 "맵 로직 초기값 설정 중"
  INIT_GAMESTATE:0 "게임의 초기값 설정 중"
  FE_LOADING_HISTORY:0 "역사를 뒤바꾸는 중"
+ setting_tt:0 "설정"
+ credit_tt:0 "크레딧"
+ nudge_tt:0 "NUDGE!"

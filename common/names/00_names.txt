@@ -1967,7 +1967,7 @@ GGK = {
 	female = {
 		names = {  }
 	}
-	surnames = { Kim Lee Park Choi Jeong Cho Kang Yoon Jang Lim Han Shin Oh Seo Song Ahn Hwang Kwon Hong Yu Jeon Ko Yang Moon Son Baek Bae Heo Shim Nam Noh Min Joo Kwak Ha Seong Arisugawa Arichi Akiyama Araki Dewa Enomoto Hasegawa Honjo Ito Inoue Ichinohe Itagaki Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu Makino Muto Minami Masaki Matsudaira Nakamuta Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa Uryu Ugaki Ueda Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya }
+	surnames = { Kim Lee Park Choi Jeong Cho Kang Yoon Jang Lim Han Shin Oh Seo Song Ahn Hwang Kwon Hong Yu Jeon Ko Yang Moon Son Baek Bae Heo Shim Nam Noh Min Joo Kwak Ha Seong }
 	callsigns = { }
 }
 

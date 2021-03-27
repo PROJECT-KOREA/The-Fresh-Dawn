@@ -1,0 +1,23 @@
+GGK_provisional_government_decision = {
+	
+    #한국 독립운동
+    GGK_korean_independence_movement = {
+
+		icon = generic_civil_support
+
+		available = {
+			original_tag = GGK
+		}
+
+		visible = {
+			tag = GGK
+            KOR = { exists = no }
+		}
+		
+		fire_only_once = no
+
+		complete_effect = {
+			
+		}
+	}
+}

@@ -27,7 +27,7 @@ set_technology = {
 
 #국민 정신
 add_ideas = {
-	KOR_idea_military_junta
+	KOR_idea_military_dic
 	KOR_idea_firepower_supremacy
 	KOR_idea_kia_1
 	KOR_idea_independence_war_1
@@ -68,60 +68,86 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 0
-	neutrality = 100
-	democratic = 0
-	communism = 0
+	communism = 2
+	social_democracy = 7
+	national_liberalism = 5
+	liberal_conservatism = 6
+	neutrality = 80
 }
 
+COALITION_add_neu = yes
 
-#한국광복군
+#지청천
 create_country_leader = {
-	name = "Korean Independence Army"
-	desc = "POLITICS_KIA_DESC"
-	picture = "gfx/leaders/KOR/Portrait_KIA.dds"
+	name = "지청천"
+	desc = "POLITICS_Ji_Cheongcheon_DESC"
+	picture = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
 	expire = "1965.1.1"
-	ideology = military_junta
+	ideology = military_dic
 	traits = {
 		
 	}
 }
 
-#민주주의 - 여운형
+#레닌주의 - 박헌영
+create_country_leader = {
+	name = "Pak Hon-yong"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+
+	}
+}
+
+#사회민주주의 - 여운형
 create_country_leader = {
 	name = "Lyuh Woonhyung"
-	desc = "POLITICS_LYUH_WOONHYUNG_DESC"
+	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		
+
 	}
 }
 
-#공산주의 - 박헌영
+#국민자유주의 - 안재홍
 create_country_leader = {
-	name = "Pak Honyong"
+	name = "Ahn Jaehong"
 	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds"
+	picture = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = nat_liberal
+	traits = {
+
+	}
+}
+
+#자유보수주의 - 송진우
+create_country_leader = {
+	name = "Song Jinwoo"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds"
+	expire = "1965.1.1"
+	ideology = lib_conservatism
 	traits = {
 
 	}
 }
 
 #파시스트 - 안호상
-create_country_leader = {
-	name = "Ahn Hosang"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
+# create_country_leader = {
+# 	name = "Ahn Hosang"
+# 	desc = ""
+# 	picture = ""
+# 	expire = "1965.1.1"
+# 	ideology = fascism_ideology
+# 	traits = {
 
-	}
-}
+# 	}
+# }
 
 #육군 원수
 create_field_marshal = {

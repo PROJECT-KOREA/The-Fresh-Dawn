@@ -22,7 +22,7 @@
 }
 
 division_template = {
-	name = "조국해방의용군"
+	name = "독립의용군"
 	division_names_group = KOR_LVA_01
 	regiments = {
 		infantry = { x = 0 y = 0 }

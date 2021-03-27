@@ -5,16 +5,19 @@
  #간략한 역사
  GGK_GATHERING_STORM_DESC:0 "지난 26년간 일본 제국의 지배 아래 조선은 유례없는 번영을 누리는 듯 보였지만, 시간이 흐를수록 그 근간은 서서히 무너져가고 있습니다.\n\n일본의 강압적인 통치와 차별정책으로 조선인들의 불만은 나날이 커져가고 있으며, 해외 독립운동 세력을 통합하는데 성공한 대한민국 임시정부는 중화민국 정부와의 연대를 통해 점차 세력을 확대해나가며 본토로의 귀환을 준비하고 있습니다.\n\n과연 조선의 미래는 어떻게 될까요? 그것은 아무도 모릅니다."
 
- #국민정신
- GGK_focus_reform_government:0 "총독부 개편"
- GGK_focus_reform_government_desc:0 "우리는 약 20년 이상 이곳 조선을 지배해왔습니다. 총독부의 산하 조직들을 개편하면 좀 더 효율적인 통치가 가능할 것입니다."
+ #국가 중점
+ GGK_focus_ugaki:0 "조선의 총독"
+ GGK_focus_ugaki_desc:0 ""
+ gov_of_chosen:0 "조선의 총독"
+ GGK_focus_reform_government:0 "총독부 조직 개편"
+ GGK_focus_reform_government_desc:0 ""
+ GGK_focus_accelerate_industrialization:0 "조선반도 공업화 가속"
+ GGK_focus_accelerate_industrialization_desc:0 ""
 
- GGK_focus_naisen_ittai:0 "내선일체"
- GGK_focus_naisen_ittai_desc:0 "일본인과 조선인 모두 자랑스러운 대일본제국의 신민이며, 황국신민의 의무를 다하는 것은 지극히 당연한 일입니다."
+ GGK_focus_naisen_yuugou:0 "내선융합"
+ GGK_focus_naisen_yuugou_desc:0 "내지인과 조선인 모두 자랑스러운 대일본제국의 신민이며, 황국신민의 의무를 다하는 것은 지극히 당연한 일입니다."
  GGK_focus_expand_intelligence_agency:0 "정보기관 확장"
  GGK_focus_expand_intelligence_agency_desc:0 ""
- GGK_focus_accelerate_industrialization:0 "한반도 공업화 가속"
- GGK_focus_accelerate_industrialization_desc:0 ""
  GGK_focus_japanese_popularization_policy:0 "일본어 상용화 정책"
  GGK_focus_japanese_popularization_policy_desc:0 ""
  GGK_focus_oath_of_the_imperial_people:0 "황국신민서사"
@@ -27,7 +30,7 @@
  GGK_focus_develop_tungsten_deposit_desc:0 ""
  GGK_focus_pohang_iron_works:0 "포항 제철소"
  GGK_focus_pohang_iron_works_desc:0 ""
- GGK_focus_korean_peninsula_railway:0 "한반도 횡단 철도"
+ GGK_focus_korean_peninsula_railway:0 "조선반도 횡단 철도"
  GGK_focus_korean_peninsula_railway_desc:0 ""
  GGK_focus_research_spending:0 "연구 예산"
  GGK_focus_research_spending_desc:0 ""
@@ -76,14 +79,20 @@
  GGK_focus_steel_desc:0 ""
 
  #국민정신
- GGK_idea_colonial_government:0 "식민지 정부"
- GGK_idea_colonial_government_desc:0 ""
- GGK_idea_militarize_korean_peninsula:0 "한반도 병참기지화 정책"
+ GGK_idea_gengov_korea:0 "조선총독부"
+ GGK_idea_gengov_korea_desc:0 ""
+ GGK_idea_militarize_korean_peninsula:0 "조선반도 병참기지화 정책"
  GGK_idea_militarize_korean_peninsula_desc:0 ""
  GGK_idea_naisen_ittai:0 "내선일체"
  GGK_idea_naisen_ittai_desc:0 ""
  GGK_idea_korean_independence_movement:0 "한국 독립운동"
  GGK_idea_korean_independence_movement_desc:0 ""
+
+ #디시전
+ GGK_provisional_government_decision:0 "대한민국 임시정부"
+ GGK_provisional_government_decision_desc:0 "지난 1919년, 독립선언과 3·1 운동으로 크게 고무된 독립운동가들은 임시정부를 통한 조직적인 독립운동의 필요성을 절감하게 되었습니다. 이에 대한국민의회, 한성정부, 상해임시정부 등 국내외 각지에서 임시정부 단체들이 결성되었고, 상해임시정부가 이들을 통합하면서 한국 역사상 최초의 민주공화정인 대한민국 임시정부가 탄생했습니다."
+ GGK_korean_independence_movement:0 "한국 독립운동"
+ GGK_korean_independence_movement_desc:0 ""
 
  #정치 고문
  GGK_advisor_shigezo_hayashi:0 "하야시 시게조"

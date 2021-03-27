@@ -5,6 +5,11 @@ spriteTypes = {
 	# GGK #
 
 	spriteType = {
+		name = "GFX_idea_gengov_korea"
+		texturefile = "gfx/interface/ideas/GGK/idea_gengov_korea.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_naisen_ittai"
 		texturefile = "gfx/interface/ideas/GGK/idea_naisen_ittai.dds"
 	}

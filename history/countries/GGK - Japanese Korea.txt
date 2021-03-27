@@ -21,7 +21,7 @@ add_ideas = {
 	limited_exports
 	partial_economic_mobilisation
 
-	GGK_idea_colonial_government
+	GGK_idea_gengov_korea
 	GGK_idea_militarize_korean_peninsula
 	GGK_idea_korean_independence_movement_1
 }
@@ -42,25 +42,17 @@ set_politics = {
 
 #정당 지지도
 set_popularities = {
-	democratic = 8
+	communism = 2
+	social_democracy = 7
+	national_liberalism = 5
+	liberal_conservatism = 6
+	neutrality = 8
 	fascism = 72
-	communism = 5
-	neutrality = 15
 }
 
-#민주주의 - 이승만
-create_country_leader = {
-	name = "Lyuh Woonhyung"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
+COALITION_add_fas = yes
 
-	}
-}
-
-#공산주의 - 박헌영
+#레닌주의 - 박헌영
 create_country_leader = {
 	name = "Pak Hon-yong"
 	desc = ""
@@ -72,9 +64,69 @@ create_country_leader = {
 	}
 }
 
+#사회민주주의 - 여운형
+create_country_leader = {
+	name = "Lyuh Woonhyung"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+
+	}
+}
+
+#국민자유주의 - 안재홍
+create_country_leader = {
+	name = "Ahn Jaehong"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
+	expire = "1965.1.1"
+	ideology = nat_liberal
+	traits = {
+
+	}
+}
+
+#자유보수주의 - 송진우
+create_country_leader = {
+	name = "Song Jinwoo"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds"
+	expire = "1965.1.1"
+	ideology = lib_conservatism
+	traits = {
+
+	}
+}
+
+#사회보수주의 - 이승만
+create_country_leader = {
+	name = "Syngman Rhee"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
+}
+
+#국민보수주의 - 김구
+create_country_leader = {
+	name = "Kim Koo"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+	expire = "1965.1.1"
+	ideology = nat_conservatism
+	traits = {
+
+	}
+}
+
 #파시스트 - 우가키 카즈시게
 create_country_leader = {
-	name = "Kazushige Ugaki"
+	name = "우가키 카즈시게"
 	desc = ""
 	picture = "gfx/leaders/JAP_colony/Portrait_Kazushige_Ugaki.dds"
 	expire = "1965.1.1"
@@ -84,11 +136,11 @@ create_country_leader = {
 	}
 }
 
-#비동맹주의 - 임시정부 국무위원화
+#비동맹주의 - 대한민국 임시정부
 create_country_leader = {
-	name = "Provisional Government"
+	name = "Kim Koo"
 	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_CPKI.dds"
+	picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {

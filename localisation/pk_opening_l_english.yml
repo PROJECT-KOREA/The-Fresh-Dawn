@@ -7,8 +7,8 @@
  REGIONAL_INFO_TEXT:0 "[GET_REGIONAL_INFO]"
  REGIONAL_INFO_ASIA:0 "(작성 중...)"
 
- MOD_FEATURES_TEXT:0 "§YPROJECT KOREA: WAR OF INDEPENDENCE§!를 플레이 해주셔서 감사합니다!\n\nWAR OF INDEPENDENCE는 한국 독립전쟁을 주제로 여러 대체역사적 설정을 더한 세계관을 바탕으로 하고있습니다.\n\n이 모드는 아직 베타 버전이며, 많은 버그와 충돌이 발생할 수 있습니다.\n만일 버그나 문제점을 발견하셨을 경우, 저희 디스코드 서버로 제보해주시면 신속히 수정하도록 하겠습니다.\n\n저희가 열심히 개발한만큼 재밌게 즐기시길 바랍니다!\n\n- PROJECT KOREA 개발진 일동"
- MOD_INFO_TEXT:0 "§Y환영합니다!§!\n\nPROJECT KOREA는 한국을 주제로 다양한 HOI4 모드를 제작하는 프로젝트 팀입니다.\n\n현재 우리 팀에서는 본 모드를 비롯한 여러 모드를 제작 중이며, 또한 HOI4 모드를 만드는 유저들에게 개발/설정 관련 자문이나 GFX, GUI 등을 제공하고 있습니다.\n\n만일 우리 팀에 관심이 있거나, 모드 제작과 관련해 도움을 받고 싶으시다면 언제든지 우리 개발팀의 디스코드 서버를 방문해주세요!"
+ MOD_FEATURES_TEXT:0 "§YPROJECT KOREA: WAR OF INDEPENDENCE§!를 플레이 해주셔서 감사합니다!\n\nWAR OF INDEPENDENCE는 한국 독립전쟁을 주제로 여러 대체역사적 설정을 더한 세계관을 바탕으로 하고있습니다.\n\n이 모드는 아직 베타 버전이며, 많은 버그와 충돌이 발생할 수 있습니다.\n만일 버그나 문제점을 발견하셨을 경우, 저희 디스코드 서버로 제보해주시면 신속히 수정하도록 하겠습니다.\n\n저희가 열심히 개발한만큼 재밌게 즐기시길 바랍니다!"
+ MOD_INFO_TEXT:0 "§Y환영합니다!§!\n\nPROJECT KOREA는 한국을 배경으로 한 다양한 HOI4 모드를 제작하는 대형 프로젝트 팀입니다.\n\n현재 우리 팀에서는 본 모드를 비롯한 여러 모드를 제작 중이며, 또한 HOI4 모드를 만드는 유저들에게 개발/설정 관련 자문이나 GFX, GUI 등을 제공하고 있습니다.\n\n만일 우리 팀에 관심이 있거나, 모드 제작과 관련해 도움을 받고 싶으시다면 언제든지 우리 개발팀의 디스코드 서버를 방문해주세요!"
 
  TNO_OPENING_SCREEN_BUTTON_TEXT:0 "[GET_CLOSEBUTTON_TEXT]"
  TNO_OPENING_SCREEN_BUTTON_TEXT_GEN:0 "확인"

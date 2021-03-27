@@ -111,7 +111,7 @@ focus_tree = {
 		}
 	}
 
-	#조국해방의용군
+	#독립의용군
 	focus = {
 		id = KOR_focus_liberation_voulnteer_army
 		icon = GFX_focus_volunteers
@@ -227,7 +227,7 @@ focus_tree = {
 	
 	#한성임시행정위원회
 	focus = {
-		id = KOR_focus_hpc
+		id = KOR_focus_hnc
 		icon = GFX_focus_politic
 		relative_position_id = KOR_focus_time_to_revenge
 		x = -4
@@ -242,7 +242,7 @@ focus_tree = {
 			country_event = { id = kor_woi.2 }
 			add_political_power = 50
 			swap_ideas = {
-				remove_idea = KOR_idea_military_junta
+				remove_idea = KOR_idea_military_dic
 				add_idea = KOR_idea_provisional_government
 			}
 		}
@@ -252,13 +252,13 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_stabilize_nation
 		icon = GFX_goal_generic_neutrality_focus
-		relative_position_id = KOR_focus_hpc
+		relative_position_id = KOR_focus_hnc
 		x = 0
 		y = 1
 		cost = 5
 		
 		prerequisite = {
-			focus = KOR_focus_hpc
+			focus = KOR_focus_hnc
 		}
 
 		completion_reward = {

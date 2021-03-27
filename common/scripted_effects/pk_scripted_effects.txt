@@ -69,12 +69,12 @@ KOR_create_units = {
 	# #사리원
 	# 809 = {
 	# 	create_unit = {
-	# 		division = "division_template = \"조국해방의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
 	# 		prioritize_location = 11915
 	# 	}
 	# 	create_unit = {
-	# 		division = "division_template = \"조국해방의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
 	# 		prioritize_location = 11915
 	# 	}
@@ -83,24 +83,24 @@ KOR_create_units = {
 	# #함경도
 	# 807 = {
 	# 	create_unit = {
-	# 		division = "division_template = \"조국해방의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
 	# 		prioritize_location = 848
 	# 	}
 	# 	create_unit = {
-	# 		division = "division_template = \"조국해방의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
 	# 		prioritize_location = 848
 	# 	}
 
 		
 	# 	create_unit = {
-	# 		division = "division_template = \"조국해방의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
 	# 		prioritize_location = 3981
 	# 	}
 	# 	create_unit = {
-	# 		division = "division_template = \"조국해방의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
 	# 		prioritize_location = 3981
 	# 	}
@@ -109,12 +109,12 @@ KOR_create_units = {
 	# #대전
 	# 810 = {
 	# 	create_unit = {
-	# 		division = "division_template = \"조국해방의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
 	# 		prioritize_location = 11977
 	# 	}
 	# 	create_unit = {
-	# 		division = "division_template = \"조국해방의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
+	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
 	# 		prioritize_location = 11977
 	# 	}
@@ -244,7 +244,7 @@ KOR_reset_province_names = {
 		name = "나진"
 	}
 	set_province_name = {
-		id = 9936
+		id = 898
 		name = "청진"
 	}
 	set_province_name = {
@@ -258,6 +258,14 @@ KOR_reset_province_names = {
 	set_province_name = {
 		id = 848
 		name = "원산"
+	}
+	set_province_name = {
+		id = 11835
+		name = "신의주"
+	}
+	set_province_name = {
+		id = 4052
+		name = "진남포"
 	}
 	set_province_name = {
 		id = 13241

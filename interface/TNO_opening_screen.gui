@@ -13,8 +13,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "TNO_OpeningScreen_Main"
-		size = { width = 945 height = 466 }
-		position = { x = 490 y = 350 }
+		size = { width = 1064 height = 520 }
+		position = { x = 440 y = 340 }
 		moveable = yes
 		
 		background = {
@@ -41,23 +41,8 @@ guiTypes = {
 			}
 			
 			buttonType = {
-				name = "TNO_OpeningScreen_Buttons_RegionView"
-				position = { x = 244 y = -2 }
-				quadTextureSprite = "GFX_TNO_demo_tab_button"
-				buttonFont = "Bomb_18"
-				text = "지역 정보"
-			}
-			iconType = {
-				name = "TNO_OpeningScreen_RegionSymbol"
-				quadTextureSprite = "GFX_TNO_OpeningScreen_Region_EASTERN_ASIA"
-				position = { x = 269 y = 15 }
-				centerposition = yes
-				scale = 0.9
-			}
-			
-			buttonType = {
 				name = "TNO_OpeningScreen_Buttons_FeatureView"
-				position = { x = 477 y = -2 }
+				position = { x = 244 y = -2 }
 				quadTextureSprite = "GFX_TNO_demo_tab_button"
 				buttonFont = "Bomb_18"
 				text = "모드 소개"
@@ -65,12 +50,12 @@ guiTypes = {
 			iconType = {
 				name = "TNO_mod_features_mark"
 				quadTextureSprite = "GFX_TNO_mod_features_mark"
-				position = { x = 487 y = 6 }
+				position = { x = 254 y = 6 }
 			}
 			
 			buttonType = {
 				name = "TNO_OpeningScreen_Buttons_ModView"
-				position = { x = 711 y = -2 }
+				position = { x = 478 y = -2 }
 				quadTextureSprite = "GFX_TNO_demo_tab_button"
 				buttonFont = "Bomb_18"
 				text = "개발팀 정보"
@@ -78,19 +63,19 @@ guiTypes = {
 			iconType = {
 				name = "TNO_mod_logo"
 				quadTextureSprite = "GFX_TNO_mod_logo"
-				position = { x = 719 y = 5 }
+				position = { x = 487 y = 5 }
 			}
 		}
 		
 		iconType = {
 			name = "TNO_OpeningScreen_Poster"
 			spriteType = "GFX_TNO_OpeningScreen_Poster_GEN"
-			position = { x = 748 y = 33 }
+			position = { x = 844 y = 38 }
 		}
 		
 		iconType = {
 			name = "TNO_OpeningScreen_BG"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 25 }
 			spriteType = "GFX_TNO_Intro_BG"
 			alwaystransparent = yes
 		}
@@ -100,13 +85,13 @@ guiTypes = {
 			quadTextureSprite = "GFX_tno_button_123x34" 
 			buttonFont = "hoi_18mbs"
 			pdx_tooltip = "TNO_OPENING_SCREEN_BUTTON_TT"
-			position = { x = 782 y = 420 }
+			position = { x = 881 y = 478 }
 			shortcut = "ESCAPE"
 		}
 
 		instantTextBoxType = {
 			name = "TNO_OpeningScreen_CloseButton_text"
-			position = { x = 742 y = 427 }
+			position = { x = 849 y = 483 }
 			font = "aldrich_20_outline"
 			text = "TNO_OPENING_SCREEN_BUTTON_TEXT"
 			format = center
@@ -115,44 +100,33 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "TNO_OpeningScreen_Text_Country"
-			position = { x = 22 y = 49 }
-			font = "aldrich_24_outline"
+			position = { x = 24 y = 52 }
+			font = "aldrich_22_outline"
 			text = "COUNTRY_INFO_TEXT"
-			maxWidth = 700
-			maxHeight = 380
-			# alwaystransparent = yes
-			scrollbarType = standardtext_slider
-		}
-		
-		instantTextBoxType = {
-			name = "TNO_OpeningScreen_Text_Region"
-			position = { x = 22 y = 49 }
-			font = "aldrich_24_outline"
-			text = "REGIONAL_INFO_TEXT"
-			maxWidth = 700
-			maxHeight = 380
+			maxWidth = 790
+			maxHeight = 550
 			# alwaystransparent = yes
 			scrollbarType = standardtext_slider
 		}
 		
 		instantTextBoxType = {
 			name = "TNO_OpeningScreen_Text_Mod_Features"
-			position = { x = 22 y = 49 }
-			font = "aldrich_24_outline"
+			position = { x = 24 y = 52 }
+			font = "aldrich_22_outline"
 			text = "MOD_FEATURES_TEXT"
-			maxWidth = 700
-			maxHeight = 380
+			maxWidth = 790
+			maxHeight = 550
 			# alwaystransparent = yes
 			scrollbarType = standardtext_slider
 		}
 		
 		instantTextBoxType = {
 			name = "TNO_OpeningScreen_Text_Mod_Info"
-			position = { x = 22 y = 49 }
-			font = "aldrich_24_outline"
+			position = { x = 24 y = 52 }
+			font = "aldrich_22_outline"
 			text = "MOD_INFO_TEXT"
-			maxWidth = 700
-			maxHeight = 380
+			maxWidth = 790
+			maxHeight = 550
 			# alwaystransparent = yes
 			scrollbarType = standardtext_slider
 		}
@@ -171,7 +145,7 @@ guiTypes = {
 		buttonType = {
 			name = "TNO_discord_button"
 			quadTextureSprite = "GFX_discord_button"
-			position = { x = 575 y = 409 }
+			position = { x = 665 y = 462 }
 			web_link = "https://discordapp.com/invite/aDxgUy3"
 		}
 		#buttonType = {

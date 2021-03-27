@@ -13,8 +13,24 @@ spriteTypes = {
 
 	### Portraits ###
 	spriteType = {
+		name = "GFX_Portrait_Kiyonori_Imaida"
+		texturefile = "gfx/leaders/JAP_colony/Portrait_Kiyonori_Imaida.dds"
+	}
+	spriteType = {
 		name = "GFX_Portrait_Ji_Cheongcheon_Army"
 		texturefile = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Hong_Saik"
+		texturefile = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kim_Kyeongcheon"
+		texturefile = "gfx/leaders/KOR/Portrait_Kim_Kyeongcheon.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Lee_Beomseok"
+		texturefile = "gfx/leaders/KOR/Portrait_Lee_Beomseok.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_Lyuh_Woonhyung"

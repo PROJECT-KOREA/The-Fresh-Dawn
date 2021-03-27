@@ -1,8 +1,8 @@
 ﻿l_english:
 
- ######################
- ##### 내각 시스템 #####
- ######################
+ ################
+ ##### 내각 #####
+ ################
 
  cabinet:0 "내각"
  head_of_gov:0 "정부수반"
@@ -34,22 +34,19 @@
  minister_tooltip:0 "장관을 수동으로 임명하거나 해임할 수 없습니다."
 
  #### 인물명 ####
+ hong_saik:0 "홍사익"
+ ahn_jaehong:0 "안재홍"
  kim_koo:0 "김구"
  kim_kyusik:0 "김규식"
  song_byeongjo:0 "송병조"
- ahn_jaehong:0 "안재홍"
- lyuh_woonhyung:0 "여운형"
  ryu_dongyol:0 "유동열"
  syngman_rhee:0 "이승만"
  cho_soang:0 "조소앙"
- ji_cheongcheon:0 "지청천"
  hong_jin:0 "홍진"
-
- vacant:0 "공석"
 
  #### 소속 ####
  kia_mpc:0 "§w광복군 군정위원회§!"
- hpc:0 "§w한성정무위원회§!"
+ hnc:0 "§w한성국민위원회§!"
  kpg:0 "§g임시정부 국무위원회§!"
  kip:0 "§q한국독립당§!"
 
@@ -80,28 +77,22 @@
  # 버튼 #
  cabinet_button_tt:0 "§Y내각 개요§! 보기"
 
- # 툴팁 #
+ # 공석 툴팁 #
+ vacant:0 "공석"
  vacant_desc:0 "이 직책은 현재 비어있습니다."
 
  # 내각 타이틀 #
- cabinet_kia_mpc:0 "광복군 군정위원회"
- cabinet_hpc:0 "한성정무위원회"
+ cabinet_kia_mpc:0 "광복군사령부 군정청"
+ cabinet_hnc:0 "한성국민위원회"
  cabinet_kpg:0 "임시정부 국무위원회"
  cabinet_kim_koo:0 "김구 행정부"
  cabinet_syngman_rhee:0 "이승만 행정부"
 
- ### 직책명 ###
- # 국가원수 #
- mil_gov:0 "군정장관"
- hpc_chairman:0 "정무위원회 위원장"
- kpg_president:0 "국무위원회 주석"
- kor_president:0 "대통령"
+ # 여당 정보 #
+ Gov_info:0 "§Y집권당§!: [This.GetRulingParty]\n"
 
- # 정부수반 #
- civ_adm:0 "민정장관"
- hpc_vice_chairman:0 "정무위원회 부위원장"
- kpg_vice_president:0 "국무위원회 부주석"
- kor_prime_minister:0 "국무총리"
+ ### 직책명 ###
+ ### 국가원수, 정부수반은 이중 지도자 시스템과 연동됨. ###
 
  # 내무장관 #
  kpg_secmin:0 "내무부장"
@@ -133,8 +124,8 @@
  #§L안재홍은 조선의 독립운동가 및 언론인이다.§!"
 
  ### 툴팁 ###
- HoS_name_tt:0 "§Y[This.HoS_name]§!\n[This.HoS_rank]"
- HoS_desc_tt:0 "[This.HoS_desc]"
+ Leader1_name_tt:0 "§Y[This.Leader1_name]§!\n[This.Leader1_rank]"
+ Leader1_desc_tt:0 "[This.Leader1_desc]"
  HoG_name_tt:0 "§Y[This.HoG_name]§!\n[This.HoG_rank]"
  HoG_desc_tt:0 "[This.HoG_desc]"
  SM_name_tt:0 "§Y[This.SM_name]§!\n[This.SM_rank]"

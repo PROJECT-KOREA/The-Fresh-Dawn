@@ -33,7 +33,7 @@ country_event = {
             load_focus_tree = KOR_Provisional_Government
 			complete_national_focus = KOR_focus_victory_in_woi
             delete_unit_template_and_units = {
-                division_template = "조국해방의용군"
+                division_template = "독립의용군"
             }
             add_ideas = {
                 civilian_economy
@@ -66,7 +66,9 @@ country_event = {
     option = {
         name = kor_kpg_internal.2.a
         clr_country_flag = KOR_flag_kia_mpc
-		clr_country_flag = KOR_flag_hpc
+		clr_country_flag = KOR_flag_hnc
+        clr_country_flag = KOR_flag_hnc_cenright
+        clr_country_flag = KOR_flag_hnc_com
         set_country_flag = KOR_flag_kpg
         set_party_name = { 
             ideology = neutrality
@@ -74,14 +76,50 @@ country_event = {
             name = KOR_neutrality_party_kpg
         }
         create_country_leader = {
-            name = "Kim Koo"
+            name = "김구"
             desc = ""
             picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
             expire = "1965.1.1"
             ideology = oligarchism
             traits = {  }
         }
+        set_party_name = { 
+            ideology = national_conservatism
+            long_name = KOR_national_conservatism_party_kip_long
+            name = KOR_national_conservatism_party_kip
+        }
+        COALITION_add_natcon = yes
+        set_party_name = { 
+            ideology = democratic
+            long_name = KOR_democratic_party_kip_long
+            name = KOR_democratic_party_kip
+        }
+        COALITION_add_soccon = yes
+        set_party_name = { 
+            ideology = radical_socialism
+            long_name = KOR_radical_socialism_party_krp_long
+            name = KOR_radical_socialism_party_krp
+        }
+        COALITION_add_radsoc = yes
+        set_party_name = { 
+            ideology = auth_socialism
+            long_name = KOR_auth_socialism_party_krp
+            name = KOR_auth_socialism_party_krp
+        }
+        COALITION_add_autsoc = yes
         hidden_effect = {
+            set_popularities = {
+                communism = 2
+                auth_socialism = 2
+                radical_socialism = 3
+                social_democracy = 6
+                national_liberalism = 5
+                liberal_conservatism = 6
+                democratic = 6
+                national_conservatism = 7
+                neutrality = 61
+                fascism = 2
+            }
             add_ideas = {
                 HoG_Kim_Kyusik_kpg
                 SM_Hong_Jin_kpg

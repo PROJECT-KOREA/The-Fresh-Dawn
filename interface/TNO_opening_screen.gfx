@@ -78,48 +78,6 @@ spriteTypes = {
 		name = "GFX_twitter_button"
 		textureFile = "gfx/interface/opening_screen/twitter_button.dds"
 	}
-	
-	# Regions
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_AMERICA"
-		texturefile = "gfx/interface/opening_screen/regions/AMERICA.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_CENTRAL_SIBERIA"
-		texturefile = "gfx/interface/opening_screen/regions/CENTRAL_SIBERIA.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_EASTERN_ASIA"
-		texturefile = "gfx/interface/opening_screen/regions/EASTERN_ASIA.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_ENGLAND"
-		texturefile = "gfx/interface/opening_screen/regions/ENGLAND.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_EUROPE"
-		texturefile = "gfx/interface/opening_screen/regions/EUROPE.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_FAR_EAST"
-		texturefile = "gfx/interface/opening_screen/regions/FAR_EAST.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_SOUTHERN_AFRICA"
-		texturefile = "gfx/interface/opening_screen/regions/SOUTHERN_AFRICA.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_URALS"
-		texturefile = "gfx/interface/opening_screen/regions/URALS.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_WEST_RUSSIA"
-		texturefile = "gfx/interface/opening_screen/regions/WEST_RUSSIA.dds"
-	}
-	SpriteType = {
-		name = "GFX_TNO_OpeningScreen_Region_WEST_SIBERIA"
-		texturefile = "gfx/interface/opening_screen/regions/WEST_SIBERIA.dds"
-	}
 
 	# Posters
 	spriteType = {

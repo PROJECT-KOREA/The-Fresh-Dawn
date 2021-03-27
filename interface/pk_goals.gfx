@@ -3,13 +3,18 @@ spriteTypes = {
 	### GGK ###
 
 	spriteType = {
+		name = "GFX_focus_ugaki"
+		textureFile = "gfx/interface/goals/GGK/focus_ugaki.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_reform_government"
 		textureFile = "gfx/interface/goals/GGK/focus_reform_government.dds"
 	}
 
 	spriteType = {
-		name = "GFX_focus_naisen_ittai"
-		textureFile = "gfx/interface/goals/GGK/focus_naisen_ittai.dds"
+		name = "GFX_focus_naisen_yuugou"
+		textureFile = "gfx/interface/goals/GGK/focus_naisen_yuugou.dds"
 	}
 
 	spriteType = {

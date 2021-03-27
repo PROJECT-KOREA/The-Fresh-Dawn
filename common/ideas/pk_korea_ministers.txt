@@ -31,14 +31,14 @@ ideas = {
 		}
 
 		#안재홍
-		HoG_Ahn_Jaehong_hpc = {
+		HoG_Ahn_Jaehong_hnc = {
 			name = ahn_jaehong
 			picture = minister_Ahn_Jaehong
 
 			allowed = { original_tag = KOR }
 
 			visible = {
-				has_country_flag = KOR_flag_hpc
+				has_country_flag = KOR_flag_hnc
 			}
 
 			available = {
@@ -52,7 +52,7 @@ ideas = {
 			removal_cost = -1
 			traits = {
 				media_magnate
-				hpc
+				hnc
 				hog
 			}
 		}

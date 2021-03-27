@@ -1,0 +1,62 @@
+guiTypes = {
+	containerWindowType = {
+		name = "dual_leader_container"
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name = "leader2_poartrait"
+			position = { x = 188 y = 86 }
+			spriteType = "GFX_leader_unknown"
+			pdx_tooltip = "DUAL_LEADER_NAME2"
+			pdx_tooltip_delayed = "DUAL_LEADER_DESC2"
+		}
+		
+		iconType ={
+			name ="dual_leader_bg"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 179 y = 77 }
+			alwaystransparent = yes
+		}
+
+		### For Leader #1
+
+		instantTextBoxType = {
+			name ="leader1_rank"
+			position = { x = 21 y = 56 }
+			font = "hoi_18mbs"
+			text = "[This.leader1_rank]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		### For Leader #2
+
+		instantTextBoxType = {
+			name ="leader2_rank"
+			position = { x = 187 y = 56 }
+			font = "hoi_18mbs"
+			text = "[This.leader2_rank]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextBoxType = {
+			name ="leader2_name"
+			position = { x = 188 y = 304 }
+			font = "hoi_18mbs"
+			text = "[This.leader2_name]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+
+			pdx_tooltip = leader2_tt
+		}
+
+	}
+
+}

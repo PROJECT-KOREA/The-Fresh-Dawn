@@ -4,7 +4,7 @@ ideas = {
 	country = {
 
 		#군사정권
-		KOR_idea_military_junta = {
+		KOR_idea_military_dic = {
 
 			picture = generic_pp_unity_bonus
 
@@ -646,12 +646,14 @@ ideas = {
 		#송진우
 		KOR_advisor_song_jinwoo = {
 
-			allowed = { tag = KOR }
+			available = {
+        		has_country_flag = KOR_flag_hnc_cenright
+			}
 			
 			visible = {
-				OR = { 
-					has_country_flag = KOR_flag_hpc
-					has_country_flag = KOR_flag_kpg
+				AND = { 
+					tag = KOR
+					has_country_flag = KOR_flag_hnc
 				}
 			}
 			
@@ -661,14 +663,14 @@ ideas = {
 		#박헌영
 		KOR_advisor_pak_hon_yong = {
 
-			allowed = { tag = KOR }
-
-			available = { always = no }
+			available = {
+        		has_country_flag = KOR_flag_hnc_com
+			}
 			
 			visible = {
-				OR = { 
-					has_country_flag = KOR_flag_hpc
-					has_country_flag = KOR_flag_kpg
+				AND = { 
+					tag = KOR
+					has_country_flag = KOR_flag_hnc
 				}
 			}
 			

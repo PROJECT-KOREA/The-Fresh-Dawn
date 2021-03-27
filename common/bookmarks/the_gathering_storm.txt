@@ -7,50 +7,6 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "La Resistance" } }
-			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				FRA_form_the_popular_front
-				FRA_revive_the_national_bloc
-				FRA_france_leads
-			}
-		}
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { has_dlc = "La Resistance" } 
-			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				FRA_invite_communist_ministers
-				FRA_utilize_the_leagues
-				FRA_je_suis_la_deluge
-			}
-		}
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
-			}
-			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
-			}
-		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -80,6 +36,9 @@ bookmarks = {
 				ENG_war_with_germany
 				ENG_war_with_italy
 			}
+		}
+		"---"={
+			#
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
@@ -111,18 +70,24 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+		"---"={
+			#
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
-			}	
+				trotskyite_plot
+				home_of_revolution
+			}
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
-			}		
+				SOV_great_purge
+				SOV_claims_on_baltic
+				SOV_war_with_uk
+			}	
+		}
+		"---"={
+			#
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
@@ -138,39 +103,83 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}			
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				trotskyite_plot
-				home_of_revolution
-			}
-			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
-			}	
-		}
+		# "FRA"={
+		# 	history = "FRA_GATHERING_STORM_DESC"
+		# 	ideology = democratic
+		# 	available = { NOT = { has_dlc = "La Resistance" } }
+		# 	ideas = {
+		# 		FRA_victors_of_wwi
+		# 		FRA_disjointed_government
+		# 		FRA_protected_by_the_maginot_line
+		# 	}
+		# 	focuses = {
+		# 		FRA_form_the_popular_front
+		# 		FRA_revive_the_national_bloc
+		# 		FRA_france_leads
+		# 	}
+		# }
+		# "FRA"={
+		# 	history = "FRA_GATHERING_STORM_DESC"
+		# 	ideology = democratic
+		# 	available = { has_dlc = "La Resistance" } 
+		# 	ideas = {
+		# 		FRA_victors_of_wwi
+		# 		FRA_disjointed_government
+		# 		FRA_protected_by_the_maginot_line
+		# 	}
+		# 	focuses = {
+		# 		FRA_invite_communist_ministers
+		# 		FRA_utilize_the_leagues
+		# 		FRA_je_suis_la_deluge
+		# 	}
+		# }
+		# "USA"={
+		# 	history = "USA_GATHERING_STORM_DESC"
+		# 	ideology = democratic
+		# 	ideas = {
+		# 		home_of_the_free
+		# 		great_depression
+		# 		undisturbed_isolation
+		# 	}
+		# 	focuses = {
+		# 		USA_war_plan_black
+		# 		USA_limited_intervention
+		# 		USA_reestablish_the_gold_standard
+		# 	}
+		# }
+		# "ITA"={
+		# 	history = "ITA_GATHERING_STORM_DESC"
+		# 	ideology = fascism
+		# 	ideas = {
+		# 		vittoria_mutilata
+		# 		victor_emmanuel
+		# 	}	
+		# 	focuses = {
+		# 		ITA_pact_of_steel
+		# 		ITA_spanish_italian_faction
+		# 		ITA_italy_first
+		# 	}		
+		# }
 
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
+		# "---"={
+		# 	history = "OTHER_GATHERING_STORM_DESC"
+		# }
 
 
 		# minors from DLC ####
-		"POL"={
-			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
+		# "POL"={
+		# 	minor = yes
+		# 	history = "POL_GATHERING_STORM_DESC"
+		# 	ideology = neutrality
+		# 	ideas = {
 				
-			}
-			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
-			}
-		}
+		# 	}
+		# 	focuses = {
+		# 		POL_the_baltic_alliance
+		# 		POL_draw_closer_to_britain
+		# 		POL_seek_accommodation_with_germany
+		# 	}
+		# }
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
@@ -183,6 +192,20 @@ bookmarks = {
 				CAN_skewer_the_eagle
 				CAN_north_american_alliance
 				CAN_join_comintern
+			}
+		}
+		"RAJ"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				RAJ_agrarian_society
+				RAJ_princely_states
+			}
+			focuses = {
+				RAJ_all_india_forward_bloc
+				RAJ_indian_gurkhas
+				RAJ_the_smiling_buddha
 			}
 		}
 		"AST"={
@@ -225,109 +248,36 @@ bookmarks = {
 				SAF_anti_colonialist_crusade
 			}
 		}
-		"RAJ"={
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"GGK"={
 			minor = yes
-			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "GGK_GATHERING_STORM_DESC"
+			ideology = fascism
 			ideas = {
-				RAJ_agrarian_society
-				RAJ_princely_states
+				GGK_idea_gengov_korea
+				GGK_idea_militarize_korean_peninsula
+				GGK_idea_korean_independence_movement_1
 			}
+			
 			focuses = {
-				RAJ_all_india_forward_bloc
-				RAJ_indian_gurkhas
-				RAJ_the_smiling_buddha
+				GGK_focus_naisen_yuugou
+				GGK_focus_korean_independence_movement
+				GGK_focus_operation_independence
 			}
 		}
-		"CZE"={
-			minor = yes
-			history = "CZE_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				CZE_skoda_works
-				CZE_divided_nation
-			}
-			focuses = {
-				CZE_sudeten_1
-				CZE_industrial_legacy
-				CZE_military_research_institute
-			}
-		}
-
-		"HUN"={
-			minor = yes
-			history = "HUN_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				HUN_treaty_of_triannon
-			}
-			focuses = {
-				HUN_proclaim_the_restoration_of_austria_hungary
-				HUN_secret_rearmament
-				HUN_renounce_the_treaty_of_trianon
-			}
-		}
-
-		"ROM"={
-			minor = yes
-			history = "ROM_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				ROM_king_carol_ii_hedonist
-				neutrality_idea
-			}
-			focuses = {
-				ROM_balkans_dominance
-				ROM_institute_royal_dictatorship
-				ROM_preserve_greater_romania
-			}
-		}
-		
-		"YUG"={
-			minor = yes
-			history = "YUG_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				anti_german_military
-				YUG_idea_croatian_opposition
-				YUG_idea_serbian_general_staff
-			}
-			focuses = {
-				YUG_end_the_regency
-				YUG_abolish_the_monarchy
-				YUG_dissolve_serbia
-			}
-		}
-		"CHI"={
-			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_1
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_united_front
-				CHI_army_reform
-				CHI_invite_the_flying_tigers
-			}
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_3
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
-			}
-		}
+		"KOR"={ minor = yes }
 		"MAN"={
 			minor = yes
 			history = "MAN_GATHERING_STORM_DESC"
@@ -343,7 +293,58 @@ bookmarks = {
 				MAN_claim_the_mandate_of_heaven
 			}
 		}
-		
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"CHI"={
+			minor = yes
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_army_corruption_1
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
+			}
+			focuses = {
+				CHI_united_front
+				CHI_army_reform
+				CHI_invite_the_flying_tigers
+			}
+		}
+		"SHX"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}	
 		"GXC"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
@@ -371,21 +372,7 @@ bookmarks = {
 				CHI_provoke_border_clashes
 				CHI_join_the_chinese_soviet
 			}
-		}		
-		"SHX"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
+		}	
 		"XSM"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
@@ -399,7 +386,22 @@ bookmarks = {
 				CHI_provoke_border_clashes
 				CHI_join_the_chinese_soviet
 			}
-		}		
+		}	
+		"PRC"={
+			minor = yes
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				PRC_the_long_march_1
+				PRC_low_popular_support_3
+				PRC_power_struggles
+			}
+			focuses = {
+				PRC_infiltration
+				PRC_maoism
+				PRC_anti_japanese_expedition
+			}
+		}	
 		"SIK"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
@@ -414,24 +416,65 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}
-	
-		"GGK"={
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"CZE"={
 			minor = yes
-			history = "GGK_GATHERING_STORM_DESC"
-			ideology = fascism
+			history = "CZE_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
-				GGK_idea_colonial_government
-				GGK_idea_militarize_korean_peninsula
-				GGK_idea_korean_independence_movement_1
+				CZE_skoda_works
+				CZE_divided_nation
 			}
-			
 			focuses = {
-				GGK_focus_naisen_ittai
-				GGK_focus_korean_independence_movement
-				GGK_focus_operation_independence
+				CZE_sudeten_1
+				CZE_industrial_legacy
+				CZE_military_research_institute
 			}
 		}
-		
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				HUN_treaty_of_triannon
+			}
+			focuses = {
+				HUN_proclaim_the_restoration_of_austria_hungary
+				HUN_secret_rearmament
+				HUN_renounce_the_treaty_of_trianon
+			}
+		}
+		"ROM"={
+			minor = yes
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				ROM_king_carol_ii_hedonist
+				neutrality_idea
+			}
+			focuses = {
+				ROM_balkans_dominance
+				ROM_institute_royal_dictatorship
+				ROM_preserve_greater_romania
+			}
+		}
+		"YUG"={
+			minor = yes
+			history = "YUG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				anti_german_military
+				YUG_idea_croatian_opposition
+				YUG_idea_serbian_general_staff
+			}
+			focuses = {
+				YUG_end_the_regency
+				YUG_abolish_the_monarchy
+				YUG_dissolve_serbia
+			}
+		}	
 		"MEX"={
 			minor = yes
 			history = "MEXICO_GATHERING_STORM_DESC"
@@ -510,6 +553,19 @@ bookmarks = {
 				BUL_prussia_of_the_balkans
 			}
 		}
+
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
+		"KOR"={ minor = yes }
 
 		"GRE"={
 			minor = yes

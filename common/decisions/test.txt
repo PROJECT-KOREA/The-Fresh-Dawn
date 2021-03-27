@@ -36,6 +36,7 @@ test = {
 				add_state_core = 818
 				add_state_core = 819
 			}
+			KOR_reset_province_names = yes
 			KOR = {
 				change_tag_from = GGK
 			}

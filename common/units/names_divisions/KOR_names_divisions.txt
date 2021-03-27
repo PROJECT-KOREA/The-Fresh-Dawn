@@ -11,14 +11,14 @@
 }
 
 KOR_LVA_01 = {
-	name = "조국해방의용군"
+	name = "독립의용군"
 	for_countries = { KOR }
 	can_use = { KOR_woi_in_progress = yes }
 	division_types = { "infantry" }
-	fallback_name = "조국해방의용군"
+	fallback_name = "독립의용군"
 	ordered =
 	{
-		1 = { "조국해방의용군" }
+		1 = { "독립의용군" }
 	}
 }
 

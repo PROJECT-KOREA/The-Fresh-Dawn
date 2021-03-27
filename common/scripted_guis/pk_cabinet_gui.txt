@@ -38,12 +38,19 @@ scripted_gui = {
 		visible = {
 			has_country_flag = show_cabinet
             has_country_leader = {
-                name = "Korean Independence Army"
+                name = "지청천"
                 ruling_only = yes
             }
 		}
 		
 		effects = { close_click = { clr_country_flag = show_cabinet } }
+
+		properties = {
+			Leader1 = { image = "GFX_Portrait_Ji_Cheongcheon_Army" }
+			Leader2 = { image = "GFX_Portrait_Hong_Saik" }
+			CSC = { image = "GFX_Portrait_Kim_Kyeongcheon" }
+			HRA_CDR = { image = "GFX_Portrait_Lee_Beomseok" }
+		}
 	}
 
 	cabinet_woi = {
@@ -57,7 +64,7 @@ scripted_gui = {
 			has_country_flag = show_cabinet
 			OR = {
 				has_country_flag = KOR_flag_kia_mpc
-				has_country_flag = KOR_flag_hpc
+				has_country_flag = KOR_flag_hnc
 			}
 			NOT = { has_country_flag = KOR_flag_kpg }
 		}
@@ -65,8 +72,8 @@ scripted_gui = {
 		effects = { close_click = { clr_country_flag = show_cabinet } }
 
 		properties = {
-			HoS = { image = "[This.HoS_portrait]" }
-			HoG = { image = "[This.HoG_portrait]" }
+			Leader1 = { image = "[This.Leader1_portrait]" }
+			Leader2 = { image = "[This.Leader2_portrait]" }
 		}
 	}
 
@@ -88,8 +95,8 @@ scripted_gui = {
 		effects = { close_click = { clr_country_flag = show_cabinet } }
 
 		properties = {
-			HoS = { image = "[This.HoS_portrait]" }
-			HoG = { image = "[This.HoG_portrait]" }
+			Leader1 = { image = "[This.Leader1_portrait]" }
+			Leader2 = { image = "[This.Leader2_portrait]" }
 			SM = { image = "[This.SM_portrait]" }
 			EM = { image = "[This.EM_portrait]" }
 			FM = { image = "[This.FM_portrait]" }

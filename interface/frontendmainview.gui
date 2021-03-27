@@ -164,7 +164,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_tutorial_button"
-			position = { x = 16 y = 6000}
+			position = { x = 16 y = 138}
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_TUTORIAL"
 			buttonFont = "aldrich_24_outline"
@@ -251,7 +251,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 409 y = 377 }
+			position = { x = 407 y = 377 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "aldrich_24_outline"
 			text = "FE_MULTI_PLAYER"
@@ -274,6 +274,7 @@ guiTypes = {
 			buttonFont = "aldrich_24_outline"
 			clicksound = click_default
 			oversound = ui_menu_over
+			pdx_tooltip = "setting_tt"
 		}
 
 		ButtonType = {
@@ -283,12 +284,14 @@ guiTypes = {
 			buttonFont = "aldrich_24_outline"
 			clicksound = click_default
 			oversound = ui_menu_over
+			pdx_tooltip = "credit_tt"
 		}
 		ButtonType = {
 			name = "nudge_button"
 			position = { x = 43 y = 80 }
 			quadTextureSprite ="GFX_nudge_icon"
 			buttonFont = "aldrich_24_outline"
+			pdx_tooltip = "nudge_tt"
 		}
 		
 		#################################

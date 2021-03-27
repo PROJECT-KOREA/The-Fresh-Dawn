@@ -14,7 +14,7 @@ KOR_war_of_independence_decision = {
 	priority = 10
 }
 
-#조국해방의용군 모집
+#독립의용군 모집
 KOR_recruit_volunteer_army = {
 	icon = army_reform
 

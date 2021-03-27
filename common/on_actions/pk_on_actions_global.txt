@@ -9,6 +9,16 @@ on_actions = {
 				array = global.players
 				set_country_flag = show_welcome_splash
 			}
+			every_country = {
+				add_ideas = {
+					HoG_No_One
+					SM_No_One
+					EM_No_One
+					FM_No_One
+					MM_No_One
+					IM_No_One
+				}
+			}
 		}
 	}
 }

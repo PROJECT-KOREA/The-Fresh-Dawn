@@ -51,85 +51,85 @@ country_event = {
     }
 }
 
-#고이소 구니아키 총독 취임
-country_event = {
-    id = ggk_internal.3
-    title = ggk_internal.3.t
-    desc = ggk_internal.3.desc
-    picture = GFX_report_event_generic_military_parade
+# #고이소 구니아키 총독 취임
+# country_event = {
+#     id = ggk_internal.3
+#     title = ggk_internal.3.t
+#     desc = ggk_internal.3.desc
+#     picture = GFX_report_event_generic_military_parade
 
-    fire_only_once = yes
+#     fire_only_once = yes
     
-    trigger = {
-		original_tag = GGK
-		date > 1942.5.28
-        NOT = {
-            OR = {
-                has_country_leader = {
-                    name = "Kuniaki Koiso"
-                    ruling_only = yes
-                }
-                has_country_leader = {
-                    name = "Nobuyuki Abe"
-                    ruling_only = yes
-                }
-            }
-        }
-	}
+#     trigger = {
+# 		original_tag = GGK
+# 		date > 1942.5.28
+#         NOT = {
+#             OR = {
+#                 has_country_leader = {
+#                     name = "Kuniaki Koiso"
+#                     ruling_only = yes
+#                 }
+#                 has_country_leader = {
+#                     name = "Nobuyuki Abe"
+#                     ruling_only = yes
+#                 }
+#             }
+#         }
+# 	}
 
-    mean_time_to_happen = {
-		days = 1
-	}
+#     mean_time_to_happen = {
+# 		days = 1
+# 	}
 
-    option = {
-        name = ggk_internal.3.a
-		ai_chance = { factor = 100 }
-        create_country_leader = {
-            name = "Kuniaki Koiso"
-            desc = ""
-            picture = "gfx/leaders/JAP_colony/Portrait_Koiso_Kuniaki.dds"
-            expire = "1965.1.1"
-            ideology = fascism_ideology
-            traits = {
+#     option = {
+#         name = ggk_internal.3.a
+# 		ai_chance = { factor = 100 }
+#         create_country_leader = {
+#             name = "Kuniaki Koiso"
+#             desc = ""
+#             picture = "gfx/leaders/JAP_colony/Portrait_Koiso_Kuniaki.dds"
+#             expire = "1965.1.1"
+#             ideology = fascism_ideology
+#             traits = {
 
-            }
-        }
-    }
-}
+#             }
+#         }
+#     }
+# }
 
-#아베 노부유키 총독 취임
-country_event = {
-    id = ggk_internal.4
-    title = ggk_internal.4.t
-    desc = ggk_internal.4.desc
-    picture = GFX_report_event_generic_military_parade
+# #아베 노부유키 총독 취임
+# country_event = {
+#     id = ggk_internal.4
+#     title = ggk_internal.4.t
+#     desc = ggk_internal.4.desc
+#     picture = GFX_report_event_generic_military_parade
 
-    fire_only_once = yes
+#     fire_only_once = yes
     
-    trigger = {
-		original_tag = GGK
-		date > 1944.7.23
-	}
+#     trigger = {
+# 		original_tag = GGK
+# 		date > 1944.7.23
+# 	}
 
-    mean_time_to_happen = {
-		days = 1
-	}
+#     mean_time_to_happen = {
+# 		days = 1
+# 	}
 
-    option = {
-        name = ggk_internal.4.a
-		ai_chance = { factor = 100 }
-        create_country_leader = {
-            name = "Nobuyuki Abe"
-            desc = ""
-            picture = "gfx/leaders/JAP_colony/Portrait_Abe_Nobuyuki.dds"
-            expire = "1965.1.1"
-            ideology = fascism_ideology
-            traits = {
+#     option = {
+#         name = ggk_internal.4.a
+# 		ai_chance = { factor = 100 }
+#         create_country_leader = {
+#             name = "Nobuyuki Abe"
+#             desc = ""
+#             picture = "gfx/leaders/JAP_colony/Portrait_Abe_Nobuyuki.dds"
+#             expire = "1965.1.1"
+#             ideology = fascism_ideology
+#             traits = {
 
-            }
-        }
-    }
-}
+#             }
+#         }
+#     }
+# }
 
 
 ### 한국 독립운동 ###

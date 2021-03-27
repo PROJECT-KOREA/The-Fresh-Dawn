@@ -44,11 +44,11 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				807 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -99,19 +99,19 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				808 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -162,19 +162,19 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				809 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -225,15 +225,15 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				810 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -284,19 +284,19 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				811 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -347,27 +347,27 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				525 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -418,15 +418,15 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				527 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -477,11 +477,11 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				812 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -532,15 +532,15 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				813 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -591,27 +591,27 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				814 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -662,23 +662,23 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				815 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -729,15 +729,15 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				816 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -788,27 +788,27 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				817 = {
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"조국해방의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
