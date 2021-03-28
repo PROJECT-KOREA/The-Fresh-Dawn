@@ -81,10 +81,10 @@
  #국민정신
  GGK_idea_gengov_korea:0 "조선총독부"
  GGK_idea_gengov_korea_desc:0 ""
- GGK_idea_militarize_korean_peninsula:0 "조선반도 병참기지화 정책"
- GGK_idea_militarize_korean_peninsula_desc:0 ""
- GGK_idea_naisen_ittai:0 "내선일체"
- GGK_idea_naisen_ittai_desc:0 ""
+ GGK_idea_nousonshinkou_seisaku:0 "농업진흥정책"
+ GGK_idea_nousonshinkou_seisaku_desc:0 ""
+ GGK_idea_naisen_yuugou:0 "내선융화"
+ GGK_idea_naisen_yuugou_desc:0 ""
  GGK_idea_korean_independence_movement:0 "한국 독립운동"
  GGK_idea_korean_independence_movement_desc:0 ""
 

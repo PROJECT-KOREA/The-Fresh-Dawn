@@ -22,7 +22,7 @@ add_ideas = {
 	partial_economic_mobilisation
 
 	GGK_idea_gengov_korea
-	GGK_idea_militarize_korean_peninsula
+	GGK_idea_nousonshinkou_seisaku
 	GGK_idea_korean_independence_movement_1
 }
 

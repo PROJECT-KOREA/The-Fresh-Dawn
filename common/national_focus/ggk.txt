@@ -42,17 +42,35 @@ focus_tree = {
 			focus = GGK_focus_ugaki
 		}
 
-		mutually_exclusive = {
-			focus = GGK_focus_korean_independence_movement
-		}
-
 		completion_reward = {
-			add_political_power = 100
+			# add_ideas = 
 			# add_autonomy_score = {
 			# 	value = -50
 			# 	localization = GGK_focus_naisen_yuugou
 			# }
-			# add_ideas = GGK_idea_naisen_ittai
+			# add_ideas = GGK_idea_naisen_yuugou
+		}
+	}
+
+	#총독부 조직 개편
+    focus = {
+		id = GGK_focus_reform_government
+		icon = GFX_focus_reform_government
+		relative_position_id = GGK_focus_naisen_yuugou
+		x = 0
+		y = 1
+		cost = 5
+
+		available = {
+			
+		}
+
+		prerequisite = {
+			focus = GGK_focus_naisen_yuugou
+		}
+
+		completion_reward = {
+			add_political_power = 100
 		}
 	}
 

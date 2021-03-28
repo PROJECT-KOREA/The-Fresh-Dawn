@@ -1,0 +1,33 @@
+
+state={
+	id=827
+	name="STATE_827"
+
+	history={
+		owner = ECA
+		add_core_of = ECA
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+		1939.1.1 = {
+			owner = PRC
+			controller = MEN
+
+		}
+
+	}
+
+	provinces={
+		1811 1871 4495 4555 7578 7648 7674 10363 12348 12554 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -10,8 +10,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_naisen_ittai"
-		texturefile = "gfx/interface/ideas/GGK/idea_naisen_ittai.dds"
+		name = "GFX_idea_naisen_yuugou"
+		texturefile = "gfx/interface/ideas/GGK/idea_naisen_yuugou.dds"
 	}
 
 	spriteType = {

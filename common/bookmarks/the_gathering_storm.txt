@@ -91,7 +91,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				state_shintoism
 				JAP_zaibatsus
@@ -267,7 +267,7 @@ bookmarks = {
 			ideology = fascism
 			ideas = {
 				GGK_idea_gengov_korea
-				GGK_idea_militarize_korean_peninsula
+				GGK_idea_nousonshinkou_seisaku
 				GGK_idea_korean_independence_movement_1
 			}
 			

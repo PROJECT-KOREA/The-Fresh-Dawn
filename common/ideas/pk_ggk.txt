@@ -47,10 +47,10 @@ ideas = {
 			}
 		}
 
-		#조선반도 병참기지화 정책
-		GGK_idea_militarize_korean_peninsula = {
+		#농업진흥정책
+		GGK_idea_nousonshinkou_seisaku = {
 
-			name = GGK_idea_militarize_korean_peninsula
+			name = GGK_idea_nousonshinkou_seisaku
 
 			allowed = {
 				original_tag = GGK
@@ -63,15 +63,15 @@ ideas = {
 			removal_cost = -1
 			picture = generic_exploit_mines
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.05
 				production_speed_buildings_factor = 0.1
 			}
 		}
 
-		#조선반도 병참기지화 정책2
-		GGK_idea_militarize_korean_peninsula_2 = {
+		#농업진흥정책2
+		GGK_idea_nousonshinkou_seisaku_2 = {
 
-			name = GGK_idea_militarize_korean_peninsula
+			name = GGK_idea_nousonshinkou_seisaku
 
 			allowed = {
 				original_tag = GGK
@@ -89,10 +89,10 @@ ideas = {
 			}
 		}
 
-		#내선일체
-		GGK_idea_naisen_ittai = {
+		#내선융화
+		GGK_idea_naisen_yuugou = {
 
-			name = GGK_idea_naisen_ittai
+			name = GGK_idea_naisen_yuugou
 
 			allowed = {
 				original_tag = GGK
@@ -103,17 +103,17 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = naisen_ittai
+			picture = jap_militarism_shogun
 			modifier = {
 				political_power_gain = -0.1
 				autonomy_gain = -0.2
 			}
 		}
 
-		#내선일체2
-		GGK_idea_naisen_ittai_2 = {
+		#내선융화2
+		GGK_idea_naisen_yuugou_2 = {
 
-			name = GGK_idea_naisen_ittai
+			name = GGK_idea_naisen_yuugou
 
 			allowed = {
 				original_tag = GGK
@@ -124,17 +124,17 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = naisen_ittai
+			picture = jap_militarism_shogun
 			modifier = {
 				political_power_gain = -0.1
 				autonomy_gain = -0.4
 			}
 		}
 
-		#내선일체3
-		GGK_idea_naisen_ittai_3 = {
+		#내선융화3
+		GGK_idea_naisen_yuugou_3 = {
 
-			name = GGK_idea_naisen_ittai
+			name = GGK_idea_naisen_yuugou
 
 			allowed = {
 				original_tag = GGK
@@ -152,10 +152,10 @@ ideas = {
 			}
 		}
 
-		#내선일체4
-		GGK_idea_naisen_ittai_4 = {
+		#내선융화4
+		GGK_idea_naisen_yuugou_4 = {
 
-			name = GGK_idea_naisen_ittai
+			name = GGK_idea_naisen_yuugou
 
 			allowed = {
 				original_tag = GGK
@@ -173,10 +173,10 @@ ideas = {
 			}
 		}
 
-		#내선일체5
-		GGK_idea_naisen_ittai_5 = {
+		#내선융화5
+		GGK_idea_naisen_yuugou_5 = {
 
-			name = GGK_idea_naisen_ittai
+			name = GGK_idea_naisen_yuugou
 
 			allowed = {
 				original_tag = GGK
@@ -187,7 +187,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_naisen_ittai
+			picture = GFX_idea_naisen_yuugou
 			modifier = {
 				political_power_gain = -0.1
 				autonomy_gain = -1

@@ -1,1 +1,3 @@
 GGK = "countries/Government General of Korea.txt"
+ECA = "countries/East Chahar.txt"
+EHB = "countries/East Hebei.txt"
