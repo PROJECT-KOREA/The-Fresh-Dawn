@@ -13,159 +13,65 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "TNO_OpeningScreen_Main"
-		size = { width = 1064 height = 520 }
-		position = { x = 440 y = 340 }
+		size = { width = 1300 height = 770 }
+		position = { x = 310 y = 140 }
 		moveable = yes
 		
 		background = {
 			name = "TNO_OpeningScreen_BG_real"
 			spriteType = "GFX_tiled_window_transparent"
 		}
-
-		containerWindowType = {
-			name = "TNO_OpeningScreen_Buttons"
-			size = { width = 100% height = 100% }
-			position = { x = 0 y = 0 }
-
-			buttonType = {
-				name = "TNO_OpeningScreen_Buttons_CountryView"
-				position = { x = 10 y = -2 }
-				quadTextureSprite = "GFX_TNO_demo_tab_button"
-				buttonFont = "Bomb_18"
-				text = "국가 정보"
-			}
-			iconType = {
-				name = "TNO_OpeningScreen_PlayerFlag"
-				quadTextureSprite = "GFX_flag_smallest"
-				position = { x = 17 y = 1 }
-			}
-			
-			buttonType = {
-				name = "TNO_OpeningScreen_Buttons_FeatureView"
-				position = { x = 244 y = -2 }
-				quadTextureSprite = "GFX_TNO_demo_tab_button"
-				buttonFont = "Bomb_18"
-				text = "모드 소개"
-			}
-			iconType = {
-				name = "TNO_mod_features_mark"
-				quadTextureSprite = "GFX_TNO_mod_features_mark"
-				position = { x = 254 y = 6 }
-			}
-			
-			buttonType = {
-				name = "TNO_OpeningScreen_Buttons_ModView"
-				position = { x = 478 y = -2 }
-				quadTextureSprite = "GFX_TNO_demo_tab_button"
-				buttonFont = "Bomb_18"
-				text = "개발팀 정보"
-			}
-			iconType = {
-				name = "TNO_mod_logo"
-				quadTextureSprite = "GFX_TNO_mod_logo"
-				position = { x = 487 y = 5 }
-			}
-		}
 		
-		iconType = {
-			name = "TNO_OpeningScreen_Poster"
-			spriteType = "GFX_TNO_OpeningScreen_Poster_GEN"
-			position = { x = 844 y = 38 }
-		}
 		
 		iconType = {
 			name = "TNO_OpeningScreen_BG"
-			position = { x = 0 y = 25 }
-			spriteType = "GFX_TNO_Intro_BG"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_intro_bg"
 			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "opening_screen_poster1"
+			spriteType = "GFX_poster1_GEN"
+			position = { x = 37 y = 211 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "opening_screen_poster2"
+			spriteType = "GFX_poster2_GEN"
+			position = { x = 1031 y = 211 }
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "TNO_OpeningScreen_Text"
+			position = { x = 388 y = 209 }
+			font = "aldrich_22_outline_b"
+			text = "COUNTRY_INFO_TEXT"
+			maxWidth = 607
+			maxHeight = 460
+			# alwaystransparent = yes
+			scrollbarType = standardtext_slider
 		}
 
 		buttonType = {
-			name = "TNO_OpeningScreen_CloseButton"
-			quadTextureSprite = "GFX_tno_button_123x34" 
+			name = "close_button"
+			quadTextureSprite = "GFX_button_261x34" 
 			buttonFont = "hoi_18mbs"
 			pdx_tooltip = "TNO_OPENING_SCREEN_BUTTON_TT"
-			position = { x = 881 y = 478 }
-			shortcut = "ESCAPE"
-		}
-
-		instantTextBoxType = {
-			name = "TNO_OpeningScreen_CloseButton_text"
-			position = { x = 849 y = 483 }
+			position = { x = 519 y = 700 }
 			font = "aldrich_20_outline"
 			text = "TNO_OPENING_SCREEN_BUTTON_TEXT"
 			format = center
-			alwaystransparent = yes
+			shortcut = "ESCAPE"
 		}
-		
-		instantTextBoxType = {
-			name = "TNO_OpeningScreen_Text_Country"
-			position = { x = 24 y = 52 }
-			font = "aldrich_22_outline"
-			text = "COUNTRY_INFO_TEXT"
-			maxWidth = 790
-			maxHeight = 550
-			# alwaystransparent = yes
-			scrollbarType = standardtext_slider
-		}
-		
-		instantTextBoxType = {
-			name = "TNO_OpeningScreen_Text_Mod_Features"
-			position = { x = 24 y = 52 }
-			font = "aldrich_22_outline"
-			text = "MOD_FEATURES_TEXT"
-			maxWidth = 790
-			maxHeight = 550
-			# alwaystransparent = yes
-			scrollbarType = standardtext_slider
-		}
-		
-		instantTextBoxType = {
-			name = "TNO_OpeningScreen_Text_Mod_Info"
-			position = { x = 24 y = 52 }
-			font = "aldrich_22_outline"
-			text = "MOD_INFO_TEXT"
-			maxWidth = 790
-			maxHeight = 550
-			# alwaystransparent = yes
-			scrollbarType = standardtext_slider
-		}
-		
+
 		# instantTextBoxType = {
-		# 	name = "TNO_OpeningScreen_Text_ModInfo_Buttons"
-		# 	position = { x = 25 y = 49 }
-		# 	font = "aldrich_24_outline_closing"
-		# 	text = "MOD_INFO_TEXT"
-		# 	maxWidth = 712
-		# 	maxHeight = 410
+		# 	name = "TNO_OpeningScreen_CloseButton_text"
+		# 	position = { x = 849 y = 483 }
 		# 	alwaystransparent = yes
-		# 	scrollbarType = standardtext_slider
 		# }
-		
-		buttonType = {
-			name = "TNO_discord_button"
-			quadTextureSprite = "GFX_discord_button"
-			position = { x = 665 y = 462 }
-			web_link = "https://discordapp.com/invite/aDxgUy3"
-		}
-		#buttonType = {
-		#	name = "TNO_reddit_button"
-		#	quadTextureSprite = "GFX_reddit_button"
-		#	position = { x = 202 y = 40 }
-		#	web_link = "https://www.reddit.com/r/TNOmod/"
-		#}
-		#buttonType = {
-		#	name = "TNO_tvtropes_button"
-		#	quadTextureSprite = "GFX_tvtropes_button"
-		#	position = { x = 578 y = 40 }
-		#	web_link = "https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/TheNewOrderLastDaysOfEurope"
-		#}
-		#buttonType = {
-		#	name = "TNO_twitter_button"
-		#	quadTextureSprite = "GFX_twitter_button"
-		#	position = { x = 390 y = 40 }
-		#	web_link = "https://twitter.com/tnomod"
-		#}
 	}
 	
 	containerWindowType = {

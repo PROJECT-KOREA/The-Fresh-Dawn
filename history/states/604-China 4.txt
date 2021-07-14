@@ -1,0 +1,26 @@
+state = {
+	id = 604
+	name = "STATE_604"
+	manpower = 296100
+
+	state_category = rural
+	
+	history = {
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+
+		buildings = {
+			infrastructure = 2
+		}
+		
+		victory_points = {
+			7940 1 
+		}
+	}
+
+	provinces = {
+		4914 4964 7940 8018 8037 12899 
+	}
+}
+

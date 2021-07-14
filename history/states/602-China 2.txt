@@ -1,0 +1,29 @@
+state = {
+	id = 602
+	name = "STATE_602"
+	manpower = 12293700
+	
+	state_category = town
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			10377 5 
+		}
+	}
+
+	resources = {
+		tungsten = 28
+	}
+
+	provinces = {
+		1448 4125 7159 7502 9982 10377 11918 12350 12378 
+	}
+}

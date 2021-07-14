@@ -1,24 +1,23 @@
+state = {
+	id = 826
+	name = "STATE_826"
+	manpower = 2324174
 
-state={
-	id=826
-	name="STATE_826"
+	state_category = town
 
-	history={
+	history = {
 		owner = MAN
-		add_core_of = CHI
 		add_core_of = MAN
-		add_core_of = PRC
+		add_core_of = CHI
+		
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
 		}
-
 	}
-
-	provinces={
+	
+	provinces = {
 		1545 1571 1732 4551 7569 7670 9623 10215 10368 10379 10463 10519 10521 12342 12355 12443 12482 
 	}
-	manpower=3694191
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

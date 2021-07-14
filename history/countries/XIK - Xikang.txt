@@ -1,0 +1,84 @@
+﻿capital = 844 #강딩
+
+oob = "XIK_1936"
+
+set_research_slots = 1
+
+set_technology = {
+	infantry_weapons = 1
+
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	auto_despotism = 100
+
+}
+set_politics = {
+
+	ruling_party = auto_despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Liu Wenhui"
+	desc = "POLITICS_LIU_WENHUI_DESC"
+	picture = "Portrait_Sichuan_Liu_Wenhui.dds"
+	expire = "1938.1.20"
+	ideology = despotism
+}
+
+create_country_leader = {
+  	name = "Liu Wenhui"
+	desc = "POLITICS_LIU_WENHUI_DESC"
+	picture = "Portrait_Sichuan_Liu_Wenhui.dds"
+	expire = "1970.11.3"
+	ideology = fascism_ideology
+}
+
+create_country_leader = {
+  name = "Liu Wenhui"
+	desc = "POLITICS_LIU_WENHUI_DESC"
+	picture = "Portrait_Sichuan_Liu_Wenhui.dds"
+	expire = "1970.11.3"
+	ideology = conservatism
+}
+
+create_country_leader = {
+  name = "Liu Wenhui"
+	desc = "POLITICS_LIU_WENHUI_DESC"
+	picture = "Portrait_Sichuan_Liu_Wenhui.dds"
+	expire = "1970.11.3"
+	ideology = rad_socialism
+}
+
+create_country_leader = {
+ 	name = "Liu Wenhui"
+	desc = "POLITICS_LIU_WENHUI_DESC"
+	picture = "Portrait_Sichuan_Liu_Wenhui.dds"
+	expire = "1970.11.3"
+	ideology = marxism
+}
+
+create_country_leader = {
+ 	name = "Liu Wenhui"
+	desc = "POLITICS_LIU_WENHUI_DESC"
+	picture = "Portrait_Sichuan_Liu_Wenhui.dds"
+	expire = "1970.11.3"
+	ideology = rad_socialism
+}
+create_field_marshal = {
+	name = "Liu Wenhui"
+	portrait_path = "gfx/leaders/XIK/Portrait_Sichuan_Liu_Wenhui.dds"
+	traits = { logistics_wizard }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}

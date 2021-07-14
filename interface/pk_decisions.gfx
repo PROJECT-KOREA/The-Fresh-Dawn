@@ -33,6 +33,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_decision_generic_agreement"
+		texturefile = "gfx/interface/decisions/decision_generic_agreement.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_citizens"
+		texturefile = "gfx/interface/decisions/decision_generic_citizens.tga"
+	}
+
+	spriteType = {
 		name = "GFX_decision_generic_supplies"
 		texturefile = "gfx/interface/decisions/decision_generic_supplies.tga"
 	}

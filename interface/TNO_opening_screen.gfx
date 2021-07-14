@@ -40,8 +40,8 @@ spriteTypes = {
 
 	# Backgrounds
 	spriteType = {
-		name = "GFX_TNO_Intro_BG"
-		textureFile = "gfx/interface/opening_screen/TNO_Intro_BG.dds"
+		name = "GFX_intro_bg"
+		textureFile = "gfx/interface/opening_screen/intro_bg.dds"
 	}
 	spriteType = {
 		name = "GFX_TNO_Closing_BG"
@@ -81,15 +81,28 @@ spriteTypes = {
 
 	# Posters
 	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_GGK"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_GGK.dds"
+		name = "GFX_poster1_GGK"
+		textureFile = "gfx/interface/opening_screen/poster1_GGK.dds"
 	}
 	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_KOR"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_KOR.dds"
+		name = "GFX_poster1_KOR"
+		textureFile = "gfx/interface/opening_screen/poster1_KOR.dds"
 	}
 	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_GEN"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_GEN.dds"
+		name = "GFX_poster1_GEN"
+		textureFile = "gfx/interface/opening_screen/poster1_GEN.dds"
+	}
+
+	spriteType = {
+		name = "GFX_poster2_GGK"
+		textureFile = "gfx/interface/opening_screen/poster2_GGK.dds"
+	}
+	spriteType = {
+		name = "GFX_poster2_KOR"
+		textureFile = "gfx/interface/opening_screen/poster2_KOR.dds"
+	}
+	spriteType = {
+		name = "GFX_poster2_GEN"
+		textureFile = "gfx/interface/opening_screen/poster2_GEN.dds"
 	}
 }

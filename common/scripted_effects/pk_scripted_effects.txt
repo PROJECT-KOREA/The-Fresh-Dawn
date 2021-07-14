@@ -292,7 +292,7 @@ KOR_reset_province_names = {
 		name = "부산"
 	}
 	set_province_name = {
-		id = 13251
+		id = 13252
 		name = "마산"
 	}
 	set_province_name = {

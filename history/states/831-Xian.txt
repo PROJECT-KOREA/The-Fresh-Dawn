@@ -1,0 +1,21 @@
+state = {
+	id = 831
+	name = "STATE_831"
+	manpower = 608900
+
+	state_category = town
+
+	history = {
+		owner = CHI
+		add_core_of = NEA
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		5007 10733 12156 
+	}
+}

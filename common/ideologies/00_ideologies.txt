@@ -4,6 +4,7 @@ ideologies = {
 	communism = {
 		
 		types = {
+			marxism = {} #마르크스주의
 			leninism = {} #레닌주의
 			stalinism = {} #스탈린주의
 			maoism = { #마오주의
@@ -19,7 +20,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 65 0 10 }
+		color = { 125 0 00 }
 		
 		ai_neutral = yes
 		
@@ -62,7 +63,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 120 0 0 }
+		color = { 190 0 0 }
 		
 		rules = {
 			can_force_government = no
@@ -109,7 +110,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 255 0 0 }
+		color = { 230 0 0 }
 		
 		rules = {
 			can_force_government = no
@@ -151,7 +152,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 195 20 85 }
+		color = { 215 20 85 }
 		
 		rules = {
 			can_force_government = no
@@ -195,7 +196,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 255 130 35 }
+		color = { 255 110 35 }
 		
 		rules = {
 			can_force_government = no
@@ -241,7 +242,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 255 225 36 }
+		color = { 255 190 0 }
 		
 		rules = {
 			can_force_government = no
@@ -289,7 +290,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_5"
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
-		color = { 50 140 255 }
+		color = { 10 140 255 }
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -334,7 +335,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_5"
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
-		color = { 0 0 255 }
+		color = { 0 40 220 }
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -379,7 +380,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_5"
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
-		color = { 20 30 70 }
+		color = { 25 35 130 }
 		rules = {
 			can_force_government = no
 			can_send_volunteers = yes
@@ -412,6 +413,7 @@ ideologies = {
 			military_dic = {} #군정
 			oligarchism = {} #과두제
 			colonial_gov = {} #식민지
+			moderatism = {} #온건주의 (바닐라)
 		}
 
 		dynamic_faction_names = {
@@ -454,7 +456,7 @@ ideologies = {
 		ai_neutral = yes
 	}
 
-	#전제독재주의
+	#전제주의
 	auto_despotism = {
 	
 		types = {
@@ -486,7 +488,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 60 30 130 }
+		color = { 40 35 70 }
 		
 		rules = {
 			can_force_government = no
@@ -541,7 +543,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 5 5 5 }
+		color = { 85 50 15 }
 		
 		rules = {
 			can_force_government = no

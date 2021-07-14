@@ -147,7 +147,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="manpower"
-			position = { x= 429 y = 9 }
+			position = { x= 424 y = 9 }
 			font = "hoi_18mbs"
 			text = "9999"
 			format = center
@@ -172,7 +172,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="stability"
-			position = { x= 253 y = 9 }
+			position = { x= 252 y = 9 }
 			font = "hoi_18mbs"
 			text = "100%"
 			format = right
@@ -197,7 +197,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="war_support"
-			position = { x= 326 y = 9 }
+			position = { x= 324 y = 9 }
 			font = "hoi_18mbs"
 			text = "100%"
 			format = right

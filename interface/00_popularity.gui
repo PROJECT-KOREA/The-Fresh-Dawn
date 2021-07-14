@@ -156,7 +156,7 @@ guiTypes = {
 	#Frames in countrypoliticsview
 	containerWindowType = {
 		name = "framecom"
-		position = { x = 362 y = 178 }
+		position = { x = 362 y = 186 }
 		iconType ={
 			name = "framecom_icon"
 			spriteType = "GFX_party_background"
@@ -167,7 +167,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "frameautsoc"
-		position = { x = 362 y = 194 }
+		position = { x = 362 y = 202 }
 		iconType ={
 			name = "frameautsoc_icon"
 			spriteType = "GFX_party_background"
@@ -178,7 +178,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "frameradsoc"
-		position = { x = 362 y = 210 }
+		position = { x = 362 y = 218 }
 		iconType ={
 			name = "frameradsoc_icon"
 			spriteType = "GFX_party_background"
@@ -189,7 +189,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "framesocdem"
-		position = { x = 362 y = 226 }
+		position = { x = 362 y = 234 }
 		iconType ={
 			name = "framesocdem_icon"
 			spriteType = "GFX_party_background"
@@ -200,7 +200,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "framesoclib"
-		position = { x = 362 y = 242 }
+		position = { x = 362 y = 250 }
 		iconType ={
 			name = "framesoclib_icon"
 			spriteType = "GFX_party_background"
@@ -211,7 +211,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "framenatlib"
-		position = { x = 362 y = 258 }
+		position = { x = 362 y = 266 }
 		iconType ={
 			name = "framenatlib_icon"
 			spriteType = "GFX_party_background"
@@ -222,7 +222,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "framelibcon"
-		position = { x = 362 y = 274 }
+		position = { x = 362 y = 282 }
 		iconType ={
 			name = "framelibcon_icon"
 			spriteType = "GFX_party_background"
@@ -233,7 +233,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "framesoccon"
-		position = { x = 362 y = 290 }
+		position = { x = 362 y = 298 }
 		iconType ={
 			name = "framesoccon_icon"
 			spriteType = "GFX_party_background"
@@ -244,7 +244,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "framenatcon"
-		position = { x = 362 y = 306 }
+		position = { x = 362 y = 314 }
 		iconType ={
 			name = "framenatcon_icon"
 			spriteType = "GFX_party_background"
@@ -255,7 +255,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "frameneu"
-		position = { x = 362 y = 322 }
+		position = { x = 362 y = 330 }
 		iconType ={
 			name = "frameneu_icon"
 			spriteType = "GFX_party_background"
@@ -266,7 +266,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "frameautdes"
-		position = { x = 362 y = 338 }
+		position = { x = 362 y = 346 }
 		iconType ={
 			name = "frameautdes_icon"
 			spriteType = "GFX_party_background"
@@ -277,7 +277,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "framefas"
-		position = { x = 362 y = 354 }
+		position = { x = 362 y = 362 }
 		iconType ={
 			name = "framefas_icon"
 			spriteType = "GFX_party_background"

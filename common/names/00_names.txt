@@ -2250,7 +2250,7 @@ MOR = {
 }
 
 #Tunisia
-TUN = {
+TNG = {
 	male = {
 		names = {  
 			Aali "Abd Al-Latif"  Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir George Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
@@ -2715,7 +2715,7 @@ GAH = {
 		}
 	}
 	surnames = {
-		Abongo Adablah Addy Adjei Adu Affutu Agbee Aggudey Aidoo Akuetteh "Akufo-Addo" Alhassan Amadu Amankwah "Amenga-Etego" Amissah Amoah Amu Anatsui Anin Annan Ansah Apea Arkaah Aryee Asante Ayensu Baah Berko Blay Buari Busia
+		Abongo Adablah Addy Adjei Adu Affutu Agbee AgGXCey Aidoo Akuetteh "Akufo-Addo" Alhassan Amadu Amankwah "Amenga-Etego" Amissah Amoah Amu Anatsui Anin Annan Ansah Apea Arkaah Aryee Asante Ayensu Baah Berko Blay Buari Busia
 		Chireh Djansi Dossey "Frimpong-Manso" Gbeho "de Graft-Johnson" Ibrahim Kalilu Konadu Kuffour Kumah Labi Limann Mahama McBrown Mensah Michel Mumuni Nikoi Nyarko Oko Ollennu Preko Quartey Quaynor Rahman "Sintim-Misa"
 		"Wemega-Kwawu" Yaw
 	}

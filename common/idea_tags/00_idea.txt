@@ -22,20 +22,6 @@ idea_categories = {
 		ledger = hidden
 	}
 	
-	government = {
-		slot = mobilization_laws
-		slot = trade_laws
-		slot = economy
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		
-		cost = 150
-		removal_cost = 0
-
-		ledger = civilian
-	}
-	
 	cabinet = {
 		slot = head_of_gov
 		slot = security_minister
@@ -49,12 +35,31 @@ idea_categories = {
 
 		ledger = civilian
 	}
+	
+	government = {
+		slot = mobilization_laws
+		slot = trade_laws
+		slot = economy
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
+		
+		cost = 150
+		removal_cost = 0
+
+		ledger = civilian
+	}
 
 	research_production = {
+		slot = materiel_manufacturer
+		slot = materiel_manufacturer
 		slot = tank_manufacturer
 		slot = naval_manufacturer
 		slot = aircraft_manufacturer
-		slot = materiel_manufacturer
+		slot = industrial_concern
 		slot = industrial_concern
 		slot = theorist
 
@@ -68,6 +73,8 @@ idea_categories = {
 		slot = army_chief 
 		slot = navy_chief 
 		slot = air_chief
+		slot = high_command
+		slot = high_command
 		slot = high_command
 		slot = high_command
 		slot = high_command

@@ -1,27 +1,30 @@
+state = {
+	id = 611
+	name = "STATE_611"
+	manpower = 1470000
 
-state={
-	id=611
-	name="STATE_611"
+	state_category = town
 
-	history={
-		owner = CHI
+	history = {
+		owner = HPC
+		add_core_of = HPC
 		add_core_of = CHI
-		add_core_of = PRC
+		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
-
 		}
+
 		victory_points = {
-			11752 3 
+			10397 5
 		}
-
 	}
 
-	provinces={
+	resources = {
+		steel = 10
+	}
+
+	provinces = {
 		828 952 1137 1489 1590 3955 6904 9776 10397 
 	}
-	manpower=1470000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

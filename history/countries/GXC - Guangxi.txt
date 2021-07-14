@@ -29,7 +29,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	auto_despotism = 100
 }
 
 create_country_leader = {

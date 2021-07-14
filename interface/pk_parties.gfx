@@ -116,7 +116,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/colonial_gov.tga"
 	}
 
-	#전제독재주의
+	#전제주의
     spriteType = {
 		name = "GFX_ideology_auto_despotism_group"
 		texturefile = "gfx/interface/ideologies/nationalism_group.tga"

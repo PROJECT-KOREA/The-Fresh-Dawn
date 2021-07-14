@@ -8,6 +8,43 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_report_event_KOR_kpg_shanghai"
+		textureFile = "gfx/event_pictures/report_event_KOR_kpg_shanghai.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_kpg_gukmuwon"
+		textureFile = "gfx/event_pictures/report_event_KOR_kpg_gukmuwon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_kpg_handokdang"
+		textureFile = "gfx/event_pictures/report_event_KOR_kpg_handokdang.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_search_out_spies"
+		textureFile = "gfx/event_pictures/report_event_KOR_search_out_spies.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_kpg_uijeongwon"
+		textureFile = "gfx/event_pictures/report_event_KOR_kpg_uijeongwon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_independence_army2"
+		textureFile = "gfx/event_pictures/report_event_KOR_independence_army2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_independence_army2"
+		textureFile = "gfx/event_pictures/report_event_KOR_independence_army2.dds"
+	}
+
+
+
+	spriteType = {
 		name = "GFX_report_event_KOR_kim_koo_speech"
 		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_speech.dds"
 	}
@@ -15,11 +52,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_KOR_kim_koo_with_kim_wonbong"
 		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_with_kim_wonbong.dds"
-	}
-
-	spriteType = {
-		name = "GFX_report_event_KOR_search_out_spies"
-		textureFile = "gfx/event_pictures/report_event_KOR_search_out_spies.dds"
 	}
 
 	spriteType = {

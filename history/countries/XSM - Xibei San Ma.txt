@@ -24,8 +24,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	neutrality = 100
+	auto_despotism = 100
 }
 
 create_country_leader = {

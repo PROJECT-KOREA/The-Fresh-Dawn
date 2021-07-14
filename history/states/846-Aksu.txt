@@ -1,0 +1,20 @@
+state={
+	id = 846
+	name="STATE_846"
+	provinces={
+		1703 4682 4770 4828 7702 7949 12526
+	}
+	history={
+		owner = SIK
+		add_claim_by = CHI
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	manpower=430500
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

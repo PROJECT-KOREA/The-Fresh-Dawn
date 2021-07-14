@@ -1,0 +1,27 @@
+state = {
+	id = 752
+	name = "STATE_752"
+	manpower = 368200
+	
+	state_category = rural
+
+	history = {
+		owner = XIK
+		add_core_of = XIK
+		add_core_of = SIC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+
+	resources = {
+		steel = 5
+	}
+
+	provinces = {
+		1999 8104 12724 12837 
+	}
+}

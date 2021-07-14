@@ -6,9 +6,13 @@ GGK_provisional_government_decision = {
 
 	visible_when_empty = yes
 
+	visible = {
+		NOT = { has_country_flag = GGK_flag_ki_no }
+	}
+
 	allowed = {
 		original_tag = GGK
 	}
 
-	priority = 0
+	priority = 100
 }

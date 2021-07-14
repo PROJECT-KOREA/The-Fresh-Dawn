@@ -664,12 +664,12 @@ air_wings = {
 			amount = 72
 		}
 		# 6 Hiko Rentai -- Mitsubishi Ki-2
-		CAS_equipment_1 =  {
+		CAS_equipment_1 = {
 			owner = "JAP" 
 			amount = 54
 		}
 		# 9 Hiko Rentai -- Mitsubishi Ki-1
-		tac_bomber_equipment_0 =  {
+		tac_bomber_equipment_0 = {
 			owner = "JAP" 
 			amount = 54
 		}
@@ -683,7 +683,7 @@ air_wings = {
 			amount = 72
 		}
 		# 5 Hiko Rentai -- Kawasaki Ki-3
-		CAS_equipment_1 =  {
+		CAS_equipment_1 = {
 			owner = "JAP" 
 			amount = 54
 		}
@@ -692,7 +692,7 @@ air_wings = {
 	# 3 Hikodan -- Taiwan
 	524 = {
 		# 10 Hiko Rentai -- Kawasaki Ki-3
-		CAS_equipment_1 =  {
+		CAS_equipment_1 = {
 			owner = "JAP" 
 			amount = 54
 		}
@@ -730,7 +730,7 @@ air_wings = {
 
 	### Akagi CAG -- Hiroshima (while Akagi is refit)
 	529 = { 
-		cv_fighter_equipment_0 =  {
+		cv_fighter_equipment_0 = {
 			owner = "JAP" 
 			amount = 12
 		}
@@ -738,7 +738,7 @@ air_wings = {
 			owner = "JAP" 
 			amount = 9
 		}
-		cv_nav_bomber_equipment_1 =  {
+		cv_nav_bomber_equipment_1 = {
 			owner = "JAP" 
 			amount = 9
 		}

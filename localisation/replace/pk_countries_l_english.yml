@@ -78,52 +78,12 @@
  JAP_democratic_DEF:0 "일본국"
  JAP_communism:0 "일본인민공화국"
  JAP_communism_DEF:0 "일본인민공화국"
- 
- #중국
- CHI_auto_despotism:0 "중화민국 국민정부"
- CHI_auto_despotism_DEF:0 "중화민국 국민정부"
 
  #만주
- MAN_JAP_fascism_autonomy_puppet:0 "만주 제국"
- MAN_JAP_fascism_autonomy_reichsprotectorate:0 "만주 제국"
- MAN_JAP_fascism_autonomy_colony:0 "만주 제국"
- MAN_JAP_fascism_autonomy_dominion:0 "만주 제국"
- MAN_JAP_fascism_autonomy_satellite:0 "만주 제국"
- MAN_JAP_fascism_autonomy_integrated_puppet:0 "만주 제국"
- MAN_JAP_fascism_autonomy_reichskommissariat:0 "만주 제국"
- MAN_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "만주 제국"
- MAN_JAP_fascism_autonomy_wtt_imperial_subject:0 "만주 제국"
- MAN_JAP_fascism_autonomy_wtt_imperial_associate:0 "만주 제국"
- MAN_JAP_fascism_autonomy_puppet_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_reichsprotectorate_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_colony_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_dominion_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_satellite_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_integrated_puppet_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_reichskommissariat_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_wtt_imperial_protectorate_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_wtt_imperial_subject_DEF:0 "만주 제국"
- MAN_JAP_fascism_autonomy_wtt_imperial_associate_DEF:0 "만주 제국"
-
- #산서군벌
- SHX_auto_despotism:0 "산서 군벌"
- SHX_auto_despotism_DEF:0 "산서 군벌"
-
- #마가군벌
- XSM_auto_despotism:0 "마가 군벌"
- XSM_auto_despotism_DEF:0 "마가 군벌"
-
- #운남군벌
- YUN_auto_despotism:0 "운남 군벌"
- YUN_auto_despotism_DEF:0 "운남 군벌"
-
- #광서군벌
- GXC_auto_despotism:0 "광서 군벌"
- GXC_auto_despotism_DEF:0 "광서 군벌"
-
- #신강군벌
- SIK_communism:0 "신강 군벌"
- SIK_communism_DEF:0 "신강 군벌"
+ MAN_neutrality:0 "대청국"
+ MAN_neutrality_DEF:0 "대청국"
+ MAN_fascism:0 "중화제국"
+ MAN_fascism_DEF:0 "중화제국"
 
  #찰동특별자치구
  ECA_fascism:0 "찰동특별자치구"
@@ -136,67 +96,75 @@
  #몽강
  MEN_neutrality:0 "몽고지방자치정무위원회"
  MEN_neutrality_DEF:0 "몽고지방자치정무위원회"
+ 
+ #중국
+ CHI_auto_despotism:0 "중화민국 국민정부"
+ CHI_auto_despotism_DEF:0 "중화민국 국민정부"
+ 
+ #기찰정무위원회
+ HPC_neutrality:0 "기찰정무위원회"
+ HPC_neutrality_DEF:0 "기찰정무위원회"
+ HPC_auto_despotism:0 "기찰정무위원회"
+ HPC_auto_despotism_DEF:0 "기찰정무위원회"
+ 
+ #서북초비총사령부
+ NEA_neutrality:0 "서북초비총사령부"
+ NEA_neutrality_DEF:0 "서북초비총사령부"
+ NEA_auto_despotism:0 "서북초비총사령부"
+ NEA_auto_despotism_DEF:0 "서북초비총사령부"
+
+ #산서 군벌
+ SHX_auto_despotism:0 "산서 군벌"
+ SHX_auto_despotism_DEF:0 "산서 군벌"
+
+ #산동 군벌
+ SHD_auto_despotism:0 "산동 군벌"
+ SHD_auto_despotism_DEF:0 "산동 군벌"
+
+ #청해 군벌
+ XSM_auto_despotism:0 "청해 군벌"
+ XSM_auto_despotism_DEF:0 "청해 군벌"
+
+ #영하 군벌
+ NXM_auto_despotism:0 "영하 군벌"
+ NXM_auto_despotism_DEF:0 "영하 군벌"
+
+ #사천 군벌
+ SIC_auto_despotism:0 "사천 군벌"
+ SIC_auto_despotism_DEF:0 "사천 군벌"
+
+ #천변 특별구
+ XIK_auto_despotism:0 "천변 특별구"
+ XIK_auto_despotism_DEF:0 "천변 특별구"
+
+ #운남 군벌
+ YUN_auto_despotism:0 "운남 군벌"
+ YUN_auto_despotism_DEF:0 "운남 군벌"
+
+ #신광서 군벌
+ GXC_auto_despotism:0 "신광서 군벌"
+ GXC_auto_despotism_DEF:0 "신광서 군벌"
+
+ #광동 군벌
+ GUD_auto_despotism:0 "광동 군벌"
+ GUD_auto_despotism_DEF:0 "광동 군벌"
+
+ #신강 군벌
+ SIK_communism:0 "신강성 정부"
+ SIK_communism_DEF:0 "신강성 정부"
+
+ #퉁가니스탄
+ TNG_auto_despotism:0 "퉁가니스탄"
+ TNG_auto_despotism_DEF:0 "퉁가니스탄"
+
+ #중공
+ PRC_communism:0 "중화소비에트민주공화국"
+ PRC_communism_DEF:0 "중화소비에트민주공화국"
 
  #몽골
  MON_communism:0 "몽골인민공화국"
  MON_communism_DEF:0 "몽골인민공화국"
 
- #중공
- PRC_communism:0 "중화소비에트공화국"
- PRC_communism_DEF:0 "중화소비에트공화국"
-
  #독일
  GER_fascism:0 "독일국"
  GER_fascism_DEF:0 "독일국"
-
- #Korean Language Plus+
- USA_neutrality:1 "미 연방 군사정부"
- USA_neutrality_DEF:1 "미 연방 군사정부"
- CZE_fascism_ADJ:0 "보헤미아"
- CZE_neutrality_ADJ:0 "보헤미아"
- SIA_fascism:0 "태국"
- SIA_fascism_DEF:0 "태국"
- RAJ_neutrality:0 "인도 제국"
- RAJ_neutrality_DEF:0 "인도 제국"
- WGR_democratic:0 "독일 연방 공화국"
- WGR_democratic_DEF:0 "독일 연방 공화국"
- DDR_communism:0 "독일 민주 공화국"
- DDR_communism_DEF:0 "독일 민주 공화국"
- MAN_fascism_ADJ:0 "대청"
- MAN_democratic_ADJ:0 "만주"
- MAN_neutrality_ADJ:0 "대청"
- MAN_communism_ADJ:0 "만주"
- CRC_fascism:0 "앤틸리스 제국"
- CRC_fascism_DEF:0 "앤틸리스 제국"
- CRC_democratic:0 "앤틸리스"
- CRC_democratic_DEF:0 "앤틸리스"
- CRC_fascism_ADJ:0 "앤틸리스"
- CRC_democratic_ADJ:0 "앤틸리스"
- USB_fascism:0 "미 국가사회주의 합중국"
- USB_fascism_DEF:0 "미 국가사회주의 합중국"
- USB_democratic:0 "미합중국"
- USB_democratic_DEF:0 "미합중국"
- USB_neutrality:0 "미 중립 합중국"
- USB_neutrality_DEF:0 "미 중립 합중국"
- USB_communism:0 "미 노동자 합중국"
- USB_communism_DEF:0 "미 노동자 합중국"
- BAS_fascism:0 "서인도 해방합중국"
- BAS_fascism_DEF:0 "서인도 해방합중국"
- BAS_democratic:0 "앤틸리스 공화국"
- BAS_democratic_DEF:0 "앤틸리스 공화국"
- BAS_neutrality:0 "앤틸리스 연방"
- BAS_neutrality_DEF:0 "앤틸리스 연방"
- BAS_communism:0 "앤틸리스 코뮌"
- BAS_communism_DEF:0 "앤틸리스 코뮌"
- BAS_fascism_ADJ:0 "서인도제도"
- BAS_democratic_ADJ:0 "앤틸리스"
- BAS_neutrality_ADJ:0 "앤틸리스"
- BAS_communism_ADJ:0 "앤틸리스"
- CAY_communism:0 "가이아나 사회주의 공화국"
- CAY_communism_DEF:0 "가이아나 사회주의 공화국"
- CAY_communism_ADJ:0 "가이아나"
- TAH_democratic:0 "폴리네시아"
- TAH_democratic_DEF:0 "폴리네시아"
- TAH_democratic_ADJ:0 "폴리네시아"
- OCC_communism_subject:0 "남프랑스 노동자코뮌"
- OCC_communism_subject_DEF:0 "남프랑스 노동자코뮌"

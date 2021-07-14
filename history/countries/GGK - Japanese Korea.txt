@@ -3,10 +3,10 @@
 oob = "GGK_1936"
 
 #안정도
-set_stability = 0.15
+set_stability = 0.25
 
 #전쟁 지지도
-set_war_support = 0.25
+set_war_support = 0.28
 
 #시작 기술
 set_technology = {
@@ -22,8 +22,14 @@ add_ideas = {
 	partial_economic_mobilisation
 
 	GGK_idea_gengov_korea
-	GGK_idea_nousonshinkou_seisaku
+	GGK_idea_sanmaizoushoku_keikeku
+	GGK_idea_nousonshinkou_undou
+	GGK_idea_industrialization
+	GGK_idea_naisen_yuugou
 	GGK_idea_korean_independence_movement_1
+
+	SM_Ushijima_Shozo
+	EM_Hayashi_Shigezo
 }
 
 #연구 슬롯
@@ -42,12 +48,15 @@ set_politics = {
 
 #정당 지지도
 set_popularities = {
-	communism = 2
-	social_democracy = 7
-	national_liberalism = 5
-	liberal_conservatism = 6
-	neutrality = 8
-	fascism = 72
+	communism = 2 #박헌영
+	radical_socialism = 2 #김원봉
+	social_democracy = 6 #여운형
+	national_liberalism = 3 #안재홍
+	liberal_conservatism = 2 #송진우
+	democratic = 3 #이승만
+	national_conservatism = 2 #김구
+	neutrality = 4 #임시정부
+	fascism = 76 #총독부
 }
 
 COALITION_add_fas = yes
@@ -59,6 +68,18 @@ create_country_leader = {
 	picture = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
+	traits = {
+
+	}
+}
+
+#급진사회주의 - 김원봉
+create_country_leader = {
+	name = "Kim Wonbong"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Kim_Wonbong.dds"
+	expire = "1965.1.1"
+	ideology = social_nationalism
 	traits = {
 
 	}
@@ -112,6 +133,18 @@ create_country_leader = {
 	}
 }
 
+#비동맹주의 - 대한민국 임시정부
+create_country_leader = {
+	name = "Provisional Government"
+	desc = ""
+	picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+
+	}
+}
+
 #국민보수주의 - 김구
 create_country_leader = {
 	name = "Kim Koo"
@@ -131,18 +164,6 @@ create_country_leader = {
 	picture = "gfx/leaders/JAP_colony/Portrait_Kazushige_Ugaki.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
-	traits = {
-
-	}
-}
-
-#비동맹주의 - 대한민국 임시정부
-create_country_leader = {
-	name = "Kim Koo"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
 	traits = {
 
 	}

@@ -1,0 +1,122 @@
+﻿capital = 744 #시안
+
+oob = "NEA_1936"
+
+set_stability = 0.7
+set_war_support = 0.6
+set_research_slots = 1
+
+set_technology = {
+	infantry_weapons = 1
+
+}
+add_opinion_modifier = {
+	target = PRC modifier = tacit_agreement
+}
+add_opinion_modifier = {
+	target = CHI modifier = hostile_status
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	closed_economy
+	extensive_conscription
+	partial_economic_mobilisation
+}
+
+create_country_leader = {
+	name = "Zhang Xueliang"
+	desc = "POLITICS_ZHANG_XUELIANG_DESC"
+	picture = "Portrait_Zhang_Xueliang.dds"
+	expire = "1938.1.20"
+	ideology = military_dic
+}
+
+create_field_marshal = {
+	name = "Zhang Xueliang"
+	portrait_path = "gfx/leaders/NEA/Portrait_Zhang_Xueliang.dds"
+	traits = { logistics_wizard }
+	id = 2504
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Yang Hucheng"
+	portrait_path = "gfx/leaders/NEA/Portrait_Yang_Hucheng.dds"
+	id = 3001
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Yu Xuezhong"
+	portrait_path = "gfx/leaders/NEA/Portrait_Yu_Xuezhong.dds"
+	#id = 3001
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Feng Qinzai"
+	portrait_path = "gfx/leaders/NEA/China_Shaanxi_Feng_Qinzai.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Sun Weiru"
+	portrait_path = "gfx/leaders/NEA/China_Shaanxi_Sun_Weiru.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Wang Yizhe"
+	portrait_path = "gfx/leaders/NEA/NE_Army_Wang_Yizhe.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+#NOT NOW
+create_corps_commander = {
+	name = "He Zhuguo"
+	portrait_path = "gfx/leaders/NEA/Portrait_He_Zhuguo.dds"
+	traits = {cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}

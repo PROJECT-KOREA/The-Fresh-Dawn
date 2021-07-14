@@ -318,281 +318,281 @@ focus_tree = {
 	# }
 
 
-	# #한국 독립운동
-    # focus = {
-	# 	id = GGK_focus_korean_independence_movement
-	# 	icon = GFX_focus_korean_independence_movement
-	# 	relative_position_id = GGK_focus_reform_government
-	# 	x = 5
-	# 	y = 1
-	# 	cost = 5
+	#한국 독립운동
+    focus = {
+		id = GGK_focus_korean_independence_movement
+		icon = GFX_focus_korean_independence_movement
+		relative_position_id = GGK_focus_reform_government
+		x = 5
+		y = 1
+		cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_reform_government
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_reform_government
+		}
 
-	# 	mutually_exclusive = {
-	# 		focus = GGK_focus_naisen_yuugou
-	# 	}
+		mutually_exclusive = {
+			focus = GGK_focus_naisen_yuugou
+		}
 
-	# 	completion_reward = {
-	# 		add_popularity = {
-	# 			ideology = fascism
-	# 			popularity = -0.05
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
+			}
+		}
+	}
 	
-	# #임시정부의 정통성
-    # focus = {
-	# 	id = GGK_focus_legitimacy_of_government
-	# 	icon = GFX_focus_kpg
-	# 	relative_position_id = GGK_focus_korean_independence_movement
-	# 	x = 0
-	# 	y = 1
-	# 	cost = 5
+	#임시정부의 정통성
+    focus = {
+		id = GGK_focus_legitimacy_of_government
+		icon = GFX_focus_kpg
+		relative_position_id = GGK_focus_korean_independence_movement
+		x = 0
+		y = 1
+		cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_korean_independence_movement
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_korean_independence_movement
+		}
 		
-	# 	completion_reward = {
-	# 		country_event = {
-	# 			id = ggk_korea.1
-	# 			days = 0
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			country_event = {
+				id = ggk_korea.1
+				days = 0
+			}
+		}
+	}
 	
-	# #연립정부 구성
-    # focus = {
-	# 	id = GGK_focus_form_coalition_government
-	# 	icon = GFX_focus_generic_self_management
-	# 	relative_position_id = GGK_focus_legitimacy_of_government
-	# 	x = -1
-	# 	y = 1
-	# 	cost = 10
+	#연립정부 구성
+    focus = {
+		id = GGK_focus_form_coalition_government
+		icon = GFX_focus_generic_self_management
+		relative_position_id = GGK_focus_legitimacy_of_government
+		x = -1
+		y = 1
+		cost = 10
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_legitimacy_of_government
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_legitimacy_of_government
+		}
 		
-	# 	completion_reward = {
-	# 		country_event = {
-	# 			id = ggk_korea.2
-	# 			days = 0
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			country_event = {
+				id = ggk_korea.2
+				days = 0
+			}
+		}
+	}
 	
-	# #일제 밀정 색출
-    # focus = {
-	# 	id = GGK_track_down_japanese_spies
-	# 	icon = GFX_focus_search_out_spies
-	# 	relative_position_id = GGK_focus_legitimacy_of_government
-	# 	x = 1
-	# 	y = 1
-	# 	cost = 10
+	#일제 밀정 색출
+    focus = {
+		id = GGK_track_down_japanese_spies
+		icon = GFX_focus_search_out_spies
+		relative_position_id = GGK_focus_legitimacy_of_government
+		x = 1
+		y = 1
+		cost = 10
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_legitimacy_of_government
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_legitimacy_of_government
+		}
 		
-	# 	completion_reward = {
-	# 		country_event = {
-	# 			id =  ggk_korea.3
-	# 			days = 0
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			country_event = {
+				id = ggk_korea.3
+				days = 0
+			}
+		}
+	}
 
-	# #무장투쟁론
-    # focus = {
-	# 	id = GGK_focus_armed_struggle_theory
-	# 	icon = GFX_goal_generic_small_arms
-    #     text = GGK_focus_armed_struggle_theory
-	# 	relative_position_id = GGK_focus_form_coalition_government
-	# 	x = 1
-	# 	y = 1
-	# 	cost = 15
+	#무장투쟁론
+    focus = {
+		id = GGK_focus_armed_struggle_theory
+		icon = GFX_goal_generic_small_arms
+        text = GGK_focus_armed_struggle_theory
+		relative_position_id = GGK_focus_form_coalition_government
+		x = 1
+		y = 1
+		cost = 15
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_form_coalition_government
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_form_coalition_government
+		}
 
-	# 	prerequisite = {
-	# 		focus = GGK_track_down_japanese_spies
-	# 	}
+		prerequisite = {
+			focus = GGK_track_down_japanese_spies
+		}
 		
-	# 	completion_reward = {
-	# 		country_event = {
-	# 			id = ggk_korea.4
-	# 			days = 0
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			country_event = {
+				id = ggk_korea.4
+				days = 0
+			}
+		}
+	}
 
-	# #한국광복군 창설
-    # focus = {
-	# 	id = GGK_focus_found_independence_army
-	# 	icon = GFX_focus_kia
-	# 	relative_position_id = GGK_focus_armed_struggle_theory
-	# 	x = -2
-	# 	y = 1
-	# 	cost = 15
+	#한국광복군 창설
+    focus = {
+		id = GGK_focus_found_independence_army
+		icon = GFX_focus_kia
+		relative_position_id = GGK_focus_armed_struggle_theory
+		x = -2
+		y = 1
+		cost = 15
 
-	# 	available = {
+		available = {
 
-	# 	}
+		}
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_armed_struggle_theory
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_armed_struggle_theory
+		}
 		
-	# 	completion_reward = {
-	# 		country_event = {
-	# 			id = ggk_korea.5
-	# 			days = 0
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			country_event = {
+				id = ggk_korea.5
+				days = 0
+			}
+		}
+	}
 
-	# #미국과의 협력
-    # focus = {
-	# 	id = GGK_focus_cooperation_with_the_usa
-	# 	icon = GFX_focus_chi_mission_to_the_us
-    #     text = GGK_focus_cooperation_with_the_usa
-	# 	relative_position_id = GGK_focus_armed_struggle_theory
-	# 	x = 0
-	# 	y = 1
-	# 	cost = 10
+	#미국과의 협력
+    focus = {
+		id = GGK_focus_cooperation_with_the_usa
+		icon = GFX_focus_chi_mission_to_the_us
+        text = GGK_focus_cooperation_with_the_usa
+		relative_position_id = GGK_focus_armed_struggle_theory
+		x = 0
+		y = 1
+		cost = 10
 
-	# 	available = {
-	# 		country_exists = USA
-	# 		USA = {
-	# 			has_government = democratic
-	# 		}
-	# 	}
+		available = {
+			country_exists = USA
+			USA = {
+				has_government = democratic
+			}
+		}
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_armed_struggle_theory
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_armed_struggle_theory
+		}
 		
-	# 	completion_reward = {
-	# 		USA = {
-	# 			country_event = {
-	# 				id = ggk_korea.6
-	# 				days = 0
-	# 			}
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			USA = {
+				country_event = {
+					id = ggk_korea.6
+					days = 0
+				}
+			}
+		}
+	}
 
-	# #국내 활동 재개
-    # focus = {
-	# 	id = GGK_focus_resume_internal_activity
-	# 	icon = GFX_focus_prc_infiltration
-    #     text = GGK_focus_resume_internal_activity
-	# 	relative_position_id = GGK_focus_armed_struggle_theory
-	# 	x = 2
-	# 	y = 1
-	# 	cost = 10
+	#국내 활동 재개
+    focus = {
+		id = GGK_focus_resume_internal_activity
+		icon = GFX_focus_prc_infiltration
+        text = GGK_focus_resume_internal_activity
+		relative_position_id = GGK_focus_armed_struggle_theory
+		x = 2
+		y = 1
+		cost = 10
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_armed_struggle_theory
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_armed_struggle_theory
+		}
 		
-	# 	completion_reward = {
-	# 		swap_ideas = {
-	# 			remove_idea = GGK_idea_korean_independence_movement_1
-	# 			add_idea = GGK_idea_korean_independence_movement_2
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GGK_idea_korean_independence_movement_1
+				add_idea = GGK_idea_korean_independence_movement_2
+			}
+		}
+	}
 
-	# #국내정진군 편성
-    # focus = {
-	# 	id = GGK_focus_organize_homeland_recovery_army
-	# 	icon = GFX_focus_generic_little_entente
-    #     text = GGK_focus_organize_homeland_recovery_army
-	# 	relative_position_id = GGK_focus_found_independence_army
-	# 	x = 1
-	# 	y = 1
-	# 	cost = 10
+	#국내정진군 편성
+    focus = {
+		id = GGK_focus_organize_homeland_recovery_army
+		icon = GFX_focus_generic_little_entente
+        text = GGK_focus_organize_homeland_recovery_army
+		relative_position_id = GGK_focus_found_independence_army
+		x = 1
+		y = 1
+		cost = 10
 
-	# 	available = {
-	# 		country_exists = CHI
-	# 		CHI = {
-	# 			has_war_with = JAP
-	# 			has_capitulated = no
-	# 		}
-	# 	}
+		available = {
+			country_exists = CHI
+			CHI = {
+				has_war_with = JAP
+				has_capitulated = no
+			}
+		}
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_found_independence_army
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_found_independence_army
+		}
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_cooperation_with_the_usa
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_cooperation_with_the_usa
+		}
 		
-	# 	completion_reward = {
-	# 		country_event = {
-	# 			id = ggk_korea.9
-	# 			days = 0
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			country_event = {
+				id = ggk_korea.9
+				days = 0
+			}
+		}
+	}
 
-	# #건국강령 제정
-    # focus = {
-	# 	id = GGK_focus_doctrine_of_foundation
-	# 	icon = GFX_focus_generic_treaty
-    #     text = GGK_focus_doctrine_of_foundation
-	# 	relative_position_id = GGK_focus_cooperation_with_the_usa
-	# 	x = 1
-	# 	y = 1
-	# 	cost = 5
+	#건국강령 제정
+    focus = {
+		id = GGK_focus_doctrine_of_foundation
+		icon = GFX_focus_generic_treaty
+        text = GGK_focus_doctrine_of_foundation
+		relative_position_id = GGK_focus_cooperation_with_the_usa
+		x = 1
+		y = 1
+		cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_resume_internal_activity
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_resume_internal_activity
+		}
 		
-	# 	completion_reward = {
-	# 		country_event = {
-	# 			id = ggk_korea.10
-	# 			days = 0
-	# 		}
-	# 	}
-	# }
+		completion_reward = {
+			country_event = {
+				id = ggk_korea.10
+				days = 0
+			}
+		}
+	}
 
-	# #작전명 광복
-    # focus = {
-	# 	id = GGK_focus_operation_independence
-	# 	icon = GFX_focus_operation_independence
-	# 	relative_position_id = GGK_focus_organize_homeland_recovery_army
-	# 	x = 1
-	# 	y = 1
-	# 	cost = 15
+	#작전명 광복
+    focus = {
+		id = GGK_focus_operation_independence
+		icon = GFX_focus_operation_independence
+		relative_position_id = GGK_focus_organize_homeland_recovery_army
+		x = 1
+		y = 1
+		cost = 15
 
-	# 	# available = {
-	# 	# 	fascism < 0.4
-	# 	# }
+		# available = {
+		# 	fascism < 0.4
+		# }
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_organize_homeland_recovery_army
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_organize_homeland_recovery_army
+		}
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_doctrine_of_foundation
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_doctrine_of_foundation
+		}
 		
-	# 	completion_reward = {
-	# 		country_event = {
-	# 			id = ggk_korea.11
-	# 			days = 0
-	# 		}
-	# 		custom_effect_tooltip = GGK_focus_operation_independence_tt
-	# 	}
-	# }
+		completion_reward = {
+			country_event = {
+				id = ggk_korea.11
+				days = 0
+			}
+			custom_effect_tooltip = GGK_focus_operation_independence_tt
+		}
+	}
 }

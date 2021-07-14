@@ -185,7 +185,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = nationalism
+			has_government = auto_despotism
 		}
 		localization_key = PopAutdes
 	}

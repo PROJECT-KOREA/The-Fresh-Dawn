@@ -21,6 +21,7 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.02
 				fascism_drift = 0.03
+				conscription_factor = -0.95
 			}
 		}
 		
@@ -46,11 +47,9 @@ ideas = {
 				# local_resources_factor = -0.3
 			}
 		}
-
-		#농업진흥정책
-		GGK_idea_nousonshinkou_seisaku = {
-
-			name = GGK_idea_nousonshinkou_seisaku
+		
+		#산미증식계획
+		GGK_idea_sanmaizoushoku_keikeku = {
 
 			allowed = {
 				original_tag = GGK
@@ -61,17 +60,58 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_exploit_mines
+			picture = gengov_korea
 			modifier = {
+				# overlord_trade_cost_factor = -0.3
+				stability_factor = -0.05
 				consumer_goods_factor = -0.05
-				production_speed_buildings_factor = 0.1
 			}
 		}
 
-		#농업진흥정책2
-		GGK_idea_nousonshinkou_seisaku_2 = {
+		#농촌진흥운동
+		GGK_idea_nousonshinkou_undou = {
 
-			name = GGK_idea_nousonshinkou_seisaku
+			name = GGK_idea_nousonshinkou_undou
+
+			allowed = {
+				original_tag = GGK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_build_infrastructure
+			modifier = {
+				monthly_population = 0.1
+				production_speed_infrastructure_factor = 0.25
+			}
+		}
+
+		#농촌진흥운동2
+		GGK_idea_nousonshinkou_undou_2 = {
+
+			name = GGK_idea_nousonshinkou_undou
+
+			allowed = {
+				original_tag = GGK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_build_infrastructure
+			modifier = {
+				monthly_population = 0.15
+				production_speed_infrastructure_factor = 0.3
+			}
+		}
+
+		#조선반도 공업화 정책
+		GGK_idea_industrialization = {
 
 			allowed = {
 				original_tag = GGK
@@ -84,8 +124,9 @@ ideas = {
 			removal_cost = -1
 			picture = generic_exploit_mines
 			modifier = {
-				consumer_goods_factor = -0.15
-				production_speed_buildings_factor = 0.2
+				consumer_goods_factor = -0.1
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_arms_factory_factor = 0.2
 			}
 		}
 
@@ -103,9 +144,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = jap_militarism_shogun
+			picture = naisen_yuugou
 			modifier = {
-				political_power_gain = -0.1
 				autonomy_gain = -0.2
 			}
 		}
@@ -124,7 +164,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = jap_militarism_shogun
+			picture = naisen_yuugou
 			modifier = {
 				political_power_gain = -0.1
 				autonomy_gain = -0.4
@@ -145,7 +185,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = naisen_ittai
+			picture = naisen_yuugou
 			modifier = {
 				political_power_gain = -0.1
 				autonomy_gain = -0.6
@@ -166,7 +206,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = naisen_ittai
+			picture = naisen_yuugou
 			modifier = {
 				political_power_gain = -0.1
 				autonomy_gain = -0.8
@@ -187,7 +227,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_naisen_yuugou
+			picture = naisen_yuugou
 			modifier = {
 				political_power_gain = -0.1
 				autonomy_gain = -1
@@ -210,9 +250,8 @@ ideas = {
 			removal_cost = -1
 			picture = korean_independence_movement
 			modifier = {
-				local_resources_factor = -0.3
-				conscription_factor = -0.95
-				stability_factor = -0.1
+				local_resources_factor = -0.15
+				stability_factor = -0.05
 				fascism_drift = -0.01
 			}
 		}
@@ -233,6 +272,30 @@ ideas = {
 			removal_cost = -1
 			picture = korean_independence_movement
 			modifier = {
+				local_resources_factor = -0.25
+				stability_factor = -0.1
+				fascism_drift = -0.03
+			}
+		}
+
+		#한국 독립운동3
+		GGK_idea_korean_independence_movement_3 = {
+
+			name = GGK_idea_korean_independence_movement
+
+			allowed = {
+				original_tag = GGK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = korean_independence_movement
+			modifier = {
+				local_resources_factor = -0.25
+				stability_factor = -0.1
 				fascism_drift = -0.05
 			}
 		}
