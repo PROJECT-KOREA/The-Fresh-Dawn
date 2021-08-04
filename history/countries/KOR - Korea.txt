@@ -149,91 +149,137 @@ create_country_leader = {
 # 	}
 # }
 
-#육군 원수
+
+##### 장군진 #####
+
+### 육군 원수 ###
+
+#지청천
 create_field_marshal = {
 	name = "Ji Cheongcheon"
 	picture = "Portrait_Ji_Cheongcheon_Army.dds"
 	traits = {
-		#뒷배경
-		brilliant_strategist #명석한 전략가
-
-		#획득한 특성
-		organizer #조직가
-
-		#원수 특성
-		offensive_doctrine #공세적 교리
+		infantry_officer #보병 장교
+		war_hero #전쟁 영웅
+		politically_connected #정계와의 연줄
 	}
-	skill = 5
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
 	logistics_skill = 3
 }
 
-#육군 대장
-create_corps_commander = {
-	name = "Lee Beomseok"
-	picture = "Portrait_Lee_Beomseok.dds"
-	traits = {		
-		#획득한 특성
-		infantry_leader #보병 지휘관
-
-		#장군 특성
-		infantry_expert #보병 전문가
+#홍사익
+create_field_marshal = {
+	name = "Hong Saik"
+	picture = "Portrait_Hong_Saik.dds"
+	traits = {
+		brilliant_strategist #명석한 전략가
+		career_officer #직업 장교
+		trickster #책략가
 	}
 	skill = 4
-	attack_skill = 4
-	defense_skill = 2
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+
+### 육군 장군 ###
+
+#김경천
+create_corps_commander = {
+	name = "Kim Kyeongcheon"
+	picture = "Portrait_Kim_Kyeongcheon.dds"
+	traits = {
+		career_officer #직업 장교
+		cavalry_officer #기병 장교
+		media_personality #유명인
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
 }
 
+#이응준
 create_corps_commander = {
-	name = "Kim Hong-il"
-	picture = "Portrait_Ji_Kim_Hong_il.dds"
+	name = "Lee Eungjun"
+	picture = "Portrait_Lee_Beomseok.dds"
 	traits = {
-		#배경 특성
-		brilliant_strategist #명석한 전략가
-
-		#장군 특성
-		infantry_expert #보병 전문가
+		old_guard #보수파
+		career_officer #직업 장교
 	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 }
 
+#이범석
 create_corps_commander = {
-	name = "Hong Saik"
-	picture = "Portrait_Hong_Saik.dds"
+	name = "Lee Beomseok"
+	picture = "Portrait_Lee_Beomseok.dds"
 	traits = {
-		#획득한 특성
-		organizer #조직가
-
-		#장군 특성
-		infantry_expert #보병 전문가
+		cavalry_officer #기병 장교
+		war_hero #전쟁 영웅
+		politically_connected #정계와의 연줄
 	}
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 2
+	planning_skill = 3
 	logistics_skill = 2
 }
 
+#김홍일
+create_corps_commander = {
+	name = "Kim Hong-il"
+	picture = "Portrait_Kim_Hong_il.dds"
+	traits = {
+		inflexible_strategist #확고한 전략가
+		organizer #조직가
+		commando #특공대
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+#김원봉
 create_corps_commander = {
 	name = "Kim Wonbong"
 	picture = "Portrait_Kim_Wonbong.dds"
 	traits = {
-		#획득한 특성
-		trickster #계략꾼
-		
-		#장군 특성
-		guerilla_fighter #게릴라 투사
+		war_hero #전쟁 영웅
+		commando #특공대
+		media_personality #유명인
+		communist_sympathizer #공산주의 동조자
 	}
 	skill = 3
 	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+#송호성
+create_corps_commander = {
+	name = "Song Hoseong"
+	picture = "Portrait_Song_Hoseong.dds"
+	traits = {
+		old_guard #보수파
+		cavalry_officer #기병 장교
+		politically_connected #정계와의 연줄
+	}
+	skill = 3
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
