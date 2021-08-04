@@ -210,11 +210,27 @@ create_corps_commander = {
 	picture = "Portrait_Lee_Eungjun.dds"
 	traits = {
 		infantry_officer #보병 장교
+		career_officer #직업 장교
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+#송호성
+create_corps_commander = {
+	name = "Song Hoseong"
+	picture = "Portrait_Song_Hoseong.dds"
+	traits = {
+		old_guard #보수파
+		cavalry_officer #기병 장교
 	}
 	skill = 3
 	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
+	defense_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 }
 
@@ -241,7 +257,6 @@ create_corps_commander = {
 	traits = {
 		inflexible_strategist #확고한 전략가
 		organizer #조직가
-		commando #특공대
 	}
 	skill = 3
 	attack_skill = 3
@@ -255,7 +270,6 @@ create_corps_commander = {
 	name = "Kim Wonbong"
 	picture = "Portrait_Kim_Wonbong.dds"
 	traits = {
-		war_hero #전쟁 영웅
 		commando #특공대
 		media_personality #유명인
 		communist_sympathizer #공산주의 동조자
@@ -272,33 +286,33 @@ create_corps_commander = {
 	name = "Yoon Seju"
 	picture = "Portrait_Yoon_Seju.dds"
 	traits = {
-		war_hero #전쟁 영웅
-		politically_connected #정계와의 연줄
+		inflexible_strategist #확고한 전략가
 		communist_sympathizer #공산주의 동조자
 	}
 	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
 	logistics_skill = 2
 }
 
-#송호성
+
+## 독립전쟁 중 합류 ##
+
+#신태영
 create_corps_commander = {
-	name = "Song Hoseong"
-	picture = "Portrait_Song_Hoseong.dds"
+	name = "Shin Taeyeong"
+	picture = "Portrait_Shin_Taeyeong.dds"
 	traits = {
-		old_guard #보수파
-		cavalry_officer #기병 장교
-		politically_connected #정계와의 연줄
+		infantry_officer #보병 장교
+		career_officer #직업 장교
 	}
-	skill = 3
-	attack_skill = 2
+	skill = 4
+	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
 }
-
 
 #김석원
 create_corps_commander = {
@@ -308,27 +322,15 @@ create_corps_commander = {
 		inflexible_strategist #확고한 전략가
 		career_officer #직업 장교
 	}
-	skill = 2
+	skill = 4
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
 }
 
-#신태영
-create_corps_commander = {
-	name = "Shin Taeyeong"
-	picture = "Portrait_Shin_Taeyeong.dds"
-	traits = {
 
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
+## 광복 후 임명 ##
 
 #원용덕
 create_corps_commander = {
