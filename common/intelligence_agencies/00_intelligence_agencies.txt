@@ -5,7 +5,7 @@
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_kor
-	names = { "중앙정보부" }
+	names = { "Korean Central Intelligence Agency" }
 	
 	default = { tag = KOR }
 	available = { original_tag = KOR }
@@ -14,7 +14,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_ggk
-	names = { "조선총독부 경무국 보안과" }
+	names = { "Police Administration Bureau" }
 	
 	default = { tag = GGK }
 	available = { original_tag = GGK }

@@ -4,7 +4,6 @@ ideologies = {
 	communism = {
 		
 		types = {
-			marxism = {} #마르크스주의
 			leninism = {} #레닌주의
 			stalinism = {} #스탈린주의
 			maoism = { #마오주의

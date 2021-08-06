@@ -95,6 +95,7 @@
 #  determined_diplomatist:0 "철저한 외교주의자"
 #  dislikes_communism:0 "공산주의 혐오자"
 #  royal_independence_activist:0 "황족 독립운동가"
+ KOR_socialism_sympathizer:0 "사회주의 동조자"
 
  ## 군수장비 설계사 ##
  KOR_incheon_arsenal:0 "인천육군조병창"

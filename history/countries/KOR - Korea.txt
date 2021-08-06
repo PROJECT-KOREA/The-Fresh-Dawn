@@ -194,7 +194,7 @@ create_corps_commander = {
 	name = "Kim Kyeongcheon"
 	picture = "Portrait_Kim_Kyeongcheon.dds"
 	traits = {
-		cavalry_officer #기병 장교
+		cavalry_leader #기병 지휘관
 		media_personality #유명인
 	}
 	skill = 4
@@ -203,6 +203,102 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 }
+
+#송호성
+create_corps_commander = {
+	name = "Song Hoseong"
+	picture = "Portrait_Song_Hoseong.dds"
+	traits = {
+		old_guard #보수파
+		cavalry_officer #기병 장교
+	}
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+#이범석
+create_corps_commander = {
+	name = "Lee Beomseok"
+	picture = "Portrait_Lee_Beomseok.dds"
+	traits = {
+		brilliant_strategist #확고한 전략가
+		cavalry_officer #기병 장교
+		war_hero #전쟁 영웅
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+#김홍일
+create_corps_commander = {
+	name = "Kim Hong-il"
+	picture = "Portrait_Kim_Hong_il.dds"
+	traits = {
+		infantry_leader #보병 지휘관
+		inflexible_strategist #확고한 전략가
+		organizer #조직가
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+#오광선
+create_corps_commander = {
+	name = "Oh Kwangseon"
+	picture = "Portrait_Oh_Kwangseon.dds"
+	traits = {
+		cautious #신중함
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+
+#김원봉
+create_corps_commander = {
+	name = "Kim Wonbong"
+	picture = "Portrait_Kim_Wonbong.dds"
+	traits = {
+		commando #특공대
+		media_personality #유명인
+		KOR_socialism_sympathizer #사회주의 동조자
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+#윤세주
+create_corps_commander = {
+	name = "Yoon Seju"
+	picture = "Portrait_Yoon_Seju.dds"
+	traits = {
+		inflexible_strategist #확고한 전략가
+		KOR_socialism_sympathizer #사회주의 동조자
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+
+## 독립전쟁 중 합류 ##
 
 #이응준
 create_corps_commander = {
@@ -218,86 +314,6 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 2
 }
-
-#송호성
-create_corps_commander = {
-	name = "Song Hoseong"
-	picture = "Portrait_Song_Hoseong.dds"
-	traits = {
-		old_guard #보수파
-		cavalry_officer #기병 장교
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-#이범석
-create_corps_commander = {
-	name = "Lee Beomseok"
-	picture = "Portrait_Lee_Beomseok.dds"
-	traits = {
-		cavalry_officer #기병 장교
-		war_hero #전쟁 영웅
-		politically_connected #정계와의 연줄
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-#김홍일
-create_corps_commander = {
-	name = "Kim Hong-il"
-	picture = "Portrait_Kim_Hong_il.dds"
-	traits = {
-		inflexible_strategist #확고한 전략가
-		organizer #조직가
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-#김원봉
-create_corps_commander = {
-	name = "Kim Wonbong"
-	picture = "Portrait_Kim_Wonbong.dds"
-	traits = {
-		commando #특공대
-		media_personality #유명인
-		communist_sympathizer #공산주의 동조자
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-#윤세주
-create_corps_commander = {
-	name = "Yoon Seju"
-	picture = "Portrait_Yoon_Seju.dds"
-	traits = {
-		inflexible_strategist #확고한 전략가
-		communist_sympathizer #공산주의 동조자
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-
-## 독립전쟁 중 합류 ##
 
 #신태영
 create_corps_commander = {
@@ -340,22 +356,8 @@ create_corps_commander = {
 
 	}
 	skill = 2
-	attack_skill = 1
+	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
-}
-
-#채병덕
-create_corps_commander = {
-	name = "Chae Byoengdeok"
-	picture = "Portrait_Chae_Byoengdeok.dds"
-	traits = {
-		old_guard #보수파
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
 }
