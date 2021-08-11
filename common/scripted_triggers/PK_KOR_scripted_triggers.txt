@@ -35,7 +35,7 @@ KOR_smr_ic = {
 	}
 }
 
-KOR_lyh_ic = {
+KOR_lwh_ic = {
 	has_country_flag = KOR_flag_ic
 	has_country_leader = {
 		name = "Lyuh Woonhyung"
@@ -60,7 +60,7 @@ KOR_smr_gov = {
 	}
 }
 
-KOR_lyh_gov = {
+KOR_lwh_gov = {
 	has_country_flag = KOR_flag_ge
 	has_country_leader = {
 		name = "Lyuh Woonhyung"
