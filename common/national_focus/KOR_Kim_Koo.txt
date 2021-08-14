@@ -13,9 +13,9 @@ focus_tree = {
 
 	continuous_focus_position = { x = 20 y = 1800 }
 	
-	#김구 행정부
+	#민족 해방의 영웅
 	focus = {
-		id = KOR_focus_kim_koo
+		id = KOR_hero_of_the_national_liberation
 		icon = GFX_focus_kim_koo
 		x = 8
 		y = 0
@@ -26,37 +26,54 @@ focus_tree = {
 		}
 	}
 	
-	#삼균주의
+	#국민적 단결
 	focus = {
-		id = KOR_focus_samgyunjuui
+		id = KOR_national_unity
 		icon = GFX_focus_samgyunjuui
-		relative_position_id = KOR_focus_kim_koo
+		relative_position_id = KOR_hero_of_the_national_liberation
 		x = -6
 		y = 1
 		cost = 10
 		
-		prerequisite = { focus = KOR_focus_kim_koo }
-		mutually_exclusive = { focus = KOR_focus_anti_communism_authoritarianism }
+		prerequisite = { focus = KOR_hero_of_the_national_liberation }
+		# mutually_exclusive = { focus = KOR_focus_anti_communism_authoritarianism }
 
 		completion_reward = {
 			
 		}
 	}
 	
-	#반공 권위주의
-	focus = {
-		id = KOR_focus_anti_communism_authoritarianism
-		icon = GFX_focus_ger_bulwark_against_bolshevism
-		relative_position_id = KOR_focus_kim_koo
-		x = 6
-		y = 1
-		cost = 10
+	# #삼균주의
+	# focus = {
+	# 	id = KOR_focus_samgyunjuui
+	# 	icon = GFX_focus_samgyunjuui
+	# 	relative_position_id = KOR_focus_kim_koo
+	# 	x = -6
+	# 	y = 1
+	# 	cost = 10
 		
-		prerequisite = { focus = KOR_focus_kim_koo }
-		mutually_exclusive = { focus = KOR_focus_samgyunjuui }
+	# 	prerequisite = { focus = KOR_focus_kim_koo }
+	# 	mutually_exclusive = { focus = KOR_focus_anti_communism_authoritarianism }
 
-		completion_reward = {
+	# 	completion_reward = {
 			
-		}
-	}
+	# 	}
+	# }
+	
+	# #반공 권위주의
+	# focus = {
+	# 	id = KOR_focus_anti_communism_authoritarianism
+	# 	icon = GFX_focus_ger_bulwark_against_bolshevism
+	# 	relative_position_id = KOR_focus_kim_koo
+	# 	x = 6
+	# 	y = 1
+	# 	cost = 10
+		
+	# 	prerequisite = { focus = KOR_focus_kim_koo }
+	# 	mutually_exclusive = { focus = KOR_focus_samgyunjuui }
+
+	# 	completion_reward = {
+			
+	# 	}
+	# }
 }
