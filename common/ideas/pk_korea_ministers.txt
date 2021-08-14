@@ -683,15 +683,18 @@ ideas = {
 	#재무장관
 	economy_minister = {
 
-		#송병조
-		EM_Song_Byeongjo = {
-			name = song_byeongjo
-			picture = minister_Song_Byeongjo
+		#이규갑 (한성정무위원회, 여운형 내각)
+		EM_Lee_Gyugap = {
+			name = lee_gyugap
+			picture = minister_Lee_Gyugap
 
 			allowed = { original_tag = KOR }
 
 			visible = {
-				has_country_flag = KOR_flag_kpg
+				OR = {
+					has_country_flag = KOR_flag_hnc
+					KOR_lwh_gov = yes
+				}
 			}
 
 			available = {
@@ -705,20 +708,22 @@ ideas = {
 			removal_cost = -1
 			traits = {
 				financial_reformer
-				kpg
 				ecomin
 			}
 		}
-		
-		#조소앙
-		EM_Cho_Soang = {
-			name = cho_soang
-			picture = minister_Cho_Soang
+
+		#송병조 (임시정부 국무위원회, 김구 행정부)
+		EM_Song_Byeongjo = {
+			name = song_byeongjo
+			picture = minister_Song_Byeongjo
 
 			allowed = { original_tag = KOR }
 
 			visible = {
-				has_country_flag = KOR_flag_kpg
+				OR = {
+					has_country_flag = KOR_flag_kpg
+					KOR_kim_koo_gov = yes
+				}
 			}
 
 			available = {
@@ -731,8 +736,199 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				samgyunjuui_theorist
-				kpg
+				financial_reformer
+				ecomin
+			}
+		}
+
+		#조만식 (임시정부 국무위원회, 여운형 과도내각)
+		EM_Cho_Mansik = {
+			name = cho_mansik
+			picture = minister_Cho_Mansik
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					has_country_flag = KOR_flag_kpg
+					KOR_lwh_ic = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				financial_reformer
+				ecomin
+			}
+		}
+		
+		#조완구 (김구 과도내각, 김구 행정부)
+		EM_Cho_Wangu = {
+			name = cho_wangu
+			picture = minister_Cho_Wangu
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_ic = yes
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#김도연 (이승만 과도내각, 이승만 행정부)
+		EM_Kim_Doyeon = {
+			name = cho_soang
+			picture = minister_Cho_Soang
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					KOR_smr_ic = yes
+					KOR_smr_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#송진우 (김구 행정부, 이승만 행정부)
+		EM_Song_Jinwoo = {
+			name = song_jinwoo
+			picture = minister_Song_Jinwoo
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					KOR_kim_koo_gov = yes
+					KOR_smr_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#안재홍 (김구 행정부)
+		EM_Ahn_Jaehong = {
+			name = ahn_jaehong
+			picture = minister_Ahn_Jaehong
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#최순주 (이승만 행정부)
+		EM_Choi_Soonju = {
+			name = choi_soonju
+			picture = minister_Choi_Soonju
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_smr_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#백남운 (여운형 내각)
+		EM_Paek_Nam_un = {
+			name = paek_nam_un
+			picture = minister_Paek_Nam_un
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_lwh_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
 				ecomin
 			}
 		}
