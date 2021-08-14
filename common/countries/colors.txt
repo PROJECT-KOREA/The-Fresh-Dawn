@@ -3,27 +3,34 @@ KOR = {
 	color_ui = rgb { 0 52 120 }
 }
 
+GGK = {
+	color = rgb { 230 170 170 }
+	color_ui = rgb { 230 170 170 }
+}
+
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 230 170 170 }
+	color_ui = rgb { 230 170 170 }
 }
 
 MAN = {
-	color = rgb { 215 165 78 }
-	color_ui = rgb { 235 170 58 }
+	color = rgb { 170 140 60 }
+	color_ui = rgb { 170 140 60 }
 }
-ECA = {
-	color = rgb { 190 180 105 }
-	color_ui = rgb { 208 218 138 }
-}
+
+# ECA = {
+# 	color = rgb { 170 140 50 }
+# 	color_ui = rgb { 170 140 50 }
+# }
+
 EHB = {
-	color = rgb { 120 150 180 }
-	color_ui = rgb { 158 189 247 }
+	color = rgb { 120 140 160 }
+	color_ui = rgb { 120 140 160 }
 }
 
 MEN = {
-	color = rgb { 190 165 85 }
-	color_ui = rgb { 208 218 138 }
+	color = rgb { 125 110 70 }
+	color_ui = rgb { 125 110 70 }
 }
 
 CHI = {
@@ -31,7 +38,7 @@ CHI = {
 	color_ui = rgb { 20 100 175 }
 }
 HPC = {
-	color = rgb { 93 181 227 }
+	color = rgb { 140 140 140 }
 	color_ui = rgb { 93 181 227 }
 }
 SHD = {
@@ -39,16 +46,16 @@ SHD = {
 	color_ui = rgb { 22 122 204 }
 }
 SHX = {
-	color = rgb { 42 42 95 }
-	color_ui = rgb { 101 30 41 }
+	color = rgb { 80 80 125 }
+	color_ui = rgb { 65 65 100 }
 }
 XSM = {
 	color = rgb { 114 71 24 }
 	color_ui = rgb { 114 71 24 }
 }
 NXM = {
-	color = rgb { 153 116 53 }
-	color_ui = rgb { 153 116 53  }
+	color = rgb { 140 110 50 }
+	color_ui = rgb { 140 110 50 }
 }
 SIC = {
 	color = rgb { 64 127 181 }
@@ -84,17 +91,17 @@ TIB = {
 }
 
 PRC = {
-	color = rgb { 232 2 0 }
-	color_ui = rgb { 232 2 0 }
+	color = rgb { 150 50 50 }
+	color_ui = rgb { 150 50 50 }
 }
 
 MON = {
-	color = rgb { 147 2 2 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 115 15 20 }
+	color_ui = rgb { 115 15 20 }
 }
 TAN = {
-	color = rgb { 147 2 2 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 115 15 20 }
+	color_ui = rgb { 115 15 20 }
 }
 
 #reload countrycolors
@@ -107,8 +114,8 @@ ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 100 10 20 }
+	color_ui = rgb { 100 10 20 }
 }
 SWE = {
 	color = rgb { 36 132 247 }
