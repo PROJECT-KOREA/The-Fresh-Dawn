@@ -61,7 +61,7 @@ focus_tree = {
 	
 	#국가보안법 제정
 	focus = {
-		id = KOR_focus_national_security_law
+		id = KOR_focus_national_security_law_kim_koo
 		icon = GFX_focus_national_security_law
 		relative_position_id = KOR_focus_war_with_the_communism
 		x = 0
@@ -79,12 +79,12 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_crack_down_on_cpk
 		icon = GFX_focus_unknown
-		relative_position_id = KOR_focus_national_security_law
+		relative_position_id = KOR_focus_national_security_law_kim_koo
 		x = -2
 		y = 1
 		cost = 10
 		
-		prerequisite = { focus = KOR_focus_national_security_law }
+		prerequisite = { focus = KOR_focus_national_security_law_kim_koo }
 
 		completion_reward = {
 			
@@ -95,12 +95,12 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_expand_armed_police
 		icon = GFX_focus_armed_police
-		relative_position_id = KOR_focus_national_security_law
+		relative_position_id = KOR_focus_national_security_law_kim_koo
 		x = 0
 		y = 1
 		cost = 10
 		
-		prerequisite = { focus = KOR_focus_national_security_law }
+		prerequisite = { focus = KOR_focus_national_security_law_kim_koo }
 
 		completion_reward = {
 			
@@ -111,12 +111,12 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_ideological_conversion
 		icon = GFX_focus_unknown
-		relative_position_id = KOR_focus_national_security_law
+		relative_position_id = KOR_focus_national_security_law_kim_koo
 		x = 2
 		y = 1
 		cost = 10
 		
-		prerequisite = { focus = KOR_focus_national_security_law }
+		prerequisite = { focus = KOR_focus_national_security_law_kim_koo }
 
 		completion_reward = {
 			
