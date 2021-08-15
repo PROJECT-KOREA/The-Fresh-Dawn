@@ -50,6 +50,8 @@ spriteTypes = {
 
 	### KOR ###
 
+	## War of Independence ##
+
 	spriteType = {
 		name = "GFX_focus_korean_woi"
 		textureFile = "gfx/interface/goals/KOR/focus_korean_woi.dds"
@@ -100,6 +102,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/KOR/focus_military_academy.dds"
 	}
 
+	
+	## Provisional Government ##
 
 	spriteType = {
 		name = "GFX_focus_victory_in_woi"
@@ -163,19 +167,11 @@ spriteTypes = {
 	}
 	
 
+	## Kim Koo ##
+
 	spriteType = {
 		name = "GFX_focus_kim_koo"
 		textureFile = "gfx/interface/goals/KOR/focus_kim_koo.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_national_security_law"
-		textureFile = "gfx/interface/goals/KOR/focus_national_security_law.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_arrest"
-		textureFile = "gfx/interface/goals/KOR/focus_arrest.dds"
 	}
 
 	spriteType = {
@@ -184,11 +180,41 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_focus_national_security_law"
+		textureFile = "gfx/interface/goals/KOR/focus_national_security_law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_attack_cpk"
+		textureFile = "gfx/interface/goals/KOR/focus_attack_cpk.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_armed_police"
+		textureFile = "gfx/interface/goals/KOR/focus_armed_police.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_ideological_conversion"
+		textureFile = "gfx/interface/goals/KOR/focus_ideological_conversion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_purge_in_the_army"
+		textureFile = "gfx/interface/goals/KOR/focus_purge_in_the_army.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_samgyunjuui"
 		textureFile = "gfx/interface/goals/KOR/focus_samgyunjuui.dds"
 	}
 
 
+
+	spriteType = {
+		name = "GFX_focus_arrest"
+		textureFile = "gfx/interface/goals/KOR/focus_arrest.dds"
+	}
 
 	spriteType = {
 		name = "GFX_focus_lyuh_woonhyung"
@@ -208,11 +234,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_books"
 		textureFile = "gfx/interface/goals/KOR/focus_books.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_purge_in_the_army"
-		textureFile = "gfx/interface/goals/KOR/focus_purge_in_the_army.dds"
 	}
 
 	spriteType = {
@@ -243,11 +264,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_liberal_party"
 		textureFile = "gfx/interface/goals/KOR/focus_liberal_party.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_armed_police"
-		textureFile = "gfx/interface/goals/KOR/focus_armed_police.dds"
 	}
 
 	spriteType = {

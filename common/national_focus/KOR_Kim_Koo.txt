@@ -78,7 +78,7 @@ focus_tree = {
 	#조선공산당 탄압
 	focus = {
 		id = KOR_focus_crack_down_on_cpk
-		icon = GFX_focus_unknown
+		icon = GFX_focus_attack_cpk
 		relative_position_id = KOR_focus_national_security_law_kim_koo
 		x = -2
 		y = 1
@@ -110,7 +110,7 @@ focus_tree = {
 	#사상전향 제도
 	focus = {
 		id = KOR_focus_ideological_conversion
-		icon = GFX_focus_unknown
+		icon = GFX_focus_ideological_conversion
 		relative_position_id = KOR_focus_national_security_law_kim_koo
 		x = 2
 		y = 1
@@ -126,7 +126,7 @@ focus_tree = {
 	#빨치산 소탕 작전
 	focus = {
 		id = KOR_focus_sweep_partisans
-		icon = GFX_focus_unknown
+		icon = GFX_focus_purge_in_the_army
 		relative_position_id = KOR_focus_crack_down_on_cpk
 		x = 1
 		y = 1
@@ -363,7 +363,7 @@ focus_tree = {
 		}
 	}
 
-	#한국민주당과의 협상
+	#한민당과의 협상
 	focus = {
 		id = KOR_focus_negotiation_with_kdp
 		icon = GFX_focus_unknown
