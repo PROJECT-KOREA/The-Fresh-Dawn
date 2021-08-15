@@ -106,6 +106,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/KOR/focus_victory_in_woi.dds"
 	}
 
+
 	spriteType = {
 		name = "GFX_focus_cpki"
 		textureFile = "gfx/interface/goals/KOR/focus_cpki.dds"
@@ -160,6 +161,7 @@ spriteTypes = {
 		name = "GFX_focus_assembly_election"
 		textureFile = "gfx/interface/goals/KOR/focus_assembly_election.dds"
 	}
+	
 
 	spriteType = {
 		name = "GFX_focus_kim_koo"
@@ -167,9 +169,25 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_focus_national_security_law"
+		textureFile = "gfx/interface/goals/KOR/focus_national_security_law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_arrest"
+		textureFile = "gfx/interface/goals/KOR/focus_arrest.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_broken_red_star"
+		textureFile = "gfx/interface/goals/KOR/focus_broken_red_star.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_samgyunjuui"
 		textureFile = "gfx/interface/goals/KOR/focus_samgyunjuui.dds"
 	}
+
 
 
 	spriteType = {
@@ -193,18 +211,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_broken_red_star"
-		textureFile = "gfx/interface/goals/KOR/focus_broken_red_star.dds"
-	}
-
-	spriteType = {
 		name = "GFX_focus_purge_in_the_army"
 		textureFile = "gfx/interface/goals/KOR/focus_purge_in_the_army.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_national_security_law"
-		textureFile = "gfx/interface/goals/KOR/focus_national_security_law.dds"
 	}
 
 	spriteType = {
