@@ -77,16 +77,16 @@
  KOR_focus_general_election_desc:0 ""
 
  ## 김구 행정부 ##
- KOR_hero_of_the_national_liberation:0 "민족 해방의 영웅"
- KOR_hero_of_the_national_liberation_desc:0 ""
+ KOR_focus_hero_of_the_national_liberation:0 "민족 해방의 영웅"
+ KOR_focus_hero_of_the_national_liberation_desc:0 ""
 
  KOR_focus_national_unity:0 "국민적 단결"
  KOR_focus_national_unity_desc:0 ""
 
  KOR_focus_war_with_the_communism:0 "공산주의와의 전쟁"
  KOR_focus_war_with_the_communism_desc:0 ""
- KOR_focus_national_security_law:0 "국가보안법 제정"
- KOR_focus_national_security_law_desc:0 ""
+ KOR_focus_national_security_law_kim_koo:0 "국가보안법 제정"
+ KOR_focus_national_security_law_kim_koo_desc:0 ""
  KOR_focus_crack_down_on_cpk:0 "조선공산당 탄압"
  KOR_focus_crack_down_on_cpk_desc:0 ""
  KOR_focus_expand_armed_police:0 "무장경찰 확대"
