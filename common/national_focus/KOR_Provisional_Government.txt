@@ -55,12 +55,12 @@ focus_tree = {
 		}
 	}
 	
-	#국민대표회의 개최
+	#임시헌법 제2호
 	focus = {
-		id = KOR_focus_ncr
-		icon = GFX_focus_ncr
+		id = KOR_focus_prov_constitution_second
+		icon = GFX_focus_unknown
 		relative_position_id = KOR_focus_return_of_kpg
-		x = 0
+		x = -1
 		y = 1
 		cost = 3
 
@@ -69,44 +69,21 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			country_event = {
-				id = kor_kpg_internal.6
-			}
+			
 		}
 	}
 	
-	#국가 재건
+	#국무회의 소집
 	focus = {
-		id = KOR_focus_nrc
-		icon = GFX_goal_generic_production
-		relative_position_id = KOR_focus_ncr
-		x = -4
+		id = KOR_focus_convene_cabinet_meeting
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_return_of_kpg
+		x = 1
 		y = 1
 		cost = 3
 
 		prerequisite = {
-			focus = KOR_focus_ncr
-		}
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = KOR_idea_national_recovery
-				days = 730
-			}
-		}
-	}
-	
-	#일제 적산 환수
-	focus = {
-		id = KOR_focus_redeem_enemy_properties
-		icon = GFX_focus_recover_enemy_property
-		relative_position_id = KOR_focus_nrc
-		x = -1
-		y = 1
-		cost = 3
-
-		prerequisite = {
-			focus = KOR_focus_nrc
+			focus = KOR_focus_return_of_kpg
 		}
 
 		completion_reward = {
@@ -114,296 +91,372 @@ focus_tree = {
 		}
 	}
 	
-	#빈민구제 정책
+	#거국임시내각
 	focus = {
-		id = KOR_focus_poverty_relief_policy
-		icon = GFX_focus_poverty_relief
-		relative_position_id = KOR_focus_nrc
+		id = KOR_focus_national_unity_gov
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_prov_constitution_second
 		x = 1
 		y = 1
 		cost = 3
 
-		prerequisite = {
-			focus = KOR_focus_nrc
-		}
-
-		completion_reward = {
-			unlock_decision_tooltip = KOR_poverty_relief_policy
-			add_stability = 0.05
-		}
-	}
-	
-	#문맹 퇴치 운동
-	focus = {
-		id = KOR_focus_illiteracy_eradication_movement
-		icon = GFX_focus_education
-		relative_position_id = KOR_focus_redeem_enemy_properties
-		x = 1
-		y = 1
-		cost = 4
-
-		prerequisite = {
-			focus = KOR_focus_redeem_enemy_properties
-		}
-
-		prerequisite = {
-			focus = KOR_focus_poverty_relief_policy
-		}
-
-		completion_reward = {
-			unlock_decision_tooltip = KOR_illiteracy_eradication_movement
-		}
-	}
-
-	#건국준비위원회
-	focus = {
-		id = KOR_focus_cpki
-		icon = GFX_focus_cpki
-		relative_position_id = KOR_focus_ncr
-		x = 0
-		y = 1
-		cost = 2
-
-		prerequisite = {
-			focus = KOR_focus_ncr
-		}
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = KOR_idea_interim_government_1
-				add_idea = KOR_idea_interim_government_2
-			}
-		}
-	}
-
-	#재외동포의 국적 인정
-	focus = {
-		id = KOR_focus_nationality_of_overseas_korean
-		icon = GFX_focus_nationality
-		relative_position_id = KOR_focus_cpki
-		x = -1
-		y = 1
-		cost = 2
-
-		prerequisite = {
-			focus = KOR_focus_cpki
-		}
-
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-
-	#지방자치단체 조직
-	focus = {
-		id = KOR_focus_local_government
-		icon = GFX_focus_capitol
-		relative_position_id = KOR_focus_cpki
-		x = 1
-		y = 1
-		cost = 3
-
-		prerequisite = {
-			focus = KOR_focus_cpki
-		}
-
-		completion_reward = {
-			add_political_power = 100
-		}
-	}
-
-	#제헌 국회
-	focus = {
-		id = KOR_focus_constitution_drafting_committee
-		icon = GFX_focus_constitution
-		relative_position_id = KOR_focus_nationality_of_overseas_korean
-		x = 1
-		y = 1
-		cost = 4
-
-		available = {
-			has_stability > 0.4
-		}
-
-		prerequisite = {
-			focus = KOR_focus_nationality_of_overseas_korean
-		}
-
-		prerequisite = {
-			focus = KOR_focus_local_government
-		}
-
-		completion_reward = {
-			country_event = {
-				id = kor_kpg_internal.7
-			}
-		}
-	}
-	
-	#국방사령부 창설
-	focus = {
-		id = KOR_focus_command_of_national_defense
-		icon = GFX_goal_generic_army_doctrines
-		relative_position_id = KOR_focus_ncr
-		x = 4
-		y = 1
-		cost = 3
-
-		prerequisite = {
-			focus = KOR_focus_ncr
-		}
-
-		completion_reward = {
-			add_command_power = 50
-			army_experience = 25
-		}
-	}
-	
-	#육군무관학교 확대
-	focus = {
-		id = KOR_focus_expand_military_academy
-		icon = GFX_focus_military_academy
-		relative_position_id = KOR_focus_command_of_national_defense
-		x = -1
-		y = 1
-		cost = 4
-
-		prerequisite = {
-			focus = KOR_focus_command_of_national_defense
-		}
+		prerequisite = { focus = KOR_focus_prov_constitution_second }
+		prerequisite = { focus = KOR_focus_convene_cabinet_meeting }
 
 		completion_reward = {
 			
 		}
 	}
-
-	#해방병단 창설
-	focus = {
-		id = KOR_focus_establish_coast_guard
-		icon = GFX_goal_generic_navy_cruiser
-		relative_position_id = KOR_focus_command_of_national_defense
-		x = 1
-		y = 1
-		cost = 4
-
-		prerequisite = {
-			focus = KOR_focus_command_of_national_defense
-		}
-
-		completion_reward = {
-			navy_experience = 25
-			815 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	#재탄생한 광복군
-	focus = {
-		id = KOR_focus_reborn_kia
-		icon = GFX_focus_kia
-		relative_position_id = KOR_focus_expand_military_academy
-		x = 1
-		y = 1
-		cost = 4
-
-		prerequisite = {
-			focus = KOR_focus_expand_military_academy
-		}
-
-		prerequisite = {
-			focus = KOR_focus_establish_coast_guard
-		}
-
-		completion_reward = {
-			if = {
-				limit = { has_idea = KOR_idea_kia_1 }
-				remove_ideas = KOR_idea_kia_1
-			}
-			if = {
-				limit = { has_idea = KOR_idea_kia_2 }
-				remove_ideas = KOR_idea_kia_2
-			}
-			add_ideas = KOR_idea_reborn_kia
-			hidden_effect = {
-				load_oob = "KOR_Reorganized_KIA"
-			}
-			custom_effect_tooltip = KOR_focus_reborn_kia_tt
-		}
-	}
 	
-	#대한민국 선포
+	#국민대표회의 개최
 	focus = {
-		id = KOR_focus_republic_of_korea
-		icon = GFX_focus_republic_of_korea
-		relative_position_id = KOR_focus_constitution_drafting_committee
-		x = 0
-		y = 1
-		cost = 1
-
-		available = {
-			has_country_flag = KOR_flag_constitution
-		}
-
-		prerequisite = {
-			focus = KOR_focus_illiteracy_eradication_movement
-		}
-
-		prerequisite = {
-			focus = KOR_focus_constitution_drafting_committee
-		}
-
-		prerequisite = {
-			focus = KOR_focus_reborn_kia
-		}
-
-		completion_reward = {
-			hidden_effect = {
-				set_cosmetic_tag = KOR_proclaimed
-				set_party_name = { 
-					ideology = neutrality
-					long_name = KOR_neutrality_party_ena_long
-					name = KOR_neutrality_party_ena
-				}
-				create_country_leader = {
-					name = "Constituent National Assembly"
-					desc = ""
-					picture = "gfx/leaders/KOR/Portrait_CPKI.dds"
-					expire = "1965.1.1"
-					ideology = oligarchism
-					traits = {  }
-				}
-				news_event = {
-					id = pk_news.2
-				}
-			}
-			custom_effect_tooltip = KOR_focus_republic_of_korea_tt
-		}
-	}
-
-	#총선거 실시
-	focus = {
-		id = KOR_focus_general_election
-		icon = GFX_focus_assembly_election
-		relative_position_id = KOR_focus_republic_of_korea
-		x = 0
+		id = KOR_focus_ncr
+		icon = GFX_focus_ncr
+		relative_position_id = KOR_focus_national_unity_gov
+		x = -2
 		y = 1
 		cost = 3
 
 		prerequisite = {
-			focus = KOR_focus_republic_of_korea
+			focus = KOR_focus_national_unity_gov
 		}
 
 		completion_reward = {
-			if = {
-				limit = { has_country_flag = KOR_flag_constitution }
-				country_event = { id = kor_kpg_internal.12 }
-			}
+			# country_event = {
+			# 	id = kor_kpg_internal.6
+			# }
 		}
 	}
+	
+	# #국가 재건
+	# focus = {
+	# 	id = KOR_focus_nrc
+	# 	icon = GFX_goal_generic_production
+	# 	relative_position_id = KOR_focus_ncr
+	# 	x = -4
+	# 	y = 1
+	# 	cost = 3
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_ncr
+	# 	}
+
+	# 	completion_reward = {
+	# 		add_timed_idea = {
+	# 			idea = KOR_idea_national_recovery
+	# 			days = 730
+	# 		}
+	# 	}
+	# }
+	
+	# #일제 적산 환수
+	# focus = {
+	# 	id = KOR_focus_redeem_enemy_properties
+	# 	icon = GFX_focus_recover_enemy_property
+	# 	relative_position_id = KOR_focus_nrc
+	# 	x = -1
+	# 	y = 1
+	# 	cost = 3
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_nrc
+	# 	}
+
+	# 	completion_reward = {
+			
+	# 	}
+	# }
+	
+	# #빈민구제 정책
+	# focus = {
+	# 	id = KOR_focus_poverty_relief_policy
+	# 	icon = GFX_focus_poverty_relief
+	# 	relative_position_id = KOR_focus_nrc
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 3
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_nrc
+	# 	}
+
+	# 	completion_reward = {
+	# 		unlock_decision_tooltip = KOR_poverty_relief_policy
+	# 		add_stability = 0.05
+	# 	}
+	# }
+	
+	# #문맹 퇴치 운동
+	# focus = {
+	# 	id = KOR_focus_illiteracy_eradication_movement
+	# 	icon = GFX_focus_education
+	# 	relative_position_id = KOR_focus_redeem_enemy_properties
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 4
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_redeem_enemy_properties
+	# 	}
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_poverty_relief_policy
+	# 	}
+
+	# 	completion_reward = {
+	# 		unlock_decision_tooltip = KOR_illiteracy_eradication_movement
+	# 	}
+	# }
+
+	# #건국준비위원회
+	# focus = {
+	# 	id = KOR_focus_cpki
+	# 	icon = GFX_focus_cpki
+	# 	relative_position_id = KOR_focus_ncr
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 2
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_ncr
+	# 	}
+
+	# 	completion_reward = {
+	# 		swap_ideas = {
+	# 			remove_idea = KOR_idea_interim_government_1
+	# 			add_idea = KOR_idea_interim_government_2
+	# 		}
+	# 	}
+	# }
+
+	# #재외동포의 국적 인정
+	# focus = {
+	# 	id = KOR_focus_nationality_of_overseas_korean
+	# 	icon = GFX_focus_nationality
+	# 	relative_position_id = KOR_focus_cpki
+	# 	x = -1
+	# 	y = 1
+	# 	cost = 2
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_cpki
+	# 	}
+
+	# 	completion_reward = {
+	# 		add_stability = 0.05
+	# 	}
+	# }
+
+	# #지방자치단체 조직
+	# focus = {
+	# 	id = KOR_focus_local_government
+	# 	icon = GFX_focus_capitol
+	# 	relative_position_id = KOR_focus_cpki
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 3
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_cpki
+	# 	}
+
+	# 	completion_reward = {
+	# 		add_political_power = 100
+	# 	}
+	# }
+
+	# #제헌 국회
+	# focus = {
+	# 	id = KOR_focus_constitution_drafting_committee
+	# 	icon = GFX_focus_constitution
+	# 	relative_position_id = KOR_focus_nationality_of_overseas_korean
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 4
+
+	# 	available = {
+	# 		has_stability > 0.4
+	# 	}
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_nationality_of_overseas_korean
+	# 	}
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_local_government
+	# 	}
+
+	# 	completion_reward = {
+	# 		country_event = {
+	# 			id = kor_kpg_internal.7
+	# 		}
+	# 	}
+	# }
+	
+	# #국방사령부 창설
+	# focus = {
+	# 	id = KOR_focus_command_of_national_defense
+	# 	icon = GFX_goal_generic_army_doctrines
+	# 	relative_position_id = KOR_focus_ncr
+	# 	x = 4
+	# 	y = 1
+	# 	cost = 3
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_ncr
+	# 	}
+
+	# 	completion_reward = {
+	# 		add_command_power = 50
+	# 		army_experience = 25
+	# 	}
+	# }
+	
+	# #육군무관학교 확대
+	# focus = {
+	# 	id = KOR_focus_expand_military_academy
+	# 	icon = GFX_focus_military_academy
+	# 	relative_position_id = KOR_focus_command_of_national_defense
+	# 	x = -1
+	# 	y = 1
+	# 	cost = 4
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_command_of_national_defense
+	# 	}
+
+	# 	completion_reward = {
+			
+	# 	}
+	# }
+
+	# #해방병단 창설
+	# focus = {
+	# 	id = KOR_focus_establish_coast_guard
+	# 	icon = GFX_goal_generic_navy_cruiser
+	# 	relative_position_id = KOR_focus_command_of_national_defense
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 4
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_command_of_national_defense
+	# 	}
+
+	# 	completion_reward = {
+	# 		navy_experience = 25
+	# 		815 = {
+	# 			add_extra_state_shared_building_slots = 2
+	# 			add_building_construction = {
+	# 				type = dockyard
+	# 				level = 2
+	# 				instant_build = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
+
+	# #재탄생한 광복군
+	# focus = {
+	# 	id = KOR_focus_reborn_kia
+	# 	icon = GFX_focus_kia
+	# 	relative_position_id = KOR_focus_expand_military_academy
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 4
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_expand_military_academy
+	# 	}
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_establish_coast_guard
+	# 	}
+
+	# 	completion_reward = {
+	# 		if = {
+	# 			limit = { has_idea = KOR_idea_kia_1 }
+	# 			remove_ideas = KOR_idea_kia_1
+	# 		}
+	# 		if = {
+	# 			limit = { has_idea = KOR_idea_kia_2 }
+	# 			remove_ideas = KOR_idea_kia_2
+	# 		}
+	# 		add_ideas = KOR_idea_reborn_kia
+	# 		hidden_effect = {
+	# 			load_oob = "KOR_Reorganized_KIA"
+	# 		}
+	# 		custom_effect_tooltip = KOR_focus_reborn_kia_tt
+	# 	}
+	# }
+	
+	# #대한민국 선포
+	# focus = {
+	# 	id = KOR_focus_republic_of_korea
+	# 	icon = GFX_focus_republic_of_korea
+	# 	relative_position_id = KOR_focus_constitution_drafting_committee
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 1
+
+	# 	available = {
+	# 		has_country_flag = KOR_flag_constitution
+	# 	}
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_illiteracy_eradication_movement
+	# 	}
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_constitution_drafting_committee
+	# 	}
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_reborn_kia
+	# 	}
+
+	# 	completion_reward = {
+	# 		hidden_effect = {
+	# 			set_cosmetic_tag = KOR_proclaimed
+	# 			set_party_name = { 
+	# 				ideology = neutrality
+	# 				long_name = KOR_neutrality_party_ena_long
+	# 				name = KOR_neutrality_party_ena
+	# 			}
+	# 			create_country_leader = {
+	# 				name = "Constituent National Assembly"
+	# 				desc = ""
+	# 				picture = "gfx/leaders/KOR/Portrait_CPKI.dds"
+	# 				expire = "1965.1.1"
+	# 				ideology = oligarchism
+	# 				traits = {  }
+	# 			}
+	# 			news_event = {
+	# 				id = pk_news.2
+	# 			}
+	# 		}
+	# 		custom_effect_tooltip = KOR_focus_republic_of_korea_tt
+	# 	}
+	# }
+
+	# #총선거 실시
+	# focus = {
+	# 	id = KOR_focus_general_election
+	# 	icon = GFX_focus_assembly_election
+	# 	relative_position_id = KOR_focus_republic_of_korea
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 3
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_republic_of_korea
+	# 	}
+
+	# 	completion_reward = {
+	# 		if = {
+	# 			limit = { has_country_flag = KOR_flag_constitution }
+	# 			country_event = { id = kor_kpg_internal.12 }
+	# 		}
+	# 	}
+	# }
 }
