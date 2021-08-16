@@ -200,9 +200,24 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_purge_in_the_army"
-		textureFile = "gfx/interface/goals/KOR/focus_purge_in_the_army.dds"
+		name = "GFX_focus_hunt_down_partisans"
+		textureFile = "gfx/interface/goals/KOR/focus_hunt_down_partisans.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_embrace_leftists"
+		textureFile = "gfx/interface/goals/KOR/focus_embrace_leftists.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_the_torch_of_red_hunt"
+		textureFile = "gfx/interface/goals/KOR/focus_the_torch_of_red_hunt.dds"
+	}
+
+	# spriteType = {
+	# 	name = "GFX_focus_purge_in_the_army"
+	# 	textureFile = "gfx/interface/goals/KOR/focus_purge_in_the_army.dds"
+	# }
 
 	spriteType = {
 		name = "GFX_focus_samgyunjuui"

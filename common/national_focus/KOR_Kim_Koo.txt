@@ -36,7 +36,6 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = { focus = KOR_focus_hero_of_the_national_liberation }
-		# mutually_exclusive = { focus = KOR_focus_anti_communism_authoritarianism }
 
 		completion_reward = {
 			
@@ -125,8 +124,8 @@ focus_tree = {
 	
 	#빨치산 소탕 작전
 	focus = {
-		id = KOR_focus_sweep_partisans
-		icon = GFX_focus_purge_in_the_army
+		id = KOR_focus_hunt_down_partisans
+		icon = GFX_focus_hunt_down_partisans
 		relative_position_id = KOR_focus_crack_down_on_cpk
 		x = 1
 		y = 1
@@ -142,8 +141,8 @@ focus_tree = {
 	
 	#온건좌파 계열 포섭
 	focus = {
-		id = KOR_focus_embrace_moderate_leftist
-		icon = GFX_focus_unknown
+		id = KOR_focus_embrace_moderate_leftists
+		icon = GFX_focus_embrace_leftists
 		relative_position_id = KOR_focus_expand_armed_police
 		x = 1
 		y = 1
@@ -160,14 +159,14 @@ focus_tree = {
 	#멸공의 횃불
 	focus = {
 		id = KOR_focus_the_torch_of_red_hunt
-		icon = GFX_focus_unknown
-		relative_position_id = KOR_focus_sweep_partisans
+		icon = GFX_focus_the_torch_of_red_hunt
+		relative_position_id = KOR_focus_hunt_down_partisans
 		x = 1
 		y = 1
 		cost = 10
 		
-		prerequisite = { focus = KOR_focus_sweep_partisans }
-		prerequisite = { focus = KOR_focus_embrace_moderate_leftist }
+		prerequisite = { focus = KOR_focus_hunt_down_partisans }
+		prerequisite = { focus = KOR_focus_embrace_moderate_leftists }
 
 		completion_reward = {
 			
@@ -190,7 +189,7 @@ focus_tree = {
 		}
 	}
 	
-	#삼균주의
+	#새로운 삼균주의
 	focus = {
 		id = KOR_focus_new_samgyunjuui
 		icon = GFX_focus_samgyunjuui
@@ -266,9 +265,7 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = { focus = KOR_focus_the_torch_of_red_hunt }
-		mutually_exclusive = {
-			focus = KOR_focus_liberal_democracy
-		}
+		mutually_exclusive = { focus = KOR_focus_liberal_democracy }
 
 		completion_reward = {
 			
@@ -298,10 +295,27 @@ focus_tree = {
 
 	#애국주의 선전
 	focus = {
+		id = KOR_focus_daegongjuui
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_inspire_nationalism
+		x = -1
+		y = 1
+		cost = 10
+		
+		prerequisite = { focus = KOR_focus_inspire_nationalism }
+		# mutually_exclusive = { focus = KOR_focus_anti_communism_authoritarianism }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#애국주의 선전
+	focus = {
 		id = KOR_focus_patriotism_propaganda
 		icon = GFX_focus_unknown
 		relative_position_id = KOR_focus_inspire_nationalism
-		x = 0
+		x = 1
 		y = 1
 		cost = 10
 		
@@ -368,7 +382,25 @@ focus_tree = {
 		id = KOR_focus_negotiation_with_kdp
 		icon = GFX_focus_unknown
 		relative_position_id = KOR_focus_absorb_gongminhwai
-		x = 1
+		x = 0
+		y = 1
+		cost = 10
+		
+		prerequisite = { focus = KOR_focus_absorb_gongminhwai }
+		prerequisite = { focus = KOR_focus_embrace_young_group_representatives }
+
+
+		completion_reward = {
+			
+		}
+	}
+
+	#한민당과의 협상
+	focus = {
+		id = KOR_focus_negotiation_with_np
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_embrace_young_group_representatives
+		x = 0
 		y = 1
 		cost = 10
 		
@@ -386,11 +418,12 @@ focus_tree = {
 		id = KOR_focus_knp
 		icon = GFX_focus_unknown
 		relative_position_id = KOR_focus_negotiation_with_kdp
-		x = 0
+		x = 1
 		y = 1
 		cost = 10
 		
 		prerequisite = { focus = KOR_focus_negotiation_with_kdp }
+		prerequisite = { focus = KOR_focus_negotiation_with_np }
 
 
 		completion_reward = {
@@ -406,9 +439,390 @@ focus_tree = {
 		id = KOR_focus_economic_report_of_mof
 		icon = GFX_focus_unknown
 		relative_position_id = KOR_focus_hero_of_the_national_liberation
-		x = 20
+		x = 19
 		y = 0
 		cost = 10
+
+		completion_reward = {
+			
+		}
+	}
+
+	#경제 안정화
+	focus = {
+		id = KOR_focus_stabilize_economy
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_economic_report_of_mof
+		x = -2
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_economic_report_of_mof }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#균형 예산 확보
+	focus = {
+		id = KOR_focus_balanced_budget
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_stabilize_economy
+		x = -1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_stabilize_economy }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#긴축정책
+	focus = {
+		id = KOR_focus_austerity
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_balanced_budget
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_balanced_budget }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#해외무역 통제
+	focus = {
+		id = KOR_focus_control_foreign_trade
+		icon = GFX_goal_generic_positive_trade_relations
+		relative_position_id = KOR_focus_stabilize_economy
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_stabilize_economy }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#해외자본 도입 허용
+	focus = {
+		id = KOR_focus_accept_foreign_capital
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_control_foreign_trade
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_control_foreign_trade }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	
+	#사회기반시설 복구
+	focus = {
+		id = KOR_focus_recover_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = KOR_focus_economic_report_of_mof
+		x = 2
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_economic_report_of_mof }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#국토재건사업 확대
+	focus = {
+		id = KOR_focus_land_reconstruction
+		icon = GFX_focus_production
+		relative_position_id = KOR_focus_recover_infrastructure
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_recover_infrastructure }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#식량증산계획
+	focus = {
+		id = KOR_focus_food_program
+		icon = GFX_focus_HOL_abandon_the_gold_standard
+		relative_position_id = KOR_focus_land_reconstruction
+		x = -1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_land_reconstruction }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#농업적 자급자족
+	focus = {
+		id = KOR_focus_agricultural_self_sufficiency
+		icon = GFX_focus_agriculture
+		relative_position_id = KOR_focus_land_reconstruction
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_land_reconstruction }
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+	#산업 부흥 5개년 계획
+	focus = {
+		id = KOR_focus_five_years_plan_for_industrial_revival
+		icon = GFX_focus_generic_industry_3
+		relative_position_id = KOR_focus_accept_foreign_capital
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_austerity }
+		prerequisite = { focus = KOR_focus_accept_foreign_capital }
+		prerequisite = { focus = KOR_focus_food_program }
+		prerequisite = { focus = KOR_focus_agricultural_self_sufficiency }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#경공업 개발
+	focus = {
+		id = KOR_focus_develop_light_industry
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_five_years_plan_for_industrial_revival
+		x = -1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_five_years_plan_for_industrial_revival }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#삼백산업 투자
+	focus = {
+		id = KOR_focus_invest_in_sambaek_industry
+		icon = GFX_goal_generic_consumer_goods
+		relative_position_id = KOR_focus_five_years_plan_for_industrial_revival
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = {
+			focus = KOR_focus_five_years_plan_for_industrial_revival
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+	#북부 공업지대 국유화
+	focus = {
+		id = KOR_focus_nationalize_northern_industrial_complex
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_develop_light_industry
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_develop_light_industry }
+		prerequisite = { focus = KOR_focus_invest_in_sambaek_industry }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#중공업 육성
+	focus = {
+		id = KOR_focus_heavy_industry
+		icon = GFX_focus_generic_industry_1
+		relative_position_id = KOR_focus_nationalize_northern_industrial_complex
+		x = -3
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_nationalize_northern_industrial_complex }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#전자산업 투자
+	focus = {
+		id = KOR_focus_electronic_industry
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_heavy_industry
+		x = -2
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_heavy_industry }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#한성전자
+	focus = {
+		id = KOR_focus_hanseong_electronic
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_electronic_industry
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_electronic_industry }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#기계공업 육성
+	focus = {
+		id = KOR_focus_mechanical_industry
+		icon = GFX_goal_generic_production2
+		relative_position_id = KOR_focus_heavy_industry
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_heavy_industry }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#군수공장 확충
+	focus = {
+		id = KOR_focus_expand_arms_factory
+		icon = GFX_focus_generic_tank_production
+		relative_position_id = KOR_focus_heavy_industry
+		x = 2
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_heavy_industry }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#자동차공업
+	focus = {
+		id = KOR_focus_automotive_industry
+		icon = GFX_goal_generic_army_motorized
+		relative_position_id = KOR_focus_mechanical_industry
+		x = 1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_mechanical_industry }
+		prerequisite = { focus = KOR_focus_expand_arms_factory }
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+	
+	#지하자원 탐사
+	focus = {
+		id = KOR_focus_explore_resources
+		icon = GFX_goal_generic_construction2
+		relative_position_id = KOR_focus_nationalize_northern_industrial_complex
+		x = 3
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_nationalize_northern_industrial_complex }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#무산철광 확대
+	focus = {
+		id = KOR_focus_musan_iron_mine
+		icon = GFX_focus_generic_steel
+		relative_position_id = KOR_focus_explore_resources
+		x = -2
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_explore_resources }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#보크사이트 광산 확충
+	focus = {
+		id = KOR_focus_bauxite_mine
+		icon = GFX_focus_generic_aluminum
+		relative_position_id = KOR_focus_explore_resources
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_explore_resources }
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	#영월 상동광산
+	focus = {
+		id = KOR_focus_yeongdong_sangdong_mine
+		icon = GFX_focus_generic_tungsten
+		relative_position_id = KOR_focus_explore_resources
+		x = 2
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_explore_resources }
 
 		completion_reward = {
 			
