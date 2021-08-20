@@ -38,9 +38,7 @@ focus_tree = {
 		y = 1
 		cost = 1
 		
-		prerequisite = {
-			focus = KOR_focus_korean_war_of_independence
-		}
+		prerequisite = { focus = KOR_focus_korean_war_of_independence }
 
 		completion_reward = {
 			country_event = { id = kor_woi.1 }
@@ -49,194 +47,32 @@ focus_tree = {
 		}
 	}
 	
-	#일본군 무기고 습격
+	#건국치안대
 	focus = {
-		id = KOR_focus_raid_japanese_armory
-		icon = GFX_focus_raid_jap_armory
+		id = KOR_focus_poc
+		icon = GFX_focus_poc
 		relative_position_id = KOR_focus_kia_mpc
 		x = -3
 		y = 1
 		cost = 2
 		
-		prerequisite = {
-			focus = KOR_focus_kia_mpc
-		}
+		prerequisite = { focus = KOR_focus_kia_mpc }
 
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 10000
-				producer = JAP
-			}
-			add_equipment_to_stockpile = {
-				type = artillery_equipment
-				amount = 2000
-				producer = JAP
-			}
-			JAP = {
-				add_timed_idea = {
-					idea = KOR_idea_arms_raided
-					days = 100
-				}
-			}
-		}
-	}
-
-	#현지산 무기 조달
-	focus = {
-		id = KOR_focus_local_arms_procurement
-		icon = GFX_focus_guns
-		relative_position_id = KOR_focus_kia_mpc
-		x = -1
-		y = 1
-		cost = 4
-
-		available = {
-			controls_state = 810
-		}
-		
-		prerequisite = {
-			focus = KOR_focus_kia_mpc
-		}
-
-		completion_reward = {
-			810 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	#독립의용군
-	focus = {
-		id = KOR_focus_liberation_voulnteer_army
-		icon = GFX_focus_volunteers
-		relative_position_id = KOR_focus_kia_mpc
-		x = 1
-		y = 1
-		cost = 1
-		
-		prerequisite = {
-			focus = KOR_focus_kia_mpc
-		}
-
-		completion_reward = {
-			unlock_decision_category_tooltip = KOR_recruit_volunteer_army
-			swap_ideas = {
-				add_idea = KOR_idea_independence_war_2
-				remove_idea = KOR_idea_independence_war_1
-			}
-		}
-	}
-
-	#특무공작대 투입
-	focus = {
-		id = KOR_focus_special_operation_unit
-		icon = GFX_focus_sou
-		relative_position_id = KOR_focus_kia_mpc
-		x = 3
-		y = 1
-		cost = 2
-		
-		prerequisite = {
-			focus = KOR_focus_kia_mpc
-		}
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = KOR_idea_kia_1
-				add_idea = KOR_idea_kia_2
-			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				technology = tech_special_forces
-			}
-		}
-	}
-
-	#전시 생산 체제
-	focus = {
-		id = KOR_focus_wartime_production
-		icon = GFX_focus_production
-		relative_position_id = KOR_focus_raid_japanese_armory
-		x = 1
-		y = 1
-		cost = 2
-
-		prerequisite = {
-			focus = KOR_focus_raid_japanese_armory
-		}
-		
-		prerequisite = {
-			focus = KOR_focus_local_arms_procurement
-		}
-
-		completion_reward = {
-			add_ideas = KOR_idea_war_time_production
+			
 		}
 	}
 	
-	#항일유격전 개시
-	focus = {
-		id = KOR_focus_guerrilla_warfare
-		icon = GFX_focus_prc_infiltration
-		relative_position_id = KOR_focus_liberation_voulnteer_army
-		x = 1
-		y = 1
-		cost = 3
-		
-		prerequisite = {
-			focus = KOR_focus_liberation_voulnteer_army
-		}
-		
-		prerequisite = {
-			focus = KOR_focus_special_operation_unit
-		}
-
-		completion_reward = {
-			unlock_decision_category_tooltip = KOR_guerrilla_warfare
-		}
-	}
-	
-	#복수의 시간
-	focus = {
-		id = KOR_focus_time_to_revenge
-		icon = GFX_focus_anti_japan
-		relative_position_id = KOR_focus_wartime_production
-		x = 2
-		y = 1
-		cost = 5
-		
-		prerequisite = {
-			focus = KOR_focus_wartime_production
-		}
-		
-		prerequisite = {
-			focus = KOR_focus_guerrilla_warfare
-		}
-
-		completion_reward = {
-			add_ideas = KOR_idea_time_to_revenge
-		}
-	}
-	
-	#한성임시행정위원회
+	#한성정무위원회
 	focus = {
 		id = KOR_focus_hnc
-		icon = GFX_focus_politic
-		relative_position_id = KOR_focus_time_to_revenge
-		x = -4
+		icon = GFX_focus_cpki
+		relative_position_id = KOR_focus_poc
+		x = -2
 		y = 1
 		cost = 5
 		
-		prerequisite = {
-			focus = KOR_focus_time_to_revenge
-		}
+		prerequisite = { focus = KOR_focus_poc }
 
 		completion_reward = {
 			country_event = { id = kor_woi.2 }
@@ -266,12 +102,12 @@ focus_tree = {
 		}
 	}
 	
-	#건국치안대 창설
+	#식량대책위원회
 	focus = {
-		id = KOR_focus_public_order_corps
-		icon = GFX_focus_generic_little_entente
+		id = KOR_focus_food_measures_committee
+		icon = GFX_focus_agriculture
 		relative_position_id = KOR_focus_stabilize_nation
-		x = -2
+		x = -1
 		y = 1
 		cost = 5
 		
@@ -284,21 +120,175 @@ focus_tree = {
 		}
 	}
 	
-	#식량대책위원회
-	focus = {
-		id = KOR_focus_food_measures_committee
-		icon = GFX_focus_agriculture
-		relative_position_id = KOR_focus_stabilize_nation
-		x = 2
-		y = 1
-		cost = 5
+	# #일본군 무기고 습격
+	# focus = {
+	# 	id = KOR_focus_raid_japanese_armory
+	# 	icon = GFX_focus_raid_jap_armory
+	# 	relative_position_id = KOR_focus_kia_mpc
+	# 	x = -3
+	# 	y = 1
+	# 	cost = 2
 		
-		prerequisite = {
-			focus = KOR_focus_stabilize_nation
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_kia_mpc
+	# 	}
+
+	# 	completion_reward = {
+	# 		add_equipment_to_stockpile = {
+	# 			type = infantry_equipment
+	# 			amount = 10000
+	# 			producer = JAP
+	# 		}
+	# 		add_equipment_to_stockpile = {
+	# 			type = artillery_equipment
+	# 			amount = 2000
+	# 			producer = JAP
+	# 		}
+	# 		JAP = {
+	# 			add_timed_idea = {
+	# 				idea = KOR_idea_arms_raided
+	# 				days = 100
+	# 			}
+	# 		}
+	# 	}
+	# }
+
+	#평양조병창 확보
+	focus = {
+		id = KOR_focus_secure_pyeongyang_armory
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = KOR_focus_kia_mpc
+		x = -1
+		y = 1
+		cost = 4
+
+		available = { controls_state = 810 }
+		
+		prerequisite = { focus = KOR_focus_kia_mpc }
 
 		completion_reward = {
 			
+		}
+	}
+
+	#현지산 무기 조달
+	focus = {
+		id = KOR_focus_local_arms_procurement
+		icon = GFX_focus_guns
+		relative_position_id = KOR_focus_secure_pyeongyang_armory
+		x = 0
+		y = 1
+		cost = 4
+
+		available = {
+			controls_state = 810
+		}
+		
+		prerequisite = { focus = KOR_focus_secure_pyeongyang_armory }
+
+		completion_reward = {
+			810 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#독립의용군
+	focus = {
+		id = KOR_focus_liberation_voulnteer_army
+		icon = GFX_focus_volunteers
+		relative_position_id = KOR_focus_kia_mpc
+		x = 1
+		y = 1
+		cost = 1
+		
+		prerequisite = { focus = KOR_focus_kia_mpc }
+
+		completion_reward = {
+			unlock_decision_category_tooltip = KOR_recruit_volunteer_army
+			swap_ideas = {
+				add_idea = KOR_idea_independence_war_2
+				remove_idea = KOR_idea_independence_war_1
+			}
+		}
+	}
+
+	#전시 생산 체제
+	focus = {
+		id = KOR_focus_wartime_production
+		icon = GFX_focus_production
+		relative_position_id = KOR_focus_local_arms_procurement
+		x = 0
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = KOR_focus_local_arms_procurement }
+
+		completion_reward = {
+			add_ideas = KOR_idea_war_time_production
+		}
+	}
+
+	#특무공작대 투입
+	focus = {
+		id = KOR_focus_special_operation_unit
+		icon = GFX_focus_sou
+		relative_position_id = KOR_focus_kia_mpc
+		x = 3
+		y = 1
+		cost = 2
+		
+		prerequisite = { focus = KOR_focus_kia_mpc }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KOR_idea_kia_1
+				add_idea = KOR_idea_kia_2
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = tech_special_forces
+			}
+		}
+	}
+	
+	#항일유격전 개시
+	focus = {
+		id = KOR_focus_guerrilla_warfare
+		icon = GFX_focus_prc_infiltration
+		relative_position_id = KOR_focus_liberation_voulnteer_army
+		x = 1
+		y = 1
+		cost = 3
+		
+		prerequisite = { focus = KOR_focus_liberation_voulnteer_army }
+		prerequisite = { focus = KOR_focus_special_operation_unit }
+
+		completion_reward = {
+			unlock_decision_category_tooltip = KOR_guerrilla_warfare
+		}
+	}
+	
+	#복수의 시간
+	focus = {
+		id = KOR_focus_time_to_revenge
+		icon = GFX_focus_anti_japan
+		relative_position_id = KOR_focus_wartime_production
+		x = 1
+		y = 1
+		cost = 5
+		
+		prerequisite = { focus = KOR_focus_wartime_production }
+		prerequisite = { focus = KOR_focus_guerrilla_warfare }
+
+		completion_reward = {
+			add_ideas = KOR_idea_time_to_revenge
 		}
 	}
 	
@@ -307,13 +297,11 @@ focus_tree = {
 		id = KOR_focus_reorganize_kia
 		icon = GFX_focus_hra
 		relative_position_id = KOR_focus_time_to_revenge
-		x = 4
+		x = -2
 		y = 1
 		cost = 5
 		
-		prerequisite = {
-			focus = KOR_focus_time_to_revenge
-		}
+		prerequisite = { focus = KOR_focus_time_to_revenge }
 
 		completion_reward = {
 			army_experience = 50
@@ -328,18 +316,16 @@ focus_tree = {
 		}
 	}
 
-	#신흥무관학교 재건
+	#육군무관학교 재건
 	focus = {
 		id = KOR_focus_rebuild_military_acedemy
 		icon = GFX_focus_military_academy
 		relative_position_id = KOR_focus_reorganize_kia
-		x = 0
+		x = -1
 		y = 1
 		cost = 5
 
-		prerequisite = {
-			focus = KOR_focus_reorganize_kia
-		}
+		prerequisite = { focus = KOR_focus_reorganize_kia }
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -347,6 +333,43 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
+		}
+	}
+
+	#포병대 확충
+	focus = {
+		id = KOR_focus_expand_artillery
+		icon = GFX_goal_generic_army_artillery2
+		relative_position_id = KOR_focus_reorganize_kia
+		x = 1
+		y = 1
+		cost = 5
+
+		prerequisite = { focus = KOR_focus_reorganize_kia }
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+	
+	#중국의 지원 확대
+	focus = {
+		id = KOR_focus_expand_aid_from_chi
+		icon = GFX_focus_chi_cooperation_with_the_nationalists
+		relative_position_id = KOR_focus_time_to_revenge
+		x = 2
+		y = 1
+		cost = 5
+		
+		prerequisite = { focus = KOR_focus_time_to_revenge }
+
+		completion_reward = {
+			
 		}
 	}
 }

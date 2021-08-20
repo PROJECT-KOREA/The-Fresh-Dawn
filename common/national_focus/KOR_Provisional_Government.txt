@@ -56,7 +56,7 @@ focus_tree = {
 	#임시헌법 제2호
 	focus = {
 		id = KOR_focus_prov_constitution_second
-		icon = GFX_focus_unknown
+		icon = GFX_focus_generic_treaty
 		relative_position_id = KOR_focus_return_of_kpg
 		x = -1
 		y = 1
@@ -121,7 +121,7 @@ focus_tree = {
 	#국무원 조직 개편
 	focus = {
 		id = KOR_focus_reorganize_state_council
-		icon = GFX_focus_unknown
+		icon = GFX_focus_politic
 		relative_position_id = KOR_focus_national_unity_gov
 		x = 0
 		y = 1
@@ -137,7 +137,7 @@ focus_tree = {
 	#임시의정원 확대
 	focus = {
 		id = KOR_focus_provisional_parliament
-		icon = GFX_focus_unknown
+		icon = GFX_focus_capitol
 		relative_position_id = KOR_focus_national_unity_gov
 		x = 2
 		y = 1
@@ -171,7 +171,7 @@ focus_tree = {
 	#지방자치단체 조직
 	focus = {
 		id = KOR_focus_local_government
-		icon = GFX_focus_capitol
+		icon = GFX_focus_institution
 		relative_position_id = KOR_focus_interim_cabinet_election
 		x = -4
 		y = 1
