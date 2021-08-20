@@ -130,6 +130,8 @@
 
  KOR_focus_inspire_nationalism:0 "민족주의 고취"
  KOR_focus_inspire_nationalism_desc:0 ""
+ KOR_focus_daegongjuui:0 "대공주의"
+ KOR_focus_daegongjuui_desc:0 ""
  KOR_focus_patriotism_propaganda:0 "애국주의 전선"
  KOR_focus_patriotism_propaganda_desc:0 ""
 
@@ -192,6 +194,23 @@
  KOR_focus_bauxite_mine_desc:0 ""
  KOR_focus_yeongdong_sangdong_mine:0 "영월 상동광산"
  KOR_focus_yeongdong_sangdong_mine_desc:0 ""
+
+KOR_focus_rok_armed_forces:0 "대한민국 국군"
+KOR_focus_rok_armed_forces_desc:0 ""
+KOR_focus_rok_army:0 "대한민국 육군"
+KOR_focus_rok_army_desc:0 ""
+KOR_focus_national_armory:0 "국립 조병창 설립"
+KOR_focus_national_armory_desc:0 ""
+KOR_focus_localize_rifles:0 "제식소총 국산화"
+KOR_focus_localize_rifles_desc:0 ""
+KOR_focus_daehan_rifle:0 "대한식 소총"
+KOR_focus_daehan_rifle_desc:0 ""
+KOR_focus_rok_navy:0 "대한민국 해군"
+KOR_focus_rok_navy_desc:0 ""
+KOR_focus_rok_marines:0 "대한민국 해병대"
+KOR_focus_rok_marines_desc:0 ""
+KOR_focus_rok_airforce:0 "대한민국 공군"
+KOR_focus_rok_airforce_desc:0 ""
 
 
 

@@ -279,7 +279,7 @@ focus_tree = {
 	#민족주의 고취
 	focus = {
 		id = KOR_focus_inspire_nationalism
-		icon = GFX_focus_unknown
+		icon = GFX_focus_ilminism
 		relative_position_id = KOR_focus_national_unity
 		x = 4
 		y = 1
@@ -293,7 +293,7 @@ focus_tree = {
 		}
 	}
 
-	#애국주의 선전
+	#대공주의
 	focus = {
 		id = KOR_focus_daegongjuui
 		icon = GFX_focus_unknown
@@ -313,7 +313,7 @@ focus_tree = {
 	#애국주의 선전
 	focus = {
 		id = KOR_focus_patriotism_propaganda
-		icon = GFX_focus_unknown
+		icon = GFX_goal_generic_propaganda
 		relative_position_id = KOR_focus_inspire_nationalism
 		x = 1
 		y = 1
@@ -828,6 +828,139 @@ focus_tree = {
 			
 		}
 	}
+
+
+	
+	
+	#대한민국 국군
+	focus = {
+		id = KOR_focus_rok_armed_forces
+		icon = GFX_focus_rok_armed_forces
+		relative_position_id = KOR_focus_hero_of_the_national_liberation
+		x = 35
+		y = 0
+		cost = 10
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#대한민국 육군
+	focus = {
+		id = KOR_focus_rok_army
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = KOR_focus_rok_armed_forces
+		x = -5
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_rok_armed_forces }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#국립 조병창 설립
+	focus = {
+		id = KOR_focus_national_armory
+		icon = GFX_focus_guns
+		relative_position_id = KOR_focus_rok_army
+		x = -1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_rok_army }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#제식소총 국산화
+	focus = {
+		id = KOR_focus_localize_rifles
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = KOR_focus_national_armory
+		x = -1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_national_armory }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#대한식 소총
+	focus = {
+		id = KOR_focus_daehan_rifle
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = KOR_focus_localize_rifles
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_localize_rifles }
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+	#대한민국 해군
+	focus = {
+		id = KOR_focus_rok_navy
+		icon = GFX_goal_generic_build_navy
+		relative_position_id = KOR_focus_rok_armed_forces
+		x = 0
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_rok_armed_forces }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#대한민국 해병대
+	focus = {
+		id = KOR_focus_rok_marines
+		icon = GFX_goal_generic_amphibious_assault
+		relative_position_id = KOR_focus_rok_navy
+		x = -1
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_rok_navy }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	
+	#대한민국 공군
+	focus = {
+		id = KOR_focus_rok_airforce
+		icon = GFX_goal_generic_build_airforce
+		relative_position_id = KOR_focus_rok_armed_forces
+		x = 5
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = KOR_focus_rok_armed_forces }
+
+		completion_reward = {
+			
+		}
+	}
+
 	
 	# #삼균주의
 	# focus = {
