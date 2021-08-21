@@ -165,6 +165,21 @@ spriteTypes = {
 		name = "GFX_focus_assembly_election"
 		textureFile = "gfx/interface/goals/KOR/focus_assembly_election.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_cabinet_meeting"
+		textureFile = "gfx/interface/goals/KOR/focus_cabinet_meeting.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_institutional_reform"
+		textureFile = "gfx/interface/goals/KOR/focus_institutional_reform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_bankruptcy"
+		textureFile = "gfx/interface/goals/KOR/focus_bankruptcy.dds"
+	}
 	
 
 	## Kim Koo ##
