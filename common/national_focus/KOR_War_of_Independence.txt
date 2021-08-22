@@ -319,7 +319,7 @@ focus_tree = {
 	#육군무관학교 재건
 	focus = {
 		id = KOR_focus_rebuild_military_acedemy
-		icon = GFX_focus_military_academy
+		icon = GFX_focus_generic_military_academy
 		relative_position_id = KOR_focus_reorganize_kia
 		x = -1
 		y = 1

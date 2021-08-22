@@ -28,18 +28,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_kpg"
-		textureFile = "gfx/interface/goals/GGK/focus_kpg.dds"
-	}
-
-	spriteType = {
 		name = "GFX_focus_search_out_spies"
 		textureFile = "gfx/interface/goals/GGK/focus_search_out_spies.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_kia"
-		textureFile = "gfx/interface/goals/GGK/focus_kia.dds"
 	}
 
 	spriteType = {
@@ -63,13 +53,27 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_raid_jap_armory"
-		textureFile = "gfx/interface/goals/KOR/focus_raid_jap_armory.dds"
+		name = "GFX_focus_poc"
+		textureFile = "gfx/interface/goals/KOR/focus_poc.dds"
 	}
 
 	spriteType = {
+		name = "GFX_focus_cpki"
+		textureFile = "gfx/interface/goals/KOR/focus_cpki.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_agriculture"
+		textureFile = "gfx/interface/goals/KOR/focus_agriculture.dds"
+	}
+	spriteType = {
 		name = "GFX_focus_guns"
 		textureFile = "gfx/interface/goals/KOR/focus_guns.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_production"
+		textureFile = "gfx/interface/goals/KOR/focus_production.dds"
 	}
 
 	spriteType = {
@@ -83,13 +87,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_production"
-		textureFile = "gfx/interface/goals/KOR/focus_production.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_politic"
-		textureFile = "gfx/interface/goals/KOR/focus_politic.dds"
+		name = "GFX_focus_anti_japan"
+		textureFile = "gfx/interface/goals/KOR/focus_anti_japan.dds"
 	}
 
 	spriteType = {
@@ -97,10 +96,15 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/KOR/focus_hra.dds"
 	}
 
-	spriteType = {
-		name = "GFX_focus_military_academy"
-		textureFile = "gfx/interface/goals/KOR/focus_military_academy.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_focus_military_academy"
+	# 	textureFile = "gfx/interface/goals/KOR/focus_military_academy.dds"
+	# }
+	
+	#spriteType = {
+	# 	name = "GFX_focus_politic"
+	# 	textureFile = "gfx/interface/goals/KOR/focus_politic.dds"
+	# }
 
 	
 	## Provisional Government ##
@@ -110,40 +114,9 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/KOR/focus_victory_in_woi.dds"
 	}
 
-
 	spriteType = {
-		name = "GFX_focus_cpki"
-		textureFile = "gfx/interface/goals/KOR/focus_cpki.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_ncr"
-		textureFile = "gfx/interface/goals/KOR/focus_ncr.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_poverty_relief"
-		textureFile = "gfx/interface/goals/KOR/focus_poverty_relief.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_education"
-		textureFile = "gfx/interface/goals/KOR/focus_education.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_recover_enemy_property"
-		textureFile = "gfx/interface/goals/KOR/focus_recover_enemy_property.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_nationality"
-		textureFile = "gfx/interface/goals/KOR/focus_nationality.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_institution"
-		textureFile = "gfx/interface/goals/KOR/focus_institution.dds"
+		name = "GFX_focus_kpg"
+		textureFile = "gfx/interface/goals/KOR/focus_kpg.dds"
 	}
 
 	spriteType = {
@@ -152,8 +125,58 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_focus_ncr"
+		textureFile = "gfx/interface/goals/KOR/focus_ncr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_institutional_reform"
+		textureFile = "gfx/interface/goals/KOR/focus_institutional_reform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_institution"
+		textureFile = "gfx/interface/goals/KOR/focus_institution.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_bankruptcy"
+		textureFile = "gfx/interface/goals/KOR/focus_bankruptcy.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_constitution"
 		textureFile = "gfx/interface/goals/KOR/focus_constitution.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_nationality"
+		textureFile = "gfx/interface/goals/KOR/focus_nationality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_recover_enemy_property"
+		textureFile = "gfx/interface/goals/KOR/focus_recover_enemy_property.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_poverty_relief"
+		textureFile = "gfx/interface/goals/KOR/focus_poverty_relief.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_kia"
+		textureFile = "gfx/interface/goals/KOR/focus_kia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_imperial_family"
+		textureFile = "gfx/interface/goals/KOR/focus_imperial_family.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_treaty"
+		textureFile = "gfx/interface/goals/KOR/focus_treaty.dds"
 	}
 
 	spriteType = {
@@ -164,21 +187,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_assembly_election"
 		textureFile = "gfx/interface/goals/KOR/focus_assembly_election.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_cabinet_meeting"
-		textureFile = "gfx/interface/goals/KOR/focus_cabinet_meeting.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_institutional_reform"
-		textureFile = "gfx/interface/goals/KOR/focus_institutional_reform.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_bankruptcy"
-		textureFile = "gfx/interface/goals/KOR/focus_bankruptcy.dds"
 	}
 	
 
@@ -239,7 +247,25 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/KOR/focus_samgyunjuui.dds"
 	}
 
+	spriteType = {
+		name = "GFX_focus_cabinet_meeting"
+		textureFile = "gfx/interface/goals/KOR/focus_cabinet_meeting.dds"
+	}
 
+
+	#ROK ARMED FORCES
+	spriteType = {
+		name = "GFX_focus_rok_armed_forces"
+		textureFile = "gfx/interface/goals/KOR/focus_rok_armed_forces.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_rokmc"
+		textureFile = "gfx/interface/goals/KOR/focus_rokmc.dds"
+	}
+
+
+	# ETC
 
 	spriteType = {
 		name = "GFX_focus_arrest"
@@ -247,8 +273,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_lyuh_woonhyung"
-		textureFile = "gfx/interface/goals/KOR/focus_lyuh_woonhyung.dds"
+		name = "GFX_focus_ryuh_woonhyung"
+		textureFile = "gfx/interface/goals/KOR/focus_ryuh_woonhyung.dds"
 	}
 
 	spriteType = {
@@ -327,18 +353,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_imperial_family"
-		textureFile = "gfx/interface/goals/KOR/focus_imperial_family.dds"
-	}
-
-	spriteType = {
 		name = "GFX_focus_korean_empire"
 		textureFile = "gfx/interface/goals/KOR/focus_korean_empire.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_agriculture"
-		textureFile = "gfx/interface/goals/KOR/focus_agriculture.dds"
 	}
 
 	spriteType = {
@@ -378,17 +394,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_focus_attack_japan"
-		textureFile = "gfx/interface/goals/KOR/focus_attack_jap.dds"
+		textureFile = "gfx/interface/goals/KOR/focus_attack_japan.dds"
 	}
 
 	spriteType = {
 		name = "GFX_focus_human_tsunami"
 		textureFile = "gfx/interface/goals/KOR/focus_human_tsunami.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_anti_japan"
-		textureFile = "gfx/interface/goals/KOR/focus_anti_japan.dds"
 	}
 
 	spriteType = {
@@ -414,10 +425,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_kcpr"
 		textureFile = "gfx/interface/goals/KOR/focus_kcpr.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_rok_armed_forces"
-		textureFile = "gfx/interface/goals/KOR/focus_rok_armed_forces.dds"
 	}
 }

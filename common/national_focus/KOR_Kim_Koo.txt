@@ -332,7 +332,7 @@ focus_tree = {
 	#당 지도부 소집
 	focus = {
 		id = KOR_focus_convene_party_leadership
-		icon = GFX_focus_unknown
+		icon = GFX_focus_cabinet_meeting
 		relative_position_id = KOR_focus_hero_of_the_national_liberation
 		x = 9
 		y = 1
@@ -930,7 +930,7 @@ focus_tree = {
 	#대한민국 해병대
 	focus = {
 		id = KOR_focus_rok_marines
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_focus_rokmc
 		relative_position_id = KOR_focus_rok_navy
 		x = -1
 		y = 1

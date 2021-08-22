@@ -289,7 +289,7 @@ focus_tree = {
 	#육군무관학교 확대
 	focus = {
 		id = KOR_focus_expand_military_academy
-		icon = GFX_focus_military_academy
+		icon = GFX_focus_generic_military_academy
 		relative_position_id = KOR_focus_national_defense_command
 		x = -1
 		y = 1
@@ -369,7 +369,7 @@ focus_tree = {
 	#대한민국 헌법
 	focus = {
 		id = KOR_focus_rok_constitution
-		icon = GFX_focus_unknown
+		icon = GFX_focus_treaty
 		relative_position_id = KOR_focus_constitution_drafting_committee
 		x = 0
 		y = 2
