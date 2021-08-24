@@ -221,6 +221,23 @@ focus_tree = {
 		}
 	}
 	
+	#국민기본권
+	focus = {
+		id = KOR_focus_fundamental_rights
+		icon = GFX_focus_unknown
+		relative_position_id = KOR_focus_equality_politics
+		x = 0
+		y = 1
+		cost = 10
+		
+		prerequisite = { focus = KOR_focus_equality_politics }
+
+		completion_reward = {
+			
+		}
+	}
+
+	
 	#경제적 균등
 	focus = {
 		id = KOR_focus_equality_economy
@@ -236,6 +253,7 @@ focus_tree = {
 			
 		}
 	}
+
 	
 	#교육적 균등
 	focus = {
@@ -512,9 +530,9 @@ focus_tree = {
 		}
 	}
 
-	#해외자본 도입 허용
+	#일제적산 불하
 	focus = {
-		id = KOR_focus_accept_foreign_capital
+		id = KOR_focus_disposal_of_vested_property
 		icon = GFX_focus_unknown
 		relative_position_id = KOR_focus_control_foreign_trade
 		x = 0
@@ -578,9 +596,9 @@ focus_tree = {
 		}
 	}
 	
-	#농업적 자급자족
+	#정부 귀속농지 불하
 	focus = {
-		id = KOR_focus_agricultural_self_sufficiency
+		id = KOR_focus_disposal_of_vested_farmland
 		icon = GFX_focus_agriculture
 		relative_position_id = KOR_focus_land_reconstruction
 		x = 1
@@ -599,15 +617,15 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_five_years_plan_for_industrial_revival
 		icon = GFX_focus_generic_industry_3
-		relative_position_id = KOR_focus_accept_foreign_capital
+		relative_position_id = KOR_focus_disposal_of_vested_property
 		x = 1
 		y = 1
 		cost = 10
 
 		prerequisite = { focus = KOR_focus_austerity }
-		prerequisite = { focus = KOR_focus_accept_foreign_capital }
+		prerequisite = { focus = KOR_focus_disposal_of_vested_property }
 		prerequisite = { focus = KOR_focus_food_program }
-		prerequisite = { focus = KOR_focus_agricultural_self_sufficiency }
+		prerequisite = { focus = KOR_focus_disposal_of_vested_farmland }
 
 		completion_reward = {
 			
