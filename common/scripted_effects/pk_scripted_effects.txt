@@ -23,7 +23,7 @@
 #This is going to give misleading and ugly tooltips. Making it nice will take effort. TODO_WTT_CD make nice or ignore and remove comment. Easiest solution is just making a custom tooltip that says "5 civilian factories will be converted to military factories" and ignore telling the player the states where it will happen.
 
 KOR_create_units = {
-	809 = {
+	865 = {
 		create_unit = {
 			division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"한국광복군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
@@ -67,7 +67,7 @@ KOR_create_units = {
 	}
 
 	# #사리원
-	# 809 = {
+	# 865 = {
 	# 	create_unit = {
 	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
@@ -81,7 +81,7 @@ KOR_create_units = {
 	# }
 
 	# #함경도
-	# 807 = {
+	# 863 = {
 	# 	create_unit = {
 	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
@@ -107,7 +107,7 @@ KOR_create_units = {
 	# }
 
 	# #대전
-	# 810 = {
+	# 866 = {
 	# 	create_unit = {
 	# 		division = "division_template = \"독립의용군\" start_experience_factor = 0.1 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" }"
 	# 		owner = KOR
@@ -199,19 +199,19 @@ KOR_add_equipments_to_stockplie = {
 KOR_reset_state_names = {
 	525 = { set_state_name = "경기도" }
 	527 = { set_state_name = "강원도" }
-	807 = { set_state_name = "함경북도" }
-	808 = { set_state_name = "함경남도" }
-	809 = { set_state_name = "평안북도" }
-	810 = { set_state_name = "평안남도" }
-	811 = { set_state_name = "황해도" }
-	812 = { set_state_name = "충청북도" }
-	813 = { set_state_name = "충청남도" }
-	814 = { set_state_name = "경상북도" }
-	815 = { set_state_name = "경상남도" }
-	816 = { set_state_name = "전라북도" }
-	817 = { set_state_name = "전라남도" }
-	818 = { set_state_name = "제주도" }
-	819 = { set_state_name = "울릉도" }
+	863 = { set_state_name = "함경북도" }
+	864 = { set_state_name = "함경남도" }
+	865 = { set_state_name = "평안북도" }
+	866 = { set_state_name = "평안남도" }
+	867 = { set_state_name = "황해도" }
+	868 = { set_state_name = "충청북도" }
+	869 = { set_state_name = "충청남도" }
+	870 = { set_state_name = "경상북도" }
+	871 = { set_state_name = "경상남도" }
+	872 = { set_state_name = "전라북도" }
+	873 = { set_state_name = "전라남도" }
+	874 = { set_state_name = "제주도" }
+	875 = { set_state_name = "울릉도" }
 }
 
 KOR_reset_province_names = {

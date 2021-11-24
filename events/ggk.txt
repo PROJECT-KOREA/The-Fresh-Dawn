@@ -461,10 +461,10 @@ country_event = {
 #         hidden_effect = {
 #             set_global_flag = kor_woi
 #             KOR = {
-#                 transfer_state = 809
-#                 set_capital = 809
+#                 transfer_state = 837
+#                 set_capital = 837
 #             }
-#             809 = {
+#             837 = {
 #                 set_state_name = "평안북도"
 #                 set_province_name = {
 #                     id = 11835

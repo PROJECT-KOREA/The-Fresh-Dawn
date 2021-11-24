@@ -11,14 +11,14 @@
 # 				tooltip = KOR_declaration_of_independence_required_states_tt
 # 				owns_state = 525
 # 				owns_state = 527
-# 				owns_state = 807
-# 				owns_state = 808
-# 				owns_state = 809
-# 				owns_state = 810
-# 				owns_state = 811
-# 				owns_state = 812
-# 				owns_state = 813
-# 				owns_state = 814
+# 				owns_state = 863
+# 				owns_state = 864
+# 				owns_state = 865
+# 				owns_state = 866
+# 				owns_state = 867
+# 				owns_state = 868
+# 				owns_state = 869
+# 				owns_state = 870
 # 			}
 # 			has_completed_focus = KOR_focus_return_of_kpg
 # 		}
@@ -69,7 +69,7 @@ KOR_national_reconstruction_committee = {
 
 	# 	remove_effect = {
 	# 		clr_country_flag = KOR_flag_rural_recon
-	# 		807 = { 
+	# 		863 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -77,7 +77,7 @@ KOR_national_reconstruction_committee = {
 	# 				instant_build = yes
 	# 			}
 	# 		}
-	# 		808 = { 
+	# 		864 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -85,7 +85,7 @@ KOR_national_reconstruction_committee = {
 	# 				instant_build = yes
 	# 			}
 	# 		}
-	# 		809 = { 
+	# 		865 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -93,7 +93,7 @@ KOR_national_reconstruction_committee = {
 	# 				instant_build = yes
 	# 			}
 	# 		}
-	# 		810 = { 
+	# 		866 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -125,7 +125,7 @@ KOR_national_reconstruction_committee = {
 
 	# 	remove_effect = {
 	# 		clr_country_flag = KOR_flag_rural_recon
-	# 		811 = { 
+	# 		867 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -189,7 +189,7 @@ KOR_national_reconstruction_committee = {
 
 	# 	remove_effect = {
 	# 		clr_country_flag = KOR_flag_rural_recon
-	# 		812 = { 
+	# 		868 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -197,7 +197,7 @@ KOR_national_reconstruction_committee = {
 	# 				instant_build = yes
 	# 			}
 	# 		}
-	# 		813 = { 
+	# 		869 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -205,7 +205,7 @@ KOR_national_reconstruction_committee = {
 	# 				instant_build = yes
 	# 			}
 	# 		}
-	# 		816 = { 
+	# 		872 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -213,7 +213,7 @@ KOR_national_reconstruction_committee = {
 	# 				instant_build = yes
 	# 			}
 	# 		}
-	# 		817 = { 
+	# 		873 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -245,7 +245,7 @@ KOR_national_reconstruction_committee = {
 
 	# 	remove_effect = {
 	# 		clr_country_flag = KOR_flag_rural_recon
-	# 		814 = { 
+	# 		870 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
@@ -253,7 +253,7 @@ KOR_national_reconstruction_committee = {
 	# 				instant_build = yes
 	# 			}
 	# 		}
-	# 		815 = { 
+	# 		871 = { 
 	# 			add_extra_state_shared_building_slots = 2
 	# 			add_building_construction = {
 	# 				type = industrial_complex
