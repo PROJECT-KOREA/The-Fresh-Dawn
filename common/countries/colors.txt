@@ -4,7 +4,7 @@ KOR = {
 }
 
 GGK = {
-	color = rgb { 230 170 170 }
+	color = rgb { 217 205 205 }
 	color_ui = rgb { 230 170 170 }
 }
 
@@ -14,8 +14,8 @@ JAP = {
 }
 
 MAN = {
-	color = rgb { 170 140 60 }
-	color_ui = rgb { 170 140 60 }
+	color = rgb { 238 188 95 }
+	color_ui = rgb { 238 188 95 }
 }
 
 # ECA = {
