@@ -27,11 +27,13 @@ idea_categories = {
 		slot = security_minister
 		slot = economy_minister
 		slot = foreign_minister
-		slot = military_minister
 		slot = intel_minister
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
 		
 		cost = 150
-		removal_cost = -1
+		removal_cost = 0
 
 		ledger = civilian
 	}
@@ -40,12 +42,6 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
 		
 		cost = 150
 		removal_cost = 0
