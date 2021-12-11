@@ -1,7 +1,7 @@
 state = {
 	id = 836
 	name = "STATE_836" #함경남도
-	manpower = 1602200
+	manpower = 1700000
 
 	state_category = large_town
 	
@@ -11,20 +11,20 @@ state = {
 		add_core_of = GGK
 
 		buildings = {
-			industrial_complex = 2
-			infrastructure = 4
+			#기반시설
+			infrastructure = 1
+
+			#민간공장
+			industrial_complex = 1
 		}
-		victory_points = {
-			6928 10 #함흥(칸코)
-		}
-		victory_points = {
-			848 10 #원산(겐잔)
-		}
+
+		victory_points = { 6928 5 } #함흥(칸코)
+		victory_points = { 848 5 } #원산(겐잔)
 	}
 
 	resources = {
-		steel = 50
-		aluminium = 10
+		tungsten = 13
+		steel = 5
 	}
 	
 	provinces = {

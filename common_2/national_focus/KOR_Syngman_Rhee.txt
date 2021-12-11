@@ -1,0 +1,373 @@
+# focus_tree = {
+# 	id = KOR_Syngman_Rhee
+
+# 	country = {
+# 		factor = 0
+		
+# 		modifier = {
+# 			add = 30
+# 			tag = KOR
+# 			has_country_flag = KOR_rnc
+# 		}
+# 	}
+
+# 	continuous_focus_position = { x = 20 y = 1800 }
+	
+# 	#이승만 행정부
+# 	focus = {
+# 		id = KOR_focus_syngman_rhee
+# 		icon = GFX_focus_syngman_rhee
+# 		x = 8
+# 		y = 0
+# 		cost = 10
+
+# 		completion_reward = {
+			
+# 		}
+# 	}
+
+# 	#농지개혁법
+#     focus = {
+# 		id = KOR_focus_agricultural_land_reform_act
+# 		icon = GFX_goal_generic_construction
+# 		relative_position_id = KOR_focus_syngman_rhee
+# 		x = -3
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_syngman_rhee
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#화폐개혁 정책
+#     focus = {
+# 		id = KOR_focus_denomination_policy
+# 		icon = GFX_focus_usa_reestablish_the_gold_standard
+# 		relative_position_id = KOR_focus_agricultural_land_reform_act
+# 		x = -2
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_agricultural_land_reform_act
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#삼백산업 투자
+#     focus = {
+# 		id = KOR_focus_invest_in_sambaek_industry
+# 		icon = GFX_goal_generic_consumer_goods
+# 		relative_position_id = KOR_focus_agricultural_land_reform_act
+# 		x = 0
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_agricultural_land_reform_act
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#연구 예산
+#     focus = {
+# 		id = KOR_focus_reform_education
+# 		icon = GFX_focus_research
+# 		relative_position_id = KOR_focus_agricultural_land_reform_act
+# 		x = 2
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_agricultural_land_reform_act
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+
+# 	#산업 부흥 5개년 계획
+#     focus = {
+# 		id = KOR_focus_industrial_revival_five_years_plan
+# 		icon = GFX_goal_generic_production
+# 		relative_position_id = KOR_focus_invest_in_sambaek_industry
+# 		x = 0
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_invest_in_sambaek_industry
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#공업적 자급자족
+#     focus = {
+# 		id = KOR_focus_light_industry
+# 		icon = GFX_goal_generic_construct_civ_factory
+# 		relative_position_id = KOR_focus_industrial_revival_five_years_plan
+# 		x = -1
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_industrial_revival_five_years_plan
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#중공업 육성
+#     focus = {
+# 		id = KOR_focus_encourage_heavy_industry
+# 		icon = GFX_goal_generic_production2
+# 		relative_position_id = KOR_focus_industrial_revival_five_years_plan
+# 		x = 1
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_industrial_revival_five_years_plan
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#미국의 경제 원조
+#     focus = {
+# 		id = KOR_focus_americal_economy_aid
+# 		icon = GFX_focus_generic_the_giant_wakes
+# 		relative_position_id = KOR_focus_light_industry
+# 		x = 1
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_light_industry
+# 		}
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_encourage_heavy_industry
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+
+# 	#국가보안법 제정
+#     focus = {
+# 		id = KOR_focus_national_security_law
+# 		icon = GFX_focus_national_security_law
+# 		relative_position_id = KOR_focus_syngman_rhee
+# 		x = 0
+# 		y = 1
+# 		cost = 10
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_syngman_rhee
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+
+
+# 	#일민주의
+#     focus = {
+# 		id = KOR_focus_ilminism
+# 		icon = GFX_focus_ilminism
+# 		relative_position_id = KOR_focus_syngman_rhee
+# 		x = 3
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_syngman_rhee
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#극우반공체제
+#     focus = {
+# 		id = KOR_focus_far_right_anti_communism
+# 		icon = GFX_focus_ger_bulwark_against_bolshevism
+# 		relative_position_id = KOR_focus_ilminism
+# 		x = -2
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_national_security_law
+# 		}
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_ilminism
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#노조 탄압
+#     focus = {
+# 		id = KOR_focus_crackdown_on_labor_union
+# 		icon = GFX_focus_spr_crush_the_revolution
+# 		relative_position_id = KOR_focus_far_right_anti_communism
+# 		x = -1
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_national_security_law
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+
+# 	#우익 단체들과의 동맹
+#     focus = {
+# 		id = KOR_focus_ally_with_the_right_wing_groups
+# 		icon = GFX_focus_right_wing_groups
+# 		relative_position_id = KOR_focus_ilminism
+# 		x = 0
+# 		y = 1
+# 		cost = 10
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_ilminism
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#학도호국단
+#     focus = {
+# 		id = KOR_focus_npsc
+# 		icon = GFX_focus_npsc
+# 		relative_position_id = KOR_focus_ilminism
+# 		x = 2
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_ilminism
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#반민특위 해산
+#     focus = {
+# 		id = KOR_focus_disband_sicana
+# 		icon = GFX_focus_arrest_sicana
+# 		relative_position_id = KOR_focus_ally_with_the_right_wing_groups
+# 		x = -1
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_far_right_anti_communism
+# 		}
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_ally_with_the_right_wing_groups
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+
+# 	#반대파 제거
+#     focus = {
+# 		id = KOR_focus_eliminate_the_opposition
+# 		icon = GFX_goal_generic_political_pressure
+# 		relative_position_id = KOR_focus_ally_with_the_right_wing_groups
+# 		x = 1
+# 		y = 1
+# 		cost = 10
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_far_right_anti_communism
+# 		}
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_ally_with_the_right_wing_groups
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#정부의 권한 강화
+#     focus = {
+# 		id = KOR_focus_strengthen_power_of_the_government
+# 		icon = GFX_focus_generic_strike_at_democracy2
+# 		relative_position_id = KOR_focus_disband_sicana
+# 		x = 1
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_disband_sicana
+# 		}
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_eliminate_the_opposition
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+	
+# 	#대통령 종신 집권
+#     focus = {
+# 		id = KOR_focus_president_for_life
+# 		icon = GFX_focus_usa_voter_registration_act
+# 		relative_position_id = KOR_focus_strengthen_power_of_the_government
+# 		x = 0
+# 		y = 1
+# 		cost = 5
+		
+# 		prerequisite = {
+# 			focus = KOR_focus_strengthen_power_of_the_government
+# 		}
+
+# 		completion_reward = {
+
+# 		}
+# 	}
+# }

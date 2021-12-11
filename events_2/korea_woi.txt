@@ -1,0 +1,154 @@
+﻿### 한국 이벤트 ###
+add_namespace = kor_woi
+add_namespace = kor_woi_party
+
+#광복군 군정위원회 수립
+country_event = {
+    id = kor_woi.1
+    title = kor_woi.1.t
+    desc = kor_woi.1.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.1.a
+        set_country_flag = KOR_flag_kia_mpc
+        set_party_name = { 
+            ideology = neutrality 
+            long_name = KOR_neutrality_party_kia_mpc_long 
+            name = KOR_neutrality_party_kia_mpc 
+        }
+        create_country_leader = {
+            name = "홍사익"
+            desc = "POLITICS_Hong_Saik_DESC"
+            picture = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
+            expire = "1965.1.1"
+            ideology = military_dic
+            traits = {
+                kia_vcommander
+                military_governor
+            }
+        }
+        add_stability = 0.1
+        hidden_effect = {
+            add_ideas = HoG_Lyuh_Woonhyung_kia_mpc
+            set_popularities = {
+                # democratic = 7
+                # neutrality = 86
+                # fascism = 5
+                # communism = 2
+            }
+        }
+    }
+}
+
+#한성국민위원회 수립
+country_event = {
+    id = kor_woi.2
+    title = kor_woi.2.t
+    desc = kor_woi.2.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.2.a
+        clr_country_flag = KOR_flag_kia_mpc
+        set_country_flag = KOR_flag_hnc
+        set_party_name = { 
+            ideology = neutrality 
+            long_name = KOR_neutrality_party_hnc_long
+            name = KOR_neutrality_party_hnc 
+        }
+        create_country_leader = {
+            name = "여운형"
+            desc = "POLITICS_LYUH_WOONHYUNG_DESC"
+            picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+            expire = "1965.1.1"
+            ideology = oligarchism
+            traits = {
+                
+            }
+        }
+        set_party_name = { 
+            ideology = social_democracy 
+            long_name = KOR_social_democracy_party_fa_long
+            name = KOR_social_democracy_party_fa 
+        }
+        COALITION_add_socdem = yes
+        add_ideas = HoG_Ahn_Jaehong_hnc
+        set_party_name = { 
+            ideology = national_liberalism
+            long_name = KOR_national_liberal_party_nc_long
+            name = KOR_national_liberal_party_nc 
+        }
+        COALITION_add_natlib = yes
+        hidden_effect = {
+            set_popularities = {
+                communism = 2
+                social_democracy = 7
+                national_liberalism = 5
+                liberal_conservatism = 6
+                neutrality = 80
+            }
+        }
+    }
+}
+
+#국민위원회에 가담한 중도우파 진영
+country_event = {
+    id = kor_woi.3
+    title = kor_woi.3.t
+    desc = kor_woi.3.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.3.a
+        COALITION_add_libcon = yes
+        set_country_flag = KOR_flag_hnc_cenright
+        custom_effect_tooltip = available_political_advisor
+        show_ideas_tooltip = KOR_advisor_song_jinwoo
+        set_party_name = { 
+            ideology = liberal_conservatism 
+            long_name = KOR_liberal_conservatism_party_nc_long
+            name = KOR_liberal_conservatism_party_nc 
+        }
+    }
+}
+
+#박헌영의 협력 제안
+country_event = {
+    id = kor_woi.4
+    title = kor_woi.4.t
+    desc = kor_woi.4.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.4.a
+        add_popularity = {
+            ideology = communism
+            popularity = 0.05
+        }
+        set_party_name = { 
+            ideology = communism 
+            long_name = KOR_communism_party_kcg_long
+            name = KOR_communism_party_kcg 
+        }
+        set_country_flag = KOR_flag_hnc_com
+        custom_effect_tooltip = available_political_advisor
+        show_ideas_tooltip = KOR_advisor_pak_hon_yong
+    }
+}

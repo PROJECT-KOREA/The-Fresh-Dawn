@@ -1,0 +1,74 @@
+#국가 정보
+GET_COUNTRY_INFO = {
+	name = GET_COUNTRY_INFO
+
+	## 일본령 조선
+	text = {
+		trigger = { tag = GGK }
+		localization_key = COUNTRY_INFO_GGK
+	}
+
+	## Default
+	text = {
+		localization_key = COUNTRY_INFO_NO_CONTENT
+	}
+}
+
+#포스터
+GET_POSTER1 = {
+	name = GET_POSTER1
+
+	#일본령 조선
+	text = {
+		trigger = { tag = GGK }
+		localization_key = "GFX_poster1_GGK"
+	}
+
+	#대한민국 임시정부
+	text = {
+		trigger = { tag = KOR }
+		localization_key = "GFX_poster1_KOR"
+	}
+
+	## Default
+	text = {
+		localization_key = "GFX_poster1_GEN"
+	}
+}
+
+GET_POSTER2 = {
+	name = GET_POSTER2
+
+	#일본령 조선
+	text = {
+		trigger = { tag = GGK }
+		localization_key = "GFX_poster2_GGK"
+	}
+
+	#대한민국 임시정부
+	text = {
+		trigger = { tag = KOR }
+		localization_key = "GFX_poster2_KOR"
+	}
+
+	## Default
+	text = {
+		localization_key = "GFX_poster2_GEN"
+	}
+}
+
+#클로즈 버튼
+GET_CLOSEBUTTON_TEXT = {
+	name = GET_CLOSEBUTTON_TEXT
+
+	## 일본령 조선
+	text = {
+		trigger = { original_tag = GGK }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GGK
+	}
+
+	## Default
+	text = {
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GEN
+	}
+}

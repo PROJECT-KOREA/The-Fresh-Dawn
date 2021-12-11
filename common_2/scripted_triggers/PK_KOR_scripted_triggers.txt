@@ -1,0 +1,69 @@
+#	Example:
+#
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+#
+
+KOR_woi_in_progress = {
+	has_global_flag = kor_woi
+	NOT = { has_global_flag = kor_woi_over }
+}
+
+
+KOR_kim_koo_ic = {
+	has_country_flag = KOR_flag_ic
+	has_country_leader = {
+		name = "Kim Koo"
+		ruling_only = yes
+	}
+}
+
+KOR_smr_ic = {
+	has_country_flag = KOR_flag_ic
+	has_country_leader = {
+		name = "Syngman Rhee"
+		ruling_only = yes
+	}
+}
+
+KOR_lwh_ic = {
+	has_country_flag = KOR_flag_ic
+	has_country_leader = {
+		name = "Lyuh Woonhyung"
+		ruling_only = yes
+	}
+}
+
+
+KOR_kim_koo_gov = {
+	has_country_flag = KOR_flag_ge
+	has_country_leader = {
+		name = "Kim Koo"
+		ruling_only = yes
+	}
+}
+
+KOR_smr_gov = {
+	has_country_flag = KOR_flag_ge
+	has_country_leader = {
+		name = "Syngman Rhee"
+		ruling_only = yes
+	}
+}
+
+KOR_lwh_gov = {
+	has_country_flag = KOR_flag_ge
+	has_country_leader = {
+		name = "Lyuh Woonhyung"
+		ruling_only = yes
+	}
+}

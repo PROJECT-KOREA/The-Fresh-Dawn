@@ -11,18 +11,17 @@ state = {
 		add_core_of = GGK
 		
 		buildings = {
-			industrial_complex = 2
-			infrastructure = 3
+			#기반시설
+			infrastructure = 1
+
+			#민간공장
+			industrial_complex = 1
 		}
-		victory_points = {
-			1003 10 #해주(카이슈)
-		}
+
+		# victory_points = { 1003 10 } #해주(카이슈)
 	}
 
-	resources = {
-		tungsten = 10
-		steel = 10
-	}
+	resources = { steel = 5 }
 
 	provinces = {
 		1003 4107 7070 7155 10065 11915

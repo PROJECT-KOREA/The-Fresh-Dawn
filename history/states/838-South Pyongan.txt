@@ -1,9 +1,9 @@
 state = {
 	id = 838
 	name = "STATE_838" #평안남도
-	manpower = 1435000
+	manpower = 1480000
 
-	state_category = large_town
+	state_category = city
 	
 	history = {
 		owner = GGK
@@ -11,24 +11,23 @@ state = {
 		add_core_of = GGK
 		
 		buildings = {
-			industrial_complex = 2
-			air_base = 2
-			arms_factory = 2
-			infrastructure = 4
-			4052 = {
-				naval_base = 2
-			}
-		}
-		victory_points = {
-			13241 40 #평양(헤이죠)
-		}
-		victory_points = {
-			4052 10 #남포(진난포)
-		}
-	}
+			#기반시설
+			infrastructure = 2
 
-	resources = {
-		
+			#민간공장
+			industrial_complex = 1
+
+			#군수공장
+			arms_factory = 1
+
+			#공군기지
+			air_base = 2
+
+			#해군기지
+			4052 = { naval_base = 1 } #진남포
+		}
+		victory_points = { 13241 10 } #평양(헤이죠)
+		victory_points = { 4052 2 } #남포(진난포)
 	}
 
 	provinces = {

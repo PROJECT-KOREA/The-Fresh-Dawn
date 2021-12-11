@@ -1,0 +1,24 @@
+state = {
+	id = 618
+	name = "STATE_618"
+
+	history = {
+		owner = SIK
+		add_claim_by = CHI
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower = 670800
+	state_category = rural
+	provinces = {
+		1708 1783 1844 7850 7866 10674 10691 12601
+	}
+	
+	buildings_max_level_factor = 1.000
+	
+}

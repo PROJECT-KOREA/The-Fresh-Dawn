@@ -1,0 +1,36 @@
+
+state = {
+	id = 850
+	name="STATE_831"
+	history={
+		owner = PRC
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = NXM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			517 = {
+				bunker = 4
+
+			}
+			1647 = {
+				bunker = 4
+
+			}
+			5025 = {
+				bunker = 4
+
+			}
+		}
+		1938.10.25 = {
+			owner = PRC
+		}
+	}
+	provinces={
+		517 1647 4939 5025 
+	}
+	manpower=2203040
+	buildings_max_level_factor=1.000
+	state_category=town
+}

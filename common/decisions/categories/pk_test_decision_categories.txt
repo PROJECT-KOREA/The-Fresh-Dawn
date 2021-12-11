@@ -1,9 +1,0 @@
-test = {
-	icon = decision_category_generic
-
-	visible = {
-		is_debug = yes
-	}
-
-	priority = 100
-}

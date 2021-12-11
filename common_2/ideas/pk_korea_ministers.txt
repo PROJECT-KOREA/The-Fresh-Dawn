@@ -1,0 +1,1189 @@
+ideas = {
+
+	#정부수반
+	head_of_gov = {
+
+		#여운형 (군정위원회, 여운형 내각)
+		HoG_Lyuh_Woonhyung = {
+			name = lyuh_woonhyung
+			picture = minister_Lyuh_Woonhyung
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					has_country_flag = KOR_flag_kia_mpc
+					KOR_lwh_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				gentleman_politician
+				hog
+			}
+		}
+
+		#안재홍 (한성국민위원회)
+		HoG_Ahn_Jaehong = {
+			name = ahn_jaehong
+			picture = minister_Ahn_Jaehong
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_hnc
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				media_magnate
+				hog
+			}
+		}
+
+		#홍진 (임시정부 국무위원회)
+		HoG_Hong_Jin = {
+			name = hong_jin
+			picture = minister_Hong_Jin
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# veteran_politician
+				hog
+			}
+		}
+
+		#이승만 (임시정부 국무위원회)
+		HoG_Syngman_Rhee = {
+			name = syngman_rhee
+			picture = minister_Syngman_Rhee
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				man_of_self_assertion
+				hog
+			}
+		}
+
+		#조완구 (임시정부 국무위원회, 김구 과도내각, 김구 행정부)
+		HoG_Cho_Wangu = {
+			name = cho_wangu
+			picture = minister_Cho_Wangu
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					has_country_flag = KOR_flag_kpg
+					KOR_kim_koo_ic = yes
+					KOR_kim_koo_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# man_of_self_assertion
+				hog
+			}
+		}
+
+		#이시영 (김구 과도내각)
+		HoG_Yi_Siyeong = {
+			name = yi_siyeong
+			picture = minister_Yi_Siyeong
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_ic = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# man_of_self_assertion
+				kpg
+				hog
+			}
+		}
+
+		#함태영 (이승만 과도내각)
+		HoG_Ham_Taeyoung = {
+			name = ham_taeyoung
+			picture = minister_Ham_Taeyoung
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_smr_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# man_of_self_assertion
+				kpg
+				hog
+			}
+		}
+
+		#허헌 (여운형 과도내각)
+		HoG_Ho_Hon = {
+			name = ho_hon
+			picture = minister_Ho_Hon
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_lwh_ic = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# man_of_self_assertion
+				kpg
+				hog
+			}
+		}
+		
+		#김규식 (여운형 과도내각)
+		HoG_Kim_Kyusik = {
+			name = kim_kyusik
+			picture = minister_Kim_Kyusik
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_lwh_ic = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				veteran_politician
+				kpg
+				hog
+			}
+		}
+		
+		#신익희 (김구 행정부)
+		HoG_Sin_Ikhui = {
+			name = sin_ikhui
+			picture = minister_sin_ikhui
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# veteran_politician
+				kpg
+				hog
+			}
+		}
+		
+		#엄항섭 (김구 행정부)
+		HoG_Um_Hangseop = {
+			name = um_hangseop
+			picture = minister_um_hangseop
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# veteran_politician
+				kpg
+				hog
+			}
+		}
+		
+		#김성수 (이승만 행정부)
+		HoG_Kim_Seongsu = {
+			name = kim_seongsu
+			picture = minister_Kim_Seongsu
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_smr_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# veteran_politician
+				kpg
+				hog
+			}
+		}
+		
+		#장택상 (이승만 행정부)
+		HoG_Chang_Taeksang = {
+			name = chang_taeksang
+			picture = minister_Chang_Taeksang
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_smr_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# veteran_politician
+				kpg
+				hog
+			}
+		}
+	}
+
+	#내무장관
+	security_minister = {
+		
+		#송진우 (한성국민위원회, 임시정무 국무위원회, 이승만 행정부)
+		SM_Song_Jinwoo = {
+			name = song_jinwoo
+			picture = minister_Song_Jinwoo
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					has_country_flag = KOR_flag_hnc
+					has_country_flag = KOR_flag_kpg
+					KOR_smr_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#조완구 (임시정부 국무위원회)
+		SM_Cho_wangu = {
+			name = cho_wangu
+			picture = minister_Cho_Wangu
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#신익희 (김구 과도내각, 김구 행정부)
+		SM_Sin_Ikhui = {
+			name = sin_ikhui
+			picture = minister_sin_ikhui
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					KOR_kim_koo_ic = yes
+					KOR_kim_koo_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#장택상 (이승만 과도내각)
+		SM_Chang_Taeksang = {
+			name = chang_taeksang
+			picture = minister_Chang_Taeksang
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_smr_ic = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#안재홍 (여운형 과도내각, 김구 행정부)
+		SM_Ahn_Jaehong = {
+			name = ahn_jaehong
+			picture = minister_Ahn_Jaehong
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_lwh_ic = yes
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#송병조 (김구 행정부)
+		SM_Song_Byeongjo = {
+			name = song_byeongjo
+			picture = minister_Song_Byeongjo
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#조동호 (김구 행정부)
+		SM_Cho_Dongho = {
+			name = cho_dongho
+			picture = minister_Cho_Dongho
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#차이석 (김구 행정부)
+		SM_Cha_Yiseok = {
+			name = cha_yiseok
+			picture = minister_Cha_Yiseok
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#홍진 (김구 행정부)
+		SM_Hong_Jin = {
+			name = hong_jin
+			picture = minister_Hong_Jin
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				capable_administrator
+				secmin
+			}
+		}
+		
+		#함태영 (이승만 행정부)
+		SM_Ham_Taeyoung = {
+			name = ham_taeyoung
+			picture = minister_Ham_Taeyoung
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_smr_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				secmin
+			}
+		}
+		
+		#권태석 (여운형 내각)
+		SM_Kwon_Taeseok = {
+			name = kwon_taeseok
+			picture = minister_Kwon_Taeseok
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_lwh_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				kpg
+				secmin
+			}
+		}
+		
+		#허헌 (여운형 내각)
+		SM_Ho_Hon = {
+			name = ho_hon
+			picture = minister_Ho_Hon
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_lwh_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# capable_administrator
+				kpg
+				secmin
+			}
+		}
+	}
+
+	#재무장관
+	economy_minister = {
+
+		#이규갑 (한성정무위원회, 여운형 내각)
+		EM_Lee_Gyugap = {
+			name = lee_gyugap
+			picture = minister_Lee_Gyugap
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					has_country_flag = KOR_flag_hnc
+					KOR_lwh_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				financial_reformer
+				ecomin
+			}
+		}
+
+		#송병조 (임시정부 국무위원회, 김구 행정부)
+		EM_Song_Byeongjo = {
+			name = song_byeongjo
+			picture = minister_Song_Byeongjo
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					has_country_flag = KOR_flag_kpg
+					KOR_kim_koo_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				financial_reformer
+				ecomin
+			}
+		}
+
+		#조만식 (임시정부 국무위원회, 여운형 과도내각)
+		EM_Cho_Mansik = {
+			name = cho_mansik
+			picture = minister_Cho_Mansik
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					has_country_flag = KOR_flag_kpg
+					KOR_lwh_ic = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				financial_reformer
+				ecomin
+			}
+		}
+		
+		#조완구 (김구 과도내각, 김구 행정부)
+		EM_Cho_Wangu = {
+			name = cho_wangu
+			picture = minister_Cho_Wangu
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_ic = yes
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#김도연 (이승만 과도내각, 이승만 행정부)
+		EM_Kim_Doyeon = {
+			name = cho_soang
+			picture = minister_Cho_Soang
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					KOR_smr_ic = yes
+					KOR_smr_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#송진우 (김구 행정부, 이승만 행정부)
+		EM_Song_Jinwoo = {
+			name = song_jinwoo
+			picture = minister_Song_Jinwoo
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				OR = {
+					KOR_kim_koo_gov = yes
+					KOR_smr_gov = yes
+				}
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#안재홍 (김구 행정부)
+		EM_Ahn_Jaehong = {
+			name = ahn_jaehong
+			picture = minister_Ahn_Jaehong
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_kim_koo_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#최순주 (이승만 행정부)
+		EM_Choi_Soonju = {
+			name = choi_soonju
+			picture = minister_Choi_Soonju
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_smr_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+		
+		#백남운 (여운형 내각)
+		EM_Paek_Nam_un = {
+			name = paek_nam_un
+			picture = minister_Paek_Nam_un
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				KOR_lwh_gov = yes
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				# samgyunjuui_theorist
+				ecomin
+			}
+		}
+	}
+
+	#외무장관
+	foreign_minister = {
+		
+		#조소앙
+		FM_Cho_Soang = {
+			name = cho_soang
+			picture = minister_Cho_Soang
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				adequate_diplomat
+				kpg
+				frnmin
+			}
+		}
+
+		#김규식
+		FM_Kim_Kyusik = {
+			name = kim_kyusik
+			picture = minister_Kim_Kyusik
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				competent_ambassador
+				kpg
+				frnmin
+			}
+		}
+	}
+
+	#군무장관
+	military_minister = {
+
+		#유동열
+		MM_Ryu_Dongyol = {
+			name = ryu_dongyol
+			picture = minister_Ryu_Dongyol
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				kpg
+				milmin
+			}
+		}
+
+		#지청천
+		MM_Ji_Cheongcheon = {
+			name = ji_cheongcheon
+			picture = minister_Ji_Cheongcheon
+
+			allowed = { original_tag = KOR }
+
+			visible = {
+				has_country_flag = KOR_flag_kpg
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				kpg
+				milmin
+			}
+		}
+	}
+
+	#정보장관
+	intel_minister = {
+
+	}
+
+	#육군 참모총장
+	army_chief = {
+
+		#지청천
+		KOR_CoA_Ji_Cheongcheon = {
+
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+			
+			traits = { army_chief_offensive_2 }
+		}
+
+		#이범석
+		KOR_CoA_Lee_Beomseok = {
+
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+			
+			traits = { army_chief_maneuver_3 }
+		}
+
+		#홍사익
+		KOR_CoA_Hong_Saik = {
+
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+			
+			traits = { army_chief_reform_2 }
+		}
+	}
+
+	#해군 참모총장
+	navy_chief = {
+		
+	}
+
+	#공군 참모총장
+	air_chief = {
+
+		#최용덕
+		KOR_CAF_Choi_Yongdeok = {
+			picture = no_minister
+
+			allowed = { original_tag = KOR }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			ai_will_do = { factor = 1 }
+			
+			traits = { air_chief_all_weather_3 }
+		}
+	}
+
+	#군 고위 지휘관
+	high_command = {
+		
+		#김홍일
+		KOR_command_kim_hongil = {
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_infantry_3 }
+		}
+		
+		#김경천
+		KOR_command_kim_kyungcheon = {
+			picture = no_minister
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_logistics_3 }
+		}
+		
+		#송호성
+		KOR_command_song_hosung = {
+			picture = no_minister
+			ledger = army
+
+			allowed = {
+				tag = KOR
+			}
+			
+			traits = { army_regrouping_2 }
+		}
+	}
+
+	#이론가
+	theorist = {
+		
+	}
+}

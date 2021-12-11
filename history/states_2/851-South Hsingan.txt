@@ -1,0 +1,26 @@
+state = {
+	id = 851
+	name = "STATE_851"
+	manpower = 3243373
+
+	state_category = rural
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		add_core_of = CHI
+		
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	
+	resources = {
+		steel = 10
+		chromium = 8
+	}
+
+	provinces = {
+		1502 1558 1638 3877 7812 11836 12337 
+	}
+}

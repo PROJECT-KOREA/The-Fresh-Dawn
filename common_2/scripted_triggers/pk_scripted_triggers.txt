@@ -1,0 +1,19 @@
+#	Example:
+#
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+#
+
+JAP_autonomy_check = {
+	has_dlc = "Waking the Tiger"
+	OVERLORD = { original_tag = JAP }
+}

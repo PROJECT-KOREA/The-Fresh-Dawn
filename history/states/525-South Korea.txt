@@ -11,27 +11,30 @@ state = {
 		add_core_of = GGK
 
 		buildings = {
+			#기반시설
+			infrastructure = 3
+
+			#민간공장
 			industrial_complex = 2
-			air_base = 3
+
+			#군수공장
 			arms_factory = 2
-			dockyard = 2
-			infrastructure = 7
-			7221 = {
+
+			#조선소
+			dockyard = 1
+
+			#공군기지
+			air_base = 3
+
+			#해군기지
+			7221 = { #인천
 				naval_base = 3
 			}
 		}
 
-		victory_points = {
-			7125 50 #서울(케이죠)
-		}
-
-		victory_points = {
-			7221 15 #인천(진센)
-		}
-
-		victory_points = {
-			12040 10 #개성(카이죠)
-		}
+		victory_points = { 7125 15 } #서울(케이죠)
+		victory_points = { 7221  5 } #인천(진센)
+		victory_points = { 12040 5 } #개성(카이죠)
 	}
 
 	provinces = {

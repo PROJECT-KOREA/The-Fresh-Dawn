@@ -1,9 +1,9 @@
 state = {
 	id = 840
 	name = "STATE_840" #충청북도
-	manpower = 907100
+	manpower = 1600000
 
-	state_category = large_town
+	state_category = town
 	
 	history = {
 		owner = GGK
@@ -11,16 +11,11 @@ state = {
 		add_core_of = GGK
 		
 		buildings = {
-			industrial_complex = 1
-			infrastructure = 4
+			#기반시설
+			infrastructure = 1
 		}
-		victory_points = {
-			13246 10 #청주(세이슈)
-		}
-	}
 
-	resources = {
-		
+		victory_points = { 13246 10 } #청주(세이슈)
 	}
 
 	provinces = {

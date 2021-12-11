@@ -1,0 +1,423 @@
+GGK_provisional_government_decision = {
+	
+    #한국 독립운동
+    GGK_korean_independence_movement = {
+
+		icon = generic_civil_support
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+        	NOT = { has_country_flag = GGK_flag_ki_yes }
+		}
+
+		available = {
+
+		}
+		
+		fire_only_once = no
+
+		complete_effect = {
+			country_event = { id = ggk_korea.1 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #국내활동 재개
+    GGK_resume_internal_activity = {
+
+		icon = infiltrate_state
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+        	# has_country_flag = GGK_flag_ki_yes
+		}
+
+		available = {
+
+		}
+
+		days_remove = 80
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_resume_internal_activity_flag
+			country_event = { id = ggk_korea.3 }
+			# swap_ideas = {
+			# 	remove_idea = GGK_idea_korean_independence_movement_1
+			# 	add_idea = GGK_idea_korean_independence_movement_2
+			# }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #통합여당 결성
+    GGK_united_ruling_party = {
+
+		icon = generic_form_nation
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+        	# has_country_flag = GGK_flag_ki_yes
+		}
+
+		available = {
+			
+		}
+
+		days_remove = 60
+
+		custom_cost_trigger = {
+			political_power_growth > 0.25
+		}
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_united_ruling_party_flag
+			country_event = { id = ggk_korea.4 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #일제 밀정 색출
+    GGK_track_down_japanese_spies = {
+
+		icon = generic_citizens
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_decision = GGK_resume_internal_activity
+			# 	has_country_flag = GGK_resume_internal_activity_flag
+			# }
+			# OR = {
+			# 	has_decision = GGK_united_ruling_party
+			# 	has_country_flag = GGK_united_ruling_party_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_resume_internal_activity_flag
+			has_country_flag = GGK_united_ruling_party_flag
+		}
+
+		days_remove = 70
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_track_down_japanese_spies_flag
+			country_event = { id = ggk_korea.5 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #정부 체제 개편
+    GGK_reform_government_system = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_decision = GGK_track_down_japanese_spies
+			# 	has_country_flag = GGK_track_down_japanese_spies_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_track_down_japanese_spies_flag
+		}
+
+		days_remove = 50
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_strengthen_armed_struggle_flag
+			country_event = { id = ggk_korea.6 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #무장투쟁 노선 강화
+    GGK_strengthen_armed_struggle = {
+
+		icon = generic_industry
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_decision = GGK_track_down_japanese_spies
+			# 	has_country_flag = GGK_track_down_japanese_spies_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_track_down_japanese_spies_flag
+		}
+
+		days_remove = 50
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_strengthen_armed_struggle_flag
+			country_event = { id = ggk_korea.7 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #한국광복군 창설
+    GGK_korean_independence_army = {
+
+		icon = generic_prepare_civil_war
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_decision = GGK_strengthen_armed_struggle
+			# 	has_country_flag = GGK_strengthen_armed_struggle_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_strengthen_armed_struggle_flag
+			CHI = { has_defensive_war_with = JAP }
+		}
+
+		days_remove = 90
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_korean_independence_army_flag
+			country_event = { id = ggk_korea.8 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #미국의 지원 요청
+    GGK_request_american_support = {
+
+		icon = generic_agreement
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_decision = GGK_korean_independence_army
+			# 	has_country_flag = GGK_korean_independence_army_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_korean_independence_army_flag
+		}
+
+		days_remove = 70
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			USA = {
+				country_event = {
+					id = ggk_korea.9
+					days = 0
+				}
+			}
+			custom_effect_tooltip = GGK_request_american_support_tt
+		}
+	}
+	
+    #민족연합전선에 대한 논의
+    GGK_national_united_front = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_country_flag = GGK_korean_independence_army_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_korean_independence_army_flag
+		}
+
+		# days_remove = 150
+
+		# custom_cost_trigger = { political_power_growth > 0.25 }
+		# custom_cost_text = pp_per_day_025
+
+		# modifier = {
+		# 	political_power_gain = -0.25
+		# }
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			country_event = { id = ggk_korea.12 }
+			# country_event = { id = ggk_internal.1 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #국내정진군 편성
+    GGK_form_hra = {
+
+		icon = generic_nationalism
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_decision = GGK_korean_independence_army
+			# 	has_country_flag = GGK_korean_independence_army_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_korean_independence_army_flag
+		}
+
+		days_remove = 150
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_form_hra_flag
+			# country_event = { id = ggk_internal.1 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #국내진공작전 계획
+    GGK_prepare_operation_eagle = {
+
+		icon = generic_operation
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_decision = GGK_form_hra
+			# 	has_country_flag = GGK_form_hra_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_form_hra_flag
+		}
+
+		days_remove = 100
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_025
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_prepare_operation_eagle_flag
+			# country_event = { id = ggk_internal.1 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #국내진공작전 개시
+    GGK_operation_eagle = {
+
+		icon = generic_ignite_civil_war
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			# OR = {
+			# 	has_decision = GGK_prepare_operation_eagle
+			# 	has_country_flag = GGK_prepare_operation_eagle_flag
+			# }
+		}
+
+		available = {
+			has_country_flag = GGK_prepare_operation_eagle_flag
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			country_event = {
+				id = ggk_korea.11
+				days = 0
+			}
+			custom_effect_tooltip = GGK_operation_eagle_tt
+		}
+	}
+}

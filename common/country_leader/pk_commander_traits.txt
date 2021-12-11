@@ -1,7 +1,0 @@
-leader_traits = {
-
-	#사회주의 동조자
-	KOR_socialism_sympathizer = {
-		
-	}
-}

@@ -1,0 +1,250 @@
+#ROOT - 점령국 #FROM - 피점령국
+#FROM.FROM - 주 id
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 525 } #점령 주 - 경기도
+				}
+                FROM.FROM = {
+					set_state_name = "경기도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 7125
+                    name = "한성"
+                }
+                set_province_name = {
+                    id = 12040
+                    name = "개성"
+                }
+                set_province_name = {
+                    id = 7221
+                    name = "인천"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 527 } #점령 주 - 강원도
+				}
+                FROM.FROM = {
+					set_state_name = "강원도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 13245
+                    name = "춘천"
+                }
+                set_province_name = {
+                    id = 9936
+                    name = "원주"
+                }
+                set_province_name = {
+                    id = 7021
+                    name = "강릉"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 863 } #점령 주 - 함경북도
+				}
+                FROM.FROM = {
+					set_state_name = "함경북도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 6944
+                    name = "나진"
+                }
+                set_province_name = {
+                    id = 9936
+                    name = "청진"
+                }
+                set_province_name = {
+                    id = 6922
+                    name = "성진"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 864 } #점령 주 - 함경남도
+				}
+                FROM.FROM = {
+					set_state_name = "함경남도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 6928
+                    name = "함흥"
+                }
+                set_province_name = {
+                    id = 876
+                    name = "원산"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 866 } #점령 주 - 평안남도
+				}
+                FROM.FROM = {
+					set_state_name = "평안남도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 13241
+                    name = "평양"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 867 } #점령 주 - 황해도
+				}
+                FROM.FROM = {
+					set_state_name = "황해도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 1003
+                    name = "해주"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 868 } #점령 주 - 충청북도
+				}
+                FROM.FROM = {
+					set_state_name = "충청북도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 13246
+                    name = "청주"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 869 } #점령 주 - 충청남도
+				}
+                FROM.FROM = {
+					set_state_name = "충청남도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 13249
+                    name = "대전"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 870 } #점령 주 - 경상북도
+				}
+                FROM.FROM = {
+					set_state_name = "경상북도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 4086
+                    name = "대구"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 871 } #점령 주 - 경상남도
+				}
+                FROM.FROM = {
+					set_state_name = "경상남도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 4056
+                    name = "부산"
+                }
+                set_province_name = {
+                    id = 13251
+                    name = "마산"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 872 } #점령 주 - 전라북도
+				}
+                FROM.FROM = {
+					set_state_name = "전라북도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 11977
+                    name = "전주"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 873 } #점령 주 - 전라남도
+				}
+                FROM.FROM = {
+					set_state_name = "전라남도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 10110
+                    name = "광주"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 874 } #점령 주 - 제주도
+				}
+                FROM.FROM = {
+					set_state_name = "제주도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 1177
+                    name = "제주"
+                }
+			}
+			if = {
+				limit = {
+					tag = KOR #점령국 - 한국
+					FROM = { tag = GGK } #피점령국 - 조선총독부
+					FROM.FROM = { state = 875 } #점령 주 - 울릉도
+				}
+                FROM.FROM = {
+					set_state_name = "울릉도"
+					KOR = { set_state_owner = PREV }
+				}
+                set_province_name = {
+                    id = 13253
+                    name = "울릉"
+                }
+			}
+        }
+    }
+}
