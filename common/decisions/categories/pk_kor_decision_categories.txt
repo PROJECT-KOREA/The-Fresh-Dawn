@@ -81,7 +81,7 @@ KOR_national_reconstruction_committee = {
 
 	allowed = { original_tag = KOR }
 
-	visible = { has_completed_focus = KOR_focus_nrc }
+	visible = { has_completed_focus = KOR_focus_national_reconstruction }
 
 	priority = 8
 }

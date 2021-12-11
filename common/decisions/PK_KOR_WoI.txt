@@ -849,7 +849,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 863 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -912,7 +912,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 864 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -979,7 +979,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 865 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1046,7 +1046,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 866 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1113,7 +1113,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 867 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1180,7 +1180,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 525 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1247,7 +1247,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 527 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1314,7 +1314,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 868 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1381,7 +1381,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 869 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1448,7 +1448,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 870 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1515,7 +1515,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 871 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1582,7 +1582,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 872 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 
@@ -1649,7 +1649,7 @@ KOR_guerrilla_warfare = {
 		}
 
 		highlight_states = { highlight_state_targets = { state = 873 } }
-		highlight_color_while_active = 2
+		highlight_color_while_active = 1
 
 		on_map_mode = map_only
 

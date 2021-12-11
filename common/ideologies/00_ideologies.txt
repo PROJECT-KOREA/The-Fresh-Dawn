@@ -535,6 +535,8 @@ ideologies = {
 			rexism = { #렉시즘
 				can_be_randomly_selected = no
 			}
+			anti_revisionism = {} #임시
+			gen_nazism = {} #임시
 		}
 		
 		dynamic_faction_names = {

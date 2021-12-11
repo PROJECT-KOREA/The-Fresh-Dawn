@@ -183,7 +183,7 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = { focus = KOR_focus_the_torch_of_red_hunt }
-		mutually_exclusive = { focus = KOR_focus_liberal_democracy }
+		mutually_exclusive = { focus = KOR_focus_strengthen_state_council }
 
 		completion_reward = {
 			

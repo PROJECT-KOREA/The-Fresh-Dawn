@@ -1068,7 +1068,7 @@ ideas = {
 				}
 			}
 
-			cancel_if_invalid = no
+			cancel = no
 			removal_cost = -1
 			ai_will_do = { factor = 1 }
 			
@@ -1087,7 +1087,7 @@ ideas = {
 				}
 			}
 
-			cancel_if_invalid = no
+			cancel = no
 			removal_cost = -1
 			ai_will_do = { factor = 1 }
 			
@@ -1106,7 +1106,7 @@ ideas = {
 				}
 			}
 
-			cancel_if_invalid = no
+			cancel = no
 			removal_cost = -1
 			ai_will_do = { factor = 1 }
 			
@@ -1135,7 +1135,7 @@ ideas = {
 				}
 			}
 
-			cancel_if_invalid = no
+			cancel = no
 			removal_cost = -1
 			ai_will_do = { factor = 1 }
 			
