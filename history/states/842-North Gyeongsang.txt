@@ -30,7 +30,7 @@ state = {
 		victory_points = { 13251 2 } #포항
 	}
 
-	resources = { steel = 40 }
+	resources = { steel = 12 }
 
 	provinces = {
 		1081 4086 4103 7121 10115 12089 13251

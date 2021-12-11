@@ -993,60 +993,60 @@ ideas = {
 	}
 
 	#군무장관
-	military_minister = {
+	# military_minister = {
 
-		#유동열
-		MM_Ryu_Dongyol = {
-			name = ryu_dongyol
-			picture = minister_Ryu_Dongyol
+	# 	#유동열
+	# 	MM_Ryu_Dongyol = {
+	# 		name = ryu_dongyol
+	# 		picture = minister_Ryu_Dongyol
 
-			allowed = { original_tag = KOR }
+	# 		allowed = { original_tag = KOR }
 
-			visible = {
-				has_country_flag = KOR_flag_kpg
-			}
+	# 		visible = {
+	# 			has_country_flag = KOR_flag_kpg
+	# 		}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+	# 		available = {
+	# 			custom_trigger_tooltip = {
+    # 				tooltip = minister_tooltip
+	# 				always = no
+	# 			}
+	# 		}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				kpg
-				milmin
-			}
-		}
+	# 		cancel_if_invalid = no
+	# 		removal_cost = -1
+	# 		traits = {
+	# 			kpg
+	# 			milmin
+	# 		}
+	# 	}
 
-		#지청천
-		MM_Ji_Cheongcheon = {
-			name = ji_cheongcheon
-			picture = minister_Ji_Cheongcheon
+	# 	#지청천
+	# 	MM_Ji_Cheongcheon = {
+	# 		name = ji_cheongcheon
+	# 		picture = minister_Ji_Cheongcheon
 
-			allowed = { original_tag = KOR }
+	# 		allowed = { original_tag = KOR }
 
-			visible = {
-				has_country_flag = KOR_flag_kpg
-			}
+	# 		visible = {
+	# 			has_country_flag = KOR_flag_kpg
+	# 		}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+	# 		available = {
+	# 			custom_trigger_tooltip = {
+    # 				tooltip = minister_tooltip
+	# 				always = no
+	# 			}
+	# 		}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				kpg
-				milmin
-			}
-		}
-	}
+	# 		cancel_if_invalid = no
+	# 		removal_cost = -1
+	# 		traits = {
+	# 			kpg
+	# 			milmin
+	# 		}
+	# 	}
+	# }
 
 	#정보장관
 	intel_minister = {

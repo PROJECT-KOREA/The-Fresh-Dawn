@@ -10,9 +10,9 @@ set_technology = {
 	infantry_weapons = 1
 
 }
-add_opinion_modifier = {
-	target = PRC modifier = tacit_agreement
-}
+# add_opinion_modifier = {
+# 	target = PRC modifier = tacit_agreement
+# }
 add_opinion_modifier = {
 	target = CHI modifier = hostile_status
 }

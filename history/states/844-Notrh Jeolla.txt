@@ -18,8 +18,8 @@ state = {
 			industrial_complex = 1
 		}
 
-		victory_points = { 7175 10 } #군산(군산)
-		victory_points = { 11977 10 } #전주(젠슈)
+		# victory_points = { 7175 10 } #군산(군산)
+		# victory_points = { 11977 10 } #전주(젠슈)
 	}
 
 	provinces = {

@@ -1,0 +1,16 @@
+focus_tree = {
+	id = GGK_Minami
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = GGK
+		}
+	}
+
+	continuous_focus_position = { x = 20 y = 1500 }
+
+
+}
