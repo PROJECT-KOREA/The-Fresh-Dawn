@@ -9,7 +9,7 @@ ideologies = {
 			maoism = { #마오주의
 				can_be_randomly_selected = no
 			}
-			marxism = {} #임시
+			marxism = {} #마르크스주의 → 레닌주의
 			anarchist_communism = {} #임시
 			anarchism = {} #임시
 		}

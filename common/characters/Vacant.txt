@@ -1,132 +1,132 @@
-#### 작성 요령 ###
-# idea_token  |  인물의 ID 지정 시 사용
-# ledger      |  군 고위 지휘관/이론가의 소속 구분 시 사용 (ex army/navy/air)
-# on_add      |  플레이어가 해당 인물을 임명 시 발생하는 효과
-# on_remove   |  플레이어가 해당 인물을 해임 시 발생하는 효과
-# do_effect   |  인물의 특성이 실제로 효과를 가지는 조건
+# #### 작성 요령 ###
+# # idea_token  |  인물의 ID 지정 시 사용
+# # ledger      |  군 고위 지휘관/이론가의 소속 구분 시 사용 (ex army/navy/air)
+# # on_add      |  플레이어가 해당 인물을 임명 시 발생하는 효과
+# # on_remove   |  플레이어가 해당 인물을 해임 시 발생하는 효과
+# # do_effect   |  인물의 특성이 실제로 효과를 가지는 조건
 
-# 正/副 -지도자 (정/부)
-# 首 - 정부수반
-# 內/財/外/情 - 장관 (내/재/외/정)
-# 將/督 - 지휘관 (육/해)
-# 陸/海/空 - 참모총장 (육/해/공)
-# 參 - 군 고위 지휘관
-# 理 - 이론가
-# 顧 - 정치 조언가
+# # 正/副 -지도자 (정/부)
+# # 首 - 정부수반
+# # 內/財/外/情 - 장관 (내/재/외/정)
+# # 將/督 - 지휘관 (육/해)
+# # 陸/海/空 - 참모총장 (육/해/공)
+# # 參 - 군 고위 지휘관
+# # 理 - 이론가
+# # 顧 - 정치 조언가
 
-characters = {
+# characters = {
 
-    #공석
-    Cabinet_Vacant = {
-        name = "공석"
-        portraits = {
-            army = { small = "gfx/interface/ideas/vacant.dds" }
-        }
+#     #공석
+#     Cabinet_Vacant = {
+#         name = "공석"
+#         portraits = {
+#             army = { small = "gfx/interface/ideas/vacant.dds" }
+#         }
 
-        #정부수반
-        # advisor = {
-        #     slot = head_of_gov
-        #     idea_token = HoG_No_One
+#         #정부수반
+#         advisor = {
+#             slot = head_of_gov
+#             idea_token = HoG_No_One
 
-        #     allowed = { always = yes }
+#             allowed = { always = yes }
 
-        #     available = {
-        #         custom_trigger_tooltip = {
-        #             tooltip = minister_tooltip
-        #             always = no
-        #         }
-        #     }
+#             available = {
+#                 custom_trigger_tooltip = {
+#                     tooltip = minister_tooltip
+#                     always = no
+#                 }
+#             }
 
-        #     traits = {
-        #         # veteran_politician
-        #         hog
-        #     }
+#             traits = {
+#                 # veteran_politician
+#                 hog
+#             }
 
-        #     removal_cost = -1
-        # }
+#             removal_cost = -1
+#         }
 
-        #내무장관
-        advisor = {
-            slot = security_misinter
-            idea_token = SM_No_One
+#         #내무장관
+#         advisor = {
+#             slot = security_misinter
+#             idea_token = SM_No_One
 
-            allowed = {
-				always = yes
-			}
+#             allowed = {
+# 				always = yes
+# 			}
 
-            available = {
-                custom_trigger_tooltip = {
-                    tooltip = minister_tooltip
-                    always = no
-                }
-            }
+#             available = {
+#                 custom_trigger_tooltip = {
+#                     tooltip = minister_tooltip
+#                     always = no
+#                 }
+#             }
 
-            traits = {
-                # veteran_politician
-                secmin
-            }
+#             traits = {
+#                 # veteran_politician
+#                 secmin
+#             }
 
-            removal_cost = -1
-        }
+#             removal_cost = -1
+#         }
 
-        # #재무장관
-        # advisor = {
-        #     slot = economy_minister
-        #     idea_token = EM_No_One
+#         #재무장관
+#         advisor = {
+#             slot = economy_minister
+#             idea_token = EM_No_One
 
-        #     available = {
-        #         custom_trigger_tooltip = {
-        #             tooltip = minister_tooltip
-        #             always = no
-        #         }
-        #     }
+#             available = {
+#                 custom_trigger_tooltip = {
+#                     tooltip = minister_tooltip
+#                     always = no
+#                 }
+#             }
 
-        #     traits = {
-        #         # veteran_politician
-        #         ecomin
-        #     }
+#             traits = {
+#                 # veteran_politician
+#                 ecomin
+#             }
 
-        #     removal_cost = -1
-        # }
+#             removal_cost = -1
+#         }
 
-        # #외무장관
-        # advisor = {
-        #     slot = foreign_minister
-        #     idea_token = FM_No_One
+#         #외무장관
+#         advisor = {
+#             slot = foreign_minister
+#             idea_token = FM_No_One
 
-        #     available = {
-        #         custom_trigger_tooltip = {
-        #             tooltip = minister_tooltip
-        #             always = no
-        #         }
-        #     }
+#             available = {
+#                 custom_trigger_tooltip = {
+#                     tooltip = minister_tooltip
+#                     always = no
+#                 }
+#             }
 
-        #     traits = {
-        #         # veteran_politician
-        #         frnmin
-        #     }
+#             traits = {
+#                 # veteran_politician
+#                 frnmin
+#             }
 
-        #     removal_cost = -1
-        # }
+#             removal_cost = -1
+#         }
 
-        # #정보장관
-        # advisor = {
-        #     slot = intel_minister
-        #     idea_token = IM_No_One
+#         #정보장관
+#         advisor = {
+#             slot = intel_minister
+#             idea_token = IM_No_One
 
-        #     available = {
-        #         custom_trigger_tooltip = {
-        #             tooltip = minister_tooltip
-        #             always = no
-        #         }
-        #     }
+#             available = {
+#                 custom_trigger_tooltip = {
+#                     tooltip = minister_tooltip
+#                     always = no
+#                 }
+#             }
 
-        #     traits = {
-        #         # veteran_politician
-        #         intmin
-        #     }
+#             traits = {
+#                 # veteran_politician
+#                 intmin
+#             }
 
-        #     removal_cost = -1
-        # }
-    }
-}
+#             removal_cost = -1
+#         }
+#     }
+# }
