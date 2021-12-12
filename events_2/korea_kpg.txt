@@ -440,7 +440,7 @@ country_event = {
                 SM_No_One
                 EM_No_One
                 FM_No_One
-                MM_No_One
+                # MM_No_One
             }
             load_focus_tree = KOR_Kim_Koo
         }
@@ -484,7 +484,7 @@ country_event = {
                 SM_No_One
                 EM_No_One
                 FM_No_One
-                MM_No_One
+                # MM_No_One
             }
             load_focus_tree = KOR_Syngman_Rhee
         }
@@ -528,7 +528,7 @@ country_event = {
                 SM_No_One
                 EM_No_One
                 FM_No_One
-                MM_No_One
+                # MM_No_One
             }
             load_focus_tree = KOR_Lyuh_Woonhyung
         }

@@ -14,26 +14,22 @@ on_actions = {
 					limit = { NOT = { has_idea_with_trait = hog } }
 					add_ideas = { HoG_No_One }
 				}
-				if = {
-					limit = { NOT = { has_idea_with_trait = secmin } }
-					add_ideas = { SM_No_One }
-				}
-				if = {
-					limit = { NOT = { has_idea_with_trait = ecomin } }
-					add_ideas = { EM_No_One }
-				}
-				if = {
-					limit = { NOT = { has_idea_with_trait = frnmin } }
-					add_ideas = { FM_No_One }
-				}
-				if = {
-					limit = { NOT = { has_idea_with_trait = milmin } }
-					add_ideas = { MM_No_One }
-				}
-				if = {
-					limit = { NOT = { has_idea_with_trait = intmin } }
-					add_ideas = { IM_No_One }
-				}
+				# if = {
+				# 	limit = { NOT = { has_idea_with_trait = secmin } }
+				# 	add_ideas = { SM_No_One }
+				# }
+				# if = {
+				# 	limit = { NOT = { has_idea_with_trait = ecomin } }
+				# 	add_ideas = { EM_No_One }
+				# }
+				# if = {
+				# 	limit = { NOT = { has_idea_with_trait = frnmin } }
+				# 	add_ideas = { FM_No_One }
+				# }
+				# if = {
+				# 	limit = { NOT = { has_idea_with_trait = intmin } }
+				# 	add_ideas = { IM_No_One }
+				# }
 			}
 		}
 	}

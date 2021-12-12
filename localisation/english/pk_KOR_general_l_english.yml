@@ -397,9 +397,9 @@
  ############
  
  ### 지도자 특성 ###
- kia_commander:0 "한국광복군 총사령관"
- military_governor:0 "군정장관"
- staunch_nationalist:0 "굳건한 민족주의자"
+#  kia_commander:0 "한국광복군 총사령관"
+#  military_governor:0 "군정장관"
+#  staunch_nationalist:0 "굳건한 민족주의자"
 
  ### 스크립티드 트리거 ###
  KOR_woi_in_progress:0 "한국 독립전쟁이 진행 중임"
@@ -438,8 +438,6 @@
  KOR_EQUIPMENT_VERSION_15:1 "A9C6"
  KOR_EQUIPMENT_VERSION_16:1 "A9C7"
 
- KOR_infantry_equipment_0:1 "38식 소총"
- KOR_infantry_equipment_0_short:1 "38식"
  KOR_infantry_equipment_0:1 "38식 소총"
  KOR_infantry_equipment_0_short:1 "38식"
  KOR_infantry_equipment_1:1 "99식 소총"

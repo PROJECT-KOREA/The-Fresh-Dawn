@@ -657,87 +657,87 @@ defined_text = {
 }
 
 
-defined_text = {
-	name = MM_rank
+# defined_text = {
+# 	name = MM_rank
 
-	#군무부장
-	text = {
-		trigger = { has_country_flag = KOR_flag_kpg }
-		localization_key = kpg_milmin
-	}
+# 	#군무부장
+# 	text = {
+# 		trigger = { has_country_flag = KOR_flag_kpg }
+# 		localization_key = kpg_milmin
+# 	}
 
-	#국방부 장관
-	text = {
-		trigger = { has_country_flag = KOR_flag_rok }
-		localization_key = kor_mm
-	}
-}
+# 	#국방부 장관
+# 	text = {
+# 		trigger = { has_country_flag = KOR_flag_rok }
+# 		localization_key = kor_mm
+# 	}
+# }
 
-defined_text = {
-	name = MM_portrait
+# defined_text = {
+# 	name = MM_portrait
 
-	#공석
-	text = {
-		trigger = { has_idea = MM_No_One }
-		localization_key = GFX_leader_unknown
-	}
+# 	#공석
+# 	text = {
+# 		trigger = { has_idea = # MM_No_One }
+# 		localization_key = GFX_leader_unknown
+# 	}
 
-	#유동열
-	text = {
-		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
-		localization_key = GFX_Portrait_Ryu_Dongyol
-	}
+# 	#유동열
+# 	text = {
+# 		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
+# 		localization_key = GFX_Portrait_Ryu_Dongyol
+# 	}
 
-	#지청천
-	text = {
-		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
-		localization_key = GFX_Portrait_Ji_Cheongcheon
-	}
-}
+# 	#지청천
+# 	text = {
+# 		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
+# 		localization_key = GFX_Portrait_Ji_Cheongcheon
+# 	}
+# }
 
-defined_text = {
-	name = MM_name
+# defined_text = {
+# 	name = MM_name
 
-	#공석
-	text = {
-		trigger = { has_idea = MM_No_One }
-		localization_key = vacant
-	}
+# 	#공석
+# 	text = {
+# 		trigger = { has_idea = # MM_No_One }
+# 		localization_key = vacant
+# 	}
 
-	#유동열
-	text = {
-		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
-		localization_key = ryu_dongyol
-	}
+# 	#유동열
+# 	text = {
+# 		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
+# 		localization_key = ryu_dongyol
+# 	}
 
-	#지청천
-	text = {
-		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
-		localization_key = ji_cheongcheon
-	}
-}
+# 	#지청천
+# 	text = {
+# 		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
+# 		localization_key = ji_cheongcheon
+# 	}
+# }
 
-defined_text = {
-	name = MM_desc
+# defined_text = {
+# 	name = MM_desc
 
-	#공석
-	text = {
-		trigger = { has_idea = MM_No_One }
-		localization_key = vacant_desc
-	}
+# 	#공석
+# 	text = {
+# 		trigger = { has_idea = # MM_No_One }
+# 		localization_key = vacant_desc
+# 	}
 
-	#유동열
-	text = {
-		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
-		localization_key = ryu_dongyol_desc
-	}
+# 	#유동열
+# 	text = {
+# 		trigger = { has_idea = MM_Ryu_Dongyol_kpg }
+# 		localization_key = ryu_dongyol_desc
+# 	}
 
-	#지청천
-	text = {
-		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
-		localization_key = ji_cheongcheon_desc
-	}
-}
+# 	#지청천
+# 	text = {
+# 		trigger = { has_idea = MM_Ji_Cheongcheon_kpg }
+# 		localization_key = ji_cheongcheon_desc
+# 	}
+# }
 
 
 defined_text = {

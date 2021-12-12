@@ -640,308 +640,308 @@ ideas = {
 		}
 	}
 
-	#정치 조언가
-	political_advisor = {
+	# #정치 조언가
+	# political_advisor = {
 
-		#송진우
-		KOR_advisor_song_jinwoo = {
+	# 	#송진우
+	# 	KOR_advisor_song_jinwoo = {
 
-			available = {
-        		has_country_flag = KOR_flag_hnc_cenright
-			}
+	# 		available = {
+    #     		has_country_flag = KOR_flag_hnc_cenright
+	# 		}
 			
-			visible = {
-				AND = { 
-					tag = KOR
-					has_country_flag = KOR_flag_hnc
-				}
-			}
+	# 		visible = {
+	# 			AND = { 
+	# 				tag = KOR
+	# 				has_country_flag = KOR_flag_hnc
+	# 			}
+	# 		}
 			
-			traits = { backroom_backstabber }
-		}
+	# 		traits = { backroom_backstabber }
+	# 	}
 
-		#박헌영
-		KOR_advisor_pak_hon_yong = {
+	# 	#박헌영
+	# 	KOR_advisor_pak_hon_yong = {
 
-			available = {
-        		has_country_flag = KOR_flag_hnc_com
-			}
+	# 		available = {
+    #     		has_country_flag = KOR_flag_hnc_com
+	# 		}
 			
-			visible = {
-				AND = { 
-					tag = KOR
-					has_country_flag = KOR_flag_hnc
-				}
-			}
+	# 		visible = {
+	# 			AND = { 
+	# 				tag = KOR
+	# 				has_country_flag = KOR_flag_hnc
+	# 			}
+	# 		}
 			
-			traits = { communist_revolutionary }
-		}
+	# 		traits = { communist_revolutionary }
+	# 	}
 
-		# #김구
-		# KOR_advisor_kim_koo = {
+	# 	# #김구
+	# 	# KOR_advisor_kim_koo = {
 
-		# 	allowed = {
-		# 		tag = KOR
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR
+	# 	# 	}
 			
-		# 	visible = {
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { national_unificationist }
-		# }
+	# 	# 	traits = { national_unificationist }
+	# 	# }
 
-		# #김규식
-		# KOR_advisor_kim_kyusik = {
+	# 	# #김규식
+	# 	# KOR_advisor_kim_kyusik = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	traits = { veteran_politician }
-		# }
+	# 	# 	traits = { veteran_politician }
+	# 	# }
 
-		# #김원봉
-		# KOR_advisor_kim_wonbong = {
+	# 	# #김원봉
+	# 	# KOR_advisor_kim_wonbong = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	visible = {
-		# 		NOT = {
-		# 			has_country_leader = {
-		# 				name = "CPKI"
-		# 				ruling_only = yes
-		# 			}
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		NOT = {
+	# 	# 			has_country_leader = {
+	# 	# 				name = "CPKI"
+	# 	# 				ruling_only = yes
+	# 	# 			}
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { propaganda_expert }
-		# }
+	# 	# 	traits = { propaganda_expert }
+	# 	# }
 
-		# #김원봉2
-		# KOR_advisor_kim_wonbong_2 = {
+	# 	# #김원봉2
+	# 	# KOR_advisor_kim_wonbong_2 = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	visible = {
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { backroom_backstabber }
-		# }
+	# 	# 	traits = { backroom_backstabber }
+	# 	# }
 
-		# #송병조
-		# KOR_advisor_song_byungjo = {
+	# 	# #송병조
+	# 	# KOR_advisor_song_byungjo = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	traits = { financial_expert }
-		# }
+	# 	# 	traits = { financial_expert }
+	# 	# }
 
-		# #신익희
-		# KOR_advisor_shin_ikhi = {
+	# 	# #신익희
+	# 	# KOR_advisor_shin_ikhi = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	traits = { education_torchbearer }
-		# }
+	# 	# 	traits = { education_torchbearer }
+	# 	# }
 
-		# #안재홍
-		# KOR_advisor_ahn_jaehong = {
+	# 	# #안재홍
+	# 	# KOR_advisor_ahn_jaehong = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	visible = {
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { liberal_journalist }
-		# }
+	# 	# 	traits = { liberal_journalist }
+	# 	# }
 
-		# #안호상
-		# #KOR_advisor_ahn_hosang = {
+	# 	# #안호상
+	# 	# #KOR_advisor_ahn_hosang = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	visible = {
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { fascist_demagogue }
-		# }
+	# 	# 	traits = { fascist_demagogue }
+	# 	# }
 
-		# #여운형
-		# KOR_advisor_ryuh_woonhyung = {
+	# 	# #여운형
+	# 	# KOR_advisor_ryuh_woonhyung = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	visible = {
-		# 		NOT = {
-		# 			has_country_leader = {
-		# 				name = "CPKI"
-		# 				ruling_only = yes
-		# 			}
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		NOT = {
+	# 	# 			has_country_leader = {
+	# 	# 				name = "CPKI"
+	# 	# 				ruling_only = yes
+	# 	# 			}
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { popular_figurehead }
-		# }
+	# 	# 	traits = { popular_figurehead }
+	# 	# }
 
-		# #여운형2
-		# KOR_advisor_ryuh_woonhyung_2 = {
+	# 	# #여운형2
+	# 	# KOR_advisor_ryuh_woonhyung_2 = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	visible = {
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { social_reformer }
-		# }
+	# 	# 	traits = { social_reformer }
+	# 	# }
 
-		# #유일한
-		# KOR_advisor_ilhan_new = {
+	# 	# #유일한
+	# 	# KOR_advisor_ilhan_new = {
 
-		# 	allowed = {
-		# 		tag = KOR
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR
+	# 	# 	}
 			
-		# 	visible = {
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 
-		# 	traits = { captain_of_industry }
-		# }
+	# 	# 	traits = { captain_of_industry }
+	# 	# }
 
 
-		# #의친왕 이강
-		# KOR_advisor_yi_kang = {
+	# 	# #의친왕 이강
+	# 	# KOR_advisor_yi_kang = {
 
-		# 	allowed = {
-		# 		tag = KOR
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR
+	# 	# 	}
 			
-		# 	visible = {
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 
-		# 	traits = { royal_independence_activist }
-		# }
+	# 	# 	traits = { royal_independence_activist }
+	# 	# }
 
-		# #이승만
-		# KOR_advisor_syngman_rhee = {
+	# 	# #이승만
+	# 	# KOR_advisor_syngman_rhee = {
 
-		# 	allowed = {
-		# 		tag = KOR
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR
+	# 	# 	}
 			
-		# 	visible = {
-		# 		NOT = {
-		# 			has_country_leader = {
-		# 				name = "CPKI"
-		# 				ruling_only = yes
-		# 			}
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		NOT = {
+	# 	# 			has_country_leader = {
+	# 	# 				name = "CPKI"
+	# 	# 				ruling_only = yes
+	# 	# 			}
+	# 	# 		}
+	# 	# 	}
 
-		# 	traits = { determined_diplomatist }
-		# }
+	# 	# 	traits = { determined_diplomatist }
+	# 	# }
 
-		# #이승만2
-		# KOR_advisor_syngman_rhee_2 = {
+	# 	# #이승만2
+	# 	# KOR_advisor_syngman_rhee_2 = {
 
-		# 	allowed = {
-		# 		tag = KOR
-		# 		NOT = {
-		# 			has_country_flag = KOR_flag_parliament
-		# 		}
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR
+	# 	# 		NOT = {
+	# 	# 			has_country_flag = KOR_flag_parliament
+	# 	# 		}
+	# 	# 	}
 			
-		# 	visible = {
-		# 		NOT = {
-		# 			has_country_flag = KOR_flag_parliament
-		# 		}
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		NOT = {
+	# 	# 			has_country_flag = KOR_flag_parliament
+	# 	# 		}
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { dislikes_communism }
-		# }
+	# 	# 	traits = { dislikes_communism }
+	# 	# }
 
-		# #조만식
-		# KOR_advisor_cho_mansik = {
+	# 	# #조만식
+	# 	# KOR_advisor_cho_mansik = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	visible = {
-		# 		has_country_leader = {
-		# 			name = "CPKI"
-		# 			ruling_only = yes
-		# 		}
-		# 	}
+	# 	# 	visible = {
+	# 	# 		has_country_leader = {
+	# 	# 			name = "CPKI"
+	# 	# 			ruling_only = yes
+	# 	# 		}
+	# 	# 	}
 			
-		# 	traits = { appeaser }
-		# }
+	# 	# 	traits = { appeaser }
+	# 	# }
 
-		# #조소앙
-		# KOR_advisor_cho_soang = {
+	# 	# #조소앙
+	# 	# KOR_advisor_cho_soang = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	traits = { samgyunjuui_theorist }
-		# }
+	# 	# 	traits = { samgyunjuui_theorist }
+	# 	# }
 
-		# #홍진
-		# KOR_advisor_hong_jin = {
+	# 	# #홍진
+	# 	# KOR_advisor_hong_jin = {
 
-		# 	allowed = {
-		# 		tag = KOR	
-		# 	}
+	# 	# 	allowed = {
+	# 	# 		tag = KOR	
+	# 	# 	}
 			
-		# 	traits = { excellent_jurist }
-		# }
-	}
+	# 	# 	traits = { excellent_jurist }
+	# 	# }
+	# }
 }

@@ -11,4 +11,4 @@ dependencies={
 replace_path="gfx/loadingscreens"
 name="PROJECT KOREA: WAR OF INDEPENDENCE"
 supported_version="1.10.*"
-path="C:/Users/AKABANE/Documents/Paradox Interactive/Hearts of Iron IV/mod/pk_woi"
+path="C:/Users/Administrator/Documents/Paradox Interactive/Hearts of Iron IV/mod/pk_woi"

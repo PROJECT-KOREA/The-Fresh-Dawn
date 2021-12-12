@@ -39,16 +39,16 @@ add_ideas = {
 	closed_economy
 	war_economy
 	
-	HoG_No_One
-	FM_No_One
-	EM_No_One
-	SM_No_One
-	MM_No_One
-	IM_No_One
+	# HoG_No_One
+	# FM_No_One
+	# EM_No_One
+	# SM_No_One
+	# # MM_No_One
+	# IM_No_One
 
-	KOR_CoA_Ji_Cheongcheon
-	CoN_No_One
-	CAF_No_One
+	# KOR_CoA_Ji_Cheongcheon
+	# CoN_No_One
+	# CAF_No_One
 }
 
 #연구 슬롯
@@ -75,289 +75,290 @@ set_popularities = {
 	neutrality = 80
 }
 
+recruit_character = KOR_Ji_Cheongcheon
 COALITION_add_neu = yes
 
-#지청천
-create_country_leader = {
-	name = "지청천"
-	desc = "POLITICS_Ji_Cheongcheon_DESC"
-	picture = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
-	expire = "1965.1.1"
-	ideology = military_dic
-	traits = {
-		
-	}
-}
-
-#레닌주의 - 박헌영
-create_country_leader = {
-	name = "Pak Hon-yong"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-
-	}
-}
-
-#사회민주주의 - 여운형
-create_country_leader = {
-	name = "Lyuh Woonhyung"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-
-	}
-}
-
-#국민자유주의 - 안재홍
-create_country_leader = {
-	name = "Ahn Jaehong"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
-	expire = "1965.1.1"
-	ideology = nat_liberal
-	traits = {
-
-	}
-}
-
-#자유보수주의 - 송진우
-create_country_leader = {
-	name = "Song Jinwoo"
-	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds"
-	expire = "1965.1.1"
-	ideology = lib_conservatism
-	traits = {
-
-	}
-}
-
-#파시스트 - 안호상
+# #지청천
 # create_country_leader = {
-# 	name = "Ahn Hosang"
-# 	desc = ""
-# 	picture = ""
+# 	name = "지청천"
+# 	desc = "POLITICS_Ji_Cheongcheon_DESC"
+# 	picture = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
 # 	expire = "1965.1.1"
-# 	ideology = fascism_ideology
+# 	ideology = military_dic
+# 	traits = {
+		
+# 	}
+# }
+
+# #레닌주의 - 박헌영
+# create_country_leader = {
+# 	name = "Pak Hon-yong"
+# 	desc = ""
+# 	picture = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds"
+# 	expire = "1965.1.1"
+# 	ideology = stalinism
 # 	traits = {
 
 # 	}
 # }
 
+# #사회민주주의 - 여운형
+# create_country_leader = {
+# 	name = "Lyuh Woonhyung"
+# 	desc = ""
+# 	picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+# 	expire = "1965.1.1"
+# 	ideology = socialism
+# 	traits = {
 
-##### 장군진 #####
+# 	}
+# }
 
-### 육군 원수 ###
+# #국민자유주의 - 안재홍
+# create_country_leader = {
+# 	name = "Ahn Jaehong"
+# 	desc = ""
+# 	picture = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
+# 	expire = "1965.1.1"
+# 	ideology = nat_liberal
+# 	traits = {
 
-#지청천
-create_field_marshal = {
-	name = "Ji Cheongcheon"
-	picture = "Portrait_Ji_Cheongcheon_Army.dds"
-	traits = {
-		infantry_officer #보병 장교
-		war_hero #전쟁 영웅
-		politically_connected #정계와의 연줄
-	}
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
+# 	}
+# }
 
-#홍사익
-create_field_marshal = {
-	name = "Hong Saik"
-	picture = "Portrait_Hong_Saik.dds"
-	traits = {
-		infantry_officer #보병 장교
-		career_officer #직업 장교
-		trickster #책략가
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 3
-}
+# #자유보수주의 - 송진우
+# create_country_leader = {
+# 	name = "Song Jinwoo"
+# 	desc = ""
+# 	picture = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds"
+# 	expire = "1965.1.1"
+# 	ideology = lib_conservatism
+# 	traits = {
 
+# 	}
+# }
 
-### 육군 장군 ###
+# #파시스트 - 안호상
+# # create_country_leader = {
+# # 	name = "Ahn Hosang"
+# # 	desc = ""
+# # 	picture = ""
+# # 	expire = "1965.1.1"
+# # 	ideology = fascism_ideology
+# # 	traits = {
 
-#김경천
-create_corps_commander = {
-	name = "Kim Kyeongcheon"
-	picture = "Portrait_Kim_Kyeongcheon.dds"
-	traits = {
-		cavalry_leader #기병 지휘관
-		media_personality #유명인
-	}
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-#송호성
-create_corps_commander = {
-	name = "Song Hoseong"
-	picture = "Portrait_Song_Hoseong.dds"
-	traits = {
-		old_guard #보수파
-		cavalry_officer #기병 장교
-	}
-	skill = 4
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-#이범석
-create_corps_commander = {
-	name = "Lee Beomseok"
-	picture = "Portrait_Lee_Beomseok.dds"
-	traits = {
-		brilliant_strategist #확고한 전략가
-		cavalry_officer #기병 장교
-		war_hero #전쟁 영웅
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-#김홍일
-create_corps_commander = {
-	name = "Kim Hong-il"
-	picture = "Portrait_Kim_Hong_il.dds"
-	traits = {
-		infantry_leader #보병 지휘관
-		inflexible_strategist #확고한 전략가
-		organizer #조직가
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-#오광선
-create_corps_commander = {
-	name = "Oh Kwangseon"
-	picture = "Portrait_Oh_Kwangseon.dds"
-	traits = {
-		cautious #신중함
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
+# # 	}
+# # }
 
 
-#김원봉
-create_corps_commander = {
-	name = "Kim Wonbong"
-	picture = "Portrait_Kim_Wonbong.dds"
-	traits = {
-		commando #특공대
-		media_personality #유명인
-		KOR_socialism_sympathizer #사회주의 동조자
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
+# ##### 장군진 #####
 
-#윤세주
-create_corps_commander = {
-	name = "Yoon Seju"
-	picture = "Portrait_Yoon_Seju.dds"
-	traits = {
-		inflexible_strategist #확고한 전략가
-		KOR_socialism_sympathizer #사회주의 동조자
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
+# ### 육군 원수 ###
 
+# #지청천
+# create_field_marshal = {
+# 	name = "Ji Cheongcheon"
+# 	picture = "Portrait_Ji_Cheongcheon_Army.dds"
+# 	traits = {
+# 		infantry_officer #보병 장교
+# 		war_hero #전쟁 영웅
+# 		politically_connected #정계와의 연줄
+# 	}
+# 	skill = 4
+# 	attack_skill = 3
+# 	defense_skill = 4
+# 	planning_skill = 3
+# 	logistics_skill = 3
+# }
 
-## 독립전쟁 중 합류 ##
-
-#이응준
-create_corps_commander = {
-	name = "Lee Eungjun"
-	picture = "Portrait_Lee_Eungjun.dds"
-	traits = {
-		infantry_officer #보병 장교
-		career_officer #직업 장교
-	}
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-#신태영
-create_corps_commander = {
-	name = "Shin Taeyeong"
-	picture = "Portrait_Shin_Taeyeong.dds"
-	traits = {
-		infantry_officer #보병 장교
-		career_officer #직업 장교
-	}
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-#김석원
-create_corps_commander = {
-	name = "Kim Seok-won"
-	picture = "Portrait_Kim_Seokwon.dds"
-	traits = {
-		inflexible_strategist #확고한 전략가
-		career_officer #직업 장교
-	}
-	skill = 4
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
+# #홍사익
+# create_field_marshal = {
+# 	name = "Hong Saik"
+# 	picture = "Portrait_Hong_Saik.dds"
+# 	traits = {
+# 		infantry_officer #보병 장교
+# 		career_officer #직업 장교
+# 		trickster #책략가
+# 	}
+# 	skill = 4
+# 	attack_skill = 4
+# 	defense_skill = 4
+# 	planning_skill = 4
+# 	logistics_skill = 3
+# }
 
 
-## 광복 후 임명 ##
+# ### 육군 장군 ###
 
-#원용덕
-create_corps_commander = {
-	name = "Won Yongdeok"
-	picture = "Portrait_Won_Yongdeok.dds"
-	traits = {
+# #김경천
+# create_corps_commander = {
+# 	name = "Kim Kyeongcheon"
+# 	picture = "Portrait_Kim_Kyeongcheon.dds"
+# 	traits = {
+# 		cavalry_leader #기병 지휘관
+# 		media_personality #유명인
+# 	}
+# 	skill = 4
+# 	attack_skill = 3
+# 	defense_skill = 3
+# 	planning_skill = 3
+# 	logistics_skill = 2
+# }
 
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
+# #송호성
+# create_corps_commander = {
+# 	name = "Song Hoseong"
+# 	picture = "Portrait_Song_Hoseong.dds"
+# 	traits = {
+# 		old_guard #보수파
+# 		cavalry_officer #기병 장교
+# 	}
+# 	skill = 4
+# 	attack_skill = 2
+# 	defense_skill = 3
+# 	planning_skill = 2
+# 	logistics_skill = 2
+# }
+
+# #이범석
+# create_corps_commander = {
+# 	name = "Lee Beomseok"
+# 	picture = "Portrait_Lee_Beomseok.dds"
+# 	traits = {
+# 		brilliant_strategist #확고한 전략가
+# 		cavalry_officer #기병 장교
+# 		war_hero #전쟁 영웅
+# 	}
+# 	skill = 3
+# 	attack_skill = 3
+# 	defense_skill = 3
+# 	planning_skill = 3
+# 	logistics_skill = 2
+# }
+
+# #김홍일
+# create_corps_commander = {
+# 	name = "Kim Hong-il"
+# 	picture = "Portrait_Kim_Hong_il.dds"
+# 	traits = {
+# 		infantry_leader #보병 지휘관
+# 		inflexible_strategist #확고한 전략가
+# 		organizer #조직가
+# 	}
+# 	skill = 3
+# 	attack_skill = 3
+# 	defense_skill = 4
+# 	planning_skill = 3
+# 	logistics_skill = 2
+# }
+
+# #오광선
+# create_corps_commander = {
+# 	name = "Oh Kwangseon"
+# 	picture = "Portrait_Oh_Kwangseon.dds"
+# 	traits = {
+# 		cautious #신중함
+# 	}
+# 	skill = 3
+# 	attack_skill = 3
+# 	defense_skill = 4
+# 	planning_skill = 3
+# 	logistics_skill = 2
+# }
+
+
+# #김원봉
+# create_corps_commander = {
+# 	name = "Kim Wonbong"
+# 	picture = "Portrait_Kim_Wonbong.dds"
+# 	traits = {
+# 		commando #특공대
+# 		media_personality #유명인
+# 		KOR_socialism_sympathizer #사회주의 동조자
+# 	}
+# 	skill = 3
+# 	attack_skill = 3
+# 	defense_skill = 2
+# 	planning_skill = 4
+# 	logistics_skill = 2
+# }
+
+# #윤세주
+# create_corps_commander = {
+# 	name = "Yoon Seju"
+# 	picture = "Portrait_Yoon_Seju.dds"
+# 	traits = {
+# 		inflexible_strategist #확고한 전략가
+# 		KOR_socialism_sympathizer #사회주의 동조자
+# 	}
+# 	skill = 3
+# 	attack_skill = 2
+# 	defense_skill = 3
+# 	planning_skill = 3
+# 	logistics_skill = 2
+# }
+
+
+# ## 독립전쟁 중 합류 ##
+
+# #이응준
+# create_corps_commander = {
+# 	name = "Lee Eungjun"
+# 	picture = "Portrait_Lee_Eungjun.dds"
+# 	traits = {
+# 		infantry_officer #보병 장교
+# 		career_officer #직업 장교
+# 	}
+# 	skill = 4
+# 	attack_skill = 3
+# 	defense_skill = 2
+# 	planning_skill = 2
+# 	logistics_skill = 2
+# }
+
+# #신태영
+# create_corps_commander = {
+# 	name = "Shin Taeyeong"
+# 	picture = "Portrait_Shin_Taeyeong.dds"
+# 	traits = {
+# 		infantry_officer #보병 장교
+# 		career_officer #직업 장교
+# 	}
+# 	skill = 4
+# 	attack_skill = 3
+# 	defense_skill = 2
+# 	planning_skill = 2
+# 	logistics_skill = 2
+# }
+
+# #김석원
+# create_corps_commander = {
+# 	name = "Kim Seok-won"
+# 	picture = "Portrait_Kim_Seokwon.dds"
+# 	traits = {
+# 		inflexible_strategist #확고한 전략가
+# 		career_officer #직업 장교
+# 	}
+# 	skill = 4
+# 	attack_skill = 2
+# 	defense_skill = 3
+# 	planning_skill = 2
+# 	logistics_skill = 2
+# }
+
+
+# ## 광복 후 임명 ##
+
+# #원용덕
+# create_corps_commander = {
+# 	name = "Won Yongdeok"
+# 	picture = "Portrait_Won_Yongdeok.dds"
+# 	traits = {
+
+# 	}
+# 	skill = 2
+# 	attack_skill = 2
+# 	defense_skill = 2
+# 	planning_skill = 1
+# 	logistics_skill = 1
+# }

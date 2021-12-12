@@ -20,10 +20,10 @@ characters = {
     KOR_Kim_Kyeongcheon = {
         name = KOR_Kim_Kyeongcheon
         portraits = {
-            army = {
-                small = "gfx/interface/ideas/KOR/character/Kim_Kyeongcheon.dds"
-                large = "gfx/leaders/KOR/Portrait_Kim_Kyeongcheon.dds"
-            }
+            # army = {
+            #     small = "gfx/interface/ideas/KOR/character/Kim_Kyeongcheon.dds"
+            #     large = "gfx/leaders/KOR/Portrait_Kim_Kyeongcheon.dds"
+            # }
         }
 
         #육군 지휘관 - 광복군 대륙전구군사령관 
@@ -45,10 +45,10 @@ characters = {
     KOR_Kim_Wonbong = {
         name = KOR_Kim_Wonbong
         portraits = {
-            army = {
-                small = "gfx/interface/ideas/KOR/character/Kim_Wonbong.dds"
-                large = "gfx/leaders/KOR/Portrait_Kim_Wonbong.dds"
-            }
+            # army = {
+            #     small = "gfx/interface/ideas/KOR/character/Kim_Wonbong.dds"
+            #     large = "gfx/leaders/KOR/Portrait_Kim_Wonbong.dds"
+            # }
         }
 
         #육군 지휘관 - 광복의용군 사령관
@@ -71,10 +71,10 @@ characters = {
     KOR_Yoon_Seju = {
         name = KOR_Yoon_Seju
         portraits = {
-            army = {
-                small = "gfx/interface/ideas/KOR/character/Yoon_Seju.dds"
-                large = "gfx/leaders/KOR/Portrait_Yoon_Seju.dds"
-            }
+            # army = {
+            #     small = "gfx/interface/ideas/KOR/character/Yoon_Seju.dds"
+            #     large = "gfx/leaders/KOR/Portrait_Yoon_Seju.dds"
+            # }
         }
 
         #육군 지휘관
@@ -96,10 +96,10 @@ characters = {
     KOR_Kim_Hong_il = {
         name = KOR_Kim_Hong_il
         portraits = {
-            army = {
-                small = "gfx/interface/ideas/KOR/character/Kim_Hong_il.dds"
-                large = "gfx/leaders/KOR/Portrait_Kim_Hong_il.dds"
-            }
+            # army = {
+            #     small = "gfx/interface/ideas/KOR/character/Kim_Hong_il.dds"
+            #     large = "gfx/leaders/KOR/Portrait_Kim_Hong_il.dds"
+            # }
         }
 
         #육군 지휘관
@@ -122,8 +122,8 @@ characters = {
     KOR_Pak_Honyong = {
         name = KOR_Pak_Honyong
         portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds" }
-            army = { small = "gfx/interface/ideas/KOR/Pak_Honyong.dds" }
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/Pak_Honyong.dds" }
         }
 
         #지도자 - 공산주의
@@ -141,8 +141,8 @@ characters = {
     KOR_Song_Jinwoo = {
         name = KOR_Song_Jinwoo
         portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" }
-            army = { small = "gfx/interface/ideas/KOR/Song_Jinwoo.dds" }
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/Song_Jinwoo.dds" }
         }
 
         #지도자 - 자유보수주의
@@ -186,12 +186,35 @@ characters = {
 		}
     }
 
+    #송호성 (將)
+    KOR_Song_Hoseong = {
+        name = KOR_Song_Hoseong
+        portraits = {
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Song_Hoseong.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/Song_Hoseong.dds" }
+        }
+
+        #육군 지휘관
+        corps_commander = {
+			traits = {
+                old_guard #보수파
+                cavalry_officer #기병 장교
+            }
+			skill = 4
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+			legacy_id = 0
+		}
+    }
+
     #신익희 (首/內)
     KOR_Sin_Ikhuie = {
         name = KOR_Sin_Ikhuie
         portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Sin_Ikhuie.dds" }
-            army = { small = "gfx/interface/ideas/KOR/Sin_Ikhuie.dds" }
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Sin_Ikhuie.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/Sin_Ikhuie.dds" }
         }
 
         #정부수반 - 대한민국 국무총리
@@ -252,261 +275,19 @@ characters = {
 		}
     }
 
-    #엄항섭 (閣)
-    KOR_Um_Hangseop = {
-        name = KOR_Um_Hangseop
-        portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Um_Hangseop.dds" }
-            army = { small = "gfx/interface/ideas/KOR/Um_Hangseop.dds" }
-        }
-
-        #정부수반 - 대한민국 국무총리
-        advisor = {
-			slot = head_of_gov
-			idea_token = HoG_Um_Hangseop
-
-            visible = {
-                # OR = {
-                #     has_government = nat_conservatism
-                # }
-            }
-
-			available = {
-                custom_trigger_tooltip = {
-                    tooltip = minister_tooltip
-                    always = no
-                }
-			}
-
-			allowed = { original_tag = KOR }
-
-			traits = {
-				# self_assertion
-				hog
-			}
-
-			removal_cost = -1
-		}
-    }
-
-    #여운형 (正/首)
-    KOR_Lyuh_Woonhyung = {
-        name = KOR_Lyuh_Woonhyung
-        portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds" }
-            army = { small = "gfx/interface/ideas/KOR/Lyuh_Woonhyung.dds" }
-        }
-
-        #지도자 - 사회민주주의
-        country_leader = {
-            ideology = socialism
-            traits = {
-                
-            }
-            expire = "1999.1.1.1"
-            id = -1
-        }
-
-        #정부수반 - 군정사령부 민정장관
-        advisor = {
-			slot = head_of_gov
-			idea_token = HoG_Lyuh_Woonhyung
-
-            visible = {
-                # OR = {
-                #     has_country_flag = KOR_flag_kia_mpc
-                #     KOR_lwh_gov = yes
-                # }
-            }
-
-			available = {
-                custom_trigger_tooltip = {
-                    tooltip = minister_tooltip
-                    always = no
-                }
-			}
-
-			allowed = { original_tag = KOR }
-
-			traits = {
-				gentleman_politician
-				hog
-			}
-
-			removal_cost = -1
-		}
-    }
-
-    #오광선 (將)
-    KOR_Oh_Kwangseon = {
-        name = KOR_Oh_Kwangseon
-        portraits = {
-            army = {
-                small = "gfx/interface/ideas/KOR/character/Oh_Kwangseon.dds"
-                large = "gfx/interface/ideas/KOR/Portrait_Oh_Kwangseon.dds"
-            }
-        }
-
-        #육군 지휘관 - 광복군 참모장
-        corps_commander = {
-			traits = {
-                cautious #신중함
-            }
-            skill = 3
-            attack_skill = 3
-            defense_skill = 4
-            planning_skill = 3
-            logistics_skill = 2
-			legacy_id = 0
-		}
-    }
-
-    #이범석 (將)
-    KOR_Lee_Beomseok = {
-        name = KOR_Lee_Beomseok
-        portraits = {
-            army = {
-                large = "gfx/interface/ideas/KOR/Portrait_Lee_Beomseok.dds"
-                small = "gfx/interface/ideas/KOR/Lee_Beomseok.dds"
-            }
-        }
-
-        #육군 지휘관 - 광복군 국내정진군사령관
-        corps_commander = {
-			traits = {
-                brilliant_strategist #확고한 전략가
-                cavalry_officer #기병 장교
-                war_hero #전쟁 영웅
-            }
-			skill = 3
-            attack_skill = 3
-            defense_skill = 3
-            planning_skill = 3
-            logistics_skill = 2
-			legacy_id = 0
-		}
-    }
-
-    #이승만 (首)
-    KOR_Syngman_Rhee = {
-        name = KOR_Syngman_Rhee
-        portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds" }
-            army = { small = "gfx/interface/ideas/KOR/Syngman_Rhee.dds" }
-        }
-
-        #지도자 - 사회보수주의
-        # country_leader = {
-        #     ideology = soc_conservatism
-        #     traits = {
-                
-        #     }
-        #     expire = "1999.1.1.1"
-        #     id = -1
-        # }
-
-        #정부수반 - 임시정부 부주석
-        advisor = {
-			slot = head_of_gov
-			idea_token = HoG_Syngman_Rhee
-
-            visible = {
-                # OR = {
-                #    has_country_flag = KOR_flag_kpg
-                # }
-            }
-
-			available = {
-                custom_trigger_tooltip = {
-                    tooltip = minister_tooltip
-                    always = no
-                }
-			}
-
-			allowed = { original_tag = KOR }
-
-			traits = {
-				# self_assertion
-				hog
-			}
-
-			removal_cost = -1
-		}
-    }
-
-    #이시영 (首)
-    KOR_Yi_Siyeong = {
-        name = KOR_Yi_Siyeong
-        portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Yi_Siyeong.dds" }
-            army = { small = "gfx/interface/ideas/KOR/Yi_Siyeong.dds" }
-        }
-
-        #정부수반 - 임시정부 부주석
-        advisor = {
-			slot = head_of_gov
-			idea_token = HoG_Yi_Siyeong
-
-            visible = {
-                # AND = {
-                #     has_country_flag = KOR_flag_kpg
-                # }
-            }
-
-			available = {
-                custom_trigger_tooltip = {
-                    tooltip = minister_tooltip
-                    always = no
-                }
-			}
-
-			allowed = { original_tag = KOR }
-
-			traits = {
-				# ?
-				hog
-			}
-
-			removal_cost = -1
-		}
-    }
-
-    #송호성 (將)
-    KOR_Song_Hoseong = {
-        name = KOR_Song_Hoseong
-        portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Song_Hoseong.dds" }
-            army = { small = "gfx/interface/ideas/KOR/Song_Hoseong.dds" }
-        }
-
-        #육군 지휘관
-        corps_commander = {
-			traits = {
-                old_guard #보수파
-                cavalry_officer #기병 장교
-            }
-			skill = 4
-            attack_skill = 2
-            defense_skill = 3
-            planning_skill = 2
-            logistics_skill = 2
-			legacy_id = 0
-		}
-    }
-
     #안재홍 (正/首/內)
     KOR_Ahn_Jaehong = {
         name = KOR_Ahn_Jaehong
         portraits = {
-            civilian = {
-                small = ""
-                large = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
-            }
+            # civilian = {
+            #     small = ""
+            #     large = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
+            # }
         }
 
         #지도자 - 사회자유주의
         country_leader = {
-            ideology = soc_liberal
+            ideology = liberalism
             traits = {
                 
             }
@@ -571,13 +352,232 @@ characters = {
 		}
     }
 
+    #엄항섭 (閣)
+    KOR_Um_Hangseop = {
+        name = KOR_Um_Hangseop
+        portraits = {
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Um_Hangseop.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/Um_Hangseop.dds" }
+        }
+
+        #정부수반 - 대한민국 국무총리
+        advisor = {
+			slot = head_of_gov
+			idea_token = HoG_Um_Hangseop
+
+            visible = {
+                # OR = {
+                #     has_government = nat_conservatism
+                # }
+            }
+
+			available = {
+                custom_trigger_tooltip = {
+                    tooltip = minister_tooltip
+                    always = no
+                }
+			}
+
+			allowed = { original_tag = KOR }
+
+			traits = {
+				# self_assertion
+				hog
+			}
+
+			removal_cost = -1
+		}
+    }
+
+    #여운형 (正/首)
+    KOR_Lyuh_Woonhyung = {
+        name = KOR_Lyuh_Woonhyung
+        portraits = {
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/Lyuh_Woonhyung.dds" }
+        }
+
+        #지도자 - 사회민주주의
+        country_leader = {
+            ideology = socialism
+            traits = {
+                
+            }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+
+        #정부수반 - 군정사령부 민정장관
+        advisor = {
+			slot = head_of_gov
+			idea_token = HoG_Lyuh_Woonhyung
+
+            visible = {
+                # OR = {
+                #     has_country_flag = KOR_flag_kia_mpc
+                #     KOR_lwh_gov = yes
+                # }
+            }
+
+			available = {
+                custom_trigger_tooltip = {
+                    tooltip = minister_tooltip
+                    always = no
+                }
+			}
+
+			allowed = { original_tag = KOR }
+
+			traits = {
+				gentleman_politician
+				hog
+			}
+
+			removal_cost = -1
+		}
+    }
+
+    #오광선 (將)
+    KOR_Oh_Kwangseon = {
+        name = KOR_Oh_Kwangseon
+        portraits = {
+            # army = {
+            #     small = "gfx/interface/ideas/KOR/character/Oh_Kwangseon.dds"
+            #     large = "gfx/interface/ideas/KOR/Portrait_Oh_Kwangseon.dds"
+            # }
+        }
+
+        #육군 지휘관 - 광복군 참모장
+        corps_commander = {
+			traits = {
+                cautious #신중함
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 2
+			legacy_id = 0
+		}
+    }
+
+    #이범석 (將)
+    KOR_Lee_Beomseok = {
+        name = KOR_Lee_Beomseok
+        portraits = {
+            # army = {
+            #     large = "gfx/interface/ideas/KOR/Portrait_Lee_Beomseok.dds"
+            #     small = "gfx/interface/ideas/KOR/Lee_Beomseok.dds"
+            # }
+        }
+
+        #육군 지휘관 - 광복군 국내정진군사령관
+        corps_commander = {
+			traits = {
+                brilliant_strategist #확고한 전략가
+                cavalry_officer #기병 장교
+                war_hero #전쟁 영웅
+            }
+			skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+			legacy_id = 0
+		}
+    }
+
+    #이승만 (首)
+    KOR_Syngman_Rhee = {
+        name = KOR_Syngman_Rhee
+        portraits = {
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/Syngman_Rhee.dds" }
+        }
+
+        #지도자 - 사회보수주의
+        # country_leader = {
+        #     ideology = soc_conservatism
+        #     traits = {
+                
+        #     }
+        #     expire = "1999.1.1.1"
+        #     id = -1
+        # }
+
+        #정부수반 - 임시정부 부주석
+        advisor = {
+			slot = head_of_gov
+			idea_token = HoG_Syngman_Rhee
+
+            visible = {
+                # OR = {
+                #    has_country_flag = KOR_flag_kpg
+                # }
+            }
+
+			available = {
+                custom_trigger_tooltip = {
+                    tooltip = minister_tooltip
+                    always = no
+                }
+			}
+
+			allowed = { original_tag = KOR }
+
+			traits = {
+				# self_assertion
+				hog
+			}
+
+			removal_cost = -1
+		}
+    }
+
+    #이시영 (首)
+    KOR_Yi_Siyeong = {
+        name = KOR_Yi_Siyeong
+        portraits = {
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Yi_Siyeong.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/Yi_Siyeong.dds" }
+        }
+
+        #정부수반 - 임시정부 부주석
+        advisor = {
+			slot = head_of_gov
+			idea_token = HoG_Yi_Siyeong
+
+            visible = {
+                # AND = {
+                #     has_country_flag = KOR_flag_kpg
+                # }
+            }
+
+			available = {
+                custom_trigger_tooltip = {
+                    tooltip = minister_tooltip
+                    always = no
+                }
+			}
+
+			allowed = { original_tag = KOR }
+
+			traits = {
+				# ?
+				hog
+			}
+
+			removal_cost = -1
+		}
+    }
+
     #지청천 (正/將)
     KOR_Ji_Cheongcheon = {
         name = KOR_Ji_Cheongcheon
         portraits = {
-            civilian = {
-                large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
-            }
+            # civilian = {
+            #     large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
+            # }
         }
 
         #지도자 - 권위민주주의
@@ -610,9 +610,9 @@ characters = {
     KOR_Cho_Dongho = {
         name = KOR_Song_Jinwoo
         portraits = {
-            civilian = {
-                large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds"
-            }
+            # civilian = {
+            #     large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds"
+            # }
         }
 
         #내무장관 - 대한민국
@@ -648,16 +648,15 @@ characters = {
     KOR_Cho_wangu = {
         name = KOR_Cho_wangu
         portraits = {
-            civilian = {
-                small = ""
-            }
+            # civilian = {
+            #     small = ""
+            # }
         }
 
         #정부수반 - 임시정부 부주석 / 대한민국 국무총리
         advisor = {
-			slot = head_of_gov
+			slot = political_advisor
 			idea_token = HoG_Cho_wangu
-
             visible = {
                 # OR = {
                 #     has_country_flag = KOR_flag_kpg
@@ -715,9 +714,9 @@ characters = {
     KOR_Hong_Saik = {
         name = KOR_Hong_Saik
         portraits = {
-            civilian = {
-                large = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
-            }
+            # civilian = {
+            #     large = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
+            # }
         }
 
         #육군 원수 - 광복군 부사령관
@@ -740,9 +739,9 @@ characters = {
     KOR_Hong_Jin = {
         name = KOR_Hong_Jin
         portraits = {
-            civilian = {
-                small = ""
-            }
+            # civilian = {
+            #     small = ""
+            # }
         }
 
         #정부수반 - 임시정부 부주석
