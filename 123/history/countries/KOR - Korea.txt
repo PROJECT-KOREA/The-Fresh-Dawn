@@ -14,6 +14,26 @@ set_research_slots = 3
 #연료 비율
 # set_fuel_ratio = 0.5
 
+recruit_character = KOR_Ji_Cheongcheon
+recruit_character = KOR_Song_Jinwoo
+recruit_character = KOR_Sin_Ikhuie
+recruit_character = KOR_Ahn_Jaehong
+recruit_character = KOR_Um_Hangseop
+recruit_character = KOR_Lyuh_Woonhyung
+recruit_character = KOR_Oh_Kwangseon
+recruit_character = KOR_Lee_Beomseok
+recruit_character = KOR_Syngman_Rhee
+recruit_character = KOR_Yi_Siyeong
+recruit_character = KOR_Ji_Cheongcheon
+recruit_character = KOR_Cho_Dongho
+recruit_character = KOR_Cho_wangu
+recruit_character = KOR_Hong_Saik
+recruit_character = KOR_Hong_Jin
+recruit_character = FM_No_One
+recruit_character = EM_No_One
+recruit_character = SM_No_One
+recruit_character = IM_No_One
+
 #국민 정신
 add_ideas = {
 	KOR_idea_military_dic
@@ -28,12 +48,12 @@ add_ideas = {
 	closed_economy
 	war_economy
 	
-	# HoG_No_One
-	# FM_No_One
-	# EM_No_One
-	# SM_No_One
-	# # MM_No_One
-	# IM_No_One
+	HoG_Sin_Ikhuie
+	FM_No_One
+	EM_No_One
+	SM_No_One
+	# MM_No_One
+	IM_No_One
 
 	# KOR_CoA_Ji_Cheongcheon
 	# CoN_No_One
@@ -74,22 +94,6 @@ set_popularities = {
 	liberal_conservatism = 6
 	neutrality = 80
 }
-
-recruit_character = KOR_Ji_Cheongcheon
-recruit_character = KOR_Song_Jinwoo
-recruit_character = KOR_Sin_Ikhuie
-recruit_character = KOR_Ahn_Jaehong
-recruit_character = KOR_Um_Hangseop
-recruit_character = KOR_Lyuh_Woonhyung
-recruit_character = KOR_Oh_Kwangseon
-recruit_character = KOR_Lee_Beomseok
-recruit_character = KOR_Syngman_Rhee
-recruit_character = KOR_Yi_Siyeong
-recruit_character = KOR_Ji_Cheongcheon
-recruit_character = KOR_Cho_Dongho
-recruit_character = KOR_Cho_wangu
-recruit_character = KOR_Hong_Saik
-recruit_character = KOR_Hong_Jin
 COALITION_add_neu = yes
 
 # #지청천
