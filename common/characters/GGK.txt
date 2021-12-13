@@ -1,0 +1,86 @@
+#### 작성 요령 ###
+# idea_token  |  인물의 ID 지정 시 사용
+# ledger      |  군 고위 지휘관/이론가의 소속 구분 시 사용 (ex army/navy/air)
+# on_add      |  플레이어가 해당 인물을 임명 시 발생하는 효과
+# on_remove   |  플레이어가 해당 인물을 해임 시 발생하는 효과
+# do_effect   |  인물의 특성이 실제로 효과를 가지는 조건
+
+# 正/副 -지도자 (정/부)
+# 首 - 정부수반
+# 內/財/外/情 - 장관 (내/재/외/정)
+# 將/督 - 지휘관 (육/해)
+# 陸/海/空 - 참모총장 (육/해/공)
+# 參 - 군 고위 지휘관
+# 理 - 이론가
+# 顧 - 정치 조언가
+
+characters = {
+
+    #우가키 카즈시게 (正)
+    GGK_Ugaki_Kazushige = {
+        name = GGK_Ugaki_Kazuhsige
+        portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_Kazushige_Ugaki.dds" } }
+
+        #지도자 - 파시즘
+        country_leader = {
+            ideology = fascism_ideology
+            traits = { }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+    }
+
+    #미나미 지로 (正)
+    # GGK_Minami_Jiro = {
+    #     name = GGK_Minami_Jiro
+    #     portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_Jiro_Minami.dds" } }
+
+    #     #지도자 - 파시즘
+    #     country_leader = {
+    #         ideology = fascism_ideology
+    #         traits = { }
+    #         expire = "1999.1.1.1"
+    #         id = -1
+    #     }
+    # }
+
+
+    #송진우 (正/內)
+    # KOR_Song_Jinwoo = {
+    #     name = KOR_Song_Jinwoo
+    #     portraits = {
+    #         civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" }
+    #         army = { small = "gfx/interface/ideas/KOR/character/KOR_Song_Jinwoo.dds" }
+    #     }
+
+    #     #내무장관 - 한성국민위원회 / 임시정부 / 대한민국
+    #     advisor = {
+	# 		slot = security_minister
+	# 		idea_token = SM_Song_Jinwoo
+
+    #         visible = {
+    #             # OR = {
+    #             #     has_country_flag = KOR_flag_hnc
+	# 			#     has_country_flag = KOR_flag_kpg
+	# 			#     has_government = soc_conservatism
+    #             # }
+    #         }
+
+	# 		available = {
+    #             custom_trigger_tooltip = {
+    #                 tooltip = minister_tooltip
+    #                 always = no
+    #             }
+	# 		}
+
+	# 		allowed = { original_tag = KOR }
+
+	# 		traits = {
+	# 			# self_assertion
+	# 			secmin
+	# 		}
+
+	# 		removal_cost = -1
+	# 	}
+    # }
+}

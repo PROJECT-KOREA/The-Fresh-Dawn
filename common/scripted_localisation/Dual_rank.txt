@@ -1,0 +1,59 @@
+#지도자(정) 직책
+defined_text = {
+	name = leader1_rank
+	
+	#일본령 조선 - 총독
+	text = {
+		trigger = { tag = GGK }
+		localization_key = sotoku
+	}
+
+	#대한민국 임시정부
+
+		#광복군 총사령관
+		text = {
+			trigger = {
+				tag = KOR
+				NOT = {
+					has_country_flag = KOR_flag_kia_mpc
+					has_country_flag = KOR_flag_hnc
+					has_country_flag = KOR_flag_kpg
+				}
+			}
+			localization_key = kia_commander
+		}
+	#
+
+	#기본 - 국가원수
+	text = { localization_key = head_of_state }
+}
+
+#지도자(부) 직책
+defined_text = {
+	name = leader2_rank
+
+	#일본령 조선 - 정무총감
+	text = {
+        trigger = { tag = GGK }
+		localization_key = seimu_soukan
+	}
+
+	#대한민국 임시정부
+
+		#광복군 부사령관
+		text = {
+			trigger = {
+				tag = KOR
+				NOT = {
+					has_country_flag = KOR_flag_kia_mpc
+					has_country_flag = KOR_flag_hnc
+					has_country_flag = KOR_flag_kpg
+				}
+			}
+			localization_key = kia_vcommander
+		}
+	#
+
+	#기본 - 정부수반
+	text = { localization_key = head_of_government }
+}

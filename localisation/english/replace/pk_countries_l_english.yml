@@ -168,47 +168,46 @@
   XSM_auto_despotism:0 "청해 군벌"
   XSM_auto_despotism_DEF:0 "청해 군벌"
 
+ #기동방공자치정부
+  EHB_fascism:0 "기동방공자치정부"
+  EHB_fascism_DEF:0 "기동방공자치정부"
+ 
+ #기찰정무위원회
+  HPC_neutrality:0 "기찰정무위원회"
+  HPC_neutrality_DEF:0 "기찰정무위원회"
+  HPC_auto_despotism:0 "기찰정무위원회"
+  HPC_auto_despotism_DEF:0 "기찰정무위원회"
+ 
+ #서북초비총사령부
+  NEA_neutrality:0 "서북초비총사령부"
+  NEA_neutrality_DEF:0 "서북초비총사령부"
+  NEA_auto_despotism:0 "서북초비총사령부"
+  NEA_auto_despotism_DEF:0 "서북초비총사령부"
+
+ #산동 군벌
+  SHD_auto_despotism:0 "산동 군벌"
+  SHD_auto_despotism_DEF:0 "산동 군벌"
+
+ #영하 군벌
+  NXM_auto_despotism:0 "영하 군벌"
+  NXM_auto_despotism_DEF:0 "영하 군벌"
+
+ #사천 군벌
+  SIC_auto_despotism:0 "사천 군벌"
+  SIC_auto_despotism_DEF:0 "사천 군벌"
+
+ #천변 특별구
+  XIK_auto_despotism:0 "천변 특별구"
+  XIK_auto_despotism_DEF:0 "천변 특별구"
+
+ #광동 군벌
+  GUD_auto_despotism:0 "광동 군벌"
+  GUD_auto_despotism_DEF:0 "광동 군벌"
+
+ #퉁가니스탄
+  TNG_auto_despotism:0 "퉁가니스탄"
+  TNG_auto_despotism_DEF:0 "퉁가니스탄"
 
 #  #찰동특별자치구
 #  ECA_fascism:0 "찰동특별자치구"
 #  ECA_fascism_DEF:0 "찰동특별자치구"
-
-#  #기동방공자치정부
-#  EHB_fascism:0 "기동방공자치정부"
-#  EHB_fascism_DEF:0 "기동방공자치정부"
- 
-#  #기찰정무위원회
-#  HPC_neutrality:0 "기찰정무위원회"
-#  HPC_neutrality_DEF:0 "기찰정무위원회"
-#  HPC_auto_despotism:0 "기찰정무위원회"
-#  HPC_auto_despotism_DEF:0 "기찰정무위원회"
- 
-#  #서북초비총사령부
-#  NEA_neutrality:0 "서북초비총사령부"
-#  NEA_neutrality_DEF:0 "서북초비총사령부"
-#  NEA_auto_despotism:0 "서북초비총사령부"
-#  NEA_auto_despotism_DEF:0 "서북초비총사령부"
-
-#  #산동 군벌
-#  SHD_auto_despotism:0 "산동 군벌"
-#  SHD_auto_despotism_DEF:0 "산동 군벌"
-
-#  #영하 군벌
-#  NXM_auto_despotism:0 "영하 군벌"
-#  NXM_auto_despotism_DEF:0 "영하 군벌"
-
-#  #사천 군벌
-#  SIC_auto_despotism:0 "사천 군벌"
-#  SIC_auto_despotism_DEF:0 "사천 군벌"
-
-#  #천변 특별구
-#  XIK_auto_despotism:0 "천변 특별구"
-#  XIK_auto_despotism_DEF:0 "천변 특별구"
-
-#  #광동 군벌
-#  GUD_auto_despotism:0 "광동 군벌"
-#  GUD_auto_despotism_DEF:0 "광동 군벌"
-
-#  #퉁가니스탄
-#  TNG_auto_despotism:0 "퉁가니스탄"
-#  TNG_auto_despotism_DEF:0 "퉁가니스탄"

@@ -1,5 +1,5 @@
 ﻿#수도
-capital = 844 #강딩
+capital = 872 #강딩
 
 #전투서열
 oob = "XIK_1936"

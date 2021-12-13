@@ -69,10 +69,10 @@ TAN = {
 }
 
 
-ECA = {
-	color = rgb { 170 140 50 }
-	color_ui = rgb { 170 140 50 }
-}
+# ECA = {
+# 	color = rgb { 170 140 50 }
+# 	color_ui = rgb { 170 140 50 }
+# }
 EHB = {
 	color = rgb { 120 140 160 }
 	color_ui = rgb { 120 140 160 }
@@ -253,10 +253,6 @@ TNG = {
 		color = rgb { 233  59  59 }
 		color_ui = rgb { 155 62 51 }
 	}
-	CHI = {
-		color = hsv { 0.18 0.6 0.9 } #255 244 190
-		color_ui = hsv { 0.18 0.3 0.9 }
-	}
 	CHL = {
 		color = rgb { 155 101 107 }
 		color_ui = rgb { 202 131 139 }
@@ -292,10 +288,6 @@ TNG = {
 	IRQ = {
 		color = rgb { 178 114 99 }
 		color_ui = rgb { 231 148 129 }
-	}
-	JAP = {
-		color = hsv { 0.05 0.3 1 }
-		color_ui = hsv { 0.05 0.25 1.2 }
 	}
 	LIB = {
 		color = rgb { 152 130 191 }
@@ -345,14 +337,6 @@ TNG = {
 		color = rgb { 171 190 152 }
 		color_ui = rgb { 222 247 198 }
 	}
-	SIK = {
-		color = rgb { 71 190 152 }
-		color_ui = rgb { 222 247 198 }
-	}
-	TIB = {
-		color = rgb { 80 115 45}
-		color_ui = rgb { 222 247 198 }
-	}
 	URG = {
 		color = rgb { 171 190 152 }
 		color_ui = rgb { 222 247 198 }
@@ -361,26 +345,9 @@ TNG = {
 		color = rgb { 171 190 152 }
 		color_ui = rgb { 222 247 198 }
 	}
-	YUN = {
-		color = rgb { 114 148 80 }
-		color_ui = rgb { 222 247 198 }
-	}
 	USA = {
 		color = rgb { 20 133 237 }
 		color_ui = rgb { 87 160 255 }
-	}
-	MON = {
-		#color = HSV { 0.1 0.15 0.4 }
-		color = rgb { 108 140 42 }
-		color_ui = rgb { 209 247 133 }
-	}
-	MEN = {
-		color = rgb { 185  255  152 }
-		color_ui = rgb { 165  230  132 }
-	}
-	TAN = {
-		color = rgb { 152 130 191 }
-		color_ui = rgb { 198 169 248 }
 	}
 	PAR = {
 		color = rgb { 57 113 228 }
@@ -418,26 +385,6 @@ TNG = {
 	CRO = {
 		color = rgb { 230  70  180 }
 		color_ui = rgb { 230 255 122 }
-	}
-
-	PRC = {
-		color = rgb { 245 12 55 }
-		color_ui = rgb { 178 34 60 }
-	}
-
-	GXC = {
-		color = rgb { 71 113 97 }
-		color_ui = rgb { 71 113 97 }
-	}
-
-	SHX = {
-		color = rgb { 82  2  15 }
-		color_ui = rgb { 101  30  41 }
-	}
-
-	XSM = {
-		color = rgb { 105 90 132 }
-		color_ui = rgb { 105 90 132 }
 	}
 
 	LBA = {
@@ -534,10 +481,6 @@ TNG = {
 		color = rgb { 180 220 190 }
 		color_ui = rgb { 180 220 190 }
 	}
-	MAN = {
-		color = rgb { 255 120 71 }
-		color_ui = rgb { 255 120 71 }
-	}
 	ANG = {
 		color = rgb { 37 140 61 }
 		color_ui = rgb { 37 140 61 }
@@ -574,10 +517,6 @@ TNG = {
 	DDR = {
 		color = rgb { 120 150 80 }
 		color_ui = rgb { 150 180 120 }
-	}
-	KOR = {
-		color = rgb { 255  240  195 }
-		color_ui = rgb { 255 248 229 }	
 	}
 	ISR = {
 		color = rgb { 152  130  191 }

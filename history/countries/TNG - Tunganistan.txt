@@ -4,7 +4,7 @@ capital = 759
 #전투서열
 oob = "TNG_1936"
 
-add_ideas = MON_nomadic
+# add_ideas = MON_nomadic
 
 set_politics = {
 	ruling_party = auto_despotism
