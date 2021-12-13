@@ -458,11 +458,11 @@ ideologies = {
 		ai_neutral = yes
 	}
 
-	#전제주의
+	#전제독재주의
 	auto_despotism = {
 	
 		types = {
-			despotism = {} #전제주의
+			despotism = {} #전제독재주의
 			statism = {} #국가주의
 			semi_constitutional = { #외견적 입헌군주제
 				can_be_randomly_selected = no 

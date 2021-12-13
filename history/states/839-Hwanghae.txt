@@ -1,0 +1,29 @@
+state = {
+	id = 839
+	name = "STATE_839" #황해도
+	manpower = 1640000
+
+	state_category = town
+	
+	history = {
+		owner = JAP #japan
+		add_core_of = KOR
+		# add_core_of = GGK
+		
+		buildings = {
+			#기반시설
+			infrastructure = 1
+
+			#민간공장
+			industrial_complex = 1
+		}
+
+		# victory_points = { 1003 10 } #해주(카이슈)
+	}
+
+	resources = { steel = 5 }
+
+	provinces = {
+		1003 4107 7070 7155 10065 11915
+	}
+}

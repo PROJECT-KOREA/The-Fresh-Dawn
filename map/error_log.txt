@@ -1,0 +1,438 @@
+
+[20:15:10][strategicair.cpp:5465]: MAP_ERROR: (airports.txt) air base site province 7175 is invalid for state 525
+[20:15:10][strategicair.cpp:5486]: MAP_ERROR: (rocketsites.txt) rocket site province 1081 is invalid for state 525
+[20:15:10][strategicair.cpp:5465]: MAP_ERROR: (airports.txt) air base site province 11828 is invalid for state 527
+[20:15:10][strategicair.cpp:5486]: MAP_ERROR: (rocketsites.txt) rocket site province 906 is invalid for state 527
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 835
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 835
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 836
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 836
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 837
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 837
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 838
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 838
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 839
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 839
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 840
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 840
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 841
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 841
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 842
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 842
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 843
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 843
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 844
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 844
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 845
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 845
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 846
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 846
+[20:15:10][strategicair.cpp:5454]: MAP_ERROR: (airports.txt) no air base site defined for state 847
+[20:15:10][strategicair.cpp:5475]: MAP_ERROR: (rocketsites.txt) no rocket site defined for state 847
+[20:15:11][gfx_dx9.cpp:1768]: Error create vertices -2005530516 8 0 32
+[20:15:11][gfx_dx9.cpp:1774]: managed
+# [20:15:12][pdxmapborders.cpp:194]: One-pixel province color found at 4577, 719.
+# [20:15:12][pdxmapborders.cpp:194]: One-pixel province color found at 4564, 716.
+# [20:15:12][pdxmapborders.cpp:194]: One-pixel province color found at 4564, 714.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 7851: map building(요새) location is not within specified state. Supposed to be '283 - 간쑤' but was '616 - 닝샤'for province 5057. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 9305: map building(민간공장) location is not within specified state. Supposed to be '328 - 지린' but was '717 - 쑹장'for province 944. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 9323: map building(요새) location is not within specified state. Supposed to be '328 - 지린' but was '836 - STATE_836'for province 3803. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 9340: map building(요새) location is not within specified state. Supposed to be '328 - 지린' but was '717 - 쑹장'for province 10503. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 9347: map building(대공포) location is not within specified state. Supposed to be '328 - 지린' but was '717 - 쑹장'for province 11893. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 9348: map building(대공포) location is not within specified state. Supposed to be '328 - 지린' but was '836 - STATE_836'for province 3803. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 15994: map building(군수공장) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 7121. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 15995: map building(군수공장) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 12060. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 15996: map building(군수공장) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 1081. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 15998: map building(군수공장) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 1148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 15999: map building(군수공장) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 13248. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16000: map building(민간공장) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 13249. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16002: map building(민간공장) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 12011. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16003: map building(민간공장) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 13250. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16005: map building(민간공장) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 9936. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16006: map building(공군기지) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 7175. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16007: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 11912. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16008: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 1054. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16009: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 11948. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16010: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 13249. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16012: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 13251. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16013: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 10110. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16014: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 12085. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16016: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 7175. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16017: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '846 - STATE_846'for province 1177. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16018: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 12011. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16019: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 1148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16020: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 4056. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16021: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 7021. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16022: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 7204. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16023: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 13252. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16024: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 4126. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16025: map building(해군기지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 1148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16026: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 11948. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16027: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 4056. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16028: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '840 - STATE_840'for province 1100. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16029: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 1054. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16032: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 10085. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16033: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 1148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16034: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 13245. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16035: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 13251. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16036: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 11992. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16037: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 10115. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16038: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 4056. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16039: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 12089. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16040: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 12085. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16041: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 11977. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16043: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 4126. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16044: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 7204. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16045: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 1081. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16046: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 13249. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16047: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 12011. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16048: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 7121. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16049: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 4103. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16050: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 4126. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16051: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 12060. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16052: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 13245. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16053: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 9936. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16054: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 9936. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16055: map building(요새) location is not within specified state. Supposed to be '525 - 남한' but was '846 - STATE_846'for province 1177. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16056: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 12085. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16057: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 4056. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16058: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 4126. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16059: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 13251. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16060: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16061: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 1148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16062: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 11948. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16063: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 1054. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16064: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 11992. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16065: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 13249. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16067: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 1148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16068: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '846 - STATE_846'for province 1177. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16069: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 13252. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16070: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 7204. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16071: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 12011. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16072: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 1148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16073: map building(해안 요새) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 11912. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16075: map building(해군 조선소) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 12085. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16076: map building(대공포) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 4126. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16077: map building(대공포) location is not within specified state. Supposed to be '525 - 남한' but was '840 - STATE_840'for province 13247. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16078: map building(대공포) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 7021. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16079: map building(합성 정제소) location is not within specified state. Supposed to be '525 - 남한' but was '840 - STATE_840'for province 1100. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16080: map building(원자로) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 11948. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16081: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16082: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16083: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16084: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16085: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16086: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16087: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16088: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16089: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16090: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16091: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16092: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16093: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16094: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16095: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16096: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16097: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16098: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16100: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16101: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16102: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16103: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16104: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16105: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16106: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16107: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16108: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16109: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 16110: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16112: map building(군수공장) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 13237. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16113: map building(군수공장) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 13240. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16114: map building(군수공장) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 978. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16115: map building(군수공장) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 9790. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16117: map building(군수공장) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11828. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16118: map building(민간공장) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 10083. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16119: map building(민간공장) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3852. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16120: map building(민간공장) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 1003. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16121: map building(민간공장) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3981. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16122: map building(민간공장) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 848. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16123: map building(민간공장) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 10065. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16124: map building(공군기지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11828. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16125: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 7155. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16126: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 959. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16127: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 4107. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16128: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 6928. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16129: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 912. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16130: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6922. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16131: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 898. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16132: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6944. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16133: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 10065. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16134: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '525 - 남한'for province 12040. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16135: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6822. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16136: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3852. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16137: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3981. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16138: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 4052. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16140: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 1003. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16141: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11835. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16142: map building(해군기지) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 9790. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16143: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 11770. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16144: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 898. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16145: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 7155. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16146: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6822. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16147: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3904. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16148: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 10065. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16149: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11828. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16150: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3852. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16151: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3803. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16152: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 13238. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16153: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 852. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16154: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 6963. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16155: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 11915. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16156: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11775. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16157: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '525 - 남한'for province 13243. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16158: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11835. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16159: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 4052. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16160: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 10065. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16161: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 1003. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16162: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3981. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16163: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 959. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16164: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 10083. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16167: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 912. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16168: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 13240. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16169: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 11878. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16170: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 4107. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16171: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 13239. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16172: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 7171. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16173: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11896. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16174: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 11770. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16175: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 9790. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16176: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 9795. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16177: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 9918. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16178: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 7171. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16179: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 906. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16180: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6944. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16181: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 912. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16182: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6822. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16183: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3981. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16184: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 4052. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16185: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 4107. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16186: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6922. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16187: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 1003. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16188: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6822. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16189: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6944. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16190: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 7155. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16191: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11835. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16192: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 848. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16193: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 9790. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16194: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 13238. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16195: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 898. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16196: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 848. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16197: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '525 - 남한'for province 12040. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16198: map building(해안 요새) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 10065. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16199: map building(해군 조선소) location is not within specified state. Supposed to be '527 - 북한' but was '525 - 남한'for province 12040. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16200: map building(대공포) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3852. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16202: map building(대공포) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 9899. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16203: map building(합성 정제소) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 10083. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 16204: map building(원자로) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 1003. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 17819: map building(민간공장) location is not within specified state. Supposed to be '592 - 광저우' but was '594 - 난닝'for province 7044. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18010: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18012: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18035: map building(요새) location is not within specified state. Supposed to be '596 - 저장' but was '749 - 황산'for province 4173. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18042: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18061: map building(군수공장) location is not within specified state. Supposed to be '597 - 산둥' but was '614 - 허베이'for province 7092. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18074: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18124: map building(해안 요새) location is not within specified state. Supposed to be '597 - 산둥' but was '598 - 장쑤'for province 1029. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18126: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18147: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18161: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18167: map building(요새) location is not within specified state. Supposed to be '598 - 장쑤' but was '613 - 상하이'for province 1089. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18177: map building(대공포) location is not within specified state. Supposed to be '598 - 장쑤' but was '613 - 상하이'for province 1089. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18180: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18261: map building(요새) location is not within specified state. Supposed to be '600 - 장시' but was '593 - 광둥'for province 9970. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18368: map building(요새) location is not within specified state. Supposed to be '606 - 안후이' but was '598 - 장쑤'for province 4148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18394: map building(민간공장) location is not within specified state. Supposed to be '607 - 허난' but was '606 - 안후이'for province 9937. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18532: map building(요새) location is not within specified state. Supposed to be '610 - 러허' but was '715 - 랴오닝'for province 1508. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18537: map building(요새) location is not within specified state. Supposed to be '610 - 러허' but was '715 - 랴오닝'for province 3877. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18538: map building(요새) location is not within specified state. Supposed to be '610 - 러허' but was '715 - 랴오닝'for province 3877. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18547: map building(원자로) location is not within specified state. Supposed to be '610 - 러허' but was '715 - 랴오닝'for province 3877. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18617: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18626: map building(요새) location is not within specified state. Supposed to be '613 - 상하이' but was '598 - 장쑤'for province 4001. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18629: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18635: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18638: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18641: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18642: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18644: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18645: map building(합성 정제소) location is not within specified state. Supposed to be '613 - 상하이' but was '596 - 저장'for province 4042. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 18646: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18819: map building(요새) location is not within specified state. Supposed to be '620 - 후베이' but was '606 - 안후이'for province 4158. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 18836: map building(합성 정제소) location is not within specified state. Supposed to be '620 - 후베이' but was '606 - 안후이'for province 4203. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19563: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19565: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19566: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19567: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19568: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19570: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19572: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19574: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19575: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19576: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19578: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19579: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19580: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19581: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 19584: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 21727: map building(요새) location is not within specified state. Supposed to be '714 - 헤이룽장' but was '328 - 지린'for province 3913. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 21728: map building(요새) location is not within specified state. Supposed to be '714 - 헤이룽장' but was '715 - 랴오닝'for province 7812. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 21768: map building(요새) location is not within specified state. Supposed to be '715 - 랴오닝' but was '328 - 지린'for province 887. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 21769: map building(요새) location is not within specified state. Supposed to be '715 - 랴오닝' but was '612 - 차하얼'for province 10363. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 22778: map building(로켓 발사장) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 1081. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 22780: map building(로켓 발사장) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 906. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 22868: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 23753: map building(요새) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 13236. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24418: map building(레이다 기지) location is not within specified state. Supposed to be '525 - 남한' but was '840 - STATE_840'for province 13247. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 24419: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24420: map building(레이다 기지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 852. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 24625: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24869: map building(군수공장) location is not within specified state. Supposed to be '753 - 간난' but was '752 - 간쯔'for province 1918. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24885: map building(요새) location is not within specified state. Supposed to be '753 - 간난' but was '283 - 간쑤'for province 7397. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24904: map building(민간공장) location is not within specified state. Supposed to be '283 - 간쑤' but was '616 - 닝샤'for province 5057. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24914: map building(군수공장) location is not within specified state. Supposed to be '754 - 궈뤄' but was '752 - 간쯔'for province 8104. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24921: map building(민간공장) location is not within specified state. Supposed to be '754 - 궈뤄' but was '752 - 간쯔'for province 8104. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24937: map building(대공포) location is not within specified state. Supposed to be '754 - 궈뤄' but was '752 - 간쯔'for province 8104. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24961: map building(요새) location is not within specified state. Supposed to be '755 - 하이시' but was '756 - 주취안'for province 5076. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 24966: map building(대공포) location is not within specified state. Supposed to be '755 - 하이시' but was '756 - 주취안'for province 5076. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25044: map building(군수공장) location is not within specified state. Supposed to be '759 - 쿤룬산' but was '755 - 하이시'for province 12890. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25048: map building(군수공장) location is not within specified state. Supposed to be '759 - 쿤룬산' but was '755 - 하이시'for province 12890. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25126: map building(민간공장) location is not within specified state. Supposed to be '761 - 후룬베이얼' but was '714 - 헤이룽장'for province 7848. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25128: map building(요새) location is not within specified state. Supposed to be '761 - 후룬베이얼' but was '328 - 지린'for province 3913. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25130: map building(요새) location is not within specified state. Supposed to be '761 - 후룬베이얼' but was '714 - 헤이룽장'for province 7848. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25160: map building(대공포) location is not within specified state. Supposed to be '714 - 헤이룽장' but was '761 - 후룬베이얼'for province 1776. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25211: map building(대공포) location is not within specified state. Supposed to be '603 - 구이저우' but was '748 - 쭌이'for province 11972. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25213: map building(레이다 기지) location is not within specified state. Supposed to be '603 - 구이저우' but was '748 - 쭌이'for province 10763. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25214: map building(로켓 발사장) location is not within specified state. Supposed to be '603 - 구이저우' but was '748 - 쭌이'for province 10763. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25215: map building(군수공장) location is not within specified state. Supposed to be '604 - 칭하이' but was '601 - 시캉'for province 8059. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25222: map building(민간공장) location is not within specified state. Supposed to be '604 - 칭하이' but was '754 - 궈뤄'for province 1882. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25252: map building(군수공장) location is not within specified state. Supposed to be '616 - 닝샤' but was '755 - 하이시'for province 2053. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25257: map building(군수공장) location is not within specified state. Supposed to be '616 - 닝샤' but was '755 - 하이시'for province 2053. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25263: map building(민간공장) location is not within specified state. Supposed to be '616 - 닝샤' but was '755 - 하이시'for province 2099. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 25313: map building(대공포) location is not within specified state. Supposed to be '621 - 쑤이위안' but was '615 - 산시(산서)'for province 10480. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 28527: map building(연료 저장고) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 13248. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 28528: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 28529: map building(연료 저장고) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11828. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 28595: map building(연료 저장고) location is not within specified state. Supposed to be '604 - 칭하이' but was '601 - 시캉'for province 8059. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 28601: map building(연료 저장고) location is not within specified state. Supposed to be '610 - 러허' but was '611 - 남차하얼'for province 952. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 28607: map building(연료 저장고) location is not within specified state. Supposed to be '616 - 닝샤' but was '754 - 궈뤄'for province 10490. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 28634: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 28966: map building(대공포) location is not within specified state. Supposed to be '612 - 차하얼' but was '715 - 랴오닝'for province 7812. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 33641: map building(보급 중심지) location is not within specified state. Supposed to be '283 - 간쑤' but was '616 - 닝샤'for province 5057. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36923: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 1054. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36924: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 1081. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36925: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '840 - STATE_840'for province 1100. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36926: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 1148. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36927: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '846 - STATE_846'for province 1177. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36928: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 4004. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36929: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 4056. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36930: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 4086. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36931: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 4103. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36932: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 4126. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36933: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 7021. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36934: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 13251. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36936: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 7175. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36937: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 7204. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36939: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 9936. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36941: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 10085. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36942: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 10110. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36943: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 10115. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36944: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 7121. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36945: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 11948. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36946: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 11958. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36947: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '844 - STATE_844'for province 11977. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36948: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '841 - STATE_841'for province 11992. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36949: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '527 - 북한'for province 12011. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36950: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '843 - STATE_843'for province 13252. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36951: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '845 - STATE_845'for province 12085. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36952: map building(보급 중심지) location is not within specified state. Supposed to be '525 - 남한' but was '842 - STATE_842'for province 12089. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 36953: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 36954: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 36955: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36956: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 848. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36957: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 852. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36958: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 898. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36959: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 906. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36960: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 912. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36961: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 959. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36962: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 978. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36963: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 1003. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36964: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3803. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36965: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3852. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36966: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 3860. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36967: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3904. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36968: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11896. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36969: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 3981. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36970: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 4052. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36971: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 4107. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36972: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6822. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36973: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 13238. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36974: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 6928. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36975: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '835 - STATE_835'for province 6944. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36976: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 6963. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36977: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 7070. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36978: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 7155. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36979: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 13241. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36980: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 9790. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36981: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 9795. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36982: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 9899. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36983: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 9918. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36985: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 10065. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36986: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '838 - STATE_838'for province 7171. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36987: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 10083. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36988: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11775. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36989: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11828. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36990: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11835. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36991: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '836 - STATE_836'for province 11878. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36992: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '837 - STATE_837'for province 11896. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36993: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '839 - STATE_839'for province 11915. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 36994: map building(보급 중심지) location is not within specified state. Supposed to be '527 - 북한' but was '525 - 남한'for province 12040. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 37765: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 37774: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 37917: map building(보급 중심지) location is not within specified state. Supposed to be '603 - 구이저우' but was '325 - 윈난'for province 7606. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 37990: map building(보급 중심지) location is not within specified state. Supposed to be '607 - 허난' but was '606 - 안후이'for province 10040. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 38033: map building(보급 중심지) location is not within specified state. Supposed to be '610 - 러허' but was '609 - 동허베이'for province 3830. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 38036: map building(보급 중심지) location is not within specified state. Supposed to be '610 - 러허' but was '715 - 랴오닝'for province 1508. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:508]: map/buildings.txt error at line 38079: map building location is not over the land - ignoring instance.
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 38988: map building(보급 중심지) location is not within specified state. Supposed to be '715 - 랴오닝' but was '610 - 러허'for province 4514. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 39035: map building(보급 중심지) location is not within specified state. Supposed to be '717 - 쑹장' but was '408 - 블라디보스토크'for province 11879. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 39311: map building(보급 중심지) location is not within specified state. Supposed to be '754 - 궈뤄' but was '752 - 간쯔'for province 8104. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 39321: map building(보급 중심지) location is not within specified state. Supposed to be '755 - 하이시' but was '756 - 주취안'for province 5076. BUILDING IGNORED!
+[20:15:14][mapbuildings.cpp:543]: map/buildings.txt error at line 39377: map building(보급 중심지) location is not within specified state. Supposed to be '761 - 후룬베이얼' but was '328 - 지린'for province 3913. BUILDING IGNORED!
+[20:15:15][provincegraphics.cpp:2219]: prov 996 stack 4 Moving 3 is too far away from center (dist 2335 585 prov 1099)
+[20:15:15][provincegraphics.cpp:2219]: prov 996 stack 25 Moving 3 RG is too far away from center (dist 2335 585 prov 1099)
+[20:15:15][provincegraphics.cpp:2219]: prov 1001 stack 8 Moving 7 is too far away from center (dist 2326 598 prov 1121)
+[20:15:15][provincegraphics.cpp:2219]: prov 1001 stack 29 Moving 7 RG is too far away from center (dist 2326 598 prov 1121)
+[20:15:15][provincegraphics.cpp:2219]: prov 1089 stack 1 Moving 0 is too far away from center (dist 2341 591 prov 10076)
+[20:15:15][provincegraphics.cpp:2219]: prov 1089 stack 22 Moving 0 RG is too far away from center (dist 2341 591 prov 10076)
+[20:15:15][provincegraphics.cpp:2219]: prov 1121 stack 1 Moving 0 is too far away from center (dist 2324 606 prov 1001)
+[20:15:15][provincegraphics.cpp:2219]: prov 1121 stack 22 Moving 0 RG is too far away from center (dist 2324 606 prov 1001)
+[20:15:15][provincegraphics.cpp:2219]: prov 1153 stack 1 Moving 0 is too far away from center (dist 2314 568 prov 4185)
+[20:15:15][provincegraphics.cpp:2219]: prov 1153 stack 22 Moving 0 RG is too far away from center (dist 2314 568 prov 4185)
+[20:15:15][provincegraphics.cpp:2219]: prov 1161 stack 4 Moving 3 is too far away from center (dist 2321 603 prov 1121)
+[20:15:15][provincegraphics.cpp:2219]: prov 1161 stack 25 Moving 3 RG is too far away from center (dist 2321 603 prov 1121)
+[20:15:15][provincegraphics.cpp:2219]: prov 3913 stack 19 Ship in port is too far away from center (dist 25 176 prov -1)
+[20:15:15][provincegraphics.cpp:2219]: prov 3913 stack 20 Ship in port moving is too far away from center (dist 25 176 prov -1)
+[20:15:15][provincegraphics.cpp:2219]: prov 4005 stack 4 Moving 3 is too far away from center (dist 2331 601 prov 4123)
+[20:15:15][provincegraphics.cpp:2219]: prov 4005 stack 25 Moving 3 RG is too far away from center (dist 2331 601 prov 4123)
+[20:15:15][provincegraphics.cpp:2219]: prov 4123 stack 4 Moving 3 is too far away from center (dist 2333 604 prov 4082)
+[20:15:15][provincegraphics.cpp:2219]: prov 4123 stack 25 Moving 3 RG is too far away from center (dist 2333 604 prov 4082)
+[20:15:15][provincegraphics.cpp:2219]: prov 7434 stack 3 Moving 2 is too far away from center (dist 2271 568 prov 7201)
+[20:15:15][provincegraphics.cpp:2219]: prov 7434 stack 24 Moving 2 RG is too far away from center (dist 2271 568 prov 7201)
+[20:15:15][provincegraphics.cpp:2219]: prov 7637 stack 1 Moving 0 is too far away from center (dist 2306 572 prov 1628)
+[20:15:15][provincegraphics.cpp:2219]: prov 7637 stack 22 Moving 0 RG is too far away from center (dist 2306 572 prov 1628)
+[20:15:15][provincegraphics.cpp:2219]: prov 9999 stack 4 Moving 3 is too far away from center (dist 2288 563 prov 4631)
+[20:15:15][provincegraphics.cpp:2219]: prov 9999 stack 25 Moving 3 RG is too far away from center (dist 2288 563 prov 4631)
+[20:15:15][provincegraphics.cpp:2219]: prov 10076 stack 3 Moving 2 is too far away from center (dist 2343 586 prov 996)
+[20:15:15][provincegraphics.cpp:2219]: prov 10076 stack 24 Moving 2 RG is too far away from center (dist 2343 586 prov 996)
+[20:15:15][provincegraphics.cpp:2219]: prov 10750 stack 4 Moving 3 is too far away from center (dist 2171 632 prov 10796)
+[20:15:15][provincegraphics.cpp:2219]: prov 10750 stack 25 Moving 3 RG is too far away from center (dist 2171 632 prov 10796)
+[20:15:15][provincegraphics.cpp:2219]: prov 12467 stack 1 Moving 0 is too far away from center (dist 2289 572 prov 9999)
+[20:15:15][provincegraphics.cpp:2219]: prov 12467 stack 22 Moving 0 RG is too far away from center (dist 2289 572 prov 9999)

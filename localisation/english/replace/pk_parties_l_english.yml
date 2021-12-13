@@ -39,9 +39,9 @@
  neutrality_noun:0 "권위주의"
  neutrality_desc:0 "권위주의 정권"
 
- auto_despotism:0 "전제주의"
- auto_despotism_noun:0 "전제주의"
- auto_despotism_desc:0 "전제주의 정권"
+ auto_despotism:0 "전제독재주의"
+ auto_despotism_noun:0 "전제독재주의"
+ auto_despotism_desc:0 "전제독재주의 정권"
 
  fascism:0 "파시즘"
  fascism_noun:0 "파시즘"
@@ -109,8 +109,8 @@
  colonial_gov:0 "조선총독부"
  colonial_gov_desc:0 ""
 
- #전제주의
- despotism:0 "전제주의"
+ #전제독재주의
+ despotism:0 "전제독재주의"
  despotism_desc:0 ""
  statism:0 "국가주의"
  statism_desc:0 ""
