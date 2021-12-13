@@ -67,47 +67,47 @@ TAN = {
 	color = rgb { 115 15 20 }
 	color_ui = rgb { 115 15 20 }
 }
-# ECA = {
-# 	color = rgb { 170 140 50 }
-# 	color_ui = rgb { 170 140 50 }
-# }
+ECA = {
+	color = rgb { 170 140 50 }
+	color_ui = rgb { 170 140 50 }
+}
 
-# EHB = {
-# 	color = rgb { 120 140 160 }
-# 	color_ui = rgb { 120 140 160 }
-# }
-# HPC = {
-# 	color = rgb { 140 140 140 }
-# 	color_ui = rgb { 93 181 227 }
-# }
-# SHD = {
-# 	color = rgb { 22 122 204 }
-# 	color_ui = rgb { 22 122 204 }
-# }
-# XSM = {
-# 	color = rgb { 114 71 24 }
-# 	color_ui = rgb { 114 71 24 }
-# }
-# NXM = {
-# 	color = rgb { 140 110 50 }
-# 	color_ui = rgb { 140 110 50 }
-# }
-# SIC = {
-# 	color = rgb { 64 127 181 }
-# 	color_ui = rgb { 64 127 181 }
-# }
-# GUD = {
-# 	color = rgb { 36 135 139 }
-# 	color_ui = rgb { 21 38 66 }
-# }
-# XIK = {
-# 	color = rgb { 84 127 151 }
-# 	color_ui = rgb { 84 127 151 }
-# }
-# TNG = {
-# 	color = rgb { 188 100 67 }
-# 	color_ui = rgb { 168 80 47 }
-# }
+EHB = {
+	color = rgb { 120 140 160 }
+	color_ui = rgb { 120 140 160 }
+}
+HPC = {
+	color = rgb { 140 140 140 }
+	color_ui = rgb { 93 181 227 }
+}
+SHD = {
+	color = rgb { 22 122 204 }
+	color_ui = rgb { 22 122 204 }
+}
+XSM = {
+	color = rgb { 114 71 24 }
+	color_ui = rgb { 114 71 24 }
+}
+NXM = {
+	color = rgb { 140 110 50 }
+	color_ui = rgb { 140 110 50 }
+}
+SIC = {
+	color = rgb { 64 127 181 }
+	color_ui = rgb { 64 127 181 }
+}
+GUD = {
+	color = rgb { 36 135 139 }
+	color_ui = rgb { 21 38 66 }
+}
+XIK = {
+	color = rgb { 84 127 151 }
+	color_ui = rgb { 84 127 151 }
+}
+TNG = {
+	color = rgb { 188 100 67 }
+	color_ui = rgb { 168 80 47 }
+}
 
 #reload countrycolors
 

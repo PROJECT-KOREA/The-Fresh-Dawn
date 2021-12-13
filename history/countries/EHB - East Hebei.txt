@@ -1,0 +1,36 @@
+﻿#수도
+capital = 609 #탕산
+
+#전투서열
+oob = "EHB_1936"
+
+set_stability = 0.15
+set_war_support = 0.15
+set_research_slots = 3
+
+# drop_cosmetic_tag = yes
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 80
+	communism = 0
+	neutrality = 20
+}
+
+# create_country_leader = {
+# 	name = "Yin Ju-keng"
+# 	desc = "POLITICS_YIN_JU_KENG_DESC"
+# 	picture = "Portrait_East_Hebei_Yin.dds"
+# 	expire = "1948.1.1"
+# 	ideology = fascism_ideology
+# }

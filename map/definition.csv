@@ -11989,7 +11989,7 @@
 11988;173;87;182;land;false;forest;6
 11989;173;90;42;land;false;mountain;6
 11990;173;90;97;land;true;plains;6
-11991;173;90;147;land;true;hills;6
+11991;173;90;147;land;false;hills;6
 11992;173;93;7;land;true;plains;6
 11993;173;93;62;land;false;forest;6
 11994;173;93;212;land;false;plains;6

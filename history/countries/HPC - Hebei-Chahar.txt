@@ -1,0 +1,98 @@
+﻿#수도
+capital = 608
+
+#전투서열
+oob = "HPC_1936"
+
+set_stability = 0.8
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+# create_country_leader = {
+# 	name = "Song Zheyuan"
+# 	desc = "POLITICS_SONG_ZHEYUAN_DESC"
+# 	picture = "gfx/leaders/CHI_warload/Portrait_Song_Zheyuan.dds"
+# 	ideology = military_dic
+# }
+
+# create_country_leader = {
+# 	name = "Song Zheyuan"
+# 	desc = "POLITICS_SONG_ZHEYUAN_DESC"
+# 	picture = "gfx/leaders/CHI_warload/Portrait_Song_Zheyuan.dds"
+# 	ideology = warlordism
+# }
+
+# create_field_marshal = {
+# 	name = "Song Zheyuan"
+# 	portrait_path = "gfx/leaders/CHI_warload/Portrait_Song_Zheyuan.dds"
+# 	traits = { inspirational_leader }
+# 	skill = 3
+# 	attack_skill = 3
+# 	defense_skill = 2
+# 	planning_skill = 3
+# 	logistics_skill = 3
+# }
+# create_corps_commander = {
+# 	name = "Zhang Zizhong"
+#         portrait_path = "gfx/leaders/CHI/Portrait_China_Zhang.dds"
+# 	traits = { urban_assault_specialist }
+# 	id = 2501
+# 	skill = 4
+# 	attack_skill = 4
+# 	defense_skill = 3
+# 	planning_skill = 2
+# 	logistics_skill = 4
+# }
+# create_corps_commander = {
+# 	name = "Ji Xingwen"
+#         portrait_path = "gfx/leaders/HPC/Portrait_Ji_Xingwen.dds"
+# 	traits = { urban_assault_specialist }
+# 	id = 2502
+# 	skill = 3
+# 	attack_skill = 2
+# 	defense_skill = 3
+# 	planning_skill = 3
+# 	logistics_skill = 2
+# }
+# create_corps_commander = {
+# 	name = "Feng Zhian"
+
+#        portrait_path = "gfx/leaders/HPC/Portrait_hpc_Feng_Zhian.dds"
+# 	traits = {  }
+# 	skill = 2
+# 	attack_skill = 2
+# 	defense_skill = 2
+# 	planning_skill = 1
+# 	logistics_skill = 2
+# }
+# create_corps_commander = {
+# 	name = "Liu Ruming"
+
+#        portrait_path = "gfx/leaders/HPC/Portrait_hpc_Liu_Ruming.dds"
+# 	traits = {  }
+# 	skill = 2
+# 	attack_skill = 2
+# 	defense_skill = 1
+# 	planning_skill = 2
+# 	logistics_skill = 2
+# }
