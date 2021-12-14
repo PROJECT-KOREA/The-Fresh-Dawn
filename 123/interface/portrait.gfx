@@ -2,8 +2,8 @@ spriteTypes = {
 
 	### Portraits ###
 	spriteType = {
-		name = "GFX_Portrait_Kiyonori_Imaida"
-		texturefile = "gfx/leaders/JAP_colony/Portrait_Kiyonori_Imaida.dds"
+		name = "GFX_Portrait_imaida_kiyonori"
+		texturefile = "gfx/leaders/JAP_colony/Portrait_imaida_kiyonori.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_Ji_Cheongcheon_Army"

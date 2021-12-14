@@ -2,10 +2,10 @@
 defined_text = {
     name = leader2_poartrait
 
-	#일본령 조선 - 이마이다 요시노리
+	#일본령 조선 - 이마이다 키요노리
 	text = {
         trigger = { tag = GGK }
-		localization_key = GFX_Portrait_Kiyonori_Imaida
+		localization_key = GFX_Portrait_imaida_kiyonori
 	}
 
 	#대한민국

@@ -5,7 +5,7 @@ defined_text = {
 	#일본령 조선 - 이마이다 기요노리
 	text = {
         trigger = { tag = GGK }
-		localization_key = GGK_kiyonori_imaida
+		localization_key = GGK_imaida_kiyonori
 	}
 
 	#대한민국

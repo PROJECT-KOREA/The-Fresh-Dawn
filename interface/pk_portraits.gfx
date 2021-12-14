@@ -1,37 +1,37 @@
-spriteTypes = {
-	
-	### System Assets ###
-	spriteType = {
-		name = "GFX_cabinet_button"
-		texturefile = "gfx/interface/cabinet_button.dds"
-	}
-
-	spriteType = {
-		name = "GFX_pol_leader_rank_frame"
-		texturefile = "gfx/interface/pol_leader_rank_frame.dds"
-	}
+spriteTypes = {	
 
 	### Portraits ###
+
+	#이마이다 키요노리
 	spriteType = {
 		name = "GFX_Portrait_imaida_kiyonori"
 		texturefile = "gfx/leaders/JAP_colony/Portrait_imaida_kiyonori.dds"
 	}
+
+	#지청천
 	spriteType = {
 		name = "GFX_Portrait_Ji_Cheongcheon_Army"
 		texturefile = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
 	}
+
+	#홍사익
 	spriteType = {
 		name = "GFX_Portrait_Hong_Saik"
 		texturefile = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
 	}
+
+	#김경천
 	spriteType = {
 		name = "GFX_Portrait_Kim_Kyeongcheon"
 		texturefile = "gfx/leaders/KOR/Portrait_Kim_Kyeongcheon.dds"
 	}
+
+	#이범석
 	spriteType = {
 		name = "GFX_Portrait_Lee_Beomseok"
 		texturefile = "gfx/leaders/KOR/Portrait_Lee_Beomseok.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_Portrait_Lyuh_Woonhyung"
 		texturefile = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"

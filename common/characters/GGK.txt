@@ -19,7 +19,7 @@ characters = {
     #우가키 카즈시게 (正)
     GGK_Ugaki_Kazushige = {
         name = GGK_Ugaki_Kazuhsige
-        portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_Kazushige_Ugaki.dds" } }
+        portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_ugaki_kazushige.dds" } }
 
         #지도자 - 파시즘
         country_leader = {
@@ -49,12 +49,11 @@ characters = {
     GGK_Imaida_Kiyonori = {
         name = GGK_Imaida_Kiyonori
         portraits = {
-            civilian = { large = "gfx/leaders/GGK/Portrait_Kiyonori_Imaida.dds" }
+            civilian = { large = "gfx/leaders/JAP_colony/Portrait_Imaida_Kiyonori.dds" }
             army = { small = "gfx/interface/ideas/vacant.dds" }
-            # army = { small = "gfx/interface/ideas/KOR/character/KOR_Song_Jinwoo.dds" }
         }
 
-        #내무장관 - 한성국민위원회 / 임시정부 / 대한민국
+        #내무장관 - 총독부 내무국장
         advisor = {
 			slot = head_of_gov
 			idea_token = GGK_HoG_Imaida_Kiyonori
