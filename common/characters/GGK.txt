@@ -45,42 +45,42 @@ characters = {
     # }
 
 
-    #송진우 (正/內)
-    # KOR_Song_Jinwoo = {
-    #     name = KOR_Song_Jinwoo
-    #     portraits = {
-    #         civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" }
-    #         army = { small = "gfx/interface/ideas/KOR/character/KOR_Song_Jinwoo.dds" }
-    #     }
+    #이마이다 키요노리 (首)
+    GGK_Imaida_Kiyonori = {
+        name = GGK_Imaida_Kiyonori
+        portraits = {
+            civilian = { large = "gfx/leaders/GGK/Portrait_Kiyonori_Imaida.dds" }
+            army = { small = "gfx/interface/ideas/vacant.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/character/KOR_Song_Jinwoo.dds" }
+        }
 
-    #     #내무장관 - 한성국민위원회 / 임시정부 / 대한민국
-    #     advisor = {
-	# 		slot = security_minister
-	# 		idea_token = SM_Song_Jinwoo
+        #내무장관 - 한성국민위원회 / 임시정부 / 대한민국
+        advisor = {
+			slot = head_of_gov
+			idea_token = GGK_HoG_Imaida_Kiyonori
 
-    #         visible = {
-    #             # OR = {
-    #             #     has_country_flag = KOR_flag_hnc
-	# 			#     has_country_flag = KOR_flag_kpg
-	# 			#     has_government = soc_conservatism
-    #             # }
-    #         }
+            visible = {
+                # OR = {
+                #     has_country_flag = KOR_flag_hnc
+				#     has_country_flag = KOR_flag_kpg
+				#     has_government = soc_conservatism
+                # }
+            }
 
-	# 		available = {
-    #             custom_trigger_tooltip = {
-    #                 tooltip = minister_tooltip
-    #                 always = no
-    #             }
-	# 		}
+			available = {
+                custom_trigger_tooltip = {
+                    tooltip = minister_tooltip
+                    always = no
+                }
+			}
 
-	# 		allowed = { original_tag = KOR }
+			allowed = { original_tag = GGK }
 
-	# 		traits = {
-	# 			# self_assertion
-	# 			secmin
-	# 		}
+			traits = {
+				hog
+			}
 
-	# 		removal_cost = -1
-	# 	}
-    # }
+			removal_cost = -1
+		}
+    }
 }

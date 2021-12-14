@@ -21,10 +21,10 @@ guiTypes = {
 		### For Leader #1
 
 		instantTextBoxType = {
-			name ="leader1_rank"
+			name ="leader1_title"
 			position = { x = 19 y = 57 }
 			font = "aldrich_20_outline"
-			text = "[This.leader1_rank]"
+			text = "[This.leader1_title]"
 			maxWidth = 155
 			maxHeight = 20
 			format = center
@@ -34,10 +34,10 @@ guiTypes = {
 		### For Leader #2
 
 		instantTextBoxType = {
-			name ="leader2_rank"
+			name ="leader2_title"
 			position = { x = 189 y = 57 }
 			font = "aldrich_20_outline"
-			text = "[This.leader2_rank]"
+			text = "[This.leader2_title]"
 			maxWidth = 155
 			maxHeight = 20
 			format = center

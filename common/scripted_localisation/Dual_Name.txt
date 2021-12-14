@@ -1,0 +1,58 @@
+#지도자(부) 이름
+defined_text = {
+	name = leader2_name
+
+	#일본령 조선 - 이마이다 기요노리
+	text = {
+        trigger = { tag = GGK }
+		localization_key = GGK_kiyonori_imaida
+	}
+
+	#대한민국
+		#홍사익
+		text = {
+			trigger = {
+				tag = KOR
+				NOT = {
+					has_country_flag = KOR_flag_kia_mpc
+					has_country_flag = KOR_flag_hnc
+					has_country_flag = KOR_flag_kpg
+				}
+			}
+			localization_key = hong_saik
+		}
+
+		#여운형
+		text = {
+			trigger = {
+				tag = KOR
+				has_idea = HoG_Lyuh_Woonhyung_kia_mpc
+			}
+			localization_key = lyuh_woonhyung
+		}
+
+		#여운형
+		text = {
+			trigger = {
+				tag = KOR
+				has_idea = HoG_Ahn_Jaehong_hnc
+			}
+			localization_key = ahn_jaehong
+		}
+
+		#김규식
+		text = {
+			trigger = {
+				tag = KOR
+				NOT = {
+					has_country_flag = KOR_flag_kia_mpc
+					has_country_flag = KOR_flag_hnc
+				}
+			}
+			localization_key = kim_kyusik
+		}
+	#
+
+	#기본
+	text = { localization_key = vacant }
+}

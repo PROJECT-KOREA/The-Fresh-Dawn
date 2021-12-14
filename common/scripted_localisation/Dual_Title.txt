@@ -1,6 +1,6 @@
 #지도자(정) 직책
 defined_text = {
-	name = leader1_rank
+	name = leader1_title
 	
 	#일본령 조선 - 총독
 	text = {
@@ -22,6 +22,33 @@ defined_text = {
 			}
 			localization_key = kia_commander
 		}
+
+		#군정장관
+		text = {
+			trigger = {
+				tag = KOR
+				has_country_flag = KOR_flag_kia_mpc
+			}
+			localization_key = mil_gov
+		}
+
+		#국민위원회 위원장
+		text = {
+			trigger = {
+				tag = KOR
+				has_country_flag = KOR_flag_hnc
+			}
+			localization_key = hnc_chairman
+		}
+	
+		#국무원 주석
+		text = {
+			trigger = {
+				tag = KOR
+				has_country_flag = KOR_flag_kpg
+			}
+			localization_key = kpg_president
+		}
 	#
 
 	#기본 - 국가원수
@@ -30,7 +57,7 @@ defined_text = {
 
 #지도자(부) 직책
 defined_text = {
-	name = leader2_rank
+	name = leader2_title
 
 	#일본령 조선 - 정무총감
 	text = {
@@ -50,7 +77,34 @@ defined_text = {
 					has_country_flag = KOR_flag_kpg
 				}
 			}
-			localization_key = kia_vcommander
+			localization_key = kia_vice_commander
+		}
+
+		#민정장관
+		text = {
+			trigger = {
+				tag = KOR
+				has_country_flag = KOR_flag_kia_mpc
+			}
+			localization_key = civ_adm
+		}
+	
+		#부위원장
+		text = {
+			trigger = {
+				tag = KOR
+				has_country_flag = KOR_flag_hnc
+			}
+			localization_key = hnc_vice_chairman
+		}
+	
+		#국무원 부주석
+		text = {
+			trigger = {
+				tag = KOR
+				has_country_flag = KOR_flag_kpg
+			}
+			localization_key = kpg_vice_president
 		}
 	#
 
