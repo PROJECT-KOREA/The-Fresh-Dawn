@@ -4,9 +4,10 @@ ideas = {
 	head_of_gov = {
 		
 		#이마이다 키요노리
-		HoG_Imaida_Kiyoroni = {
-			name = imaida_kiyonori
-			picture = minister_Imaida_Kiyoroni
+		HoG_Imaida_Kiyonori = {
+			name = Imaida_Kiyonori
+			picture = vacant
+			# picture = minister_Imaida_Kiyonori
 
 			allowed = { original_tag = GGK }
 
@@ -26,8 +27,9 @@ ideas = {
 		
 		#오노 로쿠이치로
 		HoG_Ono_Rokuichiro = {
-			name = ono_rokuichiro
-			picture = minister_Ono_Rokuichiro
+			name = Ono_Rokuichiro
+			picture = vacant
+			# picture = minister_Ono_Rokuichiro
 
 			allowed = { original_tag = GGK }
 
@@ -39,6 +41,7 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
+			cost = 0
 			removal_cost = -1
 			traits = {
 				hog
@@ -51,7 +54,7 @@ ideas = {
 		
 		#우시지마 쇼조
 		SM_Ushijima_Shozo = {
-			name = ushijima_shozo
+			name = Ushijima_Shozo
 			picture = minister_Ushijima_Shozo
 
 			allowed = { original_tag = GGK }
@@ -76,7 +79,7 @@ ideas = {
 
 		#하야시 시게조
 		EM_Hayashi_Shigezo = {
-			name = hayashi_shigezo
+			name = Hayashi_Shigezo
 			picture = minister_Hayashi_Shigezo
 
 			allowed = { original_tag = GGK }
@@ -106,8 +109,9 @@ ideas = {
 		
 		#이케다 키요시
 		IM_Ikeda_Kiyoshi = {
-			name = ikada_kiyoshi
-			picture = minister_Ikeda_Kiyoshi
+			name = Ikeda_Kiyoshi
+			picture = vacant
+			# picture = minister_Ikeda_Kiyoshi
 
 			allowed = { original_tag = GGK }
 

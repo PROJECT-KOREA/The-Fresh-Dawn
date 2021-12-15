@@ -84,12 +84,12 @@ guiTypes = {
 				position = { x = 45 y = 10 }
 			}
 			
-			iconType ={
-				name = "pol_view_bg"
-				spriteType = "GFX_pol_piechart_overlay_new"
-				position = { x = 9 y = 6 }
-				scale = 1.05
-			}
+			# iconType ={
+			# 	name = "pol_view_bg"
+			# 	spriteType = "GFX_pol_piechart_overlay_new"
+			# 	position = { x = 9 y = 6 }
+			# 	scale = 1.05
+			# }
 		}
 
 		containerWindowType = {
@@ -155,7 +155,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 9 y = 13 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 155
 				maxHeight = 20
@@ -163,8 +163,8 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 31 }
-				font = "aldrich_18_outline"
+				position = { x = 9 y = 30 }
+				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
 				maxHeight = 20
@@ -449,8 +449,8 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 19 y = 305 }
-			font = "aldrich_16_outline"
+			position = { x = 19 y = 303 }
+			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -846,19 +846,19 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "name"
-				position = { x = -80 y = -30 }
+				position = { x = -72 y = -27 }
 				font = "hoi_18mbs"
 				fixedsize = yes			
 				text = ""
-				maxWidth = 142
+				maxWidth = 200
 				maxHeight = 38
-				format = left
+				format = center
 				alwaystransparent = yes			
 			}
 
 			instantTextboxType = {
 				name = "traits"
-				position = { x = -20 y = 12 }
+				position = { x = -15 y = 12 }
 				font = "hoi_16mbs"
 				fixedsize = yes			
 				text = ""
@@ -871,7 +871,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = -80 y = 115 }
+			position = { x = 70 y = 115 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142

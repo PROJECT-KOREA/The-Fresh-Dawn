@@ -1,3 +1,7 @@
-spriteTypes = {	
-
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_entry_bg_2_character"
+		texturefile = "gfx/interface/idea_entry_bg_2_character.dds"
+		noOfFrames = 2
+	}
 }

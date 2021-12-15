@@ -33,7 +33,7 @@ idea_categories = {
 		character_slot = political_advisor
 		character_slot = political_advisor
 		
-		cost = 150
+		cost = 0
 		removal_cost = 0
 
 		ledger = civilian

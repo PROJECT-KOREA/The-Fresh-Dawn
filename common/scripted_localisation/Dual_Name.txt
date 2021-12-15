@@ -25,7 +25,7 @@ defined_text = {
 					has_country_flag = KOR_flag_kpg
 				}
 			}
-			localization_key = hong_saik
+			localization_key = Hong_Saik
 		}
 
 		#여운형

@@ -16,20 +16,20 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "title"
-			position = { x = 0 y = 4 }
+			position = { x = 50 y = 5 }
 			font = "hoi_20b"
 			text = "Characters Place Holder"
-			maxWidth = 450
+			maxWidth = 400
 			maxHeight = 20
 			format = center
 		}
 
 		instantTextboxType = {
 			name = "switch"
-			position = { x = 0 y = 26 }
+			position = { x = 50 y = 22 }
 			font = "hoi_18b"
 			text = "Switch out Character Place Holder"
-			maxWidth = 450
+			maxWidth = 400
 			maxHeight = 20
 			format = center
 		}
@@ -149,6 +149,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "command_character_view_item"
+		position = { x = 3 y = 0 }
 		size = { width = 231 height = 74 }
 		clipping = no
 			
@@ -160,7 +161,7 @@ guiTypes = {
 		buttonType = {
 			name = "button"
 			position = { x = 0 y = 0 }
-			spriteType = "GFX_idea_entry_bg_2"
+			spriteType = "GFX_idea_entry_bg_2_character"
 			clicksound = click_default
 		}
 			
