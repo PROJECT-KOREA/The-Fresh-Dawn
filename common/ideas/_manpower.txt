@@ -1,26 +1,31 @@
 ideas = {
 
+	#징병법
 	mobilization_laws = { 
 		law = yes
 		use_list_view = yes
 		
-		disarmed_nation = {
-						
+		#비무장 국가
+		disarmed_nation = {	
 			cost = 150
 			removal_cost = -1
 			level = 7
-			
-			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
-			}
+
+			available = { #has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws } }
 
 			modifier = {
-				conscription = 0.01
+				conscription = 0.01					#징병 가능 인구 1%
+				stability_factor = 0.1				#안정도 +10%
+				political_power_gain = 0.25			#일일 정치력 획득 +0.25
+				army_org_factor = 0.2 				#사단 조직력 +20%
+				army_morale = 0.2 					#사단 회복력 +20%
+				industrial_capacity_factory = 0.1 	#공장 생산량 +10%
+				industrial_capacity_dockyard = 0.1	#조선소 생산량 +10%
 			}
-			
 			cancel_if_invalid = no
 		}
 		
+		#지원자 한정
 		volunteer_only = {
 						
 			cost = 150
@@ -50,11 +55,13 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.015
+				conscription = 0.015 		# 1.5%
+				stability_factor = 0.05		#안정도 +5%
+				political_power_gain = 0.1	#일일 정치력 획득 +0.1
+				army_org_factor = 0.1		#사단 조직력 +10%
+				army_morale = 0.1			#사단 회복력 +10%
 			}
-			
 			default = yes
-			
 			cancel_if_invalid = no
 		}
 		
