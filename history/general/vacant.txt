@@ -5,9 +5,7 @@ every_possible_country = {
 	generate_character = {
 		token_base = HoG_vacant
 		name = vacant
-		portraits = {
-			army = { small= "GFX_idea_CHI_dai_li" }
-		}
+		portraits = { army = { small= "gfx/interface/ideas/vacant.dds" } }
 		advisor={
 			slot = head_of_gov
 			available  = { always = yes }
