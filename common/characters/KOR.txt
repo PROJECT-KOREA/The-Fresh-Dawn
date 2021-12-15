@@ -18,12 +18,9 @@ characters = {
 
     #지청천 (正/將)
     KOR_Ji_Cheongcheon = {
-        name = KOR_Ji_Cheongcheon
+        name = Ji_Cheongcheon
         portraits = {
-            civilian = {
-                small = "gfx/interface/ideas/KOR/character/KOR_Ji_Cheongcheon_army.dds"
-                large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
-            }
+            civilian = { large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds" }
             army = {
                 small = "gfx/interface/ideas/KOR/character/KOR_Ji_Cheongcheon_army.dds"
                 large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
@@ -60,7 +57,7 @@ characters = {
     KOR_Song_Jinwoo = {
         name = KOR_Song_Jinwoo
         portraits = {
-            civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" }
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" }
             army = { small = "gfx/interface/ideas/KOR/character/KOR_Song_Jinwoo.dds" }
         }
 

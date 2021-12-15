@@ -2,9 +2,10 @@
 capital = 282
 
 #인물 불러오기
+	recruit_character = JAP_emperor_hirohito
+	
 	recruit_character = JAP_tetsu_katayama
 	recruit_character = JAP_kyuichi_tokuda
-	recruit_character = JAP_emperor_hirohito
 	recruit_character = JAP_tomoyuki_yamashita
 	recruit_character = JAP_hisaichi_terauchi
 	recruit_character = JAP_shunroku_hata

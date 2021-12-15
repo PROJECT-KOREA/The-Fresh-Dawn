@@ -1,0 +1,85 @@
+#공석
+every_possible_country = {
+	limit = { always = yes }
+	
+	generate_character = {
+		token_base = HoG_vacant
+		name = vacant
+		portraits = {
+			army = { small= "GFX_idea_CHI_dai_li" }
+		}
+		advisor={
+			slot = head_of_gov
+			available  = { always = yes }
+			allowed  = { always = yes }
+			traits  = { hog }
+			cost = 0
+		}
+	}
+
+	
+	# generate_character = {
+	# 	token_base = HoG_No_One
+	# 	advisor = {
+	# 		slot = head_of_gov
+	# 		traits = { hog }
+	# 		available = { always = no }
+	# 		ai_will_do = { factor = 0 }
+	# 	}
+	# 	portraits = { 
+    #         army = { small = "gfx/interface/ideas/vacant.dds" }
+	# 	}
+	# }
+	
+	# generate_character = {
+	# 	token_base = SM_No_One
+	# 	advisor = {
+	# 		slot = security_misinter
+	# 		traits = { secmin }
+	# 		available = { always = no }
+	# 		ai_will_do = { factor = 0 }
+	# 	}
+	# 	portraits = { 
+    #         army = { small = "gfx/interface/ideas/vacant.dds" }
+	# 	}
+	# }
+	
+	# generate_character = {
+	# 	token_base = EM_No_One
+	# 	advisor = {
+	# 		slot = economy_minister
+	# 		traits = { ecomin }
+	# 		available = { always = no }
+	# 		ai_will_do = { factor = 0 }
+	# 	}
+	# 	portraits = { 
+    #         army = { small = "gfx/interface/ideas/vacant.dds" }
+	# 	}
+	# }
+	
+	# generate_character = {
+	# 	token_base = FM_No_One
+	# 	advisor = {
+	# 		slot = foreign_minister
+	# 		traits = { frnmin }
+	# 		available = { always = no }
+	# 		ai_will_do = { factor = 0 }
+	# 	}
+	# 	portraits = { 
+    #         army = { small = "gfx/interface/ideas/vacant.dds" }
+	# 	}
+	# }
+	
+	# generate_character = {
+	# 	token_base = IM_No_One
+	# 	advisor = {
+	# 		slot = intel_minister
+	# 		traits = { intmin }
+	# 		available = { always = no }
+	# 		ai_will_do = { factor = 0 }
+	# 	}
+	# 	portraits = { 
+    #         army = { small = "gfx/interface/ideas/vacant.dds" }
+	# 	}
+	# }
+}

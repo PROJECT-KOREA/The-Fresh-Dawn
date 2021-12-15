@@ -2,6 +2,12 @@
 defined_text = {
 	name = leader1_title
 	
+	#일본 제국 - 천황
+	text = {
+		trigger = { tag = JAP }
+		localization_key = tennou
+	}
+	
 	#일본령 조선 - 총독
 	text = {
 		trigger = { tag = GGK }
@@ -58,6 +64,12 @@ defined_text = {
 #지도자(부) 직책
 defined_text = {
 	name = leader2_title
+
+	#일본 제국 - 내각총리대신
+	text = {
+        trigger = { tag = JAP }
+		localization_key = souri_daijin
+	}
 
 	#일본령 조선 - 정무총감
 	text = {

@@ -16,39 +16,39 @@ on_actions = {
 				array = global.players
 				set_country_flag = show_welcome_splash
 			}
-			every_country = {
-				if = {
-					limit = { NOT = { has_idea_with_trait = hog } }
-					generate_character = {
-						token_base = HoG_vacant
-						name = vacant
-						advisor = {
-							slot = head_of_gov
-							cost = 50
-							idea_token = HoG_vacant
-							traits = { hog }
-							allowed = { always = yes }
-						}
-					}
-					add_ideas = HoG_vacant
-				}
-				# if = {
-				# 	limit = { NOT = { has_idea_with_trait = secmin } }
-				# 	add_ideas = SM_No_One
-				# }
-				# if = {
-				# 	limit = { NOT = { has_idea_with_trait = ecomin } }
-				# 	add_ideas = EM_No_One
-				# }
-				# if = {
-				# 	limit = { NOT = { has_idea_with_trait = frnmin } }
-				# 	add_ideas = FM_No_One
-				# }
-				# if = {
-				# 	limit = { NOT = { has_idea_with_trait = intmin } }
-				# 	add_ideas = IM_No_One
-				# }
-			}
+			# every_country = {
+			# 	if = {
+			# 		limit = { NOT = { has_idea_with_trait = hog } }
+			# 		generate_character = {
+			# 			token_base = HoG_vacant
+			# 			name = vacant
+			# 			advisor = {
+			# 				slot = head_of_gov
+			# 				cost = 50
+			# 				idea_token = HoG_vacant
+			# 				traits = { hog }
+			# 				allowed = { always = yes }
+			# 			}
+			# 		}
+			# 		# add_ideas = HoG_vacant
+			# 	}
+			# 	# if = {
+			# 	# 	limit = { NOT = { has_idea_with_trait = secmin } }
+			# 	# 	add_ideas = SM_No_One
+			# 	# }
+			# 	# if = {
+			# 	# 	limit = { NOT = { has_idea_with_trait = ecomin } }
+			# 	# 	add_ideas = EM_No_One
+			# 	# }
+			# 	# if = {
+			# 	# 	limit = { NOT = { has_idea_with_trait = frnmin } }
+			# 	# 	add_ideas = FM_No_One
+			# 	# }
+			# 	# if = {
+			# 	# 	limit = { NOT = { has_idea_with_trait = intmin } }
+			# 	# 	add_ideas = IM_No_One
+			# 	# }
+			# }
 		}
 	}
 }

@@ -2,10 +2,16 @@
 defined_text = {
     name = leader2_poartrait
 
+	#일본 제국 - 오카다 케이스케
+	text = {
+        trigger = { tag = JAP }
+		localization_key = GFX_Portrait_Okada_Keisuke
+	}
+
 	#일본령 조선 - 이마이다 키요노리
 	text = {
         trigger = { tag = GGK }
-		localization_key = GFX_Portrait_imaida_kiyonori
+		localization_key = GFX_Portrait_Imaida_Kiyonori
 	}
 
 	#대한민국
