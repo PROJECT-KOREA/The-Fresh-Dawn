@@ -24,11 +24,11 @@ idea_categories = {
 	}
 	
 	cabinet = {
-		character_slot = head_of_gov
-		character_slot = security_minister
-		character_slot = economy_minister
-		character_slot = foreign_minister
-		character_slot = intel_minister
+		slot = head_of_gov
+		slot = security_minister
+		slot = economy_minister
+		slot = foreign_minister
+		slot = intel_minister
 		character_slot = political_advisor
 		character_slot = political_advisor
 		character_slot = political_advisor

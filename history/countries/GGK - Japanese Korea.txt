@@ -1,10 +1,8 @@
 ﻿#수도 - 경성
 capital = 525
 
-#인물 불러오기
+#지도자
 recruit_character = GGK_Ugaki_Kazushige	#우가키 카즈시게
-recruit_character = GGK_Imaida_Kiyonori	#이마이다 키요노리
-# recruit_character = GGK_Minami_Jiro
 
 #전투서열
 oob = "GGK_1936"
@@ -27,11 +25,13 @@ add_ideas = {
 	# GGK_idea_naisen_yuugou
 	# GGK_idea_korean_independence_movement_1
 
-	# SM_Ushijima_Shozo
-	# EM_Hayashi_Shigezo
+	HoG_Imaida_Kiyoroni
+	SM_Ushijima_Shozo
+	EM_Hayashi_Shigezo
+	IM_Ikeda_Kiyoshi
 }
 
-#지지도
+#정권
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
@@ -41,15 +41,16 @@ set_politics = {
 
 #정당 지지도
 set_popularities = {
-	communism = 2 #박헌영
+	communism = 3 #박헌영
 	radical_socialism = 2 #?
-	social_democracy = 6 #여운형
+	social_democracy = 4 #여운형
 	national_liberalism = 3 #조만식
 	liberal_conservatism = 2 #송진우
-	democratic = 3 #이승만
+	democratic = 2 #?
 	national_conservatism = 2 #?
-	neutrality = 4 #?
-	fascism = 76 #총독부
+	neutrality = 1 #?
+	auto_despotism = 1
+	fascism = 80 #총독부
 }
 
 #시작 기술

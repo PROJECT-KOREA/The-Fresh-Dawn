@@ -51,8 +51,8 @@
  ### 툴팁 ###
  Leader1_name_tt:0 "§Y[This.Leader1_name]§!\n[This.Leader1_rank]"
  Leader1_desc_tt:0 "[This.Leader1_desc]"
- HoG_name_tt:0 "§Y[This.HoG_name]§!\n[This.HoG_rank]"
- HoG_desc_tt:0 "[This.HoG_desc]"
+ Leader2_name_tt:0 "§Y[This.Leader2_name]§!\n[This.Leader2_rank]"
+ Leader2_desc_tt:0 "[This.Leader2_desc]"
  SM_name_tt:0 "§Y[This.SM_name]§!\n[This.SM_rank]"
  SM_desc_tt:0 "[This.SM_desc]"
  EM_name_tt:0 "§Y[This.EM_name]§!\n[This.EM_rank]"

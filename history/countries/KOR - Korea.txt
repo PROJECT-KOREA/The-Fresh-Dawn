@@ -44,6 +44,7 @@ add_ideas = {
 	war_economy
 	
 	HoG_Sin_Ikhuie
+	# HoG_vacant
 	# FM_No_One
 	# EM_No_One
 	# SM_No_One

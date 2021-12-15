@@ -2,18 +2,18 @@
 every_possible_country = {
 	limit = { always = yes }
 	
-	generate_character = {
-		token_base = HoG_vacant
-		name = vacant
-		portraits = { army = { small= "gfx/interface/ideas/vacant.dds" } }
-		advisor={
-			slot = head_of_gov
-			available  = { always = yes }
-			allowed  = { always = yes }
-			traits  = { hog }
-			cost = 0
-		}
-	}
+	# generate_character = {
+	# 	token_base = HoG_vacant
+	# 	name = vacant
+	# 	portraits = { army = { small= "gfx/interface/ideas/vacant.dds" } }
+	# 	advisor={
+	# 		slot = head_of_gov
+	# 		available  = { always = yes }
+	# 		allowed  = { always = yes }
+	# 		traits  = { hog }
+	# 		cost = 0
+	# 	}
+	# }
 
 	
 	# generate_character = {

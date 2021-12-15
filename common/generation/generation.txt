@@ -30,11 +30,11 @@ idea_generation={
         
     }
 
-    head_of_gov = {  }
-    security_minister = {  }
-    economy_minister = {  }
-    foreign_minister = {  }
-    intel_minister = {  }
+    # head_of_gov = {  }
+    # security_minister = {  }
+    # economy_minister = {  }
+    # foreign_minister = {  }
+    # intel_minister = {  }
 
     theorist = { ### TODO
         army = {

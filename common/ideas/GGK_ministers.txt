@@ -1,0 +1,128 @@
+ideas = {
+
+	#정부수반
+	head_of_gov = {
+		
+		#이마이다 키요노리
+		HoG_Imaida_Kiyoroni = {
+			name = imaida_kiyonori
+			picture = minister_Imaida_Kiyoroni
+
+			allowed = { original_tag = GGK }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				hog
+			}
+		}
+		
+		#오노 로쿠이치로
+		HoG_Ono_Rokuichiro = {
+			name = ono_rokuichiro
+			picture = minister_Ono_Rokuichiro
+
+			allowed = { original_tag = GGK }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				hog
+			}
+		}
+	}
+
+	#내무국장
+	security_minister = {
+		
+		#우시지마 쇼조
+		SM_Ushijima_Shozo = {
+			name = ushijima_shozo
+			picture = minister_Ushijima_Shozo
+
+			allowed = { original_tag = GGK }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				secmin
+			}
+		}
+	}
+
+	#재무장관
+	economy_minister = {
+
+		#하야시 시게조
+		EM_Hayashi_Shigezo = {
+			name = hayashi_shigezo
+			picture = minister_Hayashi_Shigezo
+
+			allowed = { original_tag = GGK }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				ecomin
+			}
+		}
+	}
+
+	#외무장관
+	foreign_minister = {
+
+	}
+
+	#정보장관
+	intel_minister = {
+		
+		#이케다 키요시
+		IM_Ikeda_Kiyoshi = {
+			name = ikada_kiyoshi
+			picture = minister_Ikeda_Kiyoshi
+
+			allowed = { original_tag = GGK }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				intmin
+			}
+		}
+	}
+}

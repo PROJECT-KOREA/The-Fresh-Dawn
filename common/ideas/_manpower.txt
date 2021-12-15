@@ -28,7 +28,7 @@ ideas = {
 			level = 6
 			
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.015 group = mobilization_laws }
+				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
 				if = {
 					limit = {
 						original_tag = HUN
@@ -65,7 +65,7 @@ ideas = {
 			level = 5
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.025 group = mobilization_laws }
+				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
@@ -115,9 +115,10 @@ ideas = {
 				}
 				if = {
 					limit = {
-						original_tag = GGK
+						original_tag = BUL
+						has_dlc = "Battle for the Bosporus"
 					}
-					always = no
+					NOT = { has_idea = BUL_army_restrictions }
 				}
 			}
 
@@ -210,9 +211,10 @@ ideas = {
 				}
 				if = {
 					limit = {
-						original_tag = GGK
+						original_tag = BUL
+						has_dlc = "Battle for the Bosporus"
 					}
-					always = no
+					NOT = { has_idea = BUL_army_restrictions }
 				}
 			}
 			ai_will_do = {
@@ -221,6 +223,12 @@ ideas = {
 					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  800
+				}
+
+				modifier = {
+					tag = TUR
+					has_dlc = "Battle for the Bosporus"
+					factor = 50
 				}
 
 				modifier = { # china relies a lot on throwing bodies at the enemy
@@ -250,7 +258,7 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.1 group = mobilization_laws }
+				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
 					has_government = fascism
 					has_government = communism
@@ -321,9 +329,10 @@ ideas = {
 				}
 				if = {
 					limit = {
-						original_tag = GGK
+						original_tag = BUL
+						has_dlc = "Battle for the Bosporus"
 					}
-					always = no
+					NOT = { has_idea = BUL_army_restrictions }
 				}
 			}
 
@@ -387,7 +396,7 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.2 group = mobilization_laws }
+				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
 				has_war = yes
 				OR = {
 					has_war_support > 0.7
@@ -452,9 +461,10 @@ ideas = {
 				}
 				if = {
 					limit = {
-						original_tag = GGK
+						original_tag = BUL
+						has_dlc = "Battle for the Bosporus"
 					}
-					always = no
+					NOT = { has_idea = BUL_army_restrictions }
 				}
 			}
 
@@ -511,7 +521,7 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.25 group = mobilization_laws }
+				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
 				OR = {
 					has_war_support > 0.85
@@ -575,9 +585,10 @@ ideas = {
 				}
 				if = {
 					limit = {
-						original_tag = GGK
+						original_tag = BUL
+						has_dlc = "Battle for the Bosporus"
 					}
-					always = no
+					NOT = { has_idea = BUL_army_restrictions }
 				}
 			}
 

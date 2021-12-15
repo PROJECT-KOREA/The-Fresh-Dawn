@@ -351,7 +351,7 @@ characters = {
         name = KOR_Yi_Siyeong
         portraits = {
             # civilian = { large = "gfx/leaders/KOR/Portrait_Yi_Siyeong.dds" }
-            army = { small = "gfx/interface/ideas/KOR/character/KOR_Yi_Siyeong.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/character/KOR_Yi_Siyeong.dds" }
         }
 
         #정부수반 - 임시정부 부주석
@@ -389,7 +389,7 @@ characters = {
         name = KOR_Cho_wangu
         portraits = {
             # civilian = { large = "gfx/leaders/KOR/Portrait_Cho_wangu.dds" }
-            army = { small = "gfx/interface/ideas/KOR/character/KOR_Cho_Wangu.dds" }
+            # army = { small = "gfx/interface/ideas/KOR/character/KOR_Cho_Wangu.dds" }
         }
 
         #정부수반 - 임시정부 부주석 / 대한민국 국무총리

@@ -1,6 +1,5 @@
 guiTypes = {
 
-
 	windowType = {
 		name = "load_screen"
 		backGround =""
@@ -16,7 +15,7 @@ guiTypes = {
 		iconType = {
 			name ="bg_clausewitz_logo"
 			spriteType = "GFX_clausewitz_logo"
-			position = { x = 70 y = -400 }
+			position = { x = 50 y = -325 }
 			Orientation = "LOWER_LEFT"
 		}
 
