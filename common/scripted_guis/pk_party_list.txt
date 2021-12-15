@@ -1,0 +1,51 @@
+scripted_gui = {
+
+	party_list_button = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "party_list_button_ui"
+		
+		ai_check = { always = no }
+		visible = { always = no }
+
+		effects = {
+			cabinet_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_party_list } }
+					set_country_flag = show_party_list
+				}
+				if = {
+					limit = { has_country_flag = show_party_list }
+					clr_country_flag = show_party_list
+				}
+			}
+		}
+		
+		triggers = {
+			# cabinet_button_click_enabled = {
+			# 	NOT = { has_country_flag = show_cabinet }
+			# }
+		}
+	}
+
+	party_list = {
+		context_type = player_context
+		parent_window_token = topbar
+		window_name = "political_party_info_entry"
+		
+		visible = {
+			always = no
+			# has_country_flag = show_party_list
+		}
+		
+		effects = { close_click = { clr_country_flag = show_party_list } }
+
+		properties = {
+			# Leader1 = { image = "GFX_Portrait_Ji_Cheongcheon_Army" }
+			# Leader2 = { image = "GFX_Portrait_Hong_Saik" }
+			# CSC = { image = "GFX_Portrait_Kim_Kyeongcheon" }
+			# HRA_CDR = { image = "GFX_Portrait_Lee_Beomseok" }
+		}
+	}
+}
+

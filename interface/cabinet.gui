@@ -13,8 +13,8 @@ guiTypes = {
 		
 		instantTextboxType = { #직책명
 			name = "cabinet_button_text"
-			position = { x = -17 y = 9 }
-			font = "aldrich_20_outline"
+			position = { x = -17 y = 7 }
+			font = "hoi_18mbs"
 			text = "내각 개요"
 			maxWidth = 155
 			maxHeight = 20
