@@ -159,7 +159,7 @@ guiTypes = {
 		position = { x = 362 y = 186 }
 		iconType ={
 			name = "framecom_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -170,7 +170,7 @@ guiTypes = {
 		position = { x = 362 y = 202 }
 		iconType ={
 			name = "frameautsoc_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -181,7 +181,7 @@ guiTypes = {
 		position = { x = 362 y = 218 }
 		iconType ={
 			name = "frameradsoc_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -192,7 +192,7 @@ guiTypes = {
 		position = { x = 362 y = 234 }
 		iconType ={
 			name = "framesocdem_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -203,7 +203,7 @@ guiTypes = {
 		position = { x = 362 y = 250 }
 		iconType ={
 			name = "framesoclib_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -214,7 +214,7 @@ guiTypes = {
 		position = { x = 362 y = 266 }
 		iconType ={
 			name = "framenatlib_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -225,7 +225,7 @@ guiTypes = {
 		position = { x = 362 y = 282 }
 		iconType ={
 			name = "framelibcon_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -236,7 +236,7 @@ guiTypes = {
 		position = { x = 362 y = 298 }
 		iconType ={
 			name = "framesoccon_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -247,7 +247,7 @@ guiTypes = {
 		position = { x = 362 y = 314 }
 		iconType ={
 			name = "framenatcon_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -258,7 +258,7 @@ guiTypes = {
 		position = { x = 362 y = 330 }
 		iconType ={
 			name = "frameneu_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y =0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -269,7 +269,7 @@ guiTypes = {
 		position = { x = 362 y = 346 }
 		iconType ={
 			name = "frameautdes_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
@@ -280,7 +280,7 @@ guiTypes = {
 		position = { x = 362 y = 362 }
 		iconType ={
 			name = "framefas_icon"
-			spriteType = "GFX_party_background"
+			# spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 1

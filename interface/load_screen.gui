@@ -15,7 +15,7 @@ guiTypes = {
 		iconType = {
 			name ="bg_clausewitz_logo"
 			spriteType = "GFX_clausewitz_logo"
-			position = { x = 50 y = -325 }
+			position = { x = 70 y = -325 }
 			Orientation = "LOWER_LEFT"
 		}
 
@@ -85,7 +85,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -460 y = -155 }
+				position = { x = -450 y = -155 }
 				textureFile = ""
 				font = "loadscreen_tip"
 				borderSize = {x = 0 y = 0}
