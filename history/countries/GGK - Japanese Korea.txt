@@ -18,12 +18,11 @@ add_ideas = {
 	limited_exports
 	partial_economic_mobilisation
 
-	# GGK_idea_gengov_korea
-	# GGK_idea_sanmaizoushoku_keikeku
-	# GGK_idea_nousonshinkou_undou
-	# GGK_idea_industrialization
-	# GGK_idea_naisen_yuugou
-	# GGK_idea_korean_independence_movement_1
+	GGK_idea_gengov_korea
+	GGK_idea_naisen_yuugou
+	GGK_idea_bunka_touchi
+	GGK_idea_noukou_heishin
+	GGK_idea_heitan_kichika
 
 	HoG_Imaida_Kiyoroni
 	SM_Ushijima_Shozo

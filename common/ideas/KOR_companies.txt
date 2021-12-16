@@ -1,5 +1,32 @@
 ideas = {
 
+	#군수품 설계사
+	materiel_manufacturer = {
+		designer = yes
+		
+		#인천조병창
+		KOR_incheon_arsenal = {
+			
+			allowed = { original_tag = KOR }
+			available = { controls_state = 525 }
+			
+			research_bonus = { infantry_weapons = 0.15 }
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		#평양조병창
+		KOR_pyongyang_arsenal = {
+			
+			allowed = { original_tag = KOR }
+			available = { controls_state = 866 }
+			
+			research_bonus = { artillery = 0.15 }
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+
     #전차 설계사
 	tank_manufacturer = {
 		
@@ -15,69 +42,29 @@ ideas = {
 		
 	}
 
-	#군수품 설계사
-	materiel_manufacturer = {
-
-		designer = yes
-		
-		KOR_incheon_arsenal = {
-			
-			allowed = {
-				original_tag = KOR
-			}
-
-			available = {
-				controls_state = 525
-			}
-			
-			research_bonus = {
-				infantry_weapons = 0.15
-			}
-			
-			traits = { infantry_equipment_manufacturer }
-		}
-
-		KOR_pyongyang_arsenal = {
-			
-			allowed = {
-				original_tag = KOR
-			}
-
-			available = {
-				controls_state = 866
-			}
-			
-			research_bonus = {
-				artillery = 0.15
-			}
-			
-			traits = { artillery_manufacturer }
-		}
-	}
-
 	#산업 업체
 	industrial_concern = {
 
-		KOR_samsung = {
+		# KOR_samsung = {
 			
-			allowed = {
-				original_tag = KOR
-			}
+		# 	allowed = {
+		# 		original_tag = KOR
+		# 	}
 
-			available = {
-				controls_state = 870
-			}
+		# 	available = {
+		# 		controls_state = 870
+		# 	}
 			
-			research_bonus = {
-				industry = 0.15
-			}
+		# 	research_bonus = {
+		# 		industry = 0.15
+		# 	}
 
-			visible = {
-				has_country_flag = kor_woi_over
-			}
+		# 	visible = {
+		# 		has_country_flag = kor_woi_over
+		# 	}
 			
-			traits = { industrial_concern }
-		}
+		# 	traits = { industrial_concern }
+		# }
 
 		KOR_toshiba_electric = {
 			

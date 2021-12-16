@@ -43,43 +43,4 @@ characters = {
     #         id = -1
     #     }
     # }
-
-
-    #이마이다 키요노리 (首)
-    GGK_Imaida_Kiyonori = {
-        name = GGK_Imaida_Kiyonori
-        portraits = {
-            civilian = { large = "gfx/leaders/JAP_colony/Portrait_Imaida_Kiyonori.dds" }
-            army = { small = "gfx/interface/ideas/vacant.dds" }
-        }
-
-        #내무장관 - 총독부 내무국장
-        advisor = {
-			slot = head_of_gov
-			idea_token = GGK_HoG_Imaida_Kiyonori
-
-            visible = {
-                # OR = {
-                #     has_country_flag = KOR_flag_hnc
-				#     has_country_flag = KOR_flag_kpg
-				#     has_government = soc_conservatism
-                # }
-            }
-
-			available = {
-                custom_trigger_tooltip = {
-                    tooltip = minister_tooltip
-                    always = no
-                }
-			}
-
-			allowed = { original_tag = GGK }
-
-			traits = {
-				hog
-			}
-
-			removal_cost = -1
-		}
-    }
 }
