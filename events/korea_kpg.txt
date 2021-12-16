@@ -16,7 +16,7 @@ country_event = {
 
     option = {
         name = kor_kpg_internal.1.a
-        set_capital = 525
+        set_capital = { state = 525 }
         if = {
             limit = { has_idea = KOR_idea_independence_war_1 }
             remove_ideas = KOR_idea_independence_war_1
@@ -33,19 +33,19 @@ country_event = {
             load_focus_tree = KOR_Provisional_Government
 			complete_national_focus = KOR_focus_victory_in_woi
             delete_unit_template_and_units = {
-                division_template = "독립의용군"
+                division_template = "광복의용군"
             }
             add_ideas = {
                 civilian_economy
                 export_focus
                 volunteer_only
             }
-            set_popularities = {
-                neutrality = 50
-                democratic = 15
-                communism = 30
-                fascism = 5
-            }
+            # set_popularities = {
+            #     neutrality = 50
+            #     democratic = 15
+            #     communism = 30
+            #     fascism = 5
+            # }
             KOR_reset_state_names = yes
             KOR_reset_province_names = yes
         }
@@ -419,21 +419,21 @@ country_event = {
         set_country_flag = KOR_flag_rok
         set_country_flag = KOR_kip
         set_party_name = { 
-            ideology = democratic 
-            long_name = KOR_democratic_party_kip_long 
-            name = KOR_democratic_party_kip 
+            ideology = national_conservatism 
+            long_name = KOR_national_conservatism_party_kip_long 
+            name = KOR_national_conservatism_party_kip 
         }
-        set_politics = { ruling_party = democratic }
-        create_country_leader = {
-            name = "Kim Koo"
-            desc = "POLITICS_KIM_KOO_DESC"
-            picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
-            expire = "1965.1.1"
-            ideology = national_conservatism
-            traits = {
+        set_politics = { ruling_party = national_conservatism }
+        # create_country_leader = {
+        #     name = "Kim Koo"
+        #     desc = "POLITICS_KIM_KOO_DESC"
+        #     picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+        #     expire = "1965.1.1"
+        #     ideology = nat_conservatism
+        #     traits = {
 
-            }
-        }
+        #     }
+        # }
         hidden_effect = {
             add_ideas = {
                 HoG_No_One

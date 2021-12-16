@@ -15,7 +15,7 @@ guiTypes = {
 		iconType = {
 			name ="bg_clausewitz_logo"
 			spriteType = "GFX_clausewitz_logo"
-			position = { x = 70 y = -325 }
+			position = { x = 70 y = -330 }
 			Orientation = "LOWER_LEFT"
 		}
 

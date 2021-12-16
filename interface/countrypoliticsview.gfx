@@ -627,7 +627,7 @@ spriteTypes = {
 	
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 32
+		size = 57
 	}
 	
 	pieChartType = {

@@ -2,164 +2,238 @@ spriteTypes = {
 
 	#공산주의
 	spriteType = {
-		name = "GFX_ideology_leninism"
-		texturefile = "gfx/interface/ideologies/leninism.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_stalinism"
-		texturefile = "gfx/interface/ideologies/stalinism.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_maoism"
-		texturefile = "gfx/interface/ideologies/maoism.tga"
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism.dds"
 	}
 
 	#권위사회주의
 	spriteType = {
 		name = "GFX_ideology_auth_socialism_group"
-		texturefile = "gfx/interface/ideologies/auth_socialism_group.tga"
+		texturefile = "gfx/interface/ideologies/aut_socialism.dds"
 	}
 
 	#급진사회주의
 	spriteType = {
 		name = "GFX_ideology_radical_socialism_group"
-		texturefile = "gfx/interface/ideologies/radical_socialism_group.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_social_nationalism"
-		texturefile = "gfx/interface/ideologies/social_nationalism.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_agrarian_socialism"
-		texturefile = "gfx/interface/ideologies/agrarian_socialism.tga"
+		texturefile = "gfx/interface/ideologies/rad_socialism.dds"
 	}
 
 	#사회민주주의
 	spriteType = {
 		name = "GFX_ideology_social_democracy_group"
-		texturefile = "gfx/interface/ideologies/social_democratic_group.tga"
+		texturefile = "gfx/interface/ideologies/soc_democracy.dds"
 	}
 
 	#사회자유주의
 	spriteType = {
 		name = "GFX_ideology_social_liberalism_group"
-		texturefile = "gfx/interface/ideologies/social_liberal_group.tga"
+		texturefile = "gfx/interface/ideologies/soc_liberalism.dds"
 	}
 
 	#국민자유주의
 	spriteType = {
 		name = "GFX_ideology_national_liberalism_group"
-		texturefile = "gfx/interface/ideologies/national_liberalism.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_market_liberal"
-		texturefile = "gfx/interface/ideologies/market_liberal.tga"
+		texturefile = "gfx/interface/ideologies/nat_liberalism.dds"
 	}
 
 	#자유보수주의
 	spriteType = {
-		name = "liberal_conservatism_group"
-		texturefile = "gfx/interface/ideologies/liberal_conservatism.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_centrism"
-		texturefile = "gfx/interface/ideologies/centrism.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_christian_democracy"
-		texturefile = "gfx/interface/ideologies/christian_democracy.tga"
+		name = "GFX_ideology_liberal_conservatism_group"
+		texturefile = "gfx/interface/ideologies/lib_conservatism.dds"
 	}
 
 	#사회보수주의
 	spriteType = {
 		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/conservative_group.tga"
-	}
-	# spriteType = {
-	# 	name = "GFX_ideology_ilminism"
-	# 	texturefile = "gfx/interface/ideologies/ilminism.tga"
-	# }
-	spriteType = {
-		name = "GFX_ideology_christian_democracy_soccon"
-		texturefile = "gfx/interface/ideologies/christian_democracy.tga"
+		texturefile = "gfx/interface/ideologies/soc_conservatism.dds"
 	}
 
 	#국민보수주의
 	spriteType = {
 		name = "GFX_ideology_national_conservatism_group"
-		texturefile = "gfx/interface/ideologies/national_conservatism.tga"
+		texturefile = "gfx/interface/ideologies/nat_conservatism.dds"
 	}
-	# spriteType = {
-	# 	name = "GFX_ideology_samgyun"
-	# 	texturefile = "gfx/interface/ideologies/samgyun.tga"
-	# }
-	# spriteType = {
-	# 	name = "GFX_ideology_korean_nationalism"
-	# 	texturefile = "gfx/interface/ideologies/korean_nationalism.tga"
-	# }
 
-	#권위주의
-    spriteType = {
+	#권위민주주의
+	spriteType = {
 		name = "GFX_ideology_neutrality_group"
-		texturefile = "gfx/interface/ideologies/authoritarian.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_military_dic"
-		texturefile = "gfx/interface/ideologies/military_dic.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_oligarchism"
-		texturefile = "gfx/interface/ideologies/oligarchism.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_colonial_gov"
-		texturefile = "gfx/interface/ideologies/colonial_gov.tga"
+		texturefile = "gfx/interface/ideologies/aut_democracy.dds"
 	}
 
 	#전제독재주의
-    spriteType = {
+	spriteType = {
 		name = "GFX_ideology_auto_despotism_group"
-		texturefile = "gfx/interface/ideologies/nationalism_group.tga"
+		texturefile = "gfx/interface/ideologies/aut_despotism.dds"
 	}
-    spriteType = {
-		name = "GFX_ideology_semi_constitutional"
-		texturefile = "gfx/interface/ideologies/semi_constitutional.tga"
+
+	#전제독재주의
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism.dds"
 	}
-    spriteType = {
-		name = "GFX_ideology_dang_guo"
-		texturefile = "gfx/interface/ideologies/dang_guo.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_warlordism"
-		texturefile = "gfx/interface/ideologies/warlordism.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_yokusan"
-		texturefile = "gfx/interface/ideologies/yokusan.tga"
-	}
-    # spriteType = {
-	# 	name = "GFX_ideology_ilminism_auto"
-	# 	texturefile = "gfx/interface/ideologies/ilminism.tga"
+
+
+
+	# #공산주의
+	# spriteType = {
+	# 	name = "GFX_ideology_leninism"
+	# 	texturefile = "gfx/interface/ideologies/leninism.tga"
+	# }
+	# spriteType = {
+	# 	name = "GFX_ideology_stalinism"
+	# 	texturefile = "gfx/interface/ideologies/stalinism.tga"
+	# }
+	# spriteType = {
+	# 	name = "GFX_ideology_maoism"
+	# 	texturefile = "gfx/interface/ideologies/maoism.tga"
 	# }
 
-	#파시즘
-    spriteType = {
-		name = "GFX_ideology_fascism_group"
-		texturefile = "gfx/interface/ideologies/fascism.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_nazism"
-		texturefile = "gfx/interface/ideologies/nazism.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_italian_fascism"
-		texturefile = "gfx/interface/ideologies/italian_fascism.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_falangism"
-		texturefile = "gfx/interface/ideologies/falangism.tga"
-	}
-    spriteType = {
-		name = "GFX_ideology_rexism"
-		texturefile = "gfx/interface/ideologies/rexism.tga"
-	}
+	# #권위사회주의
+	# spriteType = {
+	# 	name = "GFX_ideology_auth_socialism_group"
+	# 	texturefile = "gfx/interface/ideologies/auth_socialism_group.tga"
+	# }
+
+	# #급진사회주의
+	# spriteType = {
+	# 	name = "GFX_ideology_radical_socialism_group"
+	# 	texturefile = "gfx/interface/ideologies/radical_socialism_group.tga"
+	# }
+	# spriteType = {
+	# 	name = "GFX_ideology_social_nationalism"
+	# 	texturefile = "gfx/interface/ideologies/social_nationalism.tga"
+	# }
+	# spriteType = {
+	# 	name = "GFX_ideology_agrarian_socialism"
+	# 	texturefile = "gfx/interface/ideologies/agrarian_socialism.tga"
+	# }
+
+	# #사회민주주의
+	# spriteType = {
+	# 	name = "GFX_ideology_social_democracy_group"
+	# 	texturefile = "gfx/interface/ideologies/social_democratic_group.tga"
+	# }
+
+	# #사회자유주의
+	# spriteType = {
+	# 	name = "GFX_ideology_social_liberalism_group"
+	# 	texturefile = "gfx/interface/ideologies/social_liberal_group.tga"
+	# }
+
+	# #국민자유주의
+	# spriteType = {
+	# 	name = "GFX_ideology_national_liberalism_group"
+	# 	texturefile = "gfx/interface/ideologies/national_liberalism.tga"
+	# }
+	# spriteType = {
+	# 	name = "GFX_ideology_market_liberal"
+	# 	texturefile = "gfx/interface/ideologies/market_liberal.tga"
+	# }
+
+	# #자유보수주의
+	# spriteType = {
+	# 	name = "liberal_conservatism_group"
+	# 	texturefile = "gfx/interface/ideologies/liberal_conservatism.tga"
+	# }
+	# spriteType = {
+	# 	name = "GFX_ideology_centrism"
+	# 	texturefile = "gfx/interface/ideologies/centrism.tga"
+	# }
+	# spriteType = {
+	# 	name = "GFX_ideology_christian_democracy"
+	# 	texturefile = "gfx/interface/ideologies/christian_democracy.tga"
+	# }
+
+	# #사회보수주의
+	# spriteType = {
+	# 	name = "GFX_ideology_democratic_group"
+	# 	texturefile = "gfx/interface/ideologies/conservative_group.tga"
+	# }
+	# # spriteType = {
+	# # 	name = "GFX_ideology_ilminism"
+	# # 	texturefile = "gfx/interface/ideologies/ilminism.tga"
+	# # }
+	# spriteType = {
+	# 	name = "GFX_ideology_christian_democracy_soccon"
+	# 	texturefile = "gfx/interface/ideologies/christian_democracy.tga"
+	# }
+
+	# #국민보수주의
+	# spriteType = {
+	# 	name = "GFX_ideology_national_conservatism_group"
+	# 	texturefile = "gfx/interface/ideologies/national_conservatism.tga"
+	# }
+	# # spriteType = {
+	# # 	name = "GFX_ideology_samgyun"
+	# # 	texturefile = "gfx/interface/ideologies/samgyun.tga"
+	# # }
+	# # spriteType = {
+	# # 	name = "GFX_ideology_korean_nationalism"
+	# # 	texturefile = "gfx/interface/ideologies/korean_nationalism.tga"
+	# # }
+
+	# #권위주의
+    # spriteType = {
+	# 	name = "GFX_ideology_neutrality_group"
+	# 	texturefile = "gfx/interface/ideologies/authoritarian.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_military_dic"
+	# 	texturefile = "gfx/interface/ideologies/military_dic.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_oligarchism"
+	# 	texturefile = "gfx/interface/ideologies/oligarchism.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_colonial_gov"
+	# 	texturefile = "gfx/interface/ideologies/colonial_gov.tga"
+	# }
+
+	# #전제독재주의
+    # spriteType = {
+	# 	name = "GFX_ideology_auto_despotism_group"
+	# 	texturefile = "gfx/interface/ideologies/nationalism_group.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_semi_constitutional"
+	# 	texturefile = "gfx/interface/ideologies/semi_constitutional.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_dang_guo"
+	# 	texturefile = "gfx/interface/ideologies/dang_guo.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_warlordism"
+	# 	texturefile = "gfx/interface/ideologies/warlordism.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_yokusan"
+	# 	texturefile = "gfx/interface/ideologies/yokusan.tga"
+	# }
+    # # spriteType = {
+	# # 	name = "GFX_ideology_ilminism_auto"
+	# # 	texturefile = "gfx/interface/ideologies/ilminism.tga"
+	# # }
+
+	# #파시즘
+    # spriteType = {
+	# 	name = "GFX_ideology_fascism_group"
+	# 	texturefile = "gfx/interface/ideologies/fascism.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_nazism"
+	# 	texturefile = "gfx/interface/ideologies/nazism.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_italian_fascism"
+	# 	texturefile = "gfx/interface/ideologies/italian_fascism.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_falangism"
+	# 	texturefile = "gfx/interface/ideologies/falangism.tga"
+	# }
+    # spriteType = {
+	# 	name = "GFX_ideology_rexism"
+	# 	texturefile = "gfx/interface/ideologies/rexism.tga"
+	# }

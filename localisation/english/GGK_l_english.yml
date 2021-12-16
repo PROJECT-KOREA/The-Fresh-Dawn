@@ -133,19 +133,6 @@
  GGK_operation_eagle:0 "국내진공작전 개시"
  GGK_operation_eagle_desc:0 ""
  GGK_operation_eagle_tt:0 "§Y한국광복군§!이 §Y국내진공작전§!을 개시할 것입니다.\n"
-
- #이중 지도자
- sotoku:0 "총독"
- seimu_soukan:0 "정무총감"
-
- #내각
- imaida_kiyonori:0 "이마이다 기요노리"
- ushijima_shozo:0 "우시지마 쇼조"
- hayashi_shigezo:0 "하야시 시게조"
-
- ggk_hog:0 "총무국장"
- ggk_sm:0 "내무국장"
- ggk_em:0 "재무국장"
  
  #산업 업체
  GGK_oriental_development_company:0 "동양척식주식회사"
