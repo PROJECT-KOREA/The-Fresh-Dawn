@@ -1,5 +1,14 @@
 scripted_gui = {
 
+	current_ruling_party = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "current_ruling_party_ui"
+		
+		ai_check = { always = yes }
+		visible = { always = yes }
+	}
+
 	party_list_button = {
 		context_type = player_context
 		parent_window_token = politics_tab

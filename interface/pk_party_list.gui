@@ -1,4 +1,19 @@
 guiTypes = {
+	containerWindowType = {
+		name = "current_ruling_party_ui"
+		position = { x = 0 y = 0 }
+			
+		instantTextboxType = {
+			name = ""
+			position = { x = 435 y = 90 }
+			font = "aldrich_18_outline"
+			text = "[ROOT.GetRulingParty]"
+			fixedsize = yes
+			maxWidth = 95
+			maxHeight = 20
+		}
+	}
+
 
 	### 버튼 ###
 	containerWindowType = {
