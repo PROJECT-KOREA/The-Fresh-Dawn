@@ -75,7 +75,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x = 447 y = 120 }
+			position = { x = 449 y = 117 }
 			size = { width = 100 height = 100 }
 			clipping = no
 
@@ -87,9 +87,8 @@ guiTypes = {
 			
 			iconType ={
 				name = "pol_view_bg"
-				spriteType = "GFX_pol_piechart_overlay_new"
-				position = { x = -36 y = 96 }
-				scale = 1.05
+				spriteType = "GFX_pol_piechart_overlay"
+				position = { x = -80 y = -4	 }
 			}
 		}
 
@@ -174,22 +173,23 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 16 y = 227 }
+				position = { x = 0 y = 260 }
 				font = "hoi_18mbs"
 				text = "faction"
-				maxWidth = 150
+				maxWidth = 181
 				maxHeight = 20
 				multiline = no
 				format = center
 			}
 			
-			# buttonType = {
-			# 	name = "dismantle_faction"
-			# 	position = { x = 68 y = 252 }
-			# 	quadTextureSprite = "GFX_dismantle_faction_button"
-			# 	#buttonFont = "hoi_16mbs"
-			# 	#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
-			# }			
+			buttonType = {
+				name = "dismantle_faction"
+				position = { x = 154 y = 217 }
+				quadTextureSprite = "GFX_dismantle_faction_button"
+				#buttonFont = "hoi_16mbs"
+				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
+				scale = 0.89
+			}
 			
 		}
 						
@@ -207,8 +207,8 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 117 y = 9 }
-				font = "hoi_22chat"
+				position = { x = 117 y = 12 }
+				font = "hoi_20bs"
 				text = "autonomy"
 				maxWidth = 181
 				maxHeight = 20
@@ -224,8 +224,8 @@ guiTypes = {
 			
 			buttonType = {
 				name = "prev_autonomy_level"
-				position = { x = 104 y = -2 }
-				quadTextureSprite = "GFX_autonomy_level_button"
+				position = { x = 120 y = 3 }
+				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 			
 			iconType = {
@@ -238,8 +238,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 120 y = 3 }
-				size = { x = 50 y = 50 }
+				position = { x = 123 y = 3 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				# alwaystransparent = yes
 			}
@@ -628,8 +627,8 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 70 y = 15 }
-			font = "hoi_20b"
+			position = { x = 70 y = 14	 }
+			font = "aldrich_22_outline"
 			text = "Government"
 			maxWidth = 300
 			maxHeight = 20
@@ -797,7 +796,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "add_idea_button"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 1 }
 			spriteType = "GFX_add_pol_idea_button"
 			clicksound = click_default
 		}
