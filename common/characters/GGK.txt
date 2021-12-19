@@ -18,7 +18,7 @@ characters = {
 
     #우가키 카즈시게 (正)
     GGK_Ugaki_Kazushige = {
-        name = GGK_Ugaki_Kazuhsige
+        name = Ugaki_Kazuhsige
         portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_ugaki_kazushige.dds" } }
 
         #지도자 - 파시즘

@@ -24,7 +24,7 @@ add_ideas = {
 	GGK_idea_noukou_heishin
 	GGK_idea_heitan_kichika
 
-	HoG_Imaida_Kiyoroni
+	HoG_Imaida_Kiyonori
 	SM_Ushijima_Shozo
 	EM_Hayashi_Shigezo
 	IM_Ikeda_Kiyoshi

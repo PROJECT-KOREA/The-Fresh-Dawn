@@ -83,7 +83,7 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 100
+	auto_despotism = 100
 }
 
 #시작 기술

@@ -46,10 +46,9 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x = 365 y = 57 }
+			position = { x = 362 y = 52 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
-			scale = 0.9
 		}
 
 		containerWindowType = {
@@ -87,7 +86,7 @@ guiTypes = {
 			
 			iconType ={
 				name = "pol_view_bg"
-				spriteType = "GFX_pol_piechart_overlay"
+				spriteType = "GFX_pol_piechart_overlay_new"
 				position = { x = -80 y = -4	 }
 			}
 		}

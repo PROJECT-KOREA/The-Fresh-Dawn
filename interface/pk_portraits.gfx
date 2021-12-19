@@ -16,10 +16,13 @@ spriteTypes = {
 		}
 	#
 		
+	### 중화민국 국민정부 ###
+		#장제스
 		spriteType = {
 			name = "GFX_Portrait_Chiang_Kaishek"
 			texturefile = "gfx/leaders/CHI/Portrait_Chiang_Kaishek.dds"
 		}
+	#
 		
 	### 대한민국 ###
 		#지청천

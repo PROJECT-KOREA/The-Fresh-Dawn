@@ -85,7 +85,7 @@ defined_text = {
 
 	#중화민국 국민정부 - 행정원장
 	text = {
-        trigger = { tag = GGK }
+        trigger = { tag = CHI }
 		localization_key = chi_premier
 	}
 
