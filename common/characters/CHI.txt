@@ -3,7 +3,7 @@ characters = {
 	CHI_Lin_Sen = {
 		name = Lin_Sen
 		portraits = {
-			# civilian = { large = "gfx/leaders/CHI/Portrait_Lin_Sen.dds" }
+			civilian = { large = "gfx/leaders/CHI/Portrait_Lin_Sen.dds" }
 		}
 		country_leader = {
 			ideology = dang_guo

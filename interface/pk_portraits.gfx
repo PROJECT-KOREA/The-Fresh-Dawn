@@ -15,7 +15,12 @@ spriteTypes = {
 			texturefile = "gfx/leaders/JAP_colony/Portrait_Imaida_Kiyonori.dds"
 		}
 	#
-
+		
+		spriteType = {
+			name = "GFX_Portrait_Chiang_Kaishek"
+			texturefile = "gfx/leaders/CHI/Portrait_Chiang_Kaishek.dds"
+		}
+		
 	### 대한민국 ###
 		#지청천
 		spriteType = {
