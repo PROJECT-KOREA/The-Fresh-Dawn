@@ -13,6 +13,12 @@ defined_text = {
 		trigger = { tag = GGK }
 		localization_key = sotoku
 	}
+	
+	#중화민국 국민정부 - 국민정부주석
+	text = {
+		trigger = { tag = CHI }
+		localization_key = chi_chairman
+	}
 
 	#대한민국 임시정부
 
@@ -75,6 +81,12 @@ defined_text = {
 	text = {
         trigger = { tag = GGK }
 		localization_key = seimu_soukan
+	}
+
+	#중화민국 국민정부 - 행정원장
+	text = {
+        trigger = { tag = GGK }
+		localization_key = chi_premier
 	}
 
 	#대한민국 임시정부

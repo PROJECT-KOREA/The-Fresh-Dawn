@@ -12,6 +12,9 @@
   #일본령 조선
   sotoku:0 "총독"
 
+  #중화민국 국민정부
+  chi_chairman:0 "국민정부 주석"
+
   #대한민국 임시정부
   kia_commander:0 "광복군 총사령관"
   mil_gov:0 "군정장관"
@@ -30,6 +33,9 @@
 
   #일본령 조선
   seimu_soukan:0 "정무총감"
+
+  #중화민국 국민정부
+  chi_premier:0 "행정원장"
 
   #대한민국 임시정부
   kia_vice_commander:0 "광복군 부사령관"

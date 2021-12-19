@@ -14,6 +14,12 @@ defined_text = {
 		localization_key = Imaida_Kiyonori
 	}
 
+	#중화민국 국민정부 - 장제스
+	text = {
+        trigger = { tag = CHI }
+		localization_key = Chiang_Kaishek
+	}
+
 	#대한민국
 		#홍사익
 		text = {
