@@ -69,4 +69,7 @@ defined_text = {
 			localization_key = GFX_Portrait_Kim_Kyusik
 		}
 	#
+
+	#공석
+	text = { localization_key = GFX_Portrait_vacant }
 }

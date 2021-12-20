@@ -9,7 +9,7 @@ ideas = {
 			picture = vacant
 			# picture = minister_Okada_Keisuke
 
-			allowed = { original_tag = GGK }
+			allowed = { original_tag = JAP }
 
 			available = {
 				custom_trigger_tooltip = {
@@ -28,17 +28,80 @@ ideas = {
 
 	#내무국장
 	security_minister = {
+		
+		#고토 후미오
+		SM_Goto_Fumio = {
+			name = Goto_Fumio
+			picture = vacant
+			# picture = minister_Goto_Fumio
 
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				secmin
+			}
+		}
 	}
 
 	#재무장관
 	economy_minister = {
+		
+		#타카하시 코레키요
+		EM_Takahashi_Korekiyo = {
+			name = Takahashi_Korekiyo
+			picture = vacant
+			# picture = minister_Takahashi_Korekiyo
 
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				ecomin
+			}
+		}
 	}
 
 	#외무장관
 	foreign_minister = {
+		
+		#히로타 코키
+		FM_Hirota_KoKi = {
+			name = Hirota_KoKi
+			picture = vacant
+			# picture = minister_Hirota_KoKi
 
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				secmin
+			}
+		}
 	}
 
 	#정보장관

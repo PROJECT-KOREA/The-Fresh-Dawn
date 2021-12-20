@@ -3,12 +3,13 @@ ideas = {
 	#정부수반
 	head_of_gov = {
 		
-		#장제스
-		HoG_Chiang_Kaishek = {
-			name = Chiang_Kaishek
-			picture = minister_Chiang_Kaishek
+		#장징후이
+		HoG_Zhang_Jinghui = {
+			name = Zhang_Jinghui
+			picture = vacant
+			# picture = minister_Zhang_Jinghui
 
-			allowed = { original_tag = CHI }
+			allowed = { original_tag = MAN }
 
 			available = {
 				custom_trigger_tooltip = {

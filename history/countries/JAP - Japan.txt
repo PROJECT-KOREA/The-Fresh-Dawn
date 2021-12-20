@@ -109,7 +109,10 @@ add_ideas = {
 	JAP_duplicate_research_efforts
 	JAP_militarism
 
-	# HoG_vacant
+	HoG_Okada_Keisuke
+	SM_Goto_Fumio
+	EM_Takahashi_Korekiyo
+	FM_Hirota_KoKi
 
 	# JAP_hiroshi_oshima
 	# JAP_chiune_sugihara

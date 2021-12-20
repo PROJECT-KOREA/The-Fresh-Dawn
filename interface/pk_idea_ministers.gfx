@@ -10,7 +10,7 @@ spriteTypes = {
 
 	# 일본 제국 #
 	spriteType = {
-		name = "GFX_idea_minister_Ushijima_Shozo"
+		name = "GFX_idea_minister_Okada_Keisuke"
 		texturefile = "gfx/interface/ideas/JAP/JAP_Okada_Keisuke.dds"
 	}
 
@@ -26,6 +26,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_minister_Hayashi_Shigezo"
 		texturefile = "gfx/interface/ideas/GGK/GGK_Hayashi_shigezo.dds"
+	}
+
+	# 중화민국 #
+	spriteType = {
+		name = "GFX_idea_minister_Chiang_Kaishek"
+		texturefile = "gfx/interface/ideas/CHI/CHI_Chiang_Kaishek.dds"
 	}
 
 	# 대한민국 #
