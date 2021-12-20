@@ -6,8 +6,7 @@ ideas = {
 		#오카다 케이스케
 		HoG_Okada_Keisuke = {
 			name = Okada_Keisuke
-			picture = vacant
-			# picture = minister_Okada_Keisuke
+			picture = minister_Okada_Keisuke
 
 			allowed = { original_tag = JAP }
 
@@ -82,7 +81,7 @@ ideas = {
 	foreign_minister = {
 		
 		#히로타 코키
-		FM_Hirota_KoKi = {
+		FM_Hirota_Koki = {
 			name = Hirota_KoKi
 			picture = vacant
 			# picture = minister_Hirota_KoKi
@@ -99,7 +98,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				secmin
+				frnmin
 			}
 		}
 	}

@@ -128,27 +128,40 @@ guiTypes = {
 	### country entry
 	containerWindowType = {
 		name = "country_entry"
-		
+			
+		buttonType = {
+			name = "country_leader"
+			quadTextureSprite ="GFX_leader_unknown"
+			position = { x = 17 y = 22 }
+			scale=0.75
+			clicksound = click_checkbox
+		}
+	
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 32 y = 18 }
+			position = { x = 34 y = 188 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}		
-		
-		buttonType = {
-			name = "country_flag_overlay"
-			quadTextureSprite = "GFX_large_flag_frame"
-			position = { x = 26 y = 17 }
-			clicksound = click_checkbox
-		}	
-		
+	
 		buttonType = {
 			name = "country"	
-			quadTextureSprite = "GFX_large_flag_frame"
-			position = { x = 26 y = 17 }
+			quadTextureSprite = "GFX_country_selection_entry"
+			position = { x=0 y =0 }
 			clicksound = click_checkbox
+		}		
+		
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 8 y = 247 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 131
+			maxHeight = 20
+			fixedsize = yes	
+			format = center		
+			Orientation = "UPPER_LEFT"
 		}
 	}
 	
@@ -180,7 +193,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x = 8 y = 7 }
+			position = { x = 9 y = 8 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

@@ -675,7 +675,7 @@ ideas = {
 			removal_cost = -1
 			traits = {
 				# capable_administrator
-				kpg
+				# kpg
 				secmin
 			}
 		}
@@ -702,7 +702,7 @@ ideas = {
 			removal_cost = -1
 			traits = {
 				# capable_administrator
-				kpg
+				# kpg
 				secmin
 			}
 		}
@@ -987,7 +987,7 @@ ideas = {
 			removal_cost = -1
 			traits = {
 				adequate_diplomat
-				kpg
+				# kpg
 				frnmin
 			}
 		}
@@ -1014,7 +1014,7 @@ ideas = {
 			removal_cost = -1
 			traits = {
 				competent_ambassador
-				kpg
+				# kpg
 				frnmin
 			}
 		}

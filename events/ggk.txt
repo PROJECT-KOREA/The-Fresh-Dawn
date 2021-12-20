@@ -155,10 +155,10 @@ country_event = {
         name = ggk_korea.1.a
         set_country_flag = GGK_flag_ki_yes
         custom_effect_tooltip = GGK_ki_yes_tt
-        swap_ideas = {
-            remove_idea = GGK_idea_korean_independence_movement_1
-            add_idea = GGK_idea_korean_independence_movement_2
-        }
+        # swap_ideas = {
+        #     remove_idea = GGK_idea_korean_independence_movement_1
+        #     add_idea = GGK_idea_korean_independence_movement_2
+        # }
     }
 
     option = {
@@ -180,10 +180,10 @@ country_event = {
 
     option = {
         name = ggk_korea.2.a
-        swap_ideas = {
-            remove_idea = GGK_idea_korean_independence_movement_2
-            add_idea = GGK_idea_korean_independence_movement_3
-        }
+        # swap_ideas = {
+        #     remove_idea = GGK_idea_korean_independence_movement_2
+        #     add_idea = GGK_idea_korean_independence_movement_3
+        # }
     }
 }
 
@@ -199,10 +199,10 @@ country_event = {
 
     option = {
         name = ggk_korea.3.a
-        swap_ideas = {
-            remove_idea = GGK_idea_korean_independence_movement_2
-            add_idea = GGK_idea_korean_independence_movement_3
-        }
+        # swap_ideas = {
+        #     remove_idea = GGK_idea_korean_independence_movement_2
+        #     add_idea = GGK_idea_korean_independence_movement_3
+        # }
     }
 }
 

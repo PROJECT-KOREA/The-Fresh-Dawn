@@ -79,6 +79,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/generic_checkbox2.dds"
 		noOfFrames = 2
 	}
+		
+	spriteType = {
+		name = "GFX_generic_checkbox3_orange"
+		texturefile = "gfx/interface/division_equipment/generic_checkbox3_orange.dds"
+		noOfFrames = 2
+	}
 	
 	spriteType = {
 		name = "GFX_checkbox_small4"
@@ -265,14 +271,14 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_country_selection_bg"
-		texturefile = "gfx/interface/country_selection_bg.dds"
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		texturefile = "gfx/interface/country_selection_bg.tga"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"				
 	}
 	
 	spriteType = {
 		name = "GFX_country_selection_bg_old"
 		texturefile = "gfx/interface/country_selection_bg_old.dds"
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"				
 	}
 	
 	spriteType = {
@@ -301,53 +307,9 @@ spriteTypes = {
 		noOfFrames = 2
 			
 	}
-	spriteType = {
-		name = "GFX_large_flag_frame"
-		texturefile = "gfx/interface/large_flag_frame.dds"
-	}
-	spriteType = {
-		name = "GFX_medium_country_selector"
-		texturefile = "gfx/interface/country_frame_medium.dds"
-		noOfFrames = 2
-	}
+
 	spriteType = {
         name = "GFX_missing_dlc_warning_sign"
         texturefile = "gfx/interface/unsafe_savegame_icon.dds"
     }
-	spriteType = {
-		name = "GFX_countries_cover1"
-		textureFile = "gfx/interface/cover1.dds"
-	}
-	spriteType = {
-		name = "GFX_countries_cover2"
-		textureFile = "gfx/interface/cover2.dds"
-	}
-	spriteType = {
-		name = "GFX_countries_cover3"
-		textureFile = "gfx/interface/cover3.dds"
-	}
-	spriteType = {
-		name = "GFX_countries_cover4"
-		textureFile = "gfx/interface/cover4.dds"
-	}
-	spriteType = {
-		name = "GFX_countries_cover5"
-		textureFile = "gfx/interface/cover5.dds"
-	}
-	spriteType = {
-		name = "GFX_countries_cover6"
-		textureFile = "gfx/interface/cover6.dds"
-	}
-	spriteType = {
-		name = "GFX_countries_cover7"
-		textureFile = "gfx/interface/cover7.dds"
-	}
-	spriteType = {
-		name = "GFX_countries_cover8"
-		textureFile = "gfx/interface/cover8.dds"
-	}
-	spriteType = {
-		name = "GFX_countries_cover9"
-		textureFile = "gfx/interface/cover9.dds"
-	}
 }

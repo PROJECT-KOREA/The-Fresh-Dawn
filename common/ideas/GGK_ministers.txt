@@ -6,8 +6,7 @@ ideas = {
 		#이마이다 키요노리
 		HoG_Imaida_Kiyonori = {
 			name = Imaida_Kiyonori
-			picture = vacant
-			# picture = minister_Imaida_Kiyonori
+			picture = minister_Imaida_Kiyonori
 
 			allowed = { original_tag = GGK }
 

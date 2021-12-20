@@ -190,7 +190,7 @@ bookmarks = {
 			"HPC"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = neutrality
 				ideas = {
 
 				}
@@ -203,7 +203,7 @@ bookmarks = {
 			"SHX"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -216,7 +216,7 @@ bookmarks = {
 			"SHD"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -229,7 +229,7 @@ bookmarks = {
 			"GXC"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -242,7 +242,7 @@ bookmarks = {
 			"GHD"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -255,7 +255,7 @@ bookmarks = {
 			"SIC"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -268,7 +268,7 @@ bookmarks = {
 			"XIK"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -281,7 +281,7 @@ bookmarks = {
 			"YUN"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -294,7 +294,7 @@ bookmarks = {
 			"NXM"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -307,7 +307,7 @@ bookmarks = {
 			"XSM"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}
@@ -320,7 +320,7 @@ bookmarks = {
 			"SIK"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = communism
 				ideas = {
 
 				}
@@ -333,7 +333,7 @@ bookmarks = {
 			"PRC"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = communism
 				ideas = {
 
 				}
@@ -346,7 +346,7 @@ bookmarks = {
 			"TNG"={
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = #
+				ideology = auto_despotism
 				ideas = {
 
 				}

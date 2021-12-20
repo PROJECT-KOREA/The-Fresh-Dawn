@@ -93,10 +93,8 @@ defined_text = {
 		#광복군 부사령관
 		text = {
 			trigger = {
-				trigger = {
-					tag = KOR
-					has_idea = HoG_Hong_Saik
-				}
+				tag = KOR
+				has_idea = HoG_Hong_Saik
 			}
 			localization_key = kia_vice_commander
 		}
