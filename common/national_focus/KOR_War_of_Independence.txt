@@ -31,7 +31,7 @@ focus_tree = {
 
 	#광복군 군정위원회
 	focus = {
-		id = KOR_focus_kia_mpc
+		id = KOR_focus_kia_mg
 		icon = GFX_focus_mpc
 		relative_position_id = KOR_focus_korean_war_of_independence
 		x = 0
@@ -51,12 +51,12 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_poc
 		icon = GFX_focus_poc
-		relative_position_id = KOR_focus_kia_mpc
+		relative_position_id = KOR_focus_kia_mg
 		x = -3
 		y = 1
 		cost = 2
 		
-		prerequisite = { focus = KOR_focus_kia_mpc }
+		prerequisite = { focus = KOR_focus_kia_mg }
 
 		completion_reward = {
 			
@@ -124,13 +124,13 @@ focus_tree = {
 	# focus = {
 	# 	id = KOR_focus_raid_japanese_armory
 	# 	icon = GFX_focus_raid_jap_armory
-	# 	relative_position_id = KOR_focus_kia_mpc
+	# 	relative_position_id = KOR_focus_kia_mg
 	# 	x = -3
 	# 	y = 1
 	# 	cost = 2
 		
 	# 	prerequisite = {
-	# 		focus = KOR_focus_kia_mpc
+	# 		focus = KOR_focus_kia_mg
 	# 	}
 
 	# 	completion_reward = {
@@ -157,14 +157,14 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_secure_pyeongyang_armory
 		icon = GFX_goal_generic_construct_mil_factory
-		relative_position_id = KOR_focus_kia_mpc
+		relative_position_id = KOR_focus_kia_mg
 		x = -1
 		y = 1
 		cost = 4
 
 		available = { controls_state = 866 }
 		
-		prerequisite = { focus = KOR_focus_kia_mpc }
+		prerequisite = { focus = KOR_focus_kia_mg }
 
 		completion_reward = {
 			
@@ -202,12 +202,12 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_liberation_voulnteer_army
 		icon = GFX_focus_volunteers
-		relative_position_id = KOR_focus_kia_mpc
+		relative_position_id = KOR_focus_kia_mg
 		x = 1
 		y = 1
 		cost = 1
 		
-		prerequisite = { focus = KOR_focus_kia_mpc }
+		prerequisite = { focus = KOR_focus_kia_mg }
 
 		completion_reward = {
 			unlock_decision_category_tooltip = KOR_recruit_volunteer_army
@@ -238,12 +238,12 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_special_operation_unit
 		icon = GFX_focus_sou
-		relative_position_id = KOR_focus_kia_mpc
+		relative_position_id = KOR_focus_kia_mg
 		x = 3
 		y = 1
 		cost = 2
 		
-		prerequisite = { focus = KOR_focus_kia_mpc }
+		prerequisite = { focus = KOR_focus_kia_mg }
 
 		completion_reward = {
 			swap_ideas = {

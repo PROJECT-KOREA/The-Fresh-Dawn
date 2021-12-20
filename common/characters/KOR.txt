@@ -274,7 +274,7 @@ characters = {
 
             visible = {
                 # OR = {
-                #     has_country_flag = KOR_flag_kia_mpc
+                #     has_country_flag = KOR_flag_kia_mg
                 #     KOR_lwh_gov = yes
                 # }
             }

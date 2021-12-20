@@ -1,0 +1,48 @@
+ideas = {
+
+	#정부수반
+	head_of_gov = {
+		
+		#오카다 케이스케
+		HoG_Okada_Keisuke = {
+			name = Okada_Keisuke
+			picture = vacant
+			# picture = minister_Okada_Keisuke
+
+			allowed = { original_tag = GGK }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				hog
+			}
+		}
+	}
+
+	#내무국장
+	security_minister = {
+
+	}
+
+	#재무장관
+	economy_minister = {
+
+	}
+
+	#외무장관
+	foreign_minister = {
+
+	}
+
+	#정보장관
+	intel_minister = {
+
+	}
+}

@@ -14,7 +14,7 @@ leader_traits = {
 	# cos = { random = no } #군 참모
 
 	## 내각 각료 소속 ##
-	# kia_mpc = { random = no } #광복군 군정위원회
+	# kia_mg = { random = no } #광복군 군정위원회
 	# hnc = { random = no } #한성국민위원회
 	# kpg = { random = no } #임시정부 국무위원회
 	# kip = { random = no } #한국독립당

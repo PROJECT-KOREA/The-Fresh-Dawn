@@ -1,0 +1,151 @@
+ideas = {
+
+	#국민 정신
+	country = {
+
+		#조선총독부
+		GGK_idea_gengov_korea = {
+			name = GGK_idea_gengov_korea
+			picture = gengov_korea
+
+			allowed = { original_tag = GGK }
+			modifier = {
+				political_power_gain = 0.02
+				# fascism_drift = 0.03
+				# conscription_factor = -0.95
+			}
+		}
+
+		#내선융화
+		GGK_idea_naisen_yuugou = {
+
+			name = GGK_idea_naisen_yuugou
+
+			allowed = {
+				original_tag = GGK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = naisen_yuugou
+			modifier = {
+				political_power_gain = 0.01
+				stability_factor = -0.015
+				fascism_drift = 0.01
+			}
+		}
+
+		#문화통치 정책
+		GGK_idea_bunka_touchi = {
+			name = GGK_idea_bunka_touchi
+			picture = PRC_low_popular_support3
+
+			allowed = { original_tag = GGK }
+			modifier = {
+				political_power_gain = 0.01
+				fascism_drift = 0.01
+			}
+		}
+
+		#농공병진정책
+		GGK_idea_noukou_heishin = {
+			name = GGK_idea_noukou_heishin
+			picture = generic_build_infrastructure
+
+			allowed = { original_tag = GGK }
+			modifier = {
+				stability_factor = 0.025
+				consumer_goods_factor = -0.05
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		#농공병진정책2
+		# GGK_idea_noukou_heishin_2 = {
+		# 	name = GGK_idea_noukou_heishin
+		# 	picture = generic_build_infrastructure
+
+		# 	allowed = { original_tag = GGK }
+		# 	modifier = {
+		# 		# monthly_population = 0.15
+		# 		# production_speed_infrastructure_factor = 0.3
+		# 	}
+		# }
+
+		#조선반도 병참기지화
+		GGK_idea_heitan_kichika = {
+			picture = generic_exploit_mines
+			name = GGK_idea_heitan_kichika
+
+			allowed = { original_tag = GGK }
+			modifier = {
+				stability_factor = -0.03
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+
+		#한국 독립운동
+		GGK_idea_korean_independence_movement_1 = {
+
+			name = GGK_idea_korean_independence_movement
+
+			allowed = {
+				original_tag = GGK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = korean_independence_movement
+			modifier = {
+				local_resources_factor = -0.15
+				stability_factor = -0.05
+				fascism_drift = -0.01
+			}
+		}
+	}
+
+	#정치 조언가
+	political_advisor = {
+
+		# #하야시 시게조
+		# GGK_advisor_shigezo_hayashi = {
+
+		# 	allowed = {
+		# 		tag = GGK	
+		# 	}
+			
+		# 	traits = { financial_expert }
+		# }
+	}
+
+	#산업 업체
+	industrial_concern = {
+
+		#동양척식주식회사
+		GGK_oriental_development_company = {
+			
+			picture = generic_industrial_concern_2
+
+			allowed = {
+				tag = GGK
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+	}
+}

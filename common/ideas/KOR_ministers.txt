@@ -3,17 +3,16 @@ ideas = {
 	#정부수반
 	head_of_gov = {
 
-		#여운형 (군정위원회, 여운형 내각)
-		HoG_Lyuh_Woonhyung = {
-			name = lyuh_woonhyung
-			picture = minister_Lyuh_Woonhyung
+		#홍사익
+		HoG_Hong_Saik = {
+			name = Hong_Saik
+			picture = minister_Hong_Saik
 
 			allowed = { original_tag = KOR }
-
 			visible = {
-				OR = {
-					has_country_flag = KOR_flag_kia_mpc
-					KOR_lwh_gov = yes
+				has_country_leader = {
+					name = "지청천"
+					ruling_only = yes
 				}
 			}
 
@@ -27,331 +26,360 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				gentleman_politician
+				# gentleman_politician
 				hog
 			}
 		}
 
-		#안재홍 (한성국민위원회)
-		HoG_Ahn_Jaehong = {
-			name = ahn_jaehong
-			picture = minister_Ahn_Jaehong
+		# #여운형 (군정위원회, 여운형 내각)
+		# HoG_Lyuh_Woonhyung = {
+		# 	name = lyuh_woonhyung
+		# 	picture = minister_Lyuh_Woonhyung
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				has_country_flag = KOR_flag_hnc
-			}
+		# 	visible = {
+		# 		OR = {
+		# 			has_country_flag = KOR_flag_kia_mg
+		# 			KOR_lwh_gov = yes
+		# 		}
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				media_magnate
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		gentleman_politician
+		# 		hog
+		# 	}
+		# }
 
-		#홍진 (임시정부 국무위원회)
-		HoG_Hong_Jin = {
-			name = hong_jin
-			picture = minister_Hong_Jin
+		# #안재홍 (한성국민위원회)
+		# HoG_Ahn_Jaehong = {
+		# 	name = ahn_jaehong
+		# 	picture = minister_Ahn_Jaehong
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				has_country_flag = KOR_flag_kpg
-			}
+		# 	visible = {
+		# 		has_country_flag = KOR_flag_hnc
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# veteran_politician
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		media_magnate
+		# 		hog
+		# 	}
+		# }
 
-		#이승만 (임시정부 국무위원회)
-		HoG_Syngman_Rhee = {
-			name = syngman_rhee
-			picture = minister_Syngman_Rhee
+		# #홍진 (임시정부 국무위원회)
+		# HoG_Hong_Jin = {
+		# 	name = hong_jin
+		# 	picture = minister_Hong_Jin
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				has_country_flag = KOR_flag_kpg
-			}
+		# 	visible = {
+		# 		has_country_flag = KOR_flag_kpg
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				man_of_self_assertion
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# veteran_politician
+		# 		hog
+		# 	}
+		# }
 
-		#조완구 (임시정부 국무위원회, 김구 과도내각, 김구 행정부)
-		HoG_Cho_Wangu = {
-			name = cho_wangu
-			picture = minister_Cho_Wangu
+		# #이승만 (임시정부 국무위원회)
+		# HoG_Syngman_Rhee = {
+		# 	name = syngman_rhee
+		# 	picture = minister_Syngman_Rhee
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				OR = {
-					has_country_flag = KOR_flag_kpg
-					KOR_kim_koo_ic = yes
-					KOR_kim_koo_gov = yes
-				}
-			}
+		# 	visible = {
+		# 		has_country_flag = KOR_flag_kpg
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# man_of_self_assertion
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		man_of_self_assertion
+		# 		hog
+		# 	}
+		# }
 
-		#이시영 (김구 과도내각)
-		HoG_Yi_Siyeong = {
-			name = yi_siyeong
-			picture = minister_Yi_Siyeong
-			allowed = { original_tag = KOR }
+		# #조완구 (임시정부 국무위원회, 김구 과도내각, 김구 행정부)
+		# HoG_Cho_Wangu = {
+		# 	name = cho_wangu
+		# 	picture = minister_Cho_Wangu
 
-			visible = {
-				KOR_kim_koo_ic = yes
-			}
+		# 	allowed = { original_tag = KOR }
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	visible = {
+		# 		OR = {
+		# 			has_country_flag = KOR_flag_kpg
+		# 			KOR_kim_koo_ic = yes
+		# 			KOR_kim_koo_gov = yes
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# man_of_self_assertion
-				kpg
-				hog
-			}
-		}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-		#함태영 (이승만 과도내각)
-		HoG_Ham_Taeyoung = {
-			name = ham_taeyoung
-			picture = minister_Ham_Taeyoung
-			allowed = { original_tag = KOR }
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# man_of_self_assertion
+		# 		hog
+		# 	}
+		# }
 
-			visible = {
-				KOR_smr_gov = yes
-			}
+		# #이시영 (김구 과도내각)
+		# HoG_Yi_Siyeong = {
+		# 	name = yi_siyeong
+		# 	picture = minister_Yi_Siyeong
+		# 	allowed = { original_tag = KOR }
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	visible = {
+		# 		KOR_kim_koo_ic = yes
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# man_of_self_assertion
-				kpg
-				hog
-			}
-		}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-		#허헌 (여운형 과도내각)
-		HoG_Ho_Hon = {
-			name = ho_hon
-			picture = minister_Ho_Hon
-			allowed = { original_tag = KOR }
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# man_of_self_assertion
+		# 		kpg
+		# 		hog
+		# 	}
+		# }
 
-			visible = {
-				KOR_lwh_ic = yes
-			}
+		# #함태영 (이승만 과도내각)
+		# HoG_Ham_Taeyoung = {
+		# 	name = ham_taeyoung
+		# 	picture = minister_Ham_Taeyoung
+		# 	allowed = { original_tag = KOR }
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	visible = {
+		# 		KOR_smr_gov = yes
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# man_of_self_assertion
-				kpg
-				hog
-			}
-		}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
+
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# man_of_self_assertion
+		# 		kpg
+		# 		hog
+		# 	}
+		# }
+
+		# #허헌 (여운형 과도내각)
+		# HoG_Ho_Hon = {
+		# 	name = ho_hon
+		# 	picture = minister_Ho_Hon
+		# 	allowed = { original_tag = KOR }
+
+		# 	visible = {
+		# 		KOR_lwh_ic = yes
+		# 	}
+
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
+
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# man_of_self_assertion
+		# 		kpg
+		# 		hog
+		# 	}
+		# }
 		
-		#김규식 (여운형 과도내각)
-		HoG_Kim_Kyusik = {
-			name = kim_kyusik
-			picture = minister_Kim_Kyusik
+		# #김규식 (여운형 과도내각)
+		# HoG_Kim_Kyusik = {
+		# 	name = kim_kyusik
+		# 	picture = minister_Kim_Kyusik
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				KOR_lwh_ic = yes
-			}
+		# 	visible = {
+		# 		KOR_lwh_ic = yes
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				veteran_politician
-				kpg
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		veteran_politician
+		# 		kpg
+		# 		hog
+		# 	}
+		# }
 		
-		#신익희 (김구 행정부)
-		HoG_Sin_Ikhui = {
-			name = sin_ikhui
-			picture = minister_sin_ikhui
+		# #신익희 (김구 행정부)
+		# HoG_Sin_Ikhui = {
+		# 	name = sin_ikhui
+		# 	picture = minister_sin_ikhui
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				KOR_kim_koo_gov = yes
-			}
+		# 	visible = {
+		# 		KOR_kim_koo_gov = yes
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# veteran_politician
-				kpg
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# veteran_politician
+		# 		kpg
+		# 		hog
+		# 	}
+		# }
 		
-		#엄항섭 (김구 행정부)
-		HoG_Um_Hangseop = {
-			name = um_hangseop
-			picture = minister_um_hangseop
+		# #엄항섭 (김구 행정부)
+		# HoG_Um_Hangseop = {
+		# 	name = um_hangseop
+		# 	picture = minister_um_hangseop
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				KOR_kim_koo_gov = yes
-			}
+		# 	visible = {
+		# 		KOR_kim_koo_gov = yes
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# veteran_politician
-				kpg
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# veteran_politician
+		# 		kpg
+		# 		hog
+		# 	}
+		# }
 		
-		#김성수 (이승만 행정부)
-		HoG_Kim_Seongsu = {
-			name = kim_seongsu
-			picture = minister_Kim_Seongsu
+		# #김성수 (이승만 행정부)
+		# HoG_Kim_Seongsu = {
+		# 	name = kim_seongsu
+		# 	picture = minister_Kim_Seongsu
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				KOR_smr_gov = yes
-			}
+		# 	visible = {
+		# 		KOR_smr_gov = yes
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# veteran_politician
-				kpg
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# veteran_politician
+		# 		kpg
+		# 		hog
+		# 	}
+		# }
 		
-		#장택상 (이승만 행정부)
-		HoG_Chang_Taeksang = {
-			name = chang_taeksang
-			picture = minister_Chang_Taeksang
+		# #장택상 (이승만 행정부)
+		# HoG_Chang_Taeksang = {
+		# 	name = chang_taeksang
+		# 	picture = minister_Chang_Taeksang
 
-			allowed = { original_tag = KOR }
+		# 	allowed = { original_tag = KOR }
 
-			visible = {
-				KOR_smr_gov = yes
-			}
+		# 	visible = {
+		# 		KOR_smr_gov = yes
+		# 	}
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+		# 	available = {
+		# 		custom_trigger_tooltip = {
+    	# 			tooltip = minister_tooltip
+		# 			always = no
+		# 		}
+		# 	}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				# veteran_politician
-				kpg
-				hog
-			}
-		}
+		# 	cancel_if_invalid = no
+		# 	removal_cost = -1
+		# 	traits = {
+		# 		# veteran_politician
+		# 		kpg
+		# 		hog
+		# 	}
+		# }
 	}
 
 	#내무장관

@@ -65,7 +65,7 @@ country_event = {
 
     option = {
         name = kor_kpg_internal.2.a
-        clr_country_flag = KOR_flag_kia_mpc
+        clr_country_flag = KOR_flag_kia_mg
 		clr_country_flag = KOR_flag_hnc
         clr_country_flag = KOR_flag_hnc_cenright
         clr_country_flag = KOR_flag_hnc_com

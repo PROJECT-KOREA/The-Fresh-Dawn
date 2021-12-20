@@ -4,33 +4,37 @@ defined_text = {
 
 	#일본 제국 - 오카다 케이스케
 	text = {
-        trigger = { tag = JAP }
+        trigger = {
+			tag = JAP
+			has_idea = HoG_Okada_Keisuke
+		}
 		localization_key = GFX_Portrait_Okada_Keisuke
 	}
 
 	#일본령 조선 - 이마이다 키요노리
 	text = {
-        trigger = { tag = GGK }
+        trigger = {
+			tag = GGK
+			has_idea = HoG_Imaida_Kiyonori
+		}
 		localization_key = GFX_Portrait_Imaida_Kiyonori
 	}
 
 	#중화민국 국민정부 - 장제스
 	text = {
-        trigger = { tag = CHI }
+        trigger = {
+			tag = CHI
+			has_idea = HoG_Chiang_Kaishek
+		}
 		localization_key = GFX_Portrait_Chiang_Kaishek
 	}
 
 	#대한민국
-	
 		#홍사익
 		text = {
 			trigger = {
 				tag = KOR
-				NOT = {
-					has_country_flag = KOR_flag_kia_mpc
-					has_country_flag = KOR_flag_hnc
-					has_country_flag = KOR_flag_kpg
-				}
+				has_idea = HoG_Hong_Saik
 			}
 			localization_key = GFX_Portrait_Hong_Saik
 		}
@@ -39,7 +43,7 @@ defined_text = {
 		text = {
 			trigger = {
 				tag = KOR
-				has_idea = HoG_Lyuh_Woonhyung_kia_mpc
+				has_idea = HoG_Lyuh_Woonhyung_kia_mg
 			}
 			localization_key = GFX_Portrait_Lyuh_Woonhyung
 		}

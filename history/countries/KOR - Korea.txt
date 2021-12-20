@@ -43,7 +43,7 @@ add_ideas = {
 	closed_economy
 	war_economy
 	
-	HoG_Sin_Ikhuie
+	HoG_Hong_Saik
 	# HoG_vacant
 	# FM_No_One
 	# EM_No_One

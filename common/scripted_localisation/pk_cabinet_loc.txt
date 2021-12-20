@@ -8,9 +8,9 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = KOR
-			has_country_flag = KOR_flag_kia_mpc
+			has_country_flag = KOR_flag_kia_mg
 		}
-		localization_key = cabinet_kia_mpc
+		localization_key = cabinet_kia_mg
 	}
 
 	#한성국민위원회
@@ -66,7 +66,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = KOR
-			has_country_flag = KOR_flag_kia_mpc
+			has_country_flag = KOR_flag_kia_mg
 		}
 		localization_key = mil_gov
 	}
@@ -252,7 +252,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = KOR
-			has_country_flag = KOR_flag_kia_mpc
+			has_country_flag = KOR_flag_kia_mg
 		}
 		localization_key = civ_adm
 	}
@@ -295,7 +295,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = KOR
-			has_idea = HoG_Lyuh_Woonhyung_kia_mpc
+			has_idea = HoG_Lyuh_Woonhyung_kia_mg
 		}
 		localization_key = GFX_Portrait_Lyuh_Woonhyung
 	}
@@ -341,7 +341,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = KOR
-			has_idea = HoG_Lyuh_Woonhyung_kia_mpc
+			has_idea = HoG_Lyuh_Woonhyung_kia_mg
 		}
 		localization_key = lyuh_woonhyung
 	}
@@ -385,7 +385,7 @@ defined_text = {
 
 	# #여운형
 	# text = {
-	# 	trigger = { has_idea = HoG_Lyuh_Woonhyung_kia_mpc }
+	# 	trigger = { has_idea = HoG_Lyuh_Woonhyung_kia_mg }
 	# 	localization_key = lyuh_woonhyung_desc
 	# }
 

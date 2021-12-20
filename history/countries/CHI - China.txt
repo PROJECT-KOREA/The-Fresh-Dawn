@@ -57,23 +57,34 @@ set_war_support = 0.5
 
 set_convoys = 40
 
-#ideas
-add_ideas = { german_advisors }
-if = {
-	limit = { NOT = { has_dlc = "Waking the Tiger" } }
-	add_ideas = { CHI_communist_uprisings }
+#IDEAS 추가
+add_ideas = {
+	CHI_nine_power_treaty
+	CHI_army_corruption_1
+	CHI_ineffective_bureaucracy
+	CHI_incompetent_officers
+	free_trade
+	CHI_hyper_inflation_1
+	german_advisors
+
+	HoG_Chiang_Kaishek #장제스(행정원장)
 }
-if = {
-	limit = { has_dlc = "Waking the Tiger" }		
-	add_ideas = {
-		CHI_nine_power_treaty
-		CHI_army_corruption_1
-		CHI_ineffective_bureaucracy
-		CHI_incompetent_officers
-		free_trade
-		CHI_hyper_inflation_1
-	}
-}
+
+# if = {
+# 	limit = { NOT = { has_dlc = "Waking the Tiger" } }
+# 	add_ideas = { CHI_communist_uprisings }
+# }
+# if = {
+# 	limit = { has_dlc = "Waking the Tiger" }		
+# 	add_ideas = {
+# 		CHI_nine_power_treaty
+# 		CHI_army_corruption_1
+# 		CHI_ineffective_bureaucracy
+# 		CHI_incompetent_officers
+# 		free_trade
+# 		CHI_hyper_inflation_1
+# 	}
+# }
 
 set_politics = {
 	ruling_party = auto_despotism

@@ -13,7 +13,7 @@
 #         trigger = {
 # 			tag = KOR
 # 			NOT = {
-# 				has_country_flag = KOR_flag_kia_mpc
+# 				has_country_flag = KOR_flag_kia_mg
 # 				has_country_flag = KOR_flag_hnc
 # 				has_country_flag = KOR_flag_kpg
 # 			}
@@ -25,7 +25,7 @@
 # 	text = {
 # 		trigger = {
 # 			tag = KOR
-# 			has_country_flag = KOR_flag_kia_mpc
+# 			has_country_flag = KOR_flag_kia_mg
 # 		}
 # 		localization_key = mil_gov
 # 	}
@@ -66,7 +66,7 @@
 #         trigger = {
 # 			tag = KOR
 # 			NOT = {
-# 				has_country_flag = KOR_flag_kia_mpc
+# 				has_country_flag = KOR_flag_kia_mg
 # 				has_country_flag = KOR_flag_hnc
 # 				has_country_flag = KOR_flag_kpg
 # 			}
@@ -78,7 +78,7 @@
 # 	text = {
 # 		trigger = {
 # 			tag = KOR
-# 			has_country_flag = KOR_flag_kia_mpc
+# 			has_country_flag = KOR_flag_kia_mg
 # 		}
 # 		localization_key = civ_adm
 # 	}
@@ -118,7 +118,7 @@
 #         trigger = {
 # 			tag = KOR
 # 			NOT = {
-# 				has_country_flag = KOR_flag_kia_mpc
+# 				has_country_flag = KOR_flag_kia_mg
 # 				has_country_flag = KOR_flag_hnc
 # 				has_country_flag = KOR_flag_kpg
 # 			}
@@ -130,7 +130,7 @@
 # 	text = {
 # 		trigger = {
 # 			tag = KOR
-# 			has_idea = HoG_Lyuh_Woonhyung_kia_mpc
+# 			has_idea = HoG_Lyuh_Woonhyung_kia_mg
 # 		}
 # 		localization_key = GFX_Portrait_Lyuh_Woonhyung
 # 	}
@@ -172,7 +172,7 @@
 #         trigger = {
 # 			tag = KOR
 # 			NOT = {
-# 				has_country_flag = KOR_flag_kia_mpc
+# 				has_country_flag = KOR_flag_kia_mg
 # 				has_country_flag = KOR_flag_hnc
 # 				has_country_flag = KOR_flag_kpg
 # 			}
@@ -184,7 +184,7 @@
 # 	text = {
 #         trigger = {
 # 			tag = KOR
-# 			has_idea = HoG_Lyuh_Woonhyung_kia_mpc
+# 			has_idea = HoG_Lyuh_Woonhyung_kia_mg
 # 		}
 # 		localization_key = lyuh_woonhyung
 # 	}
@@ -203,7 +203,7 @@
 #         trigger = {
 # 			tag = KOR
 # 			NOT = {
-# 				has_country_flag = KOR_flag_kia_mpc
+# 				has_country_flag = KOR_flag_kia_mg
 # 				has_country_flag = KOR_flag_hnc
 # 			}
 # 		}

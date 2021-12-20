@@ -24,10 +24,10 @@ add_ideas = {
 	GGK_idea_noukou_heishin
 	GGK_idea_heitan_kichika
 
-	HoG_Imaida_Kiyonori
-	SM_Ushijima_Shozo
-	EM_Hayashi_Shigezo
-	IM_Ikeda_Kiyoshi
+	HoG_Imaida_Kiyonori #이마이다 키요노리 (정무총감)
+	SM_Ushijima_Shozo 	#우시지마 쇼조 (내무국장)
+	EM_Hayashi_Shigezo	#하야시 시게조 (재무국장)
+	IM_Ikeda_Kiyoshi	#이케다 키요시 (경무국장)
 }
 
 #정권

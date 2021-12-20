@@ -63,7 +63,7 @@ scripted_gui = {
 		visible = {
 			has_country_flag = show_cabinet
 			OR = {
-				has_country_flag = KOR_flag_kia_mpc
+				has_country_flag = KOR_flag_kia_mg
 				has_country_flag = KOR_flag_hnc
 			}
 			NOT = { has_country_flag = KOR_flag_kpg }
