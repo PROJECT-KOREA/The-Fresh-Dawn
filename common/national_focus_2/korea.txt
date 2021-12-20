@@ -154,7 +154,7 @@ focus_tree = {
 	#인민당의 승리
     focus = {
 		id = KOR_focus_peoples_party_victory
-		icon = GFX_focus_lyuh_woonhyung
+		icon = GFX_focus_Ryuh_Woonhyung
 		relative_position_id = KOR_focus_first_republic
 		x = -14
 		y = 1

@@ -50,8 +50,8 @@ spriteTypes = {
 		}
 		
 		spriteType = {
-			name = "GFX_Portrait_Lyuh_Woonhyung"
-			texturefile = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+			name = "GFX_Portrait_Ryuh_Woonhyung"
+			texturefile = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds"
 		}
 		spriteType = {
 			name = "GFX_Portrait_Kim_Koo"

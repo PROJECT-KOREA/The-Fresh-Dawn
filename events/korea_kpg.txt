@@ -178,7 +178,7 @@ country_event = {
         name = kor_kpg_internal.5.a
         add_ideas = {
             HoG_Syngman_Rhee_kpg
-            SM_Lyuh_Woonhyung_kpg
+            SM_Ryuh_Woonhyung_kpg
             EM_Cho_Soang_kpg
             FM_Kim_Kyusik_kpg
             MM_Ji_Cheongcheon_kpg
@@ -514,8 +514,8 @@ country_event = {
         set_politics = { ruling_party = democratic }
         # create_country_leader = {
         #     name = "Lyuh Woonhyung"
-        #     desc = "POLITICS_LYUH_WOONHYUNG_DESC"
-        #     picture = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds"
+        #     desc = "POLITICS_Ryuh_Woonhyung_DESC"
+        #     picture = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds"
         #     expire = "1965.1.1"
         #     ideology = socialism
         #     traits = {
@@ -530,7 +530,7 @@ country_event = {
                 FM_No_One
                 # MM_No_One
             }
-            load_focus_tree = KOR_Lyuh_Woonhyung
+            load_focus_tree = KOR_Ryuh_Woonhyung
         }
     }
 }

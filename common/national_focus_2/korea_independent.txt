@@ -313,7 +313,7 @@ focus_tree = {
 	# #조선인민당 승리
 	# focus = {
 	# 	id = KOR_focus_peoples_party_victory
-	# 	icon = GFX_focus_lyuh_woonhyung
+	# 	icon = GFX_focus_Ryuh_Woonhyung
 	# 	relative_position_id = KOR_focus_republic_of_korea
 	# 	x = -12
 	# 	y = 1

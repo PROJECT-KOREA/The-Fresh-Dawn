@@ -31,34 +31,34 @@ ideas = {
 			}
 		}
 
-		# #여운형 (군정위원회, 여운형 내각)
-		# HoG_Lyuh_Woonhyung = {
-		# 	name = lyuh_woonhyung
-		# 	picture = minister_Lyuh_Woonhyung
+		#여운형 (군정위원회, 여운형 내각)
+		HoG_Ryuh_Woonhyung = {
+			name = Ryuh_Woonhyung
+			picture = minister_Ryuh_Woonhyung
 
-		# 	allowed = { original_tag = KOR }
+			allowed = { original_tag = KOR }
 
-		# 	visible = {
-		# 		OR = {
-		# 			has_country_flag = KOR_flag_kia_mg
-		# 			KOR_lwh_gov = yes
-		# 		}
-		# 	}
+			visible = {
+				OR = {
+					has_country_flag = KOR_flag_kia_mg
+					# KOR_lwh_gov = yes
+				}
+			}
 
-		# 	available = {
-		# 		custom_trigger_tooltip = {
-    	# 			tooltip = minister_tooltip
-		# 			always = no
-		# 		}
-		# 	}
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
 
-		# 	cancel_if_invalid = no
-		# 	removal_cost = -1
-		# 	traits = {
-		# 		gentleman_politician
-		# 		hog
-		# 	}
-		# }
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				gentleman_politician
+				hog
+			}
+		}
 
 		# #안재홍 (한성국민위원회)
 		# HoG_Ahn_Jaehong = {

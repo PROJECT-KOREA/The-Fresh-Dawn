@@ -2,11 +2,23 @@ spriteTypes = {
 	
 	### 내각 장관 ###
 
+	#공석
 	spriteType = {
 		name = "GFX_idea_vacant"
 		texturefile = "gfx/interface/ideas/vacant.dds"
 	}
 
+	# 일본 제국 #
+	spriteType = {
+		name = "GFX_idea_minister_Ushijima_Shozo"
+		texturefile = "gfx/interface/ideas/JAP/JAP_Okada_Keisuke.dds"
+	}
+
+	# 일본령 조선 #
+	spriteType = {
+		name = "GFX_idea_minister_Imaida_Kiyonori"
+		texturefile = "gfx/interface/ideas/GGK/GGK_Imaida_Kiyonori.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_minister_Ushijima_Shozo"
 		texturefile = "gfx/interface/ideas/GGK/GGK_Ushijima_Shozo.dds"
@@ -15,6 +27,17 @@ spriteTypes = {
 		name = "GFX_idea_minister_Hayashi_Shigezo"
 		texturefile = "gfx/interface/ideas/GGK/GGK_Hayashi_shigezo.dds"
 	}
+
+	# 대한민국 #
+	spriteType = {
+		name = "GFX_idea_minister_Hong_Saik"
+		texturefile = "gfx/interface/ideas/KOR/KOR_Hong_Saik.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minister_Ryuh_Woonhyung"
+		texturefile = "gfx/interface/ideas/KOR/KOR_Ryuh_Woonhyung.dds"
+	}
+
 	spriteType = {
 		name = "GFX_idea_minister_Ahn_Jaehong"
 		texturefile = "gfx/interface/ideas/KOR/KOR_Ahn_Jaehong.dds"
@@ -125,13 +148,13 @@ spriteTypes = {
 	# }
 
 	# spriteType = {
-	# 	name = "GFX_idea_KOR_advisor_lyuh_woonhyung"
-	# 	texturefile = "gfx/interface/ideas/KOR/advisor_lyuh_woonhyung.dds"
+	# 	name = "GFX_idea_KOR_advisor_Ryuh_Woonhyung"
+	# 	texturefile = "gfx/interface/ideas/KOR/advisor_Ryuh_Woonhyung.dds"
 	# }
 
 	# spriteType = {
-	# 	name = "GFX_idea_KOR_advisor_lyuh_woonhyung_2"
-	# 	texturefile = "gfx/interface/ideas/KOR/advisor_lyuh_woonhyung.dds"
+	# 	name = "GFX_idea_KOR_advisor_Ryuh_Woonhyung_2"
+	# 	texturefile = "gfx/interface/ideas/KOR/advisor_Ryuh_Woonhyung.dds"
 	# }
 
 	# spriteType = {

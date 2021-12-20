@@ -120,7 +120,7 @@ defined_text = {
 				ruling_only = yes
 			}
 		}
-		localization_key = GFX_Portrait_Lyuh_Woonhyung
+		localization_key = GFX_Portrait_Ryuh_Woonhyung
 	}
 
 	#김구
@@ -180,7 +180,7 @@ defined_text = {
 				ruling_only = yes
 			}
 		}
-		localization_key = lyuh_woonhyung
+		localization_key = Ryuh_Woonhyung
 	}
 
 	#김구
@@ -229,7 +229,7 @@ defined_text = {
 	# 			ruling_only = yes
 	# 		}
 	# 	}
-	# 	localization_key = lyuh_woonhyung_desc
+	# 	localization_key = Ryuh_Woonhyung_desc
 	# }
 
 	# #김구
@@ -295,9 +295,9 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = KOR
-			has_idea = HoG_Lyuh_Woonhyung_kia_mg
+			has_idea = HoG_Ryuh_Woonhyung_kia_mg
 		}
-		localization_key = GFX_Portrait_Lyuh_Woonhyung
+		localization_key = GFX_Portrait_Ryuh_Woonhyung
 	}
 
 	#안재홍
@@ -341,9 +341,9 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = KOR
-			has_idea = HoG_Lyuh_Woonhyung_kia_mg
+			has_idea = HoG_Ryuh_Woonhyung_kia_mg
 		}
-		localization_key = lyuh_woonhyung
+		localization_key = Ryuh_Woonhyung
 	}
 
 	#안재홍
@@ -385,8 +385,8 @@ defined_text = {
 
 	# #여운형
 	# text = {
-	# 	trigger = { has_idea = HoG_Lyuh_Woonhyung_kia_mg }
-	# 	localization_key = lyuh_woonhyung_desc
+	# 	trigger = { has_idea = HoG_Ryuh_Woonhyung_kia_mg }
+	# 	localization_key = Ryuh_Woonhyung_desc
 	# }
 
 	# #안재홍
@@ -441,8 +441,8 @@ defined_text = {
 
 	#여운형
 	text = {
-		trigger = { has_idea = SM_Lyuh_Woonhyung_kpg }
-		localization_key = GFX_Portrait_Lyuh_Woonhyung
+		trigger = { has_idea = SM_Ryuh_Woonhyung_kpg }
+		localization_key = GFX_Portrait_Ryuh_Woonhyung
 	}
 }
 
@@ -463,8 +463,8 @@ defined_text = {
 
 	#여운형
 	text = {
-		trigger = { has_idea = SM_Lyuh_Woonhyung_kpg }
-		localization_key = lyuh_woonhyung
+		trigger = { has_idea = SM_Ryuh_Woonhyung_kpg }
+		localization_key = Ryuh_Woonhyung
 	}
 }
 
@@ -485,8 +485,8 @@ defined_text = {
 
 	#여운형
 	text = {
-		trigger = { has_idea = SM_Lyuh_Woonhyung_kpg }
-		localization_key = lyuh_woonhyung_desc
+		trigger = { has_idea = SM_Ryuh_Woonhyung_kpg }
+		localization_key = Ryuh_Woonhyung_desc
 	}
 }
 

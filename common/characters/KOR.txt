@@ -250,11 +250,11 @@ characters = {
     }
 
     #여운형 (正/首)
-    KOR_Lyuh_Woonhyung = {
-        name = KOR_Lyuh_Woonhyung
+    KOR_Ryuh_Woonhyung = {
+        name = KOR_Ryuh_Woonhyung
         portraits = {
-            # civilian = { large = "gfx/leaders/KOR/Portrait_Lyuh_Woonhyung.dds" }
-            army = { small = "gfx/interface/ideas/KOR/character/KOR_Lyuh_Woonhyung.dds" }
+            # civilian = { large = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds" }
+            army = { small = "gfx/interface/ideas/KOR/character/KOR_Ryuh_Woonhyung.dds" }
         }
 
         #지도자 - 사회민주주의
@@ -270,7 +270,7 @@ characters = {
         #정부수반 - 군정사령부 민정장관
         advisor = {
 			slot = head_of_gov
-			idea_token = HoG_Lyuh_Woonhyung
+			idea_token = HoG_Ryuh_Woonhyung
 
             visible = {
                 # OR = {

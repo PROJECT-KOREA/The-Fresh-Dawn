@@ -130,9 +130,9 @@
 # 	text = {
 # 		trigger = {
 # 			tag = KOR
-# 			has_idea = HoG_Lyuh_Woonhyung_kia_mg
+# 			has_idea = HoG_Ryuh_Woonhyung_kia_mg
 # 		}
-# 		localization_key = GFX_Portrait_Lyuh_Woonhyung
+# 		localization_key = GFX_Portrait_Ryuh_Woonhyung
 # 	}
 
 # 	#안재홍
@@ -184,9 +184,9 @@
 # 	text = {
 #         trigger = {
 # 			tag = KOR
-# 			has_idea = HoG_Lyuh_Woonhyung_kia_mg
+# 			has_idea = HoG_Ryuh_Woonhyung_kia_mg
 # 		}
-# 		localization_key = lyuh_woonhyung
+# 		localization_key = Ryuh_Woonhyung
 # 	}
 
 # 	#여운형
