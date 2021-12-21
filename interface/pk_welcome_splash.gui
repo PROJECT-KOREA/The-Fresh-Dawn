@@ -2,8 +2,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "pk_welcome_splash_container"
-		position = { x = 0 y = 30 }
-		size = { width = 750 height = 630 }
+		position = { x = 0 y = 0 }
+		size = { width = 750 height = 700 }
 		moveable = yes
 		orientation = CENTER
 		origo = center
@@ -17,12 +17,12 @@ guiTypes = {
 		background = {
 			name = "pk_logo_bg"
 			spriteType = "GFX_pk_splash_intro_box"
-			position = { x = -15 y = 357 }
+			position = { x = -15 y = 420 }
 		}
 
 		instantTextboxType = {
 			name = "tab_1_text_header_2"
-			position = { x = 25 y = 384 }
+			position = { x = 25 y = 447 }
 			font = "aldrich_36_outline"
 			text = "pk_SPLASH_TITLE"
 			maxWidth = 700
@@ -31,7 +31,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "tab_1_cont3_text"
-			position = { x = 43 y=453 }
+			position = { x = 43 y= 518 }
 			font = "aldrich_20_outline"
 			text = "pk_SPLASH_CREDITS"
 			maxWidth = 670
@@ -39,7 +39,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "mod_options_button"
-			position = { x = 226 y = 590 }
+			position = { x = 226 y = 658 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "확인"
 			buttonFont = "aldrich_24_outline"

@@ -14,5 +14,5 @@ GGK_provisional_government_decision = {
 		original_tag = GGK
 	}
 
-	priority = 100
+	# priority = 100
 }
