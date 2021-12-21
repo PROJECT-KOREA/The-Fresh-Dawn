@@ -621,7 +621,7 @@ guiTypes = {
 		
 		background = {
 			name = "single_player_country_bg"
-			quadTextureSprite ="GFX_country_selection_bg_old"
+			quadTextureSprite ="GFX_country_selection_bg"
 		}
 		
 		ButtonType = {

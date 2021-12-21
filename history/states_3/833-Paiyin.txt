@@ -13,11 +13,6 @@ state={
 			industrial_complex = 1
 
 		}
-		1939.1.1 = {
-			remove_core_of = NEA
-			owner = CHI
-
-		}
 
 	}
 

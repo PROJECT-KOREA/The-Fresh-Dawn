@@ -55,39 +55,39 @@
  KOR_idea_political_police:0 "정치경찰"
  KOR_idea_political_police_desc:0 ""
 
- ## 육군 참모 ##
- KOR_CoA_Ji_Cheongcheon:0 "지청천"
- KOR_CoA_Lee_Beomseok:0 "이범석"
- KOR_CoA_Hong_Saik:0 "홍사익"
+#  ## 육군 참모 ##
+#  KOR_CoA_Ji_Cheongcheon:0 "지청천"
+#  KOR_CoA_Lee_Beomseok:0 "이범석"
+#  KOR_CoA_Hong_Saik:0 "홍사익"
 
- ## 공군 참모 ##
- KOR_CAF_Choi_Yongdeok:0 "최용덕"
+#  ## 공군 참모 ##
+#  KOR_CAF_Choi_Yongdeok:0 "최용덕"
 
- ## 군 지휘관 ##
- KOR_command_kim_hongil:0 "김홍일"
- KOR_command_kim_kyungcheon:0 "김경천"
- KOR_command_song_hosung:0 "송호성"
+#  ## 군 지휘관 ##
+#  KOR_command_kim_hongil:0 "김홍일"
+#  KOR_command_kim_kyungcheon:0 "김경천"
+#  KOR_command_song_hosung:0 "송호성"
 
- ## 정치 조언가 ##
- KOR_advisor_song_jinwoo:0 "송진우"
- KOR_advisor_pak_hon_yong:0 "박헌영"
+#  ## 정치 조언가 ##
+#  KOR_advisor_song_jinwoo:0 "송진우"
+#  KOR_advisor_pak_hon_yong:0 "박헌영"
 
- KOR_advisor_kim_koo:0 "김구"
- KOR_advisor_kim_kyusik:0 "김규식"
- KOR_advisor_kim_wonbong:0 "김원봉"
- KOR_advisor_kim_wonbong_2:0 "김원봉"
- KOR_advisor_song_byungjo:0 "송병조"
- KOR_advisor_shin_ikhi:0 "신익희"
- KOR_advisor_ahn_hosang:0 "안호상"
- KOR_advisor_Ryuh_Woonhyung_2:0 "여운형"
- KOR_advisor_Ryuh_Woonhyung:0 "여운형"
- KOR_advisor_ilhan_new:0 "유일한"
- KOR_advisor_yi_kang:0 "의친왕 이강"
- KOR_advisor_syngman_rhee:0 "이승만"
- KOR_advisor_syngman_rhee_2:0 "이승만"
- KOR_advisor_cho_mansik:0 "조만식"
- KOR_advisor_cho_soang:0 "조소앙"
- KOR_advisor_hong_jin:0 "홍진"
+#  KOR_advisor_kim_koo:0 "김구"
+#  KOR_advisor_kim_kyusik:0 "김규식"
+#  KOR_advisor_kim_wonbong:0 "김원봉"
+#  KOR_advisor_kim_wonbong_2:0 "김원봉"
+#  KOR_advisor_song_byungjo:0 "송병조"
+#  KOR_advisor_shin_ikhi:0 "신익희"
+#  KOR_advisor_ahn_hosang:0 "안호상"
+#  KOR_advisor_Ryuh_Woonhyung_2:0 "여운형"
+#  KOR_advisor_Ryuh_Woonhyung:0 "여운형"
+#  KOR_advisor_ilhan_new:0 "유일한"
+#  KOR_advisor_yi_kang:0 "의친왕 이강"
+#  KOR_advisor_syngman_rhee:0 "이승만"
+#  KOR_advisor_syngman_rhee_2:0 "이승만"
+#  KOR_advisor_cho_mansik:0 "조만식"
+#  KOR_advisor_cho_soang:0 "조소앙"
+#  KOR_advisor_hong_jin:0 "홍진"
 
  ## 정치 조언가 특성 ##
 #  national_unificationist:0 "국민통일주의자"
