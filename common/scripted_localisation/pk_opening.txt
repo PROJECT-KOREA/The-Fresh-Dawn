@@ -15,46 +15,29 @@ GET_COUNTRY_INFO = {
 }
 
 #포스터
-GET_POSTER1 = {
-	name = GET_POSTER1
+GET_POSTER = {
+	name = GET_POSTER
 
-	#일본령 조선
+	## 일본 제국
 	text = {
-		trigger = { tag = GGK }
-		localization_key = "GFX_poster1_GGK"
+		trigger = { tag = JAP }
+		localization_key = "GFX_poster_JAP"
 	}
 
-	#대한민국 임시정부
+	## 일본령 조선
+	text = {
+		trigger = { tag = GGK }
+		localization_key = "GFX_poster_GGK"
+	}
+
+	## 대한민국 임시정부
 	text = {
 		trigger = { tag = KOR }
-		localization_key = "GFX_poster1_KOR"
+		localization_key = "GFX_poster_KOR"
 	}
 
 	## Default
-	text = {
-		localization_key = "GFX_poster1_GEN"
-	}
-}
-
-GET_POSTER2 = {
-	name = GET_POSTER2
-
-	#일본령 조선
-	text = {
-		trigger = { tag = GGK }
-		localization_key = "GFX_poster2_GGK"
-	}
-
-	#대한민국 임시정부
-	text = {
-		trigger = { tag = KOR }
-		localization_key = "GFX_poster2_KOR"
-	}
-
-	## Default
-	text = {
-		localization_key = "GFX_poster2_GEN"
-	}
+	text = { localization_key = "GFX_poster_GER" }
 }
 
 #클로즈 버튼

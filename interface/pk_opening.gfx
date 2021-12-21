@@ -81,28 +81,19 @@ spriteTypes = {
 
 	# Posters
 	spriteType = {
-		name = "GFX_poster1_GGK"
-		textureFile = "gfx/interface/opening_screen/poster1_GGK.dds"
+		name = "GFX_poster_JAP"
+		textureFile = "gfx/interface/opening_screen/poster_JAP.dds"
 	}
 	spriteType = {
-		name = "GFX_poster1_KOR"
-		textureFile = "gfx/interface/opening_screen/poster1_KOR.dds"
+		name = "GFX_poster_GGK"
+		textureFile = "gfx/interface/opening_screen/poster_GGK.dds"
 	}
 	spriteType = {
-		name = "GFX_poster1_GEN"
-		textureFile = "gfx/interface/opening_screen/poster1_GEN.dds"
-	}
-
-	spriteType = {
-		name = "GFX_poster2_GGK"
-		textureFile = "gfx/interface/opening_screen/poster2_GGK.dds"
+		name = "GFX_poster_KOR"
+		textureFile = "gfx/interface/opening_screen/poster_KOR.dds"
 	}
 	spriteType = {
-		name = "GFX_poster2_KOR"
-		textureFile = "gfx/interface/opening_screen/poster2_KOR.dds"
-	}
-	spriteType = {
-		name = "GFX_poster2_GEN"
-		textureFile = "gfx/interface/opening_screen/poster2_GEN.dds"
+		name = "GFX_poster_GER"
+		textureFile = "gfx/interface/opening_screen/poster_GER.dds"
 	}
 }

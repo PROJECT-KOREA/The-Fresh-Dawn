@@ -486,7 +486,7 @@ country_event = {
                 FM_No_One
                 # MM_No_One
             }
-            load_focus_tree = KOR_Syngman_Rhee
+            # load_focus_tree = KOR_Syngman_Rhee
         }
     }
 }

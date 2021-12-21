@@ -153,7 +153,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 77 y = 0 }
+				position = { x = 79 y = 0 }
 				font = "aldrich_22_outline"
 				text = "ideology"
 				maxWidth = 95
@@ -172,7 +172,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 0 y = 260 }
+				position = { x = 0 y = 262 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 181
@@ -626,7 +626,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 70 y = 14	 }
+			position = { x = 65 y = 14 }
 			font = "aldrich_22_outline"
 			text = "Government"
 			maxWidth = 300

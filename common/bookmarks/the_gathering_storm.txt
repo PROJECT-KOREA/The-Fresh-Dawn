@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 
 		### 7+1대 열강 ###
-		"USA"={
+		"USA" = {
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -22,7 +22,7 @@ bookmarks = {
 				USA_reestablish_the_gold_standard
 			}
 		}
-		"ENG"={
+		"ENG" = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { has_dlc = "Man the Guns" }
@@ -37,7 +37,7 @@ bookmarks = {
 				ENG_organize_the_blackshirts
 			}
 		}
-		"ENG"={
+		"ENG" = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "Man the Guns" } }
@@ -52,7 +52,7 @@ bookmarks = {
 				ENG_war_with_italy
 			}
 		}
-		"FRA"={
+		"FRA" = {
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
@@ -67,7 +67,7 @@ bookmarks = {
 				FRA_france_leads
 			}
 		}
-		"FRA"={
+		"FRA" = {
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
@@ -82,7 +82,7 @@ bookmarks = {
 				FRA_je_suis_la_deluge
 			}
 		}
-		"GER"={
+		"GER" = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
 			available = { has_dlc = "Waking the Tiger" }
@@ -97,7 +97,7 @@ bookmarks = {
 				GER_revive_the_kaiserreich
 			}
 		}
-		"GER"={
+		"GER" = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
@@ -112,7 +112,7 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		"ITA"={
+		"ITA" = {
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -125,7 +125,7 @@ bookmarks = {
 				ITA_italy_first
 			}		
 		}
-		"CHI"={
+		"CHI" = {
 			history = "CHI_GATHERING_STORM_DESC"
 			ideology = auto_despotism
 			ideas = {
@@ -139,7 +139,7 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
-		"JAP"={
+		"JAP" = {
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -153,7 +153,7 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}			
 		}
-		"SOV"={
+		"SOV" = {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
@@ -168,7 +168,7 @@ bookmarks = {
 				SOV_reconvene_the_zemsky_sobor
 			}	
 		}
-		"SOV"={
+		"SOV" = {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
@@ -187,7 +187,7 @@ bookmarks = {
 
 		### 마이너 국가 ###
 			#기찰정무위원회
-			"HPC"={
+			"HPC" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = neutrality
@@ -200,7 +200,7 @@ bookmarks = {
 			}
 
 			#산서 군벌
-			"SHX"={
+			"SHX" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -213,7 +213,7 @@ bookmarks = {
 			}
 
 			#산동 군벌
-			"SHD"={
+			"SHD" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -226,7 +226,7 @@ bookmarks = {
 			}
 
 			#광서 군벌
-			"GXC"={
+			"GXC" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -239,7 +239,7 @@ bookmarks = {
 			}
 
 			#광동 군벌
-			"GHD"={
+			"GUD" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -252,7 +252,7 @@ bookmarks = {
 			}
 
 			#사천 군벌
-			"SIC"={
+			"SIC" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -265,7 +265,7 @@ bookmarks = {
 			}
 
 			#서강 군벌
-			"XIK"={
+			"XIK" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -278,7 +278,7 @@ bookmarks = {
 			}
 
 			#운남 군벌
-			"YUN"={
+			"YUN" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -291,7 +291,7 @@ bookmarks = {
 			}
 
 			#영하 군벌
-			"NXM"={
+			"NXM" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -304,7 +304,7 @@ bookmarks = {
 			}
 
 			#청해 군벌
-			"XSM"={
+			"XSM" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -317,7 +317,7 @@ bookmarks = {
 			}
 
 			#신강성 정부
-			"SIK"={
+			"SIK" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = communism
@@ -330,7 +330,7 @@ bookmarks = {
 			}
 
 			#중화소비에트민주공화국
-			"PRC"={
+			"PRC" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = communism
@@ -343,7 +343,7 @@ bookmarks = {
 			}
 
 			#퉁가니스탄
-			"TNG"={
+			"TNG" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
@@ -356,7 +356,7 @@ bookmarks = {
 			}
 		#
 
-		# "CAN"={
+		# "CAN" = {
 		# 	minor = yes
 		# 	history = "CAN_GATHERING_STORM_DESC"
 		# 	ideology = democratic
@@ -370,7 +370,7 @@ bookmarks = {
 		# 		CAN_join_comintern
 		# 	}
 		# }
-		# "AST"={
+		# "AST" = {
 		# 	minor = yes
 		# 	history = "AST_GATHERING_STORM_DESC"
 		# 	ideology = democratic
@@ -383,7 +383,7 @@ bookmarks = {
 		# 		AST_delegation_to_china
 		# 	}
 		# }
-		# "NZL"={
+		# "NZL" = {
 		# 	minor = yes
 		# 	history = "NZL_GATHERING_STORM_DESC"
 		# 	ideology = democratic
@@ -396,7 +396,7 @@ bookmarks = {
 		# 		NZL_maori_volunteers
 		# 	}
 		# }
-		# "SAF"={
+		# "SAF" = {
 		# 	minor = yes
 		# 	history = "SAF_GATHERING_STORM_DESC"
 		# 	ideology = democratic
@@ -410,7 +410,7 @@ bookmarks = {
 		# 		SAF_anti_colonialist_crusade
 		# 	}
 		# }
-		# "RAJ"={
+		# "RAJ" = {
 		# 	minor = yes
 		# 	history = "RAJ_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -424,7 +424,7 @@ bookmarks = {
 		# 		RAJ_the_smiling_buddha
 		# 	}
 		# }
-		# "CZE"={
+		# "CZE" = {
 		# 	minor = yes
 		# 	history = "CZE_GATHERING_STORM_DESC"
 		# 	ideology = democratic
@@ -439,7 +439,7 @@ bookmarks = {
 		# 	}
 		# }
 
-		# "HUN"={
+		# "HUN" = {
 		# 	minor = yes
 		# 	history = "HUN_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -453,7 +453,7 @@ bookmarks = {
 		# 	}
 		# }
 
-		# "ROM"={
+		# "ROM" = {
 		# 	minor = yes
 		# 	history = "ROM_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -468,7 +468,7 @@ bookmarks = {
 		# 	}
 		# }
 		
-		# "YUG"={
+		# "YUG" = {
 		# 	minor = yes
 		# 	history = "YUG_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -483,7 +483,7 @@ bookmarks = {
 		# 		YUG_dissolve_serbia
 		# 	}
 		# }
-		# "CHI"={
+		# "CHI" = {
 		# 	minor = yes
 		# 	history = "CHI_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -498,7 +498,7 @@ bookmarks = {
 		# 		CHI_invite_the_flying_tigers
 		# 	}
 		# }
-		# "PRC"={
+		# "PRC" = {
 		# 	minor = yes
 		# 	history = "PRC_GATHERING_STORM_DESC"
 		# 	ideology = communism
@@ -513,7 +513,7 @@ bookmarks = {
 		# 		PRC_anti_japanese_expedition
 		# 	}
 		# }
-		# "MAN"={
+		# "MAN" = {
 		# 	minor = yes
 		# 	history = "MAN_GATHERING_STORM_DESC"
 		# 	ideology = fascism
@@ -529,7 +529,7 @@ bookmarks = {
 		# 	}
 		# }
 		
-		# "GXC"={
+		# "GXC" = {
 		# 	minor = yes
 		# 	history = "WARLORDS_GATHERING_STORM_DESC"
 		# 	ideology = fascism
@@ -543,7 +543,7 @@ bookmarks = {
 		# 		CHI_join_the_chinese_soviet
 		# 	}
 		# }		
-		# "YUN"={
+		# "YUN" = {
 		# 	minor = yes
 		# 	history = "WARLORDS_GATHERING_STORM_DESC"
 		# 	ideology = fascism
@@ -557,7 +557,7 @@ bookmarks = {
 		# 		CHI_join_the_chinese_soviet
 		# 	}
 		# }		
-		# "SHX"={
+		# "SHX" = {
 		# 	minor = yes
 		# 	history = "WARLORDS_GATHERING_STORM_DESC"
 		# 	ideology = fascism
@@ -571,7 +571,7 @@ bookmarks = {
 		# 		CHI_join_the_chinese_soviet
 		# 	}
 		# }		
-		# "XSM"={
+		# "XSM" = {
 		# 	minor = yes
 		# 	history = "WARLORDS_GATHERING_STORM_DESC"
 		# 	ideology = fascism
@@ -585,7 +585,7 @@ bookmarks = {
 		# 		CHI_join_the_chinese_soviet
 		# 	}
 		# }		
-		# "SIK"={
+		# "SIK" = {
 		# 	minor = yes
 		# 	history = "WARLORDS_GATHERING_STORM_DESC"
 		# 	ideology = fascism
@@ -600,7 +600,7 @@ bookmarks = {
 		# 	}
 		# }
 		
-		# "MEX"={
+		# "MEX" = {
 		# 	minor = yes
 		# 	history = "MEXICO_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -616,7 +616,7 @@ bookmarks = {
 		# 	}
 		# }
 
-		# "HOL"={
+		# "HOL" = {
 		# 	minor = yes
 		# 	history = "NETHERLANDS_GATHERING_STORM_DESC"
 		# 	ideology = democratic
@@ -632,7 +632,7 @@ bookmarks = {
 		# 	}
 		# }
 
-		# "SPR"={
+		# "SPR" = {
 		# 	minor = yes
 		# 	history = "SPAIN_GATHERING_STORM_DESC"
 		# 	ideology = democratic
@@ -648,7 +648,7 @@ bookmarks = {
 		# 	}
 		# }
 
-		# "POR"={
+		# "POR" = {
 		# 	minor = yes
 		# 	history = "PORTUGAL_GATHERING_STORM_DESC"
 		# 	ideology = democratic
@@ -663,7 +663,7 @@ bookmarks = {
 		# 	}
 		# }
 
-		# "BUL"={
+		# "BUL" = {
 		# 	minor = yes
 		# 	history = "BUL_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -679,7 +679,7 @@ bookmarks = {
 		# 	}
 		# }
 
-		# "GRE"={
+		# "GRE" = {
 		# 	minor = yes
 		# 	history = "GRE_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -695,7 +695,7 @@ bookmarks = {
 		# 	}
 		# }
 
-		# "TUR"={
+		# "TUR" = {
 		# 	minor = yes
 		# 	history = "TUR_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -712,7 +712,7 @@ bookmarks = {
 		# }
 		
 		
-		# "LIT"={
+		# "LIT" = {
 		# 	minor = yes
 		# 	history = "LIT_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -727,7 +727,7 @@ bookmarks = {
 		# 	}
 		# }
 		
-		# "LAT"={
+		# "LAT" = {
 		# 	minor = yes
 		# 	history = "LAT_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -742,7 +742,7 @@ bookmarks = {
 		# 	}
 		# }
 		
-		# "EST"={
+		# "EST" = {
 		# 	minor = yes
 		# 	history = "EST_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
@@ -756,7 +756,7 @@ bookmarks = {
 		# 		EST_unite_our_nations
 		# 	}
 		# }
-		# "POL"={
+		# "POL" = {
 		# 	minor = yes
 		# 	history = "POL_GATHERING_STORM_DESC"
 		# 	ideology = neutrality
