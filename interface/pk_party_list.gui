@@ -1,4 +1,6 @@
 guiTypes = {
+
+	#정당명
 	containerWindowType = {
 		name = "current_ruling_party_ui"
 		position = { x = 0 y = 0 }
@@ -23,9 +25,9 @@ guiTypes = {
 		buttonType = {
 			name = "party_list_button"
 			position = { x = 0 y = 0 }
-			spriteType = "GFX_pol_party_colour"
-			# pdx_tooltip = "cabinet_button_tt"
-			scale = 1.7
+			spriteType = "GFX_button_right"
+			pdx_tooltip = "클릭하여 정당 목록 보기"
+			# scale = 1.7
 		}
 		
 		# instantTextboxType = { #직책명

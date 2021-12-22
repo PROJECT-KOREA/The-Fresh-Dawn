@@ -14,8 +14,8 @@ scripted_gui = {
 		parent_window_token = politics_tab
 		window_name = "party_list_button_ui"
 		
-		ai_check = { always = no }
-		visible = { always = no }
+		ai_check = { always = yes }
+		visible = { always = yes }
 
 		effects = {
 			cabinet_button_click = {
@@ -43,7 +43,7 @@ scripted_gui = {
 		window_name = "political_party_info_entry"
 		
 		visible = {
-			always = no
+			always = yes
 			# has_country_flag = show_party_list
 		}
 		
