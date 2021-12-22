@@ -20,14 +20,14 @@ guiTypes = {
 	### 버튼 ###
 	containerWindowType = {
 		name = "party_list_button_ui"
-		position = { x = 510 y = 180 }
+		position = { x = 515 y = 117 }
 		
 		buttonType = {
 			name = "party_list_button"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_button_right"
 			pdx_tooltip = "클릭하여 정당 목록 보기"
-			# scale = 1.7
+			scale = 1
 		}
 		
 		# instantTextboxType = { #직책명
@@ -45,9 +45,9 @@ guiTypes = {
 
 	### 시작 시 내각 ###
 	containerWindowType = {
-		name = "political_party_info_entry"
-		position = { x = 540 y = 250 }
-		size = { width = 200 height = 300 }
+		name = "party_list_bg_ui"
+		position = { x = 540 y = 192 }
+		size = { width = 210 height = 300 }
 		fade_time = 200
 		fade_type = linear
 		click_to_front = yes
@@ -58,39 +58,130 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_plain_bg"
 		}
 		
-		iconType = {
-			name = "leading_pol_party_bg"
-			position = { x = 60 y = 6 }
-			spriteType = "GFX_leading_pol_party_bg"
-			scale = 0.85
-		}
-
-		iconType = {
-			name = "color_block_bg"
-			position = { x = 60 y = 2 }
-			spriteType = "GFX_pol_party_colour_bg"
-		}
-
-		iconType = {
-			name = "color_block"
-			position = { x = 64 y = 6 }
-			spriteType = "GFX_pol_party_colour"
+		instantTextboxType = {
+			name = "title"
+			position = { x = 5 y = 13 }
+			font = "aldrich_24_outline"
+			text = "정당 목록"
+			format = centre
 		}
 		
-		#instantTextboxType = {
-		#	name = "score"
-		#	position = { x = 160 y = 4 }
-		#	font = "hoi_16mbs"
-		#	text = "score"
-		#	maxWidth = 60
-		#	maxHeight = 18
-		#}
+		# iconType = {
+		# 	name = "leading_pol_party_bg"
+		# 	position = { x = 9 y = 6 }
+		# 	spriteType = "GFX_leading_pol_party_bg"
+		# 	scale = 0.85
+		# }
+
+		iconType = {
+			name = "color_com"
+			position = { x = 13 y = 44 }
+			spriteType = "GFX_pol_party_colour"
+		}
+
+		iconType = {
+			name = "color_bg_com"
+			position = { x = 9 y = 40 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
 			
 		instantTextboxType = {
-			name = "name"
-			position = { x = 82 y = 4 }
-			font = "hoi_16mbs"
-			text = "party name"
+			name = "name_com"
+			position = { x = 33 y = 40 }
+			font = "aldrich_20_outline"
+			text = "JAP_communism_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		iconType = {
+			name = "color_autsoc"
+			position = { x = 13 y = 64 }
+			spriteType = "GFX_pol_party_colour"
+		}
+
+		iconType = {
+			name = "color_bg_autsoc"
+			position = { x = 9 y = 60 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+			
+		instantTextboxType = {
+			name = "name_autsoc"
+			position = { x = 33 y = 60 }
+			font = "aldrich_20_outline"
+			text = "JAP_auth_socialism_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		iconType = {
+			name = "color_radsoc"
+			position = { x = 13 y = 84 }
+			spriteType = "GFX_pol_party_colour"
+		}
+
+		iconType = {
+			name = "color_bg_radsoc"
+			position = { x = 9 y = 80 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+			
+		instantTextboxType = {
+			name = "name_radsoc"
+			position = { x = 33 y = 80 }
+			font = "aldrich_20_outline"
+			text = "JAP_radical_socialism_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		iconType = {
+			name = "color_socdem"
+			position = { x = 13 y = 104 }
+			spriteType = "GFX_pol_party_colour"
+		}
+
+		iconType = {
+			name = "color_bg_socdem"
+			position = { x = 9 y = 100 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+			
+		instantTextboxType = {
+			name = "name_socdem"
+			position = { x = 33 y = 100 }
+			font = "aldrich_20_outline"
+			text = "JAP_social_democracy_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		iconType = {
+			name = "color_soclib"
+			position = { x = 13 y = 124 }
+			spriteType = "GFX_pol_party_colour"
+		}
+
+		iconType = {
+			name = "color_bg_soclib"
+			position = { x = 9 y = 120 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+			
+		instantTextboxType = {
+			name = "name_soclib"
+			position = { x = 33 y = 120 }
+			font = "aldrich_20_outline"
+			text = "JAP_social_liberal_party"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18

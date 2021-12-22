@@ -14,7 +14,7 @@ scripted_gui = {
 					limit = { NOT = { has_country_flag = show_cabinet } }
 					set_country_flag = show_cabinet
 				}
-				else_if = {
+				else = {
 					limit = { has_country_flag = show_cabinet }
 					clr_country_flag = show_cabinet
 				}

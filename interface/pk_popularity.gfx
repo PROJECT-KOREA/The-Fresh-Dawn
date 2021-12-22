@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_party_background"
 		texturefile = "gfx/interface/coalitions/coalition_party_colour_bg.tga"
 	}
+	spriteType = {
+		name = "GFX_button_right"
+		texturefile = "gfx/interface/button_right.dds"
+	}
 }

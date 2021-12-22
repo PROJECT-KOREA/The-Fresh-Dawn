@@ -1,5 +1,6 @@
 scripted_gui = {
 
+	#정치 탭 - 집권당
 	current_ruling_party = {
 		context_type = player_context
 		parent_window_token = politics_tab
@@ -9,6 +10,7 @@ scripted_gui = {
 		visible = { always = yes }
 	}
 
+	#정당 목록 버튼
 	party_list_button = {
 		context_type = player_context
 		parent_window_token = politics_tab
@@ -18,33 +20,28 @@ scripted_gui = {
 		visible = { always = yes }
 
 		effects = {
-			cabinet_button_click = {
+			party_list_button_click = {
 				if = {
 					limit = { NOT = { has_country_flag = show_party_list } }
 					set_country_flag = show_party_list
 				}
-				if = {
+				else = {
 					limit = { has_country_flag = show_party_list }
 					clr_country_flag = show_party_list
 				}
 			}
 		}
-		
-		triggers = {
-			# cabinet_button_click_enabled = {
-			# 	NOT = { has_country_flag = show_cabinet }
-			# }
-		}
 	}
 
-	party_list = {
+	#정당 목록 배경
+	party_list_bg = {
 		context_type = player_context
 		parent_window_token = topbar
-		window_name = "political_party_info_entry"
+		window_name = "party_list_bg_ui"
 		
 		visible = {
-			always = yes
-			# has_country_flag = show_party_list
+			# always = yes
+			has_country_flag = show_party_list
 		}
 		
 		effects = { close_click = { clr_country_flag = show_party_list } }
