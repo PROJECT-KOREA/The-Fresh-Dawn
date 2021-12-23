@@ -15,7 +15,6 @@ scripted_gui = {
 					set_country_flag = show_cabinet
 				}
 				else = {
-					limit = { has_country_flag = show_cabinet }
 					clr_country_flag = show_cabinet
 				}
 			}

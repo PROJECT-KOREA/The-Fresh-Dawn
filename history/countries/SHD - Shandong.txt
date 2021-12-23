@@ -4,13 +4,8 @@ capital = 597
 #전투서열
 oob = "SHD_1936"
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	mass_assault = 1
-	early_fighter = 1
-	early_bomber = 1
-}
+#인물 불러오기
+recruit_character = CHI_Han_Fuju
 
 set_politics = {
 	ruling_party = auto_despotism
@@ -24,6 +19,14 @@ set_popularities = {
 	fascism = 0
 	communism = 0
 	auto_despotism = 100
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+	early_fighter = 1
+	early_bomber = 1
 }
 
 # create_country_leader = {

@@ -2,13 +2,112 @@ characters = {
 
 	#쑹저위안 - 기찰정무위원회 / 하북군벌
 	CHI_Song_Zheyuan = {
-		name = Song_Zheyuan
-		portraits = {
-			# civilian = { large = "gfx/leaders/CHI/Portrait_Lin_Sen.dds" }
-		}
+		name = "쑹저위안"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warload/Portrait_Song_Zheyuan.dds" } }
 		country_leader = {
 			ideology = despotism
 			traits = {  }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	#한푸쥐 - 산동군벌
+	CHI_Han_Fuju = {
+		name = "한푸쥐"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warload/Portrait_Han_Fuju.dds" } }
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	#리쭝런 - 광서군벌
+	CHI_Li_Zongren = {
+		name = "리쭝런"
+		portraits = {
+			civilian = { large = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds" }
+			army = {
+				small = "gfx/interface/ideas/idea_chi_li_zongren.dds"
+				large = "GFX_portrait_li_zongren"
+			}
+		}
+		# advisor = {
+			# 	slot = political_advisor
+			# 	idea_token = GXC_li_zongren
+			# 	allowed = { original_tag = GXC }
+			# 	traits = { prince_of_terror }
+		# }
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	#천지탕 - 광동군벌
+	CHI_Chen_Jitang = {
+		name = "천지탕"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warlord/Portrait_Chen_Jitang.dds" } }
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	#류샹 - 사천군벌
+	CHI_Liu_Xiang = {
+		name = "류샹"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warlord/Portrait_Liu_Xiang.dds" } }
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	#류원후이 - 서강군벌
+	CHI_Liu_Wenhui = {
+		name = "류원후이"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warlord/Portrait_Liu_Wenhui.dds" } }
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	#룽윈 - 운남군벌
+	CHI_Long_Yun = {
+		name = "룽윈"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warlord/Portrait_Long_Yun.dds" } }
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	#마훙빈 - 영하군벌
+	CHI_Ma_Hongbin = {
+		name = "마훙빈"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warlord/Portrait_Ma_Hongbin.dds" } }
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	#마부팡 - 청해군벌
+	CHI_Ma_Bufang = {
+		name = "마부팡"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warlord/Portrait_Ma_Bufang.dds" } }
+		country_leader = {
+			ideology = despotism
 			expire = "1965.1.1.1"
 			id = -1
 		}

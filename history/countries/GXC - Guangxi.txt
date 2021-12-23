@@ -4,16 +4,13 @@ capital = 594
 #전투서열
 oob = "GXC_1936"
 
+#인물 불러오기
+recruit_character = CHI_Li_Zongren
+
 set_stability = 0.6
 set_war_support = 0.4
 
 set_convoys = 5
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	mass_assault = 1
-}
 
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
@@ -32,6 +29,12 @@ set_politics = {
 
 set_popularities = {
 	auto_despotism = 100
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
 }
 
 # create_country_leader = {

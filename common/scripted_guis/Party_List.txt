@@ -26,7 +26,6 @@ scripted_gui = {
 					set_country_flag = show_party_list
 				}
 				else = {
-					limit = { has_country_flag = show_party_list }
 					clr_country_flag = show_party_list
 				}
 			}

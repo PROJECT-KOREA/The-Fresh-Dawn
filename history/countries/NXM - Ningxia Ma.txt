@@ -4,13 +4,10 @@ capital = 756
 #전투서열
 oob = "NXM_1936"
 
-set_stability = 0.7
-# Starting tech
+#인물 불러오기
+recruit_character = CHI_Ma_Hongbin
 
-set_technology = {
-	infantry_weapons = 1
-	mass_assault = 1
-}
+set_stability = 0.7
 
 set_politics = {
 	ruling_party = auto_despotism
@@ -25,6 +22,12 @@ set_popularities = {
 	communism = 0
 	neutrality = 0
 	auto_despotism = 100
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
 }
 
 # create_country_leader = {

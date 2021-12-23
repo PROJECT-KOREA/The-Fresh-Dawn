@@ -4,11 +4,10 @@ capital = 592
 #전투서열
 oob = "GUD_1936"
 
-set_research_slots = 2
+#인물 불러오기
+recruit_character = CHI_Chen_Jitang
 
-set_technology = {
-	infantry_weapons = 1
-}
+set_research_slots = 2
 
 set_politics = {
 	ruling_party = auto_despotism
@@ -19,6 +18,10 @@ set_politics = {
 
 set_popularities = {
 	auto_despotism = 100
+}
+
+set_technology = {
+	infantry_weapons = 1
 }
 
 # create_country_leader = {

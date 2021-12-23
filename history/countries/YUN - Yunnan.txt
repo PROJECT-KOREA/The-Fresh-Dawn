@@ -5,7 +5,7 @@ capital = 325
 oob = "YUN_1936"
 
 #인물 불러오기
-recruit_character = YUN_long_yun
+recruit_character = CHI_Long_Yun
 # recruit_character = YUN_lu_han
 # recruit_character = YUN_mao_dong
 # recruit_character = YUN_cheng_peng
