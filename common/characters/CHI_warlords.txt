@@ -1,0 +1,16 @@
+characters = {
+
+	#쑹저위안 - 기찰정무위원회 / 하북군벌
+	CHI_Song_Zheyuan = {
+		name = Song_Zheyuan
+		portraits = {
+			# civilian = { large = "gfx/leaders/CHI/Portrait_Lin_Sen.dds" }
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

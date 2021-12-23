@@ -1,5 +1,6 @@
 characters = {
 
+	#린썬 - 국민정부주석
 	CHI_Lin_Sen = {
 		name = Lin_Sen
 		portraits = {

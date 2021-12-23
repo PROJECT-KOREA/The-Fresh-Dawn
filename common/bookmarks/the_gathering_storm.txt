@@ -199,6 +199,19 @@ bookmarks = {
 				}
 			}
 
+			#몽고지방자치정무위원회
+			"MEN" = {
+				minor = yes
+				history = "_GATHERING_STORM_DESC"
+				ideology = neutrality
+				ideas = {
+
+				}
+				focuses = {
+					
+				}
+			}
+
 			#산서 군벌
 			"SHX" = {
 				minor = yes
