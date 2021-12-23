@@ -1,3 +1,44 @@
+@X_1 = 15
+@X_2 = 11
+@X_3 = 35
+
+@COM_Y_1 = 44
+@COM_Y_2 = 40
+
+@AUTSOC_Y_1 = 61
+@AUTSOC_Y_2 = 57
+
+@RADSOC_Y_1 = 78
+@RADSOC_Y_2 = 74
+
+@SOCDEM_Y_1 = 95
+@SOCDEM_Y_2 = 91
+
+@SOCLIB_Y_1 = 112
+@SOCLIB_Y_2 = 108
+
+@NATLIB_Y_1 = 129
+@NATLIB_Y_2 = 125
+
+@LIBCON_Y_1 = 146
+@LIBCON_Y_2 = 142
+
+@SOCCON_Y_1 = 163
+@SOCCON_Y_2 = 159
+
+@NATCON_Y_1 = 180
+@NATCON_Y_2 = 176
+
+@AUTDEM_Y_1 = 197
+@AUTDEM_Y_2 = 193
+
+@AUTDES_Y_1 = 214
+@AUTDES_Y_2 = 210
+
+@FAS_Y_1 = 231
+@FAS_Y_2 = 227
+
+
 guiTypes = {
 
 	#정당명
@@ -33,7 +74,7 @@ guiTypes = {
 		# instantTextboxType = { #직책명
 		# 	name = "cabinet_button_text"
 		# 	position = { x = -17 y = 9 }
-		# 	font = "aldrich_20_outline"
+		# 	font = "hoi_18mbs"
 		# 	text = "내각 개요"
 		# 	maxWidth = 155
 		# 	maxHeight = 20
@@ -43,7 +84,7 @@ guiTypes = {
 		# }
 	}
 
-	### 시작 시 내각 ###
+	###  ###
 	containerWindowType = {
 		name = "party_list_bg_ui"
 		position = { x = 540 y = 192 }
@@ -58,37 +99,38 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_plain_bg"
 		}
 		
-		instantTextboxType = {
-			name = "title"
-			position = { x = 5 y = 13 }
-			font = "aldrich_24_outline"
-			text = "정당 목록"
-			format = centre
-		}
+		# instantTextboxType = {
+		# 	name = "title"
+		# 	position = { x = 5 y = 13 }
+		# 	font = "aldrich_24_outline"
+		# 	text = "정당 목록"
+		# 	format = centre
+		# }
 		
 		# iconType = {
 		# 	name = "leading_pol_party_bg"
-		# 	position = { x = 9 y = 6 }
+		# 	position = { x = @X_2 y = 6 }
 		# 	spriteType = "GFX_leading_pol_party_bg"
 		# 	scale = 0.85
 		# }
 
+		### 공산주의 ###
 		iconType = {
-			name = "color_com"
-			position = { x = 13 y = 44 }
-			spriteType = "GFX_pol_party_colour"
+			name = "color_bg_com"
+			position = { x = @X_2 y = @COM_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
 		}
 
 		iconType = {
-			name = "color_bg_com"
-			position = { x = 9 y = 40 }
-			spriteType = "GFX_pol_party_colour_bg"
+			name = "color_com"
+			position = { x = @X_1 y = @COM_Y_1 }
+			spriteType = "GFX_pol_party_colour"
 		}
 			
 		instantTextboxType = {
 			name = "name_com"
-			position = { x = 33 y = 40 }
-			font = "aldrich_20_outline"
+			position = { x = @X_3 y = @COM_Y_2 }
+			font = "hoi_18mbs"
 			text = "JAP_communism_party"
 			fixedsize = yes
 			maxWidth = 175
@@ -96,22 +138,23 @@ guiTypes = {
 		}
 
 
+		### 권위사회주의 ###
 		iconType = {
-			name = "color_autsoc"
-			position = { x = 13 y = 64 }
-			spriteType = "GFX_pol_party_colour"
+			name = "color_bg_autsoc"
+			position = { x = @X_2 y = @AUTSOC_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
 		}
 
 		iconType = {
-			name = "color_bg_autsoc"
-			position = { x = 9 y = 60 }
-			spriteType = "GFX_pol_party_colour_bg"
+			name = "color_autsoc"
+			position = { x = @X_1 y = @AUTSOC_Y_1 }
+			spriteType = "GFX_pol_party_colour"
 		}
 			
 		instantTextboxType = {
 			name = "name_autsoc"
-			position = { x = 33 y = 60 }
-			font = "aldrich_20_outline"
+			position = { x = @X_3 y = @AUTSOC_Y_2 }
+			font = "hoi_18mbs"
 			text = "JAP_auth_socialism_party"
 			fixedsize = yes
 			maxWidth = 175
@@ -119,22 +162,23 @@ guiTypes = {
 		}
 
 
+		### 급진사회주의 ###
 		iconType = {
-			name = "color_radsoc"
-			position = { x = 13 y = 84 }
-			spriteType = "GFX_pol_party_colour"
+			name = "color_bg_radsoc"
+			position = { x = @X_2 y = @RADSOC_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
 		}
 
 		iconType = {
-			name = "color_bg_radsoc"
-			position = { x = 9 y = 80 }
-			spriteType = "GFX_pol_party_colour_bg"
+			name = "color_radsoc"
+			position = { x = @X_1 y = @RADSOC_Y_1 }
+			spriteType = "GFX_pol_party_colour"
 		}
 			
 		instantTextboxType = {
 			name = "name_radsoc"
-			position = { x = 33 y = 80 }
-			font = "aldrich_20_outline"
+			position = { x = @X_3 y = @RADSOC_Y_2 }
+			font = "hoi_18mbs"
 			text = "JAP_radical_socialism_party"
 			fixedsize = yes
 			maxWidth = 175
@@ -142,22 +186,23 @@ guiTypes = {
 		}
 
 
+		### 사회민주주의 ###
 		iconType = {
-			name = "color_socdem"
-			position = { x = 13 y = 104 }
-			spriteType = "GFX_pol_party_colour"
+			name = "color_bg_socdem"
+			position = { x = @X_2 y = @SOCDEM_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
 		}
 
 		iconType = {
-			name = "color_bg_socdem"
-			position = { x = 9 y = 100 }
-			spriteType = "GFX_pol_party_colour_bg"
+			name = "color_socdem"
+			position = { x = @X_1 y = @SOCDEM_Y_1 }
+			spriteType = "GFX_pol_party_colour"
 		}
-			
+
 		instantTextboxType = {
 			name = "name_socdem"
-			position = { x = 33 y = 100 }
-			font = "aldrich_20_outline"
+			position = { x = @X_3 y = @SOCDEM_Y_2 }
+			font = "hoi_18mbs"
 			text = "JAP_social_democracy_party"
 			fixedsize = yes
 			maxWidth = 175
@@ -165,26 +210,208 @@ guiTypes = {
 		}
 
 
+		### 사회자유주의 ###
 		iconType = {
-			name = "color_soclib"
-			position = { x = 13 y = 124 }
-			spriteType = "GFX_pol_party_colour"
+			name = "color_bg_soclib"
+			position = { x = @X_2 y = @SOCLIB_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
 		}
 
 		iconType = {
-			name = "color_bg_soclib"
-			position = { x = 9 y = 120 }
-			spriteType = "GFX_pol_party_colour_bg"
+			name = "color_soclib"
+			position = { x = @X_1 y = @SOCLIB_Y_1 }
+			spriteType = "GFX_pol_party_colour"
 		}
 			
 		instantTextboxType = {
 			name = "name_soclib"
-			position = { x = 33 y = 120 }
-			font = "aldrich_20_outline"
+			position = { x = @X_3 y = @SOCLIB_Y_2 }
+			font = "hoi_18mbs"
 			text = "JAP_social_liberal_party"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
+		}
+
+
+		### 국민자유주의 ###
+		iconType = {
+			name = "color_bg_natlib"
+			position = { x = @X_2 y = @NATLIB_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+
+		iconType = {
+			name = "color_natlib"
+			position = { x = @X_1 y = @NATLIB_Y_1 }
+			spriteType = "GFX_pol_party_colour"
+		}
+			
+		instantTextboxType = {
+			name = "name_natlib"
+			position = { x = @X_3 y = @NATLIB_Y_2 }
+			font = "hoi_18mbs"
+			text = "JAP_national_liberal_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		### 자유보수주의 ###
+		iconType = {
+			name = "color_bg_libcon"
+			position = { x = @X_2 y = @LIBCON_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+
+		iconType = {
+			name = "color_libcon"
+			position = { x = @X_1 y = @LIBCON_Y_1 }
+			spriteType = "GFX_pol_party_colour"
+		}
+
+		instantTextboxType = {
+			name = "name_libcon"
+			position = { x = @X_3 y = @LIBCON_Y_2 }
+			font = "hoi_18mbs"
+			text = "JAP_liberal_conservatism_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		### 사회보수주의 ###
+		iconType = {
+			name = "color_bg_soccon"
+			position = { x = @X_2 y = @SOCCON_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+
+		iconType = {
+			name = "color_soccon"
+			position = { x = @X_1 y = @SOCCON_Y_1 }
+			spriteType = "GFX_pol_party_colour"
+		}
+			
+		instantTextboxType = {
+			name = "name_soccon"
+			position = { x = @X_3 y = @SOCCON_Y_2 }
+			font = "hoi_18mbs"
+			text = "JAP_democratic_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		### 국민보수주의 ###
+		iconType = {
+			name = "color_bg_natcon"
+			position = { x = @X_2 y = @NATCON_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+		
+		iconType = {
+			name = "color_natcon"
+			position = { x = @X_1 y = @NATCON_Y_1 }
+			spriteType = "GFX_pol_party_colour"
+		}
+
+		instantTextboxType = {
+			name = "name_natcon"
+			position = { x = @X_3 y = @NATCON_Y_2 }
+			font = "hoi_18mbs"
+			text = "JAP_national_conservatism_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		### 권위민주주의 ###
+		iconType = {
+			name = "color_bg_neudem"
+			position = { x = @X_2 y = @AUTDEM_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+
+		iconType = {
+			name = "color_neudem"
+			position = { x = @X_1 y = @AUTDEM_Y_1 }
+			spriteType = "GFX_pol_party_colour"
+		}
+			
+		instantTextboxType = {
+			name = "name_neudem"
+			position = { x = @X_3 y = @AUTDEM_Y_2 }
+			font = "hoi_18mbs"
+			text = "JAP_neutrality_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		### 전제독재주의 ###
+		iconType = {
+			name = "color_bg_autdes"
+			position = { x = @X_2 y = @AUTDES_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+
+		iconType = {
+			name = "color_autdes"
+			position = { x = @X_1 y = @AUTDES_Y_1 }
+			spriteType = "GFX_pol_party_colour"
+		}
+			
+		instantTextboxType = {
+			name = "name_autdes"
+			position = { x = @X_3 y = @AUTDES_Y_2 }
+			font = "hoi_18mbs"
+			text = "JAP_auto_despotism_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+
+
+		### 파시즘 ###
+		iconType = {
+			name = "color_bg_fas"
+			position = { x = @X_2 y = @FAS_Y_2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
+
+		iconType = {
+			name = "color_fas"
+			position = { x = @X_1 y = @FAS_Y_1 }
+			spriteType = "GFX_pol_party_colour"
+		}
+			
+		instantTextboxType = {
+			name = "name_fas"
+			position = { x = @X_3 y = @FAS_Y_2 }
+			font = "hoi_18mbs"
+			text = "JAP_fascism_party"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
+	}
+
+	
+	#집권당 배경 - 권민
+	containerWindowType = {
+		name = "rp_autdem"
+		position = { x = 35 y = 193 }
+		iconType ={
+			name = "leading_pol_party_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 1
 		}
 	}
 }

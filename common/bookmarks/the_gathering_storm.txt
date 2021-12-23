@@ -190,7 +190,7 @@ bookmarks = {
 			"HPC" = {
 				minor = yes
 				history = "_GATHERING_STORM_DESC"
-				ideology = neutrality
+				ideology = auto_despotism
 				ideas = {
 
 				}

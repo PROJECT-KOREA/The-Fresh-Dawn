@@ -52,5 +52,14 @@ scripted_gui = {
 			# HRA_CDR = { image = "GFX_Portrait_Lee_Beomseok" }
 		}
 	}
+
+	ruling_party_bg_con = {
+		window_name = "popnatcon"
+		context_type = player_context
+		parent_window_token = top_bar
+		visible = {
+			has_government = national_conservatism
+		}
+	}
 }
 
