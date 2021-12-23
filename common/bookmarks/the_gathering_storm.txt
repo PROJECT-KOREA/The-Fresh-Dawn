@@ -361,7 +361,7 @@ bookmarks = {
 				history = "_GATHERING_STORM_DESC"
 				ideology = auto_despotism
 				ideas = {
-
+					
 				}
 				focuses = {
 					
