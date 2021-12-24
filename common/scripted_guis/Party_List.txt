@@ -53,13 +53,12 @@ scripted_gui = {
 		}
 	}
 
+
 	ruling_party_bg_con = {
-		window_name = "popnatcon"
 		context_type = player_context
-		parent_window_token = top_bar
-		visible = {
-			has_government = national_conservatism
-		}
+		window_name = "rp_autdem"
+		parent_window_token = party_list_bg_ui
+		visible = { has_government = neutrality }
 	}
 }
 
