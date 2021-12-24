@@ -23,6 +23,72 @@ ideas = {
 				hog
 			}
 		}
+		
+		#고토 후미오
+		HoG_Goto_Fumio = {
+			name = Goto_Fumio
+			picture = vacant
+			# picture = minister_Goto_Fumio
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				hog
+			}
+		}
+		
+		#히로타 코키
+		HoG_Hirota_KoKi = {
+			name = Hirota_KoKi
+			picture = vacant
+			# picture = minister_Hirota_KoKi
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				hog
+			}
+		}
+		
+		#하야시 센쥬로
+		HoG_Hayashi_Senjuro = {
+			name = Hayashi_Senjuro
+			picture = vacant
+			# picture = minister_Hayashi_Senjuro
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				hog
+			}
+		}
 	}
 
 	#내무국장
