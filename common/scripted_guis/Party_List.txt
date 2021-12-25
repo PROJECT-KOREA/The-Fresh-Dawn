@@ -25,9 +25,7 @@ scripted_gui = {
 					limit = { NOT = { has_country_flag = show_party_list } }
 					set_country_flag = show_party_list
 				}
-				else = {
-					clr_country_flag = show_party_list
-				}
+				else = { clr_country_flag = show_party_list }
 			}
 		}
 	}
@@ -35,7 +33,7 @@ scripted_gui = {
 	#정당 목록 배경
 	party_list_bg = {
 		context_type = player_context
-		parent_window_token = party_list_button
+		parent_window_token = party_list_button_ui
 		window_name = "party_list_bg_ui"
 		
 		visible = {

@@ -1,7 +1,7 @@
-@X_1 = 13
-@X_2 = 9
-@X_3 = 31
-@X_4 = 7
+@X_1 = 14
+@X_2 = 10
+@X_3 = 32
+@X_4 = 8
 
 @COM_Y_1 = 49
 @COM_Y_2 = 45
@@ -128,7 +128,7 @@ guiTypes = {
 			position = { x = 179 y = 6 }
 			clicksound = click_close
 			pdx_tooltip = "닫기"
-			# shortcut = "ESCAPE"
+			shortcut = "ESCAPE"
 			scale = 0.65
 		}
 		
@@ -159,9 +159,9 @@ guiTypes = {
 			name = "name_com"
 			position = { x = @X_3 y = @COM_Y_2 }
 			font = "hoi_18mbs"
-			text = "[This.GetCommunistParty]"
+			text = "[This.communism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -194,7 +194,7 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "[This.auth_socialism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -227,7 +227,7 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "[This.radical_socialism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -260,7 +260,7 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "[This.social_democracy_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -291,9 +291,9 @@ guiTypes = {
 			name = "name_soclib"
 			position = { x = @X_3 y = @SOCLIB_Y_2 }
 			font = "hoi_18mbs"
-			text = "[This.social_liberal_party]"
+			text = "[This.social_liberalism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -324,9 +324,9 @@ guiTypes = {
 			name = "name_natlib"
 			position = { x = @X_3 y = @NATLIB_Y_2 }
 			font = "hoi_18mbs"
-			text = "[This.national_liberal_party]"
+			text = "[This.national_liberalism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -359,7 +359,7 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "[This.liberal_conservatism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -390,9 +390,9 @@ guiTypes = {
 			name = "name_soccon"
 			position = { x = @X_3 y = @SOCCON_Y_2 }
 			font = "hoi_18mbs"
-			text = "[This.GetDemocraticParty]"
+			text = "[This.social_conservatism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -425,7 +425,7 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "[This.national_conservatism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -456,9 +456,9 @@ guiTypes = {
 			name = "name_autdem"
 			position = { x = @X_3 y = @AUTDEM_Y_2 }
 			font = "hoi_18mbs"
-			text = "[This.GetNeutralParty]"
+			text = "[This.neutrality_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -491,7 +491,7 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "[This.auto_despotism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 
@@ -522,9 +522,9 @@ guiTypes = {
 			name = "name_fas"
 			position = { x = @X_3 y = @FAS_Y_2 }
 			font = "hoi_18mbs"
-			text = "[This.GetFascistParty]"
+			text = "[This.fascism_party]"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 170
 			maxHeight = 18
 		}
 	}

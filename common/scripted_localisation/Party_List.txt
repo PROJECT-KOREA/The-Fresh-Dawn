@@ -1,14 +1,69 @@
 defined_text = {
+	name = communism_party
+	text = { localization_key = communism }
+}
+
+defined_text = {
 	name = auth_socialism_party
-	text = {
-		trigger = { tag = JAP }
-		localization_key = JAP_auth_socialism_party
-	}
-	text = {
-		trigger = { tag = CHI }
-		localization_key = CHI_auth_socialism_party
-	}
+	# text = {
+	# 	trigger = { tag = JAP }
+	# 	localization_key = JAP_auth_socialism_party
+	# }
+	# text = {
+	# 	trigger = { tag = CHI }
+	# 	localization_key = CHI_auth_socialism_party
+	# }
 	text = { localization_key = auth_socialism }
+}
+
+defined_text = {
+	name = radical_socialism_party
+	text = { localization_key = radical_socialism }
+}
+
+defined_text = {
+	name = social_democracy_party
+	text = { localization_key = social_democracy }
+}
+
+defined_text = {
+	name = social_liberalism_party
+	text = { localization_key = social_liberalism }
+}
+
+defined_text = {
+	name = national_liberalism_party
+	text = { localization_key = national_liberalism }
+}
+
+defined_text = {
+	name = liberal_conservatism_party
+	text = { localization_key = liberal_conservatism }
+}
+
+defined_text = {
+	name = social_conservatism_party
+	text = { localization_key = democratic }
+}
+
+defined_text = {
+	name = national_conservatism_party
+	text = { localization_key = national_conservatism }
+}
+
+defined_text = {
+	name = neutrality_party
+	text = { localization_key = neutrality }
+}
+
+defined_text = {
+	name = auto_despotism_party
+	text = { localization_key = auto_despotism }
+}
+
+defined_text = {
+	name = fascism_party
+	text = { localization_key = fascism }
 }
 
 
