@@ -28,30 +28,39 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "gmsans_18"
 		path = "gfx/fonts/gmsans_18"
-		color = 0xff000000
+		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "gmsans_19"
 		path = "gfx/fonts/gmsans_19"
-		color = 0xff000000
+		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "gmsans_20"
 		path = "gfx/fonts/gmsans_20"
-		color = 0xff000000
+		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "gmsans_21"
 		path = "gfx/fonts/gmsans_21"
-		color = 0xff000000
+		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "gmsans_22"
 		path = "gfx/fonts/gmsans_22"
-		color = 0xff000000
+		color = 0xffffffff
+	
+		textcolors = {
+			W = { 255 255 255 }
+			# G = { 86 172 91 }
+			# R = { 222 86 70 }
+			# Y = { 238 201 35 }
+			# H = { 238 203 35 }
+			# T = { 255 255 255 }
+		}
 	}
 }

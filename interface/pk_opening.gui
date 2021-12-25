@@ -33,16 +33,16 @@ guiTypes = {
 		iconType = {
 			name = "opening_screen_poster1"
 			spriteType = "GFX_poster_GER"
-			position = { x = 69 y = 285 }
+			position = { x = 1037 y = 317 }
 			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
 			name = "TNO_OpeningScreen_Text"
-			position = { x = 335 y = 180 }
-			font = "aldrich_22_outline_b"
+			position = { x = 40 y = 215 }
+			font = "gmsans_18"
 			text = "COUNTRY_INFO_TEXT"
-			maxWidth = 720
+			maxWidth = 900
 			maxHeight = 500
 			# alwaystransparent = yes
 			scrollbarType = standardtext_slider

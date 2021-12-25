@@ -61,8 +61,8 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "party_name"
-			position = { x = 437 y = 89 }
-			font = "aldrich_18_outline"
+			position = { x = 436 y = 89 }
+			font = "gmsans_18"
 			text = "[ROOT.GetRulingParty]"
 			fixedsize = yes
 			maxWidth = 95
@@ -115,7 +115,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 3 y = 15 }
-			font = "aldrich_24_outline"
+			font = "gmsans_22"
 			text = "정당 목록"
 			format = centre
 			fixedsize = yes

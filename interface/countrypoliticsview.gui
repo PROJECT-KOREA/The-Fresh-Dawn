@@ -154,7 +154,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 79 y = 0 }
-				font = "aldrich_22_outline"
+				font = "gmsans_18"
 				text = "ideology"
 				maxWidth = 95
 				maxHeight = 20
@@ -626,8 +626,8 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 65 y = 14 }
-			font = "aldrich_22_outline"
+			position = { x = 65 y = 16 }
+			font = "gmsans_18"
 			text = "Government"
 			maxWidth = 300
 			maxHeight = 20
