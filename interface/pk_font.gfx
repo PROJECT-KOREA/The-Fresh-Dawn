@@ -23,4 +23,35 @@ bitmapfonts = {
 		path = "gfx/fonts/nnmj_i_27"
 		color = 0xff000000
 	}
+
+
+	bitmapfont = {
+		name = "gmsans_18"
+		path = "gfx/fonts/gmsans_18"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "gmsans_19"
+		path = "gfx/fonts/gmsans_19"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "gmsans_20"
+		path = "gfx/fonts/gmsans_20"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "gmsans_21"
+		path = "gfx/fonts/gmsans_21"
+		color = 0xff000000
+	}
+
+	bitmapfont = {
+		name = "gmsans_22"
+		path = "gfx/fonts/gmsans_22"
+		color = 0xff000000
+	}
 }
