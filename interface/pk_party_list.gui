@@ -1,42 +1,55 @@
-@X_1 = 15
-@X_2 = 11
-@X_3 = 35
+@X_1 = 13
+@X_2 = 9
+@X_3 = 31
+@X_4 = 7
 
-@COM_Y_1 = 44
-@COM_Y_2 = 40
+@COM_Y_1 = 49
+@COM_Y_2 = 45
+@COM_Y_3 = 48
 
-@AUTSOC_Y_1 = 61
-@AUTSOC_Y_2 = 57
+@AUTSOC_Y_1 = 66
+@AUTSOC_Y_2 = 62
+@AUTSOC_Y_3 = 65
 
-@RADSOC_Y_1 = 78
-@RADSOC_Y_2 = 74
+@RADSOC_Y_1 = 83
+@RADSOC_Y_2 = 79
+@RADSOC_Y_3 = 82
 
-@SOCDEM_Y_1 = 95
-@SOCDEM_Y_2 = 91
+@SOCDEM_Y_1 = 100
+@SOCDEM_Y_2 = 96
+@SOCDEM_Y_3 = 99
 
-@SOCLIB_Y_1 = 112
-@SOCLIB_Y_2 = 108
+@SOCLIB_Y_1 = 117
+@SOCLIB_Y_2 = 113
+@SOCLIB_Y_3 = 116
 
-@NATLIB_Y_1 = 129
-@NATLIB_Y_2 = 125
+@NATLIB_Y_1 = 134
+@NATLIB_Y_2 = 130
+@NATLIB_Y_3 = 133
 
-@LIBCON_Y_1 = 146
-@LIBCON_Y_2 = 142
+@LIBCON_Y_1 = 151
+@LIBCON_Y_2 = 147
+@LIBCON_Y_3 = 150
 
-@SOCCON_Y_1 = 163
-@SOCCON_Y_2 = 159
+@SOCCON_Y_1 = 168
+@SOCCON_Y_2 = 164
+@SOCCON_Y_3 = 167
 
-@NATCON_Y_1 = 180
-@NATCON_Y_2 = 176
+@NATCON_Y_1 = 185
+@NATCON_Y_2 = 181
+@NATCON_Y_3 = 184
 
-@AUTDEM_Y_1 = 197
-@AUTDEM_Y_2 = 193
+@AUTDEM_Y_1 = 202
+@AUTDEM_Y_2 = 198
+@AUTDEM_Y_3 = 201
 
-@AUTDES_Y_1 = 214
-@AUTDES_Y_2 = 210
+@AUTDES_Y_1 = 219
+@AUTDES_Y_2 = 215
+@AUTDES_Y_3 = 218
 
-@FAS_Y_1 = 231
-@FAS_Y_2 = 227
+@FAS_Y_1 = 236
+@FAS_Y_2 = 232
+@FAS_Y_3 = 235
 
 
 guiTypes = {
@@ -88,10 +101,10 @@ guiTypes = {
 	containerWindowType = {
 		name = "party_list_bg_ui"
 		position = { x = 540 y = 192 }
-		size = { width = 210 height = 300 }
-		fade_time = 200
+		size = { width = 206 height = 270 }
+		fade_time = 50
 		fade_type = linear
-		click_to_front = yes
+		click_to_front = no
 		show_sound = menu_open_window
 		
 		background = {
@@ -99,22 +112,37 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_plain_bg"
 		}
 		
-		# instantTextboxType = {
-		# 	name = "title"
-		# 	position = { x = 5 y = 13 }
-		# 	font = "aldrich_24_outline"
-		# 	text = "정당 목록"
-		# 	format = centre
-		# }
+		instantTextboxType = {
+			name = "title"
+			position = { x = 3 y = 15 }
+			font = "aldrich_24_outline"
+			text = "정당 목록"
+			format = centre
+			fixedsize = yes
+			maxWidth = 200
+		}
+					
+		buttonType = {
+			name = "close"
+			spriteType = "GFX_closebutton"
+			position = { x = 179 y = 6 }
+			clicksound = click_close
+			pdx_tooltip = "닫기"
+			# shortcut = "ESCAPE"
+			scale = 0.65
+		}
 		
-		# iconType = {
-		# 	name = "leading_pol_party_bg"
-		# 	position = { x = @X_2 y = 6 }
-		# 	spriteType = "GFX_leading_pol_party_bg"
-		# 	scale = 0.85
-		# }
 
 		### 공산주의 ###
+		iconType = {
+			name = "bg_com"
+			position = { x = @X_4 y = @COM_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+
 		iconType = {
 			name = "color_bg_com"
 			position = { x = @X_2 y = @COM_Y_2 }
@@ -124,14 +152,14 @@ guiTypes = {
 		iconType = {
 			name = "color_com"
 			position = { x = @X_1 y = @COM_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_com"
 		}
 			
 		instantTextboxType = {
 			name = "name_com"
 			position = { x = @X_3 y = @COM_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_communism_party"
+			text = "[This.GetCommunistParty]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -139,6 +167,15 @@ guiTypes = {
 
 
 		### 권위사회주의 ###
+		iconType = {
+			name = "bg_autsoc"
+			position = { x = @X_4 y = @AUTSOC_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+
 		iconType = {
 			name = "color_bg_autsoc"
 			position = { x = @X_2 y = @AUTSOC_Y_2 }
@@ -148,14 +185,14 @@ guiTypes = {
 		iconType = {
 			name = "color_autsoc"
 			position = { x = @X_1 y = @AUTSOC_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_autsoc"
 		}
 			
 		instantTextboxType = {
 			name = "name_autsoc"
 			position = { x = @X_3 y = @AUTSOC_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_auth_socialism_party"
+			text = "[This.auth_socialism_party]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -163,6 +200,15 @@ guiTypes = {
 
 
 		### 급진사회주의 ###
+		iconType = {
+			name = "bg_radsoc"
+			position = { x = @X_4 y = @RADSOC_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_radsoc"
 			position = { x = @X_2 y = @RADSOC_Y_2 }
@@ -172,14 +218,14 @@ guiTypes = {
 		iconType = {
 			name = "color_radsoc"
 			position = { x = @X_1 y = @RADSOC_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_radsoc"
 		}
 			
 		instantTextboxType = {
 			name = "name_radsoc"
 			position = { x = @X_3 y = @RADSOC_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_radical_socialism_party"
+			text = "[This.radical_socialism_party]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -187,6 +233,15 @@ guiTypes = {
 
 
 		### 사회민주주의 ###
+		iconType = {
+			name = "bg_socdem"
+			position = { x = @X_4 y = @SOCDEM_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_socdem"
 			position = { x = @X_2 y = @SOCDEM_Y_2 }
@@ -196,14 +251,14 @@ guiTypes = {
 		iconType = {
 			name = "color_socdem"
 			position = { x = @X_1 y = @SOCDEM_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_socdem"
 		}
 
 		instantTextboxType = {
 			name = "name_socdem"
 			position = { x = @X_3 y = @SOCDEM_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_social_democracy_party"
+			text = "[This.social_democracy_party]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -211,6 +266,15 @@ guiTypes = {
 
 
 		### 사회자유주의 ###
+		iconType = {
+			name = "bg_soclib"
+			position = { x = @X_4 y = @SOCLIB_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_soclib"
 			position = { x = @X_2 y = @SOCLIB_Y_2 }
@@ -220,14 +284,14 @@ guiTypes = {
 		iconType = {
 			name = "color_soclib"
 			position = { x = @X_1 y = @SOCLIB_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_soclib"
 		}
 			
 		instantTextboxType = {
 			name = "name_soclib"
 			position = { x = @X_3 y = @SOCLIB_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_social_liberal_party"
+			text = "[This.social_liberal_party]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -235,6 +299,15 @@ guiTypes = {
 
 
 		### 국민자유주의 ###
+		iconType = {
+			name = "bg_natlib"
+			position = { x = @X_4 y = @NATLIB_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_natlib"
 			position = { x = @X_2 y = @NATLIB_Y_2 }
@@ -244,14 +317,14 @@ guiTypes = {
 		iconType = {
 			name = "color_natlib"
 			position = { x = @X_1 y = @NATLIB_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_natlib"
 		}
 			
 		instantTextboxType = {
 			name = "name_natlib"
 			position = { x = @X_3 y = @NATLIB_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_national_liberal_party"
+			text = "[This.national_liberal_party]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -259,6 +332,15 @@ guiTypes = {
 
 
 		### 자유보수주의 ###
+		iconType = {
+			name = "bg_libcon"
+			position = { x = @X_4 y = @LIBCON_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_libcon"
 			position = { x = @X_2 y = @LIBCON_Y_2 }
@@ -268,14 +350,14 @@ guiTypes = {
 		iconType = {
 			name = "color_libcon"
 			position = { x = @X_1 y = @LIBCON_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_libcon"
 		}
 
 		instantTextboxType = {
 			name = "name_libcon"
 			position = { x = @X_3 y = @LIBCON_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_liberal_conservatism_party"
+			text = "[This.liberal_conservatism_party]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -283,6 +365,15 @@ guiTypes = {
 
 
 		### 사회보수주의 ###
+		iconType = {
+			name = "bg_soccoon"
+			position = { x = @X_4 y = @SOCCON_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_soccon"
 			position = { x = @X_2 y = @SOCCON_Y_2 }
@@ -292,14 +383,14 @@ guiTypes = {
 		iconType = {
 			name = "color_soccon"
 			position = { x = @X_1 y = @SOCCON_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_soccon"
 		}
 			
 		instantTextboxType = {
 			name = "name_soccon"
 			position = { x = @X_3 y = @SOCCON_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_democratic_party"
+			text = "[This.GetDemocraticParty]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -307,6 +398,15 @@ guiTypes = {
 
 
 		### 국민보수주의 ###
+		iconType = {
+			name = "bg_natcon"
+			position = { x = @X_4 y = @NATCON_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_natcon"
 			position = { x = @X_2 y = @NATCON_Y_2 }
@@ -316,14 +416,14 @@ guiTypes = {
 		iconType = {
 			name = "color_natcon"
 			position = { x = @X_1 y = @NATCON_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_natcon"
 		}
 
 		instantTextboxType = {
 			name = "name_natcon"
 			position = { x = @X_3 y = @NATCON_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_national_conservatism_party"
+			text = "[This.national_conservatism_party]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -332,22 +432,31 @@ guiTypes = {
 
 		### 권위민주주의 ###
 		iconType = {
-			name = "color_bg_neudem"
+			name = "bg_autdem"
+			position = { x = @X_4 y = @AUTDEM_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.98	
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "color_bg_autdem"
 			position = { x = @X_2 y = @AUTDEM_Y_2 }
 			spriteType = "GFX_pol_party_colour_bg"
 		}
 
 		iconType = {
-			name = "color_neudem"
+			name = "color_autdem"
 			position = { x = @X_1 y = @AUTDEM_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_autdem"
 		}
 			
 		instantTextboxType = {
-			name = "name_neudem"
+			name = "name_autdem"
 			position = { x = @X_3 y = @AUTDEM_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_neutrality_party"
+			text = "[This.GetNeutralParty]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -355,6 +464,15 @@ guiTypes = {
 
 
 		### 전제독재주의 ###
+		iconType = {
+			name = "bg_autdes"
+			position = { x = @X_4 y = @AUTDES_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_autdes"
 			position = { x = @X_2 y = @AUTDES_Y_2 }
@@ -364,14 +482,14 @@ guiTypes = {
 		iconType = {
 			name = "color_autdes"
 			position = { x = @X_1 y = @AUTDES_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_autdes"
 		}
 			
 		instantTextboxType = {
 			name = "name_autdes"
 			position = { x = @X_3 y = @AUTDES_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_auto_despotism_party"
+			text = "[This.auto_despotism_party]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -379,6 +497,15 @@ guiTypes = {
 
 
 		### 파시즘 ###
+		iconType = {
+			name = "bg_fas"
+			position = { x = @X_4 y = @FAS_Y_1 }
+			# spriteType = "GFX_leading_pol_party_bg"
+			spriteType = "GFX_select_date_1939"
+			scale = 0.97
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "color_bg_fas"
 			position = { x = @X_2 y = @FAS_Y_2 }
@@ -388,30 +515,17 @@ guiTypes = {
 		iconType = {
 			name = "color_fas"
 			position = { x = @X_1 y = @FAS_Y_1 }
-			spriteType = "GFX_pol_party_colour"
+			spriteType = "GFX_party_color_fas"
 		}
 			
 		instantTextboxType = {
 			name = "name_fas"
 			position = { x = @X_3 y = @FAS_Y_2 }
 			font = "hoi_18mbs"
-			text = "JAP_fascism_party"
+			text = "[This.GetFascistParty]"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
-		}
-	}
-
-	
-	#집권당 배경 - 권민
-	containerWindowType = {
-		name = "rp_autdem"
-		position = { x = 550 y = 390 }
-		iconType = {
-			name = "leading_pol_party_bg"
-			position = { x = 0 y = 0 }
-			spriteType = "GFX_leading_pol_party_bg"
-			scale = 0.85
 		}
 	}
 }

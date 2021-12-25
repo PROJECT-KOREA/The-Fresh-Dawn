@@ -1,0 +1,122 @@
+defined_text = {
+	name = auth_socialism_party
+	text = {
+		trigger = { tag = JAP }
+		localization_key = JAP_auth_socialism_party
+	}
+	text = {
+		trigger = { tag = CHI }
+		localization_key = CHI_auth_socialism_party
+	}
+	text = { localization_key = auth_socialism }
+}
+
+
+
+defined_text = {
+	name = bg_com
+	text = {
+		trigger = { has_government = communism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_autsoc
+	text = {
+		trigger = { has_government = auth_socialism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_radsoc
+	text = {
+		trigger = { has_government = radical_socialism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_socdem
+	text = {
+		trigger = { has_government = social_democracy }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_soclib
+	text = {
+		trigger = { has_government = social_liberalism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_natlib
+	text = {
+		trigger = { has_government = national_liberalism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_libcon
+	text = {
+		trigger = { has_government = liberal_conservatism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_soccon
+	text = {
+		trigger = { has_government = democratic }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_natcon
+	text = {
+		trigger = { has_government = national_conservatism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_autdem
+	text = {
+		trigger = { has_government = neutrality }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_autdes
+	text = {
+		trigger = { has_government = auto_despotism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
+
+defined_text = {
+	name = bg_fas
+	text = {
+		trigger = { has_government = fascism }
+		localization_key = GFX_leading_pol_party_bg
+	}
+	text = { localization_key = GFX_select_date_1939 }
+}
