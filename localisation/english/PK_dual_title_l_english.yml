@@ -22,6 +22,7 @@
   kpg_president:0 "국무원 주석"
 
   #기본
+  emperor:0 "황제"
   head_of_state:0 "국가원수"
  #
 
@@ -36,6 +37,9 @@
 
   #중화민국 국민정부
   chi_premier:0 "행정원장"
+
+  #만주 제국
+  kokumu_souri_daijin:0 "국무총리대신"
 
   #대한민국 임시정부
   kia_vice_commander:0 "광복군 부사령관"

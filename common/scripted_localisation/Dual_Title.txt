@@ -19,6 +19,12 @@ defined_text = {
 		trigger = { tag = CHI }
 		localization_key = chi_chairman
 	}
+	
+	#만주 제국 - 황제
+	text = {
+		trigger = { tag = MAN }
+		localization_key = emperor
+	}
 
 	#대한민국 임시정부
 
@@ -86,6 +92,12 @@ defined_text = {
 	text = {
         trigger = { tag = CHI }
 		localization_key = chi_premier
+	}
+	
+	#만주 제국 - 국무총리대신
+	text = {
+		trigger = { tag = MAN }
+		localization_key = kokumu_souri_daijin
 	}
 
 	#대한민국 임시정부

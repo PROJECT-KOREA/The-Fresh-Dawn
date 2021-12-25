@@ -71,5 +71,5 @@ defined_text = {
 	#
 
 	#공석
-	text = { localization_key = GFX_Portrait_vacant }
+	text = { localization_key = GFX_leader_unknown }
 }

@@ -74,7 +74,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x = 449 y = 117 }
+			position = { x = 448 y = 117 }
 			size = { width = 100 height = 100 }
 			clipping = no
 

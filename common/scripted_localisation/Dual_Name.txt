@@ -20,6 +20,15 @@ defined_text = {
 		localization_key = Imaida_Kiyonori
 	}
 
+	#만주 제국 - 장징후이
+	text = {
+        trigger = {
+			tag = MAN
+			has_idea = HoG_Zhang_Jinghui
+		}
+		localization_key = Zhang_Jinghui
+	}
+
 	#중화민국 국민정부 - 장제스
 	text = {
         trigger = {
