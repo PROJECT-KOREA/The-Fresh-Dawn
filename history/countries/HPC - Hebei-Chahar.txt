@@ -34,20 +34,20 @@ set_technology = {
 # create_country_leader = {
 # 	name = "Song Zheyuan"
 # 	desc = "POLITICS_SONG_ZHEYUAN_DESC"
-# 	picture = "gfx/leaders/CHI_warload/Portrait_Song_Zheyuan.dds"
+# 	picture = "gfx/leaders/CHI_warlord/Portrait_Song_Zheyuan.dds"
 # 	ideology = military_dic
 # }
 
 # create_country_leader = {
 # 	name = "Song Zheyuan"
 # 	desc = "POLITICS_SONG_ZHEYUAN_DESC"
-# 	picture = "gfx/leaders/CHI_warload/Portrait_Song_Zheyuan.dds"
+# 	picture = "gfx/leaders/CHI_warlord/Portrait_Song_Zheyuan.dds"
 # 	ideology = warlordism
 # }
 
 # create_field_marshal = {
 # 	name = "Song Zheyuan"
-# 	portrait_path = "gfx/leaders/CHI_warload/Portrait_Song_Zheyuan.dds"
+# 	portrait_path = "gfx/leaders/CHI_warlord/Portrait_Song_Zheyuan.dds"
 # 	traits = { inspirational_leader }
 # 	skill = 3
 # 	attack_skill = 3
