@@ -249,7 +249,6 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
-		
 		# 24개월 복무 #
 		limited_conscription = {
 			cost = 150
@@ -336,8 +335,8 @@ ideas = {
 				political_power_gain = -0.03				# 정치력 획득 -0.03
 				army_org_factor = -0.025					# 사단 조직률 -2.5%
 				army_morale_factor = -0.025					# 사단 회복률 -2.5%
-				industrial_capacity_factory = -0.05			# 공장 생산량 -5%
-				industrial_capacity_dockyard = -0.05			# 조선소 생산량 -5%
+				industrial_capacity_factory = -0.025		# 공장 생산량 -2.5%
+				industrial_capacity_dockyard = -0.025		# 조선소 생산량 -2.5%
 				production_speed_buildings_factor = -0.05	# 건설 속도 -5%
 				training_time_factor = 0.075				# 훈련 시간 +7.5%
 			}
@@ -431,6 +430,8 @@ ideas = {
 				political_power_gain = -0.05				# 정치력 획득 -0.05
 				army_org_factor = -0.05						# 사단 조직률 -5%
 				army_morale_factor = -0.05					# 사단 회복률 -5%
+				industrial_capacity_factory = -0.05			# 공장 생산량 -5%
+				industrial_capacity_dockyard = -0.05		# 조선소 생산량 -5%
 				production_speed_buildings_factor = -0.075	# 건설 속도 -7.5%
 				training_time_factor = 0.1					# 훈련 시간 +10%
 			}
@@ -522,9 +523,11 @@ ideas = {
 				stability_factor = -0.075 					# 안정도 -7.5%
 				war_support_factor = -0.1					# 전쟁 지지도 -10%
 				political_power_gain = -0.1					# 정치력 획득 -0.1
-				research_speed_factor = -0.03				# 연구 속도 -3%
+				research_speed_factor = -0.5				# 연구 속도 -5%
 				army_org_factor = -0.075					# 사단 조직률 -7.5%
 				army_morale_factor = -0.075					# 사단 회복률 -7.5%
+				industrial_capacity_factory = -0.075		# 공장 생산량 -7.5%
+				industrial_capacity_dockyard = -0.075		# 조선소 생산량 -7.5%
 				production_speed_buildings_factor = -0.1	# 건설 속도 -10%
 				training_time_factor = 0.15					# 훈련 시간 +15%
 			}
@@ -637,10 +640,12 @@ ideas = {
 				conscription = 0.05							# 징병 인구 5%
 				stability_factor = -0.1 					# 안정도 -10%
 				war_support_factor = -0.15					# 전쟁 지지도 -15%
-				political_power_gain = -0.15				# 정치력 획득 -0.15
-				research_speed_factor = -0.05				# 연구 속도 -5%
+				political_power_gain = -0.15				# 정치력 획득 -0.2
+				research_speed_factor = -0.075				# 연구 속도 -7.5%
 				army_org_factor = -0.1						# 사단 조직률 -10%
 				army_morale_factor = -0.1					# 사단 회복률 -10%
+				industrial_capacity_factory = -0.1			# 공장 생산량 -10%
+				industrial_capacity_dockyard = -0.1			# 조선소 생산량 -10%
 				production_speed_buildings_factor = -0.2	# 건설 속도 -20%
 				training_time_factor = 0.2					# 훈련 시간 +20%
 			}
@@ -776,15 +781,17 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.01							# 징병 인구 10%
-				stability_factor = -0.1 					# 안정도 -15%
-				war_support_factor = -0.15					# 전쟁 지지도 -20%
-				political_power_gain = -0.15				# 정치력 획득 -0.2
-				research_speed_factor = -0.075				# 연구 속도 -7.5%
+				conscription = 0.1							# 징병 인구 10%
+				stability_factor = -0.15 					# 안정도 -15%
+				war_support_factor = -0.2					# 전쟁 지지도 -20%
+				political_power_gain = -0.3					# 정치력 획득 -0.3
+				research_speed_factor = -0.1				# 연구 속도 -10%
 				army_org_factor = -0.15						# 사단 조직률 -15%
 				army_morale_factor = -0.15					# 사단 회복률 -15%
+				industrial_capacity_factory = -0.2			# 공장 생산량 -20%
+				industrial_capacity_dockyard = -0.2			# 조선소 생산량 -20%
 				production_speed_buildings_factor = -0.2	# 건설 속도 -20%
-				training_time_factor = 0.2					# 훈련 시간 +20%
+				training_time_factor = 0.25					# 훈련 시간 +25%
 			}
 			
 			cancel_if_invalid = no
@@ -904,12 +911,17 @@ ideas = {
 			}
 			
 			modifier = {
-				conscription = 0.2
-				industrial_capacity_factory = -0.3
-				industrial_capacity_dockyard = -0.3
-				production_speed_buildings_factor = -0.3
-				#XP from reinforcement penalty (small)
-				training_time_factor = 0.3
+				conscription = 0.2							# 징병 인구 20%
+				stability_factor = -0.2 					# 안정도 -20%
+				war_support_factor = -0.25					# 전쟁 지지도 -25%
+				political_power_gain = -0.5					# 정치력 획득 -0.5
+				research_speed_factor = -0.15				# 연구 속도 -15%
+				army_org_factor = -0.2						# 사단 조직률 -20%
+				army_morale_factor = -0.2					# 사단 회복률 -20%
+				industrial_capacity_factory = -0.3			# 공장 생산량 -30%
+				industrial_capacity_dockyard = -0.3			# 조선소 생산량 -30%
+				production_speed_buildings_factor = -0.25	# 건설 속도 -25%
+				training_time_factor = 0.3					# 훈련 시간 +30%
 			}
 			
 			cancel_if_invalid = no
@@ -1012,12 +1024,19 @@ ideas = {
 					manpower_per_military_factory >  5000
 				}
 			}
+
 			modifier = {
-				conscription = 0.25
-				industrial_capacity_factory = -0.4
-				industrial_capacity_dockyard = -0.4
-				production_speed_buildings_factor = -0.4
-				training_time_factor = 0.5
+				conscription = 0.25							# 징병 인구 25%
+				stability_factor = -0.25 					# 안정도 -25%
+				war_support_factor = -0.3					# 전쟁 지지도 -30%
+				political_power_gain = -1					# 정치력 획득 -1
+				research_speed_factor = -0.2				# 연구 속도 -20%
+				army_org_factor = -0.25						# 사단 조직률 -25%
+				army_morale_factor = -0.25					# 사단 회복률 -25%
+				industrial_capacity_factory = -0.4			# 공장 생산량 -40%
+				industrial_capacity_dockyard = -0.4			# 조선소 생산량 -40%
+				production_speed_buildings_factor = -0.3	# 건설 속도 -30%
+				training_time_factor = 0.35					# 훈련 시간 +35%
 			}
 			
 			cancel_if_invalid = no

@@ -409,7 +409,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "national_spirit_container"
 				position = { x = 82 y = 30 }
-				size = { width = 530 height = 70 }
+				size = { width = 530 height = 68 }
 				verticalScrollbar = "right_vertical_slider"
 				
 				background = {
