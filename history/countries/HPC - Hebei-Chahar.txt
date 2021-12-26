@@ -6,7 +6,7 @@ oob = "HPC_1936"
 
 recruit_character = CHI_Song_Zheyuan
 
-set_stability = 0.8
+set_stability = 0.5
 set_research_slots = 2
 set_politics = {
 	ruling_party = auto_despotism
@@ -19,7 +19,8 @@ set_popularities = {
 	democratic = 0
 	fascism = 0
 	communism = 0
-	auto_despotism = 100
+	neutrality = 20
+	auto_despotism = 80
 }
 
 set_technology = {

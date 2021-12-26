@@ -184,33 +184,42 @@ bookmarks = {
 			}	
 		}
 
+		"GGK" = { minor = yes }
+		"HPC" = { minor = yes }
+		"MEN" = { minor = yes }
+		"GUD" = { minor = yes }
+		"EHB" = { minor = yes }
+		"MAN" = { minor = yes }
+		"KOR" = { minor = yes }
+		"XIK" = { minor = yes }
+
 
 		### 마이너 국가 ###
-			#기찰정무위원회
-			"HPC" = {
-				minor = yes
-				history = "HPC_GATHERING_STORM_DESC"
-				ideology = auto_despotism
-				ideas = {
+			# #기찰정무위원회
+			# "HPC" = {
+			# 	minor = yes
+			# 	history = "HPC_GATHERING_STORM_DESC"
+			# 	ideology = auto_despotism
+			# 	ideas = {
 
-				}
-				focuses = {
+			# 	}
+			# 	focuses = {
 					
-				}
-			}
+			# 	}
+			# }
 
-			#몽고지방자치정무위원회
-			"MEN" = {
-				minor = yes
-				history = "MEN_GATHERING_STORM_DESC"
-				ideology = neutrality
-				ideas = {
+			# #몽고지방자치정무위원회
+			# "MEN" = {
+			# 	minor = yes
+			# 	history = "MEN_GATHERING_STORM_DESC"
+			# 	ideology = neutrality
+			# 	ideas = {
 
-				}
-				focuses = {
+			# 	}
+			# 	focuses = {
 					
-				}
-			}
+			# 	}
+			# }
 
 			# #산서 군벌
 			# "SHX" = {
