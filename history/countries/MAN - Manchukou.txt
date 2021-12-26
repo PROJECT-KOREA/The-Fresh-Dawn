@@ -1,6 +1,9 @@
 ﻿#수도 - 신징
 capital = 328
 
+#전투서열
+oob = "MAN_1936"
+
 #인물 로딩
 recruit_character = MAN_Emperor_Kangde
 	#
@@ -20,9 +23,6 @@ recruit_character = MAN_Emperor_Kangde
 		# recruit_character = MAN_xian_yuan
 		# recruit_character = MAN_guan_xingde
 	#
-
-#전투서열
-oob = "MAN_1936"
 
 #수송선
 set_convoys = 5

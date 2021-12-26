@@ -192,6 +192,7 @@ bookmarks = {
 		"MAN" = { minor = yes }
 		"KOR" = { minor = yes }
 		"XIK" = { minor = yes }
+		"CHI" = { minor = yes }
 
 
 		### 마이너 국가 ###

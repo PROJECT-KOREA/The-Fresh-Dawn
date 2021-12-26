@@ -4,9 +4,7 @@ characters = {
 	MEN_Demchugdongrub = {
 		name = "Prince Demchugdongrub"
 		portraits = {
-			civilian = {
-				large = "GFX_portrait_men_demchugdongrub"
-			}
+			civilian = { large = "GFX_portrait_men_demchugdongrub" }
 		}
 		country_leader = {
 			ideology = authoritarian
