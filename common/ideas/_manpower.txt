@@ -8,13 +8,14 @@ ideas = {
 		# 비무장 국가 #
 		disarmed_nation = {
 			cost = 150
-			level = 10
+			level = 11
 
 			removal_cost = -1
 			
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
 			}
+
 			modifier = {
 				conscription = 0.001 				# 징병 인구 0.1%
 				stability_factor = 0.1 				# 안정도 +10%
@@ -29,7 +30,7 @@ ideas = {
 		# 지원자 한정 #
 		volunteer_only = {
 			cost = 150
-			level = 9
+			level = 10
 			
 			removal_cost = -1
 
@@ -72,6 +73,94 @@ ideas = {
 		
 		# 12개월 의무복무 #
 		conscription_12 = {
+			cost = 150
+			level = 9
+
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
+				# has_war_support > 0.1
+				# NOT = { has_idea = undisturbed_isolation }
+				# NOT = { has_idea = isolation }
+				# if = {
+				# 	limit = {
+				# 		original_tag = AST
+				# 		has_dlc = "Together for Victory"
+				# 	}
+				# 	has_completed_focus = AST_citizen_military_forces
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = CAN
+				# 		has_dlc = "Together for Victory"
+				# 	}
+				# 	has_completed_focus = CAN_commit_to_the_war
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = RAJ
+				# 		has_dlc = "Together for Victory"
+				# 	}
+				# 	is_subject = no
+				# }
+
+				# if = {
+				# 	limit = {
+				# 		original_tag = HUN
+				# 		has_dlc = "Death or Dishonor"
+				# 	}
+				# 	NOT = { has_idea = HUN_treaty_of_triannon }
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = ENG
+				# 		has_dlc = "Man the Guns"
+				# 		has_completed_focus = ENG_concessions_to_the_trade_unions
+				# 	}
+				# 	NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = SPR
+				# 		has_dlc = "La Resistance"
+				# 	}
+				# 	NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = BUL
+				# 		has_dlc = "Battle for the Bosporus"
+				# 	}
+				# 	NOT = { has_idea = BUL_army_restrictions }
+				# }
+			}
+
+			ai_will_do = {
+   				factor = 1
+				# modifier = {
+				# 	#Prio if low on manpower
+				# 	factor = 20
+				# 	manpower_per_military_factory <  1000
+				# }
+				# modifier = {
+				# 	tag = ENG
+				# 	has_idea_with_trait = military_theorist
+				# 	factor = 20
+				# }
+			}
+
+			modifier = {
+				conscription = 0.015			# 징병 인구 1.5%
+				stability_factor = -0.015 		# 안정도 -1.5%
+				war_support_factor = -0.02		# 전쟁 지지도 -2%
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		# 18개월 의무복무 #
+		conscription_18 = {
 			cost = 150
 			level = 8
 
@@ -135,13 +224,6 @@ ideas = {
 				# }
 			}
 
-			modifier = {
-				conscription = 0.02				# 징병 인구 2%
-				stability_factor = -0.015 		# 안정도 -1.5%
-				war_support_factor = -0.03		# 전쟁 지지도 -3%
-				# political_power_gain = -0.01	# 정치력 획득 -0.01
-			}
-
 			ai_will_do = {
    				factor = 1
 				# modifier = {
@@ -155,95 +237,13 @@ ideas = {
 				# 	factor = 20
 				# }
 			}
-			
-			cancel_if_invalid = no
-		}
-		
-		# 18개월 의무복무 #
-		conscription_18 = {
-			cost = 150
-			level = 7
-
-			removal_cost = -1
-
-			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
-				# has_war_support > 0.1
-				# NOT = { has_idea = undisturbed_isolation }
-				# NOT = { has_idea = isolation }
-				# if = {
-				# 	limit = {
-				# 		original_tag = AST
-				# 		has_dlc = "Together for Victory"
-				# 	}
-				# 	has_completed_focus = AST_citizen_military_forces
-				# }
-				# if = {
-				# 	limit = {
-				# 		original_tag = CAN
-				# 		has_dlc = "Together for Victory"
-				# 	}
-				# 	has_completed_focus = CAN_commit_to_the_war
-				# }
-				# if = {
-				# 	limit = {
-				# 		original_tag = RAJ
-				# 		has_dlc = "Together for Victory"
-				# 	}
-				# 	is_subject = no
-				# }
-
-				# if = {
-				# 	limit = {
-				# 		original_tag = HUN
-				# 		has_dlc = "Death or Dishonor"
-				# 	}
-				# 	NOT = { has_idea = HUN_treaty_of_triannon }
-				# }
-				# if = {
-				# 	limit = {
-				# 		original_tag = ENG
-				# 		has_dlc = "Man the Guns"
-				# 		has_completed_focus = ENG_concessions_to_the_trade_unions
-				# 	}
-				# 	NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
-				# }
-				# if = {
-				# 	limit = {
-				# 		original_tag = SPR
-				# 		has_dlc = "La Resistance"
-				# 	}
-				# 	NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				# }
-				# if = {
-				# 	limit = {
-				# 		original_tag = BUL
-				# 		has_dlc = "Battle for the Bosporus"
-				# 	}
-				# 	NOT = { has_idea = BUL_army_restrictions }
-				# }
-			}
 
 			modifier = {
-				conscription = 0.025			# 징병 인구 2.5%
-				stability_factor = -0.03 		# 안정도 -3%
-				war_support_factor = -0.05		# 전쟁 지지도 -5%
+				conscription = 0.02				# 징병 인구 2%
+				stability_factor = -0.03 		# 안정도 -2%
+				war_support_factor = -0.05		# 전쟁 지지도 -3%
 				political_power_gain = -0.02	# 정치력 획득 -0.02
 				training_time_factor = 0.05		# 훈련 시간 +5%
-			}
-
-			ai_will_do = {
-   				factor = 1
-				# modifier = {
-				# 	#Prio if low on manpower
-				# 	factor = 20
-				# 	manpower_per_military_factory <  1000
-				# }
-				# modifier = {
-				# 	tag = ENG
-				# 	has_idea_with_trait = military_theorist
-				# 	factor = 20
-				# }
 			}
 			
 			cancel_if_invalid = no
@@ -253,7 +253,7 @@ ideas = {
 		# 24개월 복무 #
 		limited_conscription = {
 			cost = 150
-			level = 6
+			level = 7
 
 			removal_cost = -1
 
@@ -315,15 +315,6 @@ ideas = {
 				}
 			}
 
-			modifier = {
-				conscription = 0.0275						# 징병 인구 2.75%
-				stability_factor = -0.05					# 안정도 -5%
-				war_support_factor = -0.07					# 전쟁 지지도 -7%
-				political_power_gain = -0.03				# 정치력 획득 -0.03
-				production_speed_buildings_factor = -0.05	# 건설 속도 -5%
-				training_time_factor = 0.075				# 훈련 시간 +7.5%
-			}
-
 			ai_will_do = {
    				factor = 1
 				modifier = {
@@ -337,12 +328,118 @@ ideas = {
 					factor = 20
 				}
 			}
+
+			modifier = {
+				conscription = 0.025						# 징병 인구 2.5%
+				stability_factor = -0.03					# 안정도 -3%
+				war_support_factor = -0.07					# 전쟁 지지도 -5%
+				political_power_gain = -0.03				# 정치력 획득 -0.03
+				army_org_factor = -0.025					# 사단 조직률 -2.5%
+				army_morale_factor = -0.025					# 사단 회복률 -2.5%
+				industrial_capacity_factory = -0.05			# 공장 생산량 -5%
+				industrial_capacity_dockyard = -0.05			# 조선소 생산량 -5%
+				production_speed_buildings_factor = -0.05	# 건설 속도 -5%
+				training_time_factor = 0.075				# 훈련 시간 +7.5%
+			}
 			
 			cancel_if_invalid = no
 		}
 		
 		# 36개월 의무복무 #
-		conscription_18 = {
+		conscription_36 = {
+			cost = 150
+			level = 6
+
+			removal_cost = -1
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
+				# has_war_support > 0.1
+				# NOT = { has_idea = undisturbed_isolation }
+				# NOT = { has_idea = isolation }
+				# if = {
+				# 	limit = {
+				# 		original_tag = AST
+				# 		has_dlc = "Together for Victory"
+				# 	}
+				# 	has_completed_focus = AST_citizen_military_forces
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = CAN
+				# 		has_dlc = "Together for Victory"
+				# 	}
+				# 	has_completed_focus = CAN_commit_to_the_war
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = RAJ
+				# 		has_dlc = "Together for Victory"
+				# 	}
+				# 	is_subject = no
+				# }
+
+				# if = {
+				# 	limit = {
+				# 		original_tag = HUN
+				# 		has_dlc = "Death or Dishonor"
+				# 	}
+				# 	NOT = { has_idea = HUN_treaty_of_triannon }
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = ENG
+				# 		has_dlc = "Man the Guns"
+				# 		has_completed_focus = ENG_concessions_to_the_trade_unions
+				# 	}
+				# 	NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = SPR
+				# 		has_dlc = "La Resistance"
+				# 	}
+				# 	NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+				# }
+				# if = {
+				# 	limit = {
+				# 		original_tag = BUL
+				# 		has_dlc = "Battle for the Bosporus"
+				# 	}
+				# 	NOT = { has_idea = BUL_army_restrictions }
+				# }
+			}
+
+			ai_will_do = {
+   				factor = 1
+				# modifier = {
+				# 	#Prio if low on manpower
+				# 	factor = 20
+				# 	manpower_per_military_factory <  1000
+				# }
+				# modifier = {
+				# 	tag = ENG
+				# 	has_idea_with_trait = military_theorist
+				# 	factor = 20
+				# }
+			}
+
+			modifier = {
+				conscription = 0.03							# 징병 인구 3%
+				stability_factor = -0.05 					# 안정도 -5%
+				war_support_factor = -0.075					# 전쟁 지지도 -7.5%
+				political_power_gain = -0.05				# 정치력 획득 -0.05
+				army_org_factor = -0.05						# 사단 조직률 -5%
+				army_morale_factor = -0.05					# 사단 회복률 -5%
+				production_speed_buildings_factor = -0.075	# 건설 속도 -7.5%
+				training_time_factor = 0.1					# 훈련 시간 +10%
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		# 48개월 의무복무 #
+		conscription_48 = {
 			cost = 150
 			level = 5
 
@@ -406,15 +503,6 @@ ideas = {
 				# }
 			}
 
-			modifier = {
-				conscription = 0.03							# 징병 인구 3%
-				stability_factor = -0.075 					# 안정도 -7.5%
-				war_support_factor = -0.1					# 전쟁 지지도 -10%
-				political_power_gain = -0.05				# 정치력 획득 -0.05
-				production_speed_buildings_factor = -0.075	# 건설 속도 -7.5%
-				training_time_factor = 0.1					# 훈련 시간 +10%
-			}
-
 			ai_will_do = {
    				factor = 1
 				# modifier = {
@@ -428,13 +516,28 @@ ideas = {
 				# 	factor = 20
 				# }
 			}
+
+			modifier = {
+				conscription = 0.04							# 징병 인구 4%
+				stability_factor = -0.075 					# 안정도 -7.5%
+				war_support_factor = -0.1					# 전쟁 지지도 -10%
+				political_power_gain = -0.1					# 정치력 획득 -0.1
+				research_speed_factor = -0.03				# 연구 속도 -3%
+				army_org_factor = -0.075					# 사단 조직률 -7.5%
+				army_morale_factor = -0.075					# 사단 회복률 -7.5%
+				production_speed_buildings_factor = -0.1	# 건설 속도 -10%
+				training_time_factor = 0.15					# 훈련 시간 +15%
+			}
 			
 			cancel_if_invalid = no
 		}
 		
-		# 48개월 복무 #
+		# 광범위한 징병 #
 		extensive_conscription = {
-			
+			cost = 150
+			level = 4
+			removal_cost = -1
+
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
@@ -530,23 +633,28 @@ ideas = {
 				
 			}
 			
-			cost = 150
-			removal_cost = -1
-			level = 4
-			
 			modifier = {
-				conscription = 0.05
-				#industrial_capacity_factory = -0.1
-				#production_speed_buildings_factor = -0.1
-				training_time_factor = 0.1
+				conscription = 0.05							# 징병 인구 5%
+				stability_factor = -0.1 					# 안정도 -10%
+				war_support_factor = -0.15					# 전쟁 지지도 -15%
+				political_power_gain = -0.15				# 정치력 획득 -0.15
+				research_speed_factor = -0.05				# 연구 속도 -5%
+				army_org_factor = -0.1						# 사단 조직률 -10%
+				army_morale_factor = -0.1					# 사단 회복률 -10%
+				production_speed_buildings_factor = -0.2	# 건설 속도 -20%
+				training_time_factor = 0.2					# 훈련 시간 +20%
 			}
 			
 			cancel_if_invalid = no
 		}
 		
+		# 무제한적 복무 #
 		service_by_requirement = {
+			cost = 150
+			level = 3
 			
-			
+			removal_cost = -1
+
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
@@ -666,24 +774,28 @@ ideas = {
 				}
 
 			}
-			
-			cost = 150
-			removal_cost = -1
-			level = 3
 
 			modifier = {
-				conscription = 0.1
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
-				production_speed_buildings_factor = -0.1
-				training_time_factor = 0.2
+				conscription = 0.01							# 징병 인구 10%
+				stability_factor = -0.1 					# 안정도 -15%
+				war_support_factor = -0.15					# 전쟁 지지도 -20%
+				political_power_gain = -0.15				# 정치력 획득 -0.2
+				research_speed_factor = -0.075				# 연구 속도 -7.5%
+				army_org_factor = -0.15						# 사단 조직률 -15%
+				army_morale_factor = -0.15					# 사단 회복률 -15%
+				production_speed_buildings_factor = -0.2	# 건설 속도 -20%
+				training_time_factor = 0.2					# 훈련 시간 +20%
 			}
 			
 			cancel_if_invalid = no
 		}
 		
+		# 모든 성인 복무 #
 		all_adults_serve = {
+			cost = 150
+			level = 2
 			
+			removal_cost = -1
 			
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
@@ -790,10 +902,6 @@ ideas = {
 					has_manpower < 2000000	
 				}
 			}
-		
-			cost = 150
-			removal_cost = -1
-			level = 2
 			
 			modifier = {
 				conscription = 0.2
@@ -807,8 +915,12 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
+		# 최후의 한 명까지 #
 		scraping_the_barrel = {
-			
+			cost = 150
+			level = 1
+
+			removal_cost = -1
 			
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
@@ -900,11 +1012,6 @@ ideas = {
 					manpower_per_military_factory >  5000
 				}
 			}
-
-			cost = 150
-			removal_cost = -1
-			level = 1
-
 			modifier = {
 				conscription = 0.25
 				industrial_capacity_factory = -0.4
