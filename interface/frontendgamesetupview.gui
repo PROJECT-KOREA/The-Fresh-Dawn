@@ -844,7 +844,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "spirit"
-			position = { x = 449 y = 471 }
+			position = { x = 449 y = 470 }
 			
 			iconType ={
 				name ="pol_faction_icon"
