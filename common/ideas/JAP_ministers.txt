@@ -1,6 +1,6 @@
 ideas = {
 
-	#정부수반
+	#내각총리대신
 	head_of_gov = {
 		
 		#오카다 케이스케
@@ -20,7 +20,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				hog
+				hog_jap hog
 			}
 		}
 		
@@ -42,7 +42,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				hog
+				hog_jap hog
 			}
 		}
 		
@@ -64,7 +64,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				hog
+				hog_jap hog
 			}
 		}
 		
@@ -86,12 +86,12 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				hog
+				hog_jap hog
 			}
 		}
 	}
 
-	#내무국장
+	#내무대신
 	security_minister = {
 		
 		#고토 후미오
@@ -112,12 +112,56 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				secmin
+				secmin_jap secmin
+			}
+		}
+		
+		#우시오 시게노스케
+		SM_Ushio_Shigenosuke = {
+			name = Ushio_Shigenosuke
+			picture = vacant
+			# picture = minister_Ushio_Shigenosuke
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				secmin_jap secmin
+			}
+		}
+		
+		#카와라다 카키치
+		SM_Kawarada_Kakichi = {
+			name = Kawarada_Kakichi
+			picture = vacant
+			# picture = minister_Kawarada_Kakichi
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				secmin_jap secmin
 			}
 		}
 	}
 
-	#재무장관
+	#대장대신
 	economy_minister = {
 		
 		#타카하시 코레키요
@@ -138,12 +182,78 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				ecomin
+				ecomin_jap ecomin
+			}
+		}
+		
+		#마치다 츄지
+		EM_Machida_Chuuji = {
+			name = Machida_Chuuji
+			picture = vacant
+			# picture = minister_Machida_Chuuji
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				ecomin_jap ecomin
+			}
+		}
+		
+		#바바 에이이치
+		EM_Baba_Eiichi = {
+			name = Baba_Eiichi
+			picture = vacant
+			# picture = minister_Baba_Eiichi
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				ecomin_jap ecomin
+			}
+		}
+		
+		#유우키 토요타로
+		EM_Yuuki_Toyotaro = {
+			name = Yuuki_Toyotaro 
+			picture = vacant
+			# picture = minister_Yuuki_Toyotaro 
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				ecomin_jap ecomin
 			}
 		}
 	}
 
-	#외무장관
+	#외무대신
 	foreign_minister = {
 		
 		#히로타 코키
@@ -164,13 +274,100 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				frnmin
+				frnmin_jap frnmin
+			}
+		}
+		
+		#아리타 하치로
+		FM_Arita_Hachiro = {
+			name = Arita_Hachiro
+			picture = vacant
+			# picture = minister_Arita_Hachiro
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				frnmin_jap frnmin
+			}
+		}
+		
+		#하야시 센쥬로
+		FM_Hayashi_Senjuro = {
+			name = Hayashi_Senjuro
+			picture = vacant
+			# picture = minister_Hayashi_Senjuro
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				frnmin_jap frnmin
+			}
+		}
+		
+		#사토 나오타케
+		FM_Sato_Naotake = {
+			name = Sato_Naotake
+			picture = vacant
+			# picture = minister_Sato_Naotake
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				frnmin_jap frnmin
 			}
 		}
 	}
 
-	#정보장관
+	#경보국장
 	intel_minister = {
 
+		#카라사와 토시키
+		IM_Karasawa_Toshiki = {
+			name = Karasawa_Toshiki
+			picture = vacant
+			# picture = minister_Karasawa_Toshiki
+
+			allowed = { original_tag = JAP }
+
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = {
+				intmin_jap intmin
+			}
+		}
 	}
 }

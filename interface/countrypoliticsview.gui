@@ -46,9 +46,10 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x = 362 y = 52 }
+			position = { x = 400 y = 52 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
+			scale = 0.8
 		}
 
 		containerWindowType = {
@@ -80,7 +81,7 @@ guiTypes = {
 
 			iconType = {
 				name = "chart"
-				spriteType = "GFX_political_chart"
+				spriteType = "GFX_political_chart_small"
 				position = { x = 0 y = 0 }
 			}
 			
@@ -88,6 +89,7 @@ guiTypes = {
 				name = "pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_new"
 				position = { x = -80 y = -4	 }
+				scale = 0.5
 			}
 		}
 
@@ -172,7 +174,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 0 y = 262 }
+				position = { x = 0 y = 335 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 181
@@ -183,7 +185,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = 154 y = 217 }
+				position = { x = 154 y = 280 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
@@ -979,46 +981,46 @@ guiTypes = {
 	containerWindowType = {
 		name = "political_party_info_entry"
 		size = { width = 330 height = 18 }
-		position = { x = 9 y = 140 }
+		position = { x = 6 y = 90 }
 		clipping = no
 
-		# iconType = {
-		# 	name = "leading_pol_party_bg"
-		# 	position = { x = 60 y = 6 }
-		# 	spriteType = "GFX_leading_pol_party_bg"
-		# 	scale = 0.85
-		# }
+		iconType = {
+			name = "leading_pol_party_bg"
+			position = { x = 60 y = 6 }
+			spriteType = "GFX_leading_pol_party_bg"
+			scale = 0.90
+		}
 
-		# iconType = {
-		# 	name = "color_block_bg"
-		# 	position = { x = 60 y = 2 }
-		# 	spriteType = "GFX_pol_party_colour_bg"
-		# }
+		iconType = {
+			name = "color_block_bg"
+			position = { x = 64 y = 2 }
+			spriteType = "GFX_pol_party_colour_bg"
+		}
 
-		# iconType = {
-		# 	name = "color_block"
-		# 	position = { x = 64 y = 6 }
-		# 	spriteType = "GFX_pol_party_colour"
-		# }
+		iconType = {
+			name = "color_block"
+			position = { x = 68 y = 6 }
+			spriteType = "GFX_pol_party_colour"
+		}
 		
-		#instantTextboxType = {
-		#	name = "score"
-		#	position = { x = 160 y = 4 }
-		#	font = "hoi_16mbs"
-		#	text = "score"
-		#	maxWidth = 60
-		#	maxHeight = 18
-		#}
-			
 		# instantTextboxType = {
-		# 	name = "name"
-		# 	position = { x = 82 y = 4 }
+		# 	name = "score"
+		# 	position = { x = 160 y = 4 }
 		# 	font = "hoi_16mbs"
-		# 	text = "party name"
-		# 	fixedsize = yes
-		# 	maxWidth = 175
+		# 	text = "score"
+		# 	maxWidth = 60
 		# 	maxHeight = 18
 		# }
+			
+		instantTextboxType = {
+			name = "name"
+			position = { x = 86 y = 4 }
+			font = "aldrich_18_outline"
+			text = "party name"
+			fixedsize = yes
+			maxWidth = 175
+			maxHeight = 18
+		}
 	}
 	
 	containerWindowType = {

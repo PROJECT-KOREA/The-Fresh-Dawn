@@ -9,14 +9,15 @@ leader_traits = {
 	frnmin = { random = no } #외무장관
 	intmin = { random = no } #정보장관
 
-	## 내각 각료 소속 ##
-		# kia_mg = { random = no } #광복군 군정위원회
-		# hnc = { random = no } #한성국민위원회
-		# kpg = { random = no } #임시정부 국무위원회
-		# kip = { random = no } #한국독립당
-	#
+	# 일본 제국 #
+	hog_jap = { random = no } 	 #내각총리대신
+	secmin_jap = { random = no } #내무대신
+	ecomin_jap = { random = no } #대장대신
+	frnmin_jap = { random = no } #외무대신
+	intmin_jap = { random = no } #경보국장
 
-	## 내각 각료 특성 ##
+
+	## 장관 특성 ##
 		#신사적인 정치인
 		gentleman_politician = {
 			political_power_gain = 0.05
