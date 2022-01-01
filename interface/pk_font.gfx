@@ -84,7 +84,7 @@ bitmapfonts = {
 		path = "gfx/fonts/gmsans_19"
 		color = 0xffffffff
 	}
-	bitmapfont = {4
+	bitmapfont = {
 		name = "gmsans_19_b"
 		path = "gfx/fonts/gmsans_19"
 		color = 0xff000000
