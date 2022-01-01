@@ -479,30 +479,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/icon_occupied_territories.dds"
 	}
 
-	spriteType = {
-		name = "GFX_ideology_neutrality_group"
-		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
-	}	
+	# spriteType = {
+	# 	name = "GFX_ideology_neutrality_group"
+	# 	texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+	# }	
 	
-	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_ideology_communism_group"
+	# 	texturefile = "gfx/interface/ideologies/communism_group.dds"
+	# }
 	
-	spriteType = {
-		name = "GFX_ideology_fascism_group"
-		texturefile = "gfx/interface/ideologies/fascism_group.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_ideology_fascism_group"
+	# 	texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	# }
 	
-	spriteType = {
-		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/democratic_group.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_ideology_democratic_group"
+	# 	texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	# }
 
-	spriteType = {
-		name = "GFX_ideology_anarchism"
-		texturefile = "gfx/interface/ideologies/anarchism.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_ideology_anarchism"
+	# 	texturefile = "gfx/interface/ideologies/anarchism.dds"
+	# }
 	
 	spriteType = {
 		name = "GFX_ideology_unknown"
@@ -627,7 +627,7 @@ spriteTypes = {
 	
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 75
+		size = 37
 	}
 	
 	pieChartType = {
