@@ -60,7 +60,7 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "hoi_18mbs"
-		path = "gfx/fonts/escore_18"
+		path = "gfx/fonts/ism_15"
 		color = 0xffffffff
 	}
 	

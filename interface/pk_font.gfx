@@ -26,6 +26,24 @@ bitmapfonts = {
 		}
 	#
 
+	bitmapfont = {
+		name = "ism_16"
+		path = "gfx/fonts/ism_16"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "ism_18"
+		path = "gfx/fonts/ism_18"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "ism_20"
+		path = "gfx/fonts/ism_20"
+		color = 0xffffffff
+	}
+
 	# 에스코어 #
 		bitmapfont = {
 			name = "escore_17"
@@ -43,8 +61,66 @@ bitmapfonts = {
 			color = 0xffffffff
 		}
 		bitmapfont = {
+			name = "escore_20_outline"
+			path = "gfx/fonts/escore_20_outline"
+			color = 0xffffffff
+		}
+		bitmapfont = {
 			name = "escore_22"
 			path = "gfx/fonts/escore_22"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_24"
+			path = "gfx/fonts/escore_24"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_26"
+			path = "gfx/fonts/escore_26"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_28"
+			path = "gfx/fonts/escore_28"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_30"
+			path = "gfx/fonts/escore_30"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_32"
+			path = "gfx/fonts/escore_32"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_34"
+			path = "gfx/fonts/escore_34"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_36"
+			path = "gfx/fonts/escore_36"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_38"
+			path = "gfx/fonts/escore_38"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "escore_40"
+			path = "gfx/fonts/escore_40"
+			color = 0xffffffff
+		}
+	#
+
+	# 넥슨Lv2고딕 #
+		bitmapfont = {
+			name = "n2_20"
+			path = "gfx/fonts/n2_20"
 			color = 0xffffffff
 		}
 	#

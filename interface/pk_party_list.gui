@@ -61,12 +61,23 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "party_name"
-			position = { x = 450 y = 93 }
-			font = "escore_19"
+			position = { x = 450 y = 72 }
+			font = "ism_20"
 			text = "[ROOT.GetRulingParty]"
 			fixedsize = yes
-			maxWidth = 95
+			maxWidth = 120
 			maxHeight = 20
+		}
+			
+		instantTextboxType = {
+			name = "popularity"
+			position = { x = 380 y = 215 }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetPartySupport]%"
+			fixedsize = yes
+			maxWidth = 50
+			maxHeight = 20
+			format = center
 		}
 	}
 
