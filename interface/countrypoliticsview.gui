@@ -155,7 +155,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 95 y = 27 }
-				font = "ism_16"
+				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 120
 				maxHeight = 20
@@ -376,7 +376,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 122 y = 37 }
-				font = "ism_18"
+				font = "escore_20"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 200
 				maxHeight = 20
@@ -1022,8 +1022,8 @@ guiTypes = {
 		#정당명
 		instantTextboxType = {
 			name = "name"
-			position = { x = 86 y = 5 }
-			font = "hoi_18mbs"
+			position = { x = 85 y = 3 }
+			font = "escore_17"
 			text = "party name"
 			fixedsize = yes
 			maxWidth = 130
