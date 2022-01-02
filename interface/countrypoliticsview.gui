@@ -155,9 +155,9 @@ guiTypes = {
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 93 y = 4 }
-				font = "gmsans_18"
+				font = "escore_20"
 				text = "ideology"
-				maxWidth = p
+				maxWidth = 95
 				maxHeight = 20
 			}
 			
@@ -306,18 +306,18 @@ guiTypes = {
 			
 			buttonType = {
 				name = "add_national_goal_button"
-				position = { x = 104 y = 5 }
+				position = { x = 102 y = 10 }
 				spriteType = "GFX_add_national_goal_button"
 				clicksound = click_default
 			}
 
-			iconType = {
-				name = "nat_spirit_glow_overlay"
-				position = { x = 102 y = 10 }
-				spriteType = "GFX_nat_spirit_glow_overlay"
-				scale = 0.95
-				alwaystransparent = yes
-			}			
+			# iconType = {
+			# 	name = "nat_spirit_glow_overlay"
+			# 	position = { x = 102 y = 10 }
+			# 	spriteType = "GFX_nat_spirit_glow_overlay"
+			# 	scale = 0.95
+			# 	alwaystransparent = yes
+			# }			
 			
 			iconType = {
 				name = "pol_power_icon"
@@ -375,8 +375,8 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "title"
-				position = { x = 122 y = 34 }
-				font = "hoi_18mbs"
+				position = { x = 122 y = 35 }
+				font = "escore_20"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 200
 				maxHeight = 20
@@ -452,13 +452,13 @@ guiTypes = {
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
-			position = { x = 12 y = 78 }	
+			position = { x = 12 y = 79 }	
 			alwaystransparent = yes
 		}
 
 		instantTextboxType = {
 			name = "leader_name"	
-			position = { x = 19 y = 305 }
+			position = { x = 20 y = 306 }
 			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155
@@ -993,9 +993,9 @@ guiTypes = {
 
 		iconType = {
 			name = "leading_pol_party_bg"
-			position = { x = 60 y = 6 }
+			position = { x = 68 y = 5 }
 			spriteType = "GFX_leading_pol_party_bg"
-			scale = 0.8
+			# scale = 0.8
 		}
 
 		iconType = {
@@ -1021,11 +1021,11 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "name"
-			position = { x = 86 y = 6 }
-			font = "gmsans_15_bold"
+			position = { x = 86 y = 3 }
+			font = "escore_17"
 			text = "party name"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 130
 			maxHeight = 18
 		}
 	}

@@ -58,6 +58,12 @@ bitmapfonts = {
 		}
 	}
 	
+	bitmapfont = {
+		name = "hoi_18mbs"
+		path = "gfx/fonts/escore_18"
+		color = 0xffffffff
+	}
+	
 	# bitmapfont = {
 	# 	name = "cg_16b"			####### GENERAL TOOLTIP FONT ########
 	# 	path = "gfx/fonts/aldrich_18_outline"
