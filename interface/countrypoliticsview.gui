@@ -1022,7 +1022,7 @@ guiTypes = {
 		#정당명
 		instantTextboxType = {
 			name = "name"
-			position = { x = 85 y = 3 }
+			position = { x = 85 y = 4 }
 			font = "hoi_18mbs"
 			text = "party name"
 			fixedsize = yes

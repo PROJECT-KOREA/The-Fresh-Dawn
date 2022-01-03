@@ -60,21 +60,27 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "hoi_18"
-		path = "gfx/fonts/gmsans_16"
+		fontfiles = {
+			"gfx/fonts/bn_17"
+			"gfx/fonts/es_17"
+		}
 		color = 0xffffffff
 	}
 	
 	bitmapfont = {
 		name = "hoi_18b"
-		path = "gfx/fonts/gmsans_16"
+		fontfiles = {
+			"gfx/fonts/bn_17"
+			"gfx/fonts/es_17"
+		}
 		color = 0xffffffff
 	}
 	
 	bitmapfont = {
 		name = "hoi_18mbs"
 		fontfiles = {
-			"gfx/fonts/gmsans_16_hangul"
-			"gfx/fonts/gmsans_16_latin"
+			"gfx/fonts/bn_17"
+			"gfx/fonts/es_17"
 		}
 		color = 0xffffffff
 	}
