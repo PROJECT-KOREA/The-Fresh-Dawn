@@ -72,7 +72,10 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "hoi_18mbs"
-		path = "gfx/fonts/gmsans_16s"
+		fontfiles = {
+			"gfx/fonts/gmsans_16_hangul"
+			"gfx/fonts/gmsans_16_latin"
+		}
 		color = 0xffffffff
 	}
 	
