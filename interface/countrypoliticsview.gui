@@ -174,7 +174,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = 25 y = 330 }
-				font = "ism_18"
+				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 190
 				maxHeight = 20
@@ -376,7 +376,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 122 y = 37 }
-				font = "escore_20"
+				font = "hoi_18mbs"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 200
 				maxHeight = 20
@@ -459,7 +459,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_name"	
 			position = { x = 20 y = 307	 }
-			font = "ism_16"
+			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -636,7 +636,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 68 y = 14 }
-			font = "ism_20"
+			font = "hoi_18mbs"
 			text = "Government"
 			maxWidth = 300
 			maxHeight = 20
@@ -1023,7 +1023,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 85 y = 3 }
-			font = "escore_17"
+			font = "hoi_18mbs"
 			text = "party name"
 			fixedsize = yes
 			maxWidth = 130

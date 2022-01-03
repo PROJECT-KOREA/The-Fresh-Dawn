@@ -58,11 +58,23 @@ bitmapfonts = {
 		}
 	}
 	
-	# bitmapfont = {
-	# 	name = "hoi_18mbs"
-	# 	path = "gfx/fonts/escore_17"
-	# 	color = 0xffffffff
-	# }
+	bitmapfont = {
+		name = "hoi_18"
+		path = "gfx/fonts/gmsans_16"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "hoi_18b"
+		path = "gfx/fonts/gmsans_16"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "hoi_18mbs"
+		path = "gfx/fonts/gmsans_16s"
+		color = 0xffffffff
+	}
 	
 	# bitmapfont = {
 	# 	name = "cg_16b"			####### GENERAL TOOLTIP FONT ########
