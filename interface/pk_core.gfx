@@ -61,8 +61,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "hoi_18"
 		fontfiles = {
-			"gfx/fonts/dm_17"
-			"gfx/fonts/es_17"
+			"gfx/fonts/rj_17"
+			"gfx/fonts/escore_17"
 		}
 		color = 0xffffffff
 	}
@@ -70,8 +70,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "hoi_18b"
 		fontfiles = {
-			"gfx/fonts/dm_17"
-			"gfx/fonts/es_17"
+			"gfx/fonts/rj_17"
+			"gfx/fonts/escore_17"
 		}
 		color = 0xffffffff
 	}
@@ -79,8 +79,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "hoi_18mbs"
 		fontfiles = {
-			"gfx/fonts/dm_17"
-			"gfx/fonts/es_17"
+			"gfx/fonts/rj_17"
+			"gfx/fonts/escore_17"
 		}
 		color = 0xffffffff
 	}
