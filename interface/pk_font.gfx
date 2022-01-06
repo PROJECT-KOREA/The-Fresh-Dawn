@@ -1,5 +1,44 @@
 bitmapfonts = {
 
+	# PK 폰트 (자체제작)
+		bitmapfont = {
+			name = "pk_18"
+			path = "gfx/fonts/pk_18"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "pk_20"
+			path = "gfx/fonts/pk_20"
+			color = 0xffffffff
+		}
+	#
+
+	# 나눔명조 #
+		bitmapfont = {
+			name = "nnmj_16"
+			path = "gfx/fonts/nnmj_16"
+			color = 0xff000000
+		}
+
+		bitmapfont = {
+			name = "nnmj_19"
+			path = "gfx/fonts/nnmj_19"
+			color = 0xff000000
+		}
+
+		bitmapfont = {
+			name = "nnmj_21"
+			path = "gfx/fonts/nnmj_21"
+			color = 0xff000000
+		}
+
+		bitmapfont = {
+			name = "nnmj_i_27"
+			path = "gfx/fonts/nnmj_i_27"
+			color = 0xff000000
+		}
+	#
+
 	# 에스코어 #
 		# bitmapfont = {
 		# 	name = "escore_17"
@@ -71,31 +110,5 @@ bitmapfonts = {
 		# 	path = "gfx/fonts/escore_40"
 		# 	color = 0xffffffff
 		# }
-	#
-
-	# 나눔명조 #
-		bitmapfont = {
-			name = "nnmj_16"
-			path = "gfx/fonts/nnmj_16"
-			color = 0xff000000
-		}
-
-		bitmapfont = {
-			name = "nnmj_19"
-			path = "gfx/fonts/nnmj_19"
-			color = 0xff000000
-		}
-
-		bitmapfont = {
-			name = "nnmj_21"
-			path = "gfx/fonts/nnmj_21"
-			color = 0xff000000
-		}
-
-		bitmapfont = {
-			name = "nnmj_i_27"
-			path = "gfx/fonts/nnmj_i_27"
-			color = 0xff000000
-		}
 	#
 }

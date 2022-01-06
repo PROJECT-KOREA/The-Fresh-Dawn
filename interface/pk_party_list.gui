@@ -1,56 +1,57 @@
-@X_1 = 14
-@X_2 = 10
-@X_3 = 32
-@X_4 = 8
+#
+	@X_1 = 14
+	@X_2 = 10
+	@X_3 = 32
+	@X_4 = 8
 
-@COM_Y_1 = 49
-@COM_Y_2 = 45
-@COM_Y_3 = 48
+	@COM_Y_1 = 49
+	@COM_Y_2 = 45
+	@COM_Y_3 = 48
 
-@AUTSOC_Y_1 = 66
-@AUTSOC_Y_2 = 62
-@AUTSOC_Y_3 = 65
+	@AUTSOC_Y_1 = 66
+	@AUTSOC_Y_2 = 62
+	@AUTSOC_Y_3 = 65
 
-@RADSOC_Y_1 = 83
-@RADSOC_Y_2 = 79
-@RADSOC_Y_3 = 82
+	@RADSOC_Y_1 = 83
+	@RADSOC_Y_2 = 79
+	@RADSOC_Y_3 = 82
 
-@SOCDEM_Y_1 = 100
-@SOCDEM_Y_2 = 96
-@SOCDEM_Y_3 = 99
+	@SOCDEM_Y_1 = 100
+	@SOCDEM_Y_2 = 96
+	@SOCDEM_Y_3 = 99
 
-@SOCLIB_Y_1 = 117
-@SOCLIB_Y_2 = 113
-@SOCLIB_Y_3 = 116
+	@SOCLIB_Y_1 = 117
+	@SOCLIB_Y_2 = 113
+	@SOCLIB_Y_3 = 116
 
-@NATLIB_Y_1 = 134
-@NATLIB_Y_2 = 130
-@NATLIB_Y_3 = 133
+	@NATLIB_Y_1 = 134
+	@NATLIB_Y_2 = 130
+	@NATLIB_Y_3 = 133
 
-@LIBCON_Y_1 = 151
-@LIBCON_Y_2 = 147
-@LIBCON_Y_3 = 150
+	@LIBCON_Y_1 = 151
+	@LIBCON_Y_2 = 147
+	@LIBCON_Y_3 = 150
 
-@SOCCON_Y_1 = 168
-@SOCCON_Y_2 = 164
-@SOCCON_Y_3 = 167
+	@SOCCON_Y_1 = 168
+	@SOCCON_Y_2 = 164
+	@SOCCON_Y_3 = 167
 
-@NATCON_Y_1 = 185
-@NATCON_Y_2 = 181
-@NATCON_Y_3 = 184
+	@NATCON_Y_1 = 185
+	@NATCON_Y_2 = 181
+	@NATCON_Y_3 = 184
 
-@AUTDEM_Y_1 = 202
-@AUTDEM_Y_2 = 198
-@AUTDEM_Y_3 = 201
+	@AUTDEM_Y_1 = 202
+	@AUTDEM_Y_2 = 198
+	@AUTDEM_Y_3 = 201
 
-@AUTDES_Y_1 = 219
-@AUTDES_Y_2 = 215
-@AUTDES_Y_3 = 218
+	@AUTDES_Y_1 = 219
+	@AUTDES_Y_2 = 215
+	@AUTDES_Y_3 = 218
 
-@FAS_Y_1 = 236
-@FAS_Y_2 = 232
-@FAS_Y_3 = 235
-
+	@FAS_Y_1 = 236
+	@FAS_Y_2 = 232
+	@FAS_Y_3 = 235
+#
 
 guiTypes = {
 
@@ -62,11 +63,10 @@ guiTypes = {
 		instantTextboxType = {
 			name = "party_name"
 			position = { x = 452 y = 76 }
-			font = "hoi_18mbs"
+			font = "pk_20"
 			text = "[ROOT.GetRulingParty]"
 			fixedsize = yes
 			maxWidth = 120
-			maxHeight = 20
 		}
 
 		iconType = {
@@ -78,7 +78,7 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "popularity"
-			position = { x = 383 y = 221 }
+			position = { x = 385 y = 218 }
 			font = "hoi_18mbs"
 			text = "[?total_party_pop|0]%"
 			fixedsize = yes

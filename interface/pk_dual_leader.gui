@@ -22,7 +22,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="leader1_title"
-			position = { x = 20 y = 61 }
+			position = { x = 20 y = 59 }
 			font = "hoi_18mbs"
 			text = "[This.leader1_title]"
 			maxWidth = 155
@@ -35,7 +35,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="leader2_title"
-			position = { x = 187 y = 61 }
+			position = { x = 187 y = 59 }
 			font = "hoi_18mbs"
 			text = "[This.leader2_title]"
 			maxWidth = 155
@@ -46,7 +46,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="leader2_name"
-			position = { x = 187 y = 307 }
+			position = { x = 187 y = 306 }
 			font = "hoi_18mbs"
 			text = "[This.leader2_name]"
 			maxWidth = 155

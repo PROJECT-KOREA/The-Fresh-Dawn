@@ -122,7 +122,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="pol_power"
-			position = { x= 120 y = 11 }
+			position = { x= 120 y = 9 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -147,7 +147,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="manpower"
-			position = { x= 421 y = 11 }
+			position = { x= 419 y = 9 }
 			font = "hoi_18mbs"
 			text = "9999"
 			format = right
@@ -172,7 +172,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="stability"
-			position = { x= 252 y = 11 }
+			position = { x= 251 y = 9 }
 			font = "hoi_18mbs"
 			text = "100%"
 			format = right
@@ -197,7 +197,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="war_support"
-			position = { x= 324 y = 11 }
+			position = { x= 324 y = 9 }
 			font = "hoi_18mbs"
 			text = "100%"
 			format = right
@@ -216,13 +216,13 @@ guiTypes = {
 		iconType = {
 			name ="experience_icon"
 			spriteType = "GFX_army_experience"
-			position = { x= 734 y=11 }
+			position = { x = 734 y = 11 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name ="experience_value"
-			position = { x=748 y=9 }
+			position = { x = 748 y = 9 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -234,7 +234,7 @@ guiTypes = {
 		iconType ={
 			name ="navy_experience_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=800 y=5 }
+			position = { x = 800 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -247,7 +247,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="navy_experience_value"
-			position = { x= 822 y = 11 }
+			position = { x= 822 y = 9 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -266,13 +266,13 @@ guiTypes = {
 		iconType = {
 			name ="air_experience_icon"
 			spriteType = "GFX_air_experience"
-			position = { x= 880 y = 11 }
+			position = { x= 880 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="air_experience_value"
-			position = { x= 895 y = 11 }
+			position = { x= 895 y = 9 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -297,7 +297,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="command_power_value"
-			position = { x= 681 y = 11 }
+			position = { x= 681 y = 9 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -322,7 +322,7 @@ guiTypes = {
         
 		instantTextBoxType = {
 			name ="industrial_capacity"
-			position = { x= 596 y = 11 } 
+			position = { x= 596 y = 9 } 
 			font = "hoi_18mbs"
 			text = "12/12/12"
 			format = center
@@ -341,13 +341,13 @@ guiTypes = {
 		iconType ={
 			name ="convoys_icon"
 			spriteType = "GFX_topbar_convoys"
-			position = { x= 494 y = 11 }
+			position = { x= 494 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name ="convoys_count"
-			position = { x= 528 y = 11 }
+			position = { x= 528 y = 9 }
 			font = "hoi_18mbs"
 			text = "0"
 			format = center
@@ -840,7 +840,7 @@ guiTypes = {
 		#	#Needs localisation change
 		#	instantTextBoxType = {
 		#		name = "pause_banner_text"
-		#		position = { x = 140 y = 11 }
+		#		position = { x = 140 y = 9 }
 		#		textureFile = ""
 		#		font = "vic_22"
 		#		borderSize = {x = 4 y = 4}

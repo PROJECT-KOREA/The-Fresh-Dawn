@@ -11,19 +11,20 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="popularity"
-			position = { x = 22 y = 11 }
+			position = { x = 5 y = 8 }
 			font = "hoi_18mbs"
 			text = "[?total_party_pop|0]%"
-			format = center
-			maxWidth = 52
+			format = right
+			maxWidth = 57
 			maxHeight = 24
 			fixedsize = yes
+			Orientation = "LOWER_LEFT"
 			pdx_tooltip = "popularity_tooltip"
 		}
 	}
 	containerWindowType = {
 		name = "popcommunism"
-		position = { x = 175 y = 7}
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popcommunism_icon"
 			spriteType = "GFX_ideology_leninism"
@@ -34,7 +35,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popautsoc"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popautsoc_icon"
 			spriteType = "GFX_ideology_auth_socialism_group"
@@ -45,7 +46,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popradsoc"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popradsoc_icon"
 			spriteType = "GFX_ideology_radical_socialism_group"
@@ -56,7 +57,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popsocdem"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popsocdem_icon"
 			spriteType = "GFX_ideology_social_democracy_group"
@@ -67,7 +68,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popsoclib"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popsoclib_icon"
 			spriteType = "GFX_ideology_social_liberalism_group"
@@ -78,7 +79,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popnatlib"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popnatlib_icon"
 			spriteType = "GFX_ideology_national_liberalism_group"
@@ -89,7 +90,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "poplibcon"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "poplibcon_icon"
 			spriteType = "GFX_ideology_liberal_conservatism_group"
@@ -100,7 +101,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popsoccon"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popsoccon_icon"
 			spriteType = "GFX_ideology_democratic_group"
@@ -111,7 +112,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popnatcon"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popnatcon_icon"
 			spriteType = "GFX_ideology_national_conservatism_group"
@@ -122,7 +123,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popneu"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popneu_icon"
 			spriteType = "GFX_ideology_neutrality_group"
@@ -133,7 +134,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popautdes"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popautdes_icon"
 			spriteType = "GFX_ideology_auto_despotism_group"
@@ -144,7 +145,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "popfascism"
-		position = { x = 175 y = 7 }
+		position = { x = 175 y = 5 }
 		iconType ={
 			name = "popfascism_icon"
 			spriteType = "GFX_ideology_fascism_group"

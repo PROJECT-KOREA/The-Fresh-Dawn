@@ -458,7 +458,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_name"	
-			position = { x = 20 y = 307	 }
+			position = { x = 20 y = 306 }
 			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155
@@ -656,7 +656,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "political_ideas_window"
 		position = { x = -356 y = 80 }	
-		show_position = { x = 540 y = 80 }
+		show_position = { x = 599 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -1022,7 +1022,7 @@ guiTypes = {
 		#정당명
 		instantTextboxType = {
 			name = "name"
-			position = { x = 85 y = 4 }
+			position = { x = 85 y = 3 }
 			font = "hoi_18mbs"
 			text = "party name"
 			fixedsize = yes
