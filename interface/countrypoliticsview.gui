@@ -154,8 +154,8 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 95 y = 27 }
-				font = "hoi_18mbs"
+				position = { x = 91 y = 6 }
+				font = "pk_20"
 				text = "ideology"
 				maxWidth = 120
 				maxHeight = 20
@@ -174,7 +174,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = 25 y = 330 }
-				font = "hoi_18mbs"
+				font = "pk_20"
 				text = "faction"
 				maxWidth = 190
 				maxHeight = 20
@@ -215,10 +215,10 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 117 y = 16 }
-				font = "hoi_20bs"
+				position = { x = 107 y = 16 }
+				font = "pk_20"
 				text = "autonomy"
-				maxWidth = 181
+				maxWidth = 200
 				maxHeight = 20
 				format = center
 			}

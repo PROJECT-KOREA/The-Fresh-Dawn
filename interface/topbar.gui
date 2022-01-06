@@ -266,7 +266,7 @@ guiTypes = {
 		iconType = {
 			name ="air_experience_icon"
 			spriteType = "GFX_air_experience"
-			position = { x= 880 y = 9 }
+			position = { x= 880 y = 11 }
 			Orientation = "UPPER_LEFT"
 		}		
 		

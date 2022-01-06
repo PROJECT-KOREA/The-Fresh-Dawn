@@ -156,8 +156,8 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "country_name"
 			position = { x = 8 y = 247 }
-			font = "aldrich_22_outline"
-			borderSize = {x = 0 y = 0}
+			font = "pk_20"
+			borderSize = { x = 0 y = 0 }
 			maxWidth = 131
 			maxHeight = 20
 			fixedsize = yes	
@@ -1943,7 +1943,7 @@ guiTypes = {
 			iconType ={
 				name ="large_flag_frame"
 				spriteType = "GFX_large_flag_frame"
-				position = { x= -492 y = 45 }
+				position = { x= -492 y = 46 }
 				Orientation = "UPPER_RIGHT"
 			}
 

@@ -114,3 +114,7 @@
  CHI_auto_despotism_party_long:0 "중국 국민당(황포파)"
  CHI_fascism_party:0 "남의사"
  CHI_fascism_party_long:0 "삼민주의역행회"
+
+ #독일
+ GER_fascism_party:0 "NSDAP"
+ GER_fascism_party_long:0 "국가사회주의독일노동자당"
