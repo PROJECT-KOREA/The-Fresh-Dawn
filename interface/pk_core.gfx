@@ -90,8 +90,6 @@ bitmapfonts = {
 		color = 0xffffffff
 	}
 	
-	
-	
 
 	# bitmapfont = {
 	# 	name = "cg_16b"			####### GENERAL TOOLTIP FONT ########

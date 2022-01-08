@@ -32,7 +32,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tab_1_cont3_text"
 			position = { x = 43 y= 518 }
-			font = "aldrich_20_outline"
+			font = "pk_20"
 			text = "pk_SPLASH_CREDITS"
 			maxWidth = 670
 		}

@@ -1496,7 +1496,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "name_textbox"
 					position = { x = 15 y = 6 }
-					font = "aldrich_20_outline"
+					font = "pk_20"
 					fixedsize = yes
 					format = left
 					alwaystransparent = yes

@@ -11,6 +11,11 @@ bitmapfonts = {
 			path = "gfx/fonts/pk_20"
 			color = 0xffffffff
 		}
+		bitmapfont = {
+			name = "pk_20b"
+			path = "gfx/fonts/pk_20"
+			color = 0xff000000
+		}
 	#
 
 	# 나눔명조 #
