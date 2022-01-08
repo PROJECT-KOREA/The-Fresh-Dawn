@@ -91,13 +91,7 @@ bitmapfonts = {
 	}
 	
 	
-	bitmapfont = {
-		name = "hoi_20bs"
-		fontfiles = {
-			"gfx/fonts/pk_20"
-		}
-		color = 0xffffffff
-	}
+	
 
 	# bitmapfont = {
 	# 	name = "cg_16b"			####### GENERAL TOOLTIP FONT ########
