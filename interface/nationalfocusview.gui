@@ -483,7 +483,7 @@ guiTypes = {
 		buttonType = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
-			position = { x= 5 y = 40 }			
+			position = { x = 9 y = 46 }			
 		}
 		
 		buttonType = {
@@ -503,11 +503,11 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 14 y = 58 }
+			position = { x = 14 y = 59 }
 			font = "hoi_18mbs"
 			text = ""
 			maxWidth = 147
-			maxHeight = 20
+			maxHeight = 18
 			format = center
 			vertical_alignment = center 			
 			alwaystransparent = yes
@@ -779,12 +779,12 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "status"
-			position = { x = 208 y = 61 }
-			font = "hoi_20b"
+			position = { x = 208 y = 60 }
+			font = "pk_20"
 			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 170
-			maxHeight = 13
+			maxHeight = 20
 			format = center
 		}
 	}

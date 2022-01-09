@@ -1,107 +1,107 @@
-scripted_gui = {
+# scripted_gui = {
 
-	cabinet_button = {
-		context_type = player_context
-		parent_window_token = politics_tab
-		window_name = "cabinet_button_ui"
+# 	cabinet_button = {
+# 		context_type = player_context
+# 		parent_window_token = politics_tab
+# 		window_name = "cabinet_button_ui"
 		
-		ai_check = { always = no }
-		visible = { tag = KOR }
+# 		ai_check = { always = no }
+# 		visible = { tag = KOR }
 
-		effects = {
-			cabinet_button_click = {
-				if = {
-					limit = { NOT = { has_country_flag = show_cabinet } }
-					set_country_flag = show_cabinet
-				}
-				else = {
-					clr_country_flag = show_cabinet
-				}
-			}
-		}
+# 		effects = {
+# 			cabinet_button_click = {
+# 				if = {
+# 					limit = { NOT = { has_country_flag = show_cabinet } }
+# 					set_country_flag = show_cabinet
+# 				}
+# 				else = {
+# 					clr_country_flag = show_cabinet
+# 				}
+# 			}
+# 		}
 		
-		triggers = {
-			# cabinet_button_click_enabled = {
-			# 	NOT = { has_country_flag = show_cabinet }
-			# }
-		}
-	}
+# 		triggers = {
+# 			# cabinet_button_click_enabled = {
+# 			# 	NOT = { has_country_flag = show_cabinet }
+# 			# }
+# 		}
+# 	}
 
-	cabinet_start = {
-		context_type = player_context
-		parent_window_token = top_bar
-		window_name = "cabinet_start_ui_window"
+# 	cabinet_start = {
+# 		context_type = player_context
+# 		parent_window_token = top_bar
+# 		window_name = "cabinet_start_ui_window"
 		
-		ai_check = { always = no }
+# 		ai_check = { always = no }
 		
-		visible = {
-			has_country_flag = show_cabinet
-            has_country_leader = {
-                name = "지청천"
-                ruling_only = yes
-            }
-		}
+# 		visible = {
+# 			has_country_flag = show_cabinet
+#             has_country_leader = {
+#                 name = "지청천"
+#                 ruling_only = yes
+#             }
+# 		}
 		
-		effects = { close_click = { clr_country_flag = show_cabinet } }
+# 		effects = { close_click = { clr_country_flag = show_cabinet } }
 
-		properties = {
-			Leader1 = { image = "GFX_Portrait_Ji_Cheongcheon_Army" }
-			Leader2 = { image = "GFX_Portrait_Hong_Saik" }
-			CSC = { image = "GFX_Portrait_Kim_Kyeongcheon" }
-			HRA_CDR = { image = "GFX_Portrait_Lee_Beomseok" }
-		}
-	}
+# 		properties = {
+# 			Leader1 = { image = "GFX_Portrait_Ji_Cheongcheon_Army" }
+# 			Leader2 = { image = "GFX_Portrait_Hong_Saik" }
+# 			CSC = { image = "GFX_Portrait_Kim_Kyeongcheon" }
+# 			HRA_CDR = { image = "GFX_Portrait_Lee_Beomseok" }
+# 		}
+# 	}
 
-	cabinet_woi = {
-		context_type = player_context
-		parent_window_token = top_bar
-		window_name = "cabinet_woi_ui_window"
+# 	cabinet_woi = {
+# 		context_type = player_context
+# 		parent_window_token = top_bar
+# 		window_name = "cabinet_woi_ui_window"
 		
-		ai_check = { always = no }
+# 		ai_check = { always = no }
 		
-		visible = {
-			has_country_flag = show_cabinet
-			OR = {
-				has_country_flag = KOR_flag_kia_mg
-				has_country_flag = KOR_flag_hnc
-			}
-			NOT = { has_country_flag = KOR_flag_kpg }
-		}
+# 		visible = {
+# 			has_country_flag = show_cabinet
+# 			OR = {
+# 				has_country_flag = KOR_flag_kia_mg
+# 				has_country_flag = KOR_flag_hnc
+# 			}
+# 			NOT = { has_country_flag = KOR_flag_kpg }
+# 		}
 		
-		effects = { close_click = { clr_country_flag = show_cabinet } }
+# 		effects = { close_click = { clr_country_flag = show_cabinet } }
 
-		properties = {
-			Leader1 = { image = "[This.Leader1_portrait]" }
-			Leader2 = { image = "[This.Leader2_portrait]" }
-		}
-	}
+# 		properties = {
+# 			Leader1 = { image = "[This.Leader1_portrait]" }
+# 			Leader2 = { image = "[This.Leader2_portrait]" }
+# 		}
+# 	}
 
-	cabinet_kor = {
-		context_type = player_context
-		parent_window_token = top_bar
-		window_name = "cabinet_kor_ui_window"
+# 	cabinet_kor = {
+# 		context_type = player_context
+# 		parent_window_token = top_bar
+# 		window_name = "cabinet_kor_ui_window"
 		
-		ai_check = { always = no }
+# 		ai_check = { always = no }
 		
-		visible = {
-			has_country_flag = show_cabinet
-			OR = {
-				has_country_flag = KOR_flag_kpg
-				has_country_flag = KOR_flag_rok
-			}
-		}
+# 		visible = {
+# 			has_country_flag = show_cabinet
+# 			OR = {
+# 				has_country_flag = KOR_flag_kpg
+# 				has_country_flag = KOR_flag_rok
+# 			}
+# 		}
 		
-		effects = { close_click = { clr_country_flag = show_cabinet } }
+# 		effects = { close_click = { clr_country_flag = show_cabinet } }
 
-		properties = {
-			Leader1 = { image = "[This.Leader1_portrait]" }
-			Leader2 = { image = "[This.Leader2_portrait]" }
-			SM = { image = "[This.SM_portrait]" }
-			EM = { image = "[This.EM_portrait]" }
-			FM = { image = "[This.FM_portrait]" }
-			MM = { image = "[This.MM_portrait]" }
-			IM = { image = "[This.IM_portrait]" }
-		}
-	}
-}
+# 		properties = {
+# 			Leader1 = { image = "[This.Leader1_portrait]" }
+# 			Leader2 = { image = "[This.Leader2_portrait]" }
+# 			SM = { image = "[This.SM_portrait]" }
+# 			EM = { image = "[This.EM_portrait]" }
+# 			FM = { image = "[This.FM_portrait]" }
+# 			MM = { image = "[This.MM_portrait]" }
+# 			IM = { image = "[This.IM_portrait]" }
+# 		}
+# 	}
+# }
 
