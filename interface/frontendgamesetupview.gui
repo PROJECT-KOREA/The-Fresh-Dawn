@@ -10,7 +10,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "bookmark_entry"
 		position = { x= 0 y = 0 }
-		size = { width=232 height=211}
+		size = { width=232 height=211 }
 		clipping = no
 		fade_time = 500
 		fade_type = linear
@@ -1826,7 +1826,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "date"
 					position = { x = -184 y = 69 }
-					font = "aldrich_22_outline"
+					font = "pk_20"
 					borderSize = {x = 4 y = 4}
 					text = "Pikku Saippuakauppias Itkee!!"	
 					maxWidth = 360
@@ -1837,7 +1837,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "name"
 					position = { x = -184 y = 87 }
-					font = "aldrich_22_outline"
+					font = "pk_20"
 					borderSize = {x = 4 y = 4}
 					text = "Pikku Saippuakauppias Itkee!!"	
 					maxWidth = 360
@@ -1851,7 +1851,7 @@ guiTypes = {
 					position = { x = -135 y = 115 }
 					quadTextureSprite ="GFX_button_261x34"	
 					buttonText = "FE_CHANGE_SCENARIO"
-					buttonFont = "aldrich_22_outline"
+					buttonFont = "pk_20"
 					clicksound = click_ok
 					shortcut = "c"
 				}
