@@ -885,35 +885,34 @@ guiTypes = {
 		# 	}
 		# }
 		
-		instantTextBoxType = {
-			name = "nation_title"
-			position = { x = 600 y = 290 }
-			font = "aldrich_24_outline"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 340
-			maxHeight = 28
-			format = left
-			vertical_alignment = center
-		}
+		# instantTextBoxType = {
+		# 	name = "nation_title"
+		# 	position = { x = 570 y = 280 }
+		# 	font = "aldrich_24_outline"
+		# 	borderSize = {x = 0 y = 0}
+		# 	maxWidth = 340
+		# 	maxHeight = 28
+		# 	format = left
+		# 	vertical_alignment = center
+		# }
+		# instantTextBoxType = {
+		# 	name = "history_title"
+		# 	position = { x = 480 y = 310 }
+		# 	font = "aldrich_22_outline"
+		# 	borderSize = {x = 0 y = 0}
+		# 	text = "FE_COUNTRY_HISTORY_TITLE"
+		# 	maxWidth = 340
+		# 	maxHeight = 30	
+		# 	format = left
+		# }
 		
 		#역사
 		instantTextBoxType = {
-			name = "history_title"
-			position = { x = 600 y = 330 }
-			font = "aldrich_22_outline"
-			borderSize = {x = 0 y = 0}
-			text = "FE_COUNTRY_HISTORY_TITLE"
-			maxWidth = 340
-			maxHeight = 30	
-			format = left
-		}
-		
-		instantTextBoxType = {
 			name = "history"
-			position = { x = 130 y = 360 }
+			position = { x = 40 y = 270 }
 			font = "pk_20"
 			borderSize = { x = 0 y = 0 }
-			maxWidth = 550
+			maxWidth = 1145
 			maxHeight = 500	
 			format = left
 		}

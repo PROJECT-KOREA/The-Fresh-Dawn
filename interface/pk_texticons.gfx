@@ -225,4 +225,10 @@ spriteTypes = {
 		texturefile = "gfx/texticons/bookmark_GER.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_bookmark_USA"
+		texturefile = "gfx/texticons/bookmark_USA.dds"
+		legacy_lazy_load = no
+	}
 }
