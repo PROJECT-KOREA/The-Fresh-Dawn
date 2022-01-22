@@ -219,6 +219,25 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+
+
+	spriteType = {
+		name = "GFX_bookmark_USA"
+		texturefile = "gfx/texticons/bookmark_USA.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_ENG"
+		texturefile = "gfx/texticons/bookmark_ENG.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_FRA"
+		texturefile = "gfx/texticons/bookmark_FRA.dds"
+		legacy_lazy_load = no
+	}
 	
 	spriteType = {
 		name = "GFX_bookmark_GER"
@@ -227,8 +246,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_bookmark_USA"
-		texturefile = "gfx/texticons/bookmark_USA.dds"
+		name = "GFX_bookmark_ITA"
+		texturefile = "gfx/texticons/bookmark_ITA.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_CHI"
+		texturefile = "gfx/texticons/bookmark_CHI.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_JAP"
+		texturefile = "gfx/texticons/bookmark_JAP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_SOV"
+		texturefile = "gfx/texticons/bookmark_SOV.dds"
 		legacy_lazy_load = no
 	}
 }
