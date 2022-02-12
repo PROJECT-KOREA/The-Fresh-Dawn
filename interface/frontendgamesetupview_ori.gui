@@ -348,7 +348,7 @@
 # 			position = { x = 275 y = 379 }
 # 			name = "disk_quota"
 # 			font = "hoi_20bs"
-# 			borderSize = { x = 8 y = 0 }	
+# 			borderSize = { x = 8 y = 0 }
 # 			maxWidth = 188
 # 			maxHeight = 18
 # 			text = "MENU_BAR_DISK_QUOTA"	

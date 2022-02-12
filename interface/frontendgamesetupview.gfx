@@ -306,4 +306,9 @@ spriteTypes = {
         name = "GFX_missing_dlc_warning_sign"
         texturefile = "gfx/interface/unsafe_savegame_icon.dds"
     }
+
+	spriteType = {
+        name = "GFX_spirit_focus"
+        texturefile = "gfx/interface/spirit_focus.dds"
+    }
 }

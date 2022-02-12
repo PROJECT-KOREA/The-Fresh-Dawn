@@ -638,7 +638,7 @@
 		
 		ButtonType = {
 			name = "back_button"
-			position = { x = 270 y = -55 }
+			position = { x = -105 y = 5 }
 			quadTextureSprite ="GFX_button_148x34"	
 			buttonText = "BACK"
 			buttonFont = "aldrich_22_outline"
@@ -650,7 +650,7 @@
 		
 		ButtonType = {
 			name = "select_button"
-			position = { x = 430 y = -55 }
+			position = { x = 55 y = 5 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "국가 선택"
 			buttonFont = "aldrich_22_outline"
@@ -710,7 +710,6 @@
 				format = "UPPER_LEFT"
 			}
 		}
-		
 		# iconType = {
 		# 	name = "minor_country_leader"
 		# 	quadTextureSprite ="GFX_leader_unknown"
@@ -737,164 +736,170 @@
 		# 	format = centre
 		# }
 		
-		# containerWindowType = {
-		# 	name = "info"				
-		# 	position = { x = 35 y = 485 }
+		containerWindowType = {
+			name = "info"				
+			position = { x = 42 y = 300 }
 			
-		# 	instantTextBoxType = {
-		# 		name = "leader_label"
-		# 		position = { x = 0 y = -5 }
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		text = "LEADER"
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "leader_label"
+				position = { x = 0 y = 0 }
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				text = "LEADER"
+				maxWidth = 120
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "leader"
-		# 		position = { x = 0 y = 12 }
-		# 		textureFile = ""
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		text = ""
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "leader"
+				position = { x = 0 y = 17 }
+				textureFile = ""
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				text = ""
+				maxWidth = 300
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "ideology_label"
-		# 		position = { x = 0 y = 35 }
-		# 		textureFile = ""
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		text = "IDEOLOGY"
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "ideology_label"
+				position = { x = 0 y = 47 }
+				textureFile = ""
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				text = "IDEOLOGY"
+				maxWidth = 120
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "ideology"
-		# 		position = { x = 0 y = 52 }
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "ideology"
+				position = { x = 0 y = 64 }
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 120
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "government_label"
-		# 		position = { x = 0 y = 75 }
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		text = "GOVERNMENT"
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "government_label"
+				position = { x = 140 y = 47 }
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				text = "GOVERNMENT"
+				maxWidth = 120
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "government"
-		# 		position = { x = 0 y = 92 }
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		text = "FE_INTERESTING_COUNTRIES"
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "government"
+				position = { x = 140 y = 64 }
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				text = "FE_INTERESTING_COUNTRIES"
+				maxWidth = 120
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "elections_label"
-		# 		position = { x = 0 y = 115 }
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		text = "ELECTIONS"
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "elections_label"
+				position = { x = 0 y = 94 }
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				text = "ELECTIONS"
+				maxWidth = 120
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "elections"
-		# 		position = { x = 0 y = 132 }
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "elections"
+				position = { x = 0 y = 111 }
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 120
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "party_label"
-		# 		position = { x = 0 y = 155 }
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		text = "RULING_PARTY"
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
+			instantTextBoxType = {
+				name = "party_label"
+				position = { x = 140 y = 94 }
+				font = "aldrich_22_outline"
+				borderSize = {x = 0 y = 0}
+				text = "RULING_PARTY"
+				maxWidth = 120
+				format = left
+			}
 			
-		# 	instantTextBoxType = {
-		# 		name = "party"
-		# 		position = { x = 0 y = 172 }
-		# 		font = "hoi4_typewriter16"
-		# 		borderSize = {x = 0 y = 0}
-		# 		maxWidth = 340
-		# 		format = left
-		# 	}
-		# }
+			instantTextBoxType = {
+				name = "party"
+				position = { x = 140 y = 111 }
+				font = "aldrich_22_outline"
+				borderSize = { x = 0 y = 0 }
+				maxWidth = 190
+				format = left
+			}
+		}
 
-		# containerWindowType = {
-		# 	name = "spirit"
-		# 	position = { x = 449 y = 470 }
+		containerWindowType = {
+			name = "spirit"
+			position = { x = 55 y = 460 }
 			
-		# 	iconType ={
-		# 		name ="pol_faction_icon"
-		# 		spriteType = "GFX_pol_factions_strip"
-		# 		position = { x= 0 y = 0 }
-		# 		frame = 1
-		# 	}
+			iconType ={
+				name ="GFX_spirit_and_focus"
+				spriteType = "GFX_spirit_focus"
+				position = { x= -35 y = 0 }
+			}
 			
-		# 	containerWindowType = {
-		# 		name ="ideas"
-		# 		position = { x = 91 y = -1 }
-		# 		size = { width = 100%% height = 70 }
+			iconType ={
+				name ="pol_faction_icon"
+				spriteType = "GFX_pol_factions_strip"
+				position = { x= -18 y = 18 }
+				frame = 1
+			}
+			
+			containerWindowType = {
+				name ="ideas"
+				position = { x = 80 y = 15 }
+				size = { width = 100%% height = 70 }
 				
-		# 		gridboxType = {
-		# 			name ="ideas_grid"
-		# 			position = { x = 0 y = 0 }
-		# 			size = { width = 100% height = 70 }
-		# 			slotsize = { width = 60 height = 66 }
-		# 			max_slots = { x = 3 y = 1 }
-		# 			add_horizontal = yes
-		# 			format = "UPPER_LEFT"
-		# 		}
-		# 	}
+				gridboxType = {
+					name ="ideas_grid"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 70 }
+					slotsize = { width = 60 height = 66 }
+					max_slots = { x = 3 y = 1 }
+					add_horizontal = yes
+					format = "UPPER_LEFT"
+				}
+			}
 			
-		# 	containerWindowType = {
-		# 		name ="focus"
-		# 		position = { x = 9 y = 85 }
-		# 		size = { width = 100% height = 100 }
+			containerWindowType = {
+				name ="focus"
+				position = { x = -8 y = 102 }
+				size = { width = 100% height = 100 }
 				
-		# 		gridboxType = {
-		# 			name ="focus_grid"
-		# 			position = { x = 17 y = 8 }
-		# 			size = { width = 100% height = 100 }
-		# 			slotsize = { width = 105 height = 100 }
-		# 			max_slots = { x = 4 y = 1 }
-		# 			add_horizontal = yes
-		# 			format = "UPPER_LEFT"
-		# 		}
-		# 	}
-		# }
+				gridboxType = {
+					name ="focus_grid"
+					position = { x = 17 y = 8 }
+					size = { width = 100% height = 100 }
+					slotsize = { width = 105 height = 100 }
+					max_slots = { x = 4 y = 1 }
+					add_horizontal = yes
+					format = "UPPER_LEFT"
+				}
+			}
+		}
 		
-		# instantTextBoxType = {
-		# 	name = "nation_title"
-		# 	position = { x = 570 y = 280 }
-		# 	font = "aldrich_24_outline"
-		# 	borderSize = {x = 0 y = 0}
-		# 	maxWidth = 340
-		# 	maxHeight = 28
-		# 	format = left
-		# 	vertical_alignment = center
-		# }
+		instantTextBoxType = {
+			name = "nation_title"
+			position = { x = 30 y = 250 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 340
+			maxHeight = 28
+			format = center
+			vertical_alignment = center
+		}
 		# instantTextBoxType = {
 		# 	name = "history_title"
 		# 	position = { x = 480 y = 310 }
@@ -909,10 +914,10 @@
 		#역사
 		instantTextBoxType = {
 			name = "history"
-			position = { x = 40 y = 270 }
+			position = { x = 400 y = 270 }
 			font = "pk_20"
 			borderSize = { x = 0 y = 0 }
-			maxWidth = 1145
+			maxWidth = 850
 			maxHeight = 500	
 			format = left
 		}
@@ -1124,7 +1129,7 @@
 				textureFile = ""
 				font = "aldrich_22_outline"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 264
+				maxWidth = 500
 				maxHeight = 20
 				fixedsize = yes
 				format = right
