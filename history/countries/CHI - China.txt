@@ -1,5 +1,5 @@
 ﻿#수도 - 난징
-capital = 613
+capital = 598
 
 #인물 로딩
 	recruit_character = CHI_Lin_Sen

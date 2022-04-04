@@ -7,6 +7,11 @@ bitmapfonts = {
 			color = 0xffffffff
 		}
 		bitmapfont = {
+			name = "pk_18b"
+			path = "gfx/fonts/pk_18"
+			color = 0xff000000
+		}
+		bitmapfont = {
 			name = "pk_20"
 			# fontfiles = {
 			# 	"gfx/fonts/aldrich_20"

@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_focus_danzig"
+		textureFile = "gfx/interface/goals/focus_danzig.dds"
+	}
+}

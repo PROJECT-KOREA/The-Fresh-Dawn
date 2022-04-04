@@ -89,6 +89,14 @@ bitmapfonts = {
 		}
 		color = 0xffffffff
 	}
+
+	bitmapfont = {
+		name = "hoi_20bs"
+		fontfiles = {
+			"gfx/fonts/hoi_20bs1"
+		}
+		color = 0xffffffff
+	}
 	
 
 	# bitmapfont = {

@@ -268,4 +268,52 @@ spriteTypes = {
 		texturefile = "gfx/texticons/bookmark_SOV.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_bookmark_SPR"
+		texturefile = "gfx/texticons/bookmark_SPR.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_POL"
+		texturefile = "gfx/texticons/bookmark_POL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_CZE"
+		texturefile = "gfx/texticons/bookmark_CZE.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_HUN"
+		texturefile = "gfx/texticons/bookmark_HUN.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_ROM"
+		texturefile = "gfx/texticons/bookmark_ROM.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_YUG"
+		texturefile = "gfx/texticons/bookmark_YUG.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_BUL"
+		texturefile = "gfx/texticons/bookmark_BUL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_GRE"
+		texturefile = "gfx/texticons/bookmark_GRE.dds"
+		legacy_lazy_load = no
+	}
 }

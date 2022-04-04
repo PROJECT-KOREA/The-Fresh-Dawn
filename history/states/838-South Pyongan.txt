@@ -24,13 +24,13 @@ state = {
 			air_base = 2
 
 			#해군기지
-			4052 = { naval_base = 1 } #진남포
+			13257 = { naval_base = 1 } #진남포
 		}
-		victory_points = { 13241 10 } #평양(헤이죠)
-		victory_points = { 4052 2 } #남포(진난포)
+		victory_points = { 13256 10 } #평양(헤이죠)
+		victory_points = { 13257 2 } #남포(진난포)
 	}
 
 	provinces = {
-		978 3912 4052 7171 9790 11770 13241
+		978 3912 4052 7171 9790 11770 13241 13256 13257
 	}	
 }

@@ -25,7 +25,7 @@
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_select_date_1936"
-			position = { x = -52 y = 0 }
+			position = { x = -52 y = -5 }
 			alwaystransparent = yes
 		}
 
@@ -163,6 +163,7 @@
 			fixedsize = yes	
 			format = center		
 			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
 		}
 	}
 	
@@ -510,7 +511,6 @@
 		clipping = no
 		orientation = center
 		origo = center
-		moveable = yes
 		
 		instantTextBoxType = {
 			name = "title"
@@ -547,28 +547,28 @@
 		
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 110 y = 274 }
+			position = { x = 110 y = 275 }
 			font = "aldrich_22_outline"
 			borderSize = {x = 0 y = 0}
-			text = "BM_HISTORY_TITLE"
+			text = "폭풍전야 (1936)"
 			maxWidth = 340
 			maxHeight = 30	
 			format = centre
 		}
 		
-		instantTextBoxType = {
-			name = "bookmark_title"
-			position = { x = 25 y = 305 }
-			font = "hoi4_typewriter22"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 340
-			maxHeight = 30	
-			format = left
-		}
+		# instantTextBoxType = {
+		# 	name = "bookmark_title"
+		# 	position = { x = 25 y = 305 }
+		# 	font = "hoi4_typewriter22"
+		# 	borderSize = {x = 0 y = 0}
+		# 	maxWidth = 340
+		# 	maxHeight = 30	
+		# 	format = left
+		# }
 		
 		instantTextBoxType = {
 			name = "bookmark_desc"
-			position = { x = 25 y = 330 }
+			position = { x = 25 y = 310 }
 			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 540
@@ -603,7 +603,8 @@
 	
 	containerWindowType = {
 		name ="gamesetup_interesting_countries_window"
-		size = { width=1225 height=880 }
+		size = { width=1225 height=820 }
+		position = { x = 0 y = 0 }
 		Orientation = center
 		origo = center
 		clipping = no
@@ -625,7 +626,7 @@
 			name = "cbts"
 			text = "폭풍전야 (1936)"
 			font = "aldrich_36_outline"
-			position = { x = 35 y = 58 }
+			position = { x = 35 y = 60 }
 			maxWidth = 540
 			maxHeight = 30	
 			format = left
@@ -638,7 +639,7 @@
 		
 		ButtonType = {
 			name = "back_button"
-			position = { x = -105 y = 5 }
+			position = { x = 270 y = -57 }
 			quadTextureSprite ="GFX_button_148x34"	
 			buttonText = "BACK"
 			buttonFont = "aldrich_22_outline"
@@ -650,7 +651,7 @@
 		
 		ButtonType = {
 			name = "select_button"
-			position = { x = 55 y = 5 }
+			position = { x = 430 y = -57 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "국가 선택"
 			buttonFont = "aldrich_22_outline"
@@ -662,16 +663,16 @@
 
 		containerWindowType = {
 			name ="countries"
-			position = { x = 15 y = 45 }
+			position = { x = 24 y = 47 }
 			size = { width = -15 height = 120}
 			
 			gridboxType = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
-				size = { width = 100% height = 100% }
-				slotsize = { width = 150 height = 0 }
+				size = { width = 00% height = 100% }
+				slotsize = { width = 147 height = 110 }
 				add_horizontal = yes
-				max_slots_vertical = 1
+				max_slots = { x = 8 y = 2 }
 				format = "UPPER_LEFT"
 			}	
 			
@@ -710,19 +711,20 @@
 				format = "UPPER_LEFT"
 			}
 		}
-		# iconType = {
-		# 	name = "minor_country_leader"
-		# 	quadTextureSprite ="GFX_leader_unknown"
-		# 	position = { x = 289 y = 441 }
-		# 	scale=0.696
-		# 	rotation=-0.04
-		# }
+		iconType = {
+			name = "minor_country_leader"
+			quadTextureSprite ="GFX_leader_unknown"
+			position = { x = 249 y = 402 }
+			scale=0.65
+			rotation=-0.04
+		}
 		
-		# iconType = {
-		# 		name ="minor_portrait_overlay"
-		# 		spriteType = "GFX_minor_portrait_overlay"
-		# 		position = { x= 280 y = 430 }
-		# }
+		iconType = {
+				name ="minor_portrait_overlay"
+				spriteType = "GFX_minor_portrait_overlay"
+				position = { x= 240 y = 393 }
+				scale=0.945
+		}
 		
 		
 		# instantTextBoxType = {
@@ -738,7 +740,7 @@
 		
 		containerWindowType = {
 			name = "info"				
-			position = { x = 42 y = 300 }
+			position = { x = 35 y = 395 }
 			
 			instantTextBoxType = {
 				name = "leader_label"
@@ -774,7 +776,7 @@
 			
 			instantTextBoxType = {
 				name = "ideology"
-				position = { x = 0 y = 64 }
+				position = { x = 0 y = 65 }
 				font = "aldrich_22_outline"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 120
@@ -783,7 +785,7 @@
 			
 			instantTextBoxType = {
 				name = "government_label"
-				position = { x = 140 y = 47 }
+				position = { x = 0 y = 94 }
 				font = "aldrich_22_outline"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
@@ -793,7 +795,7 @@
 			
 			instantTextBoxType = {
 				name = "government"
-				position = { x = 140 y = 64 }
+				position = { x = 0 y = 112 }
 				font = "aldrich_22_outline"
 				borderSize = {x = 0 y = 0}
 				text = "FE_INTERESTING_COUNTRIES"
@@ -801,28 +803,28 @@
 				format = left
 			}
 			
-			instantTextBoxType = {
-				name = "elections_label"
-				position = { x = 0 y = 94 }
-				font = "aldrich_22_outline"
-				borderSize = {x = 0 y = 0}
-				text = "ELECTIONS"
-				maxWidth = 120
-				format = left
-			}
+			# instantTextBoxType = {
+			# 	name = "elections_label"
+			# 	position = { x = 0 y = 141 }
+			# 	font = "aldrich_22_outline"
+			# 	borderSize = {x = 0 y = 0}
+			# 	text = "ELECTIONS"
+			# 	maxWidth = 120
+			# 	format = left
+			# }
 			
-			instantTextBoxType = {
-				name = "elections"
-				position = { x = 0 y = 111 }
-				font = "aldrich_22_outline"
-				borderSize = {x = 0 y = 0}
-				maxWidth = 120
-				format = left
-			}
+			# instantTextBoxType = {
+			# 	name = "elections"
+			# 	position = { x = 0 y = 159 }
+			# 	font = "aldrich_22_outline"
+			# 	borderSize = {x = 0 y = 0}
+			# 	maxWidth = 120
+			# 	format = left
+			# }
 			
 			instantTextBoxType = {
 				name = "party_label"
-				position = { x = 140 y = 94 }
+				position = { x = 0 y = 141 }
 				font = "aldrich_22_outline"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
@@ -832,7 +834,7 @@
 			
 			instantTextBoxType = {
 				name = "party"
-				position = { x = 140 y = 111 }
+				position = { x = 0 y = 159 }
 				font = "aldrich_22_outline"
 				borderSize = { x = 0 y = 0 }
 				maxWidth = 190
@@ -842,7 +844,7 @@
 
 		containerWindowType = {
 			name = "spirit"
-			position = { x = 55 y = 460 }
+			position = { x = 46 y = 591 }
 			
 			iconType ={
 				name ="GFX_spirit_and_focus"
@@ -892,7 +894,7 @@
 		
 		instantTextBoxType = {
 			name = "nation_title"
-			position = { x = 30 y = 250 }
+			position = { x = 30 y = 355 }
 			font = "aldrich_24_outline"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
@@ -914,10 +916,10 @@
 		#역사
 		instantTextBoxType = {
 			name = "history"
-			position = { x = 400 y = 270 }
+			position = { x = 384 y = 362 }
 			font = "pk_20"
 			borderSize = { x = 0 y = 0 }
-			maxWidth = 850
+			maxWidth = 820
 			maxHeight = 500	
 			format = left
 		}

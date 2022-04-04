@@ -14,8 +14,6 @@ state = {
 			#기반시설
 			infrastructure = 1
 		}
-
-		victory_points = { 13246 10 } #청주(세이슈)
 	}
 
 	provinces = {

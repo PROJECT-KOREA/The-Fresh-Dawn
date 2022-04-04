@@ -18,10 +18,10 @@ state = {
 			industrial_complex = 1
 		}
 
-		victory_points = { 13249 7 } #대전(타이덴)
+		victory_points = { 13260 7 } #대전(타이덴)
 	}
 
 	provinces = {
-		7204 11992 13248 13249
+		7204 11992 13248 13249 13260
 	}
 }

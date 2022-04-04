@@ -144,10 +144,6 @@
   MON_communism:0 "몽골인민공화국"
   MON_communism_DEF:0 "몽골인민공화국"
 
- #독일
-  GER_fascism:0 "독일국"
-  GER_fascism_DEF:0 "독일국"
-
  #산서 군벌
   SHX_auto_despotism:0 "산서 군벌"
   SHX_auto_despotism_DEF:0 "산서 군벌"

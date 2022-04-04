@@ -412,7 +412,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 3944 #Near Changkufeng Lake
+		location = 3815 #Near Changkufeng Lake
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
 	}
