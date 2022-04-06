@@ -23,7 +23,7 @@ characters = {
 
         #지도자 - 파시즘
         country_leader = {
-            ideology = fascism_ideology
+            ideology = despotism
             traits = { }
             expire = "1999.1.1.1"
             id = -1
