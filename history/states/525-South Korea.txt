@@ -12,7 +12,7 @@ state = {
 
 		buildings = {
 			#기반시설
-			infrastructure = 3
+			infrastructure = 4
 
 			#민간공장
 			industrial_complex = 2

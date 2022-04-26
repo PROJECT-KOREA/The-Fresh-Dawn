@@ -1,0 +1,13 @@
+characters = {
+
+	#룽윈
+	XIK_liu_wenhui = {
+		name = XIK_liu_wenhui
+		portraits = { civilian = { large = "gfx/leaders/CHI_warlord/Portrait_Liu_Wenhui.dds" } }
+		country_leader = {
+			ideology = aut_despotism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

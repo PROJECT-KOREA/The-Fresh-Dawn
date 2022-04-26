@@ -24,6 +24,18 @@ characters = {
 		}
 	}
 
+	#옌시산 - 산서군벌
+	CHI_Yan_Xishan = {
+		name = "옌시산"
+		portraits = { civilian = { large = "gfx/leaders/CHI_warlord/Portrait_Yan_Xishan.dds" } }
+		country_leader = {
+			ideology = warlordism
+			traits = {  }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
 	#리쭝런 - 광서군벌
 	CHI_Li_Zongren = {
 		name = "리쭝런"

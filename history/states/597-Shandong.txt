@@ -6,11 +6,12 @@ state = {
 	state_category = large_town
 
 	history = {
-		owner = SHD
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = SHD
+		# owner = SHD
+		# add_core_of = SHD
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
 			air_base = 3

@@ -192,6 +192,11 @@ guiTypes = {
 		Orientation = CENTER_DOWN
 		Origo = center
 
+		positionType = {
+			name = "subscription_size"
+			position = { x = 99999 y = 523 }
+		}
+
 		#Pretty, pretty pictures
 		iconType = {
 			name ="GFX_fronticons"
@@ -209,6 +214,11 @@ guiTypes = {
 			format = right
 			maxWidth = 500
 			maxHeight = 20
+		}
+
+		positionType = {
+			name = "version_label_subscription_position"
+			position = { x = 99999 y = 484 }
 		}
 
 		# instantTextBoxType = {
@@ -343,6 +353,16 @@ guiTypes = {
 		positionType = {
 			name = "position_without_social_gui"
 			position = { x = 0 y = 155 }
+		}
+
+		positionType = {
+			name = "subscription_position"
+			position = { x = 9999 y = 89 }
+		}
+
+		positionType = {
+			name = "subscription_position_without_social_gui"
+			position = { x = 9999 y = 219 }
 		}
 		
 		containerWindowType = {

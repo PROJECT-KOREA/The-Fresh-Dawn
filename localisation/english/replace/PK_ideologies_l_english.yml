@@ -81,9 +81,12 @@
  liberalism_desc:0 ""
  market_liberal:0 "시장자유주의"
  market_liberal_desc:0 """
+
  #자유보수주의
  lib_conservatism:0 "자유보수주의"
  lib_conservatism_desc:0 ""
+ libcon_centrism:0 "중도주의"
+ libcon_centrism_desc:0 ""
  christian_democracy:0 "기독교 민주주의"
  christian_democracy_desc:0 ""
  centrism:0 "중도주의"
@@ -100,18 +103,20 @@
  nat_conservatism_desc:0 ""
 
  #권위주의
- authoritarian:0 "권위민주주의"
- authoritarian_desc:0 ""
+ despotism:0 "권위민주주의"
+ despotism_desc:0 ""
  military_dic:0 "군부 독재"
  military_dic_desc:0 ""
  oligarchism:0 "과두제"
  oligarchism_desc:0 ""
  colonial_gov:0 "조선총독부"
  colonial_gov_desc:0 ""
+ centrism:0 "중도주의"
+ centrism_desc:0 ""
 
  #전제독재주의
- despotism:0 "전제독재주의"
- despotism_desc:0 ""
+ aut_despotism:0 "전제독재주의"
+ aut_despotism_desc:0 ""
  statism:0 "국가주의"
  statism_desc:0 ""
  semi_constitutional:0 "외견적 입헌군주제"

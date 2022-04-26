@@ -327,10 +327,10 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = -257 y = 34 }
+				position = { x = -257 y = 60 }
 				#font = "hoi4_typewriter22"
 				#font = "franklin_gothic_34"
-				font = "nnmj_i_27"
+				font = "aldrich_24_outline_b"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
 				maxWidth = 420
@@ -356,8 +356,8 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 42 y = 44	 }
-				font = "hoi4_typewriter16"
+				position = { x = 42 y = 54 }
+				font = "nnmj_16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
 				maxWidth = 530
@@ -398,7 +398,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 24 y = -42 }
-			font = "aldrich_22_outline_b"
+			font = "pk_22b"
 			maxWidth = 280
 			maxHeight = 20
 			format = left

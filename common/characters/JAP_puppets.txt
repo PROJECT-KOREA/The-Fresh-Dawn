@@ -1,0 +1,14 @@
+characters = {
+
+	#인루겅 - 기동방공자치정부
+	CHI_Yin_Jukeng = {
+		name = "인루겅"
+		portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_Yin_Jukeng.dds" } }
+		country_leader = {
+			ideology = aut_despotism
+			traits = {  }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

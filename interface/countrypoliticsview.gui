@@ -19,7 +19,7 @@ guiTypes = {
 
 		iconType ={
 			name ="production_header_bg"
-			spriteType = "GFX_header_bg"
+			spriteType = "GFX_header_bg_c"
 			position = { x = 5 y = 07 }
 			Orientation = "UPPER_LEFT"
 		}	
@@ -161,15 +161,15 @@ guiTypes = {
 				maxHeight = 20
 			}
 			
-			# instantTextboxType = {
-			# 	name = "elections"
-			# 	position = { x = 83 y = 20 }
-			# 	font = "hoi_16mbs"
-			# 	text = "elections"
-			# 	maxWidth = 155
-			# 	maxHeight = 20
-			# 	vertical_alignment = center
-			# }
+			instantTextboxType = {
+				name = "elections"
+				position = { x = 99999 y = 20 }
+				font = "hoi_16mbs"
+				text = "elections"
+				maxWidth = 155
+				maxHeight = 20
+				vertical_alignment = center
+			}
 			
 			instantTextboxType = {
 				name = "faction_name"
@@ -272,19 +272,19 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
-			# iconType = {
-			# 	name = "continuous_glow"
-			# 	position = { x = 4 y = -2 }
-			# 	quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
-			# 	alwaystransparent = yes				
-			# 	scale = 0.5
-			# }
+			iconType = {
+				name = "continuous_glow"
+				position = { x = 4 y = -2 }
+				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
+				alwaystransparent = yes				
+				scale = 0.5
+			}
 			
-			# iconType = {
-			# 	name = "current_autonomy_level_icon"
-			# 	position = { x = 20 y = 10 }
-			# 	quadTextureSprite = "GFX_autonomy_unknown_icon"
-			# }
+			iconType = {
+				name = "current_autonomy_level_icon"
+				position = { x = 20 y = 10 }
+				quadTextureSprite = "GFX_autonomy_unknown_icon"
+			}
 		}
 		
 #		buttonType = {
@@ -311,13 +311,13 @@ guiTypes = {
 				clicksound = click_default
 			}
 
-			# iconType = {
-			# 	name = "nat_spirit_glow_overlay"
-			# 	position = { x = 102 y = 10 }
-			# 	spriteType = "GFX_nat_spirit_glow_overlay"
-			# 	scale = 0.95
-			# 	alwaystransparent = yes
-			# }			
+			iconType = {
+				name = "nat_spirit_glow_overlay"
+				position = { x = 999999999 y = 10 }
+				spriteType = "GFX_nat_spirit_glow_overlay"
+				scale = 0.95
+				alwaystransparent = yes
+			}			
 			
 			iconType = {
 				name = "pol_power_icon"
@@ -459,7 +459,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_name"	
 			position = { x = 20 y = 306 }
-			font = "hoi_18mbs"
+			font = "pk_20"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -526,12 +526,12 @@ guiTypes = {
 		iconType = {
 			name = "rules"
 			spriteType = "GFX_rules_sum_icon"
-			position = { x = 460 y = 7 }
+			position = { x = 520 y = 7 }
 		}
 
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 344 y = 9 }
+			position = { x = 404 y = 9 }
 			quadTextureSprite = "GFX_government_circle_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -548,11 +548,11 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "subjects_button_container"
-			position = { x = 0 y = 0 }
+			position = { x = 480 y = 0 }
 
 			buttonType = {
 				name = "show_subjects_button"
-				position = { x = 420 y = 9 }
+				position = { x = 0 y = 9 }
 				quadTextureSprite = "GFX_government_circle_button"
 				buttonFont = "hoi_16mbs"
 				Orientation = "UPPER_RIGHT"
@@ -572,14 +572,14 @@ guiTypes = {
 			iconType = {
 				name = "icon_manage_subjects"
 				spriteType = "GFX_icon_manage_subjects"
-				position = { x = 422 y = 11 }
+				position = { x = 2 y = 11 }
 				alwaystransparent = yes
 			}
 		}
 		
 		buttonType = {
 			name = "show_exiles_collaborations_button"
-			position = { x = 382 y = 9 }
+			position = { x = 442 y = 9 }
 			quadTextureSprite = "GFX_government_circle_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -601,14 +601,14 @@ guiTypes = {
 		iconType = {
 			name = "icon_exiled_collaborations_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 384 y = 11 }
+			position = { x = 444 y = 11 }
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 346 y = 11 }
+			position = { x = 406 y = 11 }
 			alwaystransparent = yes
 		}
 	}

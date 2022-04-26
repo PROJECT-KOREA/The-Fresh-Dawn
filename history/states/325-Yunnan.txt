@@ -1,7 +1,7 @@
 state = {
 	id = 325
 	name = "STATE_325"
-	manpower = 10994500
+	manpower = 9739500
 
 	state_category = town
 
@@ -9,22 +9,25 @@ state = {
 		owner = YUN
 		add_core_of = YUN
 		add_core_of = CHI
-		add_core_of = PRC
+		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 2
 		}
 		victory_points = {
 			1319 10 
 		}
+		victory_points = {
+			1172 1 
+		}
 	}
 
 	resources = {
-		tungsten = 2
+		tungsten = 3
 	}
 
 	provinces = {
-		1114 1172 1196 1319 1383 1522 1653 4501 5072 7446 7606 8023 10346 10776 10819 12262 12282 12841 
+		1114 1172 1196 1319 1383 1522 1653 4501 5072 7446 7606 10346 10819 12282 12841 
 	}
 }

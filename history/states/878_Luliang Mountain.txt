@@ -1,0 +1,22 @@
+state = {
+	id = 878
+	name = "STATE_878"
+	manpower = 1401000
+
+	state_category = large_town
+
+	history = {
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = CHI
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1034 1531 4074 10367 10507 12300 
+	}
+}

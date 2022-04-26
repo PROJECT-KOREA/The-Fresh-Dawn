@@ -48,8 +48,8 @@ set_popularities = {
 	democratic = 2 #?
 	national_conservatism = 2 #?
 	neutrality = 1 #?
-	auto_despotism = 1
-	fascism = 80 #총독부
+	auto_despotism = 80 #
+	fascism = 1 #
 }
 
 #시작 기술

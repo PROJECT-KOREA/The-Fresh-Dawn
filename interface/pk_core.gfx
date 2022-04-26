@@ -35,6 +35,7 @@ bitmapfonts = {
 		d = { 128 64 0 }	#Brown				(National Socialism)
 	}
 
+	#맵 폰트 덮어쓰기
 	bitmapfont = {
 		name = "tahoma_60"
 		fontfiles = {
@@ -56,48 +57,7 @@ bitmapfonts = {
 			# H = { 238 203 35 }
 			# T = { 255 255 255 }
 		}
-	}
-	
-	bitmapfont = {
-		name = "hoi_18"
-		fontfiles = {
-			"gfx/fonts/pk_18"
-		}
-		color = 0xffffffff
-	}
-	
-	bitmapfont = {
-		name = "hoi_18b"
-		fontfiles = {
-			"gfx/fonts/pk_18"
-		}
-		color = 0xffffffff
-	}
-	
-	bitmapfont = {
-		name = "hoi_18mbs"
-		fontfiles = {
-			"gfx/fonts/pk_18"
-		}
-		color = 0xffffffff
-	}
-	
-	bitmapfont = {
-		name = "hoi_16mbs"
-		fontfiles = {
-			"gfx/fonts/pk_18"
-		}
-		color = 0xffffffff
-	}
-
-	bitmapfont = {
-		name = "hoi_20bs"
-		fontfiles = {
-			"gfx/fonts/hoi_20bs1"
-		}
-		color = 0xffffffff
-	}
-	
+	}	
 
 	# bitmapfont = {
 	# 	name = "cg_16b"			####### GENERAL TOOLTIP FONT ########

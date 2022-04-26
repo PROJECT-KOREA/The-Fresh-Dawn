@@ -414,11 +414,11 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "spirit_title"
-					position = { x = 0 y = 0 }
+					position = { x = 10 y = 0 }
 					font = "hoi_18mbs"
 					borderSize = {x = 0 y = 0}
 					text = "FE_COUNTRY_SPIRIT"
-					maxWidth = 240
+					maxWidth = 120
 					maxHeight = 30	
 				}
 				

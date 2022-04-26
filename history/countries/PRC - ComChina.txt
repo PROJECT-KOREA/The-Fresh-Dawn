@@ -1,4 +1,4 @@
-﻿capital = 858
+﻿capital = 622
 
 oob = "PRC_1936"
 

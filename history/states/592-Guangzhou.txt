@@ -6,13 +6,15 @@ state = {
 	state_category = city
 
 	history = {
-		owner = GUD
-		add_core_of = GUD
+		# owner = GUD
+		# add_core_of = GUD
+		owner = GXC
+		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC
 		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			arms_factory = 2
 			industrial_complex = 2
 			air_base = 3
@@ -29,9 +31,9 @@ state = {
 	}
 
 	resources = {
-		tungsten = 8 # was: 10
-		steel = 15 # was: 20
-		chromium = 3 # was: 4
+		tungsten = 9
+		steel = 17
+		chromium = 4
 	}
 
 	provinces = {

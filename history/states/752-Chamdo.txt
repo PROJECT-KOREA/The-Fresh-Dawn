@@ -6,12 +6,13 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = XIK
-		add_core_of = XIK
-		add_core_of = SIC
+		# owner = XIK
+		# add_core_of = XIK
+		# add_core_of = SIC
+		owner = CHI
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
 		}

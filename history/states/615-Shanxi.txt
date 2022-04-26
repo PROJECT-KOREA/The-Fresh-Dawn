@@ -1,27 +1,30 @@
 state = {
 	id = 615
 	name = "STATE_615"
+	manpower = 7201000
+
+	state_category = city
 
 	history = {
 		owner = SHX
 		add_core_of = SHX
 		add_core_of = CHI
-		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+		}
 		victory_points = {
 			1519 3 
 		}
-		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
+	}
 
-		}
+	resources = {
+		steel = 5
 	}
 
 	provinces = {
-		1027 1203 1438 1519 1531 4074 4174 4469 4538 10367 10507 12078 12300 12344 
+		1027 1203 1438 1519 4174 4469 4538 12078 12344 
 	}
-	manpower = 11601000
-	buildings_max_level_factor = 1.000
-	state_category = town
 }

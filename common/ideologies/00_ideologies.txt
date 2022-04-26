@@ -281,7 +281,7 @@ ideologies = {
 
 		types = {
 			lib_conservatism = {} #자유보수주의
-			centrism = { #중도주의
+			libcon_centrism = { #중도주의
 				can_be_randomly_selected = no
 			}
 			christian_democracy = { #기독교 민주주의
@@ -415,11 +415,13 @@ ideologies = {
 	neutrality = {
 	
 		types = {
+			despotism = {} #권위주의(바닐라 전제주의)
 			authoritarian = {} #권위주의
 			military_dic = {} #군정
 			oligarchism = {} #과두제
 			colonial_gov = {} #식민지
 			moderatism = {} #온건주의 (바닐라)
+			centrism = {} #중도주의 (바닐라 - 권위주의로 대체)
 		}
 
 		dynamic_faction_names = {
@@ -466,7 +468,7 @@ ideologies = {
 	auto_despotism = {
 	
 		types = {
-			despotism = {} #전제독재주의
+			aut_despotism = {} #전제독재주의
 			statism = {} #국가주의
 			semi_constitutional = { #외견적 입헌군주제
 				can_be_randomly_selected = no 

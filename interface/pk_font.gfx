@@ -13,10 +13,6 @@ bitmapfonts = {
 		}
 		bitmapfont = {
 			name = "pk_20"
-			# fontfiles = {
-			# 	"gfx/fonts/aldrich_20"
-			# 	"gfx/fonts/gm_16_105"
-			# }
 			path = "gfx/fonts/pk_20"
 			color = 0xffffffff
 		}
@@ -25,9 +21,66 @@ bitmapfonts = {
 			path = "gfx/fonts/pk_20"
 			color = 0xff000000
 		}
+		# bitmapfont = {
+		# 	name = "pk_20bs"
+		# 	fontfiles = {
+		# 		"gfx/fonts/ald_20"
+		# 		"gfx/fonts/gm_16"
+		# 	}
+		# 	color = 0xffffffff
+		# }
+		bitmapfont = {
+			name = "pk_22"
+			path = "gfx/fonts/pk_22"
+			color = 0xffffffff
+		}
 		bitmapfont = {
 			name = "pk_36"
 			path = "gfx/fonts/pk_36"
+			color = 0xffffffff
+		}
+	#
+
+	# PK 폰트 덮어쓰기 #
+		bitmapfont = {
+			name = "hoi_16mbs"
+			fontfiles = { "gfx/fonts/pk_18" }
+			color = 0xffffffff
+		}
+
+		bitmapfont = {
+			name = "hoi_18"
+			fontfiles = { "gfx/fonts/pk_18" }
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_18b"
+			fontfiles = { "gfx/fonts/pk_18" }
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_18mbs"
+			fontfiles = { "gfx/fonts/pk_18" }
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_20b"
+			fontfiles = { "gfx/fonts/pk_20" }
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_20bs"
+			path = "gfx/fonts/hoi_20bs1"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_24header"
+			path = "gfx/fonts/aldrich_24_outline"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_36header"
+			path = "gfx/fonts/aldrich_36_outline"
 			color = 0xffffffff
 		}
 	#
@@ -53,78 +106,5 @@ bitmapfonts = {
 			path = "gfx/fonts/nnmj_i_27"
 			color = 0xff000000
 		}
-	#
-
-	# 에스코어 #
-		# bitmapfont = {
-		# 	name = "escore_17"
-		# 	path = "gfx/fonts/escore_17"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_18"
-		# 	path = "gfx/fonts/escore_18"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_19"
-		# 	path = "gfx/fonts/escore_19"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_20"
-		# 	path = "gfx/fonts/escore_20"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_22"
-		# 	path = "gfx/fonts/escore_22"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_24"
-		# 	path = "gfx/fonts/escore_24"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_26"
-		# 	path = "gfx/fonts/escore_26"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_28"
-		# 	path = "gfx/fonts/escore_28"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_30"
-		# 	path = "gfx/fonts/escore_30"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_32"
-		# 	path = "gfx/fonts/escore_32"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_34"
-		# 	path = "gfx/fonts/escore_34"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_36"
-		# 	path = "gfx/fonts/escore_36"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_38"
-		# 	path = "gfx/fonts/escore_38"
-		# 	color = 0xffffffff
-		# }
-		# bitmapfont = {
-		# 	name = "escore_40"
-		# 	path = "gfx/fonts/escore_40"
-		# 	color = 0xffffffff
-		# }
 	#
 }

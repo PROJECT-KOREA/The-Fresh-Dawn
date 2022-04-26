@@ -10,12 +10,18 @@ state = {
 		# add_core_of = NEA
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
+		}
+		victory_points = {
+			517 2
+		}
+		victory_points = {
+			12156 1
 		}
 	}
 
 	provinces = {
-		5007 10733 12156 
+		517 1647 5007 12156 
 	}
 }

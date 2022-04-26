@@ -24,6 +24,8 @@ set_popularities = {
 	auto_despotism = 100
 }
 
+recruit_character = CHI_Liu_Wenhui
+
 # create_country_leader = {
 # 	name = "Liu Wenhui"
 # 	desc = "POLITICS_LIU_WENHUI_DESC"
