@@ -24,10 +24,10 @@ state = {
 			air_base = 1
 
 			#해군기지
-			13251 = { naval_base = 1 } #포항
+			13251 = { naval_base = 1 } #포항(영일)
 		}
 		victory_points = { 4086 7 } #대구(타이큐)
-		victory_points = { 13251 2 } #포항
+		victory_points = { 13251 2 } #영일(케이지츠) → 포항
 	}
 
 	resources = { steel = 12 }

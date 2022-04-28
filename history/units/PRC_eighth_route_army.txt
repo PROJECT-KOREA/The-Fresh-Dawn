@@ -1,0 +1,147 @@
+﻿division_template = {
+	name = "Renmin Jundui"
+	#division_names_group = PRC_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	#priority = 1
+}
+division_template = {
+	name = "Juntuán"
+	#division_names_group = PRC_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+	}
+	#priority = 1
+}
+division_template = {
+	name = "Minbing Tuán"
+	#division_names_group = PRC_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	#priority = 0
+}
+### OOB ###
+units = {
+	## 18GA-朱德 ##
+	# 115D #
+	division = { # "115D343B"
+		name = "Di 115 Shi Di 343 Lu"
+		location = 12356 #陕西延安
+		division_template = "Renmin Jundui"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "115D344B"
+		name = "Di 115 Shi Di 344 Lu"
+		location = 12356 #陕西延安
+		division_template = "Renmin Jundui"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "120D358B"
+		name = "Di 120 Shi Di 358 Lu"
+		location = 12356 #陕西延安
+		division_template = "Renmin Jundui"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "120D359B"
+		name = "Di 120 Shi Di 359 Lu"
+		location = 12356 #陕西延安
+		division_template = "Renmin Jundui"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "129D385B"
+		name = "Di 129 Shi Di 385 Lu"
+		location = 12356 #陕西延安
+		division_template = "Renmin Jundui"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "129D386B"
+		name = "Di 129 Shi Di 386 Lu"
+		location = 12356 #陕西延安
+		division_template = "Renmin Jundui"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	## 其他 ##
+	# 留守兵团 #
+	division = { # "G1R"
+		name = "Bianqu Jingbei Di 1 Tuan"
+		location = 12356 #陕西延安
+		division_template = "Minbing Tuán"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "G2R"
+		name = "Bianqu Jingbei Di 2 Tuan"
+		location = 12356 #陕西延安
+		division_template = "Minbing Tuán"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "G3R"
+		name = "Bianqu Jingbei Di 3 Tuan"
+		location = 12356 #陕西延安
+		division_template = "Minbing Tuán"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "G4R"
+		name = "Bianqu Jingbei Di 4 Tuan"
+		location = 12356 #陕西延安
+		division_template = "Minbing Tuán"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "G5R"
+		name = "Bianqu Jingbei Di 5 Tuan"
+		location = 12356 #陕西延安
+		division_template = "Minbing Tuán"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "G6R"
+		name = "Bianqu Jingbei Di 6 Tuan"
+		location = 12356 #陕西延安
+		division_template = "Minbing Tuán"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+	division = { # "G7R"
+		name = "Bianqu Jingbei Di 7 Tuan"
+		location = 12356 #陕西延安
+		division_template = "Minbing Tuán"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+		start_manpower_factor = 0.01
+	}
+}

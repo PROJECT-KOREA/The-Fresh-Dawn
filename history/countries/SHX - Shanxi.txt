@@ -32,6 +32,8 @@ add_ideas = {
 	CHI_ineffective_bureaucracy_warlord
 }
 
+give_military_access = CHI
+
 set_politics = {
 	ruling_party = auto_despotism
 	last_election = "1936.1.1"

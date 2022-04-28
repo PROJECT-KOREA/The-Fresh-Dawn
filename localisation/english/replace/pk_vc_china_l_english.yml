@@ -1,18 +1,103 @@
 ﻿l_english:
- #베이핑
- VICTORY_POINTS_9843:0 "베이핑"
-
- #동허베이
- VICTORY_POINTS_11822:0 "퉁저우"
 
  #동차하르
  VICTORY_POINTS_4495:0 "둬룬"
 
+ #우란차부
+ VICTORY_POINTS_4525:0 "바이링먀오"
+
+ #쑤이위안
+ VICTORY_POINTS_10629:0 "바얀누르"
+ VICTORY_POINTS_3427:0 "오르도스"
+ VICTORY_POINTS_7631:0 "구이쑤이"
+
+ #동허베이
+ VICTORY_POINTS_11822:0 "퉁저우"
+
+ #남차하얼
+ VICTORY_POINTS_10397:0 "장자커우"
+
+ #베이핑
+ VICTORY_POINTS_9843:0 "베이핑"
+
+ #허베이
+ VICTORY_POINTS_4093:0 "정딩"
+ VICTORY_POINTS_1169:0 "다밍"
+
  #북산시
  VICTORY_POINTS_7158:0 "다퉁"
 
- #시안
+ #옌안
+ VICTORY_POINTS_7208:0 "옌창"
+ VICTORY_POINTS_4939:0 "화츠"
+ VICTORY_POINTS_10880:0 "바오안"
+ VICTORY_POINTS_12356:0 "안딩"
+
+ #셴양
+ VICTORY_POINTS_12156:0 "뤄촨"
+
+ #남산시
  VICTORY_POINTS_7301:0 "시안"
+ 
+ #북허난
+ VICTORY_POINTS_11931:0 "뤄양"
 
  #남허난
  VICTORY_POINTS_7656:0 "카이펑"
+
+ #장쑤
+ VICTORY_POINTS_1029:0 "하이저우"
+
+ #남안후이
+ VICTORY_POINTS_1083:0 "화이닝"
+
+ #서후베이
+ VICTORY_POINTS_4130:0 "사스"
+
+ #저장
+ VICTORY_POINTS_10101:0 "항저우"
+
+ #남후난
+ VICTORY_POINTS_10377:0 "헝양"
+
+ #서후난
+ VICTORY_POINTS_10335:0 "즈장"
+
+ #남허난
+ VICTORY_POINTS_10446:0 "신양"
+
+ #남장시
+ VICTORY_POINTS_7199:0 "지안"
+
+ #북간쑤
+ VICTORY_POINTS_2028:0 "주취안"
+ VICTORY_POINTS_12820:0 "둔황"
+
+ #남간쑤
+ VICTORY_POINTS_12797:0 "바이인"
+ VICTORY_POINTS_2022:0 "란저우"
+
+ #닝샤
+ VICTORY_POINTS_10724:0 "인촨"
+
+ #씨창
+ VICTORY_POINTS_2067:0 "야안"
+ VICTORY_POINTS_7294:0 "씨창"
+
+ #쿤밍
+ VICTORY_POINTS_1172:0 "광난"
+
+ #바이써
+ VICTORY_POINTS_10459:0 "바이써"
+
+ #우저우
+ VICTORY_POINTS_4152:0 "창우"
+
+ #레이저우
+ VICTORY_POINTS_11926:0 "친저우"
+
+ #칭위안
+ VICTORY_POINTS_10080:0 "취장"
+
+ #메이저우
+ VICTORY_POINTS_9938:0 "산터우"

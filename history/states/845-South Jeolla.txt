@@ -15,7 +15,7 @@ state = {
 			infrastructure = 2
 
 			#해군기지
-			10110 = { naval_base = 2 } #목포?
+			13265 = { naval_base = 2 } #목포
 		}
 
 		victory_points = { 13263 7 } #광주(코슈)

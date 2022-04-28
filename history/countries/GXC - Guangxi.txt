@@ -1,5 +1,5 @@
 ﻿#수도
-capital = 594
+capital = 592
 
 #전투서열
 oob = "GXC_1936"

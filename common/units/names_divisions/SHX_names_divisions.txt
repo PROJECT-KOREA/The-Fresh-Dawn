@@ -1,0 +1,153 @@
+﻿# Original by HK HOI4 Modder Ken80 10-10-2020 辛亥革命109周年
+# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+SHX_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { SHX }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SHX_INF_01 }
+
+	fallback_name = "Lujun Di %d Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	   	66 = { "Lujun Di 66 Shi" }      #晉綏軍，（閻錫山部）
+		68 = { "Lujun Di 68 Shi" }      #晉綏軍，（閻錫山部）
+		69 = { "Lujun Di 69 Shi" }      #晉綏軍，（閻錫山部）
+		70 = { "Lujun Di 70 Shi" }      #晉綏軍，（閻錫山部）
+		71 = { "Lujun Di 71 Shi" }      #晉綏軍，（閻錫山部）
+		72 = { "Lujun Di 72 Shi" }      #晉綏軍，（閻錫山部）
+		73 = { "Lujun Di 73 Shi" }      #晉綏軍，（閻錫山部）
+        101 = { "Lujun Di 101 Shi" }      #晉綏軍，（傅作義部）
+	    202 = { "Lujun Xinbian Di 2 Shi" }      #晉綏軍，（閻錫山部），原王英部偽軍
+	    231 = { "Lujun Xinbian Di 31 Shi" }      #晉綏軍，（傅作義部）
+	    232 = { "Lujun Xinbian Di 32 Shi" }      #晉綏軍，（傅作義部）
+	    310 = { "Lujun Zanbian Di 10 Shi" }      #晉綏軍，（傅作義部），偽軍改編
+	    311 = { "Lujun Zanbian Di 11 Shi" }      #晉綏軍，（傅作義部），偽軍改編
+	    317 = { "Lujun Zanbian Di 17 Shi" }      #晉綏軍，（傅作義部）
+	    337 = { "Lujun Zanbian Di 37 Shi" }      #晉綏軍，（閻錫山部）
+	    338 = { "Lujun Zanbian Di 38 Shi" }      #晉綏軍，（閻錫山部）
+	    339 = { "Lujun Zanbian Di 39 Shi" }      #晉綏軍，（閻錫山部）
+	    340 = { "Lujun Zanbian Di 40 Shi" }      #晉綏軍，（閻錫山部）
+	    341 = { "Lujun Zanbian Di 41 Shi" }      #晉綏軍，（閻錫山部）
+	    342 = { "Lujun Zanbian Di 42 Shi" }      #晉綏軍，（閻錫山部）
+	    343 = { "Lujun Zanbian Di 43 Shi" }      #晉綏軍，（閻錫山部）
+	    344 = { "Lujun Zanbian Di 44 Shi" }      #晉綏軍，（閻錫山部）
+	    345 = { "Lujun Zanbian Di 45 Shi" }      #晉綏軍，（閻錫山部）
+	    346 = { "Lujun Zanbian Di 46 Shi" }      #晉綏軍，（閻錫山部）
+	    347 = { "Lujun Zanbian Di 47 Shi" }      #晉綏軍，（閻錫山部）
+	    348 = { "Lujun Zanbian Di 48 Shi" }      #晉綏軍，（閻錫山部）
+	    349 = { "Lujun Zanbian Di 49 Shi" }      #晉綏軍，（閻錫山部）
+	    350 = { "Lujun Zanbian Di 50 Shi" }      #晉綏軍，（閻錫山部）
+	}
+}
+
+SHX_INF_02 = {
+	name = "Garrison Divisions"
+
+	for_countries = { SHX }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SHX_INF_01 }
+
+	fallback_name = "Duli Di %d Lü"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Duli Di 1 Lü" }      #晉綏軍，（閻錫山部）
+		2 = { "Duli Di 2 Lü" }      #晉綏軍，（閻錫山部）		 
+		3 = { "Duli Di 3 Lü" }      #晉綏軍，（閻錫山部）
+		7 = { "Duli Di 7 Lü" }      #晉綏軍，（閻錫山部）
+		8 = { "Duli Di 8 Lü" }      #晉綏軍，（閻錫山部）
+	    105 = { "Xinbian Duli Di 5 Lü" }      #晉綏軍，（閻錫山部）收編的偽軍
+	    106 = { "Xinbian Duli Di 6 Lü" }      #晉綏軍，（閻錫山部）收編的偽軍
+	}
+}
+
+SHX_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { SHX }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SHX_INF_01 }
+
+	fallback_name = "Lujun Qibing Di %d Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Lujun Qibing Di %d Shi" }			#晉綏軍，（閻錫山部）
+		2 = { "Lujun Qibing Di %d Shi" }			#晉綏軍，（閻錫山部）
+		103 = { "Lujun Xinbian Qibing Di 3 Shi" }	#晉綏軍，（傅作義部）/馬占山收編的偽滿軍/
+		104 = { "Lujun Xinbian Qibing Di 4 Shi" }	#晉綏軍，（傅作義部）/馬占山收編的偽滿軍/
+		4 = { "Lujun Qibing Di %d Shi" }			#西北軍，（宋哲元部）/晉綏軍，（閻錫山部）
+	}
+}
+
+SHX_CAV_02 = {
+	name = "Qibing Lü"
+
+	for_countries = { SHX }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SHX_INF_01 }
+
+	fallback_name = "Xinbian Qibing Di %d Lü"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	    302 = { "Xinbian Qibing Di 2 Lü" }      #晉綏軍，（閻錫山部）收編的偽軍	
+	}
+}

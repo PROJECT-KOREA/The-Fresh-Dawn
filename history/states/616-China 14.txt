@@ -1,9 +1,9 @@
 state = {
 	id = 616
 	name = "STATE_616"
-	manpower = 1274600
+	manpower = 1705400
 	
-	state_category = pastoral
+	state_category = town
 
 	history = {
 		# owner = NXM
@@ -11,15 +11,19 @@ state = {
 		owner = XSM
 		add_core_of = XSM
 		add_core_of = CHI
-		add_core_of = PRC
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+			arms_factory = 1
 		}
+
+		victory_points = { 2028 3 }
+		victory_points = { 12820 1 }
 	}
 
 	resources = {
-		steel = 2
+		oil = 2
 	}
 
 	provinces = {

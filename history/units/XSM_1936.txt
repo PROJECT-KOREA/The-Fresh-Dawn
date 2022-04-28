@@ -1,0 +1,451 @@
+﻿division_template = {
+	name = "Lujun Shi"			
+	division_names_group = XSM_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Tiaozheng Shi"			
+	division_names_group = XSM_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+	}
+}
+
+division_template = {
+	name = "Zhengli Shi"			
+	division_names_group = XSM_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 } 
+	}
+}
+
+division_template = {
+	name = "Qibing Shi"	
+	division_names_group = XSM_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 3 y = 0 }
+		cavalry = { x = 3 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Duli Lü"	
+	division_names_group = CHI_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Duli Qibing Lü"	
+	division_names_group = CHI_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "100. Shi Ti-i Lü"
+		location = 12732
+		division_template = "Duli Qibing Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "100. Shi Ti-erh Lü"
+		location = 12732
+		division_template = "Duli Qibing Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "100. Shi Ti-san Lü"
+		location = 12732
+		division_template = "Duli Qibing Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Lujun Ti 5 Qibing Shi"
+		location = 12732
+		division_template = "Qibing Shi"
+		start_equipment_factor = 0.2
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 4964
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12732
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12899
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 7727
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 1778
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12596
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 8102
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 5057
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 5100
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 7971
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12890
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 8037
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12846
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 10490
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12327
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 7940
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 2053
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 4914
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 10865
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 2099
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12890
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 1882
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 2028
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12820
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 5076
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12820
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 2028
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 7997
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 12815
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 10834
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 8018
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 7270
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 11448
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 4536
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 10750
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 4888
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qinghai Bao-an Dui"
+		location = 10817
+		division_template = "Duli Lü"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.1
+	}
+
+
+	### NXM ###
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 3745
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1. Qibing Lü"
+		location = 3742
+		division_template = "Duli Qibing Lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.45
+
+	}
+	division = {
+		name = "10. Qibing Lü"
+		location = 8081
+		division_template = "Duli Qibing Lü"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.45
+
+	}
+	division = {
+		name = "1. Ningxia Jingbei Lü"
+		location = 10724
+		division_template = "Duli Lü"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.35
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "2. Ningsia Jingbei Lü"
+		location = 10724
+		division_template = "Duli Lü"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.35
+		start_experience_factor = 0.1
+	}
+}
+
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "XSM"
+		}
+		requested_factories = 1
+		progress = 0.74
+		efficiency = 100
+	}
+}

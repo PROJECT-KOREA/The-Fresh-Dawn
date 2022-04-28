@@ -1,0 +1,960 @@
+﻿CHI_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { CHI }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+
+	fallback_name = "Lujun Di %d Shi"
+
+	ordered = {
+		1 = { "Lujun Di %d Shi" }				#嫡系，（胡宗南系）			
+		2 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系）
+		3 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系）
+		4 = { "Lujun Di %d Shi" }				#嫡系，（湯恩伯系）
+		5 = { "Lujun Di %d Shi" }				#旁系，（原周渾元贛軍）/嫡系，（陳誠系）
+		6 = { "Lujun Di %d Shi" }				#旁系，（周碞浙軍）/嫡系，（陳誠系）
+		7 = { "Lujun Di %d Shi" }				#旁系，（曾萬鐘滇軍）/嫡系，（胡宗南系）
+		8 = { "Lujun Di %d Shi" }				#旁系，（陶峙岳湘軍）/嫡系，（胡宗南系）
+		9 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系）
+		10 = { "Lujun Di %d Shi" }				#嫡系，（衛立煌系）
+		11 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系）
+		12 = { "Lujun Di %d Shi" }				#旁系，（曾萬鐘滇軍）/嫡系，（胡宗南系）
+		13 = { "Lujun Di %d Shi" }				#旁系，（原夏斗寅鄂軍）/嫡系，（陳誠系）
+		14 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系）
+		15 = { "Lujun Di %d Shi" }				#旁系，（原何鍵湘軍）
+		16 = { "Lujun Di %d Shi" }				#旁系，（原何鍵湘軍）/嫡系，（陳誠系）
+		17 = { "Lujun Di %d Shi" }				#旁系，（楊虎城陜軍）
+		18 = { "Lujun Di %d Shi" }				#旁系，（原譚延闓湘軍）/嫡系，（陳誠系）
+		19 = { "Lujun Di %d Shi" }				#旁系，（原何鍵系湘軍）
+		20 = { "Lujun Di %d Shi" }				#西北軍，（韓復榘部）/嫡系，（湯恩伯系）
+		21 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系）
+		#22 = { "Lujun Di %d Shi" }				#西北軍，（韓復榘部）
+		23 = { "Lujun Di %d Shi" }				#旁系，（原李雲傑湘軍）/嫡系，（湯恩伯系）
+		24 = { "Lujun Di %d Shi" }				#旁系，（原許克祥湘軍）/嫡系，（胡宗南系）/（湯恩伯系）
+		25 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系）
+		26 = { "Lujun Di %d Shi" }				#旁系，（郭汝棟川軍）/嫡系，（何應欽系）/（顧祝同系）
+		27 = { "Lujun Di %d Shi" }				#旁系，（孫連仲西北軍）
+		28 = { "Lujun Di %d Shi" }				#嫡系，（胡宗南系），原公秉藩陜軍
+		#29 = { "Lujun Di %d Shi" }				#西北軍，（韓復榘部）
+		30 = { "Lujun Di %d Shi" }				#旁系，（孫連仲西北軍）
+		31 = { "Lujun Di %d Shi" }				#旁系，（孫連仲西北軍）
+		32 = { "Lujun Di %d Shi" }				#旁系，（原粱冠英西北軍）
+		33 = { "Lujun Di %d Shi" }				#旁系，（孫連仲西北軍）/嫡系，（何應欽系）/（湯恩伯系）
+		34 = { "Lujun Di %d Shi" }				#旁系，（原岳維峻陜軍）/嫡系，（康澤別動隊改編）
+		#35 = { "Lujun Di %d Shi" }				#寧夏回軍，（馬鴻逵部）
+		36 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系）
+		#37 = { "Lujun Di %d Shi" }				#西北軍，（宋哲元部）
+		#38 = { "Lujun Di %d Shi" }				#西北軍，（宋哲元部）
+		39 = { "Lujun Di %d Shi" }				#旁系，（龐炳勛西北軍）原孫岳國民軍
+		40 = { "Lujun Di %d Shi" }				#旁系，（原為鄂軍）/嫡系，宋子文稅警團改編
+		41 = { "Lujun Di %d Shi" }				#旁系，（原張宗昌直魯聯軍）
+		42 = { "Lujun Di %d Shi" }				#旁系，（楊虎城陜軍（/嫡系，（胡宗南系）
+		43 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），原孫傳芳系五省聯軍
+		44 = { "Lujun Di %d Shi" }				#旁系，（原方振武西北軍）
+		45 = { "Lujun Di %d Shi" }				#旁系，（原任應岐舊部），河南土匪部隊/嫡系，（胡宗南系）
+		46 = { "Lujun Di %d Shi" }				#旁系，（原譚延闓湘軍）/嫡系，（胡宗南系）
+		47 = { "Lujun Di %d Shi" }				#嫡系，（原孫傳芳五省聯軍）
+		48 = { "Lujun Di %d Shi" }				#旁系，（原張宗昌直魯聯軍）/嫡系，（胡宗南系）/何應欽系
+		49 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），原十九路軍改編
+		50 = { "Lujun Di %d Shi" }				#旁系，（原譚廷闿湘軍）/嫡系，（陳誠系）
+		51 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），原範石生滇軍
+		52 = { "Lujun Di %d Shi" }				#旁系，（福建地方部隊）/嫡系，（顧祝同系）
+		53 = { "Lujun Di %d Shi" }				#旁系，（原譚延闓湘軍）/嫡系，（胡宗南系）
+		54 = { "Lujun Di %d Shi" }				#旁系，（原郭松齡東北軍）/嫡系，（湯恩伯系）
+		55 = { "Lujun Di %d Shi" }				#旁系，（原孫傳芳五省聯軍）/嫡系，（陳誠系）
+		56 = { "Lujun Di %d Shi" }				#旁系，（馬祥斌皖軍、吳新田北洋軍）
+		57 = { "Lujun Di %d Shi" }				#旁系，（原孫傳芳五省聯軍）/嫡系，（何應欽系）
+		58 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），由國民政府警衛 Lü編成
+		59 = { "Lujun Di %d Shi" }				#旁系，（張發奎粵軍）
+		60 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），由十九路軍改編
+		61 = { "Lujun Di %d Shi" }				#嫡系，（胡宗南系），由十九路軍改編
+		62 = { "Lujun Di %d Shi" }				#旁系，（原何鍵湘軍）
+		63 = { "Lujun Di %d Shi" }				#旁系，（原何鍵湘軍）/嫡系，（顧祝同系）
+		64 = { "Lujun Di %d Shi" }				#旁系，（劉鎮華鎮嵩軍）
+		65 = { "Lujun Di %d Shi" }				#旁系，（劉鎮華鎮嵩軍）
+		#66 = { "Lujun Di %d Shi" }				#晉綏軍，（閻錫山部）
+		67 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系）
+		#68 = { "Lujun Di %d Shi" }				#晉綏軍，（閻錫山部）
+		#69 = { "Lujun Di %d Shi" }				#晉綏軍，（閻錫山部）
+		#70 = { "Lujun Di %d Shi" }				#晉綏軍，（閻錫山部）
+		#71 = { "Lujun Di %d Shi" }				#晉綏軍，（閻錫山部）
+		#72 = { "Lujun Di %d Shi" }				#晉綏軍，（閻錫山部）
+		#73 = { "Lujun Di %d Shi" }				#晉綏軍，（閻錫山部）
+		#74 = { "Lujun Di %d Shi" }				#西北軍，（韓復榘部）
+		75 = { "Lujun Di %d Shi" }				#旁系，（原樊鐘秀、萬選才豫軍）/嫡系，（顧祝同系）
+		76 = { "Lujun Di %d Shi" }				#旁系，（原樊鐘秀、萬選才豫軍）
+		77 = { "Lujun Di %d Shi" }				#旁系，（原唐生智湘軍）/嫡系，（何應欽系）
+		78 = { "Lujun Di %d Shi" }				#嫡系，（胡宗南系）由十九路軍改編，/嫡系，（何應欽系）
+		79 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），原鄧英陜軍/嫡系，（顧祝同系）
+		80 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），原方鼎英 Di 十師改編
+		#81 = { "Lujun Di %d Shi" }				#西北軍，（韓復榘部）
+		82 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），湖北保安 Lü和川軍合並
+		83 = { "Lujun Di %d Shi" }				#嫡系，（衛立煌系），由國民政府警衛 Lü改編
+		84 = { "Lujun Di %d Shi" }				#旁系，（高桂滋陜軍），原胡景翼國民二軍
+		85 = { "Lujun Di %d Shi" }				#嫡系，（衛立煌系）
+		86 = { "Lujun Di %d Shi" }				#旁系，（高雙成陜軍），原井岳秀國民三軍
+		87 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），原德國顧問訓練的教1師壹個 Lü
+		88 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），原德國顧問訓練的教1師壹個 Lü
+		89 = { "Lujun Di %d Shi" }				#嫡系，（湯恩伯系），原德國顧問訓練的教3師
+		90 = { "Lujun Di %d Shi" }				#旁系，（張發奎粵軍）
+		#91 = { "Lujun Di %d Shi" }				#東北軍，（張學良部）原張作相部/嫡系，（湯恩伯系）
+		92 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），由獨32 Lü擴編
+		93 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），由獨32 Lü擴編
+		94 = { "Lujun Di %d Shi" }				#嫡系，（衛立煌系），由湖北保安 Lü擴編
+		95 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），由河南保安 Lü擴編
+		96 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），原賴世璜贛軍
+		97 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），原孫傳芳五省聯軍/嫡系，（何應欽系）
+		98 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），原陳誠五十九 Lü
+		99 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），由52、59師被殲後重建
+		#100 = { "Lujun Di %d Shi" }			#青海回軍，（馬步芳部）		
+		#101 = { "Lujun Di %d Shi" }			#晉綏軍，（傅作義部）
+		102 = { "Lujun Di %d Shi" }				#旁系，（原王家烈黔軍）/嫡系，（陳誠系）
+		103 = { "Lujun Di %d Shi" }				#旁系，（原王家烈黔軍）/嫡系，（何應欽系）
+		#104 = { "Lujun Di %d Shi" }			#川軍，（李家鈺部）
+		#105 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#106 = { "Lujun Di %d Shi" }			#張學良系，由石友三殘部收編/}旁系，（龐炳勛西北軍）
+		#107 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#108 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#109 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）/嫡系，（胡宗南系）
+		#110 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）/嫡系，（湯恩伯系）
+		#111 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#112 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#113 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#114 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#115 = { "Lujun Di %d Shi" }			#Bālù-Jūn ，（林彪部）原番號張學良東北軍
+		#116 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#117 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）/嫡系，（顧祝同系）
+		118 = { "Lujun Di %d Shi" }				#旁系，（東北軍舊部）七·七"事變後冀東起義的/嫡系，（陳誠系）
+		#119 = { "Lujun Di %d Shi" }			#西北軍，（宋哲元部）原張學良東北軍
+		#120 = { "Lujun Di %d Shi" }			#Bālù-Jūn ，（劉伯承部）原番號張學良東北軍
+		121 = { "Lujun Di %d Shi" }				#旁系，（原王家烈黔軍）/嫡系，（陳誠系）
+		#122 = { "Lujun Di %d Shi" }			#川軍，（孫震部）
+		#123 = { "Lujun Di %d Shi" }			#川軍，（孫震部）
+		#124 = { "Lujun Di %d Shi" }			#川軍，（孫震部）
+		#125 = { "Lujun Di %d Shi" }			#川軍，（鄧錫侯部）
+		#126 = { "Lujun Di %d Shi" }			#川軍，（鄧錫侯部）
+		#127 = { "Lujun Di %d Shi" }			#川軍，（鄧錫侯部）
+		#128 = { "Lujun Di %d Shi" }			#川軍，（鄧錫侯部）/嫡系，（胡宗南系）新疆部隊
+		#129 = { "Lujun Di %d Shi" }			#Bālù-Jūn ，（賀龍部）原番號張學良東北軍
+		#130 = { "Lujun Di %d Shi" }			#東北軍，（張學良部）
+		#131 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）原番號川軍鄧錫侯部
+		#132 = { "Lujun Di %d Shi" }			#西北軍，（宋哲元部）
+		#133 = { "Lujun Di %d Shi" }			#川軍，（楊森部）
+		#134 = { "Lujun Di %d Shi" }			#川軍，（楊森部）
+		#135 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）原番號川軍楊森部
+		#136 = { "Lujun Di %d Shi" }			#川康軍，（劉文輝部）
+		#137 = { "Lujun Di %d Shi" }			#川康軍，（劉文輝部）
+		#138 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）原番號川康軍劉文輝部
+		139 = { "Lujun Di %d Shi" }				#旁系，（晉綏軍商震部）
+		140 = { "Lujun Di %d Shi" }				#旁系，（原王家烈黔軍）/嫡系，（何應欽系）
+		141 = { "Lujun Di %d Shi" }				#旁系，（晉綏軍商震部）
+		142 = { "Lujun Di %d Shi" }				#旁系，（晉綏軍商震部）
+		#143 = { "Lujun Di %d Shi" }			#西北軍，（宋哲元部）
+		#144 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#145 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#146 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#147 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#148 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#149 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#150 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#151 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#152 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#153 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#154 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#155 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#156 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#157 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#158 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#159 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#160 = { "Lujun Di %d Shi" }			#粵軍，（陳濟棠部）
+		#161 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#162 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#163 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		#164 = { "Lujun Di %d Shi" }			#川軍，（劉湘部）
+		165 = { "Lujun Di %d Shi" }				#旁系，（原甘肅孔繁錦部）/嫡系，（胡宗南系）
+		166 = { "Lujun Di %d Shi" }				#旁系，（原樊鐘秀、萬選才豫軍）/嫡系，（胡宗南系）
+		167 = { "Lujun Di %d Shi" }				#旁系，（楊虎城系陜軍）/嫡系，（胡宗南系）
+		#168 = { "Lujun Di %d Shi" }			#寧夏回軍，（馬鴻逵部）
+		169 = { "Lujun Di %d Shi" }				#旁系，（楊虎城陜軍）/嫡系，（湯恩伯系）
+		#170 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		#171 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		#172 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		#173 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		#174 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		#175 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		#176 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		177 = { "Lujun Di %d Shi" }				#旁系，（楊虎城陜軍）
+		#178 = { "Lujun Di %d Shi" }			#川軍，（李家鈺部）
+		#179 = { "Lujun Di %d Shi" }			#西北軍，（宋哲元部）
+		#180 = { "Lujun Di %d Shi" }			#西北軍，（宋哲元部）
+		#181 = { "Lujun Di %d Shi" }			#西北軍，（宋哲元部）
+		#182 = { "Lujun Di %d Shi" }			#滇軍，（龍雲部）
+		#183 = { "Lujun Di %d Shi" }			#滇軍，（龍雲部）
+		#184 = { "Lujun Di %d Shi" }			#滇軍，（龍雲部）
+		185 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），並吞葉蓬武漢警備 Lü而成
+		#186 = { "Lujun Di %d Shi" }			#粵軍，（余漢謀部）
+		#187 = { "Lujun Di %d Shi" }			#粵軍，（余漢謀部）
+		#188 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		#189 = { "Lujun Di %d Shi" }			#桂軍，（李宗仁部）
+		190 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系）
+		191 = { "Lujun Di %d Shi" }				#嫡系，（胡宗南系），原 Di 一師 Duli Lü
+		192 = { "Lujun Di %d Shi" }				#旁系，（原何鍵湘軍）
+		193 = { "Lujun Di %d Shi" }				#旁系，（原四川小軍閥）/嫡系，（湯恩伯系）/何應欽系
+		194 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），由熊式輝江西保安師改編
+		195 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），由關麟征二十五師改編
+		196 = { "Lujun Di %d Shi" }				#嫡系，（胡宗南系）
+		197 = { "Lujun Di %d Shi" }				#嫡系，（陳誠系），由軍統湖北緝私部隊改編
+		198 = { "Lujun Di %d Shi" }				#旁系，（原何鍵湘軍）/嫡系，（陳誠系）
+		199 = { "Lujun Di %d Shi" }				#旁系，（原何鍵湘軍）/嫡系，（陳誠系）
+		200 = { "Lujun Di %d Shi" }				#嫡系，（何應欽系），機械化部隊
+		201 = { "Lujun Xinbian Di 1 Shi" }		#嫡系，（湯恩伯系） 
+		#202 = { "Lujun Xinbian Di 2 Shi" }		#晉綏軍，（閻錫山部），原王英部偽軍
+		203 = { "Lujun Xinbian Di 3 Shi" }		#嫡系，（胡宗南系），原蒙古部偽軍
+		#204 = { "Lujun Xinbian Di 4 Shi" }		#西北軍，（韓復榘部）/嫡系，胡宗南
+		205 = { "Lujun Xinbian Di 5 Shi" }		#
+		#206 = { "Lujun Xinbian Di 6 Shi" }		#西北軍，（宋哲元部）
+		#207 = { "Lujun Xinbian Di 7 Shi" }		#川軍，（劉湘部）
+		#208 = { "Lujun Xinbian Di 8 Shi" }		#川軍，（劉湘部）/嫡系
+		#209 = { "Lujun Xinbian Di 9 Shi" }		#川軍，（鄧錫侯部）
+		#210 = { "Lujun Xinbian Di 10 Shi" }	#滇軍，（龍雲部）
+		#211 = { "Lujun Xinbian Di 11 Shi" }	#滇軍，（龍雲部）
+		#212 = { "Lujun Xinbian Di 12 Shi" }	#滇軍，（龍雲部）
+		#213 = { "Lujun Xinbian Di 13 Shi" }	#川軍，（劉湘部）
+		#214 = { "Lujun Xinbian Di 14 Shi" }	#川軍，（劉湘部）
+		#215 = { "Lujun Xinbian Di 15 Shi" }	#川軍，（劉湘部）
+		#216 = { "Lujun Xinbian Di 16 Shi" }	#川軍，（劉湘部）
+		#217 = { "Lujun Xinbian Di 17 Shi" }	#川軍，（劉湘部）
+		#218 = { "Lujun Xinbian Di 18 Shi" }	#川軍，（劉湘部）
+		#219 = { "Lujun Xinbian Di 19 Shi" }	#桂軍，（李宗仁部）
+		220 = { "Lujun Xinbian Di 20 Shi" }		#嫡系，（原王英部偽軍）
+		#221 = { "Lujun Xinbian Di 21 Shi" }	#川軍，（劉湘部）
+		222 = { "Lujun Xinbian Di 22 Shi" }		#嫡系，（何應欽系），機械化師/美械師
+		223 = { "Lujun Xinbian Di 23 Shi" }		#嫡系，（陳誠系）
+		224 = { "Lujun Xinbian Di 24 Shi" }		#嫡系，（胡宗南系），原張學良系東北軍騎四師改編
+		#225 = { "Lujun Xinbian Di 25 Shi" }	#川軍，（劉湘部）
+		226 = { "Lujun Xinbian Di 26 Shi" }		#嫡系，（胡宗南系）
+		227 = { "Lujun Xinbian Di 27 Shi" }		#嫡系，（胡宗南系），原甘肅部隊/范紹增袍哥部隊
+		228 = { "Lujun Xinbian Di 28 Shi" }		#嫡系，（軍統部康澤別動隊改編）
+		229 = { "Lujun Xinbian Di 29 Shi" }		#嫡系，（軍統部康澤別動隊改編）
+		230 = { "Lujun Xinbian Di 30 Shi" }		#嫡系，（原王英部偽軍）/美械師
+		#231 = { "Lujun Xinbian Di 31 Shi" }	#晉綏軍，（傅作義部）
+		#232 = { "Lujun Xinbian Di 32 Shi" }	#晉綏軍，（傅作義部）
+		233 = { "Lujun Xinbian Di 33 Shi" }		#嫡系，（顧祝同系）/何應欽系
+		234 = { "Lujun Xinbian Di 34 Shi" }		#旁系，（陳榘珍湘西部隊）/嫡系，（胡宗南系）
+		235 = { "Lujun Xinbian Di 35 Shi" }		#旁系，（楊虎城陜軍）
+	    236 = { "Lujun Xinbian Di 36 Shi" }		#旁系，（沈鴻烈收編的偽軍/魯南劉桂堂殘部）
+		237 = { "Lujun Xinbian Di 37 Shi" }		#嫡系，（胡宗南系），劉元塘投胡宗南部隊
+		238 = { "Lujun Xinbian Di 38 Shi" }		#嫡系，（宋子文稅警團改編）/美械師
+		239 = { "Lujun Xinbian Di 39 Shi" }		#嫡系，（何應欽系） 
+		240 = { "Lujun Xinbian Di 40 Shi" }		#嫡系，（胡宗南系） 
+		241 = { "Lujun Xinbian Di 41 Shi" }		#
+		242 = { "Lujun Xinbian Di 42 Shi" }		#嫡系，（湯恩伯系） 
+		243 = { "Lujun Xinbian Di 43 Shi" }		#嫡系，（湯恩伯系） 
+		244 = { "Lujun Xinbian Di 44 Shi" }		#嫡系，（湯恩伯系） 
+		245 = { "Lujun Xinbian Di 45 Shi" }		#嫡系，（胡宗南系） 
+	    246 = { "Lujun Xinbian Di 46 Shi" }		#嫡系，（胡宗南系） 
+		#301 = { "Lujun Zanbian Di 1 Shi" }		#川軍，（孫震部）
+		302 = { "Lujun Zanbian Di 2 Shi" }		#嫡系，
+		303 = { "Lujun Zanbian Di 3 Shi" }		#旁系，（胡宗南系）孫殿英土匪部隊/新疆部隊
+		304 = { "Lujun Zanbian Di 4 Shi" }		#旁系，（胡宗南系）孫殿英土匪部隊/
+		305 = { "Lujun Zanbian Di 5 Shi" }		#旁系，（原湘西土匪部隊）/嫡系，（陳誠系）
+		#306 = { "Lujun Zanbian Di 6 Shi" }		#寧夏回軍，（馬鴻逵部）	
+		307 = { "Lujun Zanbian Di 7 Shi" }		#嫡系，（陳誠系）
+		308 = { "Lujun Zanbian Di 8 Shi" }		#嫡系，（陳誠系）	
+		#309 = { "Lujun Zanbian Di 9 Shi" }		#寧夏回軍，（馬鴻逵部）
+		#310 = { "Lujun Zanbian Di 10 Shi" }	#晉綏軍，（傅作義部），偽軍改編
+		#311 = { "Lujun Zanbian Di 11 Shi" }	#晉綏軍，（傅作義部），偽軍改編
+		312 = { "Lujun Zanbian Di 12 Shi" }		#沈鴻烈收編的偽軍
+		313 = { "Lujun Zanbian Di 13 Shi" }		#旁系，河南部隊/嫡系，（顧祝同系）
+		314 = { "Lujun Zanbian Di 14 Shi" }		#嫡系，（湯恩伯系）
+		315 = { "Lujun Zanbian Di 15 Shi" }		#嫡系，（胡宗南系）/川軍，李家鈺系
+		316 = { "Lujun Zanbian Di 16 Shi" }		#嫡系，（湯恩伯系）
+		#317 = { "Lujun Zanbian Di 17 Shi" }	#晉綏軍，（傅作義部）
+		#318 = { "Lujun Zanbian Di 18 Shi" }	#滇軍，（龍雲部）
+		#319 = { "Lujun Zanbian Di 19 Shi" }	#滇軍，（龍雲部）
+		#320 = { "Lujun Zanbian Di 20 Shi" }	#滇軍，（龍雲部）
+		#321 = { "Lujun Zanbian Di 21 Shi" }	#滇軍，（龍雲部）	
+		#322 = { "Lujun Zanbian Di 22 Shi" }	#滇軍，（龍雲部）
+		#323 = { "Lujun Zanbian Di 23 Shi" }	#滇軍，（龍雲部）	
+		324 = { "Lujun Zanbian Di 24 Shi" }		#嫡系，（胡宗南系）
+		325 = { "Lujun Zanbian Di 25 Shi" }		#嫡系，（胡宗南系）
+		326 = { "Lujun Zanbian Di 26 Shi" }		#嫡系，（胡宗南系）		
+		327 = { "Lujun Zanbian Di 27 Shi" }		#
+		#328 = { "Lujun Zanbian Di 28 Shi" }	#西北軍，（宋哲元部）		
+		#329 = { "Lujun Zanbian Di 29 Shi" }	#西北軍，（宋哲元部）
+		330 = { "Lujun Zanbian Di 30 Shi" }		#嫡系，（何應欽系）/胡宗南系
+		#331 = { "Lujun Zanbian Di 31 Shi" }	#寧夏回軍，（馬鴻逵部）
+		332 = { "Lujun Zanbian Di 32 Shi" }		#嫡系，浙江保安隊改編
+		333 = { "Lujun Zanbian Di 33 Shi" }		#嫡系，浙江保安隊改編
+		334 = { "Lujun Zanbian Di 34 Shi" }		#嫡系，浙江保安隊改編
+		335 = { "Lujun Zanbian Di 35 Shi" }		#嫡系，浙江保安隊改編
+		336 = { "Lujun Zanbian Di 36 Shi" }		#西北軍，（宋哲元部）
+		#337 = { "Lujun Zanbian Di 37 Shi" }	#晉綏軍，（閻錫山部）
+		#338 = { "Lujun Zanbian Di 38 Shi" }	#晉綏軍，（閻錫山部）
+		#339 = { "Lujun Zanbian Di 39 Shi" }	#晉綏軍，（閻錫山部）
+		#340 = { "Lujun Zanbian Di 40 Shi" }	#晉綏軍，（閻錫山部）
+		#341 = { "Lujun Zanbian Di 41 Shi" }	#晉綏軍，（閻錫山部）
+		#342 = { "Lujun Zanbian Di 42 Shi" }	#晉綏軍，（閻錫山部）
+		#343 = { "Lujun Zanbian Di 43 Shi" }	#晉綏軍，（閻錫山部）
+		#344 = { "Lujun Zanbian Di 44 Shi" }	#晉綏軍，（閻錫山部）
+		#345 = { "Lujun Zanbian Di 45 Shi" }	#晉綏軍，（閻錫山部）
+		#346 = { "Lujun Zanbian Di 46 Shi" }	#晉綏軍，（閻錫山部）
+		#347 = { "Lujun Zanbian Di 47 Shi" }	#晉綏軍，（閻錫山部）
+		#348 = { "Lujun Zanbian Di 48 Shi" }	#晉綏軍，（閻錫山部）
+		#349 = { "Lujun Zanbian Di 49 Shi" }	#晉綏軍，（閻錫山部）				
+		#350 = { "Lujun Zanbian Di 50 Shi" }	#晉綏軍，（閻錫山部）
+		351 = { "Lujun Zanbian Di 51 Shi" }		#嫡系，（胡宗南系）/陳誠系
+		352 = { "Lujun Zanbian Di 52 Shi" }		#嫡系，（胡宗南系）
+		353 = { "Lujun Zanbian Di 53 Shi" }		#西北軍，（宋哲元部）	
+		354 = { "Lujun Zanbian Di 54 Shi" }		#嫡系，（胡宗南系）收編的中共叛徒
+		355 = { "Lujun Zanbian Di 55 Shi" }		#嫡系，（何應欽系）/胡宗南系	
+		356 = { "Lujun Zanbian Di 56 Shi" }		#嫡系，（湯恩伯系）
+		357 = { "Lujun Zanbian Di 57 Shi" }		#嫡系，（胡宗南系）	
+		358 = { "Lujun Zanbian Di 58 Shi" }		#嫡系，（胡宗南系）
+		359 = { "Lujun Zanbian Di 59 Shi" }		#嫡系，（胡宗南系）			
+		#360 = { "Lujun Zanbian Di 60 Shi" }	#寧夏回軍，（馬鴻逵部）	
+		#361 = { "Lujun Zanbian Di 61 Shi" }	#青海回軍，（馬步芳部）		
+		362 = { "Lujun Zanbian Di 62 Shi" }		#嫡系，（湯恩伯系）
+		363 = { "Lujun Zanbian Di 63 Shi" }		#
+		364 = { "Lujun Zanbian Di 64 Shi" }		#嫡系，
+		365 = { "Lujun Zanbian Di 65 Shi" }		#
+		366 = { "Lujun Zanbian Di 66 Shi" }		#
+		401 = { "Lujun Yüpei Di 1 Shi" }		#嫡系，（胡宗南系）
+		402 = { "Lujun Yüpei Di 2 Shi" }		#嫡系，（胡宗南系）/何應欽系
+		403 = { "Lujun Yüpei Di 3 Shi" }		#嫡系，（胡宗南系）
+		404 = { "Lujun Yüpei Di 4 Shi" }		#嫡系，（陳誠系）
+		405 = { "Lujun Yüpei Di 5 Shi" }		#嫡系，（何應欽系）/顧祝同系
+		#406 = { "Lujun Yüpei Di 6 Shi" }		#粵軍，（余漢謀系部）
+		407 = { "Lujun Yüpei Di 7 Shi" }		#嫡系，（胡宗南系）
+		408 = { "Lujun Yüpei Di 8 Shi" }		#嫡系，（胡宗南系）
+		409 = { "Lujun Yüpei Di 9 Shi" }		#嫡系，（陳誠系）/顧祝同系
+		410 = { "Lujun Yüpei Di 10 Shi" }		#嫡系，（何應欽系）
+		411 = { "Lujun Yüpei Di 11 Shi" }		#嫡系，（湯恩伯系）/何應欽系
+		412 = { "Lujun Yüpei Di 12 Shi" }		#
+		413 = { "Lujun Yüpei Di 13 Shi" }		#
+		#151 = { "Lujun Di 151 Shi" }			#粵軍，（陳濟棠部）
+		#152 = { "Lujun Di 152 Shi" }			#粵軍，（陳濟棠部）
+		#153 = { "Lujun Di 153 Shi" }			#粵軍，（陳濟棠部）
+		#154 = { "Lujun Di 154 Shi" }			#粵軍，（陳濟棠部）
+		#155 = { "Lujun Di 155 Shi" }			#粵軍，（陳濟棠部）
+		#156 = { "Lujun Di 156 Shi" }			#粵軍，（陳濟棠部）
+		#157 = { "Lujun Di 157 Shi" }			#粵軍，（陳濟棠部）
+		#158 = { "Lujun Di 158 Shi" }			#粵軍，（陳濟棠部）
+		#159 = { "Lujun Di 159 Shi" }			#粵軍，（陳濟棠部）
+		#160 = { "Lujun Di 160 Shi" }			#粵軍，（陳濟棠部）
+		#186 = { "Lujun Di 186 Shi" }			#粵軍，（余漢謀部）
+		#187 = { "Lujun Di 187 Shi" }			#粵軍，（余漢謀部）
+		#406 = { "Lujun Yüpei Di 6 Shi" }		#粵軍，（余漢謀部）
+		#91 = { "Lujun Di 91 Shi" }				#東北軍，（張學良部）原張作相部
+      	#105 = { "Lujun Di 105 Shi" }			#東北軍，（張學良部）
+      	#106 = { "Lujun Di 106 Shi" }			#東北軍，（張學良部）
+		#107 = { "Lujun Di 107 Shi" }			#東北軍，（張學良部）
+		#108 = { "Lujun Di 108 Shi" }			#東北軍，（張學良部）
+		#109 = { "Lujun Di 109 Shi" }			#東北軍，（張學良部）
+		#110 = { "Lujun Di 110 Shi" }			#東北軍，（張學良部）
+		#111 = { "Lujun Di 111 Shi" }			#東北軍，（張學良部）
+		#112 = { "Lujun Di 112 Shi" }			#東北軍，（張學良部）
+		#113 = { "Lujun Di 113 Shi" }			#東北軍，（張學良部）
+		#114 = { "Lujun Di 114 Shi" }			#東北軍，（張學良部）
+		#116 = { "Lujun Di 116 Shi" }			#東北軍，（張學良部）
+		#117 = { "Lujun Di 117 Shi" }			#東北軍，（張學良部）
+		#130 = { "Lujun Di 130 Shi" }			#東北軍，（張學良部）
+		#37 = { "Lujun Di 37 Shi" }			#西北軍，（宋哲元部）
+		#38 = { "Lujun Di 38 Shi" }			#西北軍，（宋哲元部）
+		#119 = { "Lujun Di 119 Shi" }			#西北軍，（宋哲元部）
+		#132 = { "Lujun Di 132 Shi" }			#西北軍，（宋哲元部）
+		#143 = { "Lujun Di 143 Shi" }			#西北軍，（宋哲元部）
+		#179 = { "Lujun Di 179 Shi" }			#西北軍，（宋哲元部）
+		#180 = { "Lujun Di 180 Shi" }			#西北軍，（宋哲元部）
+		#181 = { "Lujun Di 181 Shi" }			#西北軍，（宋哲元部）
+		#206 = { "Lujun Xinbian Di 6 Shi" }		#西北軍，（宋哲元部）
+		#328 = { "Lujun Zanbian Di 28 Shi" }	#西北軍，（宋哲元部）
+		#329 = { "Lujun Zanbian Di 29 Shi" }	#西北軍，（宋哲元部）
+		#20 = { "Lujun Di 20 Shi" }				#西北軍，（韓復榘部）
+		#22 = { "Lujun Di 22 Shi" }				#西北軍，（韓復榘部）
+		#29 = { "Lujun Di 29 Shi" }				#西北軍，（韓復榘部）
+		#74 = { "Lujun Di 74 Shi" }				#西北軍，（韓復榘部）
+		#81 = { "Lujun Di 81 Shi" }				#西北軍，（韓復榘部）
+	    #204 = { "Lujun Xinbian Di 4 Shi" }		#西北軍，（韓復榘部）
+	    #104 = { "Lujun Di 104 Shi" }			#川軍，（李家鈺部）
+	    #122 = { "Lujun Di 122 Shi" }			#川軍，（孫震部）
+	    #123 = { "Lujun Di 123 Shi" }			#川軍，（孫震部）
+	    #124 = { "Lujun Di 124 Shi" }			#川軍，（孫震部）
+	    #125 = { "Lujun Di 125 Shi" }			#川軍，（鄧錫侯部）
+	    #126 = { "Lujun Di 126 Shi" }			#川軍，（鄧錫侯部）
+	    #127 = { "Lujun Di 127 Shi" }			#川軍，（鄧錫侯部）
+	    #128 = { "Lujun Di 128 Shi" }			#川軍，（鄧錫侯部）
+	    #133 = { "Lujun Di 133 Shi" }			#川軍，（楊森部）
+	    #134 = { "Lujun Di 134 Shi" }			#川軍，（楊森部）
+	    #144 = { "Lujun Di 144 Shi" }			#川軍，（劉湘部）
+	    #145 = { "Lujun Di 145 Shi" }			#川軍，（劉湘部）
+	    #146 = { "Lujun Di 146 Shi" }			#川軍，（劉湘部）
+	    #147 = { "Lujun Di 147 Shi" }			#川軍，（劉湘部）
+	    #148 = { "Lujun Di 148 Shi" }			#川軍，（劉湘部）
+	    #149 = { "Lujun Di 149 Shi" }			#川軍，（劉湘部）
+	    #150 = { "Lujun Di 150 Shi" }			#川軍，（劉湘部）
+	    #161 = { "Lujun Di 161 Shi" }			#川軍，（劉湘部）
+	    #162 = { "Lujun Di 162 Shi" }			#川軍，（劉湘部）
+	    #163 = { "Lujun Di 163 Shi" }			#川軍，（劉湘部）
+	    #164 = { "Lujun Di 164 Shi" }			#川軍，（劉湘部）
+	    #178 = { "Lujun Di 178 Shi" }			#川軍，（李家鈺部）
+	    #207 = { "Lujun Xinbian Di 7 Shi" }		#川軍，（劉湘部）
+	    #208 = { "Lujun Xinbian Di 8 Shi" }		#川軍，（劉湘部）
+	    #209 = { "Lujun Xinbian Di 9 Shi" }		#川軍，（鄧錫侯部）
+	    #213 = { "Lujun Xinbian Di 13 Shi" }	#川軍，（劉湘部）
+	    #214 = { "Lujun Xinbian Di 14 Shi" }	#川軍，（劉湘部）
+	    #215 = { "Lujun Xinbian Di 15 Shi" }	#川軍，（劉湘部）
+	    #216 = { "Lujun Xinbian Di 16 Shi" }	#川軍，（劉湘部）
+	    #217 = { "Lujun Xinbian Di 17 Shi" }	#川軍，（劉湘部）
+	    #218 = { "Lujun Xinbian Di 18 Shi" }	#川軍，（劉湘部）
+	    #221 = { "Lujun Xinbian Di 21 Shi" }	#川軍，（劉湘部）
+	    #225 = { "Lujun Xinbian Di 25 Shi" }	#川軍，（劉湘部）
+        #301 = { "Lujun Zanbian Di 1 Shi" }	#川軍，（孫震部）
+		#66 = { "Lujun Di 66 Shi" }			#晉綏軍，（閻錫山部）
+		#68 = { "Lujun Di 68 Shi" }			#晉綏軍，（閻錫山部）
+		#69 = { "Lujun Di 69 Shi" }			#晉綏軍，（閻錫山部）
+		#70 = { "Lujun Di 70 Shi" }			#晉綏軍，（閻錫山部）
+		#71 = { "Lujun Di 71 Shi" }			#晉綏軍，（閻錫山部）
+		#72 = { "Lujun Di 72 Shi" }			#晉綏軍，（閻錫山部）
+		#73 = { "Lujun Di 73 Shi" }			#晉綏軍，（閻錫山部）
+        #101 = { "Lujun Di 101 Shi" }			#晉綏軍，（傅作義部）
+	    #202 = { "Lujun Xinbian Di 2 Shi" }		#晉綏軍，（閻錫山部），原王英部偽軍
+	    #231 = { "Lujun Xinbian Di 31 Shi" }	#晉綏軍，（傅作義部）
+	    #232 = { "Lujun Xinbian Di 32 Shi" }	#晉綏軍，（傅作義部）
+	    #310 = { "Lujun Zanbian Di 10 Shi" }	#晉綏軍，（傅作義部），偽軍改編
+	    #311 = { "Lujun Zanbian Di 11 Shi" }	#晉綏軍，（傅作義部），偽軍改編
+	    #317 = { "Lujun Zanbian Di 17 Shi" }	#晉綏軍，（傅作義部）
+	    #337 = { "Lujun Zanbian Di 37 Shi" }	#晉綏軍，（閻錫山部）
+	    #338 = { "Lujun Zanbian Di 38 Shi" }	#晉綏軍，（閻錫山部）
+	    #339 = { "Lujun Zanbian Di 39 Shi" }	#晉綏軍，（閻錫山部）
+	    #340 = { "Lujun Zanbian Di 40 Shi" }	#晉綏軍，（閻錫山部）
+	    #341 = { "Lujun Zanbian Di 41 Shi" }	#晉綏軍，（閻錫山部）
+	    #342 = { "Lujun Zanbian Di 42 Shi" }	#晉綏軍，（閻錫山部）
+	    #343 = { "Lujun Zanbian Di 43 Shi" }	#晉綏軍，（閻錫山部）
+	    #344 = { "Lujun Zanbian Di 44 Shi" }	#晉綏軍，（閻錫山部）
+	    #345 = { "Lujun Zanbian Di 45 Shi" }	#晉綏軍，（閻錫山部）
+	    #346 = { "Lujun Zanbian Di 46 Shi" }	#晉綏軍，（閻錫山部）
+	    #347 = { "Lujun Zanbian Di 47 Shi" }	#晉綏軍，（閻錫山部）
+	    #348 = { "Lujun Zanbian Di 48 Shi" }	#晉綏軍，（閻錫山部）
+	    #349 = { "Lujun Zanbian Di 49 Shi" }	#晉綏軍，（閻錫山部）
+	    #350 = { "Lujun Zanbian Di 50 Shi" }	#晉綏軍，（閻錫山部）
+	    #131 = { "Lujun Di 131 Shi" }			#桂軍，（李宗仁部）
+	    #135 = { "Lujun Di 135 Shi" }			#桂軍，（李宗仁部）
+	    #138 = { "Lujun Di 138 Shi" }			#桂軍，（李宗仁部）
+	    #170 = { "Lujun Di 170 Shi" }			#桂軍，（李宗仁部）
+	    #171 = { "Lujun Di 171 Shi" }			#桂軍，（李宗仁部）
+	    #172 = { "Lujun Di 172 Shi" }			#桂軍，（李宗仁部）
+	    #173 = { "Lujun Di 173 Shi" }			#桂軍，（李宗仁部）
+	    #174 = { "Lujun Di 174 Shi" }			#桂軍，（李宗仁部）
+	    #175 = { "Lujun Di 175 Shi" }			#桂軍，（李宗仁部）
+	    #176 = { "Lujun Di 176 Shi" }			#桂軍，（李宗仁部）
+	    #188 = { "Lujun Di 188 Shi" }			#桂軍，（李宗仁部）
+	    #189 = { "Lujun Di 189 Shi" }			#桂軍，（李宗仁部）
+	    #219 = { "Lujun Xinbian Di 19 Shi" }	#桂軍，（李宗仁部）
+	    #182 = { "Lujun Di 182 Shi" }			#滇軍，（龍雲部）
+	    #183 = { "Lujun Di 183 Shi" }			#滇軍，（龍雲部）
+	    #184 = { "Lujun Di 184 Shi" }			#滇軍，（龍雲部）
+	    #210 = { "Lujun Xinbian Di 10 Shi" }	#滇軍，（龍雲部）
+	    #211 = { "Lujun Xinbian Di 11 Shi" }	#滇軍，（龍雲部）
+	    #212 = { "Lujun Xinbian Di 12 Shi" }	#滇軍，（龍雲部）
+	    #318 = { "Lujun Zanbian Di 18 Shi" }	#滇軍，（龍雲部）
+	    #319 = { "Lujun Zanbian Di 19 Shi" }	#滇軍，（龍雲部）
+	    #320 = { "Lujun Zanbian Di 20 Shi" }	#滇軍，（龍雲部）
+	    #321 = { "Lujun Zanbian Di 21 Shi" }	#滇軍，（龍雲部）
+	    #322 = { "Lujun Zanbian Di 22 Shi" }	#滇軍，（龍雲部）
+	    #323 = { "Lujun Zanbian Di 23 Shi" }	#滇軍，（龍雲部）
+		#35 = { "Lujun Di 35 Shi" }			#寧夏回軍，（馬鴻逵部）
+	    #168 = { "Lujun Di 168 Shi" }			#寧夏回軍，（馬鴻逵部）
+	    #306 = { "Lujun Zanbian Di 6 Shi" }		#寧夏回軍，（馬鴻逵部）
+	    #309 = { "Lujun Zanbian Di 9 Shi" }		#寧夏回軍，（馬鴻逵部）
+	    #331 = { "Lujun Zanbian Di 31 Shi" }	#寧夏回軍，（馬鴻逵部）
+	    #360 = { "Lujun Zanbian Di 60 Shi" }	#寧夏回軍，（馬鴻逵部）
+	    #100 = { "Lujun Di 100 Shi" }			#青海回軍，（馬步芳部）
+	    #361 = { "Lujun Zanbian Di 61 Shi" }	#青海回軍，（馬步芳部）
+	    #136 = { "Lujun Di 136 Shi" }			#川康軍，（劉文輝部）
+	    #137 = { "Lujun Di 137 Shi" }			#川康軍，（劉文輝部）
+	}
+}
+
+CHI_INF_02 = {
+	name = "Garrison Divisions"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Duli Di %d Lü"
+
+	ordered = {
+		4 = { "Duli Di 4 Lü" }				#嫡系，
+		5 = { "Duli Di 5 Lü" }				#旁系，（原粱冠英西北軍）
+		6 = { "Duli Di 6 Lü" }				#嫡系，
+		20 = { "Duli Di 20 Lü" }			#嫡系/旁系，（楊虎城陜軍）
+		32 = { "Duli Di 25 Lü" }			#旁系，（湘軍）
+		33 = { "Duli Di 33 Lü" }			#旁系，（郭汝棟川軍）
+		44 = { "Duli Di 44 Lü" }			#旁系，（孫連仲西北軍）
+		45 = { "Duli Di 45 Lü" }			#旁系，（原張宗昌直魯聯軍）
+		47 = { "Duli Di 47 Lü" }			#旁系，（楊虎城陜軍）
+	    311 = { "Zanbian Duli Di 11 Lü" }	#旁系，（湘軍）
+	    312 = { "Zanbian Duli Di 12 Lü" }	#旁系，（湘軍）
+	    313 = { "Zanbian Duli Di 13 Lü" }	#旁系，（湘軍）
+		9 = { "Duli Di 9 Lü" }				#粵軍，（余漢謀部）
+		25 = { "Duli Di 25 Lü" }			#西北軍，（宋哲元部）
+		26 = { "Duli Di 26 Lü" }			#西北軍，（宋哲元部）
+		27 = { "Duli Di 27 Lü" }			#西北軍，（宋哲元部）
+		28 = { "Duli Di 28 Lü" }			#西北軍，（宋哲元部）
+		29 = { "Duli Di 29 Lü" }			#西北軍，（宋哲元部）
+		31 = { "Duli Di 31 Lü" }			#西北軍，（宋哲元部）
+		39 = { "Duli Di 39 Lü" }			#西北軍，（宋哲元部）
+		40 = { "Duli Di 40 Lü" }			#西北軍，（宋哲元部）
+		11 = { "Duli Di 11 Lü" }			#川軍，（劉湘部）
+		12 = { "Duli Di 12 Lü" }			#川軍，（劉湘部）
+		13 = { "Duli Di 13 Lü" }			#川軍，（劉湘部）
+		14 = { "Duli Di 14 Lü" }			#川軍，（劉湘部）
+		15 = { "Duli Di 15 Lü" }			#川軍，（劉湘部）
+		16 = { "Duli Di 16 Lü" }			#川軍，（劉湘部）
+		17 = { "Duli Di 17 Lü" }			#川軍，（劉湘部）
+		1 = { "Duli Di 1 Lü" }				#晉綏軍，（閻錫山部）
+		2 = { "Duli Di 2 Lü" }				#晉綏軍，（閻錫山部）		 
+		3 = { "Duli Di 3 Lü" }				#晉綏軍，（閻錫山部）
+		7 = { "Duli Di 7 Lü" }				#晉綏軍，（閻錫山部）
+		8 = { "Duli Di 8 Lü" }				#晉綏軍，（閻錫山部）
+		105 = { "Xinbian Duli Di 5 Lü" }	#晉綏軍，（閻錫山部）收編的偽軍
+	    106 = { "Xinbian Duli Di 6 Lü" }	#晉綏軍，（閻錫山部）收編的偽軍
+		10 = { "Duli Di 10 Lü" }			#寧夏回軍，（馬鴻逵部）
+		35 = { "Duli Di 35 Lü" }			#寧夏回軍，（馬鴻逵部）
+	    111 = { "Xinbian Duli Di 11 Lü" }	#寧夏回軍，（馬鴻逵部）
+	}
+}
+
+CHI_CAV_01 =  {
+	name = "Cavalry Divisions"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "Lujun Qibing Di %d Shi"
+
+	ordered = {
+		#1 = { "Lujun Qibing Di %d Shi" }				#晉綏軍，（閻錫山部）
+		#2 = { "Lujun Qibing Di %d Shi" }				#晉綏軍，（閻錫山部）
+		#3 = { "Lujun Qibing Di %d Shi" }				#東北軍，（張學良部）
+		#4 = { "Lujun Qibing Di %d Shi" }				#西北軍，（宋哲元部）/晉綏軍，（閻錫山部）
+		#5 = { "Lujun Qibing Di %d Shi" }				#青海回軍，（馬步芳部）
+		#6 = { "Lujun Qibing Di %d Shi" }				#東北軍，（張學良部）
+		7 = { "Lujun Qibing Di %d Shi" }				#嫡系，（胡宗南系）
+		#8 = { "Lujun Qibing Di %d Shi" }				#青海回軍，（馬步芳部）
+		#9 = { "Lujun Qibing Di %d Shi" }				#西北軍，（宋哲元部）/嫡系，（胡宗南系）
+		#10 = { "Lujun Qibing Di %d Shi" }				#東北軍，（張學良部）/嫡系，（胡宗南系）
+		11 = { "Lujun Qibing Di %d Shi" }				#嫡系，（胡宗南系）新疆部隊
+		12 = { "Lujun Qibing Di %d Shi" }				#嫡系，（胡宗南系）新疆部隊 
+		101 = { "Lujun Xinbian Qibing Di 1 Shi" }		#嫡系，（胡宗南系）新疆部隊
+		102 = { "Lujun Xinbian Qibing Di 2 Shi" }		#嫡系，（胡宗南系）新疆部隊
+		#103 = { "Lujun Xinbian Qibing Di 3 Shi" }		#晉綏軍，（傅作義部）/馬占山收編的偽滿軍/
+		#104 = { "Lujun Xinbian Qibing Di 4 Shi" }		#晉綏軍，（傅作義部）/馬占山收編的偽滿軍/
+		105 = { "Lujun Xinbian Qibing Di 5 Shi" }		#馬占山收編的偽滿軍
+		106 = { "Lujun Xinbian Qibing Di 6 Shi" }		#馬占山收編的偽滿軍
+		107 = { "Lujun Xinbian Qibing Di 7 Shi" }		#伊盟蒙族 Qibing
+		#108 = { "Lujun Xinbian Qibing Di 8 Shi" }		#青海回軍，（馬步芳部）
+		#201 = { "Lujun Zanbian Qibing Di 1 Shi" }		#青海回軍，（馬步芳部）
+		#202 = { "Lujun Zanbian Qibing Di 2 Shi" }		#青海回軍，（馬步芳部）
+		3 = { "Lujun Qibing Di %d Shi" }				#東北軍，（張學良部）
+		6 = { "Lujun Qibing Di %d Shi" }				#東北軍，（張學良部）
+		10 = { "Lujun Qibing Di %d Shi" }				#東北軍，（張學良部）/嫡系，（胡宗南系）	
+		9 = { "Lujun Qibing Di %d Shi" }				#西北軍，（宋哲元部）/嫡系，（胡宗南系）
+		4 = { "Lujun Qibing Di %d Shi" }				#西北軍，（宋哲元部）/晉綏軍，（閻錫山部）	
+		1 = { "Lujun Qibing Di %d Shi" }				#晉綏軍，（閻錫山部）
+		2 = { "Lujun Qibing Di %d Shi" }				#晉綏軍，（閻錫山部）
+		103 = { "Lujun Xinbian Qibing Di 3 Shi" }		#晉綏軍，（傅作義部）/馬占山收編的偽滿軍/
+		104 = { "Lujun Xinbian Qibing Di 4 Shi" }		#晉綏軍，（傅作義部）/馬占山收編的偽滿軍/
+		5 = { "Lujun Qibing Di %d Shi" }				#青海回軍，（馬步芳部）
+		8 = { "Lujun Qibing Di %d Shi" }				#青海回軍，（馬步芳部）
+		108 = { "Lujun Xinbian Qibing Di 8 Shi" }		#青海回軍，（馬步芳部）
+		201 = { "Lujun Zanbian Qibing Di 1 Shi" }		#青海回軍，（馬步芳部）
+		202 = { "Lujun Zanbian Qibing Di 2 Shi" }		#青海回軍，（馬步芳部）	
+	}
+}
+
+CHI_CAV_02 =  {
+	name = "Cavalry Brigades"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "Qibing Di %d Lü"
+
+	ordered = {
+	    14 = { "Qibing Di 14 Lü" }			#旁系，（龐炳勛西北軍）
+	    302 = { "Xinbian Qibing Di 2 Lü" }	#晉綏軍，（閻錫山部）收編的偽軍	
+		1 = { "Qibing Di 1 Lü" }			#寧夏回軍，（馬鴻逵部）
+		2 = { "Qibing Di 2 Lü" }			#寧夏回軍，（馬鴻逵部）	
+	}
+}
+
+### 추후 수정 필요 ###
+
+CHI_MOT_01 = {
+	name = "Motorized Divisions"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { CHI_INF_01 }
+
+	fallback_name = "Jidong Di %d Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		# 500 = { "200 Jidonghua Bubing Shi" }		# only historical motorized division for NRA ← 차량화사단이 아니라 기계화사단임 - 추후 수정 필요
+		# 430 = { "Xin 30 Jidonghua Bubing Shi" }		# American-trained (full) divisions of historical 'X Force'
+		# 438 = { "Xin 38 Jidonghua Bubing Shi" }		
+		# 422 = { "Xin 22 Jidonghua Bubing Shi" }		
+		# 414 = { "14 Jidonghua Bubing Shi" }		
+		# 450 = { "50 Jidonghua Bubing Shi" }		
+		# 403 = { "3 Jidonghua Bubing Shi" }			# German-trained divisions (traditional division strength)
+		# 406 = { "6 Jidonghua Bubing Shi" }		
+		# 409 = { "9 Jidonghua Bubing Shi" }		
+		# 436 = { "36 Jidonghua Bubing Shi" }		
+		# 487 = { "87 Jidonghua Bubing Shi" }		
+		# 488 = { "88 Jidonghua Bubing Shi" }		
+		# 402 = { "2 Jidonghua Bubing Shi" }		
+		# 404 = { "4 Jidonghua Bubing Shi" }		
+		# 410 = { "10 Jidonghua Bubing Shi" }		
+		# 411 = { "11 Jidonghua Bubing Shi" }		
+		# 425 = { "25 Jidonghua Bubing Shi" }		
+		# 427 = { "27 Jidonghua Bubing Shi" }		
+		# 457 = { "57 Jidonghua Bubing Shi" }		
+		# 467 = { "67 Jidonghua Bubing Shi" }		
+		# 480 = { "80 Jidonghua Bubing Shi" }		
+		# 483 = { "83 Jidonghua Bubing Shi" }		
+		# 489 = { "89 Jidonghua Bubing Shi" }
+	}
+}
+
+CHI_MEC_01 = {
+	name = "Mechanized Unit"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { CHI_INF_01 }
+
+	fallback_name = "%d Jixiehua Juntuán"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		500 = { "200 Jixiehua Bubing Shi" }
+		430 = { "Xin 30 Jixiehua Bubing Shi" }		# American-trained (full) divisions of historical 'X Force'
+		438 = { "Xin 38 Jixiehua Bubing Shi" }		
+		422 = { "Xin 22 Jixiehua Bubing Shi" }		
+		414 = { "14 Jixiehua Bubing Shi" }		
+		450 = { "50 Jixiehua Bubing Shi" }		
+		403 = { "3 Jixiehua Bubing Shi" }			# German-trained divisions (traditional division strength)
+		406 = { "6 Jixiehua Bubing Shi" }		
+		409 = { "9 Jixiehua Bubing Shi" }		
+		436 = { "36 Jixiehua Bubing Shi" }		
+		487 = { "87 Jixiehua Bubing Shi" }		
+		488 = { "88 Jixiehua Bubing Shi" }		
+		402 = { "2 Jixiehua Bubing Shi" }		
+		404 = { "4 Jixiehua Bubing Shi" }		
+		410 = { "10 Jixiehua Bubing Shi" }		
+		411 = { "11 Jixiehua Bubing Shi" }		
+		425 = { "25 Jixiehua Bubing Shi" }		
+		427 = { "27 Jixiehua Bubing Shi" }		
+		457 = { "57 Jixiehua Bubing Shi" }		
+		467 = { "67 Jixiehua Bubing Shi" }		
+		480 = { "80 Jixiehua Bubing Shi" }		
+		483 = { "83 Jixiehua Bubing Shi" }		
+		489 = { "89 Jixiehua Bubing Shi" }		
+		5 = { "%d Jixiehua Juntuán" }				# fictional names for mechanized corps
+		1 = { "%d Jixiehua Juntuán" }						
+		2 = { "%d Jixiehua Juntuán" }
+		3 = { "%d Jixiehua Juntuán" }
+		4 = { "%d Jixiehua Juntuán" }
+		9 = { "%d Jixiehua Juntuán" }
+		12 = { "%d Jixiehua Juntuán" }
+		13 = { "%d Jixiehua Juntuán" }
+		14 = { "%d Jixiehua Juntuán" }
+		17 = { "%d Jixiehua Juntuán" }
+		18 = { "%d Jixiehua Juntuán" }
+		6 = { "%d Jixiehua Juntuán" }
+		7 = { "%d Jixiehua Juntuán" }
+		8 = { "%d Jixiehua Juntuán" }
+		10 = { "%d Jixiehua Juntuán" }
+		15 = { "%d Jixiehua Juntuán" }
+		16 = { "%d Jixiehua Juntuán" }
+		19 = { "%d Jixiehua Juntuán" }
+		20 = { "%d Jixiehua Juntuán" }
+		11 = { "%d Jixiehua Juntuán" }
+	}
+}
+
+CHI_ARM_01 = {
+	name = "Armored Unit"
+
+	for_countries = { CHI PRC SHX GXC YUN XSM SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { CHI_INF_01 }
+
+	fallback_name = "%d Zhuangjia Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Zhuangjia Shi" }
+		2 = { "%d Zhuangjia Shi" }
+		3 = { "%d Zhuangjia Shi" }
+		4 = { "%d Zhuangjia Shi" }
+		5 = { "%d Zhuangjia Shi" }
+		6 = { "%d Zhuangjia Shi" }
+		7 = { "%d Zhuangjia Shi" }
+		8 = { "%d Zhuangjia Shi" }
+		9 = { "%d Zhuangjia Shi" }
+		10 = { "%d Zhuangjia Shi" }
+		11 = { "%d Zhuangjia Shi" }
+		12 = { "%d Zhuangjia Shi" }
+		13 = { "%d Zhuangjia Shi" }
+		14 = { "%d Zhuangjia Shi" }
+		15 = { "%d Zhuangjia Shi" }
+	}
+}
+
+CHI_PAR_01 = {
+	name = "Paratrooper Unit"
+
+	for_countries = { CHI PRC SHX GXC YUN XSM SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { CHI_INF_01 }
+
+	fallback_name = "%d Sanbing Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Sanbing Shi" }
+		2 = { "%d Sanbing Shi" }
+		3 = { "%d Sanbing Shi" }
+		4 = { "%d Sanbing Shi" }
+		5 = { "%d Sanbing Shi" }
+		6 = { "%d Sanbing Shi" }
+		7 = { "%d Sanbing Shi" }
+		8 = { "%d Sanbing Shi" }
+		9 = { "%d Sanbing Shi" }
+		10 = { "%d Sanbing Shi" }
+	}
+}
+
+CHI_MAR_01 = {
+	name = "Marine Unit"
+
+	for_countries = { CHI PRC SHX GXC YUN XSM SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { CHI_INF_01 }
+
+	fallback_name = "%d Luzhan Dui Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Luzhan Dui Shi" }
+		2 = { "%d Luzhan Dui Shi" }
+		3 = { "%d Luzhan Dui Shi" }
+		4 = { "%d Luzhan Dui Shi" }
+		5 = { "%d Luzhan Dui Shi" }
+		6 = { "%d Luzhan Dui Shi" }
+		7 = { "%d Luzhan Dui Shi" }
+		8 = { "%d Luzhan Dui Shi" }
+		9 = { "%d Luzhan Dui Shi" }
+		10 = { "%d Luzhan Dui Shi" }
+	}
+}
+
+CHI_MNT_01 = {
+	name = "Mountain Unit"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { CHI_INF_01 }
+
+	fallback_name = "%d Juntuán"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		430 = { "Xin 30 Bubing Shi" }		# American-trained (full) divisions of historical 'X Force'
+		438 = { "Xin 38 Bubing Shi" }		
+		422 = { "Xin 22 Bubing Shi" }		
+		414 = { "14 Bubing Shi" }		
+		450 = { "50 Bubing Shi" }		
+		403 = { "3 Bubing Shi" }		# German-trained divisions (traditional division strength)
+		406 = { "6 Bubing Shi" }		
+		409 = { "9 Bubing Shi" }		
+		436 = { "36 Bubing Shi" }		
+		487 = { "87 Bubing Shi" }		
+		488 = { "88 Bubing Shi" }		
+		498 = { "Peixun Shi" }		
+		402 = { "2 Bubing Shi" }		
+		404 = { "4 Bubing Shi" }		
+		410 = { "10 Bubing Shi" }		
+		411 = { "11 Bubing Shi" }		
+		425 = { "25 Bubing Shi" }		
+		427 = { "27 Bubing Shi" }		
+		457 = { "57 Bubing Shi" }		
+		467 = { "67 Bubing Shi" }		
+		480 = { "80 Bubing Shi" }		
+		483 = { "83 Bubing Shi" }		
+		489 = { "89 Bubing Shi" }		
+		499 = { "Shui Jing Tuan" }		
+		1 = { "%d Juntuán" }			# Chinese "corps" were division-strength units (2-3 Chinese "divisions" = 2-3 HOI4 regiments)
+		2 = { "%d Juntuán" }
+		3 = { "%d Juntuán" }
+		4 = { "%d Juntuán" }
+		9 = { "%d Juntuán" }
+		12 = { "%d Juntuán" }
+		13 = { "%d Juntuán" }
+		14 = { "%d Juntuán" }
+		17 = { "%d Juntuán" }
+		18 = { "%d Juntuán" }
+		25 = { "%d Juntuán" }
+		39 = { "%d Juntuán" }
+		40 = { "%d Juntuán" }
+		43 = { "%d Juntuán" }
+		52 = { "%d Juntuán" }
+		54 = { "%d Juntuán" }
+		73 = { "%d Juntuán" }
+		74 = { "%d Juntuán" }
+		6 = { "%d Juntuán" }
+		7 = { "%d Juntuán" }
+		8 = { "%d Juntuán" }
+		10 = { "%d Juntuán" }
+		15 = { "%d Juntuán" }
+		16 = { "%d Juntuán" }
+		19 = { "%d Juntuán" }
+		20 = { "%d Juntuán" }
+		21 = { "%d Juntuán" }
+		22 = { "%d Juntuán" }
+		23 = { "%d Juntuán" }
+		26 = { "%d Juntuán" }
+		28 = { "%d Juntuán" }
+		29 = { "%d Juntuán" }
+		30 = { "%d Juntuán" }
+		31 = { "%d Juntuán" }
+		32 = { "%d Juntuán" }
+		33 = { "%d Juntuán" }
+		34 = { "%d Juntuán" }
+		35 = { "%d Juntuán" }
+		37 = { "%d Juntuán" }
+		38 = { "%d Juntuán" }
+		41 = { "%d Juntuán" }
+		42 = { "%d Juntuán" }
+		44 = { "%d Juntuán" }
+		45 = { "%d Juntuán" }
+		46 = { "%d Juntuán" }
+		47 = { "%d Juntuán" }
+		48 = { "%d Juntuán" }
+		49 = { "%d Juntuán" }
+		51 = { "%d Juntuán" }
+		53 = { "%d Juntuán" }
+		55 = { "%d Juntuán" }
+		56 = { "%d Juntuán" }
+		57 = { "%d Juntuán" }
+		59 = { "%d Juntuán" }
+		60 = { "%d Juntuán" }
+		61 = { "%d Juntuán" }
+		62 = { "%d Juntuán" }
+		63 = { "%d Juntuán" }
+		64 = { "%d Juntuán" }
+		65 = { "%d Juntuán" }
+		66 = { "%d Juntuán" }
+		67 = { "%d Juntuán" }
+		68 = { "%d Juntuán" }
+		70 = { "%d Juntuán" }
+		71 = { "%d Juntuán" }
+		72 = { "%d Juntuán" }
+		75 = { "%d Juntuán" }
+		76 = { "%d Juntuán" }
+		77 = { "%d Juntuán" }
+		78 = { "%d Juntuán" }
+		79 = { "%d Juntuán" }
+		80 = { "%d Juntuán" }
+		81 = { "%d Juntuán" }
+		82 = { "%d Juntuán" }
+		83 = { "%d Juntuán" }
+		84 = { "%d Juntuán" }
+		85 = { "%d Juntuán" }
+		86 = { "%d Juntuán" }
+		87 = { "%d Juntuán" }
+		89 = { "%d Juntuán" }
+		92 = { "%d Juntuán" }
+		93 = { "%d Juntuán" }
+		94 = { "%d Juntuán" }
+		98 = { "%d Juntuán" }
+		201 = { "Xin 1 Juntuán" }
+		5 = { "%d Juntuán" }
+		27 = { "%d Juntuán" }
+		50 = { "%d Juntuán" }
+		58 = { "%d Juntuán" }
+		69 = { "%d Juntuán" }
+		90 = { "%d Juntuán" }
+		91 = { "%d Juntuán" }
+		96 = { "%d Juntuán" }
+		99 = { "%d Juntuán" }
+		100 = { "%d Juntuán" }
+		202 = { "Xin 2 Juntuán" }
+		203 = { "Xin 3 Juntuán" }
+		205 = { "Xin 5 Juntuán" }
+		206 = { "Xin 6 Juntuán" }
+		36 = { "%d Juntuán" }
+		88 = { "%d Juntuán" }
+		207 = { "Xin 7 Juntuán" }
+		11 = { "%d Juntuán" }
+		95 = { "%d Juntuán" }
+		208 = { "Xin 8 Juntuán" }
+		209 = { "Xin 9 Juntuán" }			# fictional additional corps here
+		210 = { "Xin 10 Juntuán" }
+		211 = { "Xin 11 Juntuán" }
+		212 = { "Xin 12 Juntuán" }
+		213 = { "Xin 13 Juntuán" }
+		214 = { "Xin 14 Juntuán" }
+		215 = { "Xin 15 Juntuán" }
+	}
+}

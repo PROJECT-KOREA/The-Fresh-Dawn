@@ -1,0 +1,111 @@
+﻿PRC_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { PRC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PRC_INF_01 }
+
+	fallback_name = "Bālù-Jūn Xinbian Di %d Lü" #팔로군
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		343 = { "Bālù-Jūn 115 Shi Di 343 Lü" }
+		344 = { "Bālù-Jūn 115 Shi Di 344 Lü" }
+		358 = { "Bālù-Jūn 120 Shi Di 358 Lü" }
+		359 = { "Bālù-Jūn 120 Shi Di 359 Lü" }
+		385 = { "Bālù-Jūn 129 Shi Di 385 Lü" }
+		386 = { "Bālù-Jūn 129 Shi Di 386 Lü" }
+		1 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		2 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		3 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		4 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		5 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		6 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		7 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		8 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		9 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		10 = { "Bālù-Jūn Xinbian Di %d Lü" }
+		11 = { "Bālù-Jūn Di-yi Zongdui Di 1 Lü" }
+		12 = { "Bālù-Jūn Di-yi Zongdui Di 2 Lü" }
+		13 = { "Bālù-Jūn Di-yi Zongdui Di 3 Lü" }
+		14 = { "Bālù-Jūn Di-yi Zongdui Di 4 Lü" }
+		15 = { "Bālù-Jūn Di-yi Zongdui Di 5 Lü" }
+		16 = { "Bālù-Jūn Di-yi Zongdui Di 6 Lü" }
+		17 = { "Bālù-Jūn Di-yi Zongdui Di 7 Lü" }
+		18 = { "Bālù-Jūn Di-yi Zongdui Di 8 Lü" }
+		19 = { "Bālù-Jūn Di-yi Zongdui Di 9 Lü" }
+		20 = { "Bālù-Jūn Di-yi Zongdui Di 10 Lü" }
+		21 = { "Bālù-Jūn Di-er Zongdui Di 1 Lü" }
+		22 = { "Bālù-Jūn Di-er Zongdui Di 2 Lü" }
+		23 = { "Bālù-Jūn Di-er Zongdui Di 3 Lü" }
+		24 = { "Bālù-Jūn Di-er Zongdui Di 4 Lü" }
+		25 = { "Bālù-Jūn Di-er Zongdui Di 5 Lü" }
+		26 = { "Bālù-Jūn Di-er Zongdui Di 6 Lü" }
+		27 = { "Bālù-Jūn Di-er Zongdui Di 7 Lü" }
+		28 = { "Bālù-Jūn Di-er Zongdui Di 8 Lü" }
+		29 = { "Bālù-Jūn Di-er Zongdui Di 9 Lü" }
+		30 = { "Bālù-Jūn Di-er Zongdui Di 10 Lü" }
+		31 = { "Bālù-Jūn Di-san Zongdui Di 1 Lü" }
+		32 = { "Bālù-Jūn Di-san Zongdui Di 2 Lü" }
+		33 = { "Bālù-Jūn Di-san Zongdui Di 3 Lü" }
+		34 = { "Bālù-Jūn Di-san Zongdui Di 4 Lü" }
+		35 = { "Bālù-Jūn Di-san Zongdui Di 5 Lü" }
+		36 = { "Bālù-Jūn Di-san Zongdui Di 6 Lü" }
+		37 = { "Bālù-Jūn Di-san Zongdui Di 7 Lü" }
+		38 = { "Bālù-Jūn Di-san Zongdui Di 8 Lü" }
+		39 = { "Bālù-Jūn Di-san Zongdui Di 9 Lü" }
+		40 = { "Bālù-Jūn Di-san Zongdui Di 10 Lü" }
+		41 = { "Bālù-Jūn Di-si Zongdui Di 1 Lü" }
+		42 = { "Bālù-Jūn Di-si Zongdui Di 2 Lü" }
+		43 = { "Bālù-Jūn Di-si Zongdui Di 3 Lü" }
+		44 = { "Bālù-Jūn Di-si Zongdui Di 4 Lü" }
+		45 = { "Bālù-Jūn Di-si Zongdui Di 5 Lü" }
+		46 = { "Bālù-Jūn Di-si Zongdui Di 6 Lü" }
+		47 = { "Bālù-Jūn Di-si Zongdui Di 7 Lü" }
+		48 = { "Bālù-Jūn Di-si Zongdui Di 8 Lü" }
+		49 = { "Bālù-Jūn Di-si Zongdui Di 9 Lü" }
+		50 = { "Bālù-Jūn Di-si Zongdui Di 10 Lü" }
+		51 = { "Bālù-Jūn Di-wu Zongdui Di 1 Lü" }
+		52 = { "Bālù-Jūn Di-wu Zongdui Di 2 Lü" }
+		53 = { "Bālù-Jūn Di-wu Zongdui Di 3 Lü" }
+		54 = { "Bālù-Jūn Di-wu Zongdui Di 4 Lü" }
+		55 = { "Bālù-Jūn Di-wu Zongdui Di 5 Lü" }
+		56 = { "Bālù-Jūn Di-wu Zongdui Di 6 Lü" }
+		57 = { "Bālù-Jūn Di-wu Zongdui Di 7 Lü" }
+		58 = { "Bālù-Jūn Di-wu Zongdui Di 8 Lü" }
+		59 = { "Bālù-Jūn Di-wu Zongdui Di 9 Lü" }
+		60 = { "Bālù-Jūn Di-wu Zongdui Di 10 Lü" }
+	}
+}
+
+PRC_INF_02 = {
+	name = "Garrison Divisions"
+
+	for_countries = { PRC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PRC_INF_01 }
+
+	fallback_name = "Xīn Sì Jūn Di %d Zhidui" #신사군
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+
+	ordered = {
+		1 = { "Xīn Sì Jūn Di 1 Zhidui" }
+		2 = { "Xīn Sì Jūn Di 2 Zhidui" }
+		3 = { "Xīn Sì Jūn Di 3 Zhidui" }
+		4 = { "Xīn Sì Jūn Di 4 Zhidui" }
+	}
+}
+

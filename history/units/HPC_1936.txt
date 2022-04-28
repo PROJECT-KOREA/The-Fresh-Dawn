@@ -1,1 +1,248 @@
-﻿
+﻿division_template = {
+	name = "Lujun Shi"			
+	division_names_group = HPC_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Tiaozheng Shi"			
+	division_names_group = HPC_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+	}
+}
+
+division_template = {
+	name = "Zhengli Shi"			
+	division_names_group = HPC_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 } 
+	}
+}
+
+division_template = {
+	name = "Qibing Shi"	
+	division_names_group = HPC_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 3 y = 0 }
+		cavalry = { x = 3 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Duli Lü"	
+	division_names_group = HPC_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Duli Qibing Lü"	
+	division_names_group = CHI_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+### OOB ###
+units = {
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 9843
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 10068
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 119
+		}
+		location = 9843
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 129
+		}
+		location = 9843
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 130
+		}
+		location = 9843
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 132
+		}
+		location = 10068
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 143
+		}
+		location = 1590
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 9843
+		division_template = "Qibing Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4190
+		division_template = "Qibing Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1169
+		division_template = "Qibing Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Duli 39. Shi"
+		location = 9843
+		division_template = "Lujun Shi"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Duli 9. Qibing Lü"
+		location = 9843
+		division_template = "Duli Qibing Lü"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Duli 13. Qibing Lü"
+		location = 1137
+		division_template = "Duli Qibing Lü"		
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.2
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "HPC"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+}
