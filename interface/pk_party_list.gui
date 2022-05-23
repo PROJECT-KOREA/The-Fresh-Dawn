@@ -79,7 +79,7 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "popularity"
-			position = { x = 385 y = 218 }
+			position = { x = 385 y = 219 }
 			font = "hoi_18mbs"
 			text = "[?total_party_pop|0]%"
 			fixedsize = yes

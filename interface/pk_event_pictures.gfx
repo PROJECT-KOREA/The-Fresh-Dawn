@@ -109,7 +109,12 @@ spriteTypes = {
 	### News Event ###
 
 	spriteType = {
-		name = "GFX_news_event_KOR_independence"
-		textureFile = "gfx/event_pictures/news_event_KOR_independence.dds"
+		name = "GFX_news_event_kpg_shanghai"
+		textureFile = "gfx/event_pictures/news_event_kpg_shanghai.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_korean_independence"
+		textureFile = "gfx/event_pictures/news_event_korean_independence.dds"
 	}
 }

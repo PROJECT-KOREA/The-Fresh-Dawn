@@ -113,8 +113,8 @@
   CHI_auto_despotism_DEF:0 "중화민국 국민정부"
 
  #중공
-  PRC_communism:0 "중화소비에트민주공화국"
-  PRC_communism_DEF:0 "중화소비에트민주공화국"
+  PRC_communism:0 "중화소비에트인민공화국"
+  PRC_communism_DEF:0 "중화소비에트인민공화국"
 
  #몽골
   MON_communism:0 "몽골인민공화국"

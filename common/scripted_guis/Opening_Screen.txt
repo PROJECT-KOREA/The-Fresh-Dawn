@@ -54,30 +54,30 @@ scripted_gui = {
 		}
 	}
 	
-	TNO_closing_screen_main = {
-		context_type = player_context
-		parent_window_token = top_bar
-		window_name = "TNO_ClosingScreen_Main"
+	# TNO_closing_screen_main = {
+	# 	context_type = player_context
+	# 	parent_window_token = top_bar
+	# 	window_name = "TNO_ClosingScreen_Main"
 
-		visible = {
-			AND = {
-				is_ai = no
-				has_country_flag = TNO_closing_screen_show
-			}
-		}
+	# 	visible = {
+	# 		AND = {
+	# 			is_ai = no
+	# 			has_country_flag = TNO_closing_screen_show
+	# 		}
+	# 	}
 		
-		effects = {
-			TNO_ClosingScreen_CloseButton_click = {
-				clr_country_flag = TNO_closing_screen_show
-			}
-		}
+	# 	effects = {
+	# 		TNO_ClosingScreen_CloseButton_click = {
+	# 			clr_country_flag = TNO_closing_screen_show
+	# 		}
+	# 	}
 		
-		triggers = {
+	# 	triggers = {
 		
-		}
+	# 	}
 		
-		properties = {
+	# 	properties = {
 		
-		}
-	}
+	# 	}
+	# }
 }

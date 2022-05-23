@@ -1,11 +1,30 @@
 ﻿### 뉴스 이벤트 ###
 add_namespace = pk_news
 
-#한국의 독립 선언
+#대한민국 임시정부의 정부 수립일 기념식
 news_event = {
     id = pk_news.1
     title = pk_news.1.t
     desc = pk_news.1.desc
+    picture = GFX_news_event_kpg_shanghai
+    
+    fire_only_once = yes
+    
+    trigger = {
+		original_tag = GGK
+        has_country_flag = GGK_flag_ki_yes
+		date > 1936.4.11
+	}
+
+    option = { name = pk_news.1.a }
+}
+
+
+#한국의 독립 선언
+news_event = {
+    id = pk_news.2
+    title = pk_news.2.t
+    desc = pk_news.2.desc
 
     picture = GFX_news_event_KOR_independence
 
@@ -13,14 +32,14 @@ news_event = {
     fire_only_once = yes
 
     option = {
-        name = pk_news.1.a
+        name = pk_news.2.a
         trigger = {
             tag = KOR
         }
     }
 
     option = {
-        name = pk_news.1.b
+        name = pk_news.2.b
         trigger = {
             NOT = { tag = KOR }
         }
@@ -29,9 +48,9 @@ news_event = {
 
 #대한민국의 헌법 공포식
 news_event = {
-    id = pk_news.2
-    title = pk_news.2.t
-    desc = pk_news.2.desc
+    id = pk_news.3
+    title = pk_news.3.t
+    desc = pk_news.3.desc
 
     picture = GFX_news_independence_korea
 
@@ -39,6 +58,6 @@ news_event = {
     fire_only_once = yes
 
     option = {
-        name = pk_news.2.a
+        name = pk_news.3.a
     }
 }

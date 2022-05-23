@@ -35,6 +35,11 @@ bitmapfonts = {
 			color = 0xffffffff
 		}
 		bitmapfont = {
+			name = "pk_22b"
+			path = "gfx/fonts/pk_22"
+			color = 0xff000000
+		}
+		bitmapfont = {
 			name = "pk_36"
 			path = "gfx/fonts/pk_36"
 			color = 0xffffffff
@@ -82,6 +87,24 @@ bitmapfonts = {
 			name = "hoi_36header"
 			path = "gfx/fonts/aldrich_36_outline"
 			color = 0xffffffff
+		}
+	#
+
+	# 리디바탕 #
+		bitmapfont = {
+			name = "ridi_14"
+			path = "gfx/fonts/ridi_14"
+			color = 0xff000000
+		}
+		bitmapfont = {
+			name = "ridi_16"
+			path = "gfx/fonts/ridi_16"
+			color = 0xff000000
+		}
+		bitmapfont = {
+			name = "ridi_20"
+			path = "gfx/fonts/ridi_20"
+			color = 0xff000000
 		}
 	#
 

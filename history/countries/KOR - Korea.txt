@@ -3,24 +3,19 @@ capital = 837 #신의주
 
 #인물 불러오기
 	recruit_character = KOR_Ji_Cheongcheon
+	recruit_character = KOR_Hong_Saik
 	recruit_character = KOR_Song_Jinwoo
-	recruit_character = KOR_Sin_Ikhuie
-	# recruit_character = KOR_Ahn_Jaehong
-	# recruit_character = KOR_Um_Hangseop
-	# recruit_character = KOR_Ryuh_Woonhyung
-	# recruit_character = KOR_Oh_Kwangseon
-	# recruit_character = KOR_Lee_Beomseok
-	# recruit_character = KOR_Syngman_Rhee
-	# recruit_character = KOR_Yi_Siyeong
-	# recruit_character = KOR_Ji_Cheongcheon
-	# recruit_character = KOR_Cho_Dongho
-	# recruit_character = KOR_Cho_wangu
-	# recruit_character = KOR_Hong_Saik
-	# recruit_character = KOR_Hong_Jin
-	# recruit_character = FM_No_One
-	# recruit_character = EM_No_One
-	# recruit_character = SM_No_One
-	# recruit_character = IM_No_One
+	recruit_character = KOR_Ahn_Jaehong
+	recruit_character = KOR_Ryuh_Woonhyung
+	recruit_character = KOR_Syngman_Rhee
+	recruit_character = KOR_Pak_Honyong
+	recruit_character = KOR_Kim_Kyeongcheon
+	recruit_character = KOR_Kim_Hong_il
+	recruit_character = KOR_Song_Hoseong
+	recruit_character = KOR_Oh_Kwangseon
+	recruit_character = KOR_Lee_Beomseok
+	recruit_character = KOR_Kim_Wonbong
+	recruit_character = KOR_Yoon_Seju
 #
 
 #안정도
@@ -31,29 +26,23 @@ set_war_support = 0.05
 
 #국민 정신
 add_ideas = {
-	# KOR_idea_military_dic
-	# KOR_idea_firepower_supremacy
-	# KOR_idea_kia_1
-	# KOR_idea_independence_war_1
-	# KOR_idea_illiteracy_population_1
-	# KOR_idea_the_poor_1
-	# KOR_idea_unstable_industry
+	KOR_idea_military_dic
+	KOR_idea_firepower_supremacy
+	KOR_idea_kia_1
+	KOR_idea_independence_war_1
+	KOR_idea_illiteracy_population_1
+	KOR_idea_the_poor_1
+	KOR_idea_unstable_industry
 
-	limited_conscription
+	volunteer_only
 	closed_economy
-	war_economy
+	# war_economy
 	
 	HoG_Hong_Saik
-	# HoG_vacant
-	# FM_No_One
-	# EM_No_One
-	# SM_No_One
-	# # MM_No_One
-	# IM_No_One
-
-	# KOR_CoA_Ji_Cheongcheon
-	# CoN_No_One
-	# CAF_No_One
+	SM_Vacant
+	EM_Vacant
+	FM_Vacant
+	IM_Vacant
 }
 
 #시작 기술

@@ -215,7 +215,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 107 y = 16 }
+				position = { x = 107 y = 30 }
 				font = "pk_20"
 				text = "autonomy"
 				maxWidth = 200
@@ -226,19 +226,19 @@ guiTypes = {
 			iconType = {
 				name = "autonomy_progress"
 				spriteType = "GFX_subject_progressbar"
-				position = { x = 160 y = 42 }
+				position = { x = 160 y = 53 }
 				frame = 100
 			}
 			
 			buttonType = {
 				name = "prev_autonomy_level"
-				position = { x = 120 y = 3 }
+				position = { x = 120 y = 13 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 			
 			iconType = {
 				name = "prev_level_glow"
-				position = { x = 120 y = -2 }
+				position = { x = 120 y = 8 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -246,20 +246,20 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 115 y = 30 }
+				position = { x = 115 y = 40 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				# alwaystransparent = yes
 			}
 			
 			buttonType = {
 				name = "next_autonomy_level"
-				position = { x = 260 y = 25 }
+				position = { x = 260 y = 35 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 			
 			iconType = {
 				name = "next_level_glow"
-				position = { x = 252 y = -2 }
+				position = { x = 252 y = 8 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes
 				scale = 0.5
@@ -267,22 +267,22 @@ guiTypes = {
 			
 			iconType = {
 				name = "next_autonomy_level_icon"
-				position = { x = 265 y = 30 }
+				position = { x = 265 y = 38 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
 
 			iconType = {
 				name = "continuous_glow"
-				position = { x = 4 y = -2 }
+				position = { x = 182 y = -11 }
 				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
 				alwaystransparent = yes				
-				scale = 0.5
+				scale = 0.40
 			}
 			
 			iconType = {
 				name = "current_autonomy_level_icon"
-				position = { x = 20 y = 10 }
+				position = { x = 191 y = -6 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
 		}
@@ -401,7 +401,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "national_spirit"
 			position = { x = -68 y = 410 }
-			size = { width = 360 height = 50 }
+			size = { width = 360 height = 70 }
 			clipping = no
 						
 			instantTextboxType = {
@@ -419,8 +419,10 @@ guiTypes = {
 				name = "national_spirit_container"
 				position = { x = 82 y = 27 }
 				size = { width = 588 height = 70 }
-				verticalScrollbar = "right_vertical_slider"
 				
+				# verticalScrollbar = "right_vertical_slider"
+				margin = { top = 0 bottom = 0 } #MODDED##
+					
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_window_transparent"
@@ -428,21 +430,23 @@ guiTypes = {
 				
 				gridboxtype = {
 					name = "spirit_grid"
-					position = { x = 12 y = 0 }
+					position = { x = 8 y = 0 }
 					size = { width = 350 height = 100%% }
-					slotsize = { width = 60 height = 70 }
-					max_slots = { x = 10 y = 10 }
+					slotsize = { width = 60 height = 68 }
+					max_slots = { x = 9 y = 1 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
 					name = "spirit_grid_over_defined"
+					position = { x = 8 y = 0 }
 					size = { width = 350 height = 100%% }
-					slotsize = { width = 33 height = 32 }
+					slotsize = { width = 60 height = 68 }
 					max_slots_horizontal = 10
 					format = "UPPER_LEFT"
 				}
 			}
 		}
+
 		iconType = {
 			name = "leader"
 			position = { x = 20 y = 87 }
@@ -459,7 +463,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_name"	
 			position = { x = 20 y = 306 }
-			font = "pk_20"
+			font = "pk_18"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20

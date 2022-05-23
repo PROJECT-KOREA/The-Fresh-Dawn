@@ -17,3 +17,43 @@ JAP_autonomy_check = {
 	has_dlc = "Waking the Tiger"
 	OVERLORD = { original_tag = JAP }
 }
+
+is_warlord = {
+	tag = HPC
+	tag = SHX
+	# tag = SHD
+	tag = GXC
+	# tag = GUD
+	tag = YUN
+	# tag = NXM
+	tag = XSM
+	# tag = SIC
+	# tag = XIK
+	tag = SIK
+	# tag = TNG
+}
+
+is_legit_china = {
+	custom_trigger_tooltip = {
+		tooltip = is_legit_china_tt
+		OR = {
+			tag = event_target:WTT_current_china_leader			
+			AND = {
+				is_subject = no
+				is_literally_china = yes
+				NOT = {
+					country_exists = event_target:WTT_current_china_leader
+				}
+				# NOT = {
+				# 	any_of_scopes = {
+				# 		array = global.literally_china_countries
+				# 		strength_ratio = {
+				# 		    tag = ROOT
+				# 		    ratio > 1
+				# 		}
+				# 	}
+				# }
+			}
+		}
+	}
+}

@@ -148,7 +148,7 @@ COALITION_add_libcon = yes
 COALITION_add_soccon = yes
 COALITION_add_neu = yes
 
-create_faction = JAP_daitoa_shinjitusho
+create_faction = JAP_toa_shinjitusho
 
 set_technology = {
 	infantry_weapons = 1

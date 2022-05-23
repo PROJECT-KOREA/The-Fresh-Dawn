@@ -58,6 +58,10 @@
   #  GGK_radical_socialism_party_long:0 "조선혁명당"
   #  GGK_neutrality_party:0 "대한민국 임시정부"
   #  GGK_neutrality_party_long:0 "대한민국 임시정부"
+  GGK_social_liberalism_party:0 "동우회"
+  GGK_social_liberalism_party_long:0 "동우회"
+  GGK_national_liberalism_party:0 "흥업구락부"
+  GGK_national_liberalism_party_long:0 "흥업구락부"
   GGK_auto_despotism_party:0 "조선총독부"
   GGK_auto_despotism_party_long:0 "조선총독부"
  #
@@ -71,10 +75,10 @@
   JAP_radical_socialism_party_long:0 "일본공산당"
   JAP_social_democracy_party:0 "사회대중당"
   JAP_social_democracy_party_long:0 "사회대중당"
-  JAP_social_liberal_party:0 "입헌민정당"
-  JAP_social_liberal_party_long:0 "입헌민정당"
-  JAP_national_liberal_party:0 "입헌민정당"
-  JAP_national_liberal_party_long:0 "입헌민정당"
+  JAP_social_liberalism_party:0 "입헌민정당"
+  JAP_social_liberalism_party_long:0 "입헌민정당"
+  JAP_national_liberalism_party:0 "입헌민정당"
+  JAP_national_liberalism_party_long:0 "입헌민정당"
   JAP_liberal_conservatism_party:0 "쇼와회"
   JAP_liberal_conservatism_party_long:0 "쇼와회"
   JAP_democratic_party:0 "정우회 탈당파"
@@ -123,3 +127,9 @@
  #독일
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "국가사회주의독일노동자당"
+
+ #덴마크
+ DEN_social_democracy_party:0 "사회민주당"
+ DEN_social_democracyparty_long:0 "사회민주당"
+ DEN_democratic_party:0 "사회보수주의"
+ DEN_democratic_party_long:0 "사회보수주의"

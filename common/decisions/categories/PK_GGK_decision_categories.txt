@@ -14,5 +14,11 @@ GGK_provisional_government_decision = {
 		original_tag = GGK
 	}
 
-	# priority = 100
+	priority = {
+		base = 0
+		modifier = {
+			add = 100
+			has_country_flag = GGK_flag_ki_yes
+		}
+	}
 }

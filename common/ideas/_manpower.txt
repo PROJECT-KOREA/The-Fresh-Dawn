@@ -19,9 +19,9 @@ ideas = {
 			modifier = {
 				conscription = 0.001 				# 징병 인구 0.1%
 				stability_factor = 0.1 				# 안정도 +10%
-				political_power_gain = 0.25			# 정치력 획득 +0.25
-				industrial_capacity_factory = 0.2	# 공장 생산량 +10%
-				industrial_capacity_dockyard = 0.2	# 조선소 생산량 +10%
+				political_power_gain = 0.2			# 정치력 획득 +0.25
+				industrial_capacity_factory = 0.1	# 공장 생산량 +10%
+				industrial_capacity_dockyard = 0.1	# 조선소 생산량 +10%
 			}
 			
 			cancel_if_invalid = no
@@ -58,10 +58,10 @@ ideas = {
 
 			modifier = {
 				conscription = 0.01 				# 징병 인구 1%
-				stability_factor = 0.1 				# 안정도 +5%
-				political_power_gain = 0.25			# 정치력 획득 +0.15
-				army_org_factor = 0.1				# 사단 조직률 +10%
-				army_morale_factor = 0.1			# 사단 회복률 +10%
+				stability_factor = 0.05 			# 안정도 +5%
+				political_power_gain = 0.15			# 정치력 획득 +0.15
+				army_org_factor = 0.05				# 사단 조직률 +10%
+				army_morale_factor = 0.05			# 사단 회복률 +10%
 				industrial_capacity_factory = 0.05	# 공장 생산량 +5%
 				industrial_capacity_dockyard = 0.05	# 조선소 생산량 +5%
 			}

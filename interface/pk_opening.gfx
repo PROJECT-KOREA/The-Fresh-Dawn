@@ -40,8 +40,8 @@ spriteTypes = {
 
 	# Backgrounds
 	spriteType = {
-		name = "GFX_intro_bg"
-		textureFile = "gfx/interface/opening_screen/intro_bg.dds"
+		name = "GFX_opening_bg"
+		textureFile = "gfx/interface/opening_screen/opening_bg.dds"
 	}
 	spriteType = {
 		name = "GFX_TNO_Closing_BG"

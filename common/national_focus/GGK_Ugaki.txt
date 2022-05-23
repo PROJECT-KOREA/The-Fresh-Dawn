@@ -10,13 +10,15 @@ focus_tree = {
 		}
 	}
 
-	continuous_focus_position = { x = 20 y = 1500 }
+	continuous_focus_position = { x = 20 y = 600 }
+
+	shared_focus = GGK_chosen_tetsudo
 
 	#총독부 조직 개편
     focus = {
 		id = GGK_focus_reform_government
 		icon = GFX_focus_reform_government
-		x = 0
+		x = 4
 		y = 0
 		cost = 5
 
@@ -25,104 +27,214 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
 		}
 	}
 
-	# #내선융합
-    # focus = {
-	# 	id = GGK_focus_naisen_yuugou
-	# 	icon = GFX_focus_naisen_yuugou
-	# 	relative_position_id = GGK_focus_reform_government
-	# 	x = -1
-	# 	y = 1
-	# 	cost = 5
+	#내선융합
+    focus = {
+		id = GGK_focus_naisen_yuugou
+		icon = GFX_focus_naisen_yuugou
+		relative_position_id = GGK_focus_reform_government
+		x = -1
+		y = 1
+		cost = 20
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_reform_government
-	# 	}
+		available = { always = no }
 
-	# 	completion_reward = {
-	# 		# add_ideas = 
-	# 		# add_autonomy_score = {
-	# 		# 	value = -50
-	# 		# 	localization = GGK_focus_naisen_yuugou
-	# 		# }
-	# 		# add_ideas = GGK_idea_naisen_yuugou
-	# 	}
-	# }
+		prerequisite = {
+			focus = GGK_focus_reform_government
+		}
 
-	# #황민화 정책
-    # focus = {
-	# 	id = GGK_focus_kouminka_seisaku
-	# 	icon = GFX_focus_jap_spiritual_mobilization
-	# 	relative_position_id = GGK_focus_naisen_yuugou
-	# 	x = 0
-	# 	y = 1
-	# 	cost = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GGK_idea_naisen_yuugou1
+				add_idea = GGK_idea_naisen_yuugou2
+			}
+		}
+	}
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_naisen_yuugou
-	# 	}
+	#황민화 정책
+    focus = {
+		id = GGK_focus_kouminka_seisaku
+		icon = GFX_focus_jap_spiritual_mobilization
+		relative_position_id = GGK_focus_naisen_yuugou
+		x = -2
+		y = 1
+		cost = 15
 
-	# 	completion_reward = {
+		prerequisite = {
+			focus = GGK_focus_naisen_yuugou
+		}
+
+		completion_reward = {
 			
-	# 	}
-	# }
+		}
+	}
 
-	# #농공병진정책 확대
-    # focus = {
-	# 	id = GGK_focus_noukou_heisin
-	# 	icon = GFX_goal_generic_construct_civilian
-	# 	relative_position_id = GGK_focus_reform_government
-	# 	x = 1
-	# 	y = 1
-	# 	cost = 10
+	#독립운동 탄압
+    focus = {
+		id = GGK_focus_crack_down_im
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		relative_position_id = GGK_focus_naisen_yuugou
+		x = 0
+		y = 1
+		cost = 15
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_reform_government
-	# 	}
+		prerequisite = {
+			focus = GGK_focus_naisen_yuugou
+		}
 
-	# 	completion_reward = {
+		completion_reward = {
+			add_stability = -0.15
+			add_popularity = {
+				ideology = auto_despotism
+				popularity = 0.1
+			}
+		}
+	}
+
+	#불령단체 해산
+    focus = {
+		id = GGK_focus_breakup_futei_organization
+		icon = GFX_focus_generic_strike_at_democracy2
+		relative_position_id = GGK_focus_crack_down_im
+		x = 0
+		y = 1
+		cost = 15
+
+		prerequisite = {
+			focus = GGK_focus_crack_down_im
+		}
+
+		completion_reward = {
 			
-	# 	}
-	# }
+		}
+	}
 
-	# #남면북양 정책
-    # focus = {
-	# 	id = GGK_focus_nanmen_hokuyou
-	# 	icon = GFX_goal_generic_consumer_goods
-	# 	relative_position_id = GGK_focus_noukou_heisin
-	# 	x = 0
-	# 	y = 2
-	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_noukou_heisin
-	# 	}
+	#농공병진정책 확대
+    focus = {
+		id = GGK_focus_noukou_heisin
+		icon = GFX_goal_generic_construct_civilian
+		relative_position_id = GGK_focus_reform_government
+		x = 1
+		y = 1
+		cost = 5
 
-	# 	completion_reward = {
-			
-	# 	}
-	# }
+		prerequisite = {
+			focus = GGK_focus_reform_government
+		}
 
-	# #중화학 공업지대 확장
-    # focus = {
-	# 	id = GGK_focus_accelerate_industrialization
-	# 	icon = GFX_goal_generic_construct_civ_factory
-	# 	relative_position_id = GGK_focus_noukou_heisin
-	# 	x = 1
-	# 	y = 1
-	# 	cost = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GGK_idea_noukou_heishin1
+				add_idea = GGK_idea_noukou_heishin2
+			}
+		}
+	}
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_noukou_heisin
-	# 	}
+	#남면북양 정책
+    focus = {
+		id = GGK_focus_nanmen_hokuyou
+		icon = GFX_goal_generic_consumer_goods
+		relative_position_id = GGK_focus_noukou_heisin
+		x = 0
+		y = 2
+		cost = 10
 
-	# 	completion_reward = {
-			
-	# 	}
-	# }
+		prerequisite = {
+			focus = GGK_focus_noukou_heisin
+		}
+
+		completion_reward = {
+			836 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			837 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			845 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#병참기지화 가속
+    focus = {
+		id = GGK_focus_accelerate_industrialization
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = GGK_focus_noukou_heisin
+		x = 1
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_noukou_heisin
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GGK_idea_heitan_kichika1
+				add_idea = GGK_idea_heitan_kichika2
+			}
+		}
+	}
+
+	#기반시설 정비
+    focus = {
+		id = GGK_focus_maintain_infra
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = GGK_focus_accelerate_industrialization
+		x = 1
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GGK_focus_accelerate_industrialization
+		}
+
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 835
+						state = 836
+						state = 527
+						state = 840
+						state = 844
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			# 835 = {
+			# 	add_building_construction = {
+			# 		type = infrastructure
+			# 		level = 1
+			# 		instant_build = yes
+			# 	}
+			# }
+		}
+	}
 
 	# #정보기관 확대
     # focus = {

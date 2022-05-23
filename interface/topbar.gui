@@ -147,10 +147,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="manpower"
-			position = { x= 411 y = 9 }
+			position = { x= 416 y = 9 }
 			font = "pk_18"
 			text = "9999"
-			format = right
+			format = center
 			maxWidth = 70
 			maxHeight = 24
 			fixedsize = yes

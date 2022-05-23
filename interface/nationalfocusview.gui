@@ -421,25 +421,27 @@ guiTypes = {
 		buttonType = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
-			position = { x= 5 y = 40 }			
+			position = { x = 5 y = 50 }			
 		}
 		
 		buttonType = {
 			name = "symbol"
-			position = { x = 40 y = -18 }
+			position = { x = 45 y = -40 }
 			quadTextureSprite = "GFX_goal_unknown"
+			centerposition = yes
+			Orientation = CENTER
 		}
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 15 y = 58 }
+			position = { x = 11 y = 63 }
 			font = "hoi_18mbs"
 			text = ""
 			maxWidth = 145
 			maxHeight = 20
 			format = center
 			vertical_alignment = center 			
-			alwaystransparent = yes
+			# alwaystransparent = yes
 		}
 		
 		iconType = {
@@ -488,7 +490,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "symbol"
-			position = { x = 5 y = -44 }
+			position = { x = 4 y = -46 }
 			quadTextureSprite = "GFX_goal_unknown"
 			centerposition = yes
 			Orientation = CENTER
@@ -674,9 +676,9 @@ guiTypes = {
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 42 y = 88 }
+			position = { x = 58 y = 88 }
 			spriteType = "GFX_goal_unknown"
-			alwaystransparent = yes
+			# alwaystransparent = yes
 		}
 		iconType = {
 			name = "prerequisites_bg"
@@ -829,20 +831,21 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 30 y = 12 }
+			position = { x = 30 y = 15 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "pk_22"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 450
 			maxHeight = 30
-			format = center		
+			format = center
+			fixedsize = yes		
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 42 y = 88 }
+			position = { x = 58 y = 88 }
 			spriteType = "GFX_goal_unknown"
-			alwaystransparent = yes
+			# alwaystransparent = yes
 		}
 		iconType = {
 			name = "prerequisites_bg"
@@ -892,13 +895,13 @@ guiTypes = {
 
 		iconType = {
 			name = "reward_bg"
-			position = { x = 84 y = 358 }
+			position = { x = 84 y = 363 }
 			spriteType = "GFX_unit_list_header"
 		}		
 		
 		instantTextboxType = {
 			name = "reward_label"
-			position = { x = 34 y = 365 }
+			position = { x = 34 y = 370 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}

@@ -11,14 +11,14 @@ defined_text = {
 	name = GetNewsIcon
 	text = {
 		trigger = {
-			TAG = GER
+			tag = GER
 			has_government = fascism
 		}
 		localization_key = PK_NEWS.GER
 	}
 	text = {
 		trigger = {
-			TAG = GER
+			tag = GER
 			has_government = neutrality
 		}
 		localization_key = PK_NEWS.KAS
@@ -26,8 +26,8 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				TAG = GER
-				TAG = DDR
+				tag = GER
+				tag = DDR
 			}
 			has_government = communism
 		}
@@ -36,8 +36,8 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				TAG = GER
-				TAG = WGR
+				tag = GER
+				tag = WGR
 			}
 			has_government = democratic
 		}
@@ -45,13 +45,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			TAG = SOV
+			tag = SOV
 		}
 		localization_key = PK_NEWS.SOV
 	}
 	text = {
 		trigger = {
-			TAG = SOV
+			tag = SOV
 			NOT = {
 				has_government = communism
 			}
@@ -60,19 +60,19 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			TAG = USA
+			tag = USA
 		}
 		localization_key = PK_NEWS.USA
 	}
 	text = {
 		trigger = {
-			TAG = ENG
+			tag = ENG
 		}
 		localization_key = PK_NEWS.ENG
 	}
 	text = {
 		trigger = {
-			TAG = FRA
+			tag = FRA
 			NOT = {
 				has_government = fascism
 			}
@@ -81,7 +81,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			TAG = FRA
+			tag = FRA
 			has_government = fascism
 		}
 		localization_key = PK_NEWS.VIC
@@ -142,14 +142,25 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			TAG = KOR
+			tag = KOR
 		}
 		localization_key = PK_NEWS.KOR
 	}
 	text = {
 		trigger = {
+			tag = GGK
+        	has_country_flag = GGK_flag_ki_yes
+		}
+		localization_key = PK_NEWS.GGK_KOR
+	}
+	text = {
+		trigger = { tag = GGK }
+		localization_key = PK_NEWS.GGK
+	}
+	text = {
+		trigger = {
 			OR = {
-				TAG = JAP
+				tag = JAP
 				AND = {
 					is_subject_of = JAP
 					any_owned_state = {
@@ -164,85 +175,85 @@ defined_text = {
 
 	text = {
 		trigger = {
-			TAG = ITA
+			tag = ITA
 		}
 		localization_key = PK_NEWS.ITA
 	}
 	#text = {
 	#	trigger = {
-	#		TAG = SWE
+	#		tag = SWE
 	#	}
 	#	localization_key = PK_NEWS.SWE
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = FIN
+	#		tag = FIN
 	#	}
 	#	localization_key = PK_NEWS.FIN
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = SPA
+	#		tag = SPA
 	#	}
 	#	localization_key = PK_NEWS.SPA
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = CAN
+	#		tag = CAN
 	#	}
 	#	localization_key = PK_NEWS.CAN
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = ROM
+	#		tag = ROM
 	#	}
 	#	localization_key = PK_NEWS.ROM
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = HUN
+	#		tag = HUN
 	#	}
 	#	localization_key = PK_NEWS.HUN
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = BUL
+	#		tag = BUL
 	#	}
 	#	localization_key = PK_NEWS.BUL
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = CRO
+	#		tag = CRO
 	#	}
 	#	localization_key = PK_NEWS.CRO
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = GRE
+	#		tag = GRE
 	#	}
 	#	localization_key = PK_NEWS.GRE
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = DEN
+	#		tag = DEN
 	#	}
 	#	localization_key = PK_NEWS.DEN
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = NOR
+	#		tag = NOR
 	#	}rc
 	#	localization_key = PK_NEWS.NOR
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = IRE
+	#		tag = IRE
 	#	}
 	#	localization_key = PK_NEWS.IRE
 	#}
 	#text = {
 	#	trigger = {
-	#		TAG = POR
+	#		tag = POR
 	#	}
 	#	localization_key = PK_NEWS.POR
 	#}

@@ -4,6 +4,12 @@ spriteTypes = {
 
 	#공석
 	spriteType = {
+		name = "GFX_idea_minister"
+		texturefile = "gfx/interface/ideas/minister.dds"
+	}
+
+	#공석
+	spriteType = {
 		name = "GFX_idea_vacant"
 		texturefile = "gfx/interface/ideas/vacant.dds"
 	}
@@ -20,12 +26,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GGK/GGK_Imaida_Kiyonori.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_minister_Ono_Rokuichiro"
+		texturefile = "gfx/interface/ideas/GGK/GGK_Ono_Rokuichiro.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_minister_Ushijima_Shozo"
 		texturefile = "gfx/interface/ideas/GGK/GGK_Ushijima_Shozo.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_minister_Hayashi_Shigezo"
 		texturefile = "gfx/interface/ideas/GGK/GGK_Hayashi_shigezo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minister_Ikeda_Kiyoshi"
+		texturefile = "gfx/interface/ideas/GGK/GGK_Ikeda_Kiyoshi.dds"
 	}
 
 	# 중화민국 #

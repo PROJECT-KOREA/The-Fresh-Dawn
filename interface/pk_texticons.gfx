@@ -129,6 +129,16 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_ggk_news"
+		texturefile = "gfx/texticons/ggk_news.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_kpg_news"
+		texturefile = "gfx/texticons/kpg_news.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_italian_news"
 		texturefile = "gfx/texticons/italian_news.dds"
 		legacy_lazy_load = no

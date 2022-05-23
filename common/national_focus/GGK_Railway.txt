@@ -1,0 +1,39 @@
+shared_focus = {
+	id = GGK_chosen_tetsudo
+	icon = GFX_focus_chosen_tetsudo
+	# prerequisite = { focus = }
+	# mutually_exclusive = { focus =  }
+	x = 11
+	y = 0
+	
+	offset = {
+		x = 4
+		y = 0
+		# trigger = { tag = PRC }
+	}
+
+	cost = 10
+
+	ai_will_do = { factor = 1 }
+
+	available = {
+
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+		custom_effect_tooltip = available_industrial_concern
+		show_ideas_tooltip = GGK_chosen_tetsudo_corp
+	}
+}

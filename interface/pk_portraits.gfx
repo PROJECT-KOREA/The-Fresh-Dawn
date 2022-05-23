@@ -14,6 +14,12 @@ spriteTypes = {
 			name = "GFX_Portrait_Imaida_Kiyonori"
 			texturefile = "gfx/leaders/JAP_colony/Portrait_Imaida_Kiyonori.dds"
 		}
+
+		#오노 로쿠이치로
+		spriteType = {
+			name = "GFX_Portrait_Ono_Rokuichiro"
+			texturefile = "gfx/leaders/JAP_colony/Portrait_Ono_Rokuichiro.dds"
+		}
 	#
 		
 	### 중화민국 국민정부 ###

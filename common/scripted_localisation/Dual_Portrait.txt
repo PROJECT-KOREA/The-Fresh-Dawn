@@ -11,14 +11,25 @@ defined_text = {
 		localization_key = GFX_Portrait_Okada_Keisuke
 	}
 
-	#일본령 조선 - 이마이다 키요노리
-	text = {
-        trigger = {
-			tag = GGK
-			has_idea = HoG_Imaida_Kiyonori
+	### 일본령 조선 ###
+		# 이마이다 키요노리
+		text = {
+			trigger = {
+				tag = GGK
+				has_idea = HoG_Imaida_Kiyonori
+			}
+			localization_key = GFX_Portrait_Imaida_Kiyonori
 		}
-		localization_key = GFX_Portrait_Imaida_Kiyonori
-	}
+
+		# 오노 로쿠이치로
+		text = {
+			trigger = {
+				tag = GGK
+				has_idea = HoG_Ono_Rokuichiro
+			}
+			localization_key = GFX_Portrait_Ono_Rokuichiro
+		}
+	#
 
 	#중화민국 국민정부 - 장제스
 	text = {
