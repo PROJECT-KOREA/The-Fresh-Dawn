@@ -1,0 +1,65 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+#####################################
+### emergency_factory_conversion ####
+#####################################
+
+#This is going to give misleading and ugly tooltips. Making it nice will take effort. TODO_WTT_CD make nice or ignore and remove comment. Easiest solution is just making a custom tooltip that says "5 civilian factories will be converted to military factories" and ignore telling the player the states where it will happen.
+
+ROOT_army_leaders_join_FROM = {
+	every_army_leader = {
+		limit = {
+			OWNER = { TAG = ROOT }
+		}
+		set_unit_leader_flag = allegiance_to_@ROOT #return when wars break out
+		set_nationality = FROM
+	}
+	every_unit_leader = {
+		limit = {
+			OWNER = { TAG = ROOT }
+		}
+		set_unit_leader_flag = allegiance_to_@ROOT #return when wars break ou
+		set_nationality = FROM
+	}
+	set_global_flag = joined_chi_@ROOT
+}
+
+FROM_army_leaders_join_ROOT = {
+	every_army_leader = {
+		limit = {
+			OWNER = { TAG = FROM }
+		}
+		set_unit_leader_flag = allegiance_to_@FROM #return when wars break out
+		set_nationality = ROOT
+	}
+	every_unit_leader = {
+		limit = {
+			OWNER = { TAG = FROM }
+		}
+		set_unit_leader_flag = allegiance_to_@FROM #return when wars break ou
+		set_nationality = ROOT
+	}
+	set_global_flag = joined_chi_@FROM
+}
+
+# del_hos2 = {
+# 	hidden_effect = {
+# 		remove_ideas_with_trait = vice_hos
+# 	}
+# }

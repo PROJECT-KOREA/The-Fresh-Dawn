@@ -1,0 +1,411 @@
+#총독부 조직 개편
+shared_focus = {
+	id = GGK_focus_reform_government
+	icon = GFX_focus_reform_government
+	x = 6
+	y = 0
+	offset = {
+		x = 8
+		y = 0
+		trigger = {
+			has_country_leader = {
+				name = "미나미 지로"
+				ruling_only = yes
+			}
+		}
+	}
+	cost = 15
+
+	available = {
+		
+	}
+
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+
+#병참기지화 가속
+shared_focus = {
+	id = GGK_focus_accelerate_industrialization
+	icon = GFX_goal_generic_construct_civ_factory
+	relative_position_id = GGK_focus_reform_government
+	x = -4
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_reform_government
+	}
+
+	completion_reward = {
+		if = {
+			limit = { has_idea = GGK_idea_heitan_kichika1 }
+			swap_ideas = {
+				remove_idea = GGK_idea_heitan_kichika1
+				add_idea = GGK_idea_heitan_kichika2
+			}
+		}
+		if = {
+			limit = { has_idea = GGK_idea_heitan_kichika1_inf }
+			swap_ideas = {
+				remove_idea = GGK_idea_heitan_kichika1_inf
+				add_idea = GGK_idea_heitan_kichika2_inf
+			}
+		}
+	}
+}
+
+#남면북양 정책
+shared_focus = {
+	id = GGK_focus_nanmen_hokuyou
+	icon = GFX_goal_generic_consumer_goods
+	relative_position_id = GGK_focus_accelerate_industrialization
+	x = -1
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_accelerate_industrialization
+	}
+
+	completion_reward = {
+		843 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		837 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#흥남공업단지
+shared_focus = {
+	id = GGK_focus_heungnam_industry
+	icon = GFX_focus_kounan_industry
+	relative_position_id = GGK_focus_nanmen_hokuyou
+	x = 0
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_nanmen_hokuyou
+	}
+
+	completion_reward = {
+		836 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#군수시설 확충
+shared_focus = {
+	id = GGK_focus_expand_mil
+	icon = GFX_goal_generic_construct_mil_factory
+	relative_position_id = GGK_focus_accelerate_industrialization
+	x = 1
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_accelerate_industrialization
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#인천 부평조병창
+shared_focus = {
+	id = GGK_focus_jinsen_arsenal
+	icon = GFX_focus_jinsen_arsenal
+	relative_position_id = GGK_focus_expand_mil
+	x = 0
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_expand_mil
+	}
+
+	completion_reward = {
+		525 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+
+#기반시설 정비
+shared_focus = {
+	id = GGK_focus_maintain_infra
+	icon = GFX_goal_generic_construct_infrastructure
+	relative_position_id = GGK_focus_reform_government
+	x = 0
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_reform_government
+	}
+
+	completion_reward = {
+		every_state = {
+			limit = {
+				OR = {
+					state = 525
+					state = 527
+					state = 840	
+				}
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		if = {
+			limit = { has_idea = GGK_idea_heitan_kichika1 }
+			swap_ideas = {
+				remove_idea = GGK_idea_heitan_kichika1
+				add_idea = GGK_idea_heitan_kichika1_inf
+			}
+		}
+		if = {
+			limit = { has_idea = GGK_idea_heitan_kichika2 }
+			swap_ideas = {
+				remove_idea = GGK_idea_heitan_kichika2
+				add_idea = GGK_idea_heitan_kichika2_inf
+			}
+		}
+		# 835 = {
+		# 	add_building_construction = {
+		# 		type = infrastructure
+		# 		level = 1
+		# 		instant_build = yes
+		# 	}
+		# }
+	}
+}
+
+#대경성계획
+shared_focus = {
+	id = GGK_focus_great_keijo_plan
+	icon = GFX_focus_keijo
+	relative_position_id = GGK_focus_maintain_infra
+	x = 0
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_maintain_infra
+	}
+
+	completion_reward = {
+		847 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_manpower = 20000
+		}
+	}
+}
+
+#부산 도시계획
+shared_focus = {
+	id = GGK_focus_busan_city_plan
+	icon = GFX_focus_fuzan
+	relative_position_id = GGK_focus_maintain_infra
+	x = 2
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_maintain_infra
+	}
+
+	completion_reward = {
+		843 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_manpower = 15000
+		}
+	}
+}
+
+#나진항 개발
+shared_focus = {
+	id = GGK_focus_najin_port
+	icon = GFX_focus_najin
+	relative_position_id = GGK_focus_great_keijo_plan
+	x = 1
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_great_keijo_plan
+	}
+
+	completion_reward = {
+		country_event = { id = ggk_internal.1 }
+		custom_effect_tooltip = najin_tt
+	}
+}
+
+#경성신비행장
+shared_focus = {
+	id = GGK_focus_keijo_new_airfield
+	icon = GFX_goal_generic_air_fighter
+	relative_position_id = GGK_focus_great_keijo_plan
+	x = -1
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_great_keijo_plan
+	}
+
+	prerequisite = {
+		focus = GGK_focus_expand_mil
+	}
+
+	completion_reward = {
+		525 = {
+			add_building_construction = {
+				type = air_base
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+
+#전국 철도망 재정비
+shared_focus = {
+	id = GGK_focus_chosen_tetsudo
+	icon = GFX_focus_chosen_tetsudo
+	relative_position_id = GGK_focus_reform_government
+	x = 4
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_reform_government
+	}
+
+	completion_reward = {
+		custom_effect_tooltip = available_industrial_concern
+		show_ideas_tooltip = GGK_chosen_tetsudo_corp
+	}
+}
+
+#경부선 철도 복선화
+shared_focus = {
+	id = GGK_focus_keifusen_duplication
+	icon = GFX_focus_keifu_double
+	relative_position_id = GGK_focus_chosen_tetsudo
+	x = 0
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_chosen_tetsudo
+	}
+}
+
+#평원선
+shared_focus = {
+	id = GGK_focus_heigensen
+	icon = GFX_focus_heigensen
+	relative_position_id = GGK_focus_keifusen_duplication
+	x = -1
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_keifusen_duplication
+	}
+}
+
+#함경선
+shared_focus = {
+	id = GGK_focus_kenkyosen
+	icon = GFX_focus_kankyosen
+	relative_position_id = GGK_focus_keifusen_duplication
+	x = 1
+	y = 1
+	cost = 10
+
+	prerequisite = {
+		focus = GGK_focus_keifusen_duplication
+	}
+}

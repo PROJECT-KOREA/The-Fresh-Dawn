@@ -1,27 +1,18 @@
 leader_traits = {
 
-	### 장관 직책 ###
+	### 장관 특성 ###
 
-	# 기본 #
-	hog = { random = no } 	 #정부수반
-	secmin = { random = no } #내무장관
-	ecomin = { random = no } #재무장관
-	frnmin = { random = no } #외무장관
-	intmin = { random = no } #정보장관
+		#온화한 신사
+		mild_gentleman = {
+			political_power_gain = 0.03
+			stability_factor = 0.1
+			
+			random = no
+		}
 
-	# 일본 제국 #
-	hog_jap = { random = no } 	 #내각총리대신
-	secmin_jap = { random = no } #내무대신
-	ecomin_jap = { random = no } #대장대신
-	frnmin_jap = { random = no } #외무대신
-	intmin_jap = { random = no } #경보국장
-
-
-	## 장관 특성 ##
-		#신사적인 정치인
-		gentleman_politician = {
-			political_power_gain = 0.05
-			stability_factor = 0.07
+		#열정적인 중재자
+		passionate_moderator = {
+			political_power_factor = 0.05
 			
 			random = no
 		}
@@ -29,15 +20,14 @@ leader_traits = {
 		#언론계 거물
 		media_magnate = {
 			political_power_gain = 0.05
-			war_support_factor = 0.05
+			party_popularity_stability_factor = 0.15
 			
 			random = no
 		}
 
 		#노련한 정객
 		veteran_politician = {
-			political_power_gain = 0.10
-			stability_factor = 0.05
+			political_power_factor = 0.125
 			
 			random = no
 		}

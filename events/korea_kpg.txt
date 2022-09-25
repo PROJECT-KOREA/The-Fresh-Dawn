@@ -89,22 +89,17 @@ country_event = {
             name = KOR_national_conservatism_party_kip
         }
         COALITION_add_natcon = yes
-        set_party_name = { 
-            ideology = democratic
-            long_name = KOR_democratic_party_kip_long
-            name = KOR_democratic_party_kip
-        }
         COALITION_add_soccon = yes
         set_party_name = { 
             ideology = radical_socialism
-            long_name = KOR_radical_socialism_party_krp_long
-            name = KOR_radical_socialism_party_krp
+            long_name = KOR_radical_socialism_party_knrp_long
+            name = KOR_radical_socialism_party_knrp
         }
         COALITION_add_radsoc = yes
         set_party_name = { 
             ideology = auth_socialism
-            long_name = KOR_auth_socialism_party_krp
-            name = KOR_auth_socialism_party_krp
+            long_name = KOR_auth_socialism_party_kia
+            name = KOR_auth_socialism_party_kia
         }
         COALITION_add_autsoc = yes
         hidden_effect = {
@@ -121,11 +116,12 @@ country_event = {
                 fascism = 2
             }
             add_ideas = {
-                HoG_Kim_Kyusik_kpg
-                SM_Hong_Jin_kpg
-                EM_Song_Byeongjo_kpg
-                FM_Cho_Soang_kpg
-                MM_Ryu_Dongyol_kpg
+                HoS2_vacant
+                HoG_Kim_Kyusik
+                SM_Hong_Jin
+                EM_Song_Byeongjo
+                FM_Cho_Soang
+                # MM_Ryu_Dongyol
             }
         }
     }

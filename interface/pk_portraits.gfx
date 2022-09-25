@@ -68,6 +68,14 @@ spriteTypes = {
 			texturefile = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
 		}
 		spriteType = {
+			name = "GFX_Portrait_Chang_Deoksu"
+			texturefile = "gfx/leaders/KOR/Portrait_Chang_Deoksu.dds"
+		}
+		spriteType = {
+			name = "GFX_Portrait_Lee_Yoonyoung"
+			texturefile = "gfx/leaders/KOR/Portrait_Lee_Yoonyoung.dds"
+		}
+		spriteType = {
 			name = "GFX_Portrait_Kim_Kyusik"
 			texturefile = "gfx/leaders/KOR/Portrait_Kim_Kyusik.dds"
 		}

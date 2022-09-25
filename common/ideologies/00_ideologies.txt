@@ -26,7 +26,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 160 0 00 }
+		color = { 160 0 0 }
 		
 		ai_neutral = yes
 		
@@ -158,7 +158,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 175 40 75 }
+		color = { 200 60 90 }
 		
 		rules = {
 			can_force_government = no
@@ -202,7 +202,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 225 75 0 }
+		color = { 240 125 50 }
 		
 		rules = {
 			can_force_government = no
@@ -432,7 +432,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 100 100 100 }
+		color = { 125 125 125 }
 		
 		war_impact_on_world_tension = 0.6	#no major danger
 		faction_impact_on_world_tension = 0.1

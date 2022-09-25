@@ -24,9 +24,8 @@ state = {
 			4056 = { naval_base = 3 } #부산
 		}
 
-		victory_points = { 4056 10 } #부산(후잔)
-
-		# victory_points = { 13252 10 } #마산(바산)
+		victory_points = { 4056 8 } #부산(후잔)
+		victory_points = { 13252 3 } #마산(바산)
 	}
 
 	# resources = { steel = 40 }

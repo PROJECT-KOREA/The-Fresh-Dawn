@@ -918,7 +918,7 @@
 			font = "pk_20"
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 820
-			maxHeight = 500	
+			maxHeight = 200	
 			format = left
 		}
 	}

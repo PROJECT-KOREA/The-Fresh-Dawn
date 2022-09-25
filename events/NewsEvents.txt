@@ -10348,7 +10348,7 @@ news_event = {
 news_event = {
 	id = news.260
 	title = news.260.t
-	desc = news.260.descesc
+	desc = news.260.desc
 	picture = GFX_news_event_south_africa_patrol
 	
 	major = yes
@@ -10388,7 +10388,7 @@ news_event = {
 news_event = {
 	id = news.261
 	title = news.261.t
-	desc = news.261.descesc
+	desc = news.261.desc
 	picture = GFX_news_event_kenya_army
 	
 	major = yes
@@ -10428,7 +10428,7 @@ news_event = {
 news_event = {
 	id = news.262
 	title = news.262.t
-	desc = news.262.descesc
+	desc = news.262.desc
 	picture = GFX_news_event_saf_civil_war
 	
 	major = yes
@@ -10469,7 +10469,7 @@ news_event = {
 news_event = {
 	id = news.263
 	title = news.263.t
-	desc = news.263.descesc
+	desc = news.263.desc
 	picture = GFX_news_event_generic_riot
 	
 	major = yes
@@ -10514,7 +10514,7 @@ news_event = {
 news_event = {
 	id = news.264
 	title = news.264.t
-	desc = news.264.descesc
+	desc = news.264.desc
 	picture = GFX_news_event_stalin_meeting
 	
 	major = yes
@@ -10560,7 +10560,7 @@ news_event = {
 news_event = {
 	id = news.265
 	title = news.265.t
-	desc = news.265.descesc
+	desc = news.265.desc
 	picture = GFX_news_event_stalin_meeting
 	
 	major = yes
@@ -10597,7 +10597,7 @@ news_event = {
 news_event = {
 	id = news.270
 	title = news.270.t
-	desc = news.270.descesc
+	desc = news.270.desc
 	picture = GFX_news_event_glorious_vehicle
 	
 	major = yes
@@ -10634,7 +10634,7 @@ news_event = {
 news_event = {
 	id = news.271
 	title = news.271.t
-	desc = news.271.descesc
+	desc = news.271.desc
 	picture = GFX_news_event_glorious_vehicle
 	
 	major = yes
@@ -10667,7 +10667,7 @@ news_event = {
 news_event = {
 	id = news.272
 	title = news.272.t
-	desc = news.272.descesc
+	desc = news.272.desc
 	picture = GFX_news_event_indian_famine
 	
 	major = yes
@@ -10701,7 +10701,7 @@ news_event = {
 news_event = {
 	id = news.273
 	title = news.273.t
-	desc = news.273.descesc
+	desc = news.273.desc
 	picture = GFX_news_event_indian_famine
 	
 	major = yes
@@ -10727,7 +10727,7 @@ news_event = {
 news_event = {
 	id = news.280
 	title = news.280.t
-	desc = news.280.descesc
+	desc = news.280.desc
 	picture = GFX_news_event_bose_meeting
 	
 	major = yes
@@ -10781,7 +10781,7 @@ news_event = {
 news_event = {
 	id = news.281
 	title = news.281.t
-	desc = news.281.descesc
+	desc = news.281.desc
 	picture = GFX_news_event_bose
 	
 	major = yes
@@ -10835,7 +10835,7 @@ news_event = {
 news_event = {
 	id = news.282
 	title = news.282.t
-	desc = news.282.descesc
+	desc = news.282.desc
 	picture = GFX_news_event_quit_india_movement
 	
 	major = yes
@@ -10864,7 +10864,7 @@ news_event = {
 news_event = {
 	id = news.283
 	title = news.283.t
-	desc = news.283.descesc
+	desc = news.283.desc
 	picture = GFX_news_event_india_protests
 	
 	major = yes
@@ -10893,7 +10893,7 @@ news_event = {
 news_event = {
 	id = news.284
 	title = news.284.t
-	desc = news.284.descesc
+	desc = news.284.desc
 	picture = GFX_news_event_india_protests2
 	
 	major = yes
@@ -10922,7 +10922,7 @@ news_event = {
 news_event = {
 	id = news.285
 	title = news.285.t
-	desc = news.285.descesc
+	desc = news.285.desc
 	picture = GFX_news_event_partition_of_india
 	
 	major = yes
@@ -10958,7 +10958,7 @@ news_event = {
 news_event = {
 	id = news.286
 	title = news.286.t
-	desc = news.286.descesc
+	desc = news.286.desc
 	picture = GFX_news_event_ast_parliament_house
 	
 	major = yes
@@ -10995,7 +10995,7 @@ news_event = {
 news_event = {
 	id = news.287
 	title = news.287.t
-	desc = news.287.descesc
+	desc = news.287.desc
 	picture = GFX_news_event_006
 	
 	major = yes
@@ -11038,7 +11038,7 @@ news_event = {
 news_event = {
 	id = news.288
 	title = news.288.t
-	desc = news.288.descesc
+	desc = news.288.desc
 	picture = GFX_news_event_chinese_soldiers_march
 	
 	major = yes
@@ -11206,7 +11206,7 @@ news_event = {
 news_event = {
 	id = news.290
 	title = news.290.t
-	desc = news.290.descesc
+	desc = news.290.desc
 	picture = GFX_news_event_royal_visit
 	
 	major = yes
@@ -11247,7 +11247,7 @@ news_event = {
 news_event = {
 	id = news.291
 	title = news.291.t
-	desc = news.291.descesc
+	desc = news.291.desc
 	picture = GFX_news_event_election_vote
 	
 	major = yes
@@ -11281,7 +11281,7 @@ news_event = {
 news_event = {
 	id = news.292
 	title = news.291.t
-	desc = news.292.descesc
+	desc = news.292.desc
 	picture = GFX_news_event_generic_riot
 	
 	major = yes
@@ -11326,7 +11326,7 @@ news_event = {
 news_event = {
 	id = news.293
 	title = news.293.t
-	desc = news.293.descesc
+	desc = news.293.desc
 	picture = GFX_news_event_journalists_speech
 	
 	major = yes
@@ -11367,7 +11367,7 @@ news_event = {
 news_event = {
 	id = news.294
 	title = news.294.t
-	desc = news.294.descesc
+	desc = news.294.desc
 	picture = GFX_news_event_military_planning
 	
 	major = yes
@@ -11408,7 +11408,7 @@ news_event = {
 news_event = {
 	id = news.295
 	title = news.295.t
-	desc = news.295.descesc
+	desc = news.295.desc
 	picture = GFX_news_event_generic_parliament
 	
 	major = yes
@@ -11459,7 +11459,7 @@ news_event = {
 news_event = {
 	id = news.296
 	title = news.296.t
-	desc = news.296.descesc
+	desc = news.296.desc
 	picture = GFX_news_event_royal_visit
 	
 	major = yes
@@ -11495,7 +11495,7 @@ news_event = {
 news_event = {
 	id = news.297
 	title = news.297.t
-	desc = news.297.descesc
+	desc = news.297.desc
 	picture = GFX_news_event_royal_visit
 	
 	major = yes
@@ -11531,7 +11531,7 @@ news_event = {
 news_event = {
 	id = news.298
 	title = news.298.t
-	desc = news.298.descesc
+	desc = news.298.desc
 	picture = GFX_news_event_german_speech
 	
 	major = yes
@@ -11564,7 +11564,7 @@ news_event = {
 news_event = {
 	id = news.299
 	title = news.299.t
-	desc = news.299.descesc
+	desc = news.299.desc
 	picture = GFX_news_event_generic_parliament
 	
 	major = yes
@@ -11589,7 +11589,7 @@ news_event = {
 news_event = {
 	id = news.300
 	title = news.300.t
-	desc = news.300.descesc
+	desc = news.300.desc
 	picture = GFX_news_event_hungary_refused
 	
 	major = yes
@@ -11623,7 +11623,7 @@ news_event = {
 news_event = {
 	id = news.301
 	title = news.301.t
-	desc = news.301.descesc
+	desc = news.301.desc
 	picture = GFX_news_event_generic_sign_treaty1
 	
 	major = yes
@@ -11657,7 +11657,7 @@ news_event = {
 news_event = {
 	id = news.302
 	title = news.302.t
-	desc = news.302.descesc
+	desc = news.302.desc
 	picture = GFX_news_event_hungarian_soldiers
 	
 	major = yes
@@ -11691,7 +11691,7 @@ news_event = {
 news_event = {
 	id = news.303
 	title = news.303.t
-	desc = news.303.descesc
+	desc = news.303.desc
 	picture = GFX_news_event_hungary_refused
 	
 	major = yes
@@ -11725,7 +11725,7 @@ news_event = {
 news_event = {
 	id = news.304
 	title = news.304.t
-	desc = news.304.descesc
+	desc = news.304.desc
 	picture = GFX_news_event_generic_sign_treaty1
 	
 	major = yes
@@ -11759,7 +11759,7 @@ news_event = {
 news_event = {
 	id = news.305
 	title = news.305.t
-	desc = news.305.descesc
+	desc = news.305.desc
 	picture = GFX_news_event_hungarian_soldiers
 	
 	major = yes
@@ -11793,7 +11793,7 @@ news_event = {
 news_event = {
 	id = news.306
 	title = news.306.t
-	desc = news.306.descesc
+	desc = news.306.desc
 	picture = GFX_news_event_hungary_refused
 	
 	major = yes
@@ -11827,7 +11827,7 @@ news_event = {
 news_event = {
 	id = news.307
 	title = news.307.t
-	desc = news.307.descesc
+	desc = news.307.desc
 	picture = GFX_news_event_generic_sign_treaty1
 	
 	major = yes
@@ -11861,7 +11861,7 @@ news_event = {
 news_event = {
 	id = news.308
 	title = news.308.t
-	desc = news.308.descesc
+	desc = news.308.desc
 	picture = GFX_news_event_hungarian_soldiers
 	
 	major = yes
@@ -11896,7 +11896,7 @@ news_event = {
 	id = news.309
 	title = news.309.t
 	desc = {
-		text = news.309.descesc.a
+		text = news.309.desc.a
 		trigger = { 
 			OR = {
 				NOT = { country_exists = SLO }
@@ -11908,7 +11908,7 @@ news_event = {
 		}
 	}
 	desc = {
-		text = news.309.descesc.b
+		text = news.309.desc.b
 		trigger = { 
 			country_exists = SLO
 			SLO = { is_subject = no }
@@ -11968,7 +11968,7 @@ news_event = {
 	id = news.310
 	title = news.310.t
 	desc = {
-		text = news.310.descesc.a
+		text = news.310.desc.a
 		trigger = { 
 			OR = {
 				NOT = { country_exists = SLO }
@@ -11980,7 +11980,7 @@ news_event = {
 		}
 	}
 	desc = {
-		text = news.310.descesc.b
+		text = news.310.desc.b
 		trigger = { 
 			country_exists = SLO
 			SLO = { is_subject = no }
@@ -12020,7 +12020,7 @@ news_event = {
 	id = news.311
 	title = news.311.t
 	desc = {
-		text = news.311.descesc.a
+		text = news.311.desc.a
 		trigger = { 
 			OR = {
 				NOT = { country_exists = SLO }
@@ -12032,7 +12032,7 @@ news_event = {
 		}
 	}
 	desc = {
-		text = news.311.descesc.b
+		text = news.311.desc.b
 		trigger = { 
 			country_exists = SLO
 			SLO = { is_subject = no }
@@ -12076,13 +12076,13 @@ news_event = {
 	id = news.312
 	title = news.312.t
 	desc = {
-		text = news.312.descesc.a
+		text = news.312.desc.a
 		trigger = { 
 			country_exists = AUS
 		}
 	}
 	desc = {
-		text = news.312.descesc.b
+		text = news.312.desc.b
 		trigger = { 
 			NOT = { country_exists = AUS }
 		}
@@ -12127,13 +12127,13 @@ news_event = {
 	id = news.313
 	title = news.313.t
 	desc = {
-		text = news.313.descesc.a
+		text = news.313.desc.a
 		trigger = { 
 			country_exists = AUS
 		}
 	}
 	desc = {
-		text = news.313.descesc.b
+		text = news.313.desc.b
 		trigger = { 
 			NOT = { country_exists = AUS }
 		}
@@ -12177,7 +12177,7 @@ news_event = {
 news_event = {
 	id = news.314
 	title = news.314.t
-	desc = news.314.descesc
+	desc = news.314.desc
 	picture = GFX_news_event_generic_funeral
 	
 	major = yes
@@ -12212,7 +12212,7 @@ news_event = {
 news_event = {
 	id = news.315
 	title = news.315.t
-	desc = news.315.descesc
+	desc = news.315.desc
 	picture = GFX_news_event_hungarian_soldiers
 	
 	major = yes
@@ -12253,7 +12253,7 @@ news_event = {
 news_event = {
 	id = news.316
 	title = news.316.t
-	desc = news.316.descesc
+	desc = news.316.desc
 	picture = GFX_news_event_romania_poland_visit
 	
 	major = yes
@@ -12295,7 +12295,7 @@ news_event = {
 news_event = {
 	id = news.317
 	title = news.317.t
-	desc = news.317.descesc
+	desc = news.317.desc
 	picture = GFX_news_event_generic_sign_treaty3
 	
 	major = yes
@@ -12394,7 +12394,7 @@ news_event = {
 news_event = {
 	id = news.318
 	title = news.318.t
-	desc = news.318.descesc
+	desc = news.318.desc
 	picture = GFX_news_event_generic_sign_treaty1
 	
 	major = yes
@@ -12428,7 +12428,7 @@ news_event = {
 news_event = {
 	id = news.319
 	title = news.319.t
-	desc = news.319.descesc
+	desc = news.319.desc
 	picture = GFX_news_event_bulgarian_soldiers
 	
 	major = yes
@@ -12462,7 +12462,7 @@ news_event = {
 news_event = {
 	id = news.320
 	title = news.320.t
-	desc = news.320.descesc
+	desc = news.320.desc
 	picture = GFX_news_event_romanian_soldiers
 	
 	major = yes
@@ -12529,7 +12529,7 @@ news_event = {
 news_event = {
 	id = news.321
 	title = news.321.t
-	desc = news.321.descesc
+	desc = news.321.desc
 	picture = GFX_news_event_yugoslavian_split
 	
 	major = yes
@@ -12599,7 +12599,7 @@ news_event = {
 news_event = {
 	id = news.322
 	title = news.322.t
-	desc = news.322.descesc
+	desc = news.322.desc
 	picture = GFX_news_event_journalists_speech
 	
 	major = yes
@@ -12624,7 +12624,7 @@ news_event = {
 news_event = {
 	id = news.323
 	title = news.323.t
-	desc = news.323.descesc
+	desc = news.323.desc
 	picture = GFX_news_event_romania_parliament
 	
 	major = yes
@@ -12649,7 +12649,7 @@ news_event = {
 news_event = {
 	id = news.324
 	title = news.324.t
-	desc = news.324.descesc
+	desc = news.324.desc
 	picture = GFX_news_event_yugoslavian_split
 	
 	major = yes
@@ -12677,7 +12677,7 @@ news_event = {
 news_event = {
 	id = news.325
 	title = news.325.t
-	desc = news.325.descesc
+	desc = news.325.desc
 	picture = GFX_news_event_generic_parliament
 	
 	major = yes
@@ -12711,7 +12711,7 @@ news_event = {
 news_event = {
 	id = news.326
 	title = news.326.t
-	desc = news.326.descesc
+	desc = news.326.desc
 	picture = GFX_news_event_banovina_croatia
 	
 	major = yes
@@ -12745,7 +12745,7 @@ news_event = {
 news_event = {
 	id = news.327
 	title = news.327.t
-	desc = news.327.descesc
+	desc = news.327.desc
 	picture = GFX_news_event_generic_parliament
 	
 	major = yes
@@ -12779,7 +12779,7 @@ news_event = {
 news_event = {
 	id = news.328
 	title = news.328.t
-	desc = news.328.descesc
+	desc = news.328.desc
 	picture = GFX_news_event_generic_parliament
 	
 	major = yes
@@ -12813,7 +12813,7 @@ news_event = {
 news_event = {
 	id = news.329
 	title = news.329.t
-	desc = news.329.descesc
+	desc = news.329.desc
 	picture = GFX_news_event_stalin_meeting
 	
 	major = yes
@@ -12847,7 +12847,7 @@ news_event = {
 news_event = {
 	id = news.330
 	title = news.330.t
-	desc = news.330.descesc
+	desc = news.330.desc
 	picture = GFX_news_event_generic_sign_treaty3
 	
 	major = yes
@@ -12892,7 +12892,7 @@ news_event = {
 news_event = {
 	id = news.331
 	title = news.331.t
-	desc = news.331.descesc
+	desc = news.331.desc
 	picture = GFX_news_event_generic_sign_treaty3
 	
 	major = yes
@@ -12908,7 +12908,7 @@ news_event = {
 news_event = {
 	id = news.332
 	title = news.332.t
-	desc = news.332.descesc
+	desc = news.332.desc
 	picture = GFX_news_event_generic_sign_treaty3
 	
 	major = yes
@@ -12956,7 +12956,7 @@ news_event = {
 news_event = {
 	id = news.333
 	title = news.333.t
-	desc = news.333.descesc
+	desc = news.333.desc
 	picture = GFX_news_event_generic_sign_treaty3
 	
 	major = yes
@@ -13100,7 +13100,7 @@ news_event = { #Panay Incident - US declares war on Japan
 news_event = {
 	id = news.336
 	title = news.336.title
-	desc = news.336.descesc
+	desc = news.336.desc
 	picture = GFX_news_event_047
 	
 	major = yes
@@ -13156,7 +13156,7 @@ news_event = {
 news_event = {
 	id = news.337
 	title = news.337.title
-	desc = news.337.descesc
+	desc = news.337.desc
 	picture = GFX_news_event_african_soldiers
 	
 	major = yes

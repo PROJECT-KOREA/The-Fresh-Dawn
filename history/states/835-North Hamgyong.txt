@@ -18,11 +18,9 @@ state = {
 			13254 = { naval_base = 2 }
 		}
 
-		victory_points = { 898 5 } #청진(세이신)
+		victory_points = { 6822 4 } #청진(세이신)
+		victory_points = { 13254 1 } #나진(라신)
 
-		# victory_points = {
-		# 	6944 10 #나진(라신)
-		# }
 		# victory_points = {
 		# 	6922 10 #성진(죠신)
 		# }

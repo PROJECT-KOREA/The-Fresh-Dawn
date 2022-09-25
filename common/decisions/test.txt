@@ -41,7 +41,7 @@ test = {
 			KOR = {
 				change_tag_from = GGK
 			}
-			KOR = { set_capital = { state = 525 } }
+			KOR = { set_capital = { state = 847 } }
 		}
 	}
 

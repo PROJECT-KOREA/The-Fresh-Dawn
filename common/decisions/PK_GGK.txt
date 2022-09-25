@@ -38,7 +38,7 @@ GGK_provisional_government_decision = {
 			
 		}
 
-		#days_remove = 130
+		days_remove = 150
 
 		custom_cost_trigger = { political_power_growth > 0.75 }
 		custom_cost_text = pp_per_day_075
@@ -74,7 +74,7 @@ GGK_provisional_government_decision = {
 			has_country_flag = GGK_united_ruling_party_flag
 		}
 
-		#days_remove = 70
+		days_remove = 150
 
 		custom_cost_trigger = { political_power_growth > 0.5 }
 		custom_cost_text = pp_per_day_050
@@ -110,7 +110,7 @@ GGK_provisional_government_decision = {
 			has_country_flag = GGK_track_down_japanese_spies_flag
 		}
 
-		#days_remove = 50
+		days_remove = 150
 
 		custom_cost_trigger = { political_power_growth > 0.5 }
 		custom_cost_text = pp_per_day_050
@@ -146,7 +146,7 @@ GGK_provisional_government_decision = {
 			has_country_flag = GGK_track_down_japanese_spies_flag
 		}
 
-		#days_remove = 50
+		days_remove = 90
 
 		custom_cost_trigger = { political_power_growth > 0.5 }
 		custom_cost_text = pp_per_day_050
@@ -183,7 +183,7 @@ GGK_provisional_government_decision = {
 			CHI = { has_defensive_war_with = JAP }
 		}
 
-		#days_remove = 90
+		days_remove = 120
 
 		custom_cost_trigger = { political_power_growth > 0.5 }
 		custom_cost_text = pp_per_day_050
@@ -201,7 +201,7 @@ GGK_provisional_government_decision = {
 		}
 	}
 	
-    #미국의 지원 요청
+    #미국에 지원 요청
     GGK_request_american_support = {
 
 		icon = generic_agreement
@@ -219,13 +219,13 @@ GGK_provisional_government_decision = {
 			has_country_flag = GGK_korean_independence_army_flag
 		}
 
-		#days_remove = 70
+		days_remove = 50
 
-		custom_cost_trigger = { political_power_growth > 0.5 }
+		custom_cost_trigger = { political_power_growth > 0.25 }
 		custom_cost_text = pp_per_day_050
 
 		modifier = {
-			political_power_gain = -0.5
+			political_power_gain = -0.25
 		}
 		
 		fire_only_once = yes
@@ -258,7 +258,7 @@ GGK_provisional_government_decision = {
 			has_country_flag = GGK_korean_independence_army_flag
 		}
 
-		# #days_remove = 150
+		# days_remove = 150
 
 		# custom_cost_trigger = { political_power_growth > 0.5 }
 		# custom_cost_text = pp_per_day_050
@@ -293,13 +293,13 @@ GGK_provisional_government_decision = {
 			has_country_flag = GGK_korean_independence_army_flag
 		}
 
-		#days_remove = 150
+		days_remove = 100
 
-		custom_cost_trigger = { political_power_growth > 0.5 }
+		custom_cost_trigger = { political_power_growth > 0.25 }
 		custom_cost_text = pp_per_day_050
 
 		modifier = {
-			political_power_gain = -0.5
+			political_power_gain = -0.25
 		}
 		
 		fire_only_once = yes
@@ -307,6 +307,42 @@ GGK_provisional_government_decision = {
 		remove_effect = {
 			set_country_flag = GGK_form_hra_flag
 			country_event = { id = ggk_korea.13 }
+			# custom_effect_tooltip = GGK_korean_independence_movement_tt
+		}
+	}
+	
+    #건국강령 제정
+    GGK_form_national_doctrine = {
+
+		icon = generic_nationalism
+
+		visible = {
+			original_tag = GGK
+            KOR = { exists = no }
+			OR = {
+				has_decision = GGK_korean_independence_army
+				has_country_flag = GGK_korean_independence_army_flag
+			}
+		}
+
+		available = {
+			has_country_flag = GGK_korean_independence_army_flag
+		}
+
+		days_remove = 70
+
+		custom_cost_trigger = { political_power_growth > 0.25 }
+		custom_cost_text = pp_per_day_050
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+		
+		fire_only_once = yes
+
+		remove_effect = {
+			set_country_flag = GGK_national_doctrine_flag
+			country_event = { id = ggk_korea.14 }
 			# custom_effect_tooltip = GGK_korean_independence_movement_tt
 		}
 	}
@@ -327,15 +363,16 @@ GGK_provisional_government_decision = {
 
 		available = {
 			has_country_flag = GGK_form_hra_flag
+			has_country_flag = GGK_national_doctrine_flag
 		}
 
-		#days_remove = 100
+		days_remove = 50
 
-		custom_cost_trigger = { political_power_growth > 0.5 }
+		custom_cost_trigger = { political_power_growth > 0.25 }
 		custom_cost_text = pp_per_day_050
 
 		modifier = {
-			political_power_gain = -0.5
+			political_power_gain = -0.25
 		}
 		
 		fire_only_once = yes
@@ -364,12 +401,14 @@ GGK_provisional_government_decision = {
 		available = {
 			has_country_flag = GGK_prepare_operation_eagle_flag
 		}
+
+		days_remove = 7
 		
 		fire_only_once = yes
 
 		remove_effect = {
 			country_event = {
-				id = ggk_korea.0
+				id = ggk_korea.15
 				days = 0
 			}
 			custom_effect_tooltip = GGK_operation_eagle_tt

@@ -548,6 +548,12 @@ spriteTypes = {
 		textureFile = "gfx//interface//pol_piechart_overlay_new.dds"
 		alwaystransparent = yes			
 	}
+	
+	spriteType = {
+		name = "GFX_pol_piechart_overlay_big"
+		textureFile = "gfx//interface//pol_piechart_overlay_big.dds"
+		alwaystransparent = yes			
+	}
 
 	spriteType = {
 		name = "GFX_pol_piechart_overlay_63x63"
@@ -627,17 +633,17 @@ spriteTypes = {
 
 	pieChartType = {
 		name = "GFX_political_chart_big"
-		size = 30
+		size = 75
 	}
 	
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 37
+		size = 40
 	}
 	
 	pieChartType = {
 		name = "GFX_political_chart_small"
-		size = 26
+		size = 30
 	}
 
 	circularProgressBarType = {

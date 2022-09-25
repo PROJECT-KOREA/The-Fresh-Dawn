@@ -47,7 +47,7 @@ guiTypes = {
 			iconType ={
 				name = "ideology_icon"
 				spriteType = "GFX_ideology_unknown"
-				position = { x = 158 y = 0 }
+				position = { x = 158 y = -5 }
 				Orientation = "UPPER_LEFT"
 				frame = 1
 			}
@@ -251,7 +251,7 @@ guiTypes = {
 
 					iconType = {
 						name = "chart"
-						spriteType = "GFX_political_chart_big"
+						spriteType = "GFX_political_chart_small"
 						position = { x = 51 y = 5 }
 					}
 					
@@ -320,26 +320,26 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "national_focus_label"
-						position = { x = 146 y = 23 }
-						font = "hoi_18mbs"
+						position = { x = 121 y = 26 }
+						font = "pk_20"
 						text = "POLITICS_ACTIVE_GOAL"
-						maxWidth = 200
+						maxWidth = 250
 						maxHeight = 20
 						format = center
-						alwaystransparent = yes
+						# alwaystransparent = yes
 						vertical_alignment = center				
 					}
 					
 					iconType = {
 						name = "progress"
 						spriteType = "GFX_activegoal_progress"
-						position = { x=129 y = 57 }	
+						position = { x=159 y = 57 }	
 						alwaystransparent = yes				
 					}
 					
 					iconType = {
 						name = "progress_frame"
-						position = { x = 127 y = 57 }
+						position = { x = 157 y = 57 }
 						spriteType = "GFX_pol_goal_progress_frame"
 						alwaystransparent = yes
 					}			
@@ -424,8 +424,8 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "national_spirit_container"
-					position = { x = -380 y = -5 }
-					size = { width = 375 height = 74 }
+					position = { x = -385 y = -5 }
+					size = { width = 380 height = 70 }
 					verticalScrollbar = "right_vertical_slider"
 					orientation = upper_right
 					
@@ -436,10 +436,10 @@ guiTypes = {
 					
 					gridboxtype = {
 						name = "national_spirit_ideas_grid"
-						position = { x = -8 y = 2 }
-						size = { width = 100%% height = 64 }
+						position = { x = 0 y = 0 }
+						size = { width = 100%% height = 100%% }
 						slotsize = { width = 60 height = 64 } #53
-						max_slots = { x = 6 y = 1 }
+						max_slots = { x = 6 y = 2 }
 						format = "UPPER_LEFT"
 					}
 					

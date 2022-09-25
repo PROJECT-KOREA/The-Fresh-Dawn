@@ -23,7 +23,7 @@ ideas = {
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				political_power_gain = -0.25
+				political_power_gain = -0.5
 				stability_factor = -0.05
 				auto_despotism_drift = 0.02
 			}
@@ -31,12 +31,12 @@ ideas = {
 
 		#내선융화 - 2
 		GGK_idea_naisen_yuugou2 = {
-			name = GGK_idea_naisen_yuugou
+			name = GGK_idea_naisen_ittai
 			picture = naisen_yuugou
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				political_power_gain = -0.25
+				political_power_gain = -0.6
 				stability_factor = -0.075
 				auto_despotism_drift = 0.05
 			}
@@ -49,7 +49,7 @@ ideas = {
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				political_power_gain = -0.15
+				political_power_gain = -0.2
 				auto_despotism_drift = 0.05
 			}
 		}
@@ -74,7 +74,7 @@ ideas = {
 			allowed = { original_tag = GGK }
 			modifier = {
 				production_speed_infrastructure_factor = 0.15
-				production_speed_industrial_complex_factor = 0.2
+				production_speed_industrial_complex_factor = 0.15
 			}
 		}
 
@@ -88,8 +88,7 @@ ideas = {
 				stability_factor = -0.05
 				consumer_goods_factor = -0.05
 				production_speed_arms_factory_factor = 0.1
-				production_speed_infrastructure_factor = 0.1
-				production_speed_rail_way_factor = 0.1
+				production_speed_air_base_factor = 0.1
 			}
 		}
 
@@ -103,8 +102,37 @@ ideas = {
 				stability_factor = -0.07
 				consumer_goods_factor = -0.07
 				production_speed_arms_factory_factor = 0.15
-				production_speed_infrastructure_factor = 0.15
-				production_speed_rail_way_factor = 0.15
+				production_speed_air_base_factor = 0.15
+			}
+		}
+
+		#조선반도 병참기지화
+		GGK_idea_heitan_kichika1_inf = {
+			name = GGK_idea_heitan_kichika
+			picture = generic_exploit_mines
+
+			allowed = { original_tag = GGK }
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+				production_speed_arms_factory_factor = 0.1
+				production_speed_air_base_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		#조선반도 병참기지화
+		GGK_idea_heitan_kichika2_inf = {
+			name = GGK_idea_heitan_kichika
+			picture = generic_exploit_mines
+
+			allowed = { original_tag = GGK }
+			modifier = {
+				stability_factor = -0.07
+				consumer_goods_factor = -0.07
+				production_speed_arms_factory_factor = 0.15
+				production_speed_air_base_factor = 0.15
+				production_speed_infrastructure_factor = 0.1
 			}
 		}
 
@@ -166,7 +194,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = { tag = GGK }
-			available = { has_completed_focus = GGK_chosen_tetsudo }
+			available = { has_completed_focus = GGK_focus_chosen_tetsudo }
 			
 			cost = 150
 			removal_cost = 0

@@ -19,6 +19,20 @@
  frnmin:0 ""
  intmin:0 ""
 
+ min_com:0 "§c공산주의자§!"
+ min_autsoc:0 "§A권위사회주의자§!"
+ min_radsoc:0 "§d급진사회주의자§!"
+ min_socdem:0 "§r사회민주주의자§!"
+ min_soclib:0 "§y사회자유주의자§!"
+ min_natlib:0 "§l국민자유주의자§!"
+ min_libcon:0 "§S자유보수주의자§!"
+ min_soccon:0 "§q사회보수주의자§!"
+ min_natcon:0 "§n국민보수주의자§!"
+ min_autdem:0 "§D권위민주주의자§!"
+ min_autdes:0 "§M전제주의자§!"
+ min_fas:0 "§f파시스트§!"
+
+
  hog_gen:0 "정부수반"
  secmin_gen:0 "내무장관"
  ecomin_gen:0 "재무장관"
@@ -31,9 +45,24 @@
  frnmin_jap:0 "외무대신"
  intmin_jap:0 "경보국장"
 
+ hog_woi:0 "[This.GetWoiHoG]"
+ hog_mg:0 "민정장관"
+ hog_hnc:0 "부위원장"
+
+ hog_kpg:0 "국무원 부주석"
+ secmin_kpg:0 "내무부장"
+ ecomin_kpg:0 "재무부장"
+ frnmin_kpg:0 "외무부장"
+ intmin_kpg:0 "경무부장"
+
 
  # 툴팁 #
  minister_tooltip:0 "장관을 수동으로 임명하거나 해임할 수 없습니다."
+
+ # 인물 특성 #
+ mild_gentleman:0 "온화한 신사"
+ passionate_moderator:0 "열정적인 중재자"
+ media_magnate:0 "언론계 거물"
 
 
 

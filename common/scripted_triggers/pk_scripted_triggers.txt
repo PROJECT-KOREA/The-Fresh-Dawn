@@ -18,19 +18,21 @@ JAP_autonomy_check = {
 	OVERLORD = { original_tag = JAP }
 }
 
-is_warlord = {
-	tag = HPC
-	tag = SHX
-	# tag = SHD
-	tag = GXC
-	# tag = GUD
-	tag = YUN
-	# tag = NXM
-	tag = XSM
-	# tag = SIC
-	# tag = XIK
-	tag = SIK
-	# tag = TNG
+is_warlords = {
+	OR = {
+		tag = HPC
+		tag = SHX
+		# tag = SHD
+		tag = GXC
+		# tag = GUD
+		tag = YUN
+		# tag = NXM
+		tag = XSM
+		# tag = SIC
+		# tag = XIK
+		tag = SIK
+		# tag = TNG
+	}
 }
 
 is_legit_china = {

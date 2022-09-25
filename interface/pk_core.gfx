@@ -18,21 +18,18 @@ bitmapfonts = {
 		P = { 255 210 210 }	#Pink
 		
 		#Party colours
-		V = { 87 0 0 }		#Darkest Red		(Stalinism)
-		a = { 160 30 30 }	#Dark Red			(Bukharinism)
-		Q = { 128 0 0 }		#Dark Red 			(Leninism)
-		p = { 182 0 0 }		#Dark Red 			(Revolutionary Socialism)
-		s = { 222 0 0 }		#Red 				(Democratic Socialism)
-		r = { 255 89 89 }	#Light Red			(Social Democracy)
-		y = { 255 142 0 }	#Yellow-ish orange	(Social Liberalism)
-		l = { 255 225 0 }	#Light Yellow 		(Market Liberalism)
-		S = { 108 182 255 }	#Lightest Blue		(Liberal Conservatism)
-		q = { 89 89 255 }	#Light Blue			(Social Conservatism)
-		D = { 152 152 152 }	#Light Grey			(Authoritarianism)
-		M = { 128 128 192 }	#Blue-ish purple	(Autocratic Despotism)
-		w = { 102 102 102 }	#Grey				(Far-Right Authoritarianism)
-		v = { 74 75 75 }	#Dark Grey			(Fascism)
-		d = { 128 64 0 }	#Brown				(National Socialism)
+		c = { 160 0 0 }		#공산주의
+		A = { 190 20 20 }	#권위사회주의
+		d = { 240 10 0 }	#급진사회주의
+		r = { 200 60 90 }	#사회민주주의
+		y = { 240 125 50 }	#사회자유주의
+		l = { 255 190 0 }	#국민자유주의
+		S = { 10 140 255 }	#자유보수주의
+		q = { 0 40 220 }	#사회보수주의
+		n = { 25 35 130 }	#국민보수주의
+		D = { 125 125 125 }	#권위민주주의
+		M = { 40 35 70 }	#전제주의
+		f = { 85 50 15 }	#파시즘
 	}
 
 	#맵 폰트 덮어쓰기

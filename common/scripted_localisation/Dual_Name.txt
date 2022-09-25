@@ -56,7 +56,10 @@ defined_text = {
 		text = {
 			trigger = {
 				tag = KOR
-				has_idea = HoG_Hong_Saik
+				OR = {
+					has_idea = HoS2_Hong_Saik
+					has_idea = HoS2_Hong_Saik2
+				}
 			}
 			localization_key = Hong_Saik
 		}
@@ -65,19 +68,46 @@ defined_text = {
 		text = {
 			trigger = {
 				tag = KOR
-				has_idea = HoG_Ryuh_Woonhyung_mg
+				has_idea = HoG_Ryuh_Woonhyung
 			}
 			localization_key = Ryuh_Woonhyung
 		}
 
-		# 여운형
+		# 안재홍
 		text = {
 			trigger = {
 				tag = KOR
-				has_idea = HoG_Ahn_Jaehong_hnc
+				has_idea = HoG_Ahn_Jaehong
 			}
-			localization_key = ahn_jaehong
+			localization_key = Ahn_Jaehong
 		}
+
+		# 장덕수
+		text = {
+			trigger = {
+				tag = KOR
+				has_idea = HoG_Chang_Deoksu
+			}
+			localization_key = Chang_Deoksu
+		}
+
+		# 이윤영
+		text = {
+			trigger = {
+				tag = KOR
+				has_idea = HoG_Lee_Yoonyoung
+			}
+			localization_key = Lee_Yoonyoung
+		}
+
+		# # 송진우
+		# text = {
+		# 	trigger = {
+		# 		tag = KOR
+		# 		has_idea = HoG_Song_Jinwoo_hnc
+		# 	}
+		# 	localization_key = Song_Jinwoo
+		# }
 
 		# 김규식
 		text = {
@@ -87,8 +117,9 @@ defined_text = {
 					has_country_flag = KOR_flag_kia_mg
 					has_country_flag = KOR_flag_hnc
 				}
+				has_idea = HoG_Kim_Kyusik
 			}
-			localization_key = kim_kyusik
+			localization_key = Kim_Kyusik
 		}
 	#
 

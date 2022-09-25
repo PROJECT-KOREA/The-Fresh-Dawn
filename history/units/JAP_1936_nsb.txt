@@ -483,7 +483,7 @@ air_wings = {
 	}
 
 	# 경기도
-	525 = {
+	847 = {
 		fighter_equipment_0 = {
 			owner = "JAP" 
 			amount = 9

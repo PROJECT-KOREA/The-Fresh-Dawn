@@ -477,7 +477,7 @@ air_wings = {
 		}
 	}
 
-	525 = {
+	847 = {
 		fighter_equipment_0 = {
 			owner = "JAP" 
 			amount = 9

@@ -2,13 +2,13 @@
 add_namespace = kor_woi
 add_namespace = kor_woi_party
 
-#광복군 군정위원회 수립
+# 광복군 군정위원회 수립
 country_event = {
     id = kor_woi.1
     title = kor_woi.1.t
     desc = kor_woi.1.desc
 
-    picture = GFX_report_event_generic_sign_treaty1
+    picture = GFX_report_event_KOR_ji_chengcheon_speech
 
     is_triggered_only = yes
     fire_only_once = yes
@@ -16,17 +16,18 @@ country_event = {
     option = {
         name = kor_woi.1.a
         set_country_flag = KOR_flag_kia_mg
-        create_country_leader = {
-            name = "홍사익"
-            desc = "POLITICS_Hong_Saik_DESC"
-            picture = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
-            expire = "1965.1.1"
-            ideology = military_dic
-            traits = {
-                kia_vcommander
-                military_governor
-            }
-        }
+        add_ideas = HoS2_Hong_Saik2
+        # create_country_leader = {
+        #     name = "홍사익"
+        #     desc = "POLITICS_Hong_Saik_DESC"
+        #     picture = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
+        #     expire = "1965.1.1"
+        #     ideology = military_dic
+        #     traits = {
+        #         kia_vcommander
+        #         military_governor
+        #     }
+        # }
         set_party_name = { 
             ideology = neutrality 
             long_name = KOR_neutrality_party_kia_mg_long
@@ -43,63 +44,231 @@ country_event = {
             #     # communism = 2
             # }
         }
+        hidden_effect = {
+            set_popularities = {
+                communism = 2
+                social_democracy = 4
+                national_liberalism = 2
+                liberal_conservatism = 2
+                neutrality = 90
+            }
+        }
     }
 }
 
-# #한성국민위원회 수립
-# country_event = {
-#     id = kor_woi.2
-#     title = kor_woi.2.t
-#     desc = kor_woi.2.desc
+# 국내 인사와의 협력
+country_event = {
+    id = kor_woi.2
+    title = kor_woi.2.t
+    desc = kor_woi.2.desc
 
-#     picture = GFX_report_event_generic_sign_treaty1
+    picture = GFX_report_event_KOR_internal_figure
 
-#     is_triggered_only = yes
-#     fire_only_once = yes
+    is_triggered_only = yes
+    fire_only_once = yes
 
-#     option = {
-#         name = kor_woi.2.a
-#         clr_country_flag = KOR_flag_kia_mg
-#         set_country_flag = KOR_flag_hnc
-#         set_party_name = { 
-#             ideology = neutrality 
-#             long_name = KOR_neutrality_party_hnc_long
-#             name = KOR_neutrality_party_hnc 
-#         }
-#         create_country_leader = {
-#             name = "여운형"
-#             desc = "POLITICS_Ryuh_Woonhyung_DESC"
-#             picture = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds"
-#             expire = "1965.1.1"
-#             ideology = oligarchism
-#             traits = {
-                
-#             }
-#         }
-#         set_party_name = { 
-#             ideology = social_democracy 
-#             long_name = KOR_social_democracy_party_fa_long
-#             name = KOR_social_democracy_party_fa 
-#         }
-#         COALITION_add_socdem = yes
-#         add_ideas = HoG_Ahn_Jaehong_hnc
-#         set_party_name = { 
-#             ideology = national_liberalism
-#             long_name = KOR_national_liberal_party_nc_long
-#             name = KOR_national_liberal_party_nc 
-#         }
-#         COALITION_add_natlib = yes
-#         hidden_effect = {
-#             set_popularities = {
-#                 communism = 2
-#                 social_democracy = 7
-#                 national_liberalism = 5
-#                 liberal_conservatism = 6
-#                 neutrality = 80
-#             }
-#         }
-#     }
-# }
+    option = {
+        name = kor_woi.2.a
+        set_party_name = { 
+            ideology = social_democracy 
+            long_name = KOR_social_democracy_party_fa_long
+            name = KOR_social_democracy_party_fa 
+        }
+        set_party_name = { 
+            ideology = social_liberalism
+            long_name = KOR_social_liberalism_party_nc_long
+            name = KOR_social_liberalism_party_nc 
+        }
+        set_party_name = { 
+            ideology = liberal_conservatism
+            long_name = KOR_liberal_conservatism_party_na_long
+            name = KOR_liberal_conservatism_party_na 
+        }
+        add_popularity = {
+            ideology = social_democracy
+            popularity = 0.05
+        }
+        add_popularity = {
+            ideology = social_liberalism
+            popularity = 0.05
+        }
+        add_popularity = {
+            ideology = liberal_conservatism
+            popularity = 0.05
+        }
+    }
+}
+
+# 민정장관 임명
+country_event = {
+    id = kor_woi.3
+    title = kor_woi.3.t
+    desc = kor_woi.3.desc
+
+    picture = GFX_report_event_KOR_ryuh_and_song
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.3.a
+        custom_effect_tooltip = ryuh_tt
+        add_ideas = HoG_Ryuh_Woonhyung
+        COALITION_add_socdem = yes
+        set_country_flag = civ_adm_r
+    }
+
+    option = {
+        name = kor_woi.3.b
+        custom_effect_tooltip = ahn_tt
+        add_ideas = HoG_Ahn_Jaehong
+        COALITION_add_soclib = yes
+        set_country_flag = civ_adm_a
+    }
+
+    option = {
+        name = kor_woi.3.c
+        custom_effect_tooltip = song_tt
+        add_ideas = HoG_Song_Jinwoo
+        COALITION_add_libcon = yes
+        set_country_flag = civ_adm_s
+    }
+
+    option = {
+        name = kor_woi.3.d
+        custom_effect_tooltip = cho_tt
+        add_ideas = HoG_Cho_Mansik
+        COALITION_add_natlib = yes
+        set_country_flag = civ_adm_c
+    }
+}
+
+# 한성국민위원회 수립
+country_event = {
+    id = kor_woi.4
+    title = kor_woi.4.t
+    desc = kor_woi.4.desc
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.4.a
+        clr_country_flag = KOR_flag_kia_mg
+        set_country_flag = KOR_flag_hnc
+        set_party_name = { 
+            ideology = neutrality 
+            long_name = KOR_neutrality_party_hnc_long
+            name = KOR_neutrality_party_hnc 
+        }
+        # COALITION_RESET = yes
+        if = {
+            limit = { has_country_flag = civ_adm_r }
+            create_country_leader = {
+                name = "여운형"
+                desc = "POLITICS_Ryuh_Woonhyung_DESC"
+                picture = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds"
+                expire = "1965.1.1"
+                ideology = oligarchism
+                traits = { }
+            }
+            add_ideas = {
+                HoG_Ahn_Jaehong
+                SM_Kwon_Taeseok
+                EM_Cho_Dongho
+                FM_Chang_Keonsang
+            }
+            COALITION_add_soclib = yes
+            clr_country_flag = civ_adm_r
+        }
+        if = {
+            limit = { has_country_flag = civ_adm_a }
+            create_country_leader = {
+                name = "안재홍"
+                desc = "POLITICS_Ahn_Jaehong_DESC"
+                picture = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
+                expire = "1965.1.1"
+                ideology = oligarchism
+                traits = { }
+            }
+            add_ideas = {
+                HoG_Ryuh_Woonhyung
+                SM_Cho_Byeongok
+                EM_Cho_Mansik
+                FM_Choi_Keunwoo
+            }
+            COALITION_add_socdem = yes
+            clr_country_flag = civ_adm_a
+        }
+        if = {
+            limit = { has_country_flag = civ_adm_s }
+            create_country_leader = {
+                name = "송진우"
+                desc = "POLITICS_Song_Jinwoo_DESC"
+                picture = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds"
+                expire = "1965.1.1"
+                ideology = oligarchism
+                traits = { }
+            }
+            add_ideas = {
+                HoG_Chang_Deoksu
+                SM_Kim_Byeongro
+                EM_Lee_Kyugap
+                FM_Na_Yongkyun
+            }
+            COALITION_add_libcon = yes
+            clr_country_flag = civ_adm_s
+        }
+        if = {
+            limit = { has_country_flag = civ_adm_c }
+            create_country_leader = {
+                name = "조만식"
+                desc = "POLITICS_Cho_Mansik_DESC"
+                picture = "gfx/leaders/KOR/Portrait_Cho_Mansik.dds"
+                expire = "1965.1.1"
+                ideology = oligarchism
+                traits = { }
+            }
+            add_ideas = {
+                HoG_Lee_Yoonyoung
+                SM_Han_Keunjo
+                EM_Kang_Kideok
+                FM_Chang_Yiuk
+            }
+            COALITION_add_libcon = yes
+            clr_country_flag = civ_adm_c
+        }
+        hidden_effect = {
+            add_ideas = HoS2_vacant
+        }
+        # 
+        # add_ideas = HoG_Ryuh_Woonhyung
+        # set_party_name = { 
+        #     ideology = social_democracy 
+        #     long_name = KOR_social_democracy_party_fa_long
+        #     name = KOR_social_democracy_party_fa 
+        # }
+        # COALITION_add_socdem = yes
+        # add_ideas = HoG_Ahn_Jaehong_hnc
+        # set_party_name = { 
+        #     ideology = national_liberalism
+        #     long_name = KOR_national_liberal_party_nc_long
+        #     name = KOR_national_liberal_party_nc 
+        # }
+        # COALITION_add_natlib = yes
+        # hidden_effect = {
+        #     set_popularities = {
+        #         communism = 2
+        #         social_democracy = 6
+        #         national_liberalism = 3
+        #         liberal_conservatism = 2
+        #         neutrality = 87
+        #     }
+        # }
+    }
+}
 
 # #국민위원회에 가담한 중도우파 진영
 # country_event = {

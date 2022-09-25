@@ -53,131 +53,51 @@ focus_tree = {
 		}
 	}
 	
-	#임시헌법 제2호
+	#국민위원회와의 협력
 	focus = {
-		id = KOR_focus_prov_constitution_second
-		icon = GFX_focus_generic_treaty
+		id = KOR_focus_work_with_hnc
+		icon = GFX_focus_cpki
 		relative_position_id = KOR_focus_return_of_kpg
+		x = -3
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = KOR_focus_return_of_kpg }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#국토재건사업
+	focus = {
+		id = KOR_focus_national_reconstruction
+		icon = GFX_focus_production
+		relative_position_id = KOR_focus_work_with_hnc
 		x = -1
 		y = 1
 		cost = 3
 
-		prerequisite = { focus = KOR_focus_return_of_kpg }
+		prerequisite = { focus = KOR_focus_work_with_hnc }
 
 		completion_reward = {
-			
-		}
-	}
-	
-	#국무회의 소집
-	focus = {
-		id = KOR_focus_convene_cabinet_meeting
-		icon = GFX_focus_capitol
-		relative_position_id = KOR_focus_return_of_kpg
-		x = 1
-		y = 1
-		cost = 3
-
-		prerequisite = { focus = KOR_focus_return_of_kpg }
-
-		completion_reward = {
-			
-		}
-	}
-	
-	#거국임시내각
-	focus = {
-		id = KOR_focus_national_unity_gov
-		icon = GFX_focus_cpki
-		relative_position_id = KOR_focus_prov_constitution_second
-		x = 1
-		y = 1
-		cost = 3
-
-		prerequisite = { focus = KOR_focus_prov_constitution_second }
-		prerequisite = { focus = KOR_focus_convene_cabinet_meeting }
-
-		completion_reward = {
-			
-		}
-	}
-	
-	#국민대표회의 개최
-	focus = {
-		id = KOR_focus_ncr
-		icon = GFX_focus_ncr
-		relative_position_id = KOR_focus_national_unity_gov
-		x = -2
-		y = 1
-		cost = 3
-
-		prerequisite = { focus = KOR_focus_national_unity_gov }
-
-		completion_reward = {
-			
-		}
-	}
-	
-	#국무원 조직 개편
-	focus = {
-		id = KOR_focus_reorganize_state_council
-		icon = GFX_focus_institutional_reform
-		relative_position_id = KOR_focus_national_unity_gov
-		x = 0
-		y = 1
-		cost = 3
-
-		prerequisite = { focus = KOR_focus_national_unity_gov }
-
-		completion_reward = {
-			
-		}
-	}
-	
-	#임시의정원 확대
-	focus = {
-		id = KOR_focus_provisional_parliament
-		icon = GFX_focus_unknown
-		relative_position_id = KOR_focus_national_unity_gov
-		x = 2
-		y = 1
-		cost = 3
-
-		prerequisite = { focus = KOR_focus_national_unity_gov }
-
-		completion_reward = {
-			
-		}
-	}
-	
-	#과도내각 선거
-	focus = {
-		id = KOR_focus_interim_cabinet_election
-		icon = GFX_focus_unknown
-		relative_position_id = KOR_focus_reorganize_state_council
-		x = 0
-		y = 1
-		cost = 3
-
-		prerequisite = { focus = KOR_focus_ncr }
-		prerequisite = { focus = KOR_focus_reorganize_state_council }
-		prerequisite = { focus = KOR_focus_provisional_parliament }
-
-		completion_reward = {
-			
+			add_timed_idea = {
+				idea = KOR_idea_national_recovery
+				days = 730
+			}
 		}
 	}
 
-	#지방자치단체 조직
+	#지방제도 정비
 	focus = {
 		id = KOR_focus_local_government
 		icon = GFX_focus_institution
-		relative_position_id = KOR_focus_interim_cabinet_election
-		x = -4
-		y = 1
+		relative_position_id = KOR_focus_national_reconstruction
+		x = 0
+		y = 2
 		cost = 3
 
-		prerequisite = { focus = KOR_focus_interim_cabinet_election }
+		prerequisite = { focus = KOR_focus_national_reconstruction }
 
 		completion_reward = {
 			add_political_power = 100
@@ -188,83 +108,28 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_economic_task_force
 		icon = GFX_focus_bankruptcy
-		relative_position_id = KOR_focus_interim_cabinet_election
-		x = -2
+		relative_position_id = KOR_focus_work_with_hnc
+		x = 1
 		y = 1
 		cost = 3
 
-		prerequisite = { focus = KOR_focus_interim_cabinet_election }
+		prerequisite = { focus = KOR_focus_work_with_hnc }
 
 		completion_reward = {
 			
 		}
 	}
 
-	#헌법기초위원회
-	focus = {
-		id = KOR_focus_constitution_drafting_committee
-		icon = GFX_focus_constitution
-		relative_position_id = KOR_focus_interim_cabinet_election
-		x = 0
-		y = 1
-		cost = 4
-
-		available = { has_stability > 0.4 }
-
-		prerequisite = { focus = KOR_focus_interim_cabinet_election }
-
-		completion_reward = {
-			country_event = {
-				id = kor_kpg_internal.7
-			}
-		}
-	}
-	
-	#국방사령부 창설
-	focus = {
-		id = KOR_focus_national_defense_command
-		icon = GFX_goal_generic_fortify_city
-		relative_position_id = KOR_focus_interim_cabinet_election
-		x = 2
-		y = 1
-		cost = 3
-
-		prerequisite = { focus = KOR_focus_interim_cabinet_election }
-
-		completion_reward = {
-			add_command_power = 50
-			army_experience = 25
-		}
-	}
-
-	#재외동포의 국적 인정
-	focus = {
-		id = KOR_focus_nationality_of_overseas_korean
-		icon = GFX_focus_nationality
-		relative_position_id = KOR_focus_interim_cabinet_election
-		x = 4
-		y = 1
-		cost = 2
-
-		prerequisite = { focus = KOR_focus_interim_cabinet_election }
-
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-
-
 	#임시토지법 제정
 	focus = {
 		id = KOR_focus_interim_land_reform_act
-		icon = GFX_focus_unknown
+		icon = GFX_focus_treaty
 		relative_position_id = KOR_focus_economic_task_force
 		x = -1
 		y = 1
 		cost = 2
 
 		prerequisite = { focus = KOR_focus_economic_task_force }
-
 		completion_reward = {
 			
 		}
@@ -286,68 +151,6 @@ focus_tree = {
 		}
 	}
 	
-	#육군무관학교 확대
-	focus = {
-		id = KOR_focus_expand_military_academy
-		icon = GFX_focus_generic_military_academy
-		relative_position_id = KOR_focus_national_defense_command
-		x = -1
-		y = 1
-		cost = 4
-
-		prerequisite = {
-			focus = KOR_focus_national_defense_command
-		}
-
-		completion_reward = {
-			
-		}
-	}
-
-	#해방병단 창설
-	focus = {
-		id = KOR_focus_establish_coast_guard
-		icon = GFX_goal_generic_navy_cruiser
-		relative_position_id = KOR_focus_national_defense_command
-		x = 1
-		y = 1
-		cost = 4
-
-		prerequisite = { focus = KOR_focus_national_defense_command }
-
-		completion_reward = {
-			navy_experience = 25
-			871 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	#국토재건사업
-	focus = {
-		id = KOR_focus_national_reconstruction
-		icon = GFX_focus_production
-		relative_position_id = KOR_focus_local_government
-		x = 0
-		y = 2
-		cost = 3
-
-		prerequisite = { focus = KOR_focus_local_government }
-		prerequisite = { focus = KOR_focus_interim_land_reform_act }
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = KOR_idea_national_recovery
-				days = 730
-			}
-		}
-	}
-	
 	#빈민구제 정책
 	focus = {
 		id = KOR_focus_poverty_relief_policy
@@ -366,34 +169,134 @@ focus_tree = {
 		}
 	}
 	
-	#대한민국 헌법
+	#임시헌법 개정
 	focus = {
-		id = KOR_focus_rok_constitution
-		icon = GFX_focus_treaty
-		relative_position_id = KOR_focus_constitution_drafting_committee
-		x = 0
-		y = 2
+		id = KOR_focus_prov_constitution
+		icon = GFX_focus_generic_treaty
+		relative_position_id = KOR_focus_return_of_kpg
+		x = -1
+		y = 1
 		cost = 3
 
-		prerequisite = { focus = KOR_focus_constitution_drafting_committee }
+		prerequisite = { focus = KOR_focus_return_of_kpg }
 
 		completion_reward = {
-			unlock_decision_tooltip = KOR_poverty_relief_policy
+			
+		}
+	}
+	
+	#국무원 조직 개편
+	focus = {
+		id = KOR_focus_reorganize_state_council
+		icon = GFX_focus_institutional_reform
+		relative_position_id = KOR_focus_return_of_kpg
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = KOR_focus_return_of_kpg }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#임시의정원 확대
+	focus = {
+		id = KOR_focus_provisional_parliament
+		icon = GFX_focus_capitol
+		relative_position_id = KOR_focus_prov_constitution
+		x = 1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = KOR_focus_prov_constitution }
+		prerequisite = { focus = KOR_focus_reorganize_state_council }
+
+		completion_reward = {
+			
+		}
+	}
+
+	#헌법기초위원회
+	focus = {
+		id = KOR_focus_constitution_drafting_committee
+		icon = GFX_focus_constitution
+		relative_position_id = KOR_focus_provisional_parliament
+		x = 0
+		y = 2
+		cost = 4
+
+		available = { has_stability > 0.4 }
+
+		prerequisite = { focus = KOR_focus_provisional_parliament }
+
+		completion_reward = {
+			country_event = {
+				id = kor_kpg_internal.7
+			}
+		}
+	}
+	
+	#비상국민회의 소집
+	focus = {
+		id = KOR_focus_form_enc
+		icon = GFX_focus_ncr
+		relative_position_id = KOR_focus_return_of_kpg
+		x = 3
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = KOR_focus_return_of_kpg }
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#국방부 설치
+	focus = {
+		id = KOR_focus_national_defense_command
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = KOR_focus_form_enc
+		x = -1
+		y = 1
+		cost = 3
+
+		prerequisite = { focus = KOR_focus_form_enc }
+
+		completion_reward = {
+			add_command_power = 50
+			army_experience = 25
+		}
+	}
+
+	#재외동포의 국적 인정
+	focus = {
+		id = KOR_focus_nationality_of_overseas_korean
+		icon = GFX_focus_nationality
+		relative_position_id = KOR_focus_form_enc
+		x = 1
+		y = 1
+		cost = 2
+
+		prerequisite = { focus = KOR_focus_form_enc }
+
+		completion_reward = {
 			add_stability = 0.05
 		}
 	}
 
-	#재탄생한 광복군
+	#한국광복군 재조직
 	focus = {
 		id = KOR_focus_reborn_kia
 		icon = GFX_focus_kia
-		relative_position_id = KOR_focus_expand_military_academy
-		x = 1
+		relative_position_id = KOR_focus_national_defense_command
+		x = -1
 		y = 1
 		cost = 4
 
-		prerequisite = { focus = KOR_focus_expand_military_academy }
-		prerequisite = { focus = KOR_focus_establish_coast_guard }
+		prerequisite = { focus = KOR_focus_national_defense_command }
 
 		completion_reward = {
 			if = {
@@ -409,6 +312,49 @@ focus_tree = {
 				load_oob = "KOR_Reorganized_KIA"
 			}
 			custom_effect_tooltip = KOR_focus_reborn_kia_tt
+		}
+	}
+	
+	#육군무관학교 확대
+	focus = {
+		id = KOR_focus_expand_military_academy
+		icon = GFX_focus_generic_military_academy
+		relative_position_id = KOR_focus_national_defense_command
+		x = 1
+		y = 1
+		cost = 4
+
+		prerequisite = {
+			focus = KOR_focus_national_defense_command
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	#해방병단 창설
+	focus = {
+		id = KOR_focus_establish_coast_guard
+		icon = GFX_goal_generic_navy_cruiser
+		relative_position_id = KOR_focus_reborn_kia
+		x = 1
+		y = 1
+		cost = 4
+
+		prerequisite = { focus = KOR_focus_reborn_kia }
+		prerequisite = { focus = KOR_focus_expand_military_academy }
+
+		completion_reward = {
+			navy_experience = 25
+			871 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -444,17 +390,17 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_republic_of_korea
 		icon = GFX_focus_republic_of_korea
-		relative_position_id = KOR_focus_rok_constitution
+		relative_position_id = KOR_focus_constitution_drafting_committee
 		x = 0
 		y = 1
 		cost = 1
 
 		available = { has_country_flag = KOR_flag_constitution }
-
-		prerequisite = { focus = KOR_focus_national_reconstruction }
+		
 		prerequisite = { focus = KOR_focus_poverty_relief_policy }
-		prerequisite = { focus = KOR_focus_rok_constitution }
-		prerequisite = { focus = KOR_focus_reborn_kia }
+		prerequisite = { focus = KOR_focus_local_government }
+		prerequisite = { focus = KOR_focus_constitution_drafting_committee }
+		prerequisite = { focus = KOR_focus_establish_coast_guard }
 		prerequisite = { focus = KOR_focus_imperial_family_problem }
 
 		completion_reward = {

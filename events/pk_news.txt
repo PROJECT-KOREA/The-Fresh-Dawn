@@ -13,7 +13,7 @@ news_event = {
     trigger = {
 		original_tag = GGK
         has_country_flag = GGK_flag_ki_yes
-		date > 1936.4.11
+		date > 1936.4.10
 	}
 
     option = { name = pk_news.1.a }

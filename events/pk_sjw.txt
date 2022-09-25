@@ -8,57 +8,67 @@ country_event = {
 	desc = pk_sjw.1.d
 	picture = pk_sjw
 	is_triggered_only = yes
-	trigger = {
-		NOT = {  #this is to separate "emergency truce" scenario and regular united front scenario
-			AND = {
-				is_subject = no
-				NOT = { is_ally_with = JAP }
-				any_enemy_country = {
-					is_subject = no
-					NOT = { #prevent zhang lan
-						tag = event_target:CDL_JAP_puppet
-					}
-					NOT = { is_ally_with = JAP }
-					NOT = {
-						original_tag = PREV
-					}
-					NOT = {
-						is_ally_with = ROOT
-					}
-					is_literally_china = yes
-					NOT = {
-						tag = MAN
-						tag = ECA
-						tag = EHB
-						tag = RFM
-						tag = CCP
-					}
-				}
-			}
-		}
-	}
+	# trigger = {
+	# 	NOT = {  #this is to separate "emergency truce" scenario and regular united front scenario
+	# 		AND = {
+	# 			is_subject = no
+	# 			NOT = { is_ally_with = JAP }
+	# 			any_enemy_country = {
+	# 				is_subject = no
+	# 				NOT = { #prevent zhang lan
+	# 					tag = event_target:CDL_JAP_puppet
+	# 				}
+	# 				NOT = { is_ally_with = JAP }
+	# 				NOT = {
+	# 					original_tag = PREV
+	# 				}
+	# 				NOT = {
+	# 					is_ally_with = ROOT
+	# 				}
+	# 				is_literally_china = yes
+	# 				NOT = {
+	# 					tag = MAN
+	# 					tag = ECA
+	# 					tag = EHB
+	# 					tag = RFM
+	# 					tag = CCP
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# }
 	option = {
 		name = pk_sjw.1.a
 		if = {
-			limit = {
-				NOT = { is_in_faction = yes }
-			}
-			create_faction = chinese_united_front
+			limit = { NOT = { is_in_faction = yes } }
+			create_faction = chinese_united_front # 중국연합전선 창설
 		}
-		if = {
-			limit = {
-				HPC = { exists = yes }
-				NOT = { HPC = { is_subject_of = JAP } }
-			}
-			add_to_faction = HPC
-			add_to_war = { targeted_alliance = HPC enemy = JAP }
-		}
-		set_global_flag = JAP_attacks_CHI_unites
-		every_country = {
+		# if = {
+		# 	limit = {
+		# 		HPC = { exists = yes }
+		# 		NOT = { HPC = { is_subject_of = JAP } }
+		# 	}
+		# 	add_to_faction = HPC
+		# 	add_to_war = { targeted_alliance = HPC enemy = JAP }
+		# }
+		set_global_flag = JAP_attacks_CHI_unites # flag 지정
+		every_other_country = {
 			limit = {
 				exists = yes
-				is_warlord = yes
-				NOT = { tag = SIK } # 신강 군벌 제외
+				AND = {
+					is_warlords = yes
+					NOT = { original_tag = SIK }
+				}
+				# NOT = {
+				# 	tag = SIK # 신강 군벌 제외
+				# 	is_subject_of = JAP # 일본의 종속국이 아닐 것
+				# 	has_war_with = event_target:WTT_current_china_leader # 중국과 전쟁 중이지 않을 것
+				# }
+				# is_in_faction = no # 세력에 소속되지 않을 것
+				# OR = { # 전쟁 중이 아니거나, 또는 일본과 전쟁 중일 것
+				# 	has_war = no
+				# 	has_war_with = JAP
+				# }
 				# NOT = {
 				# 	tag = ROOT
 				# 	AND = {
@@ -69,32 +79,34 @@ country_event = {
 				# 		has_war_with = SIK
 				# 	}
 				# }
-				OR = {
-					HPC = { has_war_with = JAP }
-					event_target:WTT_current_china_leader = { has_war_with = JAP }
-					AND = {
-						HPC = { is_puppet_of = JAP }
-						event_target:WTT_current_china_leader = { has_war_with = JAP }
-					}
-				}
-				NOT = { is_subject_of = JAP }
-				NOT = { has_war_with = event_target:WTT_current_china_leader }
-				OR = {
-					is_in_faction = no
-					owns_state = 614
-					tag = SHD
-				}
-				OR = {
-					has_war = no
-					has_war_with = JAP
+				# OR = {
+				# 	owns_state = 614
+				# 	tag = SHD
+				# }
+			}
+			country_event = {
+				id = pk_sjw.2
+				days = 1
+			} # 연합전선 초대 발송
+		}
+		if = {
+			limit = {
+				PRC = {
+					exists = yes
+					is_subject = no
 				}
 			}
-			country_event = { id = pk_sjw.2 }
+			PRC = {
+				country_event = { # 연합전선 초대 발송
+					id = pk_sjw.4
+					days = 2
+				}
+			}
 		}
 	}
 }
 
-# 중국연합전선 창설(군벌)
+# 군벌 - 중국의 연합전선 초대
 country_event = {
 	id = pk_sjw.2
 	title = pk_sjw.2.t
@@ -106,13 +118,13 @@ country_event = {
 		name = pk_sjw.2.a
 		ai_chance = {
 			factor = 100
-			modifier = {
+			modifier = { # 기찰정무위원회, 산동 군벌, 사천 군벌 제외
 				factor = 0
-				OR = { # 기찰정무위원회, 산동 군벌, 사천 군벌 제외
+				OR = {
 					tag = HPC
-					# tag = TNG
-					# tag = SHD
-					# tag = SIC
+			 		# tag = TNG
+			 		# tag = SHD
+			 		# tag = SIC
 				}
 			}
 		}
@@ -127,13 +139,24 @@ country_event = {
 
 	option = {
 		name = pk_sjw.2.b # 기찰정무위원회 합병
-		trigger = { tag = HPC }
+		trigger = {
+			is_warlords = yes
+			NOT = {
+				OR = {
+					tag = SHX
+					tag = GXC
+					tag = YUN
+					tag = XSM
+					tag = SIK
+				}
+			}
+		}
 		ai_chance = {
 			factor = 100
-			modifier = {
-				factor = 0
-				NOT = { has_government = FROM }
-			}
+			# modifier = {
+			# 	factor = 0
+			# 	NOT = { has_government = FROM }
+			# }
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 		hidden_effect = {
@@ -145,8 +168,8 @@ country_event = {
 				country_event = { id = pk_sjw.3 }
 				annex_country = { target = ROOT transfer_troops = yes }
 			}
-			transfer_state = 614
-			transfer_state = 608
+			# transfer_state = 614
+			# transfer_state = 608
 			FROM = {
 				annex_country = { target = HPC transfer_troops = yes }
 				every_owned_state = { remove_core_of = HPC }
@@ -177,7 +200,7 @@ country_event = {
 	}
 }
 
-# 중국 공산당 - 중국연합전선 참가 선택지
+# 중국 공산당 - 중국의 연합전선 초대
 country_event = {
 	id = pk_sjw.4
 	title = pk_sjw.4.t
@@ -185,16 +208,7 @@ country_event = {
 	picture = GFX_report_event_chinese_army_training
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = {
-		tag = PRC
-		any_other_country = {
-			is_legit_china = yes
-			has_war_with = JAP
-			is_faction_leader = yes
-		}
-		JAP = { has_offensive_war = yes }
-		NOT = { is_puppet = yes }
-	}
+	# trigger = { }
 	
 	option = {
 		ai_chance = { factor = 100 }

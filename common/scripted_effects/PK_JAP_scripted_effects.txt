@@ -1,0 +1,39 @@
+form_mag = {
+	set_global_flag = mag_exists
+    JAP = {
+        set_autonomy = {
+            target = MEN
+            autonomous_state = autonomy_puppet
+        }
+    }
+	MEN = {
+		# save_global_event_target_as = NewPuppet
+		# save_global_event_target_as = RCM_MEN_puppet
+		set_cosmetic_tag = MEN_MAG
+		army_experience = 50
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+		set_political_party = {
+			ideology = neutrality
+			popularity = 30
+		}
+		set_political_party = {
+			ideology = fascism
+			popularity = 70
+		}
+		create_country_leader = {
+			name = "Yondonwangchug"
+			desc = ""
+			picture = "Portrait_Yondonwangchug.dds"
+			expire = "1966.4.23"
+			ideology = fascism_ideology
+			traits = {
+				spirit_of_genghis
+			}
+		}
+		set_capital = { state = 612 }
+	}
+	# hidden_effect = { news_event = { id = RCM_news.5 }}
+}

@@ -1,0 +1,4 @@
+﻿l_english:
+ blank_line:0 "\n"
+ if_they_accept_red:0 "§R만약 그들이 수락할 경우:§!"
+ if_they_refuse_red:0 "§R만약 그들이 거절할 경우:§!"

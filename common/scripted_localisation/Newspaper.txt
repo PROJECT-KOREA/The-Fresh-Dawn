@@ -89,7 +89,7 @@ defined_text = {
 	# text = {
 	# 	trigger = {
 	# 		OR = {
-	# 			is_warlord = yes
+	# 			is_warlords = yes
 	# 			AND = {
 	# 				tag = MAN
 	# 				has_completed_focus = MAN_assertiveness
@@ -127,7 +127,7 @@ defined_text = {
 	# 			tag = SIK
 	# 		}
 	# 		OR = {
-	# 			is_warlord = yes
+	# 			is_warlords = yes
 	# 			tag = event_target:WTT_communist_china
 	# 		}
 	# 		has_government = communism

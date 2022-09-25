@@ -1,0 +1,62 @@
+﻿add_namespace = jap_puppets
+
+# 일본의 새로운 몽골 정부 수립 제안
+country_event = {
+    id = jap_puppets.1
+    title = jap_puppets.1.t
+    desc = jap_puppets.1.desc
+    picture = GFX_report_event_narration
+
+    is_triggered_only = yes
+
+    option = { # 수락
+        name = jap_puppets.1.a
+        ai_chance = {
+			factor = 100
+		}
+        JAP = { country_event = { id = jap_puppets.84 } }
+        hidden_effect = {			
+			MEN = { country_event = { id = jap_puppets.84 } }
+			CHI = {
+                country_event = { days = 1 id = jap_puppets.84 }
+				# remove_ideas = prince_de_defect
+			}
+			SHX = { country_event = { days = 1 id = jap_puppets.84 } }
+			set_global_flag = MEN_puppet_form
+            form_mag = yes
+            855 = { set_demilitarized_zone = no }
+		}
+    }
+}
+
+#PLM joined JAP (from PLM focus to JAP, ECA, CHI)
+#몽골군사정부 수립
+country_event = {
+	id = jap_puppets.84
+	title = jap_puppets.84.t
+	desc = jap_puppets.84.d
+	picture = GFX_report_mongol_gov
+
+	is_triggered_only = yes
+
+	option = { # 일본 반응
+		name = jap_puppets.84.a
+		trigger = {
+			NOT = {
+				OR = {
+					TAG = CHI
+					TAG = SHX
+				}
+			}
+		}
+	}
+	option = { # 중국 반응
+		name = jap_puppets.84.b
+		trigger = {
+			OR = {
+				TAG = CHI
+				TAG = SHX
+			}
+		}
+	}
+}

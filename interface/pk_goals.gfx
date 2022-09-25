@@ -9,13 +9,53 @@ spriteTypes = {
 	### GGK ###
 
 	spriteType = {
+		name = "GFX_focus_reform_government"
+		textureFile = "gfx/interface/goals/GGK/focus_reform_government.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_keijo"
+		textureFile = "gfx/interface/goals/GGK/focus_keijo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_fuzan"
+		textureFile = "gfx/interface/goals/GGK/focus_fuzan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_jinsen_arsenal"
+		textureFile = "gfx/interface/goals/GGK/focus_jinsen_arsenal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_najin"
+		textureFile = "gfx/interface/goals/GGK/focus_najin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_kounan_industry"
+		textureFile = "gfx/interface/goals/GGK/focus_kounan_industry.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_chosen_tetsudo"
 		textureFile = "gfx/interface/goals/GGK/focus_chosen_tetsudo.dds"
 	}
 
 	spriteType = {
-		name = "GFX_focus_reform_government"
-		textureFile = "gfx/interface/goals/GGK/focus_reform_government.dds"
+		name = "GFX_focus_keifu_double"
+		textureFile = "gfx/interface/goals/GGK/focus_keifu_double.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_heigensen"
+		textureFile = "gfx/interface/goals/GGK/focus_heigensen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_kankyosen"
+		textureFile = "gfx/interface/goals/GGK/focus_kankyosen.dds"
 	}
 
 	spriteType = {
@@ -23,10 +63,20 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/GGK/focus_naisen_yuugou.dds"
 	}
 
-	# spriteType = {
-	# 	name = "GFX_focus_soushikaimei"
-	# 	textureFile = "gfx/interface/goals/GGK/focus_soushikaimei.dds"
-	# }
+	spriteType = {
+		name = "GFX_focus_keimukoku"
+		textureFile = "gfx/interface/goals/GGK/focus_keimukoku.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_paper_sign"
+		textureFile = "gfx/interface/goals/GGK/focus_paper_sign.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_secret_agents"
+		textureFile = "gfx/interface/goals/GGK/focus_secret_agents.dds"
+	}
 
 	# spriteType = {
 	# 	name = "GFX_focus_korean_independence_movement"
@@ -59,8 +109,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_focus_contact_with_internal_groups"
+		textureFile = "gfx/interface/goals/KOR/focus_contact_with_internal_groups.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_poc"
 		textureFile = "gfx/interface/goals/KOR/focus_poc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_raid_jap_armory"
+		textureFile = "gfx/interface/goals/KOR/focus_raid_jap_armory.dds"
 	}
 
 	spriteType = {

@@ -1,5 +1,22 @@
 ideas = {
 
+	#부지도자
+	head_of_state2 = {
+		HoS2_vacant = {
+			name = vacant
+			picture = vacant
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = minister_tooltip
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			removal_cost = -1
+			traits = { vice_hos }
+		}
+	}
+
 	#정부수반
 	head_of_gov = {
 		HoG_vacant = {

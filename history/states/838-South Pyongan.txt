@@ -21,12 +21,12 @@ state = {
 			arms_factory = 1
 
 			#공군기지
-			air_base = 2
+			air_base = 1
 
 			#해군기지
 			13257 = { naval_base = 1 } #진남포
 		}
-		victory_points = { 13256 10 } #평양(헤이죠)
+		victory_points = { 13256 9 } #평양(헤이죠)
 		victory_points = { 13257 2 } #남포(진난포)
 	}
 

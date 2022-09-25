@@ -18,10 +18,10 @@ state = {
 			industrial_complex = 1
 
 			#공군기지
-			air_base = 2
+			air_base = 1
 		}
 
-		victory_points = { 11835 6 } #신의주(신기슈)
+		victory_points = { 11835 4 } #신의주(신기슈)
 	}
 
 	provinces = {

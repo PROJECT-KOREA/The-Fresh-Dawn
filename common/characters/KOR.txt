@@ -20,7 +20,7 @@ characters = {
         portraits = {
             civilian = { large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds" }
             army = {
-                small = "gfx/interface/ideas/KOR/KOR_Ji_Cheongcheon_army.dds"
+                small = "gfx/interface/ideas/KOR/KOR_Ji_Cheongcheon.dds"
                 large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
             }
         }
@@ -29,7 +29,7 @@ characters = {
         country_leader = {
             ideology = military_dic
             traits = {
-
+                kia_commander
             }
             expire = "1999.1.1.1"
             id = -1
@@ -65,7 +65,7 @@ characters = {
 
     #홍사익 (首/將)
     KOR_Hong_Saik = {
-        name = KOR_Hong_Saik
+        name = Hong_Saik
         portraits = {
             civilian = { large = "gfx/leaders/KOR/Portrait_Hong_Saik.dds" }
         }
@@ -96,17 +96,17 @@ characters = {
 		}
     }
 
-    #송진우 (首)
-    KOR_Song_Jinwoo = {
-        name = KOR_Song_Jinwoo
+    #여운형 (首)
+    KOR_Ryuh_Woonhyung = {
+        name = Ryuh_Woonhyung
         portraits = {
-            # civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" }
-            army = { small = "gfx/interface/ideas/KOR/KOR_Song_Jinwoo.dds" }
+            civilian = { large = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds" }
+            army = { small = "gfx/interface/ideas/KOR/KOR_Ryuh_Woonhyung.dds" }
         }
 
-        #지도자 - 자유보수주의
+        #지도자 - 사회민주주의
         country_leader = {
-            ideology = lib_conservatism
+            ideology = socialism
             traits = {
                 
             }
@@ -117,7 +117,7 @@ characters = {
 
     #안재홍 (首)
     KOR_Ahn_Jaehong = {
-        name = KOR_Ahn_Jaehong
+        name = Ahn_Jaehong
         portraits = {
             civilian = {
                 small = "gfx/interface/ideas/KOR/KOR_Ahn_Jaehong.dds"
@@ -136,17 +136,19 @@ characters = {
         }
     }
 
-    #여운형 (首)
-    KOR_Ryuh_Woonhyung = {
-        name = KOR_Ryuh_Woonhyung
+    #조만식 (首)
+    KOR_Cho_Mansik = {
+        name = Cho_Mansik
         portraits = {
-            # civilian = { large = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds" }
-            army = { small = "gfx/interface/ideas/KOR/KOR_Ryuh_Woonhyung.dds" }
+            civilian = {
+                small = "gfx/interface/ideas/KOR/KOR_Cho_Mansik.dds"
+                large = "gfx/leaders/KOR/Portrait_Cho_Mansik.dds"
+            }
         }
 
-        #지도자 - 사회민주주의
+        #지도자 - 국민자유주의
         country_leader = {
-            ideology = socialism
+            ideology = nat_liberal
             traits = {
                 
             }
@@ -155,9 +157,27 @@ characters = {
         }
     }
 
+
+    #송진우 (首)
+    KOR_Song_Jinwoo = {
+        name = Song_Jinwoo
+        portraits = {
+            civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" }
+        }
+
+        #지도자 - 자유보수주의
+        country_leader = {
+            ideology = lib_conservatism
+            traits = {
+                
+            }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+    {}
     #이승만 (首)
     KOR_Syngman_Rhee = {
-        name = KOR_Syngman_Rhee
+        name = Syngman_Rhee
         portraits = {
             # civilian = { large = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds" }
             army = { small = "gfx/interface/ideas/KOR/KOR_Syngman_Rhee.dds" }
@@ -176,7 +196,7 @@ characters = {
 
     #박헌영 (正)
     KOR_Pak_Honyong = {
-        name = KOR_Pak_Honyong
+        name = Pak_Honyong
         portraits = {
             # civilian = { large = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds" }
             # army = { small = "gfx/interface/ideas/KOR/Pak_Honyong.dds" }

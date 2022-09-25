@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "한국광복군"
+	name = "광복군 국내정진군"
 	division_names_group = KOR_KIA_01
 	is_locked = yes
 	regiments = {
@@ -12,7 +12,30 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "광복군 대륙전구군"
+	division_names_group = KOR_KIA_02
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }

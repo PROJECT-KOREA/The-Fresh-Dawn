@@ -103,14 +103,17 @@ scripted_gui = {
 			has_government = fascism
 		}
 	}
+
 	CBTS_popularity_gui_communist_frame = {
 		window_name = "framecom"
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 0
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 0
+				}
 			}
 		}
 	}
@@ -119,9 +122,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 1
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 1
+				}
 			}
 		}
 	}
@@ -130,9 +135,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 2
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 2
+				}
 			}
 		}
 	}
@@ -141,9 +148,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 3
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 3
+				}
 			}
 		}
 	}
@@ -152,9 +161,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 4
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 4
+				}
 			}
 		}
 	}
@@ -163,9 +174,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 5
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 5
+				}
 			}
 		}
 	}
@@ -174,9 +187,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 6
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 6
+				}
 			}
 		}
 	}
@@ -185,9 +200,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 7
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 7
+				}
 			}
 		}
 	}
@@ -196,9 +213,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 8
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 8
+				}
 			}
 		}
 	}
@@ -207,9 +226,12 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 9
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 9
+				}
+				has_government  = neutrality 
 			}
 		}
 	}
@@ -218,9 +240,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 10
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 10
+				}
 			}
 		}
 	}
@@ -229,9 +253,11 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = politics_tab
 		visible = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 11
+			OR = {
+				is_in_array = {
+					array = coalition_party_list
+					value = 11
+				}
 			}
 		}
 	}

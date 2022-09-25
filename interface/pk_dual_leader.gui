@@ -7,8 +7,8 @@ guiTypes = {
 			name = "leader2_poartrait"
 			position = { x = 187 y = 87 }
 			spriteType = "GFX_leader_unknown"
-			pdx_tooltip = "DUAL_LEADER_NAME2"
-			pdx_tooltip_delayed = "DUAL_LEADER_DESC2"
+			pdx_tooltip = "leader2_name_tt"
+			pdx_tooltip_delayed = "leader2_desc_tt"
 		}
 		
 		iconType ={
@@ -22,7 +22,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="leader1_title"
-			position = { x = 20 y = 59 }
+			position = { x = 20 y = 60 }
 			font = "pk_20"
 			text = "[This.leader1_title]"
 			maxWidth = 155
@@ -35,7 +35,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="leader2_title"
-			position = { x = 187 y = 59 }
+			position = { x = 187 y = 60 }
 			font = "pk_20"
 			text = "[This.leader2_title]"
 			maxWidth = 155
@@ -53,8 +53,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 			vertical_alignment = center
-
-			pdx_tooltip = leader2_tt
+			pdx_tooltip = "leader2_name_tt"
 		}
 	}
 

@@ -1094,7 +1094,7 @@
 				limit = {
 					OR = {
 						tag = PRC
-						is_warlord = yes
+						is_warlords = yes
 					}
 					OR = {
 						is_faction_leader = yes

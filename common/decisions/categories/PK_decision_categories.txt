@@ -1,0 +1,17 @@
+#몽강국 디시전
+JAP_form_mongol_puppet = {
+	icon = generic_formable_nations
+	priority = 100
+	allowed = { tag = JAP }
+
+	visible = { }
+}
+
+#중국 내몽고 디시전
+CHI_influence_in_inner_mongolia = {
+	icon = generic_formable_nations
+	priority = 100
+	allowed = { tag = CHI }
+
+	visible = { }
+}

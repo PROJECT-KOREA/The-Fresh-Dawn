@@ -1,177 +1,8023 @@
-defined_text = {
-	name = communism_party
-	text = { localization_key = communism }
-}
-
-defined_text = {
-	name = auth_socialism_party
-	# text = {
-	# 	trigger = { tag = JAP }
-	# 	localization_key = JAP_auth_socialism_party
-	# }
-	# text = {
-	# 	trigger = { tag = CHI }
-	# 	localization_key = CHI_auth_socialism_party
-	# }
+ defined_text = {
+	name = GetAutsocParty
+	#
+		text = {
+			trigger = { tag = JAP } 
+			localization_key = JAP_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KOR } 
+			localization_key = KOR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GGK } 
+			localization_key = GGK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = EHB } 
+			localization_key = EHB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NXM } 
+			localization_key = NXM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = HPC } 
+			localization_key = HPC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GUD } 
+			localization_key = GUD_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SIC } 
+			localization_key = SIC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SHD } 
+			localization_key = SHD_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TNG } 
+			localization_key = TNG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GER } 
+			localization_key = GER_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ENG } 
+			localization_key = ENG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SOV } 
+			localization_key = SOV_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SWE } 
+			localization_key = SWE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = FRA } 
+			localization_key = FRA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = LUX } 
+			localization_key = LUX_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BEL } 
+			localization_key = BEL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = HOL } 
+			localization_key = HOL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CZE } 
+			localization_key = CZE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = POL } 
+			localization_key = POL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = AUS } 
+			localization_key = AUS_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = LIT } 
+			localization_key = LIT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = EST } 
+			localization_key = EST_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SPR } 
+			localization_key = SPR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ITA } 
+			localization_key = ITA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ROM } 
+			localization_key = ROM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = YUG } 
+			localization_key = YUG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SER } 
+			localization_key = SER_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SWI } 
+			localization_key = SWI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TUR } 
+			localization_key = TUR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GRE } 
+			localization_key = GRE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ALB } 
+			localization_key = ALB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NOR } 
+			localization_key = NOR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = DEN } 
+			localization_key = DEN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BUL } 
+			localization_key = BUL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = POR } 
+			localization_key = POR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = FIN } 
+			localization_key = FIN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = IRE } 
+			localization_key = IRE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = HUN } 
+			localization_key = HUN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = AFG } 
+			localization_key = AFG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ARG } 
+			localization_key = ARG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = AST } 
+			localization_key = AST_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BHU } 
+			localization_key = BHU_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BOL } 
+			localization_key = BOL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BRA } 
+			localization_key = BRA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CAN } 
+			localization_key = CAN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CHI } 
+			localization_key = CHI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CHL } 
+			localization_key = CHL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = COL } 
+			localization_key = COL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = COS } 
+			localization_key = COS_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ECU } 
+			localization_key = ECU_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ELS } 
+			localization_key = ELS_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ETH } 
+			localization_key = ETH_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GUA } 
+			localization_key = GUA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = HON } 
+			localization_key = HON_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = IRQ } 
+			localization_key = IRQ_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = LIB } 
+			localization_key = LIB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MEX } 
+			localization_key = MEX_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MEN } 
+			localization_key = MEN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NEP } 
+			localization_key = NEP_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NIC } 
+			localization_key = NIC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NZL } 
+			localization_key = NZL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PAN } 
+			localization_key = PAN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PER } 
+			localization_key = PER_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PHI } 
+			localization_key = PHI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PRU } 
+			localization_key = PRU_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SAF } 
+			localization_key = SAF_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SAU } 
+			localization_key = SAU_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SIA } 
+			localization_key = SIA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SIK } 
+			localization_key = SIK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TIB } 
+			localization_key = TIB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = URG } 
+			localization_key = URG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = VEN } 
+			localization_key = VEN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = YUN } 
+			localization_key = YUN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = USA } 
+			localization_key = USA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MON } 
+			localization_key = MON_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TAN } 
+			localization_key = TAN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PAR } 
+			localization_key = PAR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CUB } 
+			localization_key = CUB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = DOM } 
+			localization_key = DOM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = HAI } 
+			localization_key = HAI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = YEM } 
+			localization_key = YEM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = OMA } 
+			localization_key = OMA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SLO } 
+			localization_key = SLO_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = RAJ } 
+			localization_key = RAJ_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CRO } 
+			localization_key = CRO_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GXC } 
+			localization_key = GXC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PRC } 
+			localization_key = PRC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SHX } 
+			localization_key = SHX_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = XSM } 
+			localization_key = XSM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ICE } 
+			localization_key = ICE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = LEB } 
+			localization_key = LEB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = JOR } 
+			localization_key = JOR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SYR } 
+			localization_key = SYR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = EGY } 
+			localization_key = EGY_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = LBA } 
+			localization_key = LBA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = WGR } 
+			localization_key = WGR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = DDR } 
+			localization_key = DDR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PAL } 
+			localization_key = PAL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ISR } 
+			localization_key = ISR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = VIN } 
+			localization_key = VIN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CAM } 
+			localization_key = CAM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MAL } 
+			localization_key = MAL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = INS } 
+			localization_key = INS_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = LAO } 
+			localization_key = LAO_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MNT } 
+			localization_key = MNT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = UKR } 
+			localization_key = UKR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GEO } 
+			localization_key = GEO_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KAZ } 
+			localization_key = KAZ_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = AZR } 
+			localization_key = AZR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ARM } 
+			localization_key = ARM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BLR } 
+			localization_key = BLR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ANG } 
+			localization_key = ANG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MZB } 
+			localization_key = MZB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ZIM } 
+			localization_key = ZIM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = COG } 
+			localization_key = COG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KEN } 
+			localization_key = KEN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PAK } 
+			localization_key = PAK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BOT } 
+			localization_key = BOT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MAN } 
+			localization_key = MAN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BAH } 
+			localization_key = BAH_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BAN } 
+			localization_key = BAN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BLZ } 
+			localization_key = BLZ_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BRM } 
+			localization_key = BRM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CRC } 
+			localization_key = CRC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GDL } 
+			localization_key = GDL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GYA } 
+			localization_key = GYA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = JAM } 
+			localization_key = JAM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KYR } 
+			localization_key = KYR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MAD } 
+			localization_key = MAD_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MOL } 
+			localization_key = MOL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PNG } 
+			localization_key = PNG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PUE } 
+			localization_key = PUE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = QAT } 
+			localization_key = QAT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SCO } 
+			localization_key = SCO_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SRL } 
+			localization_key = SRL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SUR } 
+			localization_key = SUR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TAJ } 
+			localization_key = TAJ_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TRI } 
+			localization_key = TRI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TMS } 
+			localization_key = TMS_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = UAE } 
+			localization_key = UAE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = UZB } 
+			localization_key = UZB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KUW } 
+			localization_key = KUW_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CYP } 
+			localization_key = CYP_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MLT } 
+			localization_key = MLT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ALG } 
+			localization_key = ALG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MOR } 
+			localization_key = MOR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TUN } 
+			localization_key = TUN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SUD } 
+			localization_key = SUD_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ERI } 
+			localization_key = ERI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = DJI } 
+			localization_key = DJI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SOM } 
+			localization_key = SOM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = UGA } 
+			localization_key = UGA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = RWA } 
+			localization_key = RWA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BRD } 
+			localization_key = BRD_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TZN } 
+			localization_key = TZN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ZAM } 
+			localization_key = ZAM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MLW } 
+			localization_key = MLW_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GAB } 
+			localization_key = GAB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = RCG } 
+			localization_key = RCG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = EQG } 
+			localization_key = EQG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CMR } 
+			localization_key = CMR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CAR } 
+			localization_key = CAR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CHA } 
+			localization_key = CHA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NGA } 
+			localization_key = NGA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = DAH } 
+			localization_key = DAH_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TOG } 
+			localization_key = TOG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GHA } 
+			localization_key = GHA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = IVO } 
+			localization_key = IVO_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = VOL } 
+			localization_key = VOL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MLI } 
+			localization_key = MLI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SIE } 
+			localization_key = SIE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GNA } 
+			localization_key = GNA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GNB } 
+			localization_key = GNB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SEN } 
+			localization_key = SEN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GAM } 
+			localization_key = GAM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = WLS } 
+			localization_key = WLS_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NGR } 
+			localization_key = NGR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CSA } 
+			localization_key = CSA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = USB } 
+			localization_key = USB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MRT } 
+			localization_key = MRT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NMB } 
+			localization_key = NMB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = WES } 
+			localization_key = WES_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BAS } 
+			localization_key = BAS_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CAY } 
+			localization_key = CAY_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MLD } 
+			localization_key = MLD_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = FIJ } 
+			localization_key = FIJ_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = FSM } 
+			localization_key = FSM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TAH } 
+			localization_key = TAH_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GUM } 
+			localization_key = GUM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SOL } 
+			localization_key = SOL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SAM } 
+			localization_key = SAM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = HAW } 
+			localization_key = HAW_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SLV } 
+			localization_key = SLV_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BOS } 
+			localization_key = BOS_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = HRZ } 
+			localization_key = HRZ_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MAC } 
+			localization_key = MAC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NIR } 
+			localization_key = NIR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BAY } 
+			localization_key = BAY_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MEK } 
+			localization_key = MEK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = PRE } 
+			localization_key = PRE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SAX } 
+			localization_key = SAX_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = HAN } 
+			localization_key = HAN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = WUR } 
+			localization_key = WUR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SHL } 
+			localization_key = SHL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CAT } 
+			localization_key = CAT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NAV } 
+			localization_key = NAV_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = GLC } 
+			localization_key = GLC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ADU } 
+			localization_key = ADU_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BRI } 
+			localization_key = BRI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = OCC } 
+			localization_key = OCC_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = COR } 
+			localization_key = COR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KUR } 
+			localization_key = KUR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TRA } 
+			localization_key = TRA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = DNZ } 
+			localization_key = DNZ_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = SIL } 
+			localization_key = SIL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KSH } 
+			localization_key = KSH_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = DON } 
+			localization_key = DON_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KUB } 
+			localization_key = KUB_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BUK } 
+			localization_key = BUK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ALT } 
+			localization_key = ALT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KAL } 
+			localization_key = KAL_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KAR } 
+			localization_key = KAR_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CRI } 
+			localization_key = CRI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TAT } 
+			localization_key = TAT_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CIN } 
+			localization_key = CIN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = DAG } 
+			localization_key = DAG_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BYA } 
+			localization_key = BYA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CKK } 
+			localization_key = CKK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = FER } 
+			localization_key = FER_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = YAK } 
+			localization_key = YAK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = VLA } 
+			localization_key = VLA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KKP } 
+			localization_key = KKP_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = YAM } 
+			localization_key = YAM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = TAY } 
+			localization_key = TAY_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = OVO } 
+			localization_key = OVO_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NEN } 
+			localization_key = NEN_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KOM } 
+			localization_key = KOM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = ABK } 
+			localization_key = ABK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KBK } 
+			localization_key = KBK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = NOA } 
+			localization_key = NOA_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = VGE } 
+			localization_key = VGE_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = BSK } 
+			localization_key = BSK_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = KHI } 
+			localization_key = KHI_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = UDM } 
+			localization_key = UDM_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = CHU } 
+			localization_key = CHU_auth_socialism_party
+		}
+		text = {
+			trigger = { tag = MEL } 
+			localization_key = MEL_auth_socialism_party
+		}
+	#
 	text = { localization_key = auth_socialism }
 }
 
 defined_text = {
-	name = radical_socialism_party
+	name = GetRadsocParty
+	#
+		text = {
+			trigger = { tag = JAP } 
+			localization_key = JAP_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KOR } 
+			localization_key = KOR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GGK } 
+			localization_key = GGK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = EHB } 
+			localization_key = EHB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NXM } 
+			localization_key = NXM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = HPC } 
+			localization_key = HPC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GUD } 
+			localization_key = GUD_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SIC } 
+			localization_key = SIC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SHD } 
+			localization_key = SHD_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TNG } 
+			localization_key = TNG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GER } 
+			localization_key = GER_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ENG } 
+			localization_key = ENG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SOV } 
+			localization_key = SOV_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SWE } 
+			localization_key = SWE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = FRA } 
+			localization_key = FRA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = LUX } 
+			localization_key = LUX_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BEL } 
+			localization_key = BEL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = HOL } 
+			localization_key = HOL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CZE } 
+			localization_key = CZE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = POL } 
+			localization_key = POL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = AUS } 
+			localization_key = AUS_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = LIT } 
+			localization_key = LIT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = EST } 
+			localization_key = EST_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SPR } 
+			localization_key = SPR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ITA } 
+			localization_key = ITA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ROM } 
+			localization_key = ROM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = YUG } 
+			localization_key = YUG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SER } 
+			localization_key = SER_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SWI } 
+			localization_key = SWI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TUR } 
+			localization_key = TUR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GRE } 
+			localization_key = GRE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ALB } 
+			localization_key = ALB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NOR } 
+			localization_key = NOR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = DEN } 
+			localization_key = DEN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BUL } 
+			localization_key = BUL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = POR } 
+			localization_key = POR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = FIN } 
+			localization_key = FIN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = IRE } 
+			localization_key = IRE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = HUN } 
+			localization_key = HUN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = AFG } 
+			localization_key = AFG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ARG } 
+			localization_key = ARG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = AST } 
+			localization_key = AST_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BHU } 
+			localization_key = BHU_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BOL } 
+			localization_key = BOL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BRA } 
+			localization_key = BRA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CAN } 
+			localization_key = CAN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CHI } 
+			localization_key = CHI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CHL } 
+			localization_key = CHL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = COL } 
+			localization_key = COL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = COS } 
+			localization_key = COS_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ECU } 
+			localization_key = ECU_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ELS } 
+			localization_key = ELS_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ETH } 
+			localization_key = ETH_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GUA } 
+			localization_key = GUA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = HON } 
+			localization_key = HON_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = IRQ } 
+			localization_key = IRQ_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = LIB } 
+			localization_key = LIB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MEX } 
+			localization_key = MEX_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MEN } 
+			localization_key = MEN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NEP } 
+			localization_key = NEP_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NIC } 
+			localization_key = NIC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NZL } 
+			localization_key = NZL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PAN } 
+			localization_key = PAN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PER } 
+			localization_key = PER_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PHI } 
+			localization_key = PHI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PRU } 
+			localization_key = PRU_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SAF } 
+			localization_key = SAF_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SAU } 
+			localization_key = SAU_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SIA } 
+			localization_key = SIA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SIK } 
+			localization_key = SIK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TIB } 
+			localization_key = TIB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = URG } 
+			localization_key = URG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = VEN } 
+			localization_key = VEN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = YUN } 
+			localization_key = YUN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = USA } 
+			localization_key = USA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MON } 
+			localization_key = MON_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TAN } 
+			localization_key = TAN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PAR } 
+			localization_key = PAR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CUB } 
+			localization_key = CUB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = DOM } 
+			localization_key = DOM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = HAI } 
+			localization_key = HAI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = YEM } 
+			localization_key = YEM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = OMA } 
+			localization_key = OMA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SLO } 
+			localization_key = SLO_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = RAJ } 
+			localization_key = RAJ_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CRO } 
+			localization_key = CRO_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GXC } 
+			localization_key = GXC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PRC } 
+			localization_key = PRC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SHX } 
+			localization_key = SHX_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = XSM } 
+			localization_key = XSM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ICE } 
+			localization_key = ICE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = LEB } 
+			localization_key = LEB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = JOR } 
+			localization_key = JOR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SYR } 
+			localization_key = SYR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = EGY } 
+			localization_key = EGY_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = LBA } 
+			localization_key = LBA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = WGR } 
+			localization_key = WGR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = DDR } 
+			localization_key = DDR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PAL } 
+			localization_key = PAL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ISR } 
+			localization_key = ISR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = VIN } 
+			localization_key = VIN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CAM } 
+			localization_key = CAM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MAL } 
+			localization_key = MAL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = INS } 
+			localization_key = INS_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = LAO } 
+			localization_key = LAO_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MNT } 
+			localization_key = MNT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = UKR } 
+			localization_key = UKR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GEO } 
+			localization_key = GEO_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KAZ } 
+			localization_key = KAZ_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = AZR } 
+			localization_key = AZR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ARM } 
+			localization_key = ARM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BLR } 
+			localization_key = BLR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ANG } 
+			localization_key = ANG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MZB } 
+			localization_key = MZB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ZIM } 
+			localization_key = ZIM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = COG } 
+			localization_key = COG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KEN } 
+			localization_key = KEN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PAK } 
+			localization_key = PAK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BOT } 
+			localization_key = BOT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MAN } 
+			localization_key = MAN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BAH } 
+			localization_key = BAH_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BAN } 
+			localization_key = BAN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BLZ } 
+			localization_key = BLZ_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BRM } 
+			localization_key = BRM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CRC } 
+			localization_key = CRC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GDL } 
+			localization_key = GDL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GYA } 
+			localization_key = GYA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = JAM } 
+			localization_key = JAM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KYR } 
+			localization_key = KYR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MAD } 
+			localization_key = MAD_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MOL } 
+			localization_key = MOL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PNG } 
+			localization_key = PNG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PUE } 
+			localization_key = PUE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = QAT } 
+			localization_key = QAT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SCO } 
+			localization_key = SCO_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SRL } 
+			localization_key = SRL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SUR } 
+			localization_key = SUR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TAJ } 
+			localization_key = TAJ_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TRI } 
+			localization_key = TRI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TMS } 
+			localization_key = TMS_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = UAE } 
+			localization_key = UAE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = UZB } 
+			localization_key = UZB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KUW } 
+			localization_key = KUW_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CYP } 
+			localization_key = CYP_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MLT } 
+			localization_key = MLT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ALG } 
+			localization_key = ALG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MOR } 
+			localization_key = MOR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TUN } 
+			localization_key = TUN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SUD } 
+			localization_key = SUD_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ERI } 
+			localization_key = ERI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = DJI } 
+			localization_key = DJI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SOM } 
+			localization_key = SOM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = UGA } 
+			localization_key = UGA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = RWA } 
+			localization_key = RWA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BRD } 
+			localization_key = BRD_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TZN } 
+			localization_key = TZN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ZAM } 
+			localization_key = ZAM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MLW } 
+			localization_key = MLW_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GAB } 
+			localization_key = GAB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = RCG } 
+			localization_key = RCG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = EQG } 
+			localization_key = EQG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CMR } 
+			localization_key = CMR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CAR } 
+			localization_key = CAR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CHA } 
+			localization_key = CHA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NGA } 
+			localization_key = NGA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = DAH } 
+			localization_key = DAH_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TOG } 
+			localization_key = TOG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GHA } 
+			localization_key = GHA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = IVO } 
+			localization_key = IVO_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = VOL } 
+			localization_key = VOL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MLI } 
+			localization_key = MLI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SIE } 
+			localization_key = SIE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GNA } 
+			localization_key = GNA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GNB } 
+			localization_key = GNB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SEN } 
+			localization_key = SEN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GAM } 
+			localization_key = GAM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = WLS } 
+			localization_key = WLS_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NGR } 
+			localization_key = NGR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CSA } 
+			localization_key = CSA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = USB } 
+			localization_key = USB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MRT } 
+			localization_key = MRT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NMB } 
+			localization_key = NMB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = WES } 
+			localization_key = WES_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BAS } 
+			localization_key = BAS_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CAY } 
+			localization_key = CAY_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MLD } 
+			localization_key = MLD_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = FIJ } 
+			localization_key = FIJ_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = FSM } 
+			localization_key = FSM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TAH } 
+			localization_key = TAH_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GUM } 
+			localization_key = GUM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SOL } 
+			localization_key = SOL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SAM } 
+			localization_key = SAM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = HAW } 
+			localization_key = HAW_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SLV } 
+			localization_key = SLV_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BOS } 
+			localization_key = BOS_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = HRZ } 
+			localization_key = HRZ_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MAC } 
+			localization_key = MAC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NIR } 
+			localization_key = NIR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BAY } 
+			localization_key = BAY_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MEK } 
+			localization_key = MEK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = PRE } 
+			localization_key = PRE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SAX } 
+			localization_key = SAX_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = HAN } 
+			localization_key = HAN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = WUR } 
+			localization_key = WUR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SHL } 
+			localization_key = SHL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CAT } 
+			localization_key = CAT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NAV } 
+			localization_key = NAV_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = GLC } 
+			localization_key = GLC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ADU } 
+			localization_key = ADU_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BRI } 
+			localization_key = BRI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = OCC } 
+			localization_key = OCC_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = COR } 
+			localization_key = COR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KUR } 
+			localization_key = KUR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TRA } 
+			localization_key = TRA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = DNZ } 
+			localization_key = DNZ_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = SIL } 
+			localization_key = SIL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KSH } 
+			localization_key = KSH_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = DON } 
+			localization_key = DON_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KUB } 
+			localization_key = KUB_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BUK } 
+			localization_key = BUK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ALT } 
+			localization_key = ALT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KAL } 
+			localization_key = KAL_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KAR } 
+			localization_key = KAR_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CRI } 
+			localization_key = CRI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TAT } 
+			localization_key = TAT_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CIN } 
+			localization_key = CIN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = DAG } 
+			localization_key = DAG_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BYA } 
+			localization_key = BYA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CKK } 
+			localization_key = CKK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = FER } 
+			localization_key = FER_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = YAK } 
+			localization_key = YAK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = VLA } 
+			localization_key = VLA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KKP } 
+			localization_key = KKP_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = YAM } 
+			localization_key = YAM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = TAY } 
+			localization_key = TAY_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = OVO } 
+			localization_key = OVO_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NEN } 
+			localization_key = NEN_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KOM } 
+			localization_key = KOM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = ABK } 
+			localization_key = ABK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KBK } 
+			localization_key = KBK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = NOA } 
+			localization_key = NOA_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = VGE } 
+			localization_key = VGE_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = BSK } 
+			localization_key = BSK_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = KHI } 
+			localization_key = KHI_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = UDM } 
+			localization_key = UDM_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = CHU } 
+			localization_key = CHU_radical_socialism_party
+		}
+		text = {
+			trigger = { tag = MEL } 
+			localization_key = MEL_radical_socialism_party
+		}
+	#
 	text = { localization_key = radical_socialism }
 }
 
 defined_text = {
-	name = social_democracy_party
+	name = GetSocdemParty
+	#
+		text = {
+			trigger = { tag = JAP } 
+			localization_key = JAP_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KOR } 
+			localization_key = KOR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GGK } 
+			localization_key = GGK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = EHB } 
+			localization_key = EHB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NXM } 
+			localization_key = NXM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = HPC } 
+			localization_key = HPC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GUD } 
+			localization_key = GUD_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SIC } 
+			localization_key = SIC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SHD } 
+			localization_key = SHD_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TNG } 
+			localization_key = TNG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GER } 
+			localization_key = GER_social_democracy_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ENG } 
+			localization_key = ENG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SOV } 
+			localization_key = SOV_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SWE } 
+			localization_key = SWE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = FRA } 
+			localization_key = FRA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = LUX } 
+			localization_key = LUX_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BEL } 
+			localization_key = BEL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = HOL } 
+			localization_key = HOL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CZE } 
+			localization_key = CZE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = POL } 
+			localization_key = POL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = AUS } 
+			localization_key = AUS_social_democracy_party
+		}
+		text = {
+			trigger = { tag = LIT } 
+			localization_key = LIT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = EST } 
+			localization_key = EST_social_democracy_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SPR } 
+			localization_key = SPR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ITA } 
+			localization_key = ITA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ROM } 
+			localization_key = ROM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = YUG } 
+			localization_key = YUG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SER } 
+			localization_key = SER_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SWI } 
+			localization_key = SWI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TUR } 
+			localization_key = TUR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GRE } 
+			localization_key = GRE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ALB } 
+			localization_key = ALB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NOR } 
+			localization_key = NOR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = DEN } 
+			localization_key = DEN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BUL } 
+			localization_key = BUL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = POR } 
+			localization_key = POR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = FIN } 
+			localization_key = FIN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = IRE } 
+			localization_key = IRE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = HUN } 
+			localization_key = HUN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = AFG } 
+			localization_key = AFG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ARG } 
+			localization_key = ARG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = AST } 
+			localization_key = AST_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BHU } 
+			localization_key = BHU_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BOL } 
+			localization_key = BOL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BRA } 
+			localization_key = BRA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CAN } 
+			localization_key = CAN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CHI } 
+			localization_key = CHI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CHL } 
+			localization_key = CHL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = COL } 
+			localization_key = COL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = COS } 
+			localization_key = COS_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ECU } 
+			localization_key = ECU_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ELS } 
+			localization_key = ELS_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ETH } 
+			localization_key = ETH_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GUA } 
+			localization_key = GUA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = HON } 
+			localization_key = HON_social_democracy_party
+		}
+		text = {
+			trigger = { tag = IRQ } 
+			localization_key = IRQ_social_democracy_party
+		}
+		text = {
+			trigger = { tag = LIB } 
+			localization_key = LIB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MEX } 
+			localization_key = MEX_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MEN } 
+			localization_key = MEN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NEP } 
+			localization_key = NEP_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NIC } 
+			localization_key = NIC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NZL } 
+			localization_key = NZL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PAN } 
+			localization_key = PAN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PER } 
+			localization_key = PER_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PHI } 
+			localization_key = PHI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PRU } 
+			localization_key = PRU_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SAF } 
+			localization_key = SAF_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SAU } 
+			localization_key = SAU_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SIA } 
+			localization_key = SIA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SIK } 
+			localization_key = SIK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TIB } 
+			localization_key = TIB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = URG } 
+			localization_key = URG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = VEN } 
+			localization_key = VEN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = YUN } 
+			localization_key = YUN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = USA } 
+			localization_key = USA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MON } 
+			localization_key = MON_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TAN } 
+			localization_key = TAN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PAR } 
+			localization_key = PAR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CUB } 
+			localization_key = CUB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = DOM } 
+			localization_key = DOM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = HAI } 
+			localization_key = HAI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = YEM } 
+			localization_key = YEM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = OMA } 
+			localization_key = OMA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SLO } 
+			localization_key = SLO_social_democracy_party
+		}
+		text = {
+			trigger = { tag = RAJ } 
+			localization_key = RAJ_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CRO } 
+			localization_key = CRO_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GXC } 
+			localization_key = GXC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PRC } 
+			localization_key = PRC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SHX } 
+			localization_key = SHX_social_democracy_party
+		}
+		text = {
+			trigger = { tag = XSM } 
+			localization_key = XSM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ICE } 
+			localization_key = ICE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = LEB } 
+			localization_key = LEB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = JOR } 
+			localization_key = JOR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SYR } 
+			localization_key = SYR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = EGY } 
+			localization_key = EGY_social_democracy_party
+		}
+		text = {
+			trigger = { tag = LBA } 
+			localization_key = LBA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = WGR } 
+			localization_key = WGR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = DDR } 
+			localization_key = DDR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PAL } 
+			localization_key = PAL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ISR } 
+			localization_key = ISR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = VIN } 
+			localization_key = VIN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CAM } 
+			localization_key = CAM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MAL } 
+			localization_key = MAL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = INS } 
+			localization_key = INS_social_democracy_party
+		}
+		text = {
+			trigger = { tag = LAO } 
+			localization_key = LAO_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MNT } 
+			localization_key = MNT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = UKR } 
+			localization_key = UKR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GEO } 
+			localization_key = GEO_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KAZ } 
+			localization_key = KAZ_social_democracy_party
+		}
+		text = {
+			trigger = { tag = AZR } 
+			localization_key = AZR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ARM } 
+			localization_key = ARM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BLR } 
+			localization_key = BLR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ANG } 
+			localization_key = ANG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MZB } 
+			localization_key = MZB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ZIM } 
+			localization_key = ZIM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = COG } 
+			localization_key = COG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KEN } 
+			localization_key = KEN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PAK } 
+			localization_key = PAK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BOT } 
+			localization_key = BOT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MAN } 
+			localization_key = MAN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BAH } 
+			localization_key = BAH_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BAN } 
+			localization_key = BAN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BLZ } 
+			localization_key = BLZ_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BRM } 
+			localization_key = BRM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CRC } 
+			localization_key = CRC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GDL } 
+			localization_key = GDL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GYA } 
+			localization_key = GYA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = JAM } 
+			localization_key = JAM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KYR } 
+			localization_key = KYR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MAD } 
+			localization_key = MAD_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MOL } 
+			localization_key = MOL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PNG } 
+			localization_key = PNG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PUE } 
+			localization_key = PUE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = QAT } 
+			localization_key = QAT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SCO } 
+			localization_key = SCO_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SRL } 
+			localization_key = SRL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SUR } 
+			localization_key = SUR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TAJ } 
+			localization_key = TAJ_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TRI } 
+			localization_key = TRI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TMS } 
+			localization_key = TMS_social_democracy_party
+		}
+		text = {
+			trigger = { tag = UAE } 
+			localization_key = UAE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = UZB } 
+			localization_key = UZB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KUW } 
+			localization_key = KUW_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CYP } 
+			localization_key = CYP_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MLT } 
+			localization_key = MLT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ALG } 
+			localization_key = ALG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MOR } 
+			localization_key = MOR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TUN } 
+			localization_key = TUN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SUD } 
+			localization_key = SUD_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ERI } 
+			localization_key = ERI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = DJI } 
+			localization_key = DJI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SOM } 
+			localization_key = SOM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = UGA } 
+			localization_key = UGA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = RWA } 
+			localization_key = RWA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BRD } 
+			localization_key = BRD_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TZN } 
+			localization_key = TZN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ZAM } 
+			localization_key = ZAM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MLW } 
+			localization_key = MLW_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GAB } 
+			localization_key = GAB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = RCG } 
+			localization_key = RCG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = EQG } 
+			localization_key = EQG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CMR } 
+			localization_key = CMR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CAR } 
+			localization_key = CAR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CHA } 
+			localization_key = CHA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NGA } 
+			localization_key = NGA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = DAH } 
+			localization_key = DAH_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TOG } 
+			localization_key = TOG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GHA } 
+			localization_key = GHA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = IVO } 
+			localization_key = IVO_social_democracy_party
+		}
+		text = {
+			trigger = { tag = VOL } 
+			localization_key = VOL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MLI } 
+			localization_key = MLI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SIE } 
+			localization_key = SIE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GNA } 
+			localization_key = GNA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GNB } 
+			localization_key = GNB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SEN } 
+			localization_key = SEN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GAM } 
+			localization_key = GAM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = WLS } 
+			localization_key = WLS_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NGR } 
+			localization_key = NGR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CSA } 
+			localization_key = CSA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = USB } 
+			localization_key = USB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MRT } 
+			localization_key = MRT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NMB } 
+			localization_key = NMB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = WES } 
+			localization_key = WES_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BAS } 
+			localization_key = BAS_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CAY } 
+			localization_key = CAY_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MLD } 
+			localization_key = MLD_social_democracy_party
+		}
+		text = {
+			trigger = { tag = FIJ } 
+			localization_key = FIJ_social_democracy_party
+		}
+		text = {
+			trigger = { tag = FSM } 
+			localization_key = FSM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TAH } 
+			localization_key = TAH_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GUM } 
+			localization_key = GUM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SOL } 
+			localization_key = SOL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SAM } 
+			localization_key = SAM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = HAW } 
+			localization_key = HAW_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SLV } 
+			localization_key = SLV_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BOS } 
+			localization_key = BOS_social_democracy_party
+		}
+		text = {
+			trigger = { tag = HRZ } 
+			localization_key = HRZ_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MAC } 
+			localization_key = MAC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NIR } 
+			localization_key = NIR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BAY } 
+			localization_key = BAY_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MEK } 
+			localization_key = MEK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = PRE } 
+			localization_key = PRE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SAX } 
+			localization_key = SAX_social_democracy_party
+		}
+		text = {
+			trigger = { tag = HAN } 
+			localization_key = HAN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = WUR } 
+			localization_key = WUR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SHL } 
+			localization_key = SHL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CAT } 
+			localization_key = CAT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NAV } 
+			localization_key = NAV_social_democracy_party
+		}
+		text = {
+			trigger = { tag = GLC } 
+			localization_key = GLC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ADU } 
+			localization_key = ADU_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BRI } 
+			localization_key = BRI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = OCC } 
+			localization_key = OCC_social_democracy_party
+		}
+		text = {
+			trigger = { tag = COR } 
+			localization_key = COR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KUR } 
+			localization_key = KUR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TRA } 
+			localization_key = TRA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = DNZ } 
+			localization_key = DNZ_social_democracy_party
+		}
+		text = {
+			trigger = { tag = SIL } 
+			localization_key = SIL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KSH } 
+			localization_key = KSH_social_democracy_party
+		}
+		text = {
+			trigger = { tag = DON } 
+			localization_key = DON_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KUB } 
+			localization_key = KUB_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BUK } 
+			localization_key = BUK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ALT } 
+			localization_key = ALT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KAL } 
+			localization_key = KAL_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KAR } 
+			localization_key = KAR_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CRI } 
+			localization_key = CRI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TAT } 
+			localization_key = TAT_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CIN } 
+			localization_key = CIN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = DAG } 
+			localization_key = DAG_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BYA } 
+			localization_key = BYA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CKK } 
+			localization_key = CKK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = FER } 
+			localization_key = FER_social_democracy_party
+		}
+		text = {
+			trigger = { tag = YAK } 
+			localization_key = YAK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = VLA } 
+			localization_key = VLA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KKP } 
+			localization_key = KKP_social_democracy_party
+		}
+		text = {
+			trigger = { tag = YAM } 
+			localization_key = YAM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = TAY } 
+			localization_key = TAY_social_democracy_party
+		}
+		text = {
+			trigger = { tag = OVO } 
+			localization_key = OVO_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NEN } 
+			localization_key = NEN_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KOM } 
+			localization_key = KOM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = ABK } 
+			localization_key = ABK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KBK } 
+			localization_key = KBK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = NOA } 
+			localization_key = NOA_social_democracy_party
+		}
+		text = {
+			trigger = { tag = VGE } 
+			localization_key = VGE_social_democracy_party
+		}
+		text = {
+			trigger = { tag = BSK } 
+			localization_key = BSK_social_democracy_party
+		}
+		text = {
+			trigger = { tag = KHI } 
+			localization_key = KHI_social_democracy_party
+		}
+		text = {
+			trigger = { tag = UDM } 
+			localization_key = UDM_social_democracy_party
+		}
+		text = {
+			trigger = { tag = CHU } 
+			localization_key = CHU_social_democracy_party
+		}
+		text = {
+			trigger = { tag = MEL } 
+			localization_key = MEL_social_democracy_party
+		}
+	#
 	text = { localization_key = social_democracy }
 }
 
 defined_text = {
-	name = social_liberalism_party
+	name = GetSoclibParty
+	#
+		text = {
+			trigger = { tag = JAP } 
+			localization_key = JAP_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KOR } 
+			localization_key = KOR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GGK } 
+			localization_key = GGK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = EHB } 
+			localization_key = EHB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NXM } 
+			localization_key = NXM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = HPC } 
+			localization_key = HPC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GUD } 
+			localization_key = GUD_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIC } 
+			localization_key = SIC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SHD } 
+			localization_key = SHD_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TNG } 
+			localization_key = TNG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GER } 
+			localization_key = GER_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ENG } 
+			localization_key = ENG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SOV } 
+			localization_key = SOV_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SWE } 
+			localization_key = SWE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = FRA } 
+			localization_key = FRA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = LUX } 
+			localization_key = LUX_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BEL } 
+			localization_key = BEL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = HOL } 
+			localization_key = HOL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CZE } 
+			localization_key = CZE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = POL } 
+			localization_key = POL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = AUS } 
+			localization_key = AUS_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = LIT } 
+			localization_key = LIT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = EST } 
+			localization_key = EST_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SPR } 
+			localization_key = SPR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ITA } 
+			localization_key = ITA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ROM } 
+			localization_key = ROM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = YUG } 
+			localization_key = YUG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SER } 
+			localization_key = SER_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SWI } 
+			localization_key = SWI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TUR } 
+			localization_key = TUR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GRE } 
+			localization_key = GRE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ALB } 
+			localization_key = ALB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NOR } 
+			localization_key = NOR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = DEN } 
+			localization_key = DEN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BUL } 
+			localization_key = BUL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = POR } 
+			localization_key = POR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = FIN } 
+			localization_key = FIN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = IRE } 
+			localization_key = IRE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = HUN } 
+			localization_key = HUN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = AFG } 
+			localization_key = AFG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ARG } 
+			localization_key = ARG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = AST } 
+			localization_key = AST_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BHU } 
+			localization_key = BHU_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BOL } 
+			localization_key = BOL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BRA } 
+			localization_key = BRA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAN } 
+			localization_key = CAN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CHI } 
+			localization_key = CHI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CHL } 
+			localization_key = CHL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = COL } 
+			localization_key = COL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = COS } 
+			localization_key = COS_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ECU } 
+			localization_key = ECU_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ELS } 
+			localization_key = ELS_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ETH } 
+			localization_key = ETH_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GUA } 
+			localization_key = GUA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = HON } 
+			localization_key = HON_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = IRQ } 
+			localization_key = IRQ_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = LIB } 
+			localization_key = LIB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MEX } 
+			localization_key = MEX_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MEN } 
+			localization_key = MEN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NEP } 
+			localization_key = NEP_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NIC } 
+			localization_key = NIC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NZL } 
+			localization_key = NZL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PAN } 
+			localization_key = PAN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PER } 
+			localization_key = PER_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PHI } 
+			localization_key = PHI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PRU } 
+			localization_key = PRU_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SAF } 
+			localization_key = SAF_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SAU } 
+			localization_key = SAU_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIA } 
+			localization_key = SIA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIK } 
+			localization_key = SIK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TIB } 
+			localization_key = TIB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = URG } 
+			localization_key = URG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = VEN } 
+			localization_key = VEN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = YUN } 
+			localization_key = YUN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = USA } 
+			localization_key = USA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MON } 
+			localization_key = MON_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAN } 
+			localization_key = TAN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PAR } 
+			localization_key = PAR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CUB } 
+			localization_key = CUB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = DOM } 
+			localization_key = DOM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = HAI } 
+			localization_key = HAI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = YEM } 
+			localization_key = YEM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = OMA } 
+			localization_key = OMA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SLO } 
+			localization_key = SLO_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = RAJ } 
+			localization_key = RAJ_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CRO } 
+			localization_key = CRO_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GXC } 
+			localization_key = GXC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PRC } 
+			localization_key = PRC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SHX } 
+			localization_key = SHX_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = XSM } 
+			localization_key = XSM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ICE } 
+			localization_key = ICE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = LEB } 
+			localization_key = LEB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = JOR } 
+			localization_key = JOR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SYR } 
+			localization_key = SYR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = EGY } 
+			localization_key = EGY_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = LBA } 
+			localization_key = LBA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = WGR } 
+			localization_key = WGR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = DDR } 
+			localization_key = DDR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PAL } 
+			localization_key = PAL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ISR } 
+			localization_key = ISR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = VIN } 
+			localization_key = VIN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAM } 
+			localization_key = CAM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MAL } 
+			localization_key = MAL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = INS } 
+			localization_key = INS_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = LAO } 
+			localization_key = LAO_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MNT } 
+			localization_key = MNT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = UKR } 
+			localization_key = UKR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GEO } 
+			localization_key = GEO_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KAZ } 
+			localization_key = KAZ_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = AZR } 
+			localization_key = AZR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ARM } 
+			localization_key = ARM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BLR } 
+			localization_key = BLR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ANG } 
+			localization_key = ANG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MZB } 
+			localization_key = MZB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ZIM } 
+			localization_key = ZIM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = COG } 
+			localization_key = COG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KEN } 
+			localization_key = KEN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PAK } 
+			localization_key = PAK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BOT } 
+			localization_key = BOT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MAN } 
+			localization_key = MAN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BAH } 
+			localization_key = BAH_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BAN } 
+			localization_key = BAN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BLZ } 
+			localization_key = BLZ_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BRM } 
+			localization_key = BRM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CRC } 
+			localization_key = CRC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GDL } 
+			localization_key = GDL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GYA } 
+			localization_key = GYA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = JAM } 
+			localization_key = JAM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KYR } 
+			localization_key = KYR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MAD } 
+			localization_key = MAD_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MOL } 
+			localization_key = MOL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PNG } 
+			localization_key = PNG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PUE } 
+			localization_key = PUE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = QAT } 
+			localization_key = QAT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SCO } 
+			localization_key = SCO_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SRL } 
+			localization_key = SRL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SUR } 
+			localization_key = SUR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAJ } 
+			localization_key = TAJ_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TRI } 
+			localization_key = TRI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TMS } 
+			localization_key = TMS_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = UAE } 
+			localization_key = UAE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = UZB } 
+			localization_key = UZB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KUW } 
+			localization_key = KUW_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CYP } 
+			localization_key = CYP_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MLT } 
+			localization_key = MLT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ALG } 
+			localization_key = ALG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MOR } 
+			localization_key = MOR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TUN } 
+			localization_key = TUN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SUD } 
+			localization_key = SUD_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ERI } 
+			localization_key = ERI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = DJI } 
+			localization_key = DJI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SOM } 
+			localization_key = SOM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = UGA } 
+			localization_key = UGA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = RWA } 
+			localization_key = RWA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BRD } 
+			localization_key = BRD_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TZN } 
+			localization_key = TZN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ZAM } 
+			localization_key = ZAM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MLW } 
+			localization_key = MLW_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GAB } 
+			localization_key = GAB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = RCG } 
+			localization_key = RCG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = EQG } 
+			localization_key = EQG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CMR } 
+			localization_key = CMR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAR } 
+			localization_key = CAR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CHA } 
+			localization_key = CHA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NGA } 
+			localization_key = NGA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = DAH } 
+			localization_key = DAH_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TOG } 
+			localization_key = TOG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GHA } 
+			localization_key = GHA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = IVO } 
+			localization_key = IVO_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = VOL } 
+			localization_key = VOL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MLI } 
+			localization_key = MLI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIE } 
+			localization_key = SIE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GNA } 
+			localization_key = GNA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GNB } 
+			localization_key = GNB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SEN } 
+			localization_key = SEN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GAM } 
+			localization_key = GAM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = WLS } 
+			localization_key = WLS_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NGR } 
+			localization_key = NGR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CSA } 
+			localization_key = CSA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = USB } 
+			localization_key = USB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MRT } 
+			localization_key = MRT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NMB } 
+			localization_key = NMB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = WES } 
+			localization_key = WES_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BAS } 
+			localization_key = BAS_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAY } 
+			localization_key = CAY_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MLD } 
+			localization_key = MLD_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = FIJ } 
+			localization_key = FIJ_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = FSM } 
+			localization_key = FSM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAH } 
+			localization_key = TAH_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GUM } 
+			localization_key = GUM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SOL } 
+			localization_key = SOL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SAM } 
+			localization_key = SAM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = HAW } 
+			localization_key = HAW_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SLV } 
+			localization_key = SLV_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BOS } 
+			localization_key = BOS_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = HRZ } 
+			localization_key = HRZ_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MAC } 
+			localization_key = MAC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NIR } 
+			localization_key = NIR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BAY } 
+			localization_key = BAY_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MEK } 
+			localization_key = MEK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = PRE } 
+			localization_key = PRE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SAX } 
+			localization_key = SAX_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = HAN } 
+			localization_key = HAN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = WUR } 
+			localization_key = WUR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SHL } 
+			localization_key = SHL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAT } 
+			localization_key = CAT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NAV } 
+			localization_key = NAV_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = GLC } 
+			localization_key = GLC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ADU } 
+			localization_key = ADU_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BRI } 
+			localization_key = BRI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = OCC } 
+			localization_key = OCC_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = COR } 
+			localization_key = COR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KUR } 
+			localization_key = KUR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TRA } 
+			localization_key = TRA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = DNZ } 
+			localization_key = DNZ_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIL } 
+			localization_key = SIL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KSH } 
+			localization_key = KSH_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = DON } 
+			localization_key = DON_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KUB } 
+			localization_key = KUB_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BUK } 
+			localization_key = BUK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ALT } 
+			localization_key = ALT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KAL } 
+			localization_key = KAL_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KAR } 
+			localization_key = KAR_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CRI } 
+			localization_key = CRI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAT } 
+			localization_key = TAT_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CIN } 
+			localization_key = CIN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = DAG } 
+			localization_key = DAG_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BYA } 
+			localization_key = BYA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CKK } 
+			localization_key = CKK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = FER } 
+			localization_key = FER_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = YAK } 
+			localization_key = YAK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = VLA } 
+			localization_key = VLA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KKP } 
+			localization_key = KKP_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = YAM } 
+			localization_key = YAM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAY } 
+			localization_key = TAY_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = OVO } 
+			localization_key = OVO_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NEN } 
+			localization_key = NEN_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KOM } 
+			localization_key = KOM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = ABK } 
+			localization_key = ABK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KBK } 
+			localization_key = KBK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = NOA } 
+			localization_key = NOA_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = VGE } 
+			localization_key = VGE_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = BSK } 
+			localization_key = BSK_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = KHI } 
+			localization_key = KHI_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = UDM } 
+			localization_key = UDM_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = CHU } 
+			localization_key = CHU_social_liberalism_party
+		}
+		text = {
+			trigger = { tag = MEL } 
+			localization_key = MEL_social_liberalism_party
+		}
+	#
 	text = { localization_key = social_liberalism }
 }
 
 defined_text = {
-	name = national_liberalism_party
+	name = GetNatlibParty
+	#
+		text = {
+			trigger = { tag = JAP } 
+			localization_key = JAP_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KOR } 
+			localization_key = KOR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GGK } 
+			localization_key = GGK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = EHB } 
+			localization_key = EHB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NXM } 
+			localization_key = NXM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = HPC } 
+			localization_key = HPC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GUD } 
+			localization_key = GUD_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIC } 
+			localization_key = SIC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SHD } 
+			localization_key = SHD_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TNG } 
+			localization_key = TNG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GER } 
+			localization_key = GER_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ENG } 
+			localization_key = ENG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SOV } 
+			localization_key = SOV_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SWE } 
+			localization_key = SWE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = FRA } 
+			localization_key = FRA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = LUX } 
+			localization_key = LUX_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BEL } 
+			localization_key = BEL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = HOL } 
+			localization_key = HOL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CZE } 
+			localization_key = CZE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = POL } 
+			localization_key = POL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = AUS } 
+			localization_key = AUS_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = LIT } 
+			localization_key = LIT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = EST } 
+			localization_key = EST_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SPR } 
+			localization_key = SPR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ITA } 
+			localization_key = ITA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ROM } 
+			localization_key = ROM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = YUG } 
+			localization_key = YUG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SER } 
+			localization_key = SER_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SWI } 
+			localization_key = SWI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TUR } 
+			localization_key = TUR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GRE } 
+			localization_key = GRE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ALB } 
+			localization_key = ALB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NOR } 
+			localization_key = NOR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = DEN } 
+			localization_key = DEN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BUL } 
+			localization_key = BUL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = POR } 
+			localization_key = POR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = FIN } 
+			localization_key = FIN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = IRE } 
+			localization_key = IRE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = HUN } 
+			localization_key = HUN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = AFG } 
+			localization_key = AFG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ARG } 
+			localization_key = ARG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = AST } 
+			localization_key = AST_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BHU } 
+			localization_key = BHU_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BOL } 
+			localization_key = BOL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BRA } 
+			localization_key = BRA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAN } 
+			localization_key = CAN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CHI } 
+			localization_key = CHI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CHL } 
+			localization_key = CHL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = COL } 
+			localization_key = COL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = COS } 
+			localization_key = COS_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ECU } 
+			localization_key = ECU_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ELS } 
+			localization_key = ELS_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ETH } 
+			localization_key = ETH_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GUA } 
+			localization_key = GUA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = HON } 
+			localization_key = HON_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = IRQ } 
+			localization_key = IRQ_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = LIB } 
+			localization_key = LIB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MEX } 
+			localization_key = MEX_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MEN } 
+			localization_key = MEN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NEP } 
+			localization_key = NEP_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NIC } 
+			localization_key = NIC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NZL } 
+			localization_key = NZL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PAN } 
+			localization_key = PAN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PER } 
+			localization_key = PER_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PHI } 
+			localization_key = PHI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PRU } 
+			localization_key = PRU_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SAF } 
+			localization_key = SAF_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SAU } 
+			localization_key = SAU_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIA } 
+			localization_key = SIA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIK } 
+			localization_key = SIK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TIB } 
+			localization_key = TIB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = URG } 
+			localization_key = URG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = VEN } 
+			localization_key = VEN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = YUN } 
+			localization_key = YUN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = USA } 
+			localization_key = USA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MON } 
+			localization_key = MON_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAN } 
+			localization_key = TAN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PAR } 
+			localization_key = PAR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CUB } 
+			localization_key = CUB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = DOM } 
+			localization_key = DOM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = HAI } 
+			localization_key = HAI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = YEM } 
+			localization_key = YEM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = OMA } 
+			localization_key = OMA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SLO } 
+			localization_key = SLO_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = RAJ } 
+			localization_key = RAJ_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CRO } 
+			localization_key = CRO_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GXC } 
+			localization_key = GXC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PRC } 
+			localization_key = PRC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SHX } 
+			localization_key = SHX_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = XSM } 
+			localization_key = XSM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ICE } 
+			localization_key = ICE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = LEB } 
+			localization_key = LEB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = JOR } 
+			localization_key = JOR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SYR } 
+			localization_key = SYR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = EGY } 
+			localization_key = EGY_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = LBA } 
+			localization_key = LBA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = WGR } 
+			localization_key = WGR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = DDR } 
+			localization_key = DDR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PAL } 
+			localization_key = PAL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ISR } 
+			localization_key = ISR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = VIN } 
+			localization_key = VIN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAM } 
+			localization_key = CAM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MAL } 
+			localization_key = MAL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = INS } 
+			localization_key = INS_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = LAO } 
+			localization_key = LAO_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MNT } 
+			localization_key = MNT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = UKR } 
+			localization_key = UKR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GEO } 
+			localization_key = GEO_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KAZ } 
+			localization_key = KAZ_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = AZR } 
+			localization_key = AZR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ARM } 
+			localization_key = ARM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BLR } 
+			localization_key = BLR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ANG } 
+			localization_key = ANG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MZB } 
+			localization_key = MZB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ZIM } 
+			localization_key = ZIM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = COG } 
+			localization_key = COG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KEN } 
+			localization_key = KEN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PAK } 
+			localization_key = PAK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BOT } 
+			localization_key = BOT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MAN } 
+			localization_key = MAN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BAH } 
+			localization_key = BAH_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BAN } 
+			localization_key = BAN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BLZ } 
+			localization_key = BLZ_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BRM } 
+			localization_key = BRM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CRC } 
+			localization_key = CRC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GDL } 
+			localization_key = GDL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GYA } 
+			localization_key = GYA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = JAM } 
+			localization_key = JAM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KYR } 
+			localization_key = KYR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MAD } 
+			localization_key = MAD_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MOL } 
+			localization_key = MOL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PNG } 
+			localization_key = PNG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PUE } 
+			localization_key = PUE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = QAT } 
+			localization_key = QAT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SCO } 
+			localization_key = SCO_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SRL } 
+			localization_key = SRL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SUR } 
+			localization_key = SUR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAJ } 
+			localization_key = TAJ_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TRI } 
+			localization_key = TRI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TMS } 
+			localization_key = TMS_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = UAE } 
+			localization_key = UAE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = UZB } 
+			localization_key = UZB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KUW } 
+			localization_key = KUW_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CYP } 
+			localization_key = CYP_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MLT } 
+			localization_key = MLT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ALG } 
+			localization_key = ALG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MOR } 
+			localization_key = MOR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TUN } 
+			localization_key = TUN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SUD } 
+			localization_key = SUD_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ERI } 
+			localization_key = ERI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = DJI } 
+			localization_key = DJI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SOM } 
+			localization_key = SOM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = UGA } 
+			localization_key = UGA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = RWA } 
+			localization_key = RWA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BRD } 
+			localization_key = BRD_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TZN } 
+			localization_key = TZN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ZAM } 
+			localization_key = ZAM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MLW } 
+			localization_key = MLW_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GAB } 
+			localization_key = GAB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = RCG } 
+			localization_key = RCG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = EQG } 
+			localization_key = EQG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CMR } 
+			localization_key = CMR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAR } 
+			localization_key = CAR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CHA } 
+			localization_key = CHA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NGA } 
+			localization_key = NGA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = DAH } 
+			localization_key = DAH_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TOG } 
+			localization_key = TOG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GHA } 
+			localization_key = GHA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = IVO } 
+			localization_key = IVO_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = VOL } 
+			localization_key = VOL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MLI } 
+			localization_key = MLI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIE } 
+			localization_key = SIE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GNA } 
+			localization_key = GNA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GNB } 
+			localization_key = GNB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SEN } 
+			localization_key = SEN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GAM } 
+			localization_key = GAM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = WLS } 
+			localization_key = WLS_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NGR } 
+			localization_key = NGR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CSA } 
+			localization_key = CSA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = USB } 
+			localization_key = USB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MRT } 
+			localization_key = MRT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NMB } 
+			localization_key = NMB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = WES } 
+			localization_key = WES_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BAS } 
+			localization_key = BAS_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAY } 
+			localization_key = CAY_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MLD } 
+			localization_key = MLD_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = FIJ } 
+			localization_key = FIJ_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = FSM } 
+			localization_key = FSM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAH } 
+			localization_key = TAH_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GUM } 
+			localization_key = GUM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SOL } 
+			localization_key = SOL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SAM } 
+			localization_key = SAM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = HAW } 
+			localization_key = HAW_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SLV } 
+			localization_key = SLV_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BOS } 
+			localization_key = BOS_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = HRZ } 
+			localization_key = HRZ_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MAC } 
+			localization_key = MAC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NIR } 
+			localization_key = NIR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BAY } 
+			localization_key = BAY_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MEK } 
+			localization_key = MEK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = PRE } 
+			localization_key = PRE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SAX } 
+			localization_key = SAX_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = HAN } 
+			localization_key = HAN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = WUR } 
+			localization_key = WUR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SHL } 
+			localization_key = SHL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CAT } 
+			localization_key = CAT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NAV } 
+			localization_key = NAV_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = GLC } 
+			localization_key = GLC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ADU } 
+			localization_key = ADU_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BRI } 
+			localization_key = BRI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = OCC } 
+			localization_key = OCC_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = COR } 
+			localization_key = COR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KUR } 
+			localization_key = KUR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TRA } 
+			localization_key = TRA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = DNZ } 
+			localization_key = DNZ_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = SIL } 
+			localization_key = SIL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KSH } 
+			localization_key = KSH_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = DON } 
+			localization_key = DON_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KUB } 
+			localization_key = KUB_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BUK } 
+			localization_key = BUK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ALT } 
+			localization_key = ALT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KAL } 
+			localization_key = KAL_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KAR } 
+			localization_key = KAR_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CRI } 
+			localization_key = CRI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAT } 
+			localization_key = TAT_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CIN } 
+			localization_key = CIN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = DAG } 
+			localization_key = DAG_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BYA } 
+			localization_key = BYA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CKK } 
+			localization_key = CKK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = FER } 
+			localization_key = FER_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = YAK } 
+			localization_key = YAK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = VLA } 
+			localization_key = VLA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KKP } 
+			localization_key = KKP_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = YAM } 
+			localization_key = YAM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = TAY } 
+			localization_key = TAY_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = OVO } 
+			localization_key = OVO_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NEN } 
+			localization_key = NEN_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KOM } 
+			localization_key = KOM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = ABK } 
+			localization_key = ABK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KBK } 
+			localization_key = KBK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = NOA } 
+			localization_key = NOA_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = VGE } 
+			localization_key = VGE_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = BSK } 
+			localization_key = BSK_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = KHI } 
+			localization_key = KHI_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = UDM } 
+			localization_key = UDM_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = CHU } 
+			localization_key = CHU_national_liberalism_party
+		}
+		text = {
+			trigger = { tag = MEL } 
+			localization_key = MEL_national_liberalism_party
+		}
+	#
 	text = { localization_key = national_liberalism }
 }
 
 defined_text = {
-	name = liberal_conservatism_party
+	name = GetLibconParty
+	#
+		text = {
+			trigger = { tag = JAP } 
+			localization_key = JAP_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KOR } 
+			localization_key = KOR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GGK } 
+			localization_key = GGK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = EHB } 
+			localization_key = EHB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NXM } 
+			localization_key = NXM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = HPC } 
+			localization_key = HPC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GUD } 
+			localization_key = GUD_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIC } 
+			localization_key = SIC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SHD } 
+			localization_key = SHD_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TNG } 
+			localization_key = TNG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GER } 
+			localization_key = GER_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ENG } 
+			localization_key = ENG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SOV } 
+			localization_key = SOV_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SWE } 
+			localization_key = SWE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = FRA } 
+			localization_key = FRA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = LUX } 
+			localization_key = LUX_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BEL } 
+			localization_key = BEL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = HOL } 
+			localization_key = HOL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CZE } 
+			localization_key = CZE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = POL } 
+			localization_key = POL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = AUS } 
+			localization_key = AUS_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = LIT } 
+			localization_key = LIT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = EST } 
+			localization_key = EST_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SPR } 
+			localization_key = SPR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ITA } 
+			localization_key = ITA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ROM } 
+			localization_key = ROM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = YUG } 
+			localization_key = YUG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SER } 
+			localization_key = SER_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SWI } 
+			localization_key = SWI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TUR } 
+			localization_key = TUR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GRE } 
+			localization_key = GRE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ALB } 
+			localization_key = ALB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NOR } 
+			localization_key = NOR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = DEN } 
+			localization_key = DEN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BUL } 
+			localization_key = BUL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = POR } 
+			localization_key = POR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = FIN } 
+			localization_key = FIN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = IRE } 
+			localization_key = IRE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = HUN } 
+			localization_key = HUN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = AFG } 
+			localization_key = AFG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ARG } 
+			localization_key = ARG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = AST } 
+			localization_key = AST_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BHU } 
+			localization_key = BHU_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BOL } 
+			localization_key = BOL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BRA } 
+			localization_key = BRA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAN } 
+			localization_key = CAN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CHI } 
+			localization_key = CHI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CHL } 
+			localization_key = CHL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = COL } 
+			localization_key = COL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = COS } 
+			localization_key = COS_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ECU } 
+			localization_key = ECU_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ELS } 
+			localization_key = ELS_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ETH } 
+			localization_key = ETH_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GUA } 
+			localization_key = GUA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = HON } 
+			localization_key = HON_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = IRQ } 
+			localization_key = IRQ_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = LIB } 
+			localization_key = LIB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MEX } 
+			localization_key = MEX_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MEN } 
+			localization_key = MEN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NEP } 
+			localization_key = NEP_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NIC } 
+			localization_key = NIC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NZL } 
+			localization_key = NZL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PAN } 
+			localization_key = PAN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PER } 
+			localization_key = PER_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PHI } 
+			localization_key = PHI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PRU } 
+			localization_key = PRU_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SAF } 
+			localization_key = SAF_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SAU } 
+			localization_key = SAU_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIA } 
+			localization_key = SIA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIK } 
+			localization_key = SIK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TIB } 
+			localization_key = TIB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = URG } 
+			localization_key = URG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = VEN } 
+			localization_key = VEN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = YUN } 
+			localization_key = YUN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = USA } 
+			localization_key = USA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MON } 
+			localization_key = MON_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAN } 
+			localization_key = TAN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PAR } 
+			localization_key = PAR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CUB } 
+			localization_key = CUB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = DOM } 
+			localization_key = DOM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = HAI } 
+			localization_key = HAI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = YEM } 
+			localization_key = YEM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = OMA } 
+			localization_key = OMA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SLO } 
+			localization_key = SLO_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = RAJ } 
+			localization_key = RAJ_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CRO } 
+			localization_key = CRO_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GXC } 
+			localization_key = GXC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PRC } 
+			localization_key = PRC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SHX } 
+			localization_key = SHX_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = XSM } 
+			localization_key = XSM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ICE } 
+			localization_key = ICE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = LEB } 
+			localization_key = LEB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = JOR } 
+			localization_key = JOR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SYR } 
+			localization_key = SYR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = EGY } 
+			localization_key = EGY_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = LBA } 
+			localization_key = LBA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = WGR } 
+			localization_key = WGR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = DDR } 
+			localization_key = DDR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PAL } 
+			localization_key = PAL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ISR } 
+			localization_key = ISR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = VIN } 
+			localization_key = VIN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAM } 
+			localization_key = CAM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MAL } 
+			localization_key = MAL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = INS } 
+			localization_key = INS_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = LAO } 
+			localization_key = LAO_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MNT } 
+			localization_key = MNT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = UKR } 
+			localization_key = UKR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GEO } 
+			localization_key = GEO_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KAZ } 
+			localization_key = KAZ_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = AZR } 
+			localization_key = AZR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ARM } 
+			localization_key = ARM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BLR } 
+			localization_key = BLR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ANG } 
+			localization_key = ANG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MZB } 
+			localization_key = MZB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ZIM } 
+			localization_key = ZIM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = COG } 
+			localization_key = COG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KEN } 
+			localization_key = KEN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PAK } 
+			localization_key = PAK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BOT } 
+			localization_key = BOT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MAN } 
+			localization_key = MAN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BAH } 
+			localization_key = BAH_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BAN } 
+			localization_key = BAN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BLZ } 
+			localization_key = BLZ_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BRM } 
+			localization_key = BRM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CRC } 
+			localization_key = CRC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GDL } 
+			localization_key = GDL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GYA } 
+			localization_key = GYA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = JAM } 
+			localization_key = JAM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KYR } 
+			localization_key = KYR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MAD } 
+			localization_key = MAD_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MOL } 
+			localization_key = MOL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PNG } 
+			localization_key = PNG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PUE } 
+			localization_key = PUE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = QAT } 
+			localization_key = QAT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SCO } 
+			localization_key = SCO_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SRL } 
+			localization_key = SRL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SUR } 
+			localization_key = SUR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAJ } 
+			localization_key = TAJ_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TRI } 
+			localization_key = TRI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TMS } 
+			localization_key = TMS_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = UAE } 
+			localization_key = UAE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = UZB } 
+			localization_key = UZB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KUW } 
+			localization_key = KUW_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CYP } 
+			localization_key = CYP_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MLT } 
+			localization_key = MLT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ALG } 
+			localization_key = ALG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MOR } 
+			localization_key = MOR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TUN } 
+			localization_key = TUN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SUD } 
+			localization_key = SUD_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ERI } 
+			localization_key = ERI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = DJI } 
+			localization_key = DJI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SOM } 
+			localization_key = SOM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = UGA } 
+			localization_key = UGA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = RWA } 
+			localization_key = RWA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BRD } 
+			localization_key = BRD_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TZN } 
+			localization_key = TZN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ZAM } 
+			localization_key = ZAM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MLW } 
+			localization_key = MLW_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GAB } 
+			localization_key = GAB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = RCG } 
+			localization_key = RCG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = EQG } 
+			localization_key = EQG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CMR } 
+			localization_key = CMR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAR } 
+			localization_key = CAR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CHA } 
+			localization_key = CHA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NGA } 
+			localization_key = NGA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = DAH } 
+			localization_key = DAH_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TOG } 
+			localization_key = TOG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GHA } 
+			localization_key = GHA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = IVO } 
+			localization_key = IVO_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = VOL } 
+			localization_key = VOL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MLI } 
+			localization_key = MLI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIE } 
+			localization_key = SIE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GNA } 
+			localization_key = GNA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GNB } 
+			localization_key = GNB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SEN } 
+			localization_key = SEN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GAM } 
+			localization_key = GAM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = WLS } 
+			localization_key = WLS_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NGR } 
+			localization_key = NGR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CSA } 
+			localization_key = CSA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = USB } 
+			localization_key = USB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MRT } 
+			localization_key = MRT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NMB } 
+			localization_key = NMB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = WES } 
+			localization_key = WES_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BAS } 
+			localization_key = BAS_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAY } 
+			localization_key = CAY_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MLD } 
+			localization_key = MLD_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = FIJ } 
+			localization_key = FIJ_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = FSM } 
+			localization_key = FSM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAH } 
+			localization_key = TAH_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GUM } 
+			localization_key = GUM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SOL } 
+			localization_key = SOL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SAM } 
+			localization_key = SAM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = HAW } 
+			localization_key = HAW_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SLV } 
+			localization_key = SLV_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BOS } 
+			localization_key = BOS_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = HRZ } 
+			localization_key = HRZ_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MAC } 
+			localization_key = MAC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NIR } 
+			localization_key = NIR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BAY } 
+			localization_key = BAY_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MEK } 
+			localization_key = MEK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = PRE } 
+			localization_key = PRE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SAX } 
+			localization_key = SAX_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = HAN } 
+			localization_key = HAN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = WUR } 
+			localization_key = WUR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SHL } 
+			localization_key = SHL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAT } 
+			localization_key = CAT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NAV } 
+			localization_key = NAV_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = GLC } 
+			localization_key = GLC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ADU } 
+			localization_key = ADU_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BRI } 
+			localization_key = BRI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = OCC } 
+			localization_key = OCC_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = COR } 
+			localization_key = COR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KUR } 
+			localization_key = KUR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TRA } 
+			localization_key = TRA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = DNZ } 
+			localization_key = DNZ_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIL } 
+			localization_key = SIL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KSH } 
+			localization_key = KSH_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = DON } 
+			localization_key = DON_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KUB } 
+			localization_key = KUB_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BUK } 
+			localization_key = BUK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ALT } 
+			localization_key = ALT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KAL } 
+			localization_key = KAL_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KAR } 
+			localization_key = KAR_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CRI } 
+			localization_key = CRI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAT } 
+			localization_key = TAT_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CIN } 
+			localization_key = CIN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = DAG } 
+			localization_key = DAG_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BYA } 
+			localization_key = BYA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CKK } 
+			localization_key = CKK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = FER } 
+			localization_key = FER_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = YAK } 
+			localization_key = YAK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = VLA } 
+			localization_key = VLA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KKP } 
+			localization_key = KKP_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = YAM } 
+			localization_key = YAM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAY } 
+			localization_key = TAY_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = OVO } 
+			localization_key = OVO_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NEN } 
+			localization_key = NEN_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KOM } 
+			localization_key = KOM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = ABK } 
+			localization_key = ABK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KBK } 
+			localization_key = KBK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = NOA } 
+			localization_key = NOA_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = VGE } 
+			localization_key = VGE_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = BSK } 
+			localization_key = BSK_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = KHI } 
+			localization_key = KHI_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = UDM } 
+			localization_key = UDM_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = CHU } 
+			localization_key = CHU_liberal_conservatism_party
+		}
+		text = {
+			trigger = { tag = MEL } 
+			localization_key = MEL_liberal_conservatism_party
+		}
+	#
 	text = { localization_key = liberal_conservatism }
 }
 
 defined_text = {
-	name = social_conservatism_party
-	text = { localization_key = democratic }
-}
-
-defined_text = {
-	name = national_conservatism_party
+	name = GetNatconParty
+	#
+		text = {
+			trigger = { tag = JAP } 
+			localization_key = JAP_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KOR } 
+			localization_key = KOR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GGK } 
+			localization_key = GGK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = EHB } 
+			localization_key = EHB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NXM } 
+			localization_key = NXM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = HPC } 
+			localization_key = HPC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GUD } 
+			localization_key = GUD_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIC } 
+			localization_key = SIC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SHD } 
+			localization_key = SHD_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TNG } 
+			localization_key = TNG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GER } 
+			localization_key = GER_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ENG } 
+			localization_key = ENG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SOV } 
+			localization_key = SOV_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SWE } 
+			localization_key = SWE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = FRA } 
+			localization_key = FRA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = LUX } 
+			localization_key = LUX_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BEL } 
+			localization_key = BEL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = HOL } 
+			localization_key = HOL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CZE } 
+			localization_key = CZE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = POL } 
+			localization_key = POL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = AUS } 
+			localization_key = AUS_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = LIT } 
+			localization_key = LIT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = EST } 
+			localization_key = EST_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SPR } 
+			localization_key = SPR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ITA } 
+			localization_key = ITA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ROM } 
+			localization_key = ROM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = YUG } 
+			localization_key = YUG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SER } 
+			localization_key = SER_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SWI } 
+			localization_key = SWI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TUR } 
+			localization_key = TUR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GRE } 
+			localization_key = GRE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ALB } 
+			localization_key = ALB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NOR } 
+			localization_key = NOR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = DEN } 
+			localization_key = DEN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BUL } 
+			localization_key = BUL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = POR } 
+			localization_key = POR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = FIN } 
+			localization_key = FIN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = IRE } 
+			localization_key = IRE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = HUN } 
+			localization_key = HUN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = AFG } 
+			localization_key = AFG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ARG } 
+			localization_key = ARG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = AST } 
+			localization_key = AST_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BHU } 
+			localization_key = BHU_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BOL } 
+			localization_key = BOL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BRA } 
+			localization_key = BRA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAN } 
+			localization_key = CAN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CHI } 
+			localization_key = CHI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CHL } 
+			localization_key = CHL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = COL } 
+			localization_key = COL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = COS } 
+			localization_key = COS_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ECU } 
+			localization_key = ECU_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ELS } 
+			localization_key = ELS_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ETH } 
+			localization_key = ETH_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GUA } 
+			localization_key = GUA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = HON } 
+			localization_key = HON_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = IRQ } 
+			localization_key = IRQ_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = LIB } 
+			localization_key = LIB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MEX } 
+			localization_key = MEX_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MEN } 
+			localization_key = MEN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NEP } 
+			localization_key = NEP_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NIC } 
+			localization_key = NIC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NZL } 
+			localization_key = NZL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PAN } 
+			localization_key = PAN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PER } 
+			localization_key = PER_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PHI } 
+			localization_key = PHI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PRU } 
+			localization_key = PRU_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SAF } 
+			localization_key = SAF_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SAU } 
+			localization_key = SAU_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIA } 
+			localization_key = SIA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIK } 
+			localization_key = SIK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TIB } 
+			localization_key = TIB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = URG } 
+			localization_key = URG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = VEN } 
+			localization_key = VEN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = YUN } 
+			localization_key = YUN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = USA } 
+			localization_key = USA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MON } 
+			localization_key = MON_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAN } 
+			localization_key = TAN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PAR } 
+			localization_key = PAR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CUB } 
+			localization_key = CUB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = DOM } 
+			localization_key = DOM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = HAI } 
+			localization_key = HAI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = YEM } 
+			localization_key = YEM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = OMA } 
+			localization_key = OMA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SLO } 
+			localization_key = SLO_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = RAJ } 
+			localization_key = RAJ_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CRO } 
+			localization_key = CRO_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GXC } 
+			localization_key = GXC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PRC } 
+			localization_key = PRC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SHX } 
+			localization_key = SHX_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = XSM } 
+			localization_key = XSM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ICE } 
+			localization_key = ICE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = LEB } 
+			localization_key = LEB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = JOR } 
+			localization_key = JOR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SYR } 
+			localization_key = SYR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = EGY } 
+			localization_key = EGY_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = LBA } 
+			localization_key = LBA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = WGR } 
+			localization_key = WGR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = DDR } 
+			localization_key = DDR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PAL } 
+			localization_key = PAL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ISR } 
+			localization_key = ISR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = VIN } 
+			localization_key = VIN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAM } 
+			localization_key = CAM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MAL } 
+			localization_key = MAL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = INS } 
+			localization_key = INS_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = LAO } 
+			localization_key = LAO_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MNT } 
+			localization_key = MNT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = UKR } 
+			localization_key = UKR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GEO } 
+			localization_key = GEO_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KAZ } 
+			localization_key = KAZ_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = AZR } 
+			localization_key = AZR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ARM } 
+			localization_key = ARM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BLR } 
+			localization_key = BLR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ANG } 
+			localization_key = ANG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MZB } 
+			localization_key = MZB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ZIM } 
+			localization_key = ZIM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = COG } 
+			localization_key = COG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KEN } 
+			localization_key = KEN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PAK } 
+			localization_key = PAK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BOT } 
+			localization_key = BOT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MAN } 
+			localization_key = MAN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BAH } 
+			localization_key = BAH_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BAN } 
+			localization_key = BAN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BLZ } 
+			localization_key = BLZ_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BRM } 
+			localization_key = BRM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CRC } 
+			localization_key = CRC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GDL } 
+			localization_key = GDL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GYA } 
+			localization_key = GYA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = JAM } 
+			localization_key = JAM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KYR } 
+			localization_key = KYR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MAD } 
+			localization_key = MAD_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MOL } 
+			localization_key = MOL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PNG } 
+			localization_key = PNG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PUE } 
+			localization_key = PUE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = QAT } 
+			localization_key = QAT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SCO } 
+			localization_key = SCO_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SRL } 
+			localization_key = SRL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SUR } 
+			localization_key = SUR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAJ } 
+			localization_key = TAJ_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TRI } 
+			localization_key = TRI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TMS } 
+			localization_key = TMS_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = UAE } 
+			localization_key = UAE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = UZB } 
+			localization_key = UZB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KUW } 
+			localization_key = KUW_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CYP } 
+			localization_key = CYP_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MLT } 
+			localization_key = MLT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ALG } 
+			localization_key = ALG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MOR } 
+			localization_key = MOR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TUN } 
+			localization_key = TUN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SUD } 
+			localization_key = SUD_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ERI } 
+			localization_key = ERI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = DJI } 
+			localization_key = DJI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SOM } 
+			localization_key = SOM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = UGA } 
+			localization_key = UGA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = RWA } 
+			localization_key = RWA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BRD } 
+			localization_key = BRD_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TZN } 
+			localization_key = TZN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ZAM } 
+			localization_key = ZAM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MLW } 
+			localization_key = MLW_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GAB } 
+			localization_key = GAB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = RCG } 
+			localization_key = RCG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = EQG } 
+			localization_key = EQG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CMR } 
+			localization_key = CMR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAR } 
+			localization_key = CAR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CHA } 
+			localization_key = CHA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NGA } 
+			localization_key = NGA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = DAH } 
+			localization_key = DAH_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TOG } 
+			localization_key = TOG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GHA } 
+			localization_key = GHA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = IVO } 
+			localization_key = IVO_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = VOL } 
+			localization_key = VOL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MLI } 
+			localization_key = MLI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIE } 
+			localization_key = SIE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GNA } 
+			localization_key = GNA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GNB } 
+			localization_key = GNB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SEN } 
+			localization_key = SEN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GAM } 
+			localization_key = GAM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = WLS } 
+			localization_key = WLS_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NGR } 
+			localization_key = NGR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CSA } 
+			localization_key = CSA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = USB } 
+			localization_key = USB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MRT } 
+			localization_key = MRT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NMB } 
+			localization_key = NMB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = WES } 
+			localization_key = WES_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BAS } 
+			localization_key = BAS_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAY } 
+			localization_key = CAY_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MLD } 
+			localization_key = MLD_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = FIJ } 
+			localization_key = FIJ_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = FSM } 
+			localization_key = FSM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAH } 
+			localization_key = TAH_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GUM } 
+			localization_key = GUM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SOL } 
+			localization_key = SOL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SAM } 
+			localization_key = SAM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = HAW } 
+			localization_key = HAW_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SLV } 
+			localization_key = SLV_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BOS } 
+			localization_key = BOS_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = HRZ } 
+			localization_key = HRZ_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MAC } 
+			localization_key = MAC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NIR } 
+			localization_key = NIR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BAY } 
+			localization_key = BAY_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MEK } 
+			localization_key = MEK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = PRE } 
+			localization_key = PRE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SAX } 
+			localization_key = SAX_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = HAN } 
+			localization_key = HAN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = WUR } 
+			localization_key = WUR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SHL } 
+			localization_key = SHL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CAT } 
+			localization_key = CAT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NAV } 
+			localization_key = NAV_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = GLC } 
+			localization_key = GLC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ADU } 
+			localization_key = ADU_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BRI } 
+			localization_key = BRI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = OCC } 
+			localization_key = OCC_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = COR } 
+			localization_key = COR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KUR } 
+			localization_key = KUR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TRA } 
+			localization_key = TRA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = DNZ } 
+			localization_key = DNZ_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = SIL } 
+			localization_key = SIL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KSH } 
+			localization_key = KSH_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = DON } 
+			localization_key = DON_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KUB } 
+			localization_key = KUB_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BUK } 
+			localization_key = BUK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ALT } 
+			localization_key = ALT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KAL } 
+			localization_key = KAL_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KAR } 
+			localization_key = KAR_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CRI } 
+			localization_key = CRI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAT } 
+			localization_key = TAT_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CIN } 
+			localization_key = CIN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = DAG } 
+			localization_key = DAG_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BYA } 
+			localization_key = BYA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CKK } 
+			localization_key = CKK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = FER } 
+			localization_key = FER_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = YAK } 
+			localization_key = YAK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = VLA } 
+			localization_key = VLA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KKP } 
+			localization_key = KKP_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = YAM } 
+			localization_key = YAM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = TAY } 
+			localization_key = TAY_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = OVO } 
+			localization_key = OVO_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NEN } 
+			localization_key = NEN_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KOM } 
+			localization_key = KOM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = ABK } 
+			localization_key = ABK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KBK } 
+			localization_key = KBK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = NOA } 
+			localization_key = NOA_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = VGE } 
+			localization_key = VGE_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = BSK } 
+			localization_key = BSK_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = KHI } 
+			localization_key = KHI_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = UDM } 
+			localization_key = UDM_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = CHU } 
+			localization_key = CHU_national_conservatism_party
+		}
+		text = {
+			trigger = { tag = MEL } 
+			localization_key = MEL_national_conservatism_party
+		}
+	#
 	text = { localization_key = national_conservatism }
 }
 
 defined_text = {
-	name = neutrality_party
-	text = { localization_key = neutrality }
-}
-
-defined_text = {
-	name = auto_despotism_party
+	name = GetAutdesParty
+	#
+		text = {
+			trigger = { tag = JAP } 
+			localization_key = JAP_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KOR } 
+			localization_key = KOR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GGK } 
+			localization_key = GGK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = EHB } 
+			localization_key = EHB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NXM } 
+			localization_key = NXM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = HPC } 
+			localization_key = HPC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GUD } 
+			localization_key = GUD_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SIC } 
+			localization_key = SIC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SHD } 
+			localization_key = SHD_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TNG } 
+			localization_key = TNG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GER } 
+			localization_key = GER_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ENG } 
+			localization_key = ENG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SOV } 
+			localization_key = SOV_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SWE } 
+			localization_key = SWE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = FRA } 
+			localization_key = FRA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = LUX } 
+			localization_key = LUX_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BEL } 
+			localization_key = BEL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = HOL } 
+			localization_key = HOL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CZE } 
+			localization_key = CZE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = POL } 
+			localization_key = POL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = AUS } 
+			localization_key = AUS_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = LIT } 
+			localization_key = LIT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = EST } 
+			localization_key = EST_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = LAT } 
+			localization_key = LAT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SPR } 
+			localization_key = SPR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ITA } 
+			localization_key = ITA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ROM } 
+			localization_key = ROM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = YUG } 
+			localization_key = YUG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SER } 
+			localization_key = SER_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SWI } 
+			localization_key = SWI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TUR } 
+			localization_key = TUR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GRE } 
+			localization_key = GRE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ALB } 
+			localization_key = ALB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NOR } 
+			localization_key = NOR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = DEN } 
+			localization_key = DEN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BUL } 
+			localization_key = BUL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = POR } 
+			localization_key = POR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = FIN } 
+			localization_key = FIN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = IRE } 
+			localization_key = IRE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = HUN } 
+			localization_key = HUN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = AFG } 
+			localization_key = AFG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ARG } 
+			localization_key = ARG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = AST } 
+			localization_key = AST_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BHU } 
+			localization_key = BHU_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BOL } 
+			localization_key = BOL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BRA } 
+			localization_key = BRA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CAN } 
+			localization_key = CAN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CHI } 
+			localization_key = CHI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CHL } 
+			localization_key = CHL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = COL } 
+			localization_key = COL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = COS } 
+			localization_key = COS_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ECU } 
+			localization_key = ECU_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ELS } 
+			localization_key = ELS_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ETH } 
+			localization_key = ETH_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GUA } 
+			localization_key = GUA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = HON } 
+			localization_key = HON_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = IRQ } 
+			localization_key = IRQ_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = LIB } 
+			localization_key = LIB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MEX } 
+			localization_key = MEX_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MEN } 
+			localization_key = MEN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NEP } 
+			localization_key = NEP_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NIC } 
+			localization_key = NIC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NZL } 
+			localization_key = NZL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PAN } 
+			localization_key = PAN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PER } 
+			localization_key = PER_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PHI } 
+			localization_key = PHI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PRU } 
+			localization_key = PRU_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SAF } 
+			localization_key = SAF_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SAU } 
+			localization_key = SAU_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SIA } 
+			localization_key = SIA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SIK } 
+			localization_key = SIK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TIB } 
+			localization_key = TIB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = URG } 
+			localization_key = URG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = VEN } 
+			localization_key = VEN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = YUN } 
+			localization_key = YUN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = USA } 
+			localization_key = USA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MON } 
+			localization_key = MON_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TAN } 
+			localization_key = TAN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PAR } 
+			localization_key = PAR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CUB } 
+			localization_key = CUB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = DOM } 
+			localization_key = DOM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = HAI } 
+			localization_key = HAI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = YEM } 
+			localization_key = YEM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = OMA } 
+			localization_key = OMA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SLO } 
+			localization_key = SLO_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = RAJ } 
+			localization_key = RAJ_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CRO } 
+			localization_key = CRO_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GXC } 
+			localization_key = GXC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PRC } 
+			localization_key = PRC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SHX } 
+			localization_key = SHX_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = XSM } 
+			localization_key = XSM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ICE } 
+			localization_key = ICE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = LEB } 
+			localization_key = LEB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = JOR } 
+			localization_key = JOR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SYR } 
+			localization_key = SYR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = EGY } 
+			localization_key = EGY_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = LBA } 
+			localization_key = LBA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = WGR } 
+			localization_key = WGR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = DDR } 
+			localization_key = DDR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PAL } 
+			localization_key = PAL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ISR } 
+			localization_key = ISR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = VIN } 
+			localization_key = VIN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CAM } 
+			localization_key = CAM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MAL } 
+			localization_key = MAL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = INS } 
+			localization_key = INS_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = LAO } 
+			localization_key = LAO_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MNT } 
+			localization_key = MNT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = UKR } 
+			localization_key = UKR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GEO } 
+			localization_key = GEO_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KAZ } 
+			localization_key = KAZ_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = AZR } 
+			localization_key = AZR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ARM } 
+			localization_key = ARM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BLR } 
+			localization_key = BLR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ANG } 
+			localization_key = ANG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MZB } 
+			localization_key = MZB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ZIM } 
+			localization_key = ZIM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = COG } 
+			localization_key = COG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KEN } 
+			localization_key = KEN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PAK } 
+			localization_key = PAK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BOT } 
+			localization_key = BOT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MAN } 
+			localization_key = MAN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BAH } 
+			localization_key = BAH_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BAN } 
+			localization_key = BAN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BLZ } 
+			localization_key = BLZ_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BRM } 
+			localization_key = BRM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CRC } 
+			localization_key = CRC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GDL } 
+			localization_key = GDL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GYA } 
+			localization_key = GYA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = JAM } 
+			localization_key = JAM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KYR } 
+			localization_key = KYR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MAD } 
+			localization_key = MAD_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MOL } 
+			localization_key = MOL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PNG } 
+			localization_key = PNG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PUE } 
+			localization_key = PUE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = QAT } 
+			localization_key = QAT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SCO } 
+			localization_key = SCO_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SRL } 
+			localization_key = SRL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SUR } 
+			localization_key = SUR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TAJ } 
+			localization_key = TAJ_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TRI } 
+			localization_key = TRI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TMS } 
+			localization_key = TMS_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = UAE } 
+			localization_key = UAE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = UZB } 
+			localization_key = UZB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KUW } 
+			localization_key = KUW_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CYP } 
+			localization_key = CYP_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MLT } 
+			localization_key = MLT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ALG } 
+			localization_key = ALG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MOR } 
+			localization_key = MOR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TUN } 
+			localization_key = TUN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SUD } 
+			localization_key = SUD_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ERI } 
+			localization_key = ERI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = DJI } 
+			localization_key = DJI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SOM } 
+			localization_key = SOM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = UGA } 
+			localization_key = UGA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = RWA } 
+			localization_key = RWA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BRD } 
+			localization_key = BRD_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TZN } 
+			localization_key = TZN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ZAM } 
+			localization_key = ZAM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MLW } 
+			localization_key = MLW_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GAB } 
+			localization_key = GAB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = RCG } 
+			localization_key = RCG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = EQG } 
+			localization_key = EQG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CMR } 
+			localization_key = CMR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CAR } 
+			localization_key = CAR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CHA } 
+			localization_key = CHA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NGA } 
+			localization_key = NGA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = DAH } 
+			localization_key = DAH_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TOG } 
+			localization_key = TOG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GHA } 
+			localization_key = GHA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = IVO } 
+			localization_key = IVO_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = VOL } 
+			localization_key = VOL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MLI } 
+			localization_key = MLI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SIE } 
+			localization_key = SIE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GNA } 
+			localization_key = GNA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GNB } 
+			localization_key = GNB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SEN } 
+			localization_key = SEN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GAM } 
+			localization_key = GAM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = WLS } 
+			localization_key = WLS_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NGR } 
+			localization_key = NGR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CSA } 
+			localization_key = CSA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = USB } 
+			localization_key = USB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MRT } 
+			localization_key = MRT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NMB } 
+			localization_key = NMB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = WES } 
+			localization_key = WES_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BAS } 
+			localization_key = BAS_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CAY } 
+			localization_key = CAY_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MLD } 
+			localization_key = MLD_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = FIJ } 
+			localization_key = FIJ_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = FSM } 
+			localization_key = FSM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TAH } 
+			localization_key = TAH_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GUM } 
+			localization_key = GUM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SOL } 
+			localization_key = SOL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SAM } 
+			localization_key = SAM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = HAW } 
+			localization_key = HAW_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SLV } 
+			localization_key = SLV_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BOS } 
+			localization_key = BOS_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = HRZ } 
+			localization_key = HRZ_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MAC } 
+			localization_key = MAC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NIR } 
+			localization_key = NIR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BAY } 
+			localization_key = BAY_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MEK } 
+			localization_key = MEK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = PRE } 
+			localization_key = PRE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SAX } 
+			localization_key = SAX_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = HAN } 
+			localization_key = HAN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = WUR } 
+			localization_key = WUR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SHL } 
+			localization_key = SHL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CAT } 
+			localization_key = CAT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NAV } 
+			localization_key = NAV_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = GLC } 
+			localization_key = GLC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ADU } 
+			localization_key = ADU_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BRI } 
+			localization_key = BRI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = OCC } 
+			localization_key = OCC_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = COR } 
+			localization_key = COR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KUR } 
+			localization_key = KUR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TRA } 
+			localization_key = TRA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = DNZ } 
+			localization_key = DNZ_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = SIL } 
+			localization_key = SIL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KSH } 
+			localization_key = KSH_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = DON } 
+			localization_key = DON_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KUB } 
+			localization_key = KUB_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BUK } 
+			localization_key = BUK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ALT } 
+			localization_key = ALT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KAL } 
+			localization_key = KAL_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KAR } 
+			localization_key = KAR_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CRI } 
+			localization_key = CRI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TAT } 
+			localization_key = TAT_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CIN } 
+			localization_key = CIN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = DAG } 
+			localization_key = DAG_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BYA } 
+			localization_key = BYA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CKK } 
+			localization_key = CKK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = FER } 
+			localization_key = FER_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = YAK } 
+			localization_key = YAK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = VLA } 
+			localization_key = VLA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KKP } 
+			localization_key = KKP_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = YAM } 
+			localization_key = YAM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = TAY } 
+			localization_key = TAY_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = OVO } 
+			localization_key = OVO_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NEN } 
+			localization_key = NEN_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KOM } 
+			localization_key = KOM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = ABK } 
+			localization_key = ABK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KBK } 
+			localization_key = KBK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = NOA } 
+			localization_key = NOA_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = VGE } 
+			localization_key = VGE_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = BSK } 
+			localization_key = BSK_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = KHI } 
+			localization_key = KHI_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = UDM } 
+			localization_key = UDM_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = CHU } 
+			localization_key = CHU_auto_despotism_party
+		}
+		text = {
+			trigger = { tag = MEL } 
+			localization_key = MEL_auto_despotism_party
+		}
+	#
 	text = { localization_key = auto_despotism }
-}
-
-defined_text = {
-	name = fascism_party
-	text = { localization_key = fascism }
-}
-
-
-
-defined_text = {
-	name = bg_com
-	text = {
-		trigger = { has_government = communism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_autsoc
-	text = {
-		trigger = { has_government = auth_socialism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_radsoc
-	text = {
-		trigger = { has_government = radical_socialism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_socdem
-	text = {
-		trigger = { has_government = social_democracy }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_soclib
-	text = {
-		trigger = { has_government = social_liberalism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_natlib
-	text = {
-		trigger = { has_government = national_liberalism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_libcon
-	text = {
-		trigger = { has_government = liberal_conservatism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_soccon
-	text = {
-		trigger = { has_government = democratic }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_natcon
-	text = {
-		trigger = { has_government = national_conservatism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_autdem
-	text = {
-		trigger = { has_government = neutrality }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_autdes
-	text = {
-		trigger = { has_government = auto_despotism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
-}
-
-defined_text = {
-	name = bg_fas
-	text = {
-		trigger = { has_government = fascism }
-		localization_key = GFX_leading_pol_party_bg
-	}
-	text = { localization_key = GFX_select_date_1939 }
 }

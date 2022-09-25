@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_decision_cat_woi"
+		texturefile = "gfx/interface/decisions/decision_cat_woi.dds"
+	}
+
+	spriteType = {
 		name = "GFX_decision_cat_liberation_volunteer_army"
 		texturefile = "gfx/interface/decisions/decision_cat_liberation_volunteer_army.dds"
 	}

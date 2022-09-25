@@ -1,42 +1,4 @@
 spriteTypes = {
-
-	#National Assembly
-	spriteType = {
-		name = "GFX_senate_0"
-		texturefile = "gfx/texticons/national_assembly/senate_0.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_senate_50"
-		texturefile = "gfx/texticons/national_assembly/senate_50.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_senate_100"
-		texturefile = "gfx/texticons/national_assembly/senate_100.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_house_0"
-		texturefile = "gfx/texticons/national_assembly/house_0.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_house_50"
-		texturefile = "gfx/texticons/national_assembly/house_50.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_house_100"
-		texturefile = "gfx/texticons/national_assembly/house_100.dds"
-		legacy_lazy_load = no
-	}
-
 	#News
 	spriteType = {
 		name = "GFX_soviet_news"

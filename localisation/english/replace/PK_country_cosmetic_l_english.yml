@@ -1,6 +1,6 @@
 ﻿l_english:
 
-#만주국
+# 만주국
  MAN_JAP_fascism_autonomy_puppet:0 "만주 제국"
  MAN_JAP_fascism_autonomy_reichsprotectorate:0 "만주 제국"
  MAN_JAP_fascism_autonomy_colony:0 "만주 제국"
@@ -21,3 +21,12 @@
  MAN_JAP_fascism_autonomy_wtt_imperial_protectorate_DEF:0 "만주 제국"
  MAN_JAP_fascism_autonomy_wtt_imperial_subject_DEF:0 "만주 제국"
  MAN_JAP_fascism_autonomy_wtt_imperial_associate_DEF:0 "만주 제국"
+
+ # 몽강
+ MEN_MAG_fascism:0 "몽골군사정부"
+ MEN_MUAG_fascism:0 "몽골연합자치정부"
+ MEN_mengjiang_fascism:0 "몽강연합자치정부"
+
+ # 중공
+ PRC_SGN_communism:0 "중화민국 섬감녕변구정부"
+ SHX_shanxi_suiyuan_auto_despotism:0 "산서-수원 군벌"

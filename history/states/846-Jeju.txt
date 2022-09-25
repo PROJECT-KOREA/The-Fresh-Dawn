@@ -18,7 +18,7 @@ state = {
 			1177 = { naval_base = 2 } #제주
 		}
 
-		victory_points = { 1177 3 } #제주
+		victory_points = { 1177 4 } #제주
 	}
 
 	provinces = { 1177 }

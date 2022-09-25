@@ -1,0 +1,34 @@
+CHI_influence_in_inner_mongolia = {
+	split_men = {
+		icon = generic_form_nation
+		available = {
+			NOT = {
+				has_war_with = MEN
+				is_in_faction_with = JAP
+			}
+		}
+		visible = {
+			country_exists = MEN
+			MEN = { is_subject = no }
+			# ECA = {
+			# 	controls_state = 757
+			# }
+			# country_exists = PLM
+		}
+		fire_only_once = yes
+		cost = 20
+		days_remove = 25
+		remove_effect = {
+			custom_effect_tooltip = if_failed_to_do_split_men_tt
+			MEN = { country_event = { id = pk_china_mengjiang.1 hours = 1 } }
+		}
+		cancel_trigger = {
+            OR = {
+				MEN = { is_subject_of = JAP }
+				NOT = { country_exists = MEN }
+				# has_country_flag = yang_hucheng_in_charge
+			}
+		}
+		ai_will_do = { factor = 2000 }
+	}
+}

@@ -40,15 +40,6 @@ defined_text = {
 			localization_key = kia_commander
 		}
 
-		#군정장관
-		text = {
-			trigger = {
-				tag = KOR
-				has_country_flag = KOR_flag_kia_mg
-			}
-			localization_key = mil_gov
-		}
-
 		#국민위원회 위원장
 		text = {
 			trigger = {
@@ -106,19 +97,44 @@ defined_text = {
 		text = {
 			trigger = {
 				tag = KOR
-				has_idea = HoG_Hong_Saik
+				OR = {
+					has_idea = HoS2_Hong_Saik
+					has_idea = HoS2_Hong_Saik2
+				}
+				NOT = {
+					OR = {
+						has_country_flag = KOR_flag_kia_mg
+						has_country_flag = KOR_flag_hnc
+					}
+				}
 			}
 			localization_key = kia_vice_commander
 		}
 
-		#민정장관
+		#군정장관
 		text = {
 			trigger = {
 				tag = KOR
-				has_country_flag = KOR_flag_kia_mg
+				OR = {
+					has_idea = HoS2_Hong_Saik
+					has_idea = HoS2_Hong_Saik2
+				}
+				OR = {
+					has_country_flag = KOR_flag_kia_mg
+					has_country_flag = KOR_flag_hnc
+				}
 			}
-			localization_key = civ_adm
+			localization_key = mil_gov
 		}
+
+		# #민정장관
+		# text = {
+		# 	trigger = {
+		# 		tag = KOR
+		# 		has_country_flag = KOR_flag_kia_mg
+		# 	}
+		# 	localization_key = civ_adm
+		# }
 	
 		#부위원장
 		text = {

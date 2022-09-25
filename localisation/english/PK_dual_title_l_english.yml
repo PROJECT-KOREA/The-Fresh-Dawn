@@ -17,7 +17,6 @@
 
   #대한민국 임시정부
   kia_commander:0 "광복군 총사령관"
-  mil_gov:0 "군정장관"
   hnc_chairman:0 "위원장"
   kpg_president:0 "국무원 주석"
 
@@ -28,6 +27,7 @@
 
 
  ### 지도자(부) ###
+  leader2_name_tt:0 "§Y[This.leader2_name]§![This.leader2_effect]"
 
   #일본 제국
   souri_daijin:0 "내각총리대신"
@@ -43,7 +43,7 @@
 
   #대한민국 임시정부
   kia_vice_commander:0 "광복군 부사령관"
-  civ_adm:0 "민정장관"
+  mil_gov:0 "군정장관"
   hnc_vice_chairman:0 "부위원장"
   kpg_vice_president:0 "국무원 부주석"
 

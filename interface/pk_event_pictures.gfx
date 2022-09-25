@@ -38,9 +38,20 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_report_event_KOR_independence_army2"
-		textureFile = "gfx/event_pictures/report_event_KOR_independence_army2.dds"
+		name = "GFX_report_event_KOR_ji_chengcheon_speech"
+		textureFile = "gfx/event_pictures/report_event_KOR_ji_chengcheon_speech.dds"
 	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_internal_figure"
+		textureFile = "gfx/event_pictures/report_event_KOR_internal_figure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KOR_ryuh_and_song"
+		textureFile = "gfx/event_pictures/report_event_KOR_ryuh_and_song.dds"
+	}
+
 
 
 

@@ -1,0 +1,46 @@
+leader_traits = {
+
+	### 장관 직책 ###
+
+	# 기본 #
+	vice_hos = { random = no } #부지도자
+	hog = { random = no } 	 #정부수반
+	secmin = { random = no } #내무장관
+	ecomin = { random = no } #재무장관
+	frnmin = { random = no } #외무장관
+	intmin = { random = no } #정보장관
+
+	# 이념 #
+	min_com = { random = no }
+	min_autsoc = { random = no }
+	min_radsoc = { random = no }
+	min_socdem = { random = no }
+	min_soclib = { random = no }
+	min_natlib = { random = no }
+	min_libcon = { random = no }
+	min_soccon = { random = no }
+	min_natcon = { random = no }
+	min_autdem = { random = no }
+	min_autdes = { random = no }
+	min_fas = { random = no }
+
+	# 일본 제국 #
+	hog_jap = { random = no } 	 #내각총리대신
+	secmin_jap = { random = no } #내무대신
+	ecomin_jap = { random = no } #대장대신
+	frnmin_jap = { random = no } #외무대신
+	intmin_jap = { random = no } #경보국장
+
+	# 군정청 민정장관 #
+	hog_kiamg = { random = no }
+
+	# 국민위원회 부위원장 #
+	hog_vc = { random = no }
+
+	# 대한민국 (임시정부) #
+	hog_kpg = { random = no } 	 #내각총리대신
+	secmin_kpg = { random = no } #내무대신
+	ecomin_kpg = { random = no } #대장대신
+	frnmin_kpg = { random = no } #외무대신
+	intmin_kpg = { random = no } #경보국장
+}

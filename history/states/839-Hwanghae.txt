@@ -18,7 +18,7 @@ state = {
 			industrial_complex = 1
 		}
 
-		# victory_points = { 1003 10 } #해주(카이슈)
+		victory_points = { 1003 3 } #해주(카이슈)
 	}
 
 	resources = { steel = 5 }

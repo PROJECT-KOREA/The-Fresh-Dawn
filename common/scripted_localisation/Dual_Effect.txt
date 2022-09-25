@@ -1,0 +1,94 @@
+#지도자(부) 이름
+defined_text = {
+	name = leader2_effect
+
+	# ### 일본 제국 ###
+	# 	# 오카다 케이스게
+	# 	text = {
+	# 		trigger = {
+	# 			tag = JAP
+	# 			has_idea = HoG_Okada_Keisuke
+	# 		}
+	# 		localization_key = Okada_Keisuke
+	# 	}
+	# #
+
+	# ### 일본령 조선 ###
+	# 	# 이마이다 기요노리
+	# 	text = {
+	# 		trigger = {
+	# 			tag = GGK
+	# 			has_idea = HoG_Imaida_Kiyonori
+	# 		}
+	# 		localization_key = Imaida_Kiyonori
+	# 	}
+
+	# 	# 오노 로쿠이치로
+	# 	text = {
+	# 		trigger = {
+	# 			tag = GGK
+	# 			has_idea = HoG_Ono_Rokuichiro
+	# 		}
+	# 		localization_key = Ono_Rokuichiro
+	# 	}
+	# #
+
+	# #만주 제국 - 장징후이
+	# text = {
+    #     trigger = {
+	# 		tag = MAN
+	# 		has_idea = HoG_Zhang_Jinghui
+	# 	}
+	# 	localization_key = Zhang_Jinghui
+	# }
+
+	# #중화민국 국민정부 - 장제스
+	# text = {
+    #     trigger = {
+	# 		tag = CHI
+	# 		has_idea = HoG_Chiang_Kaishek
+	# 	}
+	# 	localization_key = Chiang_Kaishek
+	# }
+
+	### 대한민국 ###
+		# 홍사익 - 군정장관
+		text = {
+			trigger = {
+				tag = KOR
+				has_idea = HoS2_Hong_Saik2
+			}
+			localization_key = Hong_Saik_desc_milgov
+		}
+
+		# # 여운형
+		# text = {
+		# 	trigger = {
+		# 		tag = KOR
+		# 		has_idea = HoG_Ryuh_Woonhyung_mg
+		# 	}
+		# 	localization_key = Ryuh_Woonhyung
+		# }
+
+		# # 여운형
+		# text = {
+		# 	trigger = {
+		# 		tag = KOR
+		# 		has_idea = HoG_Ahn_Jaehong_hnc
+		# 	}
+		# 	localization_key = ahn_jaehong
+		# }
+
+		# # 김규식
+		# text = {
+		# 	trigger = {
+		# 		tag = KOR
+		# 		NOT = {
+		# 			has_country_flag = KOR_flag_kia_mg
+		# 			has_country_flag = KOR_flag_hnc
+		# 		}
+		# 	}
+		# 	localization_key = kim_kyusik
+		# }
+	#
+}

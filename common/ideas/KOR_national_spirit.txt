@@ -5,19 +5,10 @@ ideas = {
 
 		#군사정권
 		KOR_idea_military_dic = {
-
 			picture = generic_pp_unity_bonus
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				political_power_factor = -0.2
 			}
@@ -25,19 +16,10 @@ ideas = {
 
 		#임시정부
 		KOR_idea_provisional_government = {
-
 			picture = generic_pp_unity_bonus
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				political_power_factor = -0.15
 			}
@@ -45,20 +27,11 @@ ideas = {
 
 		#과도정부1
 		KOR_idea_interim_government_1 = {
-
 			name = KOR_idea_interim_government
 			picture = generic_pp_unity_bonus
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				political_power_factor = -0.10
 			}
@@ -66,20 +39,11 @@ ideas = {
 
 		#과도정부2
 		KOR_idea_interim_government_2 = {
-
 			name = KOR_idea_interim_government
 			picture = generic_pp_unity_bonus
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				political_power_factor = -0.05
 			}
@@ -87,21 +51,12 @@ ideas = {
 
 		#화력지상주의
 		KOR_idea_firepower_supremacy = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				army_artillery_attack_factor = 0.1
 			}
-
 			research_bonus = {
 				cat_superior_firepower = 0.15
 			}
@@ -109,20 +64,11 @@ ideas = {
 
 		#한국광복군1
 		KOR_idea_kia_1 = {
-
 			name = KOR_idea_kia
 			picture = independence_army
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				army_org_factor = 0.05
 				army_morale_factor = 0.05
@@ -133,20 +79,11 @@ ideas = {
 
 		#한국광복군2
 		KOR_idea_kia_2 = {
-
 			name = KOR_idea_kia
 			picture = independence_army
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				army_org_factor = 0.10
 				army_morale_factor = 0.10
@@ -157,20 +94,11 @@ ideas = {
 
 		#한국 독립전쟁1
 		KOR_idea_independence_war_1 = {
-
 			name = KOR_idea_independence_war
 			picture = independence_war
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				surrender_limit = 1.5
 				war_support_factor = 0.5
@@ -180,20 +108,11 @@ ideas = {
 
 		#한국 독립전쟁2
 		KOR_idea_independence_war_2 = {
-
 			name = KOR_idea_independence_war
 			picture = independence_war
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				conscription_factor = 0.5
 				surrender_limit = 1.5
@@ -204,18 +123,10 @@ ideas = {
 		
 		#문맹 인구
 		KOR_idea_illiteracy_population_1 = {
-
 			name = KOR_idea_illiteracy_population
-
 			picture = chi_incompetent_officers
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.15
@@ -225,18 +136,10 @@ ideas = {
 		
 		#문맹 인구2
 		KOR_idea_illiteracy_population_2 = {
-
 			name = KOR_idea_illiteracy_population
-
 			picture = chi_incompetent_officers
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.10
@@ -246,18 +149,10 @@ ideas = {
 		
 		#문맹 인구3
 		KOR_idea_illiteracy_population_3 = {
-
 			name = KOR_idea_illiteracy_population
-
 			picture = chi_incompetent_officers
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.05
@@ -267,18 +162,10 @@ ideas = {
 
 		#빈민 문제
 		KOR_idea_the_poor_1 = {
-
 			name = KOR_idea_the_poor
-
 			picture = raj_risk_of_famine
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.09
@@ -288,18 +175,10 @@ ideas = {
 
 		#빈민 문제2
 		KOR_idea_the_poor_2 = {
-
 			name = KOR_idea_the_poor
-
 			picture = raj_risk_of_famine
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.07
@@ -309,18 +188,10 @@ ideas = {
 
 		#빈민 문제3
 		KOR_idea_the_poor_3 = {
-
 			name = KOR_idea_the_poor
-
 			picture = raj_risk_of_famine
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -330,18 +201,10 @@ ideas = {
 
 		#빈민 문제4
 		KOR_idea_the_poor_4 = {
-
 			name = KOR_idea_the_poor
-
 			picture = raj_risk_of_famine
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = 0.03
@@ -351,23 +214,14 @@ ideas = {
 
 		#불안정한 산업
 		KOR_idea_unstable_industry  = {
-			
 			picture = FRA_factory_strikes
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				industrial_capacity_factory = -0.1
 				line_change_production_efficiency_factor = -0.1
 			}
-
 			research_bonus = {
 				industry = -0.05
 			}
@@ -375,16 +229,9 @@ ideas = {
 
 		#무기 연구기술의 부재 
 		KOR_idea_absence_of_weapon_technology = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			research_bonus = {
 				infantry_weapons = -0.7
 				armor = -0.7
@@ -393,20 +240,48 @@ ideas = {
 			}
 		}
 
+		#건국치안대
+		KOR_idea_poc = {
+			picture = MEX_politicised_army_2
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.03
+				stability_factor = 0.15
+			}
+		}
+
+		#한반도의 무기 부족
+		KOR_idea_arms_raided = {
+			picture = generic_army_problems
+			allowed = { always = no }
+			removal_cost = -1
+			targeted_modifier = {
+				tag = KOR
+				attack_bonus_against = -0.10
+				defense_bonus_against = -0.10
+			}
+		}
+
+		#현지산 무기 조달
+		KOR_idea_local_weapons = {
+			picture = generic_army_problems
+			allowed = { always = no }
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+
 		#전시 생산 체제
 		KOR_idea_war_time_production  = {
-			
 			picture = generic_production_bonus
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			modifier = {
 				industrial_capacity_factory = 0.15
 				production_speed_arms_factory_factor = 0.2
@@ -415,47 +290,21 @@ ideas = {
 			}
 		}
 
-		#한반도의 무기 부족
-		KOR_idea_arms_raided = {
-
-			picture = generic_army_problems
-
-			allowed = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			targeted_modifier = {
-				tag = KOR
-				attack_bonus_against = -0.10
-				defense_bonus_against = -0.10
-			}
-		}
-
 		#복수의 시간
 		KOR_idea_time_to_revenge = {
-
 			picture = chi_war_of_resistance3
-
-			allowed = {
-				always = no
-			}
-			
+			allowed = { always = no }
 			removal_cost = -1
-			
 			targeted_modifier = {
 				tag = GGK
 				attack_bonus_against = 0.15
 				defense_bonus_against = 0.15
 			}
-			
 			targeted_modifier = {
 				tag = JAP
 				attack_bonus_against = 0.15
 				defense_bonus_against = 0.15
 			}
-			
 			targeted_modifier = {
 				tag = MAN
 				attack_bonus_against = 0.15
@@ -465,16 +314,9 @@ ideas = {
 
 		#식민지배의 잔재
 		KOR_idea_vestiges_of_colonization = {
-
 			picture = warrior_traditions_idea
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.10
@@ -483,14 +325,8 @@ ideas = {
 
 		#친일반민족행위자
 		KOR_idea_pro_japanese_collaborators = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				political_power_factor = -0.05
@@ -501,18 +337,10 @@ ideas = {
 
 		#이념적 갈등
 		KOR_idea_ideological_conflict = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
-
 			picture = generic_disjointed_gov
-
 			modifier = {
 				political_power_factor = -0.1
 				stability_factor = -0.15
@@ -521,16 +349,9 @@ ideas = {
 
 		#국가 재건
 		KOR_idea_national_recovery = {
-
 			name = KOR_idea_national_recovery
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = -0.15
@@ -540,14 +361,8 @@ ideas = {
 
 		#재탄생한 광복군
 		KOR_idea_reborn_kia = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				army_attack_factor = 0.05
@@ -557,14 +372,8 @@ ideas = {
 
 		#대한 독립
 		KOR_idea_independence = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				political_power_factor = 0.1
@@ -575,14 +384,8 @@ ideas = {
 
 		#사면된 친일반민족행위자
 		KOR_idea_pardoned_pro_japanese_collaborators = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.05
@@ -592,14 +395,8 @@ ideas = {
 
 		#대한민국 헌법
 		KOR_idea_rok_constitution = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				stability_factor = 0.2
@@ -608,14 +405,8 @@ ideas = {
 
 		#친일파 재산 몰수
 		KOR_idea_forfeit_pjc_property = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = -0.05
@@ -624,14 +415,8 @@ ideas = {
 
 		#정치경찰
 		KOR_idea_political_police = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				drift_defence_factor = 0.5
