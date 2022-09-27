@@ -31,11 +31,8 @@ leader_traits = {
 	frnmin_jap = { random = no } #외무대신
 	intmin_jap = { random = no } #경보국장
 
-	# 군정청 민정장관 #
-	hog_kiamg = { random = no }
-
-	# 국민위원회 부위원장 #
-	hog_vc = { random = no }
+	# 군정청 민정장관 / 국민위원회 부위원장 #
+	hog_woi = { random = no }
 
 	# 대한민국 (임시정부) #
 	hog_kpg = { random = no } 	 #내각총리대신
