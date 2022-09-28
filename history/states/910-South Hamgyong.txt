@@ -18,7 +18,7 @@ state = {
 			industrial_complex = 1
 		}
 
-		victory_points = { 13255 5 } #함흥(칸코)
+		victory_points = { 13276 5 } #함흥(칸코)
 		victory_points = { 848 5 } #원산(겐잔)
 	}
 

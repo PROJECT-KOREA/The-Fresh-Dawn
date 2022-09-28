@@ -1,5 +1,5 @@
 ﻿#수도
-capital = 837 #신의주
+capital = 911 #신의주
 
 #인물 불러오기
 	recruit_character = KOR_Ji_Cheongcheon
