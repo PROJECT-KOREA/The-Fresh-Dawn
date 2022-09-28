@@ -1,6 +1,6 @@
 state = {
-	id = 848
-	name = "STATE_848" #젠다오
+	id = 922
+	name = "STATE_922" #젠다오
 	manpower = 1925000
 
 	state_category = town

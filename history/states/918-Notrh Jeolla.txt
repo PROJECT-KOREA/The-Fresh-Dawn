@@ -1,6 +1,6 @@
 state = {
-	id = 844
-	name = "STATE_844" #전라북도
+	id = 918
+	name = "STATE_918" #전라북도
 	manpower = 1700000
 
 	state_category = town	
@@ -23,6 +23,6 @@ state = {
 	}
 
 	provinces = {
-		4126 7175 11977 13250 13267
+		4126 7175 11977 13271 13288
 	}
 }

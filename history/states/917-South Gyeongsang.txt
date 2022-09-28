@@ -1,6 +1,6 @@
 state = {
-	id = 843
-	name = "STATE_843" #경상남도
+	id = 917
+	name = "STATE_917" #경상남도
 	manpower = 2300000
 
 	state_category = large_town
@@ -31,6 +31,6 @@ state = {
 	# resources = { steel = 40 }
 
 	provinces = {
-		1054 4056 10085 12060 13252 13262
+		1054 4056 10085 12060 13273 13283
 	}
 }

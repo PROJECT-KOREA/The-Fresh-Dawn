@@ -1,6 +1,6 @@
 state = {
-	id = 845
-	name = "STATE_845" #전라남도
+	id = 919
+	name = "STATE_919" #전라남도
 	manpower = 2600000
 
 	state_category = town	
@@ -18,11 +18,11 @@ state = {
 			13265 = { naval_base = 2 } #목포
 		}
 
-		victory_points = { 13263 5 } #광주(코슈)
-		victory_points = { 13265 2 } #목포(모쿠호)
+		victory_points = { 13284 5 } #광주(코슈)
+		victory_points = { 13286 2 } #목포(모쿠호)
 	}
 
 	provinces = {
-		10110 11948 12085 13263 13264 13265
+		10110 11948 12085 13284 13285 13286
 	}
 }

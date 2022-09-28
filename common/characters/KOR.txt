@@ -174,7 +174,7 @@ characters = {
             expire = "1999.1.1.1"
             id = -1
         }
-    {}
+    }
     #이승만 (首)
     KOR_Syngman_Rhee = {
         name = Syngman_Rhee
