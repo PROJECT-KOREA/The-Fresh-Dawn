@@ -1,0 +1,32 @@
+state = {
+	id = 939
+	name = "STATE_939"
+	manpower = 227455
+
+	state_category = town
+
+	history = {
+		set_demilitarized_zone = yes
+		owner = MEN
+		add_core_of = MEN
+		add_core_of = CHI
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+		victory_points = {
+			4495 2
+		}
+	}
+
+	resources = {
+		steel = 5
+	}
+
+	provinces = {
+		1811 1871 4495 4555 7578 7648 7674 10363 12348 12554
+	}
+}

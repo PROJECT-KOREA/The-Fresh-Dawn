@@ -1,0 +1,19 @@
+state = {
+	id = 909
+	name = "STATE_909" # 경성(케이죠)
+	manpower = 460000
+	state_category = large_city
+	history = {
+		owner = GGK
+		add_core_of = GGK
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 3 # 기반시설
+			industrial_complex = 2 # 민간공장
+			arms_factory = 1 #군수공장
+			air_base = 2 #공군기지
+		}
+		victory_points = { 7125 15 } #서울(케이죠)
+	}
+	provinces = { 7125 }
+}

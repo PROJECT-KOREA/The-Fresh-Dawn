@@ -36,7 +36,6 @@ guiTypes = {
 			spriteType = "GFX_frontend_game_logo"
 			position = { x = -1000 y = 100 }
 		}
-		
 	}
 
 	#containerWindowType = {
@@ -84,8 +83,7 @@ guiTypes = {
 		# 	spriteType = "GFX_pdx_int_logo"
 		# 	position = { x= 135 y = 15 }
 		# }
-		
-	}		
+	}
 
 	### SINGLE PLAYER MENU
 	containerWindowType = {
@@ -197,7 +195,6 @@ guiTypes = {
 			position = { x = 99999 y = 523 }
 		}
 
-		#Pretty, pretty pictures
 		iconType = {
 			name ="GFX_fronticons"
 			spriteType = "GFX_fronticons"
@@ -218,21 +215,8 @@ guiTypes = {
 
 		positionType = {
 			name = "version_label_subscription_position"
-			position = { x = 99999 y = 484 }
+			position = { x = 99999 y = 99999 }
 		}
-
-		# instantTextBoxType = {
-		# 	name ="tno_version_label"
-		# 	position = { x = 100 y = -28 }
-		# 	textureFile = ""
-		# 	font = "aldrich_24_outline"
-		# 	borderSize = {x = 0 y = 0}
-		# 	text = "BETA 0.1"
-		# 	format = left
-		# 	maxWidth = 300
-		# 	maxHeight = 20
-		# 	pdx_tooltip = "Oct 23, 2020"
-		# }
 
 		#ghost window used for buttons background
 		containerWindowType = {
@@ -279,14 +263,42 @@ guiTypes = {
 		############################################## buttons on the side
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 43 y = -0 }
+			position = { x = 43 y = 0 }
 			quadTextureSprite ="GFX_settings_icon"
 			buttonFont = "aldrich_24_outline"
 			clicksound = click_default
 			oversound = ui_menu_over
 			pdx_tooltip = "setting_tt"
 		}
-
+		
+		buttonType = {
+			name = "career_profile_button"
+			position = { x = 43 y = 138 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			buttonText = "MENU_BAR_CAREER_PROFILE"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		iconType = {
+			name = "career_profile_button_star"
+			position = { x = 43 y = 155 }
+			spriteType = "GFX_icon_best_in_career"
+			centerposition = yes
+			orientation = upper_right
+			alwaysTransparent = yes
+		}
+		
+		buttonType = {
+			name = "friends_button"
+			position = { x = 16 y = 178 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			buttonText = "MENU_BAR_FRIENDS"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
 		ButtonType = {
 			name = "credits_button"
 			position = {  x = 43 y = 40 }
@@ -296,6 +308,7 @@ guiTypes = {
 			oversound = ui_menu_over
 			pdx_tooltip = "credit_tt"
 		}
+
 		ButtonType = {
 			name = "nudge_button"
 			position = { x = 43 y = 80 }
@@ -304,33 +317,6 @@ guiTypes = {
 			pdx_tooltip = "nudge_tt"
 		}
 		
-		#################################
-		#ButtonType = {
-		#	name = "credits_button"
-		#	position = {  x = 32 y = 320 }
-		#	quadTextureSprite ="GFX_main_lobby_button"
-		#	buttonText = "FE_CREDITS"
-		#	buttonFont = "aldrich_24_outline"
-		#	clicksound = click_default
-		#	oversound = ui_menu_over
-		#}
-	
-		#ButtonType = {
-		#	name = "nudge_button"
-		#	position = { x = 16 y = 420 }
-		#	quadTextureSprite ="GFX_nudge_icon"
-		#	buttonText = "Nudge!"
-		#	buttonFont = "aldrich_24_outline"
-		#}
-	
-		ButtonType = {
-			name = "privacy_policy_button"
-			#position = { x = 219 y = 309 }
-			position = { x = -5000 y = 309 }
-			quadTextureSprite ="privacy"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_PRIVACY_POLICY"
-		}
 
 		ButtonType = {
 			name = "exit_button"

@@ -16,32 +16,29 @@ test = {
 		fire_only_once = no
 
 		complete_effect = {
+			GGK = { release = KOR }
 			GGK = {
-				release = KOR
-			}
-			GGK = {
+				add_state_core = 909
+				add_state_core = 910
+				add_state_core = 911
+				add_state_core = 912
+				add_state_core = 913
+				add_state_core = 914
+				add_state_core = 915
 				add_state_core = 525
 				add_state_core = 527
-				add_state_core = 835
-				add_state_core = 836
-				add_state_core = 837
-				add_state_core = 838
-				add_state_core = 839
-				add_state_core = 840
-				add_state_core = 841
-				add_state_core = 842
-				add_state_core = 843
-				add_state_core = 844
-				add_state_core = 845
-				add_state_core = 846
-				add_state_core = 847
+				add_state_core = 916
+				add_state_core = 917
+				add_state_core = 918
+				add_state_core = 919
+				add_state_core = 920
+				add_state_core = 921
+				add_state_core = 922
 			}
 			KOR_reset_state_names = yes
 			KOR_reset_province_names = yes
-			KOR = {
-				change_tag_from = GGK
-			}
-			KOR = { set_capital = { state = 847 } }
+			KOR = { change_tag_from = GGK }
+			KOR = { set_capital = { state = 909 } }
 		}
 	}
 
@@ -61,29 +58,26 @@ test = {
 		fire_only_once = no
 
 		complete_effect = {
+			KOR = { release = GGK }
 			KOR = {
-				release = GGK
-			}
-			KOR = {
+				add_state_core = 909
+				add_state_core = 910
+				add_state_core = 911
+				add_state_core = 912
+				add_state_core = 913
+				add_state_core = 914
+				add_state_core = 915
 				add_state_core = 525
 				add_state_core = 527
-				add_state_core = 835
-				add_state_core = 836
-				add_state_core = 837
-				add_state_core = 838
-				add_state_core = 839
-				add_state_core = 840
-				add_state_core = 841
-				add_state_core = 842
-				add_state_core = 843
-				add_state_core = 844
-				add_state_core = 845
-				add_state_core = 846
-				add_state_core = 847
+				add_state_core = 916
+				add_state_core = 917
+				add_state_core = 918
+				add_state_core = 919
+				add_state_core = 920
+				add_state_core = 921
+				add_state_core = 922
 			}
-			GGK = {
-				change_tag_from = KOR
-			}
+			GGK = { change_tag_from = KOR }
 		}
 	}
 }

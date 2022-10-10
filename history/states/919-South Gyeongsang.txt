@@ -1,0 +1,36 @@
+state = {
+	id = 919
+	name = "STATE_919" #경상남도
+	manpower = 2300000
+
+	state_category = large_town
+	
+	history = {
+		owner = GGK
+		add_core_of = KOR
+		add_core_of = GGK
+		
+		buildings = {
+			#기반시설
+			infrastructure = 2
+
+			#민간공장
+			industrial_complex = 1
+
+			#조선소
+			dockyard = 2
+
+			#해군기지
+			4056 = { naval_base = 3 } #부산
+		}
+
+		victory_points = { 4056 8 } #부산(후잔)
+		victory_points = { 13273 3 } #마산(바산)
+	}
+
+	# resources = { steel = 40 }
+
+	provinces = {
+		1054 4056 10085 12060 13273 13283
+	}
+}

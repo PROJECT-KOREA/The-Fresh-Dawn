@@ -1,0 +1,35 @@
+state = {
+	id = 914
+	name = "STATE_914" #평안남도
+	manpower = 1330000
+
+	state_category = large_town
+	
+	history = {
+		owner = GGK
+		add_core_of = KOR
+		add_core_of = GGK
+		
+		buildings = {
+			#기반시설
+			infrastructure = 3
+
+			#민간공장
+			industrial_complex = 1
+
+			#군수공장
+			arms_factory = 1
+
+			#공군기지
+			air_base = 1
+
+			#해군기지
+			13278 = { naval_base = 1 } #진남포
+		}
+		victory_points = { 13278 2 } #남포(진난포)
+	}
+
+	provinces = {
+		978 3912 4052 7171 9790 11770 13262 13278
+	}	
+}

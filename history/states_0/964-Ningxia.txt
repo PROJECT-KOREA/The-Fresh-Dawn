@@ -1,0 +1,24 @@
+state = {
+	id = 964
+	name = "STATE_964"
+	manpower = 2428300
+	
+	state_category = town
+
+	history = {
+		owner = XSM
+		add_core_of = XSM
+		# owner = NXM
+		# add_core_of = NXM
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		556 3742 6638 
+	}
+}

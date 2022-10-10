@@ -1,4 +1,4 @@
-﻿capital = 921 # 경성
+﻿capital = 909 # 경성
 
 #지도자
 recruit_character = GGK_Ugaki_Kazushige	# 우가키 카즈시게

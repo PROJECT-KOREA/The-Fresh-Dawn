@@ -1,6 +1,27 @@
 ﻿#수도 - 난징
 capital = 598
 
+#전투서열
+oob = "CHI_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CHI_1936_naval_mtg"
+	else = {
+		set_naval_oob = "CHI_1936_naval_legacy"
+	}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "CHI_1936_air_bba"
+	else = {
+		set_air_oob = "CHI_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+		}
+	}
+}
+
 #인물 로딩
 	recruit_character = CHI_Lin_Sen
 	
@@ -44,48 +65,129 @@ capital = 598
 		# recruit_character = CHI_lin_sen
 	#
 #
-
-#전투서열
-oob = "CHI_1936"
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	gw_artillery = 1
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+	else = {
+		set_technology = {
+			gwtank = 1
+		}
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "CHI_1936_naval_mtg"
-	else = { set_naval_oob = "CHI_1936_naval_legacy" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+	}
 }
 
-set_stability = 0.2
-set_war_support = 0.5
-
-set_convoys = 40
-
-#IDEAS 추가
 add_ideas = {
-	CHI_nine_power_treaty
-	CHI_army_corruption_1
-	CHI_ineffective_bureaucracy
-	CHI_incompetent_officers
-	free_trade
-	CHI_hyper_inflation_1
 	german_advisors
 
 	HoG_Chiang_Kaishek #장제스(행정원장)
 }
 
-# if = {
-# 	limit = { NOT = { has_dlc = "Waking the Tiger" } }
-# 	add_ideas = { CHI_communist_uprisings }
-# }
-# if = {
-# 	limit = { has_dlc = "Waking the Tiger" }		
-# 	add_ideas = {
-# 		CHI_nine_power_treaty
-# 		CHI_army_corruption_1
-# 		CHI_ineffective_bureaucracy
-# 		CHI_incompetent_officers
-# 		free_trade
-# 		CHI_hyper_inflation_1
-# 	}
-# }
+600 = { #Jiangxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+749 = { #Huangshan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+606 = { #Anhui
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+607 = { #Henan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+620 = { #Hubei
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+602 = { #Hunan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+750 = { #Changde
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+744 = { #Xian
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+605 = { #Sichuan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+748 = { #Zunyi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+603 = { #Guizhu
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+615 = { #Shanxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+622 = { #Shaanxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+325 = { #Yunnan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+325 = { #Dali
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Waking the Tiger"
+		}
+	}
+	add_ideas = {
+		CHI_communist_uprisings
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Waking the Tiger"
+	}		
+	add_ideas = {
+		CHI_nine_power_treaty
+		CHI_army_corruption_1
+		CHI_ineffective_bureaucracy
+		CHI_incompetent_officers
+		free_trade
+		CHI_hyper_inflation_1
+	}
+}
+save_global_event_target_as = WTT_current_china_leader
+
+set_convoys = 40
 
 set_politics = {
 	ruling_party = auto_despotism
@@ -98,52 +200,11 @@ set_popularities = {
 	auto_despotism = 100
 }
 
-#시작 기술
-	if = {
-		limit = { has_dlc = "No Step Back" }
-		set_technology = { gwtank_chassis = 1 }
-		else = { set_technology = { gwtank = 1 } }
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			early_destroyer = 1
-			early_light_cruiser = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			basic_naval_mines = 1
-			early_ship_hull_light = 1
-			early_ship_hull_cruiser = 1
-			basic_battery = 1
-			basic_secondary_battery = 1
-			basic_torpedo = 1
-			coastal_defense_ships = 1
-		}
-	}
-	set_technology = {
-		infantry_weapons = 1
-		motorised_infantry = 1
-		tech_support = 1
-		tech_recon = 1
-		tech_engineers = 1
-		early_fighter = 1
-		early_bomber = 1
-		mass_assault = 1
-		fleet_in_being = 1
-		gw_artillery = 1
-	}
-#
-
 create_import = {
 	resource = steel
 	factories = 3
 	exporter = SOV
 }
-
-save_global_event_target_as = WTT_current_china_leader
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }
 add_opinion_modifier = { target = JAP modifier = hostile_status }
