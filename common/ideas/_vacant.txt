@@ -1,104 +1,101 @@
 ideas = {
 
-	#부지도자
-	head_of_state2 = {
-		HoS2_vacant = {
-			name = vacant
-			picture = vacant
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = { vice_hos }
-		}
-	}
+# 	#부지도자
+# 	head_of_state2 = {
+# 		HoS2_vacant = {
+# 			name = vacant
+# 			picture = vacant
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = { vice_hos }
+# 		}
+# 	}
 
 	#정부수반
 	head_of_gov = {
 		HoG_vacant = {
 			name = vacant
 			picture = vacant
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+			available = { custom_trigger_tooltip = { always = no } }
+			visible = { always = no }
 			cancel_if_invalid = no
 			removal_cost = -1
-			traits = { hog }
-		}
-	}
-
-	#내무국장
-	security_minister = {
-		SM_vacant = {
-			name = vacant
-			picture = vacant
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = { secmin }
-		}
-	}
-
-	#재무장관
-	economy_minister = {
-		EM_vacant = {
-			name = vacant
-			picture = vacant
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = { ecomin }
-		}
-	}
-
-	#외무장관
-	foreign_minister = {
-		FM_vacant = {
-			name = vacant
-			picture = vacant
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = { frnmin }
-		}
-	}
-
-	#정보장관
-	intel_minister = {
-		IM_vacant = {
-			name = vacant
-			picture = vacant
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = { intmin }
+			traits = { vacant hog_trait }
 		}
 	}
 }
+
+# 	#내무국장
+# 	security_minister = {
+# 		SM_vacant = {
+# 			name = vacant
+# 			picture = vacant
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = { secmin }
+# 		}
+# 	}
+
+# 	#재무장관
+# 	economy_minister = {
+# 		EM_vacant = {
+# 			name = vacant
+# 			picture = vacant
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = { ecomin }
+# 		}
+# 	}
+
+# 	#외무장관
+# 	foreign_minister = {
+# 		FM_vacant = {
+# 			name = vacant
+# 			picture = vacant
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = { frnmin }
+# 		}
+# 	}
+
+# 	#정보장관
+# 	intel_minister = {
+# 		IM_vacant = {
+# 			name = vacant
+# 			picture = vacant
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = { intmin }
+# 		}
+# 	}
+# }

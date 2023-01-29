@@ -7,41 +7,36 @@ ideas = {
 		HoG_Chiang_Kaishek = {
 			name = Chiang_Kaishek
 			picture = minister_Chiang_Kaishek
-
 			allowed = { original_tag = CHI }
-
 			available = {
 				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
 					always = no
 				}
 			}
-
 			cancel_if_invalid = no
 			removal_cost = -1
-			traits = {
-				hog
-			}
+			traits = { hog_trait }
 		}
 	}
-
-	#내무국장
-	security_minister = {
-		
-	}
-
-	#재무장관
-	economy_minister = {
-		
-	}
-
-	#외무장관
-	foreign_minister = {
-
-	}
-
-	#정보장관
-	intel_minister = {
-		
-	}
 }
+
+# 	#내무국장
+# 	security_minister = {
+		
+# 	}
+
+# 	#재무장관
+# 	economy_minister = {
+		
+# 	}
+
+# 	#외무장관
+# 	foreign_minister = {
+
+# 	}
+
+# 	#정보장관
+# 	intel_minister = {
+		
+# 	}
+# }

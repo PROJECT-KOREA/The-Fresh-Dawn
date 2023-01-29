@@ -1,48 +1,48 @@
-ideas = {
+# ideas = {
 
-	#정부수반
-	head_of_gov = {
+# 	#정부수반
+# 	head_of_gov = {
 		
-		#장징후이
-		HoG_Zhang_Jinghui = {
-			name = Zhang_Jinghui
-			picture = vacant
-			# picture = minister_Zhang_Jinghui
+# 		#장징후이
+# 		HoG_Zhang_Jinghui = {
+# 			name = Zhang_Jinghui
+# 			picture = vacant
+# 			# picture = minister_Zhang_Jinghui
 
-			allowed = { original_tag = MAN }
+# 			allowed = { original_tag = MAN }
 
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
 
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				hog
-			}
-		}
-	}
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				hog
+# 			}
+# 		}
+# 	}
 
-	#내무국장
-	security_minister = {
+# 	#내무국장
+# 	security_minister = {
 		
-	}
+# 	}
 
-	#재무장관
-	economy_minister = {
+# 	#재무장관
+# 	economy_minister = {
 		
-	}
+# 	}
 
-	#외무장관
-	foreign_minister = {
+# 	#외무장관
+# 	foreign_minister = {
 
-	}
+# 	}
 
-	#정보장관
-	intel_minister = {
+# 	#정보장관
+# 	intel_minister = {
 		
-	}
-}
+# 	}
+# }

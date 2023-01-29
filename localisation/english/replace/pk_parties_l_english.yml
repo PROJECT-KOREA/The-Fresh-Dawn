@@ -65,7 +65,18 @@
   KOR_fascism_party_long:0 "파시즘"
   KOR_fascism_party_knya:0 "조선민족청년단"
   KOR_fascism_party_knya_long:0 "조선민족청년단"
-#
+ #
+
+ #조선공산당#
+  PRK_communism_party:0 "조선공산당"
+  PRK_communism_party_long:0 "경성콤그룹"
+  PRK_auth_socialism_party:0 "조선독립동맹"
+  PRK_auth_socialism_party_long:0 "조선독립동맹"
+  PRK_radical_socialism_party:0 "조선민족혁명당"
+  PRK_radical_socialism_party_long:0 "조선민족혁명당"
+  PRK_social_democracy_party:0 "조선인민당"
+  PRK_social_democracy_party_long:0 "조선인민당"
+ #
 
  #일본령 조선
   GGK_communism_party:0 "공산주의"

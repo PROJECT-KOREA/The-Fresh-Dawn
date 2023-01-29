@@ -11,7 +11,15 @@ recruit_character = GGK_Ahn_Changho
 recruit_character = GGK_Syngman_Rhee
 recruit_character = GGK_Kim_Koo
 
-# country_lock_all_division_template = yes
+recruit_character = GGK_Ushijima_Shozo
+recruit_character = GGK_Hayashi_Shigezo
+
+# recruit_character = GGK_Imaida_Kiyonori
+# recruit_character = GGK_Ono_Rokuichiro
+
+# activate_advisor = GGK_Imaida_Kiyonori_gov
+
+country_lock_all_division_template = yes
 
 #전투서열
 oob = "GGK_1936"
@@ -30,15 +38,15 @@ add_ideas = {
 
 	GGK_idea_gengov_korea
 	GGK_idea_conscription1
-	GGK_idea_naisen_yuugou1
+	GGK_idea_naisen_yuugou
 	GGK_idea_bunka_touchi
-	GGK_idea_noukou_heishin1
+	GGK_idea_noukou_heishin
 	GGK_idea_heitan_kichika1
 
-	HoG_Imaida_Kiyonori #이마이다 키요노리 (정무총감)
-	SM_Ushijima_Shozo 	#우시지마 쇼조 (내무국장)
-	EM_Hayashi_Shigezo	#하야시 시게조 (재무국장)
-	IM_Ikeda_Kiyoshi	#이케다 키요시 (경무국장)
+	HoG_Imaida_Kiyonori
+	# SM_Ushijima_Shozo 	#우시지마 쇼조 (내무국장)
+	# EM_Hayashi_Shigezo	#하야시 시게조 (재무국장)
+	# IM_Ikeda_Kiyoshi	#이케다 키요시 (경무국장)
 }
 
 #정권
@@ -69,6 +77,16 @@ set_technology = {
 }
 
 COALITION_add_autdes = yes
+
+country_event = {
+	id = ggk_korea.1
+	days = 6
+}
+
+country_event = {
+	id = ggk_cabinet.1
+	days = 216
+}
 
 # #레닌주의 - 박헌영
 # create_country_leader = {

@@ -1045,23 +1045,63 @@ JAP = {
 KOR = {
 	male = {
 		names = {
-			Yeongsu Yeongho Yeongsik Yeonggil Yeongcheol Yeongjin Yeonghun
-			Jeongnam Jeongsik Jeongho Jeonghun Junho Jihun Jaewoo Jaehoon Jeonghwan Junsik Jaesin
+			Geonwoo
+			Donghyeon Donghyee
+			Minjun Minsu Mincheol Minseok
 			Seongho Seongmin Sangho Sangwoo Sanghun Sanghyeon Seunghwan Siheon Seongmok Seonggyeong
-			Minjun Minsu Mincheol Minseok Donghyee
-			Donghyeon Geonwoo
+			Yeongsu Yeongho Yeongsik Yeonggil Yeongcheol Yeongjin Yeonghun
+			Jeongnam Jeongsik Jeongho Jeonghun Junho Jihun Jaewoo Jaehoon Jeonghwan Junsik Jaesin Junha Junyeop
 			Kiyeong Kicheol Kihoon Kyungyeop Kibeom
 			Hansae Hyeonwoo
 		}
 	}
 	female = {
-		names = { Yeonghui Sunja Miyeong Soyoung Maria Yoonmi }
+		names = {
+			Geumja Geumson
+			Maria Miyeong Mija
+			Bok'yeong
+			Sunja Sun'ok Soyeong 
+			Yeonghui Yoonmi Yeongju
+			Jeongsuk
+			Heuiyeong Heuiok
+		}
 	}
 	surnames = {
 		Kim Lee Park Choi Jeong Cho Kang Yoon Jang Lim Han Shin Oh Seo Song Ahn Hwang Kwon Hong Yu Jeon Ko Yang Moon Son Baek Bae Heo Shim Nam Noh Min Joo Kwak Ha Seong Uhm
 	}
-	callsigns = { Dokkaebi Doksuri Muyeong Horang-i }
+	callsigns = { Dokkaebi Doksuri Horangi Saja Heukpyo }
 }
+
+GGK = {
+	male = {
+		names = {
+			Geonwoo
+			Donghyeon Donghyee
+			Minjun Minsu Mincheol Minseok
+			Seongho Seongmin Sangho Sangwoo Sanghun Sanghyeon Seunghwan Siheon Seongmok Seonggyeong
+			Yeongsu Yeongho Yeongsik Yeonggil Yeongcheol Yeongjin Yeonghun
+			Jeongnam Jeongsik Jeongho Jeonghun Junho Jihun Jaewoo Jaehoon Jeonghwan Junsik Jaesin Junha Junyeop
+			Kiyeong Kicheol Kihoon Kyungyeop Kibeom
+			Hansae Hyeonwoo
+		}
+	}
+	female = {
+		names = {
+			Geumja Geumson
+			Maria Miyeong Mija
+			Bok'yeong
+			Sunja Sun'ok Soyeong 
+			Yeonghui Yoonmi Yeongju
+			Jeongsuk
+			Heuiyeong Heuiok
+		}
+	}
+	surnames = {
+		Kim Lee Park Choi Jeong Cho Kang Yoon Jang Lim Han Shin Oh Seo Song Ahn Hwang Kwon Hong Yu Jeon Ko Yang Moon Son Baek Bae Heo Shim Nam Noh Min Joo Kwak Ha Seong Uhm
+	}
+	callsigns = { Dokkaebi Doksuri Horangi Saja Heukpyo }
+}
+
 
 
 

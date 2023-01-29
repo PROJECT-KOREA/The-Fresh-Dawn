@@ -1,10 +1,5 @@
 spriteTypes = {
 
-	spriteType = {
-		name = "GFX_goal_anschluss_ger"
-		textureFile = "gfx/interface/goals/goal_anschluss_ger.dds"
-	}
-
 	
 	### GGK ###
 
@@ -14,13 +9,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_keijo"
-		textureFile = "gfx/interface/goals/GGK/focus_keijo.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_fuzan"
-		textureFile = "gfx/interface/goals/GGK/focus_fuzan.dds"
+		name = "GFX_focus_kounan_industry"
+		textureFile = "gfx/interface/goals/GGK/focus_kounan_industry.dds"
 	}
 
 	spriteType = {
@@ -34,8 +24,33 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_kounan_industry"
-		textureFile = "gfx/interface/goals/GGK/focus_kounan_industry.dds"
+		name = "GFX_focus_keijo"
+		textureFile = "gfx/interface/goals/GGK/focus_keijo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_chinkai"
+		textureFile = "gfx/interface/goals/GGK/focus_chinkai.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_naisen_yuugou"
+		textureFile = "gfx/interface/goals/GGK/focus_naisen_yuugou.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_paper_sign"
+		textureFile = "gfx/interface/goals/GGK/focus_paper_sign.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_keimukoku"
+		textureFile = "gfx/interface/goals/GGK/focus_keimukoku.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_secret_agents"
+		textureFile = "gfx/interface/goals/GGK/focus_secret_agents.dds"
 	}
 
 	spriteType = {
@@ -48,35 +63,15 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/GGK/focus_keifu_double.dds"
 	}
 
-	spriteType = {
-		name = "GFX_focus_heigensen"
-		textureFile = "gfx/interface/goals/GGK/focus_heigensen.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_focus_kankyosen"
+	# 	textureFile = "gfx/interface/goals/GGK/focus_kankyosen.dds"
+	# }
 
-	spriteType = {
-		name = "GFX_focus_kankyosen"
-		textureFile = "gfx/interface/goals/GGK/focus_kankyosen.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_naisen_yuugou"
-		textureFile = "gfx/interface/goals/GGK/focus_naisen_yuugou.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_keimukoku"
-		textureFile = "gfx/interface/goals/GGK/focus_keimukoku.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_paper_sign"
-		textureFile = "gfx/interface/goals/GGK/focus_paper_sign.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_secret_agents"
-		textureFile = "gfx/interface/goals/GGK/focus_secret_agents.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_focus_heigensen"
+	# 	textureFile = "gfx/interface/goals/GGK/focus_heigensen.dds"
+	# }
 
 	# spriteType = {
 	# 	name = "GFX_focus_korean_independence_movement"
@@ -97,7 +92,6 @@ spriteTypes = {
 	### KOR ###
 
 	## War of Independence ##
-
 	spriteType = {
 		name = "GFX_focus_korean_woi"
 		textureFile = "gfx/interface/goals/KOR/focus_korean_woi.dds"
@@ -119,8 +113,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_raid_jap_armory"
-		textureFile = "gfx/interface/goals/KOR/focus_raid_jap_armory.dds"
+		name = "GFX_focus_agriculture"
+		textureFile = "gfx/interface/goals/KOR/focus_agriculture.dds"
 	}
 
 	spriteType = {
@@ -129,9 +123,10 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_agriculture"
-		textureFile = "gfx/interface/goals/KOR/focus_agriculture.dds"
+		name = "GFX_focus_raid_jap_armory"
+		textureFile = "gfx/interface/goals/KOR/focus_raid_jap_armory.dds"
 	}
+
 	spriteType = {
 		name = "GFX_focus_guns"
 		textureFile = "gfx/interface/goals/KOR/focus_guns.dds"
@@ -140,6 +135,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_production"
 		textureFile = "gfx/interface/goals/KOR/focus_production.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_hra"
+		textureFile = "gfx/interface/goals/KOR/focus_hra.dds"
 	}
 
 	spriteType = {
@@ -157,42 +157,17 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/KOR/focus_anti_japan.dds"
 	}
 
-	spriteType = {
-		name = "GFX_focus_hra"
-		textureFile = "gfx/interface/goals/KOR/focus_hra.dds"
-	}
-
-	# spriteType = {
-	# 	name = "GFX_focus_military_academy"
-	# 	textureFile = "gfx/interface/goals/KOR/focus_military_academy.dds"
-	# }
-	
-	#spriteType = {
-	# 	name = "GFX_focus_politic"
-	# 	textureFile = "gfx/interface/goals/KOR/focus_politic.dds"
-	# }
-
 	
 	## Provisional Government ##
 
-	spriteType = {
-		name = "GFX_focus_victory_in_woi"
-		textureFile = "gfx/interface/goals/KOR/focus_victory_in_woi.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_focus_victory_in_woi"
+	# 	textureFile = "gfx/interface/goals/KOR/focus_victory_in_woi.dds"
+	# }
 
 	spriteType = {
 		name = "GFX_focus_kpg"
 		textureFile = "gfx/interface/goals/KOR/focus_kpg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_capitol"
-		textureFile = "gfx/interface/goals/KOR/focus_capitol.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_ncr"
-		textureFile = "gfx/interface/goals/KOR/focus_ncr.dds"
 	}
 
 	spriteType = {
@@ -206,23 +181,23 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_bankruptcy"
-		textureFile = "gfx/interface/goals/KOR/focus_bankruptcy.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_constitution"
-		textureFile = "gfx/interface/goals/KOR/focus_constitution.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_nationality"
-		textureFile = "gfx/interface/goals/KOR/focus_nationality.dds"
-	}
-
-	spriteType = {
 		name = "GFX_focus_recover_enemy_property"
 		textureFile = "gfx/interface/goals/KOR/focus_recover_enemy_property.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_ncr"
+		textureFile = "gfx/interface/goals/KOR/focus_ncr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_education"
+		textureFile = "gfx/interface/goals/KOR/focus_education.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_bankruptcy"
+		textureFile = "gfx/interface/goals/KOR/focus_bankruptcy.dds"
 	}
 
 	spriteType = {
@@ -231,18 +206,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_kia"
-		textureFile = "gfx/interface/goals/KOR/focus_kia.dds"
-	}
-
-	spriteType = {
-		name = "GFX_focus_imperial_family"
-		textureFile = "gfx/interface/goals/KOR/focus_imperial_family.dds"
-	}
-
-	spriteType = {
 		name = "GFX_focus_treaty"
 		textureFile = "gfx/interface/goals/KOR/focus_treaty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_capitol"
+		textureFile = "gfx/interface/goals/KOR/focus_capitol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_constitution"
+		textureFile = "gfx/interface/goals/KOR/focus_constitution.dds"
 	}
 
 	spriteType = {
@@ -255,6 +230,18 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/KOR/focus_assembly_election.dds"
 	}
 	
+
+	## Military ##
+
+	spriteType = {
+		name = "GFX_focus_kia"
+		textureFile = "gfx/interface/goals/KOR/focus_kia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_imperial_family"
+		textureFile = "gfx/interface/goals/KOR/focus_imperial_family.dds"
+	}
 
 	## Kim Koo ##
 

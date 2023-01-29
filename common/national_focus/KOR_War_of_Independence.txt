@@ -20,9 +20,7 @@ focus_tree = {
 		y = 0
 		cost = 5
 
-		available = {
-			
-		}
+		available = { }
 
 		completion_reward = {
 			effect_tooltip = {
@@ -45,7 +43,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = { id = kor_woi.1 }
 			add_political_power = 100
-			add_war_support = 0.05
+			add_stability = 0.05
 		}
 	}
 	
@@ -76,7 +74,7 @@ focus_tree = {
 		y = 1
 		cost = 2
 
-		available = { controls_state = 847 }
+		available = { controls_state = 909 }
 		
 		prerequisite = { focus = KOR_focus_stabilize_nation }
 
@@ -137,10 +135,6 @@ focus_tree = {
 		completion_reward = {
 			country_event = { id = kor_woi.4 }
 			add_political_power = 50
-			swap_ideas = {
-				remove_idea = KOR_idea_military_dic
-				add_idea = KOR_idea_provisional_government
-			}
 		}
 	}
 	
@@ -207,16 +201,16 @@ focus_tree = {
 		y = 1
 		cost = 4
 
-		available = { controls_state = 837 }
+		available = { controls_state = 910 }
 		
 		prerequisite = { focus = KOR_focus_raid_japanese_armory }
 
 		completion_reward = {
-			837 = {
-				add_extra_state_shared_building_slots = 2
+			910 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -257,7 +251,7 @@ focus_tree = {
 	
 	#국내정진군 재편성
 	focus = {
-		id = KOR_focus_reorganize_kia
+		id = KOR_focus_reorganize_hra
 		icon = GFX_focus_hra
 		relative_position_id = KOR_focus_wartime_production
 		x = -1
@@ -269,7 +263,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 50
 			add_command_power = 10
-			custom_effect_tooltip = KOR_focus_reorganize_kia_effect_tt
+			custom_effect_tooltip = KOR_focus_reorganize_hra_effect_tt
 			hidden_effect = {
 				set_division_template_lock = {
 					division_template = "광복군 국내정진군"
@@ -287,12 +281,12 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_rebuild_military_acedemy
 		icon = GFX_focus_generic_military_academy
-		relative_position_id = KOR_focus_reorganize_kia
+		relative_position_id = KOR_focus_reorganize_hra
 		x = -1
 		y = 1
 		cost = 5
 
-		prerequisite = { focus = KOR_focus_reorganize_kia }
+		prerequisite = { focus = KOR_focus_reorganize_hra }
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -307,12 +301,12 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_expand_artillery
 		icon = GFX_goal_generic_army_artillery2
-		relative_position_id = KOR_focus_reorganize_kia
+		relative_position_id = KOR_focus_reorganize_hra
 		x = 0
 		y = 2
 		cost = 5
 
-		prerequisite = { focus = KOR_focus_reorganize_kia }
+		prerequisite = { focus = KOR_focus_reorganize_hra }
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -356,6 +350,10 @@ focus_tree = {
 				add_idea = KOR_idea_independence_war_2
 			}
 			unlock_decision_category_tooltip = KOR_recruit_volunteer_army
+			set_division_template_lock = {
+				division_template = "독립의용군"
+				is_locked = no
+			}
 		}
 	}
 

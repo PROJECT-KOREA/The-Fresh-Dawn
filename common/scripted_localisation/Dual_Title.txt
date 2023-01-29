@@ -40,6 +40,18 @@ defined_text = {
 			localization_key = kia_commander
 		}
 
+		#군정장관
+		text = {
+			trigger = {
+				tag = KOR
+				has_country_leader = {
+					name = "홍사익"
+					ruling_only = yes
+				}
+			}
+			localization_key = mil_gov
+		}
+
 		#국민위원회 위원장
 		text = {
 			trigger = {

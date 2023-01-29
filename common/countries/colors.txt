@@ -8,6 +8,11 @@ GGK = {
 	color_ui = rgb { 170 110 130 }
 }
 
+PRK = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+
 JAP = {
 	color = rgb { 106 46 53 }
 	color_ui = rgb { 106 46 53 }

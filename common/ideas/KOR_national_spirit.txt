@@ -4,7 +4,8 @@ ideas = {
 	country = {
 
 		#군사정권
-		KOR_idea_military_dic = {
+		KOR_idea_disorganized_admin1 = {
+			name = KOR_idea_disorganized_admin
 			picture = generic_pp_unity_bonus
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -15,7 +16,8 @@ ideas = {
 		}
 
 		#임시정부
-		KOR_idea_provisional_government = {
+		KOR_idea_disorganized_admin2 = {
+			name = KOR_idea_disorganized_admin
 			picture = generic_pp_unity_bonus
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -26,8 +28,8 @@ ideas = {
 		}
 
 		#과도정부1
-		KOR_idea_interim_government_1 = {
-			name = KOR_idea_interim_government
+		KOR_idea_disorganized_admin3 = {
+			name = KOR_idea_disorganized_admin
 			picture = generic_pp_unity_bonus
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -38,8 +40,8 @@ ideas = {
 		}
 
 		#과도정부2
-		KOR_idea_interim_government_2 = {
-			name = KOR_idea_interim_government
+		KOR_idea_disorganized_admin4 = {
+			name = KOR_idea_disorganized_admin
 			picture = generic_pp_unity_bonus
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -102,6 +104,7 @@ ideas = {
 			modifier = {
 				surrender_limit = 1.5
 				war_support_factor = 0.5
+				offensive_war_stability_factor = 0.2
 				# stability_factor = 0.5
 			}
 		}
@@ -117,7 +120,8 @@ ideas = {
 				conscription_factor = 0.5
 				surrender_limit = 1.5
 				war_support_factor = 0.5
-				training_time_army_factor = -0.20
+				training_time_army_factor = -0.15
+				offensive_war_stability_factor = 0.2
 			}
 		}
 		
@@ -129,8 +133,8 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				stability_factor = -0.15
-				research_speed_factor = -0.2
+				stability_factor = -0.10
+				research_speed_factor = -0.15
 			}
 		}
 		
@@ -168,8 +172,8 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.09
-				stability_factor = -0.2
+				consumer_goods_factor = 0.075
+				stability_factor = -0.15
 			}
 		}
 
@@ -181,8 +185,8 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.07
-				stability_factor = -0.15
+				consumer_goods_factor = 0.05
+				stability_factor = -0.10
 			}
 		}
 

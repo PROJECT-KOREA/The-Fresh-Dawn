@@ -1,5 +1,5 @@
 ﻿#수도 - 난징
-capital = 598
+capital = 613
 
 #전투서열
 oob = "CHI_1936"
@@ -113,7 +113,7 @@ if = {
 add_ideas = {
 	german_advisors
 
-	HoG_Chiang_Kaishek #장제스(행정원장)
+	HoG_Chiang_Kaishek
 }
 
 600 = { #Jiangxi

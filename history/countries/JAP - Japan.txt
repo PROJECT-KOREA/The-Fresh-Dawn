@@ -89,9 +89,9 @@ add_ideas = {
 	JAP_militarism
 
 	HoG_Okada_Keisuke
-	SM_Goto_Fumio
-	EM_Takahashi_Korekiyo
-	FM_Hirota_Koki
+	# SM_Goto_Fumio
+	# EM_Takahashi_Korekiyo
+	# FM_Hirota_Koki
 }
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
@@ -132,6 +132,12 @@ if = {
 	set_garrison_strength = 1.0
 }
 633 = {
+	start_resistance = yes
+	set_compliance = 20
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+939 = {
 	start_resistance = yes
 	set_compliance = 20
 	set_resistance = 0

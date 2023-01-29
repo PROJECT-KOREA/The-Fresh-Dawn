@@ -5,12 +5,8 @@
  #############
 
  ## 국민정신 ##
- KOR_idea_military_dic:0 "군사정권"
- KOR_idea_military_dic_desc:0 ""
- KOR_idea_provisional_government:0 "임시정부"
- KOR_idea_provisional_government_desc:0 ""
- KOR_idea_interim_government:0 "과도정부"
- KOR_idea_interim_government_desc:0 ""
+ KOR_idea_disorganized_admin:0 "체계적이지 못한 행정"
+ KOR_idea_disorganized_admin_desc:0 ""
  KOR_idea_firepower_supremacy:0 "화력지상주의"
  KOR_idea_firepower_supremacy_desc:0 "화력을 중요시하는 것은 우리 민족의 유구한 전통입니다."
  KOR_idea_kia:0 "한국광복군"
@@ -240,6 +236,7 @@ KOR_guerrilla_jeonnam:0 "전라남도에서의 유격전"
  KOR_rise_of_fascism_decision:0 "파시즘의 대두"
  KOR_begin_coup:0 "쿠데타 개시"
 
+ AIR_WING_NAME_KOR_GENERIC:0 "제$NR$전투비행단"
 
  ##################
  ###### 내각 ######

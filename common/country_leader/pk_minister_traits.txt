@@ -2,33 +2,41 @@ leader_traits = {
 
 	### 장관 특성 ###
 
-		#온화한 신사
+		#온화한 신사 - 여운형
 		mild_gentleman = {
 			political_power_gain = 0.03
 			stability_factor = 0.1
-			
+			custom_modifier_tooltip = can_change_manually
 			random = no
 		}
 
-		#열정적인 중재자
+		#열정적인 중재자 - 안재홍
 		passionate_moderator = {
 			political_power_factor = 0.05
-			
+			custom_modifier_tooltip = can_change_manually
 			random = no
 		}
 
-		#언론계 거물
+		#언론계 거물 - 송진우
 		media_magnate = {
 			political_power_gain = 0.05
-			party_popularity_stability_factor = 0.15
-			
+			war_support_factor = 0.15
+			custom_modifier_tooltip = can_change_manually
 			random = no
 		}
+
+		#조선의 간디 - 조만식
+		gandhi_of_joseon = {
+			political_power_factor = 0.05
+			stability_factor = 0.075
+			custom_modifier_tooltip = can_change_manually
+			random = no
+		}
+
 
 		#노련한 정객
 		veteran_politician = {
 			political_power_factor = 0.125
-			
 			random = no
 		}
 

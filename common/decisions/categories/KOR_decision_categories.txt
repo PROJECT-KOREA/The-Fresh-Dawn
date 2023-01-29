@@ -2,11 +2,9 @@
 KOR_war_of_independence_decision = {
 	icon = kpg
 	# picture = GFX_decision_cat_woi
-	allowed = {
-		original_tag = KOR
-		has_war_with = GGK
-		KOR_woi_in_progress = yes
-	}
+	allowed = { original_tag = KOR }
+	visible = { KOR_woi_in_progress = yes }
+	# visible_when_empty = yes
 
 	priority = 10
 }
@@ -34,7 +32,7 @@ KOR_recruit_volunteer_army = {
 		has_completed_focus = KOR_focus_liberation_voulnteer_army
 	}
 	on_map_area = {
-		state = 837
+		state = 913
 		name = KOR_recruit_volunteer_army_category_name
 		zoom = 200
 	}
@@ -52,7 +50,7 @@ KOR_guerrilla_warfare = {
 		has_completed_focus = KOR_focus_guerrilla_warfare
 	}
 	on_map_area = {
-		state = 837
+		state = 913
 		name = KOR_guerrilla_warfare_category_name
 		zoom = 200
 	}

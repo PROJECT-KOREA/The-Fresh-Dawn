@@ -16,7 +16,7 @@ country_event = {
 
     option = {
         name = kor_kpg_internal.1.a
-        set_capital = { state = 525 }
+        set_capital = { state = 909 }
         if = {
             limit = { has_idea = KOR_idea_independence_war_1 }
             remove_ideas = KOR_idea_independence_war_1
@@ -414,32 +414,16 @@ country_event = {
         clr_country_flag = KOR_flag_kpg
         set_country_flag = KOR_flag_rok
         set_country_flag = KOR_kip
-        set_party_name = { 
-            ideology = national_conservatism 
-            long_name = KOR_national_conservatism_party_kip_long 
-            name = KOR_national_conservatism_party_kip 
-        }
-        set_politics = { ruling_party = national_conservatism }
-        # create_country_leader = {
-        #     name = "Kim Koo"
-        #     desc = "POLITICS_KIM_KOO_DESC"
-        #     picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
-        #     expire = "1965.1.1"
-        #     ideology = nat_conservatism
-        #     traits = {
-
-        #     }
-        # }
         hidden_effect = {
-            add_ideas = {
-                HoG_No_One
-                SM_No_One
-                EM_No_One
-                FM_No_One
-                # MM_No_One
-            }
+            add_ideas = { HoG_vacant }
             load_focus_tree = KOR_Kim_Koo
         }
+        set_politics = {
+            ruling_party = national_conservatism
+            elections_allowed = yes
+            election_frequency = 48
+        }
+        COALITION_RESET = yes
     }
 }
 

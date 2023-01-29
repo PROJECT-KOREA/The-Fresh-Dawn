@@ -3,26 +3,26 @@ guiTypes = {
 		name = "dual_leader_container"
 		position = { x = 0 y = 0 }
 		
-		iconType = {
-			name = "leader2_poartrait"
-			position = { x = 187 y = 87 }
-			spriteType = "GFX_leader_unknown"
-			pdx_tooltip = "leader2_name_tt"
-			pdx_tooltip_delayed = "leader2_desc_tt"
-		}
+		# iconType = {
+		# 	name = "leader2_poartrait"
+		# 	position = { x = 187 y = 87 }
+		# 	spriteType = "GFX_leader_unknown"
+		# 	pdx_tooltip = "leader2_name_tt"
+		# 	pdx_tooltip_delayed = "leader2_desc_tt"
+		# }
 		
-		iconType ={
-			name ="dual_leader_bg"
-			spriteType = "GFX_pol_leader_frame"
-			position = { x = 178 y = 79 }
-			alwaystransparent = yes
-		}
+		# iconType ={
+		# 	name ="dual_leader_bg"
+		# 	spriteType = "GFX_pol_leader_frame"
+		# 	position = { x = 178 y = 79 }
+		# 	alwaystransparent = yes
+		# }
 
 		### For Leader #1
 
 		instantTextBoxType = {
 			name ="leader1_title"
-			position = { x = 20 y = 60 }
+			position = { x = 20 y = 57 }
 			font = "pk_20"
 			text = "[This.leader1_title]"
 			maxWidth = 155
@@ -33,28 +33,28 @@ guiTypes = {
 
 		### For Leader #2
 
-		instantTextBoxType = {
-			name ="leader2_title"
-			position = { x = 187 y = 60 }
-			font = "pk_20"
-			text = "[This.leader2_title]"
-			maxWidth = 155
-			maxHeight = 20
-			format = center
-			vertical_alignment = center
-		}
+		# instantTextBoxType = {
+		# 	name ="leader2_title"
+		# 	position = { x = 187 y = 60 }
+		# 	font = "pk_20"
+		# 	text = "[This.leader2_title]"
+		# 	maxWidth = 155
+		# 	maxHeight = 20
+		# 	format = center
+		# 	vertical_alignment = center
+		# }
 
-		instantTextBoxType = {
-			name ="leader2_name"
-			position = { x = 187 y = 306 }
-			font = "pk_18"
-			text = "[This.leader2_name]"
-			maxWidth = 155
-			maxHeight = 20
-			format = center
-			vertical_alignment = center
-			pdx_tooltip = "leader2_name_tt"
-		}
+		# instantTextBoxType = {
+		# 	name ="leader2_name"
+		# 	position = { x = 187 y = 306 }
+		# 	font = "pk_18"
+		# 	text = "[This.leader2_name]"
+		# 	maxWidth = 155
+		# 	maxHeight = 20
+		# 	format = center
+		# 	vertical_alignment = center
+		# 	pdx_tooltip = "leader2_name_tt"
+		# }
 	}
 
 }

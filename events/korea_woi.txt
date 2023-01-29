@@ -16,7 +16,17 @@ country_event = {
     option = {
         name = kor_woi.1.a
         set_country_flag = KOR_flag_kia_mg
-        add_ideas = HoS2_Hong_Saik2
+        # add_ideas = HoS2_Hong_Saik2
+        create_country_leader = {
+            name = Hong_Saik
+            desc = Hong_Saik_DESC
+            picture = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
+            ideology = military_dic
+            traits = {
+                # kia_vcommander
+                military_governor
+            }
+        }
         # create_country_leader = {
         #     name = "홍사익"
         #     desc = "POLITICS_Hong_Saik_DESC"
@@ -38,10 +48,10 @@ country_event = {
         hidden_effect = {
             # add_ideas = HoG_Ryuh_Woonhyung_kia_mg
             # set_popularities = {
-            #     # democratic = 7
-            #     # neutrality = 86
-            #     # fascism = 5
-            #     # communism = 2
+            #     democratic = 7
+            #     neutrality = 86
+            #     fascism = 5
+            #     communism = 2
             # }
         }
         hidden_effect = {
@@ -116,6 +126,10 @@ country_event = {
         add_ideas = HoG_Ryuh_Woonhyung
         COALITION_add_socdem = yes
         set_country_flag = civ_adm_r
+        swap_ideas = {
+            remove_idea = KOR_idea_disorganized_admin1
+            add_idea = KOR_idea_disorganized_admin2
+        }
     }
 
     option = {
@@ -124,6 +138,10 @@ country_event = {
         add_ideas = HoG_Ahn_Jaehong
         COALITION_add_soclib = yes
         set_country_flag = civ_adm_a
+        swap_ideas = {
+            remove_idea = KOR_idea_disorganized_admin1
+            add_idea = KOR_idea_disorganized_admin2
+        }
     }
 
     option = {
@@ -132,14 +150,10 @@ country_event = {
         add_ideas = HoG_Song_Jinwoo
         COALITION_add_libcon = yes
         set_country_flag = civ_adm_s
-    }
-
-    option = {
-        name = kor_woi.3.d
-        custom_effect_tooltip = cho_tt
-        add_ideas = HoG_Cho_Mansik
-        COALITION_add_natlib = yes
-        set_country_flag = civ_adm_c
+        swap_ideas = {
+            remove_idea = KOR_idea_disorganized_admin1
+            add_idea = KOR_idea_disorganized_admin2
+        }
     }
 }
 
@@ -176,12 +190,16 @@ country_event = {
             }
             add_ideas = {
                 HoG_Ahn_Jaehong
-                SM_Kwon_Taeseok
-                EM_Cho_Dongho
-                FM_Chang_Keonsang
+                # SM_Kwon_Taeseok
+                # EM_Cho_Dongho
+                # FM_Chang_Keonsang
             }
             COALITION_add_soclib = yes
             clr_country_flag = civ_adm_r
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin2
+                add_idea = KOR_idea_disorganized_admin3
+            }
         }
         if = {
             limit = { has_country_flag = civ_adm_a }
@@ -195,12 +213,16 @@ country_event = {
             }
             add_ideas = {
                 HoG_Ryuh_Woonhyung
-                SM_Cho_Byeongok
-                EM_Cho_Mansik
-                FM_Choi_Keunwoo
+                # SM_Cho_Byeongok
+                # EM_Cho_Mansik
+                # FM_Choi_Keunwoo
             }
             COALITION_add_socdem = yes
             clr_country_flag = civ_adm_a
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin2
+                add_idea = KOR_idea_disorganized_admin3
+            }
         }
         if = {
             limit = { has_country_flag = civ_adm_s }
@@ -214,34 +236,16 @@ country_event = {
             }
             add_ideas = {
                 HoG_Chang_Deoksu
-                SM_Kim_Byeongro
-                EM_Lee_Kyugap
-                FM_Na_Yongkyun
+                # SM_Kim_Byeongro
+                # EM_Lee_Kyugap
+                # FM_Na_Yongkyun
             }
             COALITION_add_libcon = yes
             clr_country_flag = civ_adm_s
-        }
-        if = {
-            limit = { has_country_flag = civ_adm_c }
-            create_country_leader = {
-                name = "조만식"
-                desc = "POLITICS_Cho_Mansik_DESC"
-                picture = "gfx/leaders/KOR/Portrait_Cho_Mansik.dds"
-                expire = "1965.1.1"
-                ideology = oligarchism
-                traits = { }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin2
+                add_idea = KOR_idea_disorganized_admin3
             }
-            add_ideas = {
-                HoG_Lee_Yoonyoung
-                SM_Han_Keunjo
-                EM_Kang_Kideok
-                FM_Chang_Yiuk
-            }
-            COALITION_add_libcon = yes
-            clr_country_flag = civ_adm_c
-        }
-        hidden_effect = {
-            add_ideas = HoS2_vacant
         }
         # 
         # add_ideas = HoG_Ryuh_Woonhyung

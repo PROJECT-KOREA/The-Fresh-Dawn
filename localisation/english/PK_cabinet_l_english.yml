@@ -4,94 +4,101 @@
  ##### 내각 #####
  ################
 
- cabinet:0 "내각"
+ cabinet:0 "내각 및 조언가"
+ can_change_manually:0 "§Y이 장관은 수동으로 교체할 수 없습니다.§!"
+ minister_tooltip:0 "이 장관은 수동으로 교체할 수 없습니다."
+ this_vacant:0 "이 직책은 현재 공석입니다."
 
  ### 내각 직책 ###
  head_of_gov:0 "정부수반"
- security_minister:0 "내무장관"
- economy_minister:0 "재무장관"
- foreign_minister:0 "외무장관"
- intel_minister:0 "정보장관"
+ hog_trait:0 ""
+ vacant:0 "공석"
 
- hog:0 ""
- secmin:0 ""
- ecomin:0 ""
- frnmin:0 ""
- intmin:0 ""
+ GGK_seimu_soukan:0 "정무총감"
 
- min_com:0 "§c공산주의자§!"
- min_autsoc:0 "§A권위사회주의자§!"
- min_radsoc:0 "§d급진사회주의자§!"
- min_socdem:0 "§r사회민주주의자§!"
- min_soclib:0 "§y사회자유주의자§!"
- min_natlib:0 "§l국민자유주의자§!"
- min_libcon:0 "§S자유보수주의자§!"
- min_soccon:0 "§q사회보수주의자§!"
- min_natcon:0 "§n국민보수주의자§!"
- min_autdem:0 "§D권위민주주의자§!"
- min_autdes:0 "§M전제주의자§!"
- min_fas:0 "§f파시스트§!"
+#  security_minister:0 "내무장관"
+#  economy_minister:0 "재무장관"
+#  foreign_minister:0 "외무장관"
+#  intel_minister:0 "정보장관"
 
+#  hog:0 ""
+#  secmin:0 ""
+#  ecomin:0 ""
+#  frnmin:0 ""
+#  intmin:0 ""
 
- hog_gen:0 "정부수반"
- secmin_gen:0 "내무장관"
- ecomin_gen:0 "재무장관"
- frnmin_gen:0 "외무장관"
- intmin_gen:0 "정보장관"
-
- hog_jap:0 "내각총리대신"
- secmin_jap:0 "내무대신"
- ecomin_jap:0 "대장대신"
- frnmin_jap:0 "외무대신"
- intmin_jap:0 "경보국장"
-
- hog_woi:0 "[This.GetWoiHoG]"
- hog_mg:0 "민정장관"
- hog_hnc:0 "부위원장"
-
- hog_kpg:0 "국무원 부주석"
- secmin_kpg:0 "내무부장"
- ecomin_kpg:0 "재무부장"
- frnmin_kpg:0 "외무부장"
- intmin_kpg:0 "경무부장"
+#  min_com:0 "§c공산주의자§!"
+#  min_autsoc:0 "§A권위사회주의자§!"
+#  min_radsoc:0 "§d급진사회주의자§!"
+#  min_socdem:0 "§r사회민주주의자§!"
+#  min_soclib:0 "§y사회자유주의자§!"
+#  min_natlib:0 "§l국민자유주의자§!"
+#  min_libcon:0 "§S자유보수주의자§!"
+#  min_soccon:0 "§q사회보수주의자§!"
+#  min_natcon:0 "§n국민보수주의자§!"
+#  min_autdem:0 "§D권위민주주의자§!"
+#  min_autdes:0 "§M전제주의자§!"
+#  min_fas:0 "§f파시스트§!"
 
 
- # 툴팁 #
- minister_tooltip:0 "장관을 수동으로 임명하거나 해임할 수 없습니다."
+#  hog_gen:0 "정부수반"
+#  secmin_gen:0 "내무장관"
+#  ecomin_gen:0 "재무장관"
+#  frnmin_gen:0 "외무장관"
+#  intmin_gen:0 "정보장관"
+
+#  hog_jap:0 "내각총리대신"
+#  secmin_jap:0 "내무대신"
+#  ecomin_jap:0 "대장대신"
+#  frnmin_jap:0 "외무대신"
+#  intmin_jap:0 "경보국장"
+
+#  hog_woi:0 "[This.GetWoiHoG]"
+#  hog_mg:0 "민정장관"
+#  hog_hnc:0 "부위원장"
+
+#  hog_kpg:0 "국무원 부주석"
+#  secmin_kpg:0 "내무부장"
+#  ecomin_kpg:0 "재무부장"
+#  frnmin_kpg:0 "외무부장"
+#  intmin_kpg:0 "경무부장"
+
+
 
  # 인물 특성 #
  mild_gentleman:0 "온화한 신사"
  passionate_moderator:0 "열정적인 중재자"
  media_magnate:0 "언론계 거물"
+ gandhi_of_joseon:0 "조선의 간디"
 
 
 
- ###########################
- ##### 내각 개요 시스템 #####
- ###########################
+#  ###########################
+#  ##### 내각 개요 시스템 #####
+#  ###########################
 
- # 버튼 #
- cabinet_button_tt:0 "§Y내각 개요§! 보기"
+#  # 버튼 #
+#  cabinet_button_tt:0 "§Y내각 개요§! 보기"
 
- # 공석 툴팁 #
- vacant:0 "공석"
- vacant_desc:0 "이 직책은 현재 비어있습니다."
+#  # 공석 툴팁 #
+#  vacant:0 "공석"
+#  vacant_desc:0 "이 직책은 현재 비어있습니다."
 
- # 여당 정보 #
- Gov_info:0 "§Y집권당§!: [This.GetRulingParty]\n"
+#  # 여당 정보 #
+#  Gov_info:0 "§Y집권당§!: [This.GetRulingParty]\n"
 
- ### 툴팁 ###
- Leader1_name_tt:0 "§Y[This.Leader1_name]§!\n[This.Leader1_rank]"
- Leader1_desc_tt:0 "[This.Leader1_desc]"
- Leader2_name_tt:0 "§Y[This.Leader2_name]§!\n[This.Leader2_rank]"
- Leader2_desc_tt:0 "[This.Leader2_desc]"
- SM_name_tt:0 "§Y[This.SM_name]§!\n[This.SM_rank]"
- SM_desc_tt:0 "[This.SM_desc]"
- EM_name_tt:0 "§Y[This.EM_name]§!\n[This.EM_rank]"
- EM_desc_tt:0 "[This.EM_desc]"
- FM_name_tt:0 "§Y[This.FM_name]§!\n[This.FM_rank]"
- FM_desc_tt:0 "[This.FM_desc]"
-#  MM_name_tt:0 "§Y[This.MM_name]§!\n[This.MM_rank]"
-#  MM_desc_tt:0 "[This.MM_desc]"
- IM_name_tt:0 "§Y[This.IM_name]§!\n[This.IM_rank]"
- IM_desc_tt:0 "[This.IM_desc]"
+#  ### 툴팁 ###
+#  Leader1_name_tt:0 "§Y[This.Leader1_name]§!\n[This.Leader1_rank]"
+#  Leader1_desc_tt:0 "[This.Leader1_desc]"
+#  Leader2_name_tt:0 "§Y[This.Leader2_name]§!\n[This.Leader2_rank]"
+#  Leader2_desc_tt:0 "[This.Leader2_desc]"
+#  SM_name_tt:0 "§Y[This.SM_name]§!\n[This.SM_rank]"
+#  SM_desc_tt:0 "[This.SM_desc]"
+#  EM_name_tt:0 "§Y[This.EM_name]§!\n[This.EM_rank]"
+#  EM_desc_tt:0 "[This.EM_desc]"
+#  FM_name_tt:0 "§Y[This.FM_name]§!\n[This.FM_rank]"
+#  FM_desc_tt:0 "[This.FM_desc]"
+# #  MM_name_tt:0 "§Y[This.MM_name]§!\n[This.MM_rank]"
+# #  MM_desc_tt:0 "[This.MM_desc]"
+#  IM_name_tt:0 "§Y[This.IM_name]§!\n[This.IM_rank]"
+#  IM_desc_tt:0 "[This.IM_desc]"

@@ -18,6 +18,16 @@ country_event = {
         name = ggk_korea.1.a
         set_country_flag = GGK_flag_ki_yes
         custom_effect_tooltip = GGK_ki_yes_tt
+        hidden_effect = {
+            country_event = {
+                id = pk_news.1
+                days = 95
+            }
+            country_event = {
+                id = ggk_korea.2
+                days = 212
+            }
+        }
         # swap_ideas = {
         #     remove_idea = GGK_idea_korean_independence_movement_1
         #     add_idea = GGK_idea_korean_independence_movement_2
@@ -314,6 +324,45 @@ country_event = {
             KOR = {
                 complete_national_focus = KOR_focus_korean_war_of_independence
                 change_tag_from = GGK
+            }
+            GGK = {
+				remove_state_core = 909
+				remove_state_core = 910
+				remove_state_core = 911
+				remove_state_core = 912
+				remove_state_core = 913
+				remove_state_core = 914
+				remove_state_core = 915
+				remove_state_core = 525
+				remove_state_core = 527
+				remove_state_core = 916
+				remove_state_core = 917
+				remove_state_core = 918
+				remove_state_core = 919
+				remove_state_core = 920
+				remove_state_core = 921
+				remove_state_core = 922
+            }
+            every_state = {
+                limit = {
+                    state = 909
+                    state = 910
+                    state = 911
+                    state = 912
+                    state = 913
+                    state = 914
+                    state = 915
+                    state = 525
+                    state = 527
+                    state = 916
+                    state = 917
+                    state = 918
+                    state = 919
+                    state = 920
+                    state = 921
+                    state = 922
+                }
+                start_resistance = yes
             }
         }
     }

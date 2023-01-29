@@ -4,19 +4,17 @@ KOR_war_of_independence_decision = {
 	#의주방어사령부 설치
 	KOR_uiju_defense_command = {
 		icon = generic_army_support
-		highlight_states = { highlight_state_targets = { state = 837 } }
-		available = {
-			controls_province = 11835
-		}
+		highlight_states = { highlight_state_targets = { state = 913 } }
+		available = { controls_province = 11835 }
 		fire_only_once = yes
 		cost = 20
 		days_remove = 14
 		remove_effect = { 
-			837 = {
+			913 = {
 				add_building_construction = {
 					type = bunker
 					level = 2
-					province = 11835
+					province = 11911
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -30,6 +28,24 @@ KOR_war_of_independence_decision = {
 					level = 2
 					province = 9795
 					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 912
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 11896
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 11835
 				}
 			}
 		}
@@ -59,10 +75,10 @@ KOR_geonguk_chiandae = {
 	#함경북도에서의 건국치안 활동
 	KOR_stabilize_hambuk = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 835 } }
-		visible = { 835 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 911 } }
+		visible = { 911 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 835
+			controls_state = 911
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -71,7 +87,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 835
+			transfer_state = 911
 			add_stability = 0.015
 		}
 	}
@@ -79,10 +95,10 @@ KOR_geonguk_chiandae = {
 	#함경남도에서의 건국치안 활동
 	KOR_stabilize_hamnam = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 836 } }
-		visible = { 836 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 912 } }
+		visible = { 912 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 836
+			controls_state = 912
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -91,7 +107,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 836
+			transfer_state = 912
 			add_stability = 0.015
 		}
 	}
@@ -99,10 +115,10 @@ KOR_geonguk_chiandae = {
 	#평안남도에서의 건국치안 활동
 	KOR_stabilize_pyeongnam = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 838 } }
-		visible = { 838 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 914 } }
+		visible = { 914 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 838
+			controls_state = 914
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -111,7 +127,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 838
+			transfer_state = 914
 			add_stability = 0.015
 		}
 	}
@@ -119,10 +135,10 @@ KOR_geonguk_chiandae = {
 	#황해도에서의 건국치안 활동
 	KOR_stabilize_hwanghae = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 839 } }
-		visible = { 839 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 915 } }
+		visible = { 915 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 839
+			controls_state = 915
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -131,7 +147,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 839
+			transfer_state = 915
 			add_stability = 0.015
 		}
 	}
@@ -143,7 +159,7 @@ KOR_geonguk_chiandae = {
 		visible = { 525 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
 			controls_state = 525
-			controls_state = 847
+			controls_state = 909
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -153,7 +169,7 @@ KOR_geonguk_chiandae = {
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
 			transfer_state = 525
-			transfer_state = 847
+			transfer_state = 909
 			add_stability = 0.015
 		}
 	}
@@ -181,10 +197,10 @@ KOR_geonguk_chiandae = {
 	#충청북도에서의 건국치안 활동
 	KOR_stabilize_chungbuk = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 840 } }
-		visible = { 840 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 916 } }
+		visible = { 916 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 840
+			controls_state = 916
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -193,7 +209,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 840
+			transfer_state = 916
 			add_stability = 0.015
 		}
 	}
@@ -201,10 +217,10 @@ KOR_geonguk_chiandae = {
 	#충청남도에서의 건국치안 활동
 	KOR_stabilize_chungnam = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 841 } }
-		visible = { 841 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 917 } }
+		visible = { 917 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 841
+			controls_state = 917
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -213,7 +229,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 841
+			transfer_state = 917
 			add_stability = 0.015
 		}
 	}
@@ -221,10 +237,10 @@ KOR_geonguk_chiandae = {
 	#경상북도에서의 건국치안 활동
 	KOR_stabilize_gyeongbuk = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 842 } }
-		visible = { 842 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 918 } }
+		visible = { 918 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 842
+			controls_state = 918
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -233,7 +249,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 842
+			transfer_state = 918
 			add_stability = 0.015
 		}
 	}
@@ -241,10 +257,10 @@ KOR_geonguk_chiandae = {
 	#경상남도에서의 건국치안 활동
 	KOR_stabilize_gyeongnam = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 843 } }
-		visible = { 843 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 919 } }
+		visible = { 919 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 843
+			controls_state = 919
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -253,7 +269,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 843
+			transfer_state = 919
 			add_stability = 0.015
 		}
 	}
@@ -261,10 +277,10 @@ KOR_geonguk_chiandae = {
 	#전라북도에서의 건국치안 활동
 	KOR_stabilize_jeonbuk = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 844 } }
-		visible = { 844 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 920 } }
+		visible = { 920 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 844
+			controls_state = 920
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -273,7 +289,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 844
+			transfer_state = 920
 			add_stability = 0.015
 		}
 	}
@@ -281,10 +297,10 @@ KOR_geonguk_chiandae = {
 	#전라남도에서의 건국치안 활동
 	KOR_stabilize_jeonnam = {
 		icon = generic_nationalism
-		highlight_states = { highlight_state_targets = { state = 845 } }
-		visible = { 845 = { any_neighbor_state = { is_controlled_by = ROOT } } }
+		highlight_states = { highlight_state_targets = { state = 921 } }
+		visible = { 921 = { any_neighbor_state = { is_controlled_by = ROOT } } }
 		available = {
-			controls_state = 845
+			controls_state = 921
 			NOT = { has_country_flag = KOR_stabilizing }
 		}
 		fire_only_once = yes
@@ -293,7 +309,7 @@ KOR_geonguk_chiandae = {
 		complete_effect = { set_country_flag = KOR_stabilizing }
 		remove_effect = {
 			clr_country_flag = KOR_stabilizing 
-			transfer_state = 845
+			transfer_state = 921
 			add_stability = 0.015
 		}
 	}
@@ -319,52 +335,41 @@ KOR_recruit_volunteer_army = {
 	
 	#함경북도에서 2개 의용군 부대 모집
 	KOR_recruit_north_hamgyong = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 835 } }
-
+		highlight_states = { highlight_state_targets = { state = 911 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			835 = { is_controlled_by = ROOT }
+			911 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			835 = { NOT = { has_state_flag = KOR_recruited } }
+			911 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
-		cancel_trigger = {
-			NOT = { KOR_woi_in_progress = yes }
-		}
-		
+		cancel_trigger = { NOT = { KOR_woi_in_progress = yes } }
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			835 = { set_state_flag = KOR_recruiting }
+			911 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			835 = {
+			911 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_2_unit
 			hidden_effect = {
-				835 = {
+				911 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -374,60 +379,49 @@ KOR_recruit_volunteer_army = {
 	
 	#함경남도에서 4개 의용군 부대 모집
 	KOR_recruit_south_hamgyong = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 836 } }
-
+		highlight_states = { highlight_state_targets = { state = 912 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			836 = { is_controlled_by = ROOT }
+			912 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			836 = { NOT = { has_state_flag = KOR_recruited } }
+			912 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
-		cancel_trigger = {
-			NOT = { KOR_woi_in_progress = yes }
-		}
-		
+		cancel_trigger = { NOT = { KOR_woi_in_progress = yes } }
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			836 = { set_state_flag = KOR_recruiting }
+			912 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			836 = {
+			912 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_4_unit
 			hidden_effect = {
-				836 = {
+				912 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -435,121 +429,101 @@ KOR_recruit_volunteer_army = {
 		}
 	}
 	
-	#평안북도에서 4개 의용군 부대 모집
-	KOR_recruit_north_pyongan = {
-
-		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 837 } }
-
-		allowed = { original_tag = KOR }
-
-		available = {
-			837 = { is_controlled_by = ROOT }
-			NOT = { has_country_flag = KOR_recruiting }
-		}
-
-		visible = {
-			KOR_woi_in_progress = yes
-			837 = { NOT = { has_state_flag = KOR_recruited } }
-		}
-
-		cancel_trigger = {
-			NOT = { KOR_woi_in_progress = yes }
-		}
-		
-		fire_only_once = no
-		days_remove = 12
-		cost = 0
-
-		on_map_mode = map_only
-
-		complete_effect = { 
-			set_country_flag = KOR_recruiting
-			837 = { set_state_flag = KOR_recruiting }
-		}
-		remove_effect = {
-			clr_country_flag = KOR_recruiting
-			837 = {
-				clr_state_flag = KOR_recruiting
-				set_state_flag = KOR_recruited
-			}
-			custom_effect_tooltip = KOR_recruit_4_unit
-			hidden_effect = {
-				837 = {
-					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
-						owner = ROOT
-					}
-					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
-						owner = ROOT
-					}
-					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
-						owner = ROOT
-					}
-					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
-						owner = ROOT
-					}
-				}
-			}
-		}
-	}
+	# #평안북도에서 4개 의용군 부대 모집
+	# KOR_recruit_north_pyongan = {
+	# 	icon = generic_prepare_civil_war
+	# 	highlight_states = { highlight_state_targets = { state = 913 } }
+	# 	allowed = { original_tag = KOR }
+	# 	available = {
+	# 		913 = { is_controlled_by = ROOT }
+	# 		NOT = { has_country_flag = KOR_recruiting }
+	# 	}
+	# 	visible = {
+	# 		KOR_woi_in_progress = yes
+	# 		913 = { NOT = { has_state_flag = KOR_recruited } }
+	# 	}
+	# 	cancel_trigger = { NOT = { KOR_woi_in_progress = yes } }
+	# 	fire_only_once = no
+	# 	days_remove = 12
+	# 	cost = 0
+	# 	on_map_mode = map_only
+	# 	complete_effect = { 
+	# 		set_country_flag = KOR_recruiting
+	# 		913 = { set_state_flag = KOR_recruiting }
+	# 	}
+	# 	remove_effect = {
+	# 		clr_country_flag = KOR_recruiting
+	# 		913 = {
+	# 			clr_state_flag = KOR_recruiting
+	# 			set_state_flag = KOR_recruited
+	# 		}
+	# 		custom_effect_tooltip = KOR_recruit_4_unit
+	# 		hidden_effect = {
+	# 			913 = {
+	# 				create_unit = {
+	# 					division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+	# 					owner = ROOT
+	# 				}
+	# 				create_unit = {
+	# 					division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+	# 					owner = ROOT
+	# 				}
+	# 				create_unit = {
+	# 					division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+	# 					owner = ROOT
+	# 				}
+	# 				create_unit = {
+	# 					division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+	# 					owner = ROOT
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# }
 	
 	#평안남도에서 3개 의용군 부대 모집
 	KOR_recruit_south_pyongan = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 838 } }
-
+		highlight_states = { highlight_state_targets = { state = 914 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			838 = { is_controlled_by = ROOT }
+			914 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			838 = { NOT = { has_state_flag = KOR_recruited } }
+			914 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			838 = { set_state_flag = KOR_recruiting }
+			914 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			838 = {
+			914 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_3_unit
 			hidden_effect = {
-				838 = {
+				914 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -559,60 +533,51 @@ KOR_recruit_volunteer_army = {
 	
 	#황해도에서 4개 의용군 부대 모집
 	KOR_recruit_hwanghae = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 839 } }
-
+		highlight_states = { highlight_state_targets = { state = 915 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			839 = { is_controlled_by = ROOT }
+			915 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			839 = { NOT = { has_state_flag = KOR_recruited } }
+			915 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			839 = { set_state_flag = KOR_recruiting }
+			915 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			839 = {
+			915 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_4_unit
 			hidden_effect = {
-				839 = {
+				915 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -622,33 +587,26 @@ KOR_recruit_volunteer_army = {
 	
 	#경기도에서 6개 의용군 부대 모집
 	KOR_recruit_gyeonggi = {
-
 		icon = generic_prepare_civil_war
-
 		highlight_states = { highlight_state_targets = { state = 525 } }
-
 		allowed = { original_tag = KOR }
-
 		available = {
 			525 = { is_controlled_by = ROOT }
+			909 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
 			525 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
+	
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
 			525 = { set_state_flag = KOR_recruiting }
@@ -663,27 +621,27 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				525 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -693,33 +651,24 @@ KOR_recruit_volunteer_army = {
 	
 	#강원도에서 3개 의용군 부대 모집
 	KOR_recruit_gangwon = {
-
 		icon = generic_prepare_civil_war
-
 		highlight_states = { highlight_state_targets = { state = 527 } }
-
 		allowed = { original_tag = KOR }
-
 		available = {
 			527 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
 			527 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
 			527 = { set_state_flag = KOR_recruiting }
@@ -734,15 +683,15 @@ KOR_recruit_volunteer_army = {
 			hidden_effect = {
 				527 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -752,52 +701,43 @@ KOR_recruit_volunteer_army = {
 	
 	#충청북도에서 2개 의용군 부대 모집
 	KOR_recruit_chungbuk = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 840 } }
-
+		highlight_states = { highlight_state_targets = { state = 916 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			840 = { is_controlled_by = ROOT }
+			916 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			840 = { NOT = { has_state_flag = KOR_recruited } }
+			916 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			840 = { set_state_flag = KOR_recruiting }
+			916 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			840 = {
+			916 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_2_unit
 			hidden_effect = {
-				840 = {
+				916 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -807,56 +747,47 @@ KOR_recruit_volunteer_army = {
 	
 	#충청남도에서 3개 의용군 부대 모집
 	KOR_recruit_chungnam = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 841 } }
-
+		highlight_states = { highlight_state_targets = { state = 917 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			841 = { is_controlled_by = ROOT }
+			917 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			841 = { NOT = { has_state_flag = KOR_recruited } }
+			917 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			841 = { set_state_flag = KOR_recruiting }
+			917 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			841 = {
+			917 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_3_unit
 			hidden_effect = {
-				841 = {
+				917 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -866,68 +797,59 @@ KOR_recruit_volunteer_army = {
 	
 	#경상북도에서 6개 의용군 부대 모집
 	KOR_recruit_gyeongbuk = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 842 } }
-
+		highlight_states = { highlight_state_targets = { state = 918 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			842 = { is_controlled_by = ROOT }
+			918 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			842 = { NOT = { has_state_flag = KOR_recruited } }
+			918 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			842 = { set_state_flag = KOR_recruiting }
+			918 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			842 = {
+			918 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_6_unit
 			hidden_effect = {
-				842 = {
+				918 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -937,64 +859,55 @@ KOR_recruit_volunteer_army = {
 	
 	#경상남도에서 5개 의용군 부대 모집
 	KOR_recruit_gyeongnam = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 843 } }
-
+		highlight_states = { highlight_state_targets = { state = 919 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			843 = { is_controlled_by = ROOT }
+			919 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			843 = { NOT = { has_state_flag = KOR_recruited } }
+			919 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			843 = { set_state_flag = KOR_recruiting }
+			919 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			843 = {
+			919 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_5_unit
 			hidden_effect = {
-				843 = {
+				919 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -1004,56 +917,47 @@ KOR_recruit_volunteer_army = {
 	
 	#전라북도에서 3개 의용군 부대 모집
 	KOR_recruit_jeonbuk = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 844 } }
-
+		highlight_states = { highlight_state_targets = { state = 920 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			844 = { is_controlled_by = ROOT }
+			920 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			844 = { NOT = { has_state_flag = KOR_recruited } }
+			920 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			844 = { set_state_flag = KOR_recruiting }
+			920 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			844 = {
+			920 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_3_unit
 			hidden_effect = {
-				844 = {
+				920 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -1063,68 +967,59 @@ KOR_recruit_volunteer_army = {
 	
 	#전라남도에서 6개 의용군 부대 모집
 	KOR_recruit_jeonnam = {
-
 		icon = generic_prepare_civil_war
-
-		highlight_states = { highlight_state_targets = { state = 845 } }
-
+		highlight_states = { highlight_state_targets = { state = 921 } }
 		allowed = { original_tag = KOR }
-
 		available = {
-			845 = { is_controlled_by = ROOT }
+			921 = { is_controlled_by = ROOT }
 			NOT = { has_country_flag = KOR_recruiting }
 		}
-
 		visible = {
 			KOR_woi_in_progress = yes
-			845 = { NOT = { has_state_flag = KOR_recruited } }
+			921 = { NOT = { has_state_flag = KOR_recruited } }
 		}
-
 		cancel_trigger = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
-		
 		fire_only_once = no
 		days_remove = 12
 		cost = 0
-
 		on_map_mode = map_only
-
 		complete_effect = { 
 			set_country_flag = KOR_recruiting
-			845 = { set_state_flag = KOR_recruiting }
+			921 = { set_state_flag = KOR_recruiting }
 		}
 		remove_effect = {
 			clr_country_flag = KOR_recruiting
-			845 = {
+			921 = {
 				clr_state_flag = KOR_recruiting
 				set_state_flag = KOR_recruited
 			}
 			custom_effect_tooltip = KOR_recruit_6_unit
 			hidden_effect = {
-				845 = {
+				921 = {
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"독립의용군\"  start_experience_factor = 0.0"
+						division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -1144,8 +1039,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 835 }
-			835 = {
+			NOT = { has_full_control_of_state = 911 }
+			911 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1164,7 +1059,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 835 } }
+		highlight_states = { highlight_state_targets = { state = 911 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1177,7 +1072,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			835 = {
+			911 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1186,7 +1081,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				835 = {
+				911 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1207,8 +1102,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 836 }
-			836 = {
+			NOT = { has_full_control_of_state = 912 }
+			912 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1227,7 +1122,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 836 } }
+		highlight_states = { highlight_state_targets = { state = 912 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1244,7 +1139,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			836 = {
+			912 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1253,7 +1148,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				836 = {
+				912 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1274,8 +1169,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 837 }
-			837 = {
+			NOT = { has_full_control_of_state = 913 }
+			913 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1294,7 +1189,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 837 } }
+		highlight_states = { highlight_state_targets = { state = 913 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1311,7 +1206,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			837 = {
+			913 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1320,7 +1215,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				837 = {
+				913 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1341,8 +1236,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 838 }
-			838 = {
+			NOT = { has_full_control_of_state = 914 }
+			914 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1361,7 +1256,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 838 } }
+		highlight_states = { highlight_state_targets = { state = 914 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1378,7 +1273,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			838 = {
+			914 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1387,7 +1282,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				838 = {
+				914 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1408,8 +1303,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 839 }
-			839 = {
+			NOT = { has_full_control_of_state = 915 }
+			915 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1428,7 +1323,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 839 } }
+		highlight_states = { highlight_state_targets = { state = 915 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1445,7 +1340,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			839 = {
+			915 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1454,7 +1349,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				839 = {
+				915 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1513,7 +1408,7 @@ KOR_guerrilla_warfare = {
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
 			525 = { set_state_flag = KOR_flag_guerrilla_planning }
-			847 = { set_state_flag = KOR_flag_guerrilla_planning }
+			909 = { set_state_flag = KOR_flag_guerrilla_planning }
 		}
 
 		remove_effect = {
@@ -1529,7 +1424,7 @@ KOR_guerrilla_warfare = {
 						days = 70
 					}
 				}
-				847 = {
+				909 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1617,8 +1512,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 840 }
-			840 = {
+			NOT = { has_full_control_of_state = 916 }
+			916 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1637,7 +1532,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 840 } }
+		highlight_states = { highlight_state_targets = { state = 916 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1654,7 +1549,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			840 = {
+			916 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1663,7 +1558,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				840 = {
+				916 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1684,8 +1579,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 841 }
-			841 = {
+			NOT = { has_full_control_of_state = 917 }
+			917 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1704,7 +1599,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 841 } }
+		highlight_states = { highlight_state_targets = { state = 917 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1721,7 +1616,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			841 = {
+			917 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1730,7 +1625,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				841 = {
+				917 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1751,8 +1646,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 842 }
-			842 = {
+			NOT = { has_full_control_of_state = 918 }
+			918 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1771,7 +1666,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 842 } }
+		highlight_states = { highlight_state_targets = { state = 918 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1788,7 +1683,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			842 = {
+			918 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1797,7 +1692,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				842 = {
+				918 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1818,8 +1713,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 843 }
-			843 = {
+			NOT = { has_full_control_of_state = 919 }
+			919 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1838,7 +1733,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 843 } }
+		highlight_states = { highlight_state_targets = { state = 919 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1855,7 +1750,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			843 = {
+			919 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1864,7 +1759,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				843 = {
+				919 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1885,8 +1780,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 844 }
-			844 = {
+			NOT = { has_full_control_of_state = 920 }
+			920 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1905,7 +1800,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 844 } }
+		highlight_states = { highlight_state_targets = { state = 920 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1922,7 +1817,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			844 = {
+			920 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1931,7 +1826,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				844 = {
+				920 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {
@@ -1952,8 +1847,8 @@ KOR_guerrilla_warfare = {
 		allowed = { original_tag = KOR }
 
 		available = {
-			NOT = { has_full_control_of_state = 845 }
-			845 = {
+			NOT = { has_full_control_of_state = 921 }
+			921 = {
 				OR = {
 					is_controlled_by = ROOT
 					any_neighbor_state = {
@@ -1972,7 +1867,7 @@ KOR_guerrilla_warfare = {
 			NOT = { KOR_woi_in_progress = yes }
 		}
 
-		highlight_states = { highlight_state_targets = { state = 845 } }
+		highlight_states = { highlight_state_targets = { state = 921 } }
 		# highlight_color_while_active = 1
 
 		on_map_mode = map_only
@@ -1989,7 +1884,7 @@ KOR_guerrilla_warfare = {
 
 		complete_effect = {
 			set_country_flag = KOR_flag_guerrilla_planning
-			845 = {
+			921 = {
 				set_state_flag = KOR_flag_guerrilla_planning
 			}
 		}
@@ -1998,7 +1893,7 @@ KOR_guerrilla_warfare = {
 			clr_country_flag = KOR_flag_guerrilla_planning
 			custom_effect_tooltip = KOR_guerrilla_warfare_effect_tt
 			hidden_effect = {
-				845 = {
+				921 = {
 					clr_state_flag = KOR_flag_guerrilla_planning
 					set_state_flag = KOR_flag_guerrilla_planned
 					add_dynamic_modifier = {

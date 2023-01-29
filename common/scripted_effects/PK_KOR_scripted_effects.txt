@@ -127,10 +127,10 @@ KOR_create_units = {
 		create_unit = {
 			division = "division_name = { is_name_ordered = yes name_order = 6 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
-			prioritize_location = 9918
+			prioritize_location = 11835
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 7 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 7 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 9918
 		}
@@ -146,6 +146,31 @@ KOR_create_units = {
 		}
 		create_unit = {
 			division = "division_name = { is_name_ordered = yes name_order = 10 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 9918
+		}
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 11 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 9918
+		}
+		create_unit = {
+			division = "division_name = { is_name_ordered = yes name_order = 12 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			owner = KOR
+			prioritize_location = 9918
+		}
+		create_unit = {
+			division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+			owner = KOR
+			prioritize_location = 9918
+		}
+		create_unit = {
+			division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+			owner = KOR
+			prioritize_location = 9918
+		}
+		create_unit = {
+			division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
 			owner = KOR
 			prioritize_location = 9918
 		}
@@ -343,7 +368,7 @@ KOR_add_equipments_to_stockplie = {
 
 KOR_reset_state_names = {
 	909 = { set_state_name = "한성" }
-	909 = { set_state_name = "평양" }
+	910 = { set_state_name = "평양" }
 	911 = { set_state_name = "함경북도" }
 	912 = { set_state_name = "함경남도" }
 	913 = { set_state_name = "평안북도" }

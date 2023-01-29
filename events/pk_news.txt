@@ -7,14 +7,9 @@ news_event = {
     title = pk_news.1.t
     desc = pk_news.1.desc
     picture = GFX_news_event_kpg_shanghai
-    
+
+    is_triggered_only = yes
     fire_only_once = yes
-    
-    trigger = {
-		original_tag = GGK
-        has_country_flag = GGK_flag_ki_yes
-		date > 1936.4.10
-	}
 
     option = { name = pk_news.1.a }
 }
@@ -25,7 +20,6 @@ news_event = {
     id = pk_news.2
     title = pk_news.2.t
     desc = pk_news.2.desc
-
     picture = GFX_news_event_KOR_independence
 
     is_triggered_only = yes

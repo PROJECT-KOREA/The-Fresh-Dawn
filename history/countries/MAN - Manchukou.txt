@@ -33,7 +33,7 @@ add_ideas = {
 	MAN_kwantung_veto
 	MAN_low_legitimacy_5
 
-	HoG_Zhang_Jinghui
+	# HoG_Zhang_Jinghui
 }
 set_country_flag = MAN_northern_bandits
 set_country_flag = MAN_eastern_bandits

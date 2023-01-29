@@ -9,13 +9,14 @@ ideologies = {
 			maoism = { #마오주의
 				can_be_randomly_selected = no
 			}
-			marxism = {} #마르크스주의 (→ 레닌주의)
-			anarchist_communism = { #임시
-				can_be_randomly_selected = no
-			}
-			anarchism = { #임시
-				can_be_randomly_selected = no
-			}
+			marxism = { can_be_randomly_selected = no } #마르크스주의 (→ 레닌주의)
+			# anarchist_communism = { #임시
+			# 	can_be_randomly_selected = no
+			# }
+			# anarchism = { #임시
+			# 	can_be_randomly_selected = no
+			# }
+			anti_revisionism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
@@ -422,6 +423,9 @@ ideologies = {
 			colonial_gov = {} #식민지
 			moderatism = {} #온건주의 (바닐라)
 			centrism = {} #중도주의 (바닐라 - 권위주의로 대체)
+			anarchism = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
 		}
 
 		dynamic_faction_names = {

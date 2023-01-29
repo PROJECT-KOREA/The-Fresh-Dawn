@@ -11,7 +11,7 @@ state = {
 			infrastructure = 3 # 기반시설
 			industrial_complex = 1 # 민간공장
 			arms_factory = 1 #군수공장
-			air_base = 1 #공군기지
+			air_base = 2 #공군기지
 		}
 		victory_points = { 13277 10 } #평양(헤이죠)
 	}

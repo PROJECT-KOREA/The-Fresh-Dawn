@@ -18,10 +18,11 @@ state = {
 			industrial_complex = 1
 
 			#조선소
-			dockyard = 2
+			dockyard = 1
 
 			#해군기지
-			4056 = { naval_base = 3 } #부산
+			4056 = { naval_base = 2 } #부산
+			13273 = { naval_base = 3 } #마산
 		}
 
 		victory_points = { 4056 8 } #부산(후잔)

@@ -5,17 +5,18 @@
 # on_remove   |  플레이어가 해당 인물을 해임 시 발생하는 효과
 # do_effect   |  인물의 특성이 실제로 효과를 가지는 조건
 
-# 正/副 -지도자 (정/부)
+# 正 -지도자
 # 首 - 정부수반
-# 內/財/外/情 - 장관 (내/재/외/정)
-# 將/督 - 지휘관 (육/해)
+# 顧 - 정치 조언가
+# 元/將 - 육군 장성 (원수/대장)
+# 督 - 해군 제독
 # 陸/海/空 - 참모총장 (육/해/공)
 # 參 - 군 고위 지휘관
 # 理 - 이론가
-# 顧 - 정치 조언가
 
 characters = {
 
+    ## 지도자 ##
     #우가키 카즈시게 (正)
     GGK_Ugaki_Kazushige = {
         name = Ugaki_Kazuhsige
@@ -44,8 +45,92 @@ characters = {
     #     }
     # }
 
+    ## 정치 조언가 ##
+    #우시지마 쇼조
+    GGK_Ushijima_Shozo = {
+        name = Ushijima_Shozo
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/minister/GGK/GGK_Ushijima_Shozo.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Ushijima_Shozo
+			traits = { silent_workhorse }
+		}
+    }
+
+    #하야시 시게조
+    GGK_Hayashi_Shigezo = {
+        name = Hayashi_Shigezo
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/minister/GGK/GGK_Hayashi_shigezo.dds"
+			}
+		}
+
+        advisor = {
+			slot = political_advisor
+            idea_token = GGK_Hayashi_Shigezo
+            traits = { financial_expert }
+        }
+    }
 
 
+    # 정부수반
+        # #이마이다 키요노리(首)
+        # GGK_Imaida_Kiyonori = {
+        #     name = Imaida_Kiyonori
+        #     portraits = {
+        #         civilian = { small = GFX_idea_minister_Imaida_Kiyonori }
+        #     }
+            
+        # 	advisor = {
+        # 		slot = head_of_gov
+        # 		idea_token = GGK_Imaida_Kiyonori_gov
+        # 		available = {
+        # 			custom_trigger_tooltip = {
+        # 				tooltip = minister_tooltip
+        # 				always = no
+        # 			}
+        # 		}
+        # 		traits  = {
+        #             GGK_seimu_soukan
+        # 			hog_trait
+        # 		}
+        #         cost = 0
+        # 		removal_cost = -1
+        # 	}
+        # }
+
+        # #오노 로쿠이치로(首)
+        # GGK_Ono_Rokuichiro = {
+        #     name = Ono_Rokuichiro
+        #     portraits = {
+        #         civilian = { small = GFX_idea_minister_Ono_Rokuichiro }
+        #     }
+            
+        # 	advisor = {
+        # 		slot = head_of_gov
+        # 		idea_token = GGK_Ono_Rokuichiro_gov
+        # 		available = {
+        # 			custom_trigger_tooltip = {
+        # 				tooltip = minister_tooltip
+        # 			}
+        # 		}
+        # 		traits  = {
+        #             GGK_seimu_soukan
+        # 			hog_trait
+        # 		}
+        #         cost = 0
+        # 		removal_cost = -1
+        # 	}
+        # }
+    #
+
+
+ 
     #### 더미 지도자 ####
     # 박헌영
     GGK_Pak_Honyong = {

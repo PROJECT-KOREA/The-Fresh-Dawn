@@ -1,4 +1,5 @@
 GGK = "countries/Government General of Korea.txt"
+PRK = "countries/Communist Korea.txt"
 EHB = "countries/East Hebei.txt"
 NXM = "countries/Ningxia Ma.txt"
 HPC = "countries/Hebei-Chahar.txt"

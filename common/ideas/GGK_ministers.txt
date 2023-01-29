@@ -1,26 +1,23 @@
 ideas = {
 
-	#정부수반
+	# 정부수반 #
 	head_of_gov = {
 		
 		#이마이다 키요노리
 		HoG_Imaida_Kiyonori = {
 			name = Imaida_Kiyonori
 			picture = minister_Imaida_Kiyonori
-
 			allowed = { original_tag = GGK }
-
 			available = {
 				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
 					always = no
 				}
 			}
-
 			cancel_if_invalid = no
 			removal_cost = -1
 			traits = {
-				hog
+                GGK_seimu_soukan
+                hog_trait
 			}
 		}
 		
@@ -28,228 +25,226 @@ ideas = {
 		HoG_Ono_Rokuichiro = {
 			name = Ono_Rokuichiro
 			picture = minister_Ono_Rokuichiro
-
 			allowed = { original_tag = GGK }
-
 			available = {
 				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
 					always = no
 				}
 			}
-
 			cancel_if_invalid = no
 			cost = 0
 			removal_cost = -1
 			traits = {
-				hog
-			}
-		}
-	}
-
-	#내무국장
-	security_minister = {
-		
-		#우시지마 쇼조
-		SM_Ushijima_Shozo = {
-			name = Ushijima_Shozo
-			picture = minister_Ushijima_Shozo
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				secmin
-			}
-		}
-		
-		#오오타케 쥬로
-		SM_Otake_Juro = {
-			name = Otake_Juro
-			picture = minister #minister_Otake_Juro
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				secmin
-			}
-		}
-		
-		#코타키 모토이
-		SM_Koutaki_Motoi = {
-			name = Koutaki_Motoi
-			picture = minister #minister_Koutaki_Motoi
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				secmin
-			}
-		}
-		
-		#스즈카와 토시오
-		SM_Suzukawa_Toshio = {
-			name = Suzukawa_Toshio
-			picture = minister #minister_Suzukawa_Toshio
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				secmin
-			}
-		}
-	}
-
-	#재무장관
-	economy_minister = {
-
-		#하야시 시게조
-		EM_Hayashi_Shigezo = {
-			name = Hayashi_Shigezo
-			picture = minister_Hayashi_Shigezo
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				ecomin
-			}
-		}
-
-		#미즈타 나오마사
-		EM_Mizuda_Naomasa = {
-			name = Mizuda_Naomasa
-			picture = minister #minister_Mizuda_Naomasa
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				ecomin
-			}
-		}
-	}
-
-	#외무장관
-	foreign_minister = {
-
-	}
-
-	#정보장관
-	intel_minister = {
-		
-		#이케다 키요시
-		IM_Ikeda_Kiyoshi = {
-			name = Ikeda_Kiyoshi
-			picture = minister_Ikeda_Kiyoshi
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				intmin
-			}
-		}
-		
-		#타나카 타케오
-		IM_Tanaka_Takeo = {
-			name = Tanaka_Takeo
-			picture = minister #minister_Tanaka_Takeo
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				intmin
-			}
-		}
-		
-		#미하시 코이치로
-		IM_Mihashi_Kouichiro = {
-			name = Mihashi_Kouichiro
-			picture = minister #minister_Mihashi_Kouichiro
-
-			allowed = { original_tag = GGK }
-
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = minister_tooltip
-					always = no
-				}
-			}
-
-			cancel_if_invalid = no
-			removal_cost = -1
-			traits = {
-				intmin
+                GGK_seimu_soukan
+                hog_trait
 			}
 		}
 	}
 }
+
+# 	#내무국장
+# 	security_minister = {
+		
+# 		#우시지마 쇼조
+# 		SM_Ushijima_Shozo = {
+# 			name = Ushijima_Shozo
+# 			picture = minister_Ushijima_Shozo
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				secmin
+# 			}
+# 		}
+		
+# 		#오오타케 쥬로
+# 		SM_Otake_Juro = {
+# 			name = Otake_Juro
+# 			picture = minister #minister_Otake_Juro
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				secmin
+# 			}
+# 		}
+		
+# 		#코타키 모토이
+# 		SM_Koutaki_Motoi = {
+# 			name = Koutaki_Motoi
+# 			picture = minister #minister_Koutaki_Motoi
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				secmin
+# 			}
+# 		}
+		
+# 		#스즈카와 토시오
+# 		SM_Suzukawa_Toshio = {
+# 			name = Suzukawa_Toshio
+# 			picture = minister #minister_Suzukawa_Toshio
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				secmin
+# 			}
+# 		}
+# 	}
+
+# 	#재무장관
+# 	economy_minister = {
+
+# 		#하야시 시게조
+# 		EM_Hayashi_Shigezo = {
+# 			name = Hayashi_Shigezo
+# 			picture = minister_Hayashi_Shigezo
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				ecomin
+# 			}
+# 		}
+
+# 		#미즈타 나오마사
+# 		EM_Mizuda_Naomasa = {
+# 			name = Mizuda_Naomasa
+# 			picture = minister #minister_Mizuda_Naomasa
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				ecomin
+# 			}
+# 		}
+# 	}
+
+# 	#외무장관
+# 	foreign_minister = {
+
+# 	}
+
+# 	#정보장관
+# 	intel_minister = {
+		
+# 		#이케다 키요시
+# 		IM_Ikeda_Kiyoshi = {
+# 			name = Ikeda_Kiyoshi
+# 			picture = minister_Ikeda_Kiyoshi
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				intmin
+# 			}
+# 		}
+		
+# 		#타나카 타케오
+# 		IM_Tanaka_Takeo = {
+# 			name = Tanaka_Takeo
+# 			picture = minister #minister_Tanaka_Takeo
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				intmin
+# 			}
+# 		}
+		
+# 		#미하시 코이치로
+# 		IM_Mihashi_Kouichiro = {
+# 			name = Mihashi_Kouichiro
+# 			picture = minister #minister_Mihashi_Kouichiro
+
+# 			allowed = { original_tag = GGK }
+
+# 			available = {
+# 				custom_trigger_tooltip = {
+#     				tooltip = minister_tooltip
+# 					always = no
+# 				}
+# 			}
+
+# 			cancel_if_invalid = no
+# 			removal_cost = -1
+# 			traits = {
+# 				intmin
+# 			}
+# 		}
+# 	}
+# }

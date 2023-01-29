@@ -25,11 +25,15 @@ idea_categories = {
 	
 	cabinet = {
 		slot = head_of_gov
-		slot = security_minister
-		slot = economy_minister
-		slot = foreign_minister
-		slot = intel_minister
-		slot = head_of_state2
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		# slot = security_minister
+		# slot = economy_minister
+		# slot = foreign_minister
+		# slot = intel_minister
+		# slot = head_of_state2
 		
 		cost = 0
 		removal_cost = 0
@@ -41,11 +45,11 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+		# character_slot = political_advisor
+		# character_slot = political_advisor
+		# character_slot = political_advisor
+		# character_slot = political_advisor
+		# character_slot = political_advisor
 		
 		ledger = civilian
 		
@@ -54,12 +58,10 @@ idea_categories = {
 	}
 	
 	research_production = {
-		slot = materiel_manufacturer
-		slot = materiel_manufacturer
 		slot = tank_manufacturer
 		slot = naval_manufacturer
 		slot = aircraft_manufacturer
-		slot = industrial_concern
+		slot = materiel_manufacturer
 		slot = industrial_concern
 		character_slot = theorist
 
@@ -73,8 +75,6 @@ idea_categories = {
 		character_slot = army_chief 
 		character_slot = navy_chief 
 		character_slot = air_chief
-		character_slot = high_command
-		character_slot = high_command
 		character_slot = high_command
 		character_slot = high_command
 		character_slot = high_command

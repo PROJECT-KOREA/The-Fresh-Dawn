@@ -1,36 +1,29 @@
 state = {
 	id = 613
-	name = "STATE_613" # Shanghai
-	manpower = 17305100
+	name = "STATE_613"
+	manpower = 1969300
 	
-	state_category = metropolis
-	
+	state_category = large_city
+
 	history = {
-		set_demilitarized_zone = yes
 		owner = CHI
 		add_core_of = CHI
-		
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 3
-			air_base = 6
-			dockyard = 1
-			7014 = {
-				naval_base = 6
-				coastal_bunker = 1
-				bunker = 1
-			}
-			#12052 = {
-			#	naval_base = 4
-			#}
+			industrial_complex = 1
+			arms_factory = 2
 		}
 		victory_points = {
-			7014 10
+			11913 15 
 		}
+		victory_points = {
+			10076 1 
+		}
+
 	}
 
 	provinces = {
-		7014 12052 10034 12076
+		996 10076 11913 11982 13142 
 	}
 }
+

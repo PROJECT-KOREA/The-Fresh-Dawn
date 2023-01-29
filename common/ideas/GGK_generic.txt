@@ -16,32 +16,31 @@ ideas = {
 			}
 		}
 
-		#내선융화 - 1
-		GGK_idea_naisen_yuugou1 = {
+		#내선융화
+		GGK_idea_naisen_yuugou = {
 			name = GGK_idea_naisen_yuugou
 			picture = naisen_yuugou
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				political_power_gain = -0.5
+				political_power_gain = -0.25
 				stability_factor = -0.05
 				auto_despotism_drift = 0.02
 			}
 		}
 
-		#내선융화 - 2
-		GGK_idea_naisen_yuugou2 = {
+		#내선일체
+		GGK_idea_naisen_ittai = {
 			name = GGK_idea_naisen_ittai
 			picture = naisen_yuugou
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				political_power_gain = -0.6
+				political_power_gain = -0.3
 				stability_factor = -0.075
 				auto_despotism_drift = 0.05
 			}
 		}
-
 
 		#문화통치 정책
 		GGK_idea_bunka_touchi = {
@@ -49,32 +48,31 @@ ideas = {
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				political_power_gain = -0.2
+				political_power_gain = -0.15
 				auto_despotism_drift = 0.05
 			}
 		}
 
-		#농공병진정책
-		GGK_idea_noukou_heishin1 = {
-			name = GGK_idea_noukou_heishin
-			picture = SOV_third_five_year_plan_civilian
+		#민족말살 통치
+		GGK_idea_minzokumassatsu_touchi = {
+			picture = prc_low_popular_support3
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				production_speed_infrastructure_factor = 0.1
-				production_speed_industrial_complex_factor = 0.1
+				political_power_gain = -0.2
+				auto_despotism_drift = 0.08
 			}
 		}
 
 		#농공병진정책
-		GGK_idea_noukou_heishin2 = {
+		GGK_idea_noukou_heishin = {
 			name = GGK_idea_noukou_heishin
 			picture = SOV_third_five_year_plan_civilian
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				production_speed_infrastructure_factor = 0.15
-				production_speed_industrial_complex_factor = 0.15
+				production_speed_infrastructure_factor = 0.05
+				production_speed_industrial_complex_factor = 0.02
 			}
 		}
 
@@ -107,32 +105,17 @@ ideas = {
 		}
 
 		#조선반도 병참기지화
-		GGK_idea_heitan_kichika1_inf = {
+		GGK_idea_heitan_kichika3 = {
 			name = GGK_idea_heitan_kichika
 			picture = generic_exploit_mines
 
 			allowed = { original_tag = GGK }
 			modifier = {
-				stability_factor = -0.05
-				consumer_goods_factor = -0.05
-				production_speed_arms_factory_factor = 0.1
-				production_speed_air_base_factor = 0.1
-				production_speed_infrastructure_factor = 0.1
-			}
-		}
-
-		#조선반도 병참기지화
-		GGK_idea_heitan_kichika2_inf = {
-			name = GGK_idea_heitan_kichika
-			picture = generic_exploit_mines
-
-			allowed = { original_tag = GGK }
-			modifier = {
-				stability_factor = -0.07
-				consumer_goods_factor = -0.07
-				production_speed_arms_factory_factor = 0.15
-				production_speed_air_base_factor = 0.15
-				production_speed_infrastructure_factor = 0.1
+				stability_factor = -0.08
+				consumer_goods_factor = -0.08
+				production_speed_arms_factory_factor = 0.20
+				production_speed_air_base_factor = 0.20
+				production_speed_infrastructure_factor = 0.15
 			}
 		}
 
@@ -194,7 +177,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = { tag = GGK }
-			available = { has_completed_focus = GGK_focus_chosen_tetsudo }
+			available = { has_completed_focus = GGK_focus_reorganize_railway }
 			
 			cost = 150
 			removal_cost = 0

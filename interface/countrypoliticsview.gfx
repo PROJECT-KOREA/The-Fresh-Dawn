@@ -638,12 +638,12 @@ spriteTypes = {
 	
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 40
+		size = 27
 	}
 	
 	pieChartType = {
 		name = "GFX_political_chart_small"
-		size = 30
+		size = 31
 	}
 
 	circularProgressBarType = {
@@ -726,5 +726,16 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_government_circle_button"
 		texturefile = "gfx/interface/governement_circle_button.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_power_balance_button_kr"
+		textureFile = "gfx/interface/power_balance_button_kr.png"
+	}
+
+	spriteType = {
+		name = "GFX_power_balance_icon_kr"
+		textureFile = "gfx/interface/power_balance_icon_kr.png"
 	}
 }

@@ -1,0 +1,17 @@
+# guiTypes = {
+# 	containerWindowType = {
+# 		name = "pk_news_logo_view_window"
+# 		position = { x = 0 y = 0 }
+
+# 		instantTextBoxType = {
+# 			name = "get_logo"
+# 			position = { x = 0 y = 0 }
+# 			font = "pk_20"
+# 			text = "news_logo"
+# 			maxWidth = 498
+# 			maxHeight = 302
+# 			# alwaystransparent = yes
+# 			# scrollbarType = standardtext_slider
+# 		}
+# 	}
+# }

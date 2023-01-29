@@ -1,24 +1,24 @@
-on_actions = {
-	on_startup = {
-		effect = {
-			GGK = {
-				country_event = {
-					id = ggk_cabinet.1
-					days = 113
-				}
-				country_event = {
-					id = ggk_cabinet.2
-					days = 142
-				}
-				country_event = {
-					id = ggk_cabinet.3
-					days = 218
-				}
-				country_event = {
-					id = ggk_cabinet.4
-					days = 249
-				}
-			}
-		}
-	}
-}
+# on_actions = {
+# 	on_startup = {
+# 		effect = {
+# 			GGK = {
+# 				country_event = {
+# 					id = ggk_cabinet.1
+# 					days = 113
+# 				}
+# 				country_event = {
+# 					id = ggk_cabinet.2
+# 					days = 142
+# 				}
+# 				country_event = {
+# 					id = ggk_cabinet.3
+# 					days = 218
+# 				}
+# 				country_event = {
+# 					id = ggk_cabinet.4
+# 					days = 249
+# 				}
+# 			}
+# 		}
+# 	}
+# }
