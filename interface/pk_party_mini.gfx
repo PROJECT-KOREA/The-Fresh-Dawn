@@ -50,8 +50,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_aut_despotism_mini"
-		texturefile = "gfx/texticons/party/aut_despotism_mini.dds"
+		name = "GFX_despotism_mini"
+		texturefile = "gfx/texticons/party/despotism_mini.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {

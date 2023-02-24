@@ -146,7 +146,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.10
 			add_popularity = {
-				ideology = auto_despotism
+				ideology = neutrality
 				popularity = 0.1
 			}
 		}
@@ -289,11 +289,11 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			912 = {
-				add_extra_state_shared_building_slots = 1
+			910 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -318,7 +318,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			912 = {
+			910 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -347,7 +347,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			913 = {
+			911 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -377,7 +377,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			919 = {
+			917 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -427,7 +427,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			914 = {
+			912 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory

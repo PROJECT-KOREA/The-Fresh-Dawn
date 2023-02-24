@@ -97,6 +97,11 @@ bitmapfonts = {
 			color = 0xff000000
 		}
 		bitmapfont = {
+			name = "ridi_15"
+			path = "gfx/fonts/ridi_15"
+			color = 0xff000000
+		}
+		bitmapfont = {
 			name = "ridi_16"
 			path = "gfx/fonts/ridi_16"
 			color = 0xff000000

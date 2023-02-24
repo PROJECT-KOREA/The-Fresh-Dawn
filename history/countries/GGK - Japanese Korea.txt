@@ -1,15 +1,10 @@
-﻿capital = 909 # 경성
+﻿capital = 525 # 경성
 
 #지도자
 recruit_character = GGK_Ugaki_Kazushige	# 우가키 카즈시게
 recruit_character = GGK_Pak_Honyong
-recruit_character = GGK_Kim_Dubong
-recruit_character = GGK_Kim_Wonbong
 recruit_character = GGK_Ryuh_Woonhyung
-recruit_character = GGK_Shin_Heungwoo
-recruit_character = GGK_Ahn_Changho
-recruit_character = GGK_Syngman_Rhee
-recruit_character = GGK_Kim_Koo
+recruit_character = GGK_Song_Jinwoo
 
 recruit_character = GGK_Ushijima_Shozo
 recruit_character = GGK_Hayashi_Shigezo
@@ -51,7 +46,7 @@ add_ideas = {
 
 #정권
 set_politics = {
-	ruling_party = auto_despotism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -59,13 +54,11 @@ set_politics = {
 
 #정당 지지도
 set_popularities = {
-	communism = 3 #박헌영
-	radical_socialism = 1 #김원봉
-	social_democracy = 4 #여운형
-	national_liberalism = 1 #조만식
-	democratic = 2 #이승만
-	national_conservatism = 1 #김구
-	auto_despotism = 88 #총독부
+	communism = 2 #박헌영
+	n_socialism = 4 #여운형
+	democratic = 3 #이승만
+	neutrality = 90 #총독부
+	fascism = 1 
 }
 
 #시작 기술
@@ -75,8 +68,6 @@ set_technology = {
 	tech_military_police = 1 #헌병
 	gw_artillery = 1 #포
 }
-
-COALITION_add_autdes = yes
 
 country_event = {
 	id = ggk_korea.1

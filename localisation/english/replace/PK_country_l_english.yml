@@ -3,26 +3,12 @@
  ### 조선총독부 ###
   GGK_communism:0 "조선총독부" 
   GGK_communism_DEF:0 "조선총독부"
-  GGK_auth_socialism:0 "조선총독부"
-  GGK_auth_socialism_DEF:0 "조선총독부"
-  GGK_radical_socialism:0 "조선총독부"
-  GGK_radical_socialism_DEF:0 "조선총독부"
-  GGK_social_democracy:0 "조선총독부"
-  GGK_social_democracy_DEF:0 "조선총독부"
-  GGK_social_liberalism:0 "조선총독부"
-  GGK_social_liberalism_DEF:0 "조선총독부"
-  GGK_national_liberalism:0 "조선총독부"
-  GGK_national_liberalism_DEF:0 "조선총독부"
-  GGK_liberal_conservatism:0 "조선총독부"
-  GGK_liberal_conservatism_DEF:0 "조선총독부"
+  GGK_n_socialism:0 "조선총독부"
+  GGK_n_socialism_DEF:0 "조선총독부"
   GGK_democratic:0 "조선총독부"
   GGK_democratic_DEF:0 "조선총독부"
-  GGK_national_conservatism:0 "조선총독부"
-  GGK_national_conservatism_DEF:0 "조선총독부"
   GGK_neutrality:0 "조선총독부"
   GGK_neutrality_DEF:0 "조선총독부"
-  GGK_auto_despotism:0 "조선총독부"
-  GGK_auto_despotism_DEF:0 "조선총독부"
   GGK_fascism:0 "조선총독부"
   GGK_fascism_DEF:0 "조선총독부"
 
@@ -32,49 +18,19 @@
   KOR_communism:0 "조선인민공화국"
   KOR_communism_DEF:0 "조선인민공화국"
 
-  #권위사회주의
-  KOR_auth_socialism:0 "조선인민공화국"
-  KOR_auth_socialism_DEF:0 "조선인민공화국"
+  #사회주의
+  KOR_n_socialism:0 "조선인민공화국"
+  KOR_n_socialism_DEF:0 "조선인민공화국"
 
-  #급진사회주의
-  KOR_radical_socialism:0 "조선인민공화국"
-  KOR_radical_socialism_DEF:0 "조선인민공화국"
-
-  #사회민주주의
-  KOR_social_democracy:0 "대한민국"
-  KOR_social_democracy_DEF:0 "대한민국"
-
-  #사회자유주의
-  KOR_social_liberalism:0 "대한민국"
-  KOR_social_liberalism_DEF:0 "대한민국"
-
-  #국민자유주의
-  KOR_national_liberalism:0 "대한민국"
-  KOR_national_liberalism_DEF:0 "대한민국"
-
-  #자유보수주의
-  KOR_liberal_conservatism:0 "대한민국"
-  KOR_liberal_conservatism_DEF:0 "대한민국"
-
-  #사회보수주의
+  #민주주의
   KOR_democratic:0 "대한민국"
   KOR_democratic_DEF:0 "대한민국"
 
-  #국민보수주의
-  KOR_national_conservatism:0 "대한민국"
-  KOR_national_conservatism_DEF:0 "대한민국"
-
-  #권위민주주의
+  #권위주의
   KOR_neutrality:0 "대한민국 임시정부"
   KOR_neutrality_DEF:0 "대한민국 임시정부"
-  #권위민주주의
-
   KOR_proclaimed_neutrality:0 "대한민국"
   KOR_proclaimed_neutrality_DEF:0 "대한민국"
-
-  #전제독재주의
-  KOR_auto_despotism:0 "대한제국"
-  KOR_auto_despotism_DEF:0 "대한제국"
 
   #파시즘
   KOR_fascism:0 "대한민국"
@@ -93,14 +49,14 @@
  #
 
  ### 일본 ###
-  JAP_fascism:0 "일본 제국"
-  JAP_fascism_DEF:0 "일본 제국"
-  JAP_neutrality:0 "일본 제국"
-  JAP_neutrality_DEF:0 "일본 제국"
-  JAP_democratic:0 "일본국"
-  JAP_democratic_DEF:0 "일본국"
   JAP_communism:0 "일본인민공화국"
   JAP_communism_DEF:0 "일본인민공화국"
+  JAP_democratic:0 "일본 제국"
+  JAP_democratic_DEF:0 "일본 제국"
+  JAP_neutrality:0 "일본 제국"
+  JAP_neutrality_DEF:0 "일본 제국"
+  JAP_fascism:0 "일본 제국"
+  JAP_fascism_DEF:0 "일본 제국"
 
  ### 만주 ###
   MAN_neutrality:0 "대청국"
@@ -113,8 +69,8 @@
   MEN_neutrality_DEF:0 "몽고지방자치정무위원회"
  
  ### 중국 ###
-  CHI_auto_despotism:0 "중화민국 국민정부"
-  CHI_auto_despotism_DEF:0 "중화민국 국민정부"
+  CHI_neutrality:0 "중화민국 국민정부"
+  CHI_neutrality_DEF:0 "중화민국 국민정부"
 
  #중공
   PRC_communism:0 "중화소비에트인민공화국"
@@ -125,62 +81,62 @@
   MON_communism_DEF:0 "몽골인민공화국"
 
  #산서 군벌
-  SHX_auto_despotism:0 "산서 군벌"
-  SHX_auto_despotism_DEF:0 "산서 군벌"
+  SHX_neutrality:0 "산서 군벌"
+  SHX_neutrality_DEF:0 "산서 군벌"
 
  #운남 군벌
-  YUN_auto_despotism:0 "운남 군벌"
-  YUN_auto_despotism_DEF:0 "운남 군벌"
+  YUN_neutrality:0 "운남 군벌"
+  YUN_neutrality_DEF:0 "운남 군벌"
 
  #신광서 군벌
-  GXC_auto_despotism:0 "광서 군벌"
-  GXC_auto_despotism_DEF:0 "광서 군벌"
+  GXC_neutrality:0 "광서 군벌"
+  GXC_neutrality_DEF:0 "광서 군벌"
 
  #신강 군벌
   SIK_communism:0 "신강성 정부"
   SIK_communism_DEF:0 "신강성 정부"
 
  #청해 군벌
-  XSM_auto_despotism:0 "마가 군벌"
-  XSM_auto_despotism_DEF:0 "마가 군벌"
-  # XSM_auto_despotism:0 "청해 군벌"
-  # XSM_auto_despotism_DEF:0 "청해 군벌"
+  XSM_neutrality:0 "마가 군벌"
+  XSM_neutrality_DEF:0 "마가 군벌"
+  # XSM_neutrality:0 "청해 군벌"
+  # XSM_neutrality_DEF:0 "청해 군벌"
 
  #기동방공자치정부
-  EHB_auto_despotism:0 "기동방공자치정부"
-  EHB_auto_despotism_DEF:0 "기동방공자치정부"
+  EHB_neutrality:0 "기동방공자치정부"
+  EHB_neutrality_DEF:0 "기동방공자치정부"
   EHB_fascism:0 "기동방공자치정부"
   EHB_fascism_DEF:0 "기동방공자치정부"
  
  #기찰정무위원회
   HPC_neutrality:0 "기찰정무위원회"
   HPC_neutrality_DEF:0 "기찰정무위원회"
-  HPC_auto_despotism:0 "기찰정무위원회"
-  HPC_auto_despotism_DEF:0 "기찰정무위원회"
+  HPC_neutrality:0 "기찰정무위원회"
+  HPC_neutrality_DEF:0 "기찰정무위원회"
 
  #산동 군벌
-  SHD_auto_despotism:0 "산동 군벌"
-  SHD_auto_despotism_DEF:0 "산동 군벌"
+  SHD_neutrality:0 "산동 군벌"
+  SHD_neutrality_DEF:0 "산동 군벌"
 
  #영하 군벌
-  NXM_auto_despotism:0 "영하 군벌"
-  NXM_auto_despotism_DEF:0 "영하 군벌"
+  NXM_neutrality:0 "영하 군벌"
+  NXM_neutrality_DEF:0 "영하 군벌"
 
  #사천 군벌
-  SIC_auto_despotism:0 "사천 군벌"
-  SIC_auto_despotism_DEF:0 "사천 군벌"
+  SIC_neutrality:0 "사천 군벌"
+  SIC_neutrality_DEF:0 "사천 군벌"
 
  #천변 특별구
-  XIK_auto_despotism:0 "천변 특별구"
-  XIK_auto_despotism_DEF:0 "천변 특별구"
+  XIK_neutrality:0 "천변 특별구"
+  XIK_neutrality_DEF:0 "천변 특별구"
 
  #광동 군벌
-  GUD_auto_despotism:0 "광동 군벌"
-  GUD_auto_despotism_DEF:0 "광동 군벌"
+  GUD_neutrality:0 "광동 군벌"
+  GUD_neutrality_DEF:0 "광동 군벌"
 
  #퉁가니스탄
-  TNG_auto_despotism:0 "퉁가니스탄"
-  TNG_auto_despotism_DEF:0 "퉁가니스탄"
+  TNG_neutrality:0 "퉁가니스탄"
+  TNG_neutrality_DEF:0 "퉁가니스탄"
 
 #  #찰동특별자치구
 #  ECA_fascism:0 "찰동특별자치구"

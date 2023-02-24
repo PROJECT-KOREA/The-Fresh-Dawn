@@ -144,7 +144,7 @@ bookmarks = {
 		}
 		"CHI" = {
 			history = "CHI_GATHERING_STORM_DESC"
-			ideology = auto_despotism
+			ideology = neutrality
 			ideas = {
 				CHI_army_corruption_1
 				CHI_hyper_inflation_1

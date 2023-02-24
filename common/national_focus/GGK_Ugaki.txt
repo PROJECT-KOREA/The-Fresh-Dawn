@@ -78,29 +78,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
+			912 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -108,29 +86,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
+			919 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -155,7 +111,29 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			912 = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -247,7 +225,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			909 = {
+			525 = {
 				add_manpower = 20000
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -278,7 +256,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			919 = {
+			917 = {
 				add_manpower = 15000
 				add_extra_state_shared_building_slots = 1
 				# add_building_construction = {
@@ -362,7 +340,7 @@ focus_tree = {
 	# 	completion_reward = {
 	# 		add_stability = -0.15
 	# 		add_popularity = {
-	# 			ideology = auto_despotism
+	# 			ideology = neutrality
 	# 			popularity = 0.1
 	# 		}
 	# 	}

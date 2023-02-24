@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "광복군 국내정진군"
+	name = "국내정진군 보병사단"
 	division_names_group = KOR_KIA_01
 	is_locked = yes
 	regiments = {
@@ -21,7 +21,7 @@
 }
 
 division_template = {
-	name = "광복군 대륙전구군"
+	name = "대륙전구군 보병사단"
 	division_names_group = KOR_KIA_02
 	is_locked = yes
 	regiments = {
@@ -41,7 +41,29 @@ division_template = {
 		recon = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
 	}
-	priority = 2
+	priority = 1
+}
+
+division_template = {
+	name = "기병사단"
+	division_names_group = KOR_KIA_03
+	is_locked = yes
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+	priority = 1
 }
 
 division_template = {
@@ -60,9 +82,9 @@ division_template = {
 }
 
 air_wings = {
-	913 = { 
-		small_plane_airframe_0 = { owner = "KOR" amount = 150 creator = "USA" version_name = "P-6"} 	
-	}
+	# 913 = { 
+	# 	small_plane_airframe_0 = { owner = "KOR" amount = 150 creator = "USA" version_name = "P-6"} 	
+	# }
 }
 
 # #OOB

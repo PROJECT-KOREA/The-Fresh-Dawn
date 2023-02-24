@@ -39,6 +39,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KOR/idea_pro_japanese_collaborators.dds"
 	}
     spriteType = {
+		name = "GFX_idea_industrial_crisis_factories"
+		texturefile = "gfx/interface/ideas/KOR/industrial_crisis_factories.dds"
+	}
+    spriteType = {
 		name = "GFX_idea_KOR_idea_independence"
 		texturefile = "gfx/interface/ideas/KOR/idea_independence.dds"
 	}

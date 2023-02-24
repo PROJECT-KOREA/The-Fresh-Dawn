@@ -1,7 +1,7 @@
-guiTypes = {
-	containerWindowType = {
-		name = "dual_leader_container"
-		position = { x = 0 y = 0 }
+# guiTypes = {
+# 	containerWindowType = {
+# 		name = "dual_leader_container"
+# 		position = { x = 0 y = 0 }
 		
 		# iconType = {
 		# 	name = "leader2_poartrait"
@@ -20,16 +20,16 @@ guiTypes = {
 
 		### For Leader #1
 
-		instantTextBoxType = {
-			name ="leader1_title"
-			position = { x = 20 y = 57 }
-			font = "pk_20"
-			text = "[This.leader1_title]"
-			maxWidth = 155
-			maxHeight = 20
-			format = center
-			vertical_alignment = center
-		}
+		# instantTextBoxType = {
+		# 	name ="leader1_title"
+		# 	position = { x = 20 y = 57 }
+		# 	font = "pk_20"
+		# 	text = "[This.leader1_title]"
+		# 	maxWidth = 155
+		# 	maxHeight = 20
+		# 	format = center
+		# 	vertical_alignment = center
+		# }
 
 		### For Leader #2
 

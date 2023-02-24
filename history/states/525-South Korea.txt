@@ -1,41 +1,27 @@
 state = {
 	id = 525
 	name = "STATE_525" #경기도
-	manpower = 2000000
-
+	manpower = 2460000
 	state_category = large_town
-
 	history = {
 		owner = GGK
 		add_core_of = KOR
 		add_core_of = GGK
-
 		buildings = {
-			#기반시설
-			infrastructure = 3
-
-			#민간공장
-			industrial_complex = 1
-
-			#군수공장
-			arms_factory = 1
-
-			#조선소
-			dockyard = 1
+			infrastructure = 3 #기반시설
+			industrial_complex = 2 #민간공장
+			arms_factory = 1 #군수공장
+			dockyard = 1 #조선소
 
 			#해군기지
-			7221 = { #인천
-				naval_base = 3
-			}
+			7221 = { naval_base = 3 } #인천
 		}
-
-		# victory_points = { 7125 15 } #서울(케이죠)
+		victory_points = { 7125 15 } #한성(케이죠)
 		victory_points = { 7221  5 } #인천(진센)
 		victory_points = { 12040 3 } #개성(카이죠)
 	}
 
 	provinces = {
-		# 7125
-		7221 10036 12040 13263 13264 13265 13279 13280 
+		7125 7221 10036 12040 13263 13264 13265 13279 13280 
 	}
 }

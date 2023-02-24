@@ -1,28 +1,28 @@
-focus_tree = {
-	id = KOR_Ryuh_Woonhyung
+# focus_tree = {
+# 	id = KOR_Ryuh_Woonhyung
 
-	country = {
-		factor = 0
+# 	country = {
+# 		factor = 0
 		
-		modifier = {
-			add = 30
-			tag = KOR
-			has_country_flag = KOR_kpp
-		}
-	}
+# 		modifier = {
+# 			add = 30
+# 			tag = KOR
+# 			has_country_flag = KOR_kpp
+# 		}
+# 	}
 
-	continuous_focus_position = { x = 20 y = 1800 }
+# 	continuous_focus_position = { x = 20 y = 1800 }
 	
-	#여운형 내각
-	focus = {
-		id = KOR_focus_Ryuh_Woonhyung
-		icon = GFX_focus_Ryuh_Woonhyung
-		x = 8
-		y = 0
-		cost = 10
+# 	#여운형 내각
+# 	focus = {
+# 		id = KOR_focus_Ryuh_Woonhyung
+# 		icon = GFX_focus_Ryuh_Woonhyung
+# 		x = 8
+# 		y = 0
+# 		cost = 10
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
-}
+# 		}
+# 	}
+# }

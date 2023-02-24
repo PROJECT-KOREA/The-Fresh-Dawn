@@ -53,7 +53,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 863 } #점령 주 - 함경북도
+					FROM.FROM = { state = 909 } #점령 주 - 함경북도
 				}
                 FROM.FROM = {
 					set_state_name = "함경북도"
@@ -76,7 +76,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 864 } #점령 주 - 함경남도
+					FROM.FROM = { state = 910 } #점령 주 - 함경남도
 				}
                 FROM.FROM = {
 					set_state_name = "함경남도"
@@ -95,7 +95,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 866 } #점령 주 - 평안남도
+					FROM.FROM = { state = 912 } #점령 주 - 평안남도
 				}
                 FROM.FROM = {
 					set_state_name = "평안남도"
@@ -110,7 +110,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 867 } #점령 주 - 황해도
+					FROM.FROM = { state = 913 } #점령 주 - 황해도
 				}
                 FROM.FROM = {
 					set_state_name = "황해도"
@@ -125,7 +125,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 868 } #점령 주 - 충청북도
+					FROM.FROM = { state = 914 } #점령 주 - 충청북도
 				}
                 FROM.FROM = {
 					set_state_name = "충청북도"
@@ -140,7 +140,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 869 } #점령 주 - 충청남도
+					FROM.FROM = { state = 915 } #점령 주 - 충청남도
 				}
                 FROM.FROM = {
 					set_state_name = "충청남도"
@@ -155,7 +155,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 870 } #점령 주 - 경상북도
+					FROM.FROM = { state = 916 } #점령 주 - 경상북도
 				}
                 FROM.FROM = {
 					set_state_name = "경상북도"
@@ -165,12 +165,20 @@ on_actions = {
                     id = 4086
                     name = "대구"
                 }
+                set_province_name = {
+                    id = 13272
+                    name = "포항"
+                }
+                # set_province_name = {
+                #     id = 13253
+                #     name = "울릉"
+                # }
 			}
 			if = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 871 } #점령 주 - 경상남도
+					FROM.FROM = { state = 917 } #점령 주 - 경상남도
 				}
                 FROM.FROM = {
 					set_state_name = "경상남도"
@@ -189,7 +197,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 872 } #점령 주 - 전라북도
+					FROM.FROM = { state = 918 } #점령 주 - 전라북도
 				}
                 FROM.FROM = {
 					set_state_name = "전라북도"
@@ -204,7 +212,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 873 } #점령 주 - 전라남도
+					FROM.FROM = { state = 919 } #점령 주 - 전라남도
 				}
                 FROM.FROM = {
 					set_state_name = "전라남도"
@@ -219,7 +227,7 @@ on_actions = {
 				limit = {
 					tag = KOR #점령국 - 한국
 					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 874 } #점령 주 - 제주도
+					FROM.FROM = { state = 920 } #점령 주 - 제주도
 				}
                 FROM.FROM = {
 					set_state_name = "제주도"
@@ -228,21 +236,6 @@ on_actions = {
                 set_province_name = {
                     id = 1177
                     name = "제주"
-                }
-			}
-			if = {
-				limit = {
-					tag = KOR #점령국 - 한국
-					FROM = { tag = GGK } #피점령국 - 조선총독부
-					FROM.FROM = { state = 875 } #점령 주 - 울릉도
-				}
-                FROM.FROM = {
-					set_state_name = "울릉도"
-					KOR = { set_state_owner = PREV }
-				}
-                set_province_name = {
-                    id = 13253
-                    name = "울릉"
                 }
 			}
         }

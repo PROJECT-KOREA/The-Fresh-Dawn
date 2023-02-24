@@ -1,0 +1,41 @@
+leader_traits = {
+	faction_r_royal = {
+		random = no
+		political_power_factor = 0.10
+		stability_factor = 0.10
+		conscription_factor = 0.15
+	}
+
+	faction_r_friendly = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.05
+	}
+	
+	faction_r_normal = {
+		random = no
+	}
+
+	faction_r_notgood = {
+		random = no
+		political_power_factor = -0.05
+		stability_factor = -0.05
+	}
+
+	faction_r_hostile = {
+		random = no
+		political_power_factor = -0.05
+		stability_factor = -0.10
+	}
+
+
+	faction_com = { random = no }
+	faction_radsoc = { random = no }
+	faction_socdem = { random = no }
+	faction_soclib = { random = no }
+	faction_natlib = { random = no }
+	faction_libcon = { random = no }
+	faction_soccon = { random = no }
+	faction_natcon = { random = no }
+	faction_fas = { random = no }
+}

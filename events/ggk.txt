@@ -18,7 +18,7 @@ country_event = {
 
     immediate = {
         hidden_effect = {
-            911 = {
+            909 = {
                 add_building_construction = {
                     type = naval_base
                     level = 2
@@ -36,7 +36,7 @@ country_event = {
     option = {
         name = ggk_internal.1.a
         hidden_effect = {
-            911 = {
+            909 = {
                 add_building_construction = {
                     type = naval_base
                     level = 2
@@ -114,7 +114,7 @@ country_event = {
                 name = "미나미 지로"
                 desc = ""
                 picture = "gfx/leaders/JAP_colony/Portrait_Minami_Jiro.dds"
-                ideology = aut_despotism
+                ideology = despotism
                 traits = { }
             }
             add_ideas = HoG_Ono_Rokuichiro
@@ -129,7 +129,7 @@ country_event = {
                 name = "미나미 지로"
                 desc = ""
                 picture = "gfx/leaders/JAP_colony/Portrait_Minami_Jiro.dds"
-                ideology = aut_despotism
+                ideology = despotism
                 traits = { }
             }
             add_ideas = HoG_Ono_Rokuichiro

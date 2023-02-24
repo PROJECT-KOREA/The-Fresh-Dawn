@@ -15,6 +15,7 @@ country_event = {
 			factor = 100
 		}
         JAP = { country_event = { id = jap_puppets.84 } }
+        form_mag = yes
         hidden_effect = {			
 			MEN = { country_event = { id = jap_puppets.84 } }
 			CHI = {
@@ -23,8 +24,6 @@ country_event = {
 			}
 			SHX = { country_event = { days = 1 id = jap_puppets.84 } }
 			set_global_flag = MEN_puppet_form
-            form_mag = yes
-            939 = { set_demilitarized_zone = no }
 		}
     }
 }

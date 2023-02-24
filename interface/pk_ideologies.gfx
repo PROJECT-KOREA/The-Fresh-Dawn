@@ -6,71 +6,71 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/communism.dds"
 	}
 
-	#권위사회주의
+	#사회주의
 	spriteType = {
-		name = "GFX_ideology_auth_socialism_group"
-		texturefile = "gfx/interface/ideologies/aut_socialism.dds"
-	}
-
-	#급진사회주의
-	spriteType = {
-		name = "GFX_ideology_radical_socialism_group"
+		name = "GFX_ideology_n_socialism_group"
 		texturefile = "gfx/interface/ideologies/rad_socialism.dds"
 	}
 
-	#사회민주주의
+	#민주주의
 	spriteType = {
-		name = "GFX_ideology_social_democracy_group"
-		texturefile = "gfx/interface/ideologies/soc_democracy.dds"
-	}
-
-	#사회자유주의
-	spriteType = {
-		name = "GFX_ideology_social_liberalism_group"
+		name = "GFX_ideology_democratic_group"
 		texturefile = "gfx/interface/ideologies/soc_liberalism.dds"
 	}
 
-	#국민자유주의
-	spriteType = {
-		name = "GFX_ideology_national_liberalism_group"
-		texturefile = "gfx/interface/ideologies/nat_liberalism.dds"
-	}
-
-	#자유보수주의
-	spriteType = {
-		name = "GFX_ideology_liberal_conservatism_group"
-		texturefile = "gfx/interface/ideologies/lib_conservatism.dds"
-	}
-
-	#사회보수주의
-	spriteType = {
-		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/soc_conservatism.dds"
-	}
-
-	#국민보수주의
-	spriteType = {
-		name = "GFX_ideology_national_conservatism_group"
-		texturefile = "gfx/interface/ideologies/nat_conservatism.dds"
-	}
-
-	#권위민주주의
+	#권위주의
 	spriteType = {
 		name = "GFX_ideology_neutrality_group"
 		texturefile = "gfx/interface/ideologies/aut_democracy.dds"
 	}
 
-	#전제독재주의
-	spriteType = {
-		name = "GFX_ideology_auto_despotism_group"
-		texturefile = "gfx/interface/ideologies/aut_despotism.dds"
-	}
-
-	#전제독재주의
+	#파시즘
 	spriteType = {
 		name = "GFX_ideology_fascism_group"
 		texturefile = "gfx/interface/ideologies/fascism.dds"
 	}
+
+	# #권위사회주의
+	# spriteType = {
+	# 	name = "GFX_ideology_auth_socialism_group"
+	# 	texturefile = "gfx/interface/ideologies/aut_socialism.dds"
+	# }
+
+	# #사회민주주의
+	# spriteType = {
+	# 	name = "GFX_ideology_social_democracy_group"
+	# 	texturefile = "gfx/interface/ideologies/soc_democracy.dds"
+	# }
+
+	# #사회자유주의
+	# spriteType = {
+	# 	name = "GFX_ideology_social_liberalism_group"
+	# 	texturefile = "gfx/interface/ideologies/soc_liberalism.dds"
+	# }
+
+	# #국민자유주의
+	# spriteType = {
+	# 	name = "GFX_ideology_national_liberalism_group"
+	# 	texturefile = "gfx/interface/ideologies/nat_liberalism.dds"
+	# }
+
+	# #자유보수주의
+	# spriteType = {
+	# 	name = "GFX_ideology_liberal_conservatism_group"
+	# 	texturefile = "gfx/interface/ideologies/lib_conservatism.dds"
+	# }
+
+	# #국민보수주의
+	# spriteType = {
+	# 	name = "GFX_ideology_national_conservatism_group"
+	# 	texturefile = "gfx/interface/ideologies/nat_conservatism.dds"
+	# }
+
+	# #전제독재주의
+	# spriteType = {
+	# 	name = "GFX_ideology_neutrality_group"
+	# 	texturefile = "gfx/interface/ideologies/despotism.dds"
+	# }
 
 
 
@@ -192,7 +192,7 @@ spriteTypes = {
 
 	# #전제독재주의
     # spriteType = {
-	# 	name = "GFX_ideology_auto_despotism_group"
+	# 	name = "GFX_ideology_neutrality_group"
 	# 	texturefile = "gfx/interface/ideologies/nationalism_group.tga"
 	# }
     # spriteType = {

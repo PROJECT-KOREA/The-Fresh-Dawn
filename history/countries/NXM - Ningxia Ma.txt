@@ -10,7 +10,7 @@ recruit_character = CHI_Ma_Hongbin
 set_stability = 0.7
 
 set_politics = {
-	ruling_party = auto_despotism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -21,7 +21,7 @@ set_popularities = {
 	fascism = 0
 	communism = 0
 	neutrality = 0
-	auto_despotism = 100
+	neutrality = 100
 }
 
 # Starting tech

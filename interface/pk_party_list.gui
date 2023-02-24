@@ -28,37 +28,38 @@
 	# @Y_FAS = 292
 	# @Y_FAS1 = 290
 
-	@X_FRAME = 339
+	@X_FRAME = 338
+
 	@Y_COM2 = 146
 	@Y_AUTSOC2 = 162
-	@Y_RADSOC2 = 178
-	@Y_SOCDEM2 = 194
-	@Y_SOCLIB2 = 210
-	@Y_NATLIB2 = 226
-	@Y_LIBCON2 = 242
-	@Y_SOCCON2 = 258
-	@Y_NATCON2 = 274
-	@Y_AUTDEM2 = 290
-	@Y_AUTDES2 = 306
-	@Y_FAS2 = 322
+	@Y_SOCCON2 = 178
+	@Y_AUTDEM2 = 194
+	@Y_FAS2 = 210
+	# @Y_RADSOC2 = 178
+	# @Y_SOCDEM2 = 194
+	# @Y_SOCLIB2 = 210
+	# @Y_NATLIB2 = 226
+	# @Y_LIBCON2 = 242
+	# @Y_NATCON2 = 274
+	# @Y_AUTDES2 = 363
 #
 
 guiTypes = {
 
 	#정당명
-	containerWindowType = {
-		name = "current_ruling_party_ui"
-		position = { x = 0 y = 0 }
+	# containerWindowType = {
+	# 	name = "current_ruling_party_ui"
+	# 	position = { x = 0 y = 0 }
 			
-		instantTextboxType = {
-			name = "party_name"
-			position = { x = 9999 y = 92 }
-			font = "pk_18"
-			text = "[ROOT.GetRulingParty]"
-			fixedsize = yes
-			maxWidth = 145
-			maxHeight = 20
-		}
+		# instantTextboxType = {
+		# 	name = "party_name"
+		# 	position = { x = 113 y = 312 }
+		# 	font = "pk_18"
+		# 	text = "[ROOT.GetRulingParty]"
+		# 	# fixedsize = yes
+		# 	maxWidth = 130
+		# 	maxHeight = 20
+		# }
 
 		# iconType = {
 			# 	name = "pop_bg"
@@ -77,7 +78,7 @@ guiTypes = {
 			# 	maxHeight = 20
 			# 	format = right
 		# }
-	}
+	# }
 
 
 	### 버튼 ###
@@ -485,7 +486,7 @@ guiTypes = {
 		# 		name = "pop_autdes"
 		# 		position = { x = @X_POP y = @Y_AUTDES }
 		# 		font = "hoi_18mbs"
-		# 		text = "[?party_popularity@auto_despotism|%1]"
+		# 		text = "[?party_popularity@neutrality|%1]"
 		# 		format = right
 		# 		fixedsize = yes
 		# 		maxWidth = 60
@@ -540,98 +541,26 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "frameautsoc"
+		name = "framesoc"
 		position = { x = @X_FRAME y = @Y_AUTSOC2 }
 		iconType ={
-			name = "frameautsoc_icon"
+			name = "framesoc_icon"
 			spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "frameautsoc_tooltip"
+			pdx_tooltip = "framesoc_tooltip"
 			scale = 1
 		}
 	}
 	containerWindowType = {
-		name = "frameradsoc"
-		position = { x = @X_FRAME y = @Y_RADSOC2 }
-		iconType ={
-			name = "frameradsoc_icon"
-			spriteType = "GFX_party_background"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "frameradsoc_tooltip"
-			scale = 1
-		}
-	}
-	containerWindowType = {
-		name = "framesocdem"
-		position = { x = @X_FRAME y = @Y_SOCDEM2 }
-		iconType ={
-			name = "framesocdem_icon"
-			spriteType = "GFX_party_background"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "framesocdem_tooltip"
-			scale = 1
-		}
-	}
-	containerWindowType = {
-		name = "framesoclib"
-		position = { x = @X_FRAME y = @Y_SOCLIB2 }
-		iconType ={
-			name = "framesoclib_icon"
-			spriteType = "GFX_party_background"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "framesoclib_tooltip"
-			scale = 1
-		}
-	}
-	containerWindowType = {
-		name = "framenatlib"
-		position = { x = @X_FRAME y = @Y_NATLIB2 }
-		iconType ={
-			name = "framenatlib_icon"
-			spriteType = "GFX_party_background"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "framenatlib_tooltip"
-			scale = 1
-		}
-	}
-	containerWindowType = {
-		name = "framelibcon"
-		position = { x = @X_FRAME y = @Y_LIBCON2 }
-		iconType ={
-			name = "framelibcon_icon"
-			spriteType = "GFX_party_background"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "framelibcon_tooltip"
-			scale = 1
-		}
-	}
-	containerWindowType = {
-		name = "framesoccon"
+		name = "framedem"
 		position = { x = @X_FRAME y = @Y_SOCCON2 }
 		iconType ={
-			name = "framesoccon_icon"
+			name = "framedem_icon"
 			spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "framesoccon_tooltip"
-			scale = 1
-		}
-	}
-	containerWindowType = {
-		name = "framenatcon"
-		position = { x = @X_FRAME y = @Y_NATCON2 }
-		iconType ={
-			name = "framenatcon_icon"
-			spriteType = "GFX_party_background"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "framenatcon_tooltip"
+			pdx_tooltip = "framedem_tooltip"
 			scale = 1
 		}
 	}
@@ -639,23 +568,11 @@ guiTypes = {
 		name = "frameneu"
 		position = { x = @X_FRAME y = @Y_AUTDEM2 }
 		iconType ={
-			name = "frameneu_icon"
-			spriteType = "GFX_party_background"
-			position = { x= 0 y =0 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "frameautdem_tooltip"
-			scale = 1
-		}
-	}
-	containerWindowType = {
-		name = "frameautdes"
-		position = { x = @X_FRAME y = @Y_AUTDES2 }
-		iconType ={
 			name = "frameautdes_icon"
 			spriteType = "GFX_party_background"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "frameautdes_tooltip"
+			pdx_tooltip = "frameneu_tooltip"
 			scale = 1
 		}
 	}
@@ -671,4 +588,137 @@ guiTypes = {
 			scale = 1
 		}
 	}
+
+	# containerWindowType = {
+	# 	name = "frameautsoc"
+	# 	position = { x = @X_FRAME y = @Y_AUTSOC2 }
+	# 	iconType ={
+	# 		name = "frameautsoc_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "frameautsoc_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "frameradsoc"
+	# 	position = { x = @X_FRAME y = @Y_RADSOC2 }
+	# 	iconType ={
+	# 		name = "frameradsoc_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "frameradsoc_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "framesocdem"
+	# 	position = { x = @X_FRAME y = @Y_SOCDEM2 }
+	# 	iconType ={
+	# 		name = "framesocdem_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "framesocdem_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "framesoclib"
+	# 	position = { x = @X_FRAME y = @Y_SOCLIB2 }
+	# 	iconType ={
+	# 		name = "framesoclib_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "framesoclib_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "framenatlib"
+	# 	position = { x = @X_FRAME y = @Y_NATLIB2 }
+	# 	iconType ={
+	# 		name = "framenatlib_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "framenatlib_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "framelibcon"
+	# 	position = { x = @X_FRAME y = @Y_LIBCON2 }
+	# 	iconType ={
+	# 		name = "framelibcon_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "framelibcon_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "framesoccon"
+	# 	position = { x = @X_FRAME y = @Y_SOCCON2 }
+	# 	iconType ={
+	# 		name = "framesoccon_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "framesoccon_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "framenatcon"
+	# 	position = { x = @X_FRAME y = @Y_NATCON2 }
+	# 	iconType ={
+	# 		name = "framenatcon_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "framenatcon_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "frameneu"
+	# 	position = { x = @X_FRAME y = @Y_AUTDEM2 }
+	# 	iconType ={
+	# 		name = "frameneu_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y =0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "frameautdem_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "frameautdes"
+	# 	position = { x = @X_FRAME y = @Y_AUTDES2 }
+	# 	iconType ={
+	# 		name = "frameautdes_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "frameautdes_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "framefas"
+	# 	position = { x = @X_FRAME y = @Y_FAS2 }
+	# 	iconType ={
+	# 		name = "framefas_icon"
+	# 		spriteType = "GFX_party_background"
+	# 		position = { x= 0 y = 0 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		pdx_tooltip = "framefas_tooltip"
+	# 		scale = 1
+	# 	}
+	# }
 }

@@ -137,7 +137,7 @@ if = {
 	set_resistance = 0
 	set_garrison_strength = 1.0
 }
-939 = {
+934 = {
 	start_resistance = yes
 	set_compliance = 20
 	set_resistance = 0
@@ -345,24 +345,17 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	auth_socialism = 0
-	radical_socialism = 1 
-	social_democracy = 3
-	social_liberalism = 13
-	national_liberalism = 22
-	liberal_conservatism = 6
-	democratic = 9
-	national_conservatism = 29
-	neutrality = 7
-	auto_despotism = 7
-	fascism = 3
+	n_socialism = 0
+	democratic = 30
+	neutrality = 65
+	fascism = 5
 }
 
-COALITION_add_soclib = yes
-COALITION_add_natlib = yes
-COALITION_add_libcon = yes
-COALITION_add_soccon = yes
-COALITION_add_neu = yes
+# COALITION_add_soclib = yes
+# COALITION_add_natlib = yes
+# COALITION_add_libcon = yes
+# COALITION_add_soccon = yes
+# COALITION_add_neu = yes
 
 create_faction = JAP_toa_shinjitusho
 

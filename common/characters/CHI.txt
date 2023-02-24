@@ -7,7 +7,7 @@ characters = {
 			civilian = { large = "gfx/leaders/CHI/Portrait_Lin_Sen.dds" }
 		}
 		country_leader = {
-			ideology = dang_guo
+			ideology = despotism
 			traits = {  }
 			expire = "1965.1.1.1"
 			id = -1

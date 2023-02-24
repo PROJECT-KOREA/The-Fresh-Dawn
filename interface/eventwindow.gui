@@ -394,14 +394,14 @@ guiTypes = {
 		background = {
 			name = "event_option_background"	
 			spriteType ="GFX_event_option_entry"
-			position = { x = 0 y = -1 }
+			position = { x = 0 y = 0 }
 		}
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 24 y = -40 }
+			position = { x = 22 y = -40 }
 			font = "ridi_16"
-			maxWidth = 280
+			maxWidth = 300
 			maxHeight = 20
 			format = left
 			Orientation = "LOWER_LEFT"

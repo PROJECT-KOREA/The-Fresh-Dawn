@@ -151,12 +151,12 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "full_text"
-			position = { x = 14 y = 6 }
+			position = { x = 13 y = 6 }
 			textureFile = ""
 			font = "pk_18"
 			borderSize = { x = 0 y = 0 }
 			text = ""
-			maxWidth = 470
+			maxWidth = 485
 		}
 		
 		instantTextboxType = {

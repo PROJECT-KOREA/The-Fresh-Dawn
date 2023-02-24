@@ -64,15 +64,13 @@ set_politics = {
 #지지도
 set_popularities = {
 	communism = 80
-	auth_socialism = 10
-	radical_socialism = 8
-	social_democracy = 2
+	n_socialism = 20
 }
 
 #연정
-COALITION_add_autsoc = yes
-COALITION_add_radsoc = yes
-COALITION_add_socdem = yes
+# COALITION_add_autsoc = yes
+# COALITION_add_radsoc = yes
+# COALITION_add_socdem = yes
 
 # #지청천
 # create_country_leader = {

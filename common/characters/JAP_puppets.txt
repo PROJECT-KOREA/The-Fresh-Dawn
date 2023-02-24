@@ -5,7 +5,7 @@ characters = {
 		name = "인루겅"
 		portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_Yin_Jukeng.dds" } }
 		country_leader = {
-			ideology = aut_despotism
+			ideology = despotism
 			traits = {  }
 			expire = "1965.1.1.1"
 			id = -1

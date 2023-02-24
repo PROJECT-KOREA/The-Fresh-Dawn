@@ -22,12 +22,16 @@ characters = {
         name = Ugaki_Kazuhsige
         portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_ugaki_kazushige.dds" } }
 
+        #지도자 - 권위주의
+        country_leader = {
+            ideology = despotism
+            traits = { gov_of_chosen }
+        }
+
         #지도자 - 파시즘
         country_leader = {
-            ideology = aut_despotism
+            ideology = fascism_ideology
             traits = { gov_of_chosen }
-            expire = "1999.1.1.1"
-            id = -1
         }
     }
 
@@ -141,36 +145,6 @@ characters = {
         country_leader = {
             ideology = leninism
             traits = { }
-            expire = "1999.1.1.1"
-            id = -1
-        }
-    }
-
-    #김두봉
-    GGK_Kim_Dubong = {
-        name = Kim_Dubong
-        portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Kim_Dubong.dds" } }
-
-        #지도자
-        country_leader = {
-            ideology = aut_socialism
-            traits = { }
-            expire = "1999.1.1.1"
-            id = -1
-        }
-    }
-
-    #김원봉
-    GGK_Kim_Wonbong = {
-        name = Kim_Wonbong
-        portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Kim_Wonbong.dds" } }
-
-        #지도자
-        country_leader = {
-            ideology = social_nationalism
-            traits = { }
-            expire = "1999.1.1.1"
-            id = -1
         }
     }
 
@@ -181,52 +155,20 @@ characters = {
 
         #지도자
         country_leader = {
-            ideology = socialism
+            ideology = n_socialism_ideology
             traits = { }
-            expire = "1999.1.1.1"
-            id = -1
-        }
-    }
-
-    #신흥우
-    GGK_Shin_Heungwoo = {
-        name = Shin_Heungwoo
-        # portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds" } }
-
-        #지도자
-        country_leader = {
-            ideology = liberalism
-            traits = { }
-            expire = "1999.1.1.1"
-            id = -1
-        }
-    }
-
-    #안창호
-    GGK_Ahn_Changho = {
-        name = Ahn_Changho
-        # portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Cho_Mansik.dds" } }
-
-        #지도자
-        country_leader = {
-            ideology = nat_liberal
-            traits = { }
-            expire = "1999.1.1.1"
-            id = -1
         }
     }
 
     #이승만
-    GGK_Syngman_Rhee = {
-        name = Syngman_Rhee
-        portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds" } }
+    GGK_Song_Jinwoo = {
+        name = Song_Jinwoo
+        portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" } }
 
         #지도자
         country_leader = {
             ideology = conservatism
             traits = { }
-            expire = "1999.1.1.1"
-            id = -1
         }
     }
 
@@ -237,10 +179,8 @@ characters = {
 
         #지도자
         country_leader = {
-            ideology = nat_conservatism
+            ideology = centrism
             traits = { }
-            expire = "1999.1.1.1"
-            id = -1
         }
     }
 }

@@ -1,0 +1,347 @@
+FAC_remove_idea_com = {
+    remove_ideas_with_trait = faction_com
+}
+FAC_remove_idea_radsoc = {
+    remove_ideas_with_trait = faction_radsoc
+}
+FAC_remove_idea_socdem = {
+    remove_ideas_with_trait = faction_socdem
+}
+FAC_remove_idea_soclib = {
+    remove_ideas_with_trait = faction_soclib
+}
+FAC_remove_idea_natlib = {
+    remove_ideas_with_trait = faction_natlib
+}
+FAC_remove_idea_libcon = {
+    remove_ideas_with_trait = faction_libcon
+}
+FAC_remove_idea_soccon = {
+    remove_ideas_with_trait = faction_soccon
+}
+FAC_remove_idea_natcon = {
+    remove_ideas_with_trait = faction_natcon
+}
+FAC_remove_idea_fas = {
+    remove_ideas_with_trait = faction_fas
+}
+
+FAC_set_com_royal = {
+    hidden_effect = {
+        FAC_remove_idea_com = yes
+        add_ideas = KOR_idea_faction_com_royal
+    }
+    custom_effect_tooltip = FAC_set_com_royal_tt
+}
+FAC_set_radsoc_royal = {
+    hidden_effect = {
+        FAC_remove_idea_radsoc = yes
+        add_ideas = KOR_idea_faction_radsoc_royal
+    }
+    custom_effect_tooltip = FAC_set_radsoc_royal_tt
+}
+FAC_set_socdem_royal = {
+    hidden_effect = {
+        FAC_remove_idea_socdem = yes
+        add_ideas = KOR_idea_faction_socdem_royal
+    }
+    custom_effect_tooltip = FAC_set_socdem_royal_tt
+}
+FAC_set_soclib_royal = {
+    hidden_effect = {
+        FAC_remove_idea_soclib = yes
+        add_ideas = KOR_idea_faction_soclib_royal
+    }
+    custom_effect_tooltip = FAC_set_soclib_royal_tt
+}
+FAC_set_natlib_royal = {
+    hidden_effect = {
+        FAC_remove_idea_natlib = yes
+        add_ideas = KOR_idea_faction_natlib_royal
+    }
+    custom_effect_tooltip = FAC_set_natlib_royal_tt
+}
+FAC_set_libcon_royal = {
+    hidden_effect = {
+        FAC_remove_idea_libcon = yes
+        add_ideas = KOR_idea_faction_libcon_royal
+    }
+    custom_effect_tooltip = FAC_set_libcon_royal_tt
+}
+FAC_set_soccon_royal = {
+    hidden_effect = {
+        FAC_remove_idea_soccon = yes
+        add_ideas = KOR_idea_faction_soccon_royal
+    }
+    custom_effect_tooltip = FAC_set_soccon_royal_tt
+}
+FAC_set_natcon_royal = {
+    hidden_effect = {
+        FAC_remove_idea_natcon = yes
+        add_ideas = KOR_idea_faction_natcon_royal
+    }
+    custom_effect_tooltip = FAC_set_natcon_royal_tt
+}
+FAC_set_fas_royal = {
+    hidden_effect = {
+        FAC_remove_idea_fas = yes
+        add_ideas = KOR_idea_faction_fas_royal
+    }
+    custom_effect_tooltip = FAC_set_fas_royal_tt
+}
+
+FAC_set_com_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_com = yes
+        add_ideas = KOR_idea_faction_com_friendly
+    }
+    custom_effect_tooltip = FAC_set_com_friendly_tt
+}
+FAC_set_radsoc_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_radsoc = yes
+        add_ideas = KOR_idea_faction_radsoc_friendly
+    }
+    custom_effect_tooltip = FAC_set_radsoc_friendly_tt
+}
+FAC_set_socdem_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_socdem = yes
+        add_ideas = KOR_idea_faction_socdem_friendly
+    }
+    custom_effect_tooltip = FAC_set_socdem_friendly_tt
+}
+FAC_set_soclib_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_soclib = yes
+        add_ideas = KOR_idea_faction_soclib_friendly
+    }
+    custom_effect_tooltip = FAC_set_soclib_friendly_tt
+}
+FAC_set_natlib_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_natlib = yes
+        add_ideas = KOR_idea_faction_natlib_friendly
+    }
+    custom_effect_tooltip = FAC_set_natlib_friendly_tt
+}
+FAC_set_libcon_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_libcon = yes
+        add_ideas = KOR_idea_faction_libcon_friendly
+    }
+    custom_effect_tooltip = FAC_set_libcon_friendly_tt
+}
+FAC_set_soccon_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_soccon = yes
+        add_ideas = KOR_idea_faction_soccon_friendly
+    }
+    custom_effect_tooltip = FAC_set_soccon_friendly_tt
+}
+FAC_set_natcon_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_natcon = yes
+        add_ideas = KOR_idea_faction_natcon_friendly
+    }
+    custom_effect_tooltip = FAC_set_natcon_friendly_tt
+}
+FAC_set_fas_friendly = {
+    hidden_effect = {
+        FAC_remove_idea_fas = yes
+        add_ideas = KOR_idea_faction_fas_friendly
+    }
+    custom_effect_tooltip = FAC_set_fas_friendly_tt
+}
+
+FAC_set_com_normal = {
+    hidden_effect = {
+        FAC_remove_idea_com = yes
+        add_ideas = KOR_idea_faction_com_normal
+    }
+    custom_effect_tooltip = FAC_set_com_normal_tt
+}
+FAC_set_radsoc_normal = {
+    hidden_effect = {
+        FAC_remove_idea_radsoc = yes
+        add_ideas = KOR_idea_faction_radsoc_normal
+    }
+    custom_effect_tooltip = FAC_set_radsoc_normal_tt
+}
+FAC_set_socdem_normal = {
+    hidden_effect = {
+        FAC_remove_idea_socdem = yes
+        add_ideas = KOR_idea_faction_socdem_normal
+    }
+    custom_effect_tooltip = FAC_set_socdem_normal_tt
+}
+FAC_set_soclib_normal = {
+    hidden_effect = {
+        FAC_remove_idea_soclib = yes
+        add_ideas = KOR_idea_faction_soclib_normal
+    }
+    custom_effect_tooltip = FAC_set_soclib_normal_tt
+}
+FAC_set_natlib_normal = {
+    hidden_effect = {
+        FAC_remove_idea_natlib = yes
+        add_ideas = KOR_idea_faction_natlib_normal
+    }
+    custom_effect_tooltip = FAC_set_natlib_normal_tt
+}
+FAC_set_libcon_normal = {
+    hidden_effect = {
+        FAC_remove_idea_libcon = yes
+        add_ideas = KOR_idea_faction_libcon_normal
+    }
+    custom_effect_tooltip = FAC_set_libcon_normal_tt
+}
+FAC_set_soccon_normal = {
+    hidden_effect = {
+        FAC_remove_idea_soccon = yes
+        add_ideas = KOR_idea_faction_soccon_normal
+    }
+    custom_effect_tooltip = FAC_set_soccon_normal_tt
+}
+FAC_set_natcon_normal = {
+    hidden_effect = {
+        FAC_remove_idea_natcon = yes
+        add_ideas = KOR_idea_faction_natcon_normal
+    }
+    custom_effect_tooltip = FAC_set_natcon_normal_tt
+}
+FAC_set_fas_normal = {
+    hidden_effect = {
+        FAC_remove_idea_fas = yes
+        add_ideas = KOR_idea_faction_fas_normal
+    }
+    custom_effect_tooltip = FAC_set_fas_normal_tt
+}
+
+FAC_set_com_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_com = yes
+        add_ideas = KOR_idea_faction_com_notgood
+    }
+    custom_effect_tooltip = FAC_set_com_notgood_tt
+}
+FAC_set_radsoc_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_radsoc = yes
+        add_ideas = KOR_idea_faction_radsoc_notgood
+    }
+    custom_effect_tooltip = FAC_set_radsoc_notgood_tt
+}
+FAC_set_socdem_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_socdem = yes
+        add_ideas = KOR_idea_faction_socdem_notgood
+    }
+    custom_effect_tooltip = FAC_set_socdem_notgood_tt
+}
+FAC_set_soclib_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_soclib = yes
+        add_ideas = KOR_idea_faction_soclib_notgood
+    }
+    custom_effect_tooltip = FAC_set_soclib_notgood_tt
+}
+FAC_set_natlib_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_natlib = yes
+        add_ideas = KOR_idea_faction_natlib_notgood
+    }
+    custom_effect_tooltip = FAC_set_natlib_notgood_tt
+}
+FAC_set_libcon_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_libcon = yes
+        add_ideas = KOR_idea_faction_libcon_notgood
+    }
+    custom_effect_tooltip = FAC_set_libcon_notgood_tt
+}
+FAC_set_soccon_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_soccon = yes
+        add_ideas = KOR_idea_faction_soccon_notgood
+    }
+    custom_effect_tooltip = FAC_set_soccon_notgood_tt
+}
+FAC_set_natcon_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_natcon = yes
+        add_ideas = KOR_idea_faction_natcon_notgood
+    }
+    custom_effect_tooltip = FAC_set_natcon_notgood_tt
+}
+FAC_set_fas_notgood = {
+    hidden_effect = {
+        FAC_remove_idea_fas = yes
+        add_ideas = KOR_idea_faction_fas_notgood
+    }
+    custom_effect_tooltip = FAC_set_fas_notgood_tt
+}
+
+FAC_set_com_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_com = yes
+        add_ideas = KOR_idea_faction_com_hostile
+    }
+    custom_effect_tooltip = FAC_set_com_hostile_tt
+}
+FAC_set_radsoc_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_radsoc = yes
+        add_ideas = KOR_idea_faction_radsoc_hostile
+    }
+    custom_effect_tooltip = FAC_set_radsoc_hostile_tt
+}
+FAC_set_socdem_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_socdem = yes
+        add_ideas = KOR_idea_faction_socdem_hostile
+    }
+    custom_effect_tooltip = FAC_set_socdem_hostile_tt
+}
+FAC_set_soclib_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_soclib = yes
+        add_ideas = KOR_idea_faction_soclib_hostile
+    }
+    custom_effect_tooltip = FAC_set_soclib_hostile_tt
+}
+FAC_set_natlib_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_natlib = yes
+        add_ideas = KOR_idea_faction_natlib_hostile
+    }
+    custom_effect_tooltip = FAC_set_natlib_hostile_tt
+}
+FAC_set_libcon_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_libcon = yes
+        add_ideas = KOR_idea_faction_libcon_hostile
+    }
+    custom_effect_tooltip = FAC_set_libcon_hostile_tt
+}
+FAC_set_soccon_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_soccon = yes
+        add_ideas = KOR_idea_faction_soccon_hostile
+    }
+    custom_effect_tooltip = FAC_set_soccon_hostile_tt
+}
+FAC_set_natcon_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_natcon = yes
+        add_ideas = KOR_idea_faction_natcon_hostile
+    }
+    custom_effect_tooltip = FAC_set_natcon_hostile_tt
+}
+FAC_set_fas_hostile = {
+    hidden_effect = {
+        FAC_remove_idea_fas = yes
+        add_ideas = KOR_idea_faction_fas_hostile
+    }
+    custom_effect_tooltip = FAC_set_fas_hostile_tt
+}

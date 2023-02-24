@@ -1,7 +1,9 @@
 ﻿#수도
-capital = 911 #신의주
+capital = 525
 
 #인물 불러오기
+	recruit_character = KOR_KIA_Command
+	recruit_character = KOR_Mil_Council
 	recruit_character = KOR_Ji_Cheongcheon
 	recruit_character = KOR_Hong_Saik
 	recruit_character = KOR_Song_Jinwoo
@@ -9,8 +11,20 @@ capital = 911 #신의주
 	recruit_character = KOR_Ryuh_Woonhyung
 	recruit_character = KOR_Kim_Koo
 	recruit_character = KOR_Pak_Honyong
-	recruit_character = KOR_Cho_Mansik
 	recruit_character = KOR_Syngman_Rhee
+
+	recruit_character = KOR_Cho_Mansik
+	recruit_character = KOR_Kim_Byeongro
+	recruit_character = KOR_Baek_Namun
+	recruit_character = KOR_Won_Sehun
+	recruit_character = KOR_Chang_Deoksu
+	recruit_character = KOR_Cho_Dongho
+	recruit_character = KOR_Ho_Hon
+	
+	recruit_character = KOR_Kim_Kyusik
+	recruit_character = KOR_Sin_Ikhee
+	recruit_character = KOR_Cho_Soang
+
 	recruit_character = KOR_Kim_Kyeongcheon
 	recruit_character = KOR_Kim_Hong_il
 	recruit_character = KOR_Song_Hoseong
@@ -18,6 +32,8 @@ capital = 911 #신의주
 	recruit_character = KOR_Lee_Beomseok
 	recruit_character = KOR_Kim_Wonbong
 	recruit_character = KOR_Yoon_Seju
+	
+	activate_advisor = KOR_COA_Ji_Cheongcheon
 #
 
 #안정도
@@ -29,9 +45,9 @@ set_war_support = 0.25
 #국민 정신
 add_ideas = {
 	KOR_idea_disorganized_admin1
-	KOR_idea_firepower_supremacy
+	KOR_idea_firepower_supremacy1
 	KOR_idea_kia_1
-	KOR_idea_independence_war_1
+	KOR_idea_independence_war
 	KOR_idea_illiteracy_population_1
 	KOR_idea_the_poor_1
 	KOR_idea_unstable_industry
@@ -81,14 +97,14 @@ set_politics = {
 #지지도
 set_popularities = {
 	communism = 0
-	social_democracy = 0
-	national_liberalism = 0
-	liberal_conservatism = 0
 	neutrality = 100
 }
 
-#연정
-COALITION_add_neu = yes
+set_variable = { KOR_kip_strength = 35 }
+set_variable = { KOR_gmh_strength = 20 }
+set_variable = { KOR_ppk_strength = 25 }
+set_variable = { KOR_np_strength = 10 }
+set_variable = { KOR_kdp_strength = 5 }
 
 # #지청천
 # create_country_leader = {

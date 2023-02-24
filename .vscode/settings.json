@@ -1,0 +1,20 @@
+{
+    "cwtools.errors.ignore": [
+        "localisation/english/*.yml",
+        "localisation/english/replace/*.yml",
+        "localisation/english/replace/PK_KOR_focus_l_english.yml",
+        "localisation/english/replace/PK_KOR_event_l_english.yml"
+    ],
+    "cwtools.errors.ignorefiles": [
+        "localisation/english/*.yml",
+        "localisation/english/replace/*.yml",
+        "localisation/english/replace/PK_KOR_focus_l_english.yml",
+        "localisation/english/replace/PK_KOR_event_l_english.yml",
+        "*.txt",
+        "README.txt",
+        "credits.txt",
+        "credits_l_simp_chinese.txt",
+        "reference.txt",
+        "startup_info.txt"
+    ],
+}

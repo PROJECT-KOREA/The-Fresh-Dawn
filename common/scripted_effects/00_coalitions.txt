@@ -33,7 +33,7 @@ COALITION_set_up_array = {
 	}
 	else_if = {
 		limit = {
-			has_government = auth_socialism
+			has_government = n_socialism
 		}
 		add_to_array = {
 			array = coalition_party_list
@@ -42,7 +42,7 @@ COALITION_set_up_array = {
 	}
 	else_if = {
 		limit = {
-			has_government = radical_socialism
+			has_government = democratic
 		}
 		add_to_array = {
 			array = coalition_party_list
@@ -51,7 +51,7 @@ COALITION_set_up_array = {
 	}
 	else_if = {
 		limit = {
-			has_government = social_democracy
+			has_government = neutrality
 		}
 		add_to_array = {
 			array = coalition_party_list
@@ -60,76 +60,112 @@ COALITION_set_up_array = {
 	}
 	else_if = {
 		limit = {
-			has_government = social_liberalism
+			has_government = fascism
 		}
 		add_to_array = {
 			array = coalition_party_list
 			value = 4
 		}
 	}
-	else_if = {
-		limit = {
-			has_government = national_liberalism
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 5
-		}
-	}
-	else_if = {
-		limit = {
-			has_government = liberal_conservatism
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 6
-		}
-	}
-	else_if = {
-		limit = {
-			has_government = democratic
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 7
-		}
-	}
-	else_if = {
-		limit = {
-			has_government = national_conservatism
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 8
-		}
-	}
-	else_if = {
-		limit = {
-			has_government = neutrality
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 9
-		}
-	}
-	else_if = {
-		limit = {
-			has_government = auto_despotism
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 10
-		}
-	}
-	else_if = {
-		limit = {
-			has_government = fascism
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 11
-		}
-	}
+	# else_if = {
+	# 	limit = {
+	# 		has_government = auth_socialism
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 1
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = radical_socialism
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 2
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = social_democracy
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 3
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = social_liberalism
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 4
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = national_liberalism
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 5
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = liberal_conservatism
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 6
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = democratic
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 7
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = national_conservatism
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 8
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = neutrality
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 9
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = neutrality
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 10
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		has_government = fascism
+	# 	}
+	# 	add_to_array = {
+	# 		array = coalition_party_list
+	# 		value = 11
+	# 	}
+	# }
 	COALITION_POP_NUMBER = yes
 }
 COALITION_add_com = {
@@ -150,7 +186,7 @@ COALITION_add_com = {
 		custom_effect_tooltip = join_coal_loc_com
 	}
 }
-COALITION_add_autsoc = {
+COALITION_add_soc = {
 	if = {
 		limit = {
 			NOT = {
@@ -164,11 +200,11 @@ COALITION_add_autsoc = {
 			array = coalition_party_list
 			value = 1
 		}
-		custom_effect_tooltip = join_coal_loc_neusoc
-		COALITION_POP_NUMBER = yes
+		custom_effect_tooltip = join_coal_loc_soc
 	}
+	COALITION_POP_NUMBER = yes
 }
-COALITION_add_radsoc = {
+COALITION_add_dem = {
 	if = {
 		limit = {
 			NOT = {
@@ -182,11 +218,11 @@ COALITION_add_radsoc = {
 			array = coalition_party_list
 			value = 2
 		}
-		custom_effect_tooltip = join_coal_loc_radsoc
-		COALITION_POP_NUMBER = yes
+		custom_effect_tooltip = join_coal_loc_dem
 	}
+	COALITION_POP_NUMBER = yes
 }
-COALITION_add_socdem = {
+COALITION_add_neu = {
 	if = {
 		limit = {
 			NOT = {
@@ -198,13 +234,13 @@ COALITION_add_socdem = {
 		}
 		add_to_array = {
 			array = coalition_party_list
-			value = 3
+			value = 2
 		}
-		custom_effect_tooltip = join_coal_loc_socdem
+		custom_effect_tooltip = join_coal_loc_neu
 	}
 	COALITION_POP_NUMBER = yes
 }
-COALITION_add_soclib = {
+COALITION_add_fas = {
 	if = {
 		limit = {
 			NOT = {
@@ -218,174 +254,276 @@ COALITION_add_soclib = {
 			array = coalition_party_list
 			value = 4
 		}
-		custom_effect_tooltip = join_coal_loc_soclib
-	}
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_natlib = {
-	if = {
-		limit = {
-			NOT = {
-				is_in_array = {
-					array = coalition_party_list
-					value = 5
-				}
-			}
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 5
-		}
-		custom_effect_tooltip = join_coal_loc_natlib
-	}
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_libcon = {
-	if = {
-		limit = {
-			NOT = {
-				is_in_array = {
-					array = coalition_party_list
-					value = 6
-				}
-			}
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 6
-		}
-		custom_effect_tooltip = join_coal_loc_libcon
-	}
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_soccon = {
-	if = {
-		limit = {
-			NOT = {
-				is_in_array = {
-					array = coalition_party_list
-					value = 7
-				}
-			}
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 7
-		}
-		custom_effect_tooltip = join_coal_loc_soccon
-	}
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_natcon = {
-	if = {
-		limit = {
-			NOT = {
-				is_in_array = {
-					array = coalition_party_list
-					value = 8
-				}
-			}
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 8
-		}
-		custom_effect_tooltip = join_coal_loc_natcon
-	}
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_neu = {
-	if = {
-		limit = {
-			NOT = {
-				is_in_array = {
-					array = coalition_party_list
-					value = 9
-				}
-			}
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 9
-		}
-		custom_effect_tooltip = join_coal_loc_neu
-	}
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_autdes = {
-	if = {
-		limit = {
-			NOT = {
-				is_in_array = {
-					array = coalition_party_list
-					value = 10
-				}
-			}
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 10
-		}
-		custom_effect_tooltip = join_coal_loc_neudes
-	}
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_fas = {
-	if = {
-		limit = {
-			NOT = {
-				is_in_array = {
-					array = coalition_party_list
-					value = 11
-				}
-			}
-		}
-		add_to_array = {
-			array = coalition_party_list
-			value = 11
-		}
 		custom_effect_tooltip = join_coal_loc_fas
 	}
 	COALITION_POP_NUMBER = yes
 }
+
+#
+	# COALITION_add_autsoc = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 1
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 1
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_neusoc
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_add_autsoc = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 1
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 1
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_neusoc
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_add_radsoc = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 2
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 2
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_radsoc
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_add_socdem = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 3
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 3
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_socdem
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_soclib = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 4
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 4
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_soclib
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_natlib = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 5
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 5
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_natlib
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_libcon = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 6
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 6
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_libcon
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_soccon = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 7
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 7
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_soccon
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_natcon = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 8
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 8
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_natcon
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_neu = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 9
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 9
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_neu
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_autdes = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 10
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 10
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_neudes
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_fas = {
+	# 	if = {
+	# 		limit = {
+	# 			NOT = {
+	# 				is_in_array = {
+	# 					array = coalition_party_list
+	# 					value = 11
+	# 				}
+	# 			}
+	# 		}
+	# 		add_to_array = {
+	# 			array = coalition_party_list
+	# 			value = 11
+	# 		}
+	# 		custom_effect_tooltip = join_coal_loc_fas
+	# 	}
+	# 	COALITION_POP_NUMBER = yes
+	# }
+#
+
 COALITION_add_ALL = {
 	COALITION_add_com = yes
-	COALITION_add_autsoc = yes
-	COALITION_add_radsoc = yes
-	COALITION_add_socdem = yes
-	COALITION_add_soclib = yes
-	COALITION_add_natlib = yes
-	COALITION_add_libcon = yes
-	COALITION_add_soccon = yes
-	COALITION_add_natcon = yes
+	COALITION_add_soc = yes
+	COALITION_add_dem = yes
 	COALITION_add_neu = yes
-	COALITION_add_autdes = yes
 	COALITION_add_fas = yes
+	#
+		# COALITION_add_autsoc = yes
+		# COALITION_add_radsoc = yes
+		# COALITION_add_socdem = yes
+		# COALITION_add_soclib = yes
+		# COALITION_add_natlib = yes
+		# COALITION_add_libcon = yes
+		# COALITION_add_soccon = yes
+		# COALITION_add_natcon = yes
+		# COALITION_add_autdes = yes
+	#
 	COALITION_POP_NUMBER = yes
 }
-COALITION_add_LEFTIST = {
-	COALITION_add_com = yes
-	COALITION_add_autsoc = yes
-	COALITION_add_radsoc = yes
-	COALITION_add_socdem = yes
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_libconTRIST = {
-	COALITION_add_socdem = yes
-	COALITION_add_soclib = yes
-	COALITION_add_natlib = yes
-	COALITION_add_libcon = yes
-	COALITION_add_soccon = yes
-	COALITION_POP_NUMBER = yes
-}
-COALITION_add_RIGHTIST = {
-	COALITION_add_soccon = yes
-	COALITION_add_natcon = yes
-	COALITION_add_neu = yes
-	COALITION_add_autdes = yes
-	COALITION_add_fas = yes
-	COALITION_POP_NUMBER = yes
-}
+
+#
+	# COALITION_add_LEFTIST = {
+	# 	COALITION_add_com = yes
+	# 	COALITION_add_autsoc = yes
+	# 	COALITION_add_radsoc = yes
+	# 	COALITION_add_socdem = yes
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_libconTRIST = {
+	# 	COALITION_add_socdem = yes
+	# 	COALITION_add_soclib = yes
+	# 	COALITION_add_natlib = yes
+	# 	COALITION_add_libcon = yes
+	# 	COALITION_add_soccon = yes
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_add_RIGHTIST = {
+	# 	COALITION_add_soccon = yes
+	# 	COALITION_add_natcon = yes
+	# 	COALITION_add_neu = yes
+	# 	COALITION_add_autdes = yes
+	# 	COALITION_add_fas = yes
+	# 	COALITION_POP_NUMBER = yes
+	# }
+#
+
 COALITION_clr_com = {
 	if = {
 		limit = {
@@ -402,7 +540,7 @@ COALITION_clr_com = {
 		COALITION_POP_NUMBER = yes
 	}
 }
-COALITION_clr_autsoc = {
+COALITION_clr_soc = {
 	if = {
 		limit = {
 			is_in_array = {
@@ -414,11 +552,11 @@ COALITION_clr_autsoc = {
 			array = coalition_party_list
 			value = 1
 		}
-		custom_effect_tooltip = clr_coal_loc_autsoc
+		custom_effect_tooltip = clr_coal_loc_soc
 		COALITION_POP_NUMBER = yes
 	}
 }
-COALITION_clr_radsoc = {
+COALITION_clr_dem = {
 	if = {
 		limit = {
 			is_in_array = {
@@ -430,11 +568,11 @@ COALITION_clr_radsoc = {
 			array = coalition_party_list
 			value = 2
 		}
-		custom_effect_tooltip = clr_coal_loc_radsoc
+		custom_effect_tooltip = clr_coal_loc_dem
 		COALITION_POP_NUMBER = yes
 	}
 }
-COALITION_clr_socdem = {
+COALITION_clr_neu = {
 	if = {
 		limit = {
 			is_in_array = {
@@ -446,11 +584,11 @@ COALITION_clr_socdem = {
 			array = coalition_party_list
 			value = 3
 		}
-		custom_effect_tooltip = clr_coal_loc_socdem
+		custom_effect_tooltip = clr_coal_loc_neu
 		COALITION_POP_NUMBER = yes
 	}
 }
-COALITION_clr_soclib = {
+COALITION_clr_fas = {
 	if = {
 		limit = {
 			is_in_array = {
@@ -462,164 +600,171 @@ COALITION_clr_soclib = {
 			array = coalition_party_list
 			value = 4
 		}
-		custom_effect_tooltip = clr_coal_loc_soclib
-		COALITION_POP_NUMBER = yes
-	}
-}
-COALITION_clr_natlib = {
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 5
-			}
-		}
-		remove_from_array = {
-			array = coalition_party_list
-			value = 5
-		}
-		custom_effect_tooltip = clr_coal_loc_natlib
-		COALITION_POP_NUMBER = yes
-	}
-}
-COALITION_clr_libcon = {
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 6
-			}
-		}
-		remove_from_array = {
-			array = coalition_party_list
-			value = 6
-		}
-		custom_effect_tooltip = clr_coal_loc_libcon
-		COALITION_POP_NUMBER = yes
-	}
-}
-COALITION_clr_soccon = {
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 7
-			}
-		}
-		remove_from_array = {
-			array = coalition_party_list
-			value = 7
-		}
-		custom_effect_tooltip = clr_coal_loc_con
-		COALITION_POP_NUMBER = yes
-	}
-}
-COALITION_clr_natcon = {
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 8
-			}
-		}
-		remove_from_array = {
-			array = coalition_party_list
-			value = 8
-		}
-		custom_effect_tooltip = clr_coal_loc_natcon
-		COALITION_POP_NUMBER = yes
-	}
-}
-COALITION_clr_neu = {
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 9
-			}
-		}
-		remove_from_array = {
-			array = coalition_party_list
-			value = 9
-		}
-		custom_effect_tooltip = clr_coal_loc_neu
-		COALITION_POP_NUMBER = yes
-	}
-}
-COALITION_clr_autdes = {
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 10
-			}
-		}
-		remove_from_array = {
-			array = coalition_party_list
-			value = 10
-		}
-		custom_effect_tooltip = clr_coal_loc_autdes
-		COALITION_POP_NUMBER = yes
-	}
-}
-COALITION_clr_fas = {
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 11
-			}
-		}
-		remove_from_array = {
-			array = coalition_party_list
-			value = 11
-		}
 		custom_effect_tooltip = clr_coal_loc_fas
 		COALITION_POP_NUMBER = yes
 	}
 }
+#
+	# COALITION_clr_radsoc = {
+	# 	if = {
+	# 		limit = {
+	# 			is_in_array = {
+	# 				array = coalition_party_list
+	# 				value = 2
+	# 			}
+	# 		}
+	# 		remove_from_array = {
+	# 			array = coalition_party_list
+	# 			value = 2
+	# 		}
+	# 		custom_effect_tooltip = clr_coal_loc_radsoc
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_clr_socdem = {
+	# 	if = {
+	# 		limit = {
+	# 			is_in_array = {
+	# 				array = coalition_party_list
+	# 				value = 3
+	# 			}
+	# 		}
+	# 		remove_from_array = {
+	# 			array = coalition_party_list
+	# 			value = 3
+	# 		}
+	# 		custom_effect_tooltip = clr_coal_loc_socdem
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_clr_soclib = {
+	# 	if = {
+	# 		limit = {
+	# 			is_in_array = {
+	# 				array = coalition_party_list
+	# 				value = 4
+	# 			}
+	# 		}
+	# 		remove_from_array = {
+	# 			array = coalition_party_list
+	# 			value = 4
+	# 		}
+	# 		custom_effect_tooltip = clr_coal_loc_soclib
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_clr_natlib = {
+	# 	if = {
+	# 		limit = {
+	# 			is_in_array = {
+	# 				array = coalition_party_list
+	# 				value = 5
+	# 			}
+	# 		}
+	# 		remove_from_array = {
+	# 			array = coalition_party_list
+	# 			value = 5
+	# 		}
+	# 		custom_effect_tooltip = clr_coal_loc_natlib
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_clr_libcon = {
+	# 	if = {
+	# 		limit = {
+	# 			is_in_array = {
+	# 				array = coalition_party_list
+	# 				value = 6
+	# 			}
+	# 		}
+	# 		remove_from_array = {
+	# 			array = coalition_party_list
+	# 			value = 6
+	# 		}
+	# 		custom_effect_tooltip = clr_coal_loc_libcon
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_clr_natcon = {
+	# 	if = {
+	# 		limit = {
+	# 			is_in_array = {
+	# 				array = coalition_party_list
+	# 				value = 8
+	# 			}
+	# 		}
+	# 		remove_from_array = {
+	# 			array = coalition_party_list
+	# 			value = 8
+	# 		}
+	# 		custom_effect_tooltip = clr_coal_loc_natcon
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+	# COALITION_clr_autdes = {
+	# 	if = {
+	# 		limit = {
+	# 			is_in_array = {
+	# 				array = coalition_party_list
+	# 				value = 10
+	# 			}
+	# 		}
+	# 		remove_from_array = {
+	# 			array = coalition_party_list
+	# 			value = 10
+	# 		}
+	# 		custom_effect_tooltip = clr_coal_loc_autdes
+	# 		COALITION_POP_NUMBER = yes
+	# 	}
+	# }
+#
+
 COALITION_RESET = {
 	hidden_effect = {
 		COALITION_clr_com = yes
-		COALITION_clr_autsoc = yes
-		COALITION_clr_radsoc = yes
-		COALITION_clr_socdem = yes
-		COALITION_clr_soclib = yes
-		COALITION_clr_natlib = yes
-		COALITION_clr_libcon = yes
-		COALITION_clr_soccon = yes
-		COALITION_clr_natcon = yes
+		COALITION_clr_soc = yes
+		COALITION_clr_dem = yes
 		COALITION_clr_neu = yes
-		COALITION_clr_autdes = yes
 		COALITION_clr_fas = yes
+		# COALITION_clr_autsoc = yes
+		# COALITION_clr_radsoc = yes
+		# COALITION_clr_socdem = yes
+		# COALITION_clr_soclib = yes
+		# COALITION_clr_natlib = yes
+		# COALITION_clr_libcon = yes
+		# COALITION_clr_soccon = yes
+		# COALITION_clr_natcon = yes
+		# COALITION_clr_autdes = yes
 	}
 	COALITION_set_up_array = yes
 	COALITION_POP_NUMBER = yes
 	custom_effect_tooltip = reset_coalition
 }
-COALITION_clr_LEFTIST = {
-	COALITION_clr_com = yes
-	COALITION_clr_autsoc = yes
-	COALITION_clr_radsoc = yes
-	COALITION_clr_socdem = yes
-	COALITION_POP_NUMBER = yes
-}
-COALITION_clr_CENTRIST = {
-	COALITION_clr_socdem = yes
-	COALITION_clr_soclib = yes
-	COALITION_clr_natlib = yes
-	COALITION_clr_libcon = yes
-	COALITION_clr_soccon = yes
-	COALITION_POP_NUMBER = yes
-}
-COALITION_clr_RIGHTIST = {
-	COALITION_clr_soccon = yes
-	COALITION_clr_natcon = yes
-	COALITION_clr_neu = yes
-	COALITION_clr_autdes = yes
-	COALITION_clr_fas = yes
-	COALITION_POP_NUMBER = yes
-}
+#
+	# COALITION_clr_LEFTIST = {
+	# 	COALITION_clr_com = yes
+	# 	COALITION_clr_autsoc = yes
+	# 	COALITION_clr_radsoc = yes
+	# 	COALITION_clr_socdem = yes
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_clr_CENTRIST = {
+	# 	COALITION_clr_socdem = yes
+	# 	COALITION_clr_soclib = yes
+	# 	COALITION_clr_natlib = yes
+	# 	COALITION_clr_libcon = yes
+	# 	COALITION_clr_soccon = yes
+	# 	COALITION_POP_NUMBER = yes
+	# }
+	# COALITION_clr_RIGHTIST = {
+	# 	COALITION_clr_soccon = yes
+	# 	COALITION_clr_natcon = yes
+	# 	COALITION_clr_neu = yes
+	# 	COALITION_clr_autdes = yes
+	# 	COALITION_clr_fas = yes
+	# 	COALITION_POP_NUMBER = yes
+	# }
+#
 COALITION_POP_NUMBER = {
 	set_variable = {
 		total_party_pop = 0
@@ -645,7 +790,7 @@ COALITION_POP_NUMBER = {
 		}
 		add_to_variable = {
 			var = total_party_pop
-			value = party_popularity@auth_socialism
+			value = party_popularity@n_socialism
 		}
 	}
 	if = {
@@ -657,7 +802,7 @@ COALITION_POP_NUMBER = {
 		}
 		add_to_variable = {
 			var = total_party_pop
-			value = party_popularity@radical_socialism
+			value = party_popularity@democratic
 		}
 	}
 	if = {
@@ -669,7 +814,7 @@ COALITION_POP_NUMBER = {
 		}
 		add_to_variable = {
 			var = total_party_pop
-			value = party_popularity@social_democracy
+			value = party_popularity@neutrality
 		}
 	}
 	if = {
@@ -681,93 +826,119 @@ COALITION_POP_NUMBER = {
 		}
 		add_to_variable = {
 			var = total_party_pop
-			value = party_popularity@social_liberalism
-		}
-	}
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 5
-			}
-		}
-		add_to_variable = {
-			var = total_party_pop
-			value = party_popularity@national_liberalism
-		}
-	}
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 6
-			}
-		}
-		add_to_variable = {
-			var = total_party_pop
-			value = party_popularity@liberal_conservatism
-		}
-	}
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 7
-			}
-		}
-		add_to_variable = {
-			var = total_party_pop
-			value = party_popularity@democratic
-		}
-	}
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 8
-			}
-		}
-		add_to_variable = {
-			var = total_party_pop
-			value = party_popularity@national_conservatism
-		}
-	}
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 9
-			}
-		}
-		add_to_variable = {
-			var = total_party_pop
-			value = party_popularity@neutrality
-		}
-	}
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 10
-			}
-		}
-		add_to_variable = {
-			var = total_party_pop
-			value = party_popularity@auto_despotism
-		}
-	}
-	if = {
-		limit = {
-			is_in_array = {
-				array = coalition_party_list
-				value = 11
-			}
-		}
-		add_to_variable = {
-			var = total_party_pop
 			value = party_popularity@fascism
 		}
 	}
+	#
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 2
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@radical_socialism
+		# 	}
+		# }
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 3
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@social_democracy
+		# 	}
+		# }
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 4
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@social_liberalism
+		# 	}
+		# }
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 5
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@national_liberalism
+		# 	}
+		# }
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 6
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@liberal_conservatism
+		# 	}
+		# }
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 7
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@democratic
+		# 	}
+		# }
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 8
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@national_conservatism
+		# 	}
+		# }
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 9
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@neutrality
+		# 	}
+		# }
+		# if = {
+		# 	limit = {
+		# 		is_in_array = {
+		# 			array = coalition_party_list
+		# 			value = 10
+		# 		}
+		# 	}
+		# 	add_to_variable = {
+		# 		var = total_party_pop
+		# 		value = party_popularity@neutrality
+		# 	}
+		# }
+	#
 	multiply_variable = {
 		var = total_party_pop
 		value = 100

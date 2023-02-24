@@ -1,40 +1,19 @@
-#국방부 설치
-shared_focus = {
-	id = KOR_focus_national_defense_command
-	icon = GFX_goal_generic_fortify_city
-	x = 0
-	y = 0
-    offset = {
-        x = 15
-        y = 0
-        trigger = {
-            always = yes
-        }
-    }
-	cost = 3
-
-	available = {
-		has_completed_focus = KOR_focus_reorganize_state_council
-	}
-
-	# prerequisite = { focus = KOR_focus_form_enc }
-
-	completion_reward = {
-		add_command_power = 50
-		army_experience = 25
-	}
-}
-
 #한국광복군 재조직
 shared_focus = {
 	id = KOR_focus_reorganize_kia
 	icon = GFX_focus_kia
-	relative_position_id = KOR_focus_national_defense_command
-	x = 0
-	y = 1
+	x = 14
+	y = 0
+    offset = {
+        x = 0
+        y = 0
+        trigger = {
+            always = no
+        }
+    }
 	cost = 4
 
-	prerequisite = { focus = KOR_focus_national_defense_command }
+	available = { has_completed_focus = KOR_focus_national_defense_command }
 
 	completion_reward = {
 		if = {
@@ -53,12 +32,12 @@ shared_focus = {
 	}
 }
 
-#육군무관학교 확대
+#육군군관학교 확대
 shared_focus = {
-	id = KOR_focus_expand_military_academy
+	id = KOR_focus_military_academy
 	icon = GFX_focus_generic_military_academy
 	relative_position_id = KOR_focus_reorganize_kia
-	x = -1
+	x = -2
 	y = 1
 	cost = 4
 
@@ -74,9 +53,33 @@ shared_focus = {
 #해방병단 창설
 shared_focus = {
 	id = KOR_focus_establish_coast_guard
-	icon = GFX_goal_generic_navy_cruiser
+	icon = GFX_goal_generic_construct_naval_dockyard
 	relative_position_id = KOR_focus_reorganize_kia
-	x = 1
+	x = 0
+	y = 1
+	cost = 4
+
+	prerequisite = { focus = KOR_focus_reorganize_kia }
+
+	completion_reward = {
+		navy_experience = 25
+		919 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+#광복군 항공사령부
+shared_focus = {
+	id = KOR_focus_kia_air_corps
+	icon = GFX_focus_air_fighter
+	relative_position_id = KOR_focus_reorganize_kia
+	x = 2
 	y = 1
 	cost = 4
 

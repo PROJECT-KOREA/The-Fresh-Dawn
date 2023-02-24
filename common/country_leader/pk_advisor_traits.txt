@@ -1,0 +1,156 @@
+leader_traits = {
+
+	## 정부수반 ##
+	hog_trait = {
+		random = no
+	}
+
+	## 공석 ##
+	vacant = {
+		random = no
+		custom_modifier_tooltip = this_vacant
+	}
+
+	## 정무총감 ##
+	GGK_seimu_soukan = { random = no }
+
+
+	## 기본 특성 ##
+		# 교육 개혁가
+		PK_education_reformer = {
+			# sprite = 14
+			random = no
+			research_speed_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.1
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		# 삼균주의 이론가
+		PK_samgyun_theorist = {
+			# sprite = 13
+			random = no
+			stability_factor = 0.05
+			research_speed_factor = 0.075
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		# 실용적 정치인
+		PK_pragmatic_statesman = {
+			# sprite = 13
+			random = no
+			political_power_factor = 0.05
+			stability_factor = 0.05
+			min_export = -0.1
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		# 언론계 거물
+		PK_media_magnate = {
+			# sprite = 13
+			random = no
+			political_power_factor = 0.05
+			party_popularity_stability_factor = 0.25
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		# 영향력 있는 지식인
+		PK_influential_intellectual = {
+			# sprite = 13
+			random = no
+			political_power_factor = 0.05
+			stability_factor = 0.1
+		}
+
+		# 정치적 전문가
+		PK_political_specialist = {
+			# sprite = 13
+			random = no
+			mobilization_laws_cost_factor = -0.25
+			trade_laws_cost_factor = -0.25
+			economy_cost_factor = -0.25
+			political_advisor_cost_factor = -0.25
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		# 훌륭한 변호사
+		PK_brilliant_lawyer = {
+			# sprite = 13
+			random = no
+			political_power_factor = 0.05
+			stability_factor = 0.05
+			compliance_growth = 0.05
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	#
+
+
+
+
+	# 대한민국 #
+
+	# 조선의 간디 - 조만식
+	gandhi_of_joseon = {
+		political_power_factor = 0.05
+		industrial_capacity_factory = 0.1
+		production_factory_max_efficiency_factor = 0.15
+		
+		random = no
+	}
+
+	#
+		# vice_hos = { random = no } #부지도자
+		# hog = { random = no } 	 #정부수반
+		# secmin = { random = no } #내무장관
+		# ecomin = { random = no } #재무장관
+		# frnmin = { random = no } #외무장관
+		# intmin = { random = no } #정보장관
+
+		# # 이념 #
+		# min_com = { random = no }
+		# min_autsoc = { random = no }
+		# min_radsoc = { random = no }
+		# min_socdem = { random = no }
+		# min_soclib = { random = no }
+		# min_natlib = { random = no }
+		# min_libcon = { random = no }
+		# min_soccon = { random = no }
+		# min_natcon = { random = no }
+		# min_autdem = { random = no }
+		# min_autdes = { random = no }
+		# min_fas = { random = no }
+
+		# # 일본 제국 #
+		# hog_jap = { random = no } 	 #내각총리대신
+		# secmin_jap = { random = no } #내무대신
+		# ecomin_jap = { random = no } #대장대신
+		# frnmin_jap = { random = no } #외무대신
+		# intmin_jap = { random = no } #경보국장
+
+		# # 군정청 민정장관 / 국민위원회 부위원장 #
+		# hog_woi = { random = no }
+
+		# # 대한민국 (임시정부) #
+		# hog_kpg = { random = no } 	 #내각총리대신
+		# secmin_kpg = { random = no } #내무대신
+		# ecomin_kpg = { random = no } #대장대신
+		# frnmin_kpg = { random = no } #외무대신
+		# intmin_kpg = { random = no } #경보국장
+	#
+}

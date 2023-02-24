@@ -3,327 +3,426 @@ ideas = {
 	#국민 정신
 	country = {
 
-		#군사정권
-		KOR_idea_disorganized_admin1 = {
-			name = KOR_idea_disorganized_admin
-			picture = generic_pp_unity_bonus
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				political_power_factor = -0.2
-			}
-		}
+		### 기본 ###
 
-		#임시정부
-		KOR_idea_disorganized_admin2 = {
-			name = KOR_idea_disorganized_admin
-			picture = generic_pp_unity_bonus
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				political_power_factor = -0.15
-			}
-		}
-
-		#과도정부1
-		KOR_idea_disorganized_admin3 = {
-			name = KOR_idea_disorganized_admin
-			picture = generic_pp_unity_bonus
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				political_power_factor = -0.10
-			}
-		}
-
-		#과도정부2
-		KOR_idea_disorganized_admin4 = {
-			name = KOR_idea_disorganized_admin
-			picture = generic_pp_unity_bonus
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				political_power_factor = -0.05
-			}
-		}
-
-		#화력지상주의
-		KOR_idea_firepower_supremacy = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				army_artillery_attack_factor = 0.1
-			}
-			research_bonus = {
-				cat_superior_firepower = 0.15
-			}
-		}
-
-		#한국광복군1
-		KOR_idea_kia_1 = {
-			name = KOR_idea_kia
-			picture = independence_army
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				army_org_factor = 0.05
-				army_morale_factor = 0.05
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.10
-			}
-		}
-
-		#한국광복군2
-		KOR_idea_kia_2 = {
-			name = KOR_idea_kia
-			picture = independence_army
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				army_org_factor = 0.10
-				army_morale_factor = 0.10
-				army_core_attack_factor = 0.15
-				army_core_defence_factor = 0.20
-			}
-		}
-
-		#한국 독립전쟁1
-		KOR_idea_independence_war_1 = {
-			name = KOR_idea_independence_war
-			picture = independence_war
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				surrender_limit = 1.5
-				war_support_factor = 0.5
-				offensive_war_stability_factor = 0.2
-				# stability_factor = 0.5
-			}
-		}
-
-		#한국 독립전쟁2
-		KOR_idea_independence_war_2 = {
-			name = KOR_idea_independence_war
-			picture = independence_war
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				conscription_factor = 0.5
-				surrender_limit = 1.5
-				war_support_factor = 0.5
-				training_time_army_factor = -0.15
-				offensive_war_stability_factor = 0.2
-			}
-		}
-		
-		#문맹 인구
-		KOR_idea_illiteracy_population_1 = {
-			name = KOR_idea_illiteracy_population
-			picture = chi_incompetent_officers
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				stability_factor = -0.10
-				research_speed_factor = -0.15
-			}
-		}
-		
-		#문맹 인구2
-		KOR_idea_illiteracy_population_2 = {
-			name = KOR_idea_illiteracy_population
-			picture = chi_incompetent_officers
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				stability_factor = -0.10
-				research_speed_factor = -0.15
-			}
-		}
-		
-		#문맹 인구3
-		KOR_idea_illiteracy_population_3 = {
-			name = KOR_idea_illiteracy_population
-			picture = chi_incompetent_officers
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				stability_factor = -0.05
-				research_speed_factor = -0.10
-			}
-		}
-
-		#빈민 문제
-		KOR_idea_the_poor_1 = {
-			name = KOR_idea_the_poor
-			picture = raj_risk_of_famine
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				consumer_goods_factor = 0.075
-				stability_factor = -0.15
-			}
-		}
-
-		#빈민 문제2
-		KOR_idea_the_poor_2 = {
-			name = KOR_idea_the_poor
-			picture = raj_risk_of_famine
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				consumer_goods_factor = 0.05
-				stability_factor = -0.10
-			}
-		}
-
-		#빈민 문제3
-		KOR_idea_the_poor_3 = {
-			name = KOR_idea_the_poor
-			picture = raj_risk_of_famine
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				consumer_goods_factor = 0.05
-				stability_factor = -0.10
-			}
-		}
-
-		#빈민 문제4
-		KOR_idea_the_poor_4 = {
-			name = KOR_idea_the_poor
-			picture = raj_risk_of_famine
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				consumer_goods_factor = 0.03
-				stability_factor = -0.05
-			}
-		}
-
-		#불안정한 산업
-		KOR_idea_unstable_industry  = {
-			picture = FRA_factory_strikes
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				industrial_capacity_factory = -0.1
-				line_change_production_efficiency_factor = -0.1
-			}
-			research_bonus = {
-				industry = -0.05
-			}
-		}
-
-		#무기 연구기술의 부재 
-		KOR_idea_absence_of_weapon_technology = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			research_bonus = {
-				infantry_weapons = -0.7
-				armor = -0.7
-				naval_equipment = -0.7
-				air_equipment = -0.7
-			}
-		}
-
-		#건국치안대
-		KOR_idea_poc = {
-			picture = MEX_politicised_army_2
-			allowed = { always = no }
-			removal_cost = -1
-			modifier = {
-				political_power_gain = -0.03
-				stability_factor = 0.15
-			}
-		}
-
-		#한반도의 무기 부족
-		KOR_idea_arms_raided = {
-			picture = generic_army_problems
-			allowed = { always = no }
-			removal_cost = -1
-			targeted_modifier = {
-				tag = KOR
-				attack_bonus_against = -0.10
-				defense_bonus_against = -0.10
-			}
-		}
-
-		#현지산 무기 조달
-		KOR_idea_local_weapons = {
-			picture = generic_army_problems
-			allowed = { always = no }
-			removal_cost = -1
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.15
-					instant = yes
+			#체계적이지 못한 행정 1
+			KOR_idea_disorganized_admin1 = {
+				name = KOR_idea_disorganized_admin
+				picture = generic_pp_unity_bonus
+				removal_cost = -1
+				modifier = {
+					political_power_factor = -0.25
 				}
 			}
+
+			#체계적이지 못한 행정 2
+			KOR_idea_disorganized_admin2 = {
+				name = KOR_idea_disorganized_admin
+				picture = generic_pp_unity_bonus
+				removal_cost = -1
+				modifier = {
+					political_power_factor = -0.20
+				}
+			}
+
+			#체계적이지 못한 행정 3
+			KOR_idea_disorganized_admin3 = {
+				name = KOR_idea_disorganized_admin
+				picture = generic_pp_unity_bonus
+				removal_cost = -1
+				modifier = {
+					political_power_factor = -0.15
+				}
+			}
+
+			#체계적이지 못한 행정 4
+			KOR_idea_disorganized_admin4 = {
+				name = KOR_idea_disorganized_admin
+				picture = generic_pp_unity_bonus
+				removal_cost = -1
+				modifier = {
+					political_power_factor = -0.10
+				}
+			}
+
+			#체계적이지 못한 행정 4
+			KOR_idea_disorganized_admin5 = {
+				name = KOR_idea_disorganized_admin
+				picture = generic_pp_unity_bonus
+				removal_cost = -1
+				modifier = {
+					political_power_factor = -0.05
+				}
+			}
+
+			#화력지상주의
+			KOR_idea_firepower_supremacy1 = {
+				name = KOR_idea_firepower_supremacy
+				picture = KOR_idea_firepower_supremacy
+				removal_cost = -1
+				modifier = {
+					army_artillery_attack_factor = 0.05
+				}
+				research_bonus = {
+					cat_superior_firepower = 0.1
+				}
+			}
+
+			#화력지상주의
+			KOR_idea_firepower_supremacy2 = {
+				name = KOR_idea_firepower_supremacy
+				picture = KOR_idea_firepower_supremacy
+				removal_cost = -1
+				modifier = {
+					army_artillery_attack_factor = 0.05
+					unit_artillery_brigade_design_cost_factor = -0.25
+				}
+				research_bonus = {
+					cat_superior_firepower = 0.1
+				}
+			}
+
+			#한국광복군 1
+			KOR_idea_kia_1 = {
+				name = KOR_idea_kia
+				picture = independence_army
+				removal_cost = -1
+				modifier = {
+					army_org_factor = 0.05
+					army_morale_factor = 0.05
+					army_core_attack_factor = 0.1
+					army_core_defence_factor = 0.1
+				}
+			}
+
+			#한국광복군 2
+			KOR_idea_kia_2 = {
+				name = KOR_idea_kia
+				picture = independence_army
+				removal_cost = -1
+				modifier = {
+					army_org_factor = 0.05
+					army_morale_factor = 0.05
+					army_core_attack_factor = 0.15
+					army_core_defence_factor = 0.15
+				}
+			}
+
+			#한국 독립전쟁
+			KOR_idea_independence_war = {
+				picture = independence_war
+				removal_cost = -1
+				modifier = {
+					surrender_limit = 1.5
+					war_support_factor = 0.3
+					defensive_war_stability_factor = 0.15
+					# stability_factor = 0.5
+				}
+			}
+
+			#독립의용군
+			KOR_idea_doknip_uiyonggun = {
+				picture = independence_war
+				removal_cost = -1
+				modifier = {
+					conscription_factor = 0.25
+					training_time_army_factor = -0.15
+					# _attack_factor = 0.1
+					# _defence_factor = 0.15
+				}
+			}
+		
+			#문맹 인구 1
+			KOR_idea_illiteracy_population_1 = {
+				name = KOR_idea_illiteracy_population
+				picture = chi_incompetent_officers
+				removal_cost = -1
+				modifier = {
+					stability_factor = -0.10
+					research_speed_factor = -0.15
+				}
+			}
+		
+			#문맹 인구 2
+			KOR_idea_illiteracy_population_2 = {
+				name = KOR_idea_illiteracy_population
+				picture = chi_incompetent_officers
+				removal_cost = -1
+				modifier = {
+					stability_factor = -0.10
+					research_speed_factor = -0.15
+				}
+			}
+		
+			#문맹 인구 3
+			KOR_idea_illiteracy_population_3 = {
+				name = KOR_idea_illiteracy_population
+				picture = chi_incompetent_officers
+				removal_cost = -1
+				modifier = {
+					stability_factor = -0.05
+					research_speed_factor = -0.10
+				}
+			}
+
+			#빈민 문제
+			KOR_idea_the_poor_1 = {
+				name = KOR_idea_the_poor
+				picture = raj_risk_of_famine
+				removal_cost = -1
+				modifier = {
+					consumer_goods_factor = 0.075
+					stability_factor = -0.15
+				}
+			}
+
+			#빈민 문제2
+			KOR_idea_the_poor_2 = {
+				name = KOR_idea_the_poor
+				picture = raj_risk_of_famine
+				removal_cost = -1
+				modifier = {
+					consumer_goods_factor = 0.05
+					stability_factor = -0.10
+				}
+			}
+
+			#빈민 문제3
+			KOR_idea_the_poor_3 = {
+				name = KOR_idea_the_poor
+				picture = raj_risk_of_famine
+				removal_cost = -1
+				modifier = {
+					consumer_goods_factor = 0.05
+					stability_factor = -0.10
+				}
+			}
+
+			#빈민 문제4
+			KOR_idea_the_poor_4 = {
+				name = KOR_idea_the_poor
+				picture = raj_risk_of_famine
+				removal_cost = -1
+				modifier = {
+					consumer_goods_factor = 0.03
+					stability_factor = -0.05
+				}
+			}
+
+			#불안정한 산업
+			KOR_idea_unstable_industry  = {
+				picture = FRA_factory_strikes
+				removal_cost = -1
+				modifier = {
+					industrial_capacity_factory = -0.1
+					line_change_production_efficiency_factor = -0.1
+				}
+				research_bonus = {
+					industry = -0.05
+				}
+			}
+
+			#무기 연구기술의 부재 
+			KOR_idea_absence_of_weapon_technology = {
+				allowed = { always = no }
+				allowed_civil_war = { always = yes }
+				removal_cost = -1
+				research_bonus = {
+					infantry_weapons = -0.7
+					armor = -0.7
+					naval_equipment = -0.7
+					air_equipment = -0.7
+				}
+			}
+		#
+
+		### 독립전쟁 ###
+
+			#항일유격전
+			KOR_hang_il_yugyeok1 = {
+				name = KOR_hang_il_yugyeok
+				picture = generic_volunteer_expedition_bonus
+				allowed = { always = no }
+				removal_cost = -1
+				modifier = {
+					supply_consumption_factor = -0.1
+					army_core_attack_factor = 0.5
+					army_core_defence_factor = 0.5
+					no_supply_grace = 24
+				}
+			}
+
+			#항일유격전
+			KOR_hang_il_yugyeok2 = {
+				name = KOR_hang_il_yugyeok
+				picture = generic_volunteer_expedition_bonus
+				allowed = { always = no }
+				removal_cost = -1
+				modifier = {
+					supply_consumption_factor = -0.15
+					attrition = -0.1
+					army_core_attack_factor = 0.5
+					army_core_defence_factor = 0.5
+					no_supply_grace = 24
+				}
+			}
+
+			#건국치안대
+			KOR_idea_poc = {
+				picture = ast_volunteer_defence_corps
+				allowed = { always = no }
+				removal_cost = -1
+				modifier = {
+					political_power_gain = -0.03
+					stability_factor = 0.15
+				}
+			}
+
+			#한반도의 무기 부족
+			KOR_idea_arms_raided = {
+				picture = generic_army_problems
+				allowed = { always = no }
+				removal_cost = -1
+				targeted_modifier = {
+					tag = KOR
+					attack_bonus_against = -0.10
+					defense_bonus_against = -0.10
+				}
+			}
+
+			#현지산 무기 조달
+			KOR_idea_local_weapons = {
+				picture = generic_army_problems
+				allowed = { always = no }
+				removal_cost = -1
+				equipment_bonus = {
+					infantry_equipment = {
+						build_cost_ic = -0.15
+						instant = yes
+					}
+				}
+			}
+
+			#전시 생산 체제
+			KOR_idea_war_time_production  = {
+				picture = generic_production_bonus
+				allowed = { always = no }
+				allowed_civil_war = { always = yes }
+				removal_cost = -1
+				modifier = {
+					industrial_capacity_factory = 0.15
+					production_speed_arms_factory_factor = 0.2
+					stability_factor = -0.05
+					war_support_factor = -0.1
+				}
+			}
+
+			#복수의 시간
+			KOR_idea_time_to_revenge = {
+				picture = generic_japanese_conflict
+				allowed = { always = no }
+				removal_cost = -1
+				targeted_modifier = {
+					tag = GGK
+					attack_bonus_against = 0.15
+					defense_bonus_against = 0.15
+				}
+				targeted_modifier = {
+					tag = JAP
+					attack_bonus_against = 0.15
+					defense_bonus_against = 0.15
+				}
+				targeted_modifier = {
+					tag = MAN
+					attack_bonus_against = 0.15
+					defense_bonus_against = 0.15
+				}
+			}
+
+			#애국주의 선전
+			KOR_idea_patriotism_propaganda = {
+				picture = chi_war_of_resistance3
+				allowed = { always = no }
+				removal_cost = -1
+				modifier = {
+					stability_factor = 0.1
+					war_support_factor = 0.15
+					conscription_factor = 0.25
+				}
+			}
+
+			#중국 군사고문단
+			KOR_idea_chi_advisor = {
+				picture = chi_war_of_resistance3
+				allowed = { always = no }
+				removal_cost = -1
+				modifier = {
+					command_power_gain = 0.25
+					experience_gain_army = 0.2
+				}
+			}
+
+			#군사위원회
+			KOR_idea_mil_committee = {
+				picture = chi_war_of_resistance3
+				allowed = { always = no }
+				removal_cost = -1
+				modifier = {
+					army_morale_factor = 0.1
+					army_core_defence_factor = 0.05
+				}
+			}
+
+			#군 정치위원
+			KOR_idea_mil_commissar = {
+				picture = general_staff
+				allowed = { always = no }
+				removal_cost = -1
+				modifier = {
+					army_org_factor = 0.1
+					army_attack_factor = 0.05
+				}
+			}
+		#
+
+		#만신창이가 된 국가 1
+		KOR_idea_scarred_nation1 = {
+			name = KOR_idea_scarred_nation
+			picture = industrial_crisis_factories
+			allowed = { always = no }
+			modifier = {
+				production_speed_buildings_factor = -0.20
+				global_building_slots_factor = -0.15
+				consumer_goods_factor = 0.2
+				conscription_factor = -0.15
+				stability_factor = -0.1
+			}
 		}
 
-		#전시 생산 체제
-		KOR_idea_war_time_production  = {
-			picture = generic_production_bonus
+		#만신창이가 된 국가 2
+		KOR_idea_scarred_nation2 = {
+			name = KOR_idea_scarred_nation
+			picture = industrial_crisis_factories
 			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
 			modifier = {
-				industrial_capacity_factory = 0.15
-				production_speed_arms_factory_factor = 0.2
+				production_speed_buildings_factor = -0.10
+				global_building_slots_factor = -0.05
+				consumer_goods_factor = 0.10
+				conscription_factor = -0.1
+				stability_factor = -0.075
+			}
+		}
+
+		#만신창이가 된 국가 3
+		KOR_idea_scarred_nation3 = {
+			name = KOR_idea_scarred_nation
+			picture = industrial_crisis_factories
+			allowed = { always = no }
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				global_building_slots_factor = -0.05
+				conscription_factor = -0.05
 				stability_factor = -0.05
-				war_support_factor = -0.1
-			}
-		}
-
-		#복수의 시간
-		KOR_idea_time_to_revenge = {
-			picture = chi_war_of_resistance3
-			allowed = { always = no }
-			removal_cost = -1
-			targeted_modifier = {
-				tag = GGK
-				attack_bonus_against = 0.15
-				defense_bonus_against = 0.15
-			}
-			targeted_modifier = {
-				tag = JAP
-				attack_bonus_against = 0.15
-				defense_bonus_against = 0.15
-			}
-			targeted_modifier = {
-				tag = MAN
-				attack_bonus_against = 0.15
-				defense_bonus_against = 0.15
-			}
-		}
-
-		#식민지배의 잔재
-		KOR_idea_vestiges_of_colonization = {
-			picture = warrior_traditions_idea
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				stability_factor = -0.10
 			}
 		}
 
@@ -344,16 +443,17 @@ ideas = {
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
-			picture = generic_disjointed_gov
+			picture = SPR_political_violence
 			modifier = {
-				political_power_factor = -0.1
-				stability_factor = -0.15
+				political_power_factor = -0.15
+				stability_factor = -0.05
 			}
 		}
 
 		#국가 재건
 		KOR_idea_national_recovery = {
 			name = KOR_idea_national_recovery
+			picture = generic_production_bonus
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
@@ -361,10 +461,23 @@ ideas = {
 				consumer_goods_factor = -0.15
 				industrial_capacity_factory  = 0.05
 			}
+		}
+
+		#일제 적산 환수
+		KOR_idea_jap_properties = {
+			name = KOR_focus_redeem_enemy_properties
+			picture = generic_production_bonus
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.075
+			}
 		}	
 
 		#재탄생한 광복군
 		KOR_idea_reborn_kia = {
+			picture = independence_army
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1

@@ -1,0 +1,112 @@
+defined_text = {
+	name = GetFactionLead
+	text = {
+		trigger = {
+			check_variable = { KOR_kip_strength > KOR_gmh_strength }
+			check_variable = { KOR_kip_strength > KOR_ppk_strength }
+		}
+		localization_key = KOR_kip_plurality_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { KOR_gmh_strength > KOR_kip_strength }
+			check_variable = { KOR_gmh_strength > KOR_ppk_strength }
+		}
+		localization_key = KOR_gmh_plurality_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { KOR_ppk_strength > KOR_kip_strength }
+			check_variable = { KOR_ppk_strength > KOR_gmh_strength }
+		}
+		localization_key = KOR_ppk_plurality_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { KOR_kip_strength > KOR_gmh_strength }
+			check_variable = { KOR_kip_strength = KOR_ppk_strength }
+		}
+		localization_key = KOR_ppk_kip_equal_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { KOR_kip_strength = KOR_gmh_strength }
+			check_variable = { KOR_kip_strength > KOR_ppk_strength }
+		}
+		localization_key = KOR_gmh_kip_equal_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { KOR_ppk_strength = KOR_gmh_strength }
+			check_variable = { KOR_ppk_strength > KOR_kip_strength }
+		}
+		localization_key = KOR_gmh_ppk_equal_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { KOR_ppk_strength = KOR_gmh_strength }
+			check_variable = { KOR_ppk_strength = KOR_kip_strength }
+		}
+		localization_key = KOR_everyone_equal_desc
+	}
+}
+
+
+
+
+
+defined_text = {
+	name = GetSocDemFaction
+    # text = {
+    #     trigger = { has_country_flag = KOR_flag_party_allowed }
+    #     localization_key = KOR_n_socialism_party_ppk
+    # }
+	text = { localization_key = KOR_n_socialism_party_ppk }
+}
+defined_text = {
+	name = GetSocLibFaction
+    # text = {
+    #     trigger = { has_country_flag = KOR_flag_party_allowed }
+    #     localization_key = KOR_cen_faciton_np
+    # }
+	text = { localization_key = KOR_democratic_party_np }
+}
+defined_text = {
+	name = GetNatLibFaction
+    # text = {
+    #     trigger = { has_country_flag = KOR_flag_party_allowed }
+    #     localization_key = KOR_lib_faciton_dpk
+    # }
+	text = { localization_key = KOR_NATLIB_faction_name }
+}
+defined_text = {
+	name = GetLibConFaction
+    # text = {
+    	# trigger = { has_country_flag = KOR_flag_party_allowed }
+    # }
+	text = { localization_key = KOR_democratic_party_dpk }
+}
+defined_text = {
+	name = GetSocConFaction
+	# text = {
+	# 	trigger = { always = no }
+    # 	localization_key = KOR_democratic_party_rnc
+	# }
+	text = { localization_key = KOR_democratic_party_rnc }
+}
+defined_text = {
+	name = GetNatConFaction
+    # text = {
+    #     trigger = { has_country_flag = KOR_flag_party_allowed }
+    #     localization_key = KOR_democratic_party_rnc
+    # }
+	text = { localization_key = KOR_neutrality_party_kip }
+}
+# defined_text = {
+# 	name = GetMorFaction
+#     # text = {
+#     #     trigger = { has_country_flag = KOR_flag_party_allowed }
+#     #     localization_key = KOR_democratic_party_rnc
+#     # }
+# 	text = { localization_key = KOR_mor_faciton_gen }
+# }

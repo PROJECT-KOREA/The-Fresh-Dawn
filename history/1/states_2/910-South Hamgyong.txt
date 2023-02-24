@@ -1,0 +1,33 @@
+state = {
+	id = 910
+	name = "STATE_910" #함경남도
+	manpower = 1700000
+
+	state_category = large_town
+	
+	history = {
+		owner = GGK
+		add_core_of = KOR
+		add_core_of = GGK
+
+		buildings = {
+			#기반시설
+			infrastructure = 1
+
+			#민간공장
+			industrial_complex = 1
+		}
+
+		victory_points = { 13276 5 } #함흥(칸코)
+		victory_points = { 848 5 } #원산(겐잔)
+	}
+
+	resources = {
+		tungsten = 13
+		steel = 5
+	}
+	
+	provinces = {
+		848 852 3803 3852 3904 3981 6928 9899 10083 11878 13259 13260 13276
+	}	
+}

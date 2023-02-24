@@ -25,19 +25,19 @@
 KOR_start_woi = {
 	set_global_flag = kor_woi
 	KOR = {
-		transfer_state = 913
-		set_capital = { state = 913 }
+		transfer_state = 911
+		set_capital = { state = 911 }
 	}
-	913 = {
+	911 = {
 		set_state_name = "평안북도"
 		set_province_name = {
 			id = 11835
 			name = "신의주"
 		}
 	}
-	set_province_controller = 6963
-	set_province_controller = 906
-	set_province_controller = 11775
+	# set_province_controller = 6963
+	# set_province_controller = 906
+	# set_province_controller = 11775
 	KOR = {
 		load_oob = KOR_War_of_Independence
 		KOR_create_units = yes
@@ -87,9 +87,9 @@ KOR_start_woi = {
 		}
 		if = {
 			limit = { NOT = { CHI = { has_war_with = JAP } } }
-			KOR = {
+			GGK = {
 				declare_war_on = {
-					target = GGK
+					target = KOR
 					type = take_core_state
 				}
 			}
@@ -98,64 +98,64 @@ KOR_start_woi = {
 }
 
 KOR_create_units = {
-	913 = {
+	911 = {
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 11835
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 11835
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 11835
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 4 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 4 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 11835
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 5 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 5 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 11835
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 6 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"기병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 11835
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 7 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 6 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 9918
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 8 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 7 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 9918
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 9 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 8 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 9918
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 10 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 9 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 9918
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 11 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 10 } division_template = \"국내정진군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 9918
 		}
 		create_unit = {
-			division = "division_name = { is_name_ordered = yes name_order = 12 } division_template = \"광복군 국내정진군\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+			division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"기병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
 			prioritize_location = 9918
 		}
@@ -188,52 +188,52 @@ KOR_create_units = {
 			limit = { 597 = { is_controlled_by = CHI } }
 			597 = {
 				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+					division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 					owner = KOR
 				}
 				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+					division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 					owner = KOR
 				}
 				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+					division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 					owner = KOR
 				}
 			}
 		}
 		else_if = {
-			limit = { 862 = { is_controlled_by = CHI } }
-			862 = {
+			limit = { 940 = { is_controlled_by = CHI } }
+			940 = {
 				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+					division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 					owner = KOR
 				}
 				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+					division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 					owner = KOR
 				}
 				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
-					owner = KOR
-				}
-			}
-		}
-		else = {
-			random_owned_state = {
-				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
-					owner = KOR
-				}
-				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
-					owner = KOR
-				}
-				create_unit = {
-					division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"광복군 대륙전구사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+					division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 					owner = KOR
 				}
 			}
 		}
+		# else = {
+		# 	random_owned_state = {
+		# 		create_unit = {
+		# 			division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+		# 			owner = KOR
+		# 		}
+		# 		create_unit = {
+		# 			division = "division_name = { is_name_ordered = yes name_order = 2 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+		# 			owner = KOR
+		# 		}
+		# 		create_unit = {
+		# 			division = "division_name = { is_name_ordered = yes name_order = 3 } division_template = \"대륙전구군 보병사단\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+		# 			owner = KOR
+		# 		}
+		# 	}
+		# }
 	}
 
 	# #사리원
@@ -367,22 +367,20 @@ KOR_add_equipments_to_stockplie = {
 }
 
 KOR_reset_state_names = {
-	909 = { set_state_name = "한성" }
-	910 = { set_state_name = "평양" }
-	911 = { set_state_name = "함경북도" }
-	912 = { set_state_name = "함경남도" }
-	913 = { set_state_name = "평안북도" }
-	914 = { set_state_name = "평안남도" }
-	915 = { set_state_name = "황해도" }
+	909 = { set_state_name = "함경북도" }
+	910 = { set_state_name = "함경남도" }
+	911 = { set_state_name = "평안북도" }
+	912 = { set_state_name = "평안남도" }
+	913 = { set_state_name = "황해도" }
 	525 = { set_state_name = "경기도" }
 	527 = { set_state_name = "강원도" }
-	916 = { set_state_name = "충청북도" }
-	917 = { set_state_name = "충청남도" }
-	918 = { set_state_name = "경상북도" }
-	919 = { set_state_name = "경상남도" }
-	920 = { set_state_name = "전라북도" }
-	921 = { set_state_name = "전라남도" }
-	922 = { set_state_name = "제주도" }
+	914 = { set_state_name = "충청북도" }
+	915 = { set_state_name = "충청남도" }
+	916 = { set_state_name = "경상북도" }
+	917 = { set_state_name = "경상남도" }
+	918 = { set_state_name = "전라북도" }
+	919 = { set_state_name = "전라남도" }
+	920 = { set_state_name = "제주도" }
 }
 
 KOR_reset_province_names = {
@@ -410,10 +408,10 @@ KOR_reset_province_names = {
 	# 	id = 7021
 	# 	name = "강릉"
 	# }
-	# set_province_name = {
-	# 	id = 6944
-	# 	name = "나진"
-	# }
+	set_province_name = {
+		id = 13275
+		name = "나진"
+	}
 	set_province_name = {
 		id = 6822
 		name = "청진"
@@ -458,10 +456,10 @@ KOR_reset_province_names = {
 		id = 4086
 		name = "대구"
 	}
-	# set_province_name = {
-	# 	id = 13272
-	# 	name = "포항"
-	# }
+	set_province_name = {
+		id = 13272
+		name = "포항"
+	}
 	set_province_name = {
 		id = 13273
 		name = "마산"
@@ -485,5 +483,106 @@ KOR_reset_province_names = {
 	set_province_name = {
 		id = 1177
 		name = "제주"
+	}
+}
+
+KOR_original_prov_name = {
+	set_province_name = {
+		id = 6944
+		name = "경흥"
+	}
+	set_province_name = {
+		id = 6822
+		name = "부령"
+	}
+	set_province_name = {
+		id = 848
+		name = "덕원"
+	}
+	set_province_name = {
+		id = 11835
+		name = "의주"
+	}
+	set_province_name = {
+		id = 13278
+		name = "남포"
+	}
+	set_province_name = {
+		id = 13269
+		name = "회덕"
+	}
+	set_province_name = {
+		id = 13272
+		name = "연일"
+	}
+	set_province_name = {
+		id = 13273
+		name = "창원"
+	}
+	set_province_name = {
+		id = 4056
+		name = "동래"
+	}
+	set_province_name = {
+		id = 13288
+		name = "전주"
+	}
+	set_province_name = {
+		id = 13284
+		name = "광주"
+	}
+	set_province_name = {
+		id = 13286
+		name = "무안"
+	}
+}
+
+add_state_level_1 = {
+	if = {
+		limit = {
+			OR = {
+				has_state_category = wasteland
+				has_state_category = tiny_island
+				has_state_category = enclave
+			}
+		}
+		set_state_category = pastoral
+	}
+	else_if = {
+		limit = {
+			OR = {
+				has_state_category = small_island
+				has_state_category = pastoral
+			}
+		}
+		set_state_category = rural
+	}
+	else_if = {
+		limit = { has_state_category = rural }
+		set_state_category = town
+	}
+	else_if = {
+		limit = { has_state_category = town }
+		set_state_category = large_town
+	}
+	else_if = {
+		limit = { has_state_category = large_town }
+		set_state_category = city
+	}
+	else_if = {
+		limit = { has_state_category = city }
+		set_state_category = large_city
+	}
+	else_if = {
+		limit = { has_state_category = large_city }
+		set_state_category = metropolis
+	}
+	else_if = {
+		limit = { has_state_category = metropolis }
+		set_state_category = megalopolis
+	}
+	else_if = {
+		limit = { has_state_category = megalopolis }
+		add_extra_state_shared_building_slots = 1
 	}
 }
