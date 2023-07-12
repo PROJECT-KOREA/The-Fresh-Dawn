@@ -39,6 +39,10 @@ focus_tree = {
 			country_event = { id = kor_kpg_internal.2 }
 			add_stability = 0.05
 			hidden_effect = {
+				# country_event = {
+				# 	id = kor_faction.1
+				# 	days = 12
+				# }
 				# news_event = {
 				# 	id = pk_news.1
 				# 	days = 1
@@ -229,12 +233,6 @@ focus_tree = {
 				}
 			}
 			add_stability = 0.075
-			hidden_effect = {
-				country_event = {
-					id = kor_faction.1
-					days = 12
-				}
-			}
 		}
 	}
 	

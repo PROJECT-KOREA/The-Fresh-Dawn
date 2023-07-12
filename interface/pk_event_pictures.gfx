@@ -106,6 +106,25 @@ spriteTypes = {
 	}
 
 	
+	#
+		spriteType = {
+			name = "GFX_report_event_KOR_ryuh_speech"
+			textureFile = "gfx/event_pictures/report_event_KOR_ryuh_speech.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_report_event_KOR_ahn_speech"
+			textureFile = "gfx/event_pictures/report_event_KOR_ahn_speech.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_report_event_KOR_dpk"
+			textureFile = "gfx/event_pictures/report_event_KOR_dpk.dds"
+		}
+	#
+
+
+	
 	spriteType = {
 		name = "GFX_report_event_KOR_national_assembly"
 		textureFile = "gfx/event_pictures/report_event_KOR_national_assembly.dds"

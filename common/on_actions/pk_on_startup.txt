@@ -21,10 +21,10 @@ on_actions = {
 			# 		limit = { NOT = { has_idea_with_trait = vice_hos } }
 			# 		add_ideas = HoS2_vacant
 			# 	}
-				if = {
-					limit = { NOT = { has_idea_with_trait = hog_trait } }
-					add_ideas = HoG_vacant
-				}
+				# if = {
+				# 	limit = { NOT = { has_idea_with_trait = hog_trait } }
+				# 	add_ideas = HoG_vacant
+				# }
 			# 	if = {
 			# 		limit = { NOT = { has_idea_with_trait = secmin } }
 			# 		add_ideas = SM_vacant

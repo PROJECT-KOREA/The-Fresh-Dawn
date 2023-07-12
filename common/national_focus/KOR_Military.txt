@@ -17,8 +17,8 @@ shared_focus = {
 
 	completion_reward = {
 		if = {
-			limit = { has_idea = KOR_idea_kia_1 }
-			remove_ideas = KOR_idea_kia_1
+			limit = { has_idea = KOR_idea_kia }
+			remove_ideas = KOR_idea_kia
 		}
 		if = {
 			limit = { has_idea = KOR_idea_kia_2 }

@@ -75,8 +75,8 @@ country_event = {
         }
         set_party_name = { 
             ideology = democratic
-            long_name = KOR_democratic_party_nc_long
-            name = KOR_democratic_party_nc 
+            long_name = KOR_democratic_party_na_long
+            name = KOR_democratic_party_na 
         }
         add_popularity = {
             ideology = n_socialism
@@ -135,6 +135,19 @@ country_event = {
 
     option = {
         name = kor_woi.3.b
+        set_party_name = { 
+            ideology = democratic
+            long_name = KOR_democratic_party_nc_long
+            name = KOR_democratic_party_nc 
+        }
+        add_country_leader_role = {
+            character = KOR_Ahn_Jaehong
+            promote_leader = yes
+            country_leader = {
+                ideology = liberalism
+                traits = {  }
+            }
+        }
         custom_effect_tooltip = ahn_tt
         add_ideas = HoG_Ahn_Jaehong
         COALITION_add_dem = yes
@@ -158,23 +171,10 @@ country_event = {
 
     option = {
         name = kor_woi.3.c
-        set_party_name = { 
-            ideology = democratic
-            long_name = KOR_democratic_party_na_long
-            name = KOR_democratic_party_na 
-        }
-        add_country_leader_role = {
-            character = KOR_Song_Jinwoo
-            promote_leader = yes
-            country_leader = {
-                ideology = conservatism
-                traits = {  }
-            }
-        }
-        custom_effect_tooltip = song_tt
-        add_ideas = HoG_Song_Jinwoo
+        custom_effect_tooltip = cho_tt
+        add_ideas = HoG_Cho_Mansik
         COALITION_add_dem = yes
-        set_country_flag = civ_adm_s
+        set_country_flag = civ_adm_c
         if = {
             limit = { has_idea = KOR_idea_disorganized_admin1 }
             swap_ideas = {
@@ -272,9 +272,9 @@ country_event = {
             }
         }
         if = {
-            limit = { has_country_flag = civ_adm_s }
+            limit = { has_country_flag = civ_adm_c }
             add_country_leader_role = {
-                character = KOR_Song_Jinwoo
+                character = KOR_Cho_Mansik
                 promote_leader = yes
                 country_leader = {
                     ideology = oligarchism
@@ -282,13 +282,13 @@ country_event = {
                 }
             }
             add_ideas = {
-                HoG_Chang_Deoksu
+                HoG_Lee_Yunyoung
                 # SM_Kim_Byeongro
                 # EM_Lee_Kyugap
                 # FM_Na_Yongkyun
             }
             # COALITION_add_libcon = yes
-            clr_country_flag = civ_adm_s
+            clr_country_flag = civ_adm_c
             add_popularity = {
                 ideology = democratic
                 popularity = 0.05

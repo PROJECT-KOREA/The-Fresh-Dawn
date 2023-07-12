@@ -1,0 +1,210 @@
+﻿add_namespace = kor_party
+add_namespace = kor_faction
+
+# 여운형의 조선인민당 결성
+country_event = {
+	id = kor_party.1
+	title = kor_party.1.t
+	desc = kor_party.1.desc
+	picture = GFX_report_event_KOR_ryuh_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = kor_party.1.a
+		
+	}
+}
+
+# 안재홍의 조선인민당 결성
+country_event = {
+	id = kor_party.2
+	title = kor_party.2.t
+	desc = kor_party.2.desc
+	picture = GFX_report_event_KOR_ahn_speech
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = kor_party.2.a
+		
+	}
+}
+
+# 조선공산당의 선포
+country_event = {
+	id = kor_party.3
+	title = kor_party.3.t
+	desc = kor_party.3.desc
+	picture = GFX_report_event_KOR_cpk
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = kor_party.3.a
+		
+	}
+}
+
+# 우익 진영의 한국민주당 결성
+country_event = {
+	id = kor_party.4
+	title = kor_party.4.t
+	desc = kor_party.4.desc
+	picture = GFX_report_event_KOR_dpk
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = kor_party.4.a
+		
+	}
+}
+
+
+
+	#해방 정국의 이념적 갈등
+	country_event = {
+		id = kor_faction.2
+		title = kor_faction.2.t
+		desc = kor_faction.2.desc
+		picture = GFX_report_event_KOR_internal_figure
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_faction.2.a
+			add_ideas = KOR_idea_ideological_conflict
+			unlock_decision_category_tooltip = KOR_political_situation
+			unlock_decision_category_tooltip = KOR_ideological_conflict
+			set_country_flag = kor_faction
+			hidden_effect = {
+				add_ideas = {
+					KOR_idea_faction_com_notgood
+					KOR_idea_faction_radsoc_normal
+					KOR_idea_faction_socdem_normal
+					KOR_idea_faction_soclib_friendly
+					KOR_idea_faction_natlib_friendly
+					KOR_idea_faction_libcon_normal
+					KOR_idea_faction_soccon_normal
+					KOR_idea_faction_natcon_royal
+					KOR_idea_faction_fas_normal
+				}
+			}
+		}
+	}
+
+	#정치적 세력들의 대립
+	country_event = {
+		id = kor_faction.3
+		title = kor_faction.3.t
+		desc = kor_faction.3.desc
+		picture = GFX_report_event_KOR_kim_koo_syngman_rhee_kim_kyu_sik
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_faction.3.a
+			set_country_flag = KOR_flag_faction_natcon
+		}
+
+		option = {
+			name = kor_faction.3.b
+			
+		}
+
+		option = {
+			name = kor_faction.3.c
+			
+		}
+	}
+
+	#임시정부에서 탈퇴한 사회주의 계열
+	country_event = {
+		id = kor_faction.4
+		title = kor_faction.4.t
+		desc = kor_faction.4.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_faction.4.a
+			FAC_set_radsoc_notgood = yes
+		}
+	}
+
+	#임시정부 지지 성명을 발표한 한국민주당
+	country_event = {
+		id = kor_faction.5
+		title = kor_faction.5.t
+		desc = kor_faction.5.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_faction.5.a
+			FAC_set_libcon_friendly = yes
+		}
+	}
+
+	#심화되는 우익 진영 내 갈등
+	country_event = {
+		id = kor_faction.6
+		title = kor_faction.6.t
+		desc = kor_faction.6.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_faction.6.a
+			FAC_set_soccon_notgood = yes
+		}
+	}
+
+	#한독당-국민당 합당 성사
+	country_event = {
+		id = kor_faction.7
+		title = kor_faction.7.t
+		desc = kor_faction.7.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_faction.7.a
+			set_country_flag = KOR_flag_kip_np
+		}
+	}
+
+	#
+	country_event = {
+		id = kor_faction.99
+		title = kor_faction.99.t
+		desc = kor_faction.99.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_faction.99.a
+			set_country_flag = KOR_flag_wpk
+		}
+	}
+
+	#
+	country_event = {
+		id = kor_faction.999
+		title = kor_faction.999.t
+		desc = kor_faction.999.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_faction.999.a
+			set_country_flag = KOR_flag_wpk_split
+		}
+	}

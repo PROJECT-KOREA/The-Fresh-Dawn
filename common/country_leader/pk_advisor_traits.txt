@@ -1,20 +1,4 @@
 leader_traits = {
-
-	## 정부수반 ##
-	hog_trait = {
-		random = no
-	}
-
-	## 공석 ##
-	vacant = {
-		random = no
-		custom_modifier_tooltip = this_vacant
-	}
-
-	## 정무총감 ##
-	GGK_seimu_soukan = { random = no }
-
-
 	## 기본 특성 ##
 		# 교육 개혁가
 		PK_education_reformer = {
@@ -106,7 +90,7 @@ leader_traits = {
 	# 대한민국 #
 
 	# 조선의 간디 - 조만식
-	gandhi_of_joseon = {
+	PK_gandhi_of_joseon = {
 		political_power_factor = 0.05
 		industrial_capacity_factory = 0.1
 		production_factory_max_efficiency_factor = 0.15

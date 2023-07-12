@@ -1,0 +1,31 @@
+state = {
+	id = 915
+	name = "STATE_915" #전라북도
+	manpower = 4300000
+
+	state_category = town	
+	
+	history = {
+		owner = GGK
+		# owner = KOR
+		add_core_of = KOR
+		add_core_of = GGK
+		
+		buildings = {
+			#기반시설
+			infrastructure = 1
+
+			#민간공장
+			industrial_complex = 1
+		}
+
+		# victory_points = { 7175 10 } #군산(군산)
+		victory_points = { 4126 3 } #전주(젠슈)
+		victory_points = { 13271 5 } #광주(코슈)
+		victory_points = { 13272 2 } #목포(모쿠호)
+	}
+
+	provinces = {
+		1177 4126 10085 10110 11948 12085 13270 13271 13272
+	}
+}

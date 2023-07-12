@@ -7,6 +7,7 @@ state = {
 	
 	history = {
 		owner = GGK
+		# owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 		
@@ -25,6 +26,6 @@ state = {
 	}
 
 	provinces = {
-		906 912 6963 9795 9918 11775 11828 11835 11896 13261
+		906 912 978 6963 9795 9918 11775 11828 11835 11896
 	}	
 }

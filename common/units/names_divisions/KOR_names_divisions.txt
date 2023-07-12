@@ -26,8 +26,20 @@ KOR_KIA_03 = {
 	name = "기병사단"
 	for_countries = { KOR }
 	can_use = { always = yes }
-	division_types = { "infantry" }
+	division_types = { "cavalry" }
 	fallback_name = "제%d기병사단"
+	# ordered =
+	# {
+	# 	1 = { "광복군 대륙전구군 제%d사단" }
+	# }
+}
+
+KOR_IAR_01 = {
+	name = "독립기갑연대"
+	for_countries = { KOR }
+	can_use = { always = yes }
+	division_types = { "cavalry" "light_armor" }
+	fallback_name = "제%d독립기갑연대"
 	# ordered =
 	# {
 	# 	1 = { "광복군 대륙전구군 제%d사단" }

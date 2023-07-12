@@ -1,0 +1,146 @@
+leader_traits = {
+	### 일반 ###
+		PK_government_sic = {
+			sprite = 13
+			random = no
+			political_power_factor = 0.08
+		}
+	#
+
+	### 장관 특성 ###
+		#민중의 사람
+		PK_man_of_the_people_hog = {
+			# sprite = 13
+			random = no
+			stability_factor = 0.15
+			conscription_factor = 0.05
+		}
+
+		# 언론계 거물
+		PK_media_magnate_hog = {
+			# sprite = 13
+			random = no
+			political_power_factor = 0.1
+			party_popularity_stability_factor = 0.33
+		}
+		
+		# 위대한 타협가
+		PK_great_compromiser_hog = {
+			# sprite = 13
+			random = no
+			political_power_factor = 0.1
+			political_advisor_cost_factor = -0.5
+			custom_modifier_tooltip = can_change_manually
+		}
+
+		# 정치적 추종자
+		PK_political_protege_hog = {
+			# sprite = 13
+			random = no
+			political_power_gain = 0.15
+			stability_factor = 0.05
+		}
+
+		# #온화한 신사 - 여운형
+		# mild_gentleman = {
+		# 	political_power_gain = 0.03
+		# 	stability_factor = 0.1
+		# 	custom_modifier_tooltip = can_change_manually
+		# 	random = no
+		# }
+
+		# #노련한 정객
+		# veteran_politician = {
+		# 	political_power_factor = 0.125
+		# 	random = no
+		# }
+
+		# #독불장군
+		# man_of_self_assertion = {
+		# 	political_power_gain = -0.03
+		# 	stability_factor = -0.07
+		# 	war_support_factor = 0.10
+			
+		# 	random = no
+		# }
+
+		# #열정적인 중재자 - 안재홍
+		# passionate_moderator = {
+		# 	political_power_factor = 0.05
+		# 	custom_modifier_tooltip = can_change_manually
+		# 	random = no
+		# }
+
+		# #언론계 거물
+		# media_magnate = {
+		# 	political_power_gain = 0.05
+		# 	war_support_factor = 0.15
+		# 	custom_modifier_tooltip = can_change_manually
+		# 	random = no
+		# }
+		
+		# #유능한 행정가
+		# capable_administrator = {
+		# 	political_power_gain = 0.05
+		# 	trade_laws_cost_factor = -0.15
+		# 	mobilization_laws_cost_factor = -0.15
+		# 	economy_cost_factor = -0.15
+			
+		# 	random = no
+		# }
+		
+		# #민중의 사람
+		# man_of_the_people = {
+		# 	political_power_gain = 0.05
+		# 	stability_factor = 0.10
+			
+		# 	random = no
+		# }
+
+
+		# #재정 개혁가
+		# financial_reformer = {
+		# 	political_power_gain = 0.05
+		# 	consumer_goods_factor = -0.05
+			
+		# 	random = no
+		# }
+		
+		# #삼균주의 이론가
+		# samgyunjuui_theorist = {
+		# 	consumer_goods_factor = 0.05
+		# 	stability_factor = 0.05
+		# 	#production_speed_industrial_complex_factor = 0.1
+		# 	industrial_capacity_factory = 0.1
+			
+		# 	random = no
+		# }
+
+
+		# #적절한 외교관
+		# adequate_diplomat = {
+		# 	stability_factor = 0.03
+		# 	opinion_gain_monthly = 0.1
+			
+		# 	random = no
+		# }
+
+		# #능숙한 대사
+		# competent_ambassador = {
+		# 	political_power_gain = 0.05
+		# 	opinion_gain_monthly = 0.2
+			
+		# 	random = no
+		# }
+	#
+
+
+	## 조선총독부 ###
+		# 정무총감 #
+		GGK_seimu_soukan = {
+			sprite = 13
+			random = no
+			political_power_factor = 0.05
+		}
+	#
+}

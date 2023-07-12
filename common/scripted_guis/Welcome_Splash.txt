@@ -12,9 +12,67 @@ scripted_gui = {
 			mod_options_button_click = {
 				clr_country_flag = show_welcome_splash
 				# country_event = pk_startup.1
-				set_country_flag = TNO_opening_screen_show
-				set_country_flag = OPEN_view_country_info
+				# set_country_flag = TNO_opening_screen_show
+				# set_country_flag = OPEN_view_country_info
+			}
+		}
+
+		properties = {
+			opening_screen_poster = {
+				image = "[GET_POSTER]"
 			}
 		}
 	}
+	
+	pk_help_button = {
+		context_type = player_context
+		window_name = "pk_help_button_container"
+		parent_window_token = top_bar
+		# dirty = PK_welcome_splash_variable
+
+		ai_enabled = { always = no }
+
+		effects = {
+			pk_help_button_click = {
+				if = {
+					limit = { has_country_flag = show_welcome_splash }
+					clr_country_flag = show_welcome_splash
+				}
+				else = {
+					set_country_flag = show_welcome_splash
+				}
+				# if = {
+				# 	limit = { NOT = { has_variable = PK_welcome_splash_variable } }
+				# 	if = {
+				# 		limit = { tag_has_country_intro = yes }
+				# 		set_variable = { PK_welcome_splash_variable = 1 }
+				# 	}
+				# 	else = {
+				# 		set_variable = { PK_welcome_splash_variable = 4 }
+				# 	}
+				# }
+			}
+		}
+	}
+
+	# TNO_opening_button = {
+	# 	parent_window_name = "MapmodesInterface_Ingame"
+	# 	window_name = "TNO_OpeningScreen_OpenButton"
+
+	# 	visible = {
+	# 		NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
+	# 	}
+
+	# 	effects = {
+	# 		topbar_opening_button_click = {
+	# 			if = {
+	# 				limit = { has_country_flag = show_welcome_splash }
+	# 				clr_country_flag = show_welcome_splash
+	# 			}
+	# 			else = {
+	# 				set_country_flag = show_welcome_splash
+	# 			}
+	# 		}
+	# 	}
+	# }
 }

@@ -3,37 +3,36 @@ capital = 525
 
 #인물 불러오기
 	recruit_character = KOR_KIA_Command
-	recruit_character = KOR_Mil_Council
-	recruit_character = KOR_Ji_Cheongcheon
 	recruit_character = KOR_Hong_Saik
-	recruit_character = KOR_Song_Jinwoo
-	recruit_character = KOR_Ahn_Jaehong
-	recruit_character = KOR_Ryuh_Woonhyung
-	recruit_character = KOR_Kim_Koo
-	recruit_character = KOR_Pak_Honyong
-	recruit_character = KOR_Syngman_Rhee
+	# recruit_character = KOR_Ji_Cheongcheon
+	# recruit_character = KOR_Song_Jinwoo
+	# recruit_character = KOR_Ahn_Jaehong
+	# recruit_character = KOR_Ryuh_Woonhyung
+	# recruit_character = KOR_Kim_Koo
+	# recruit_character = KOR_Pak_Honyong
+	# recruit_character = KOR_Syngman_Rhee
 
-	recruit_character = KOR_Cho_Mansik
-	recruit_character = KOR_Kim_Byeongro
-	recruit_character = KOR_Baek_Namun
-	recruit_character = KOR_Won_Sehun
-	recruit_character = KOR_Chang_Deoksu
-	recruit_character = KOR_Cho_Dongho
-	recruit_character = KOR_Ho_Hon
+	# recruit_character = KOR_Cho_Mansik
+	# recruit_character = KOR_Kim_Byeongro
+	# recruit_character = KOR_Baek_Namun
+	# recruit_character = KOR_Won_Sehun
+	# recruit_character = KOR_Chang_Deoksu
+	# recruit_character = KOR_Cho_Dongho
+	# recruit_character = KOR_Ho_Hon
 	
-	recruit_character = KOR_Kim_Kyusik
-	recruit_character = KOR_Sin_Ikhee
-	recruit_character = KOR_Cho_Soang
+	# recruit_character = KOR_Kim_Kyusik
+	# recruit_character = KOR_Sin_Ikhee
+	# recruit_character = KOR_Cho_Soang
 
-	recruit_character = KOR_Kim_Kyeongcheon
-	recruit_character = KOR_Kim_Hong_il
-	recruit_character = KOR_Song_Hoseong
-	recruit_character = KOR_Oh_Kwangseon
-	recruit_character = KOR_Lee_Beomseok
-	recruit_character = KOR_Kim_Wonbong
-	recruit_character = KOR_Yoon_Seju
+	# recruit_character = KOR_Kim_Kyeongcheon
+	# recruit_character = KOR_Kim_Hong_il
+	# recruit_character = KOR_Song_Hoseong
+	# recruit_character = KOR_Oh_Kwangseon
+	# recruit_character = KOR_Lee_Beomseok
+	# recruit_character = KOR_Kim_Wonbong
+	# recruit_character = KOR_Yoon_Seju
 	
-	activate_advisor = KOR_COA_Ji_Cheongcheon
+	activate_advisor = KOR_KIA_Command_sic
 #
 
 #안정도
@@ -46,7 +45,7 @@ set_war_support = 0.25
 add_ideas = {
 	KOR_idea_disorganized_admin1
 	KOR_idea_firepower_supremacy1
-	KOR_idea_kia_1
+	KOR_idea_kia
 	KOR_idea_independence_war
 	KOR_idea_illiteracy_population_1
 	KOR_idea_the_poor_1
@@ -69,6 +68,9 @@ set_technology = {
 	infantry_weapons = 1 #기초 보병 장비
 	infantry_weapons1 = 1 #보병 장비 I
 	support_weapons = 1 #지원 화기 I
+	motorised_infantry = 1 #차량화보병
+
+	armored_car1 = 1 #기초 장갑차
 
 	tech_support = 1 #지원 장비
 	tech_engineers = 1 #공병 I

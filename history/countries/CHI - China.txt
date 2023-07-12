@@ -113,7 +113,7 @@ if = {
 add_ideas = {
 	german_advisors
 
-	HoG_Chiang_Kaishek
+	# HoG_Chiang_Kaishek
 }
 
 600 = { #Jiangxi

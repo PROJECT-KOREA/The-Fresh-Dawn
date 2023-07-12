@@ -67,19 +67,35 @@ division_template = {
 }
 
 division_template = {
-	name = "독립의용군"
-	division_names_group = KOR_LVA_01
+	name = "독립기갑연대"
+	division_names_group = KOR_IAR_01
 	is_locked = yes
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 	}
-	priority = 0
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+	priority = 1
 }
+
+# division_template = {
+# 	name = "독립의용군"
+# 	division_names_group = KOR_LVA_01
+# 	is_locked = yes
+# 	regiments = {
+# 		infantry = { x = 0 y = 0 }
+# 		infantry = { x = 0 y = 1 }
+# 		infantry = { x = 0 y = 2 }
+# 		infantry = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 	}
+# 	priority = 0
+# }
 
 air_wings = {
 	# 913 = { 

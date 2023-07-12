@@ -7,6 +7,7 @@ state = {
 	
 	history = {
 		owner = GGK
+		# owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 		
@@ -24,6 +25,6 @@ state = {
 	resources = { steel = 5 }
 
 	provinces = {
-		1003 4107 7070 7155 10065 11915 13287
+		1003 4107 7070 7155 10065 11915
 	}
 }

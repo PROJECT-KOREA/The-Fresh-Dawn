@@ -10,109 +10,110 @@ guiTypes = {
 			quadTextureSprite = "GFX_ledger_open_button"
 		}
 	}
-
-	containerWindowType = {
-		name = "TNO_OpeningScreen_Main"
-		size = { width = 600 height = 640 }
-		position = { x = 660 y = 220 }
-		# moveable = yes
-		
-		background = {
-			name = "TNO_OpeningScreen_BG_real"
-			spriteType = "GFX_tiled_window_transparent"
-		}
-		
-		iconType = {
-			name = "TNO_OpeningScreen_BG"
-			position = { x = 0 y = 0 }
-			spriteType = "GFX_opening_bg"
-			alwaystransparent = yes
-		}
-		
-		iconType = {
-			name = "opening_screen_poster1"
-			spriteType = "GFX_poster_GER"
-			position = { x = 38 y = 38 }
-			alwaystransparent = yes
-		}
-		
-		instantTextBoxType = {
-			name = "TNO_OpeningScreen_Text"
-			position = { x = 45 y = 255 }
-			font = "pk_20"
-			text = "COUNTRY_INFO_TEXT"
-			maxWidth = 498
-			maxHeight = 302
-			# alwaystransparent = yes
-			scrollbarType = standardtext_slider
-		}
-
-		buttonType = {
-			name = "close_button"
-			quadTextureSprite = "GFX_main_lobby_button" 
-			buttonFont = "hoi_18mbs"
-			pdx_tooltip = "TNO_OPENING_SCREEN_BUTTON_TT"
-			position = { x = 156 y = 579 }
-			font = "pk_20"
-			text = "TNO_OPENING_SCREEN_BUTTON_TEXT"
-			format = center
-			shortcut = "ESCAPE"
-		}
-
-		buttonType = {
-			name = "country_info"
-			quadTextureSprite = "GFX_77x31_button" 
-			buttonFont = "hoi_18mbs"
-			position = { x = 32 y = 212 }
-			font = "pk_20"
-			text = "국가 정보"
-			format = center
-			shortcut = "ESCAPE"
-		}
-
-		# instantTextBoxType = {
-		# 	name = "TNO_OpeningScreen_CloseButton_text"
-		# 	position = { x = 849 y = 483 }
-		# 	alwaystransparent = yes
-		# }
-	}
-	
-	# containerWindowType = {
-	# 	name = "TNO_ClosingScreen_Main"
-	# 	size = { width = 803 height = 552 }
-	# 	position = { x = 155 y = 155 }
-	# 	moveable = yes
-		
-	# 	background = {
-	# 		name = "TNO_ClosingScreen_BG_real"
-	# 		spriteType = "GFX_tiled_window_transparent"
-	# 	}
-		
-	# 	iconType = {
-	# 		name = "TNO_ClosingScreen_BG"
-	# 		position = { x = 0 y = 0 }
-	# 		spriteType = "GFX_TNO_Closing_BG"
-	# 		alwaystransparent = yes
-	# 	}
-
-	# 	buttonType = {
-	# 		name = "TNO_ClosingScreen_CloseButton"
-	# 		quadTextureSprite = "GFX_button_359x34" 
-	# 		buttonFont = "hoi_18mbs"
-	# 		buttonText = "Thank you for playing!"
-	# 		position = { x = 227 y = 497 }
-	# 		shortcut = "ESCAPE"
-	# 	}
-		
-	# 	instantTextBoxType = {
-	# 		name = "TNO_ClosingScreen_Text"
-	# 		position = { x = 20 y = 21 }
-	# 		font = "aldrich_24_outline_closing"
-	# 		text = CLOSING_SCREEN_TEXT
-	# 		maxWidth = 748
-	# 		maxHeight = 462
-	# 		alwaystransparent = yes
-	# 		scrollbarType = standardtext_slider
-	# 	}
-	# }
 }
+
+# 	containerWindowType = {
+# 		name = "TNO_OpeningScreen_Main"
+# 		size = { width = 600 height = 640 }
+# 		position = { x = 660 y = 220 }
+# 		# moveable = yes
+		
+# 		background = {
+# 			name = "TNO_OpeningScreen_BG_real"
+# 			spriteType = "GFX_tiled_window_transparent"
+# 		}
+		
+# 		iconType = {
+# 			name = "TNO_OpeningScreen_BG"
+# 			position = { x = 0 y = 0 }
+# 			spriteType = "GFX_opening_bg"
+# 			alwaystransparent = yes
+# 		}
+		
+# 		iconType = {
+# 			name = "opening_screen_poster1"
+# 			spriteType = "GFX_poster_GER"
+# 			position = { x = 38 y = 38 }
+# 			alwaystransparent = yes
+# 		}
+		
+# 		instantTextBoxType = {
+# 			name = "TNO_OpeningScreen_Text"
+# 			position = { x = 45 y = 255 }
+# 			font = "pk_20"
+# 			text = "COUNTRY_INFO_TEXT"
+# 			maxWidth = 498
+# 			maxHeight = 302
+# 			# alwaystransparent = yes
+# 			scrollbarType = standardtext_slider
+# 		}
+
+# 		buttonType = {
+# 			name = "close_button"
+# 			quadTextureSprite = "GFX_main_lobby_button" 
+# 			buttonFont = "hoi_18mbs"
+# 			pdx_tooltip = "TNO_OPENING_SCREEN_BUTTON_TT"
+# 			position = { x = 156 y = 579 }
+# 			font = "pk_20"
+# 			text = "TNO_OPENING_SCREEN_BUTTON_TEXT"
+# 			format = center
+# 			shortcut = "ESCAPE"
+# 		}
+
+# 		buttonType = {
+# 			name = "country_info"
+# 			quadTextureSprite = "GFX_77x31_button" 
+# 			buttonFont = "hoi_18mbs"
+# 			position = { x = 32 y = 212 }
+# 			font = "pk_20"
+# 			text = "국가 정보"
+# 			format = center
+# 			shortcut = "ESCAPE"
+# 		}
+
+# 		# instantTextBoxType = {
+# 		# 	name = "TNO_OpeningScreen_CloseButton_text"
+# 		# 	position = { x = 849 y = 483 }
+# 		# 	alwaystransparent = yes
+# 		# }
+# 	}
+	
+# 	# containerWindowType = {
+# 	# 	name = "TNO_ClosingScreen_Main"
+# 	# 	size = { width = 803 height = 552 }
+# 	# 	position = { x = 155 y = 155 }
+# 	# 	moveable = yes
+		
+# 	# 	background = {
+# 	# 		name = "TNO_ClosingScreen_BG_real"
+# 	# 		spriteType = "GFX_tiled_window_transparent"
+# 	# 	}
+		
+# 	# 	iconType = {
+# 	# 		name = "TNO_ClosingScreen_BG"
+# 	# 		position = { x = 0 y = 0 }
+# 	# 		spriteType = "GFX_TNO_Closing_BG"
+# 	# 		alwaystransparent = yes
+# 	# 	}
+
+# 	# 	buttonType = {
+# 	# 		name = "TNO_ClosingScreen_CloseButton"
+# 	# 		quadTextureSprite = "GFX_button_359x34" 
+# 	# 		buttonFont = "hoi_18mbs"
+# 	# 		buttonText = "Thank you for playing!"
+# 	# 		position = { x = 227 y = 497 }
+# 	# 		shortcut = "ESCAPE"
+# 	# 	}
+		
+# 	# 	instantTextBoxType = {
+# 	# 		name = "TNO_ClosingScreen_Text"
+# 	# 		position = { x = 20 y = 21 }
+# 	# 		font = "aldrich_24_outline_closing"
+# 	# 		text = CLOSING_SCREEN_TEXT
+# 	# 		maxWidth = 748
+# 	# 		maxHeight = 462
+# 	# 		alwaystransparent = yes
+# 	# 		scrollbarType = standardtext_slider
+# 	# 	}
+# 	# }
+# }

@@ -1,682 +1,682 @@
-focus_tree = {
-	id = GGK_Minami
+# focus_tree = {
+# 	id = GGK_Minami
 
-	country = {
-		factor = 0
+# 	country = {
+# 		factor = 0
 		
-		modifier = {
-			add = 20
-			tag = GGK
-			has_country_leader = {
-				name = "미나미 지로"
-				ruling_only = yes
-			}
-		}
-	}
+# 		modifier = {
+# 			add = 20
+# 			tag = GGK
+# 			has_country_leader = {
+# 				name = "미나미 지로"
+# 				ruling_only = yes
+# 			}
+# 		}
+# 	}
 
-	continuous_focus_position = { x = 20 y = 1500 }
-	# shared_focus = GGK_focus_reform_government
+# 	continuous_focus_position = { x = 20 y = 1500 }
+# 	# shared_focus = GGK_focus_reform_government
 
-	#내선일체
-    focus = {
-		id = GGK_focus_naisen_ittai
-		icon = GFX_focus_naisen_yuugou
-		x = 7
-		y = 0
-		cost = 20
+# 	#내선일체
+#     focus = {
+# 		id = GGK_focus_naisen_ittai
+# 		icon = GFX_focus_naisen_yuugou
+# 		x = 7
+# 		y = 0
+# 		cost = 20
 
-		# available = { always = no }
+# 		# available = { always = no }
 
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = GGK_idea_naisen_yuugou
-				add_idea = GGK_idea_naisen_ittai
-			}
-			swap_ideas = {
-				remove_idea = GGK_idea_bunka_touchi
-				add_idea = GGK_idea_minzokumassatsu_touchi
-			}
-		}
-	}
+# 		completion_reward = {
+# 			swap_ideas = {
+# 				remove_idea = GGK_idea_naisen_yuugou
+# 				add_idea = GGK_idea_naisen_ittai
+# 			}
+# 			swap_ideas = {
+# 				remove_idea = GGK_idea_bunka_touchi
+# 				add_idea = GGK_idea_minzokumassatsu_touchi
+# 			}
+# 		}
+# 	}
 
-	#황국신민화 정책
-    focus = {
-		id = GGK_focus_kouminka_seisaku
-		icon = GFX_focus_jap_spiritual_mobilization
-		relative_position_id = GGK_focus_naisen_ittai
-		x = -5
-		y = 1
-		cost = 15
+# 	#황국신민화 정책
+#     focus = {
+# 		id = GGK_focus_kouminka_seisaku
+# 		icon = GFX_focus_jap_spiritual_mobilization
+# 		relative_position_id = GGK_focus_naisen_ittai
+# 		x = -5
+# 		y = 1
+# 		cost = 15
 
-		prerequisite = {
-			focus = GGK_focus_naisen_ittai
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_naisen_ittai
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
-	#일본어 상용화 정책
-    focus = {
-		id = GGK_focus_kokugo_popularization_policy
-		icon = GFX_focus_generic_military_academy
-		relative_position_id = GGK_focus_kouminka_seisaku
-		x = -2
-		y = 1
-		cost = 5
+# 	#일본어 상용화 정책
+#     focus = {
+# 		id = GGK_focus_kokugo_popularization_policy
+# 		icon = GFX_focus_generic_military_academy
+# 		relative_position_id = GGK_focus_kouminka_seisaku
+# 		x = -2
+# 		y = 1
+# 		cost = 5
 
-		prerequisite = {
-			focus = GGK_focus_kouminka_seisaku
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_kouminka_seisaku
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
-	#조선지원병 제도
-    focus = {
-		id = GGK_focus_chosen_volunteer
-		icon = GFX_focus_ETH_freedom_at_gunpoint
-		relative_position_id = GGK_focus_kouminka_seisaku
-		x = 0
-		y = 1
-		cost = 5
+# 	#조선지원병 제도
+#     focus = {
+# 		id = GGK_focus_chosen_volunteer
+# 		icon = GFX_focus_ETH_freedom_at_gunpoint
+# 		relative_position_id = GGK_focus_kouminka_seisaku
+# 		x = 0
+# 		y = 1
+# 		cost = 5
 
-		prerequisite = {
-			focus = GGK_focus_kouminka_seisaku
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_kouminka_seisaku
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
-	#창씨개명 의무화
-    focus = {
-		id = GGK_focus_soushikaimei
-		icon = GFX_focus_paper_sign
-		relative_position_id = GGK_focus_chosen_volunteer
-		x = 0
-		y = 1
-		cost = 5
+# 	#창씨개명 의무화
+#     focus = {
+# 		id = GGK_focus_soushikaimei
+# 		icon = GFX_focus_paper_sign
+# 		relative_position_id = GGK_focus_chosen_volunteer
+# 		x = 0
+# 		y = 1
+# 		cost = 5
 
-		prerequisite = {
-			focus = GGK_focus_chosen_volunteer
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_chosen_volunteer
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
-	#황국신민서사
-    focus = {
-		id = GGK_focus_oath_of_the_imperial_people
-		icon = GFX_focus_jap_showa_restoration
-		relative_position_id = GGK_focus_kouminka_seisaku
-		x = 2
-		y = 1
-		cost = 5
+# 	#황국신민서사
+#     focus = {
+# 		id = GGK_focus_oath_of_the_imperial_people
+# 		icon = GFX_focus_jap_showa_restoration
+# 		relative_position_id = GGK_focus_kouminka_seisaku
+# 		x = 2
+# 		y = 1
+# 		cost = 5
 
-		prerequisite = {
-			focus = GGK_focus_kouminka_seisaku
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_kouminka_seisaku
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
 
-	#독립운동 탄압
-    focus = {
-		id = GGK_focus_crack_down_im
-		icon = GFX_focus_eng_move_to_secure_the_dominions
-		relative_position_id = GGK_focus_naisen_ittai
-		x = 0
-		y = 1
-		cost = 15
+# 	#독립운동 탄압
+#     focus = {
+# 		id = GGK_focus_crack_down_im
+# 		icon = GFX_focus_eng_move_to_secure_the_dominions
+# 		relative_position_id = GGK_focus_naisen_ittai
+# 		x = 0
+# 		y = 1
+# 		cost = 15
 
-		prerequisite = {
-			focus = GGK_focus_naisen_ittai
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_naisen_ittai
+# 		}
 
-		completion_reward = {
-			add_stability = -0.10
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.1
-			}
-		}
-	}
+# 		completion_reward = {
+# 			add_stability = -0.10
+# 			add_popularity = {
+# 				ideology = neutrality
+# 				popularity = 0.1
+# 			}
+# 		}
+# 	}
 
-	#경무국 예산 확대
-    focus = {
-		id = GGK_focus_expand_keimukoku
-		icon = GFX_focus_keimukoku
-		relative_position_id = GGK_focus_crack_down_im
-		x = -1
-		y = 1
-		cost = 15
+# 	#경무국 예산 확대
+#     focus = {
+# 		id = GGK_focus_expand_keimukoku
+# 		icon = GFX_focus_keimukoku
+# 		relative_position_id = GGK_focus_crack_down_im
+# 		x = -1
+# 		y = 1
+# 		cost = 15
 
-		prerequisite = {
-			focus = GGK_focus_crack_down_im
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_crack_down_im
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
-	#조선인 밀정 포섭
-    focus = {
-		id = GGK_focus_chosenjin_mittei
-		icon = GFX_focus_secret_agents
-		relative_position_id = GGK_focus_expand_keimukoku
-		x = 0
-		y = 2
-		cost = 15
+# 	#조선인 밀정 포섭
+#     focus = {
+# 		id = GGK_focus_chosenjin_mittei
+# 		icon = GFX_focus_secret_agents
+# 		relative_position_id = GGK_focus_expand_keimukoku
+# 		x = 0
+# 		y = 2
+# 		cost = 15
 
-		prerequisite = {
-			focus = GGK_focus_expand_keimukoku
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_expand_keimukoku
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
-	#불령단체 해산
-    focus = {
-		id = GGK_focus_breakup_futei_group
-		icon = GFX_focus_generic_court
-		relative_position_id = GGK_focus_crack_down_im
-		x = 1
-		y = 1
-		cost = 15
+# 	#불령단체 해산
+#     focus = {
+# 		id = GGK_focus_breakup_futei_group
+# 		icon = GFX_focus_generic_court
+# 		relative_position_id = GGK_focus_crack_down_im
+# 		x = 1
+# 		y = 1
+# 		cost = 15
 
-		prerequisite = {
-			focus = GGK_focus_crack_down_im
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_crack_down_im
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
-	#언론 탄압
-    focus = {
-		id = GGK_focus_supress_press
-		icon = GFX_focus_generic_conspiracy
-		relative_position_id = GGK_focus_breakup_futei_group
-		x = -1
-		y = 1
-		cost = 15
+# 	#언론 탄압
+#     focus = {
+# 		id = GGK_focus_supress_press
+# 		icon = GFX_focus_generic_conspiracy
+# 		relative_position_id = GGK_focus_breakup_futei_group
+# 		x = -1
+# 		y = 1
+# 		cost = 15
 
-		prerequisite = {
-			focus = GGK_focus_breakup_futei_group
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_breakup_futei_group
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
-	#황민화 정책 선전
-    focus = {
-		id = GGK_focus_propaganda_policy
-		icon = GFX_focus_ETH_an_empire_in_the_shade_of_the_sun
-		relative_position_id = GGK_focus_breakup_futei_group
-		x = 1
-		y = 1
-		cost = 15
+# 	#황민화 정책 선전
+#     focus = {
+# 		id = GGK_focus_propaganda_policy
+# 		icon = GFX_focus_ETH_an_empire_in_the_shade_of_the_sun
+# 		relative_position_id = GGK_focus_breakup_futei_group
+# 		x = 1
+# 		y = 1
+# 		cost = 15
 
-		prerequisite = {
-			focus = GGK_focus_breakup_futei_group
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_breakup_futei_group
+# 		}
 
-		completion_reward = {
+# 		completion_reward = {
 			
-		}
-	}
+# 		}
+# 	}
 
 
-	#병참기지화 정책 강화
-	focus = {
-		id = GGK_focus_noukouheishinseisaku
-		icon = GFX_goal_generic_construct_civ_factory
-		relative_position_id = GGK_focus_naisen_ittai
-		x = 5
-		y = 1
-		cost = 4
+# 	#병참기지화 정책 강화
+# 	focus = {
+# 		id = GGK_focus_noukouheishinseisaku
+# 		icon = GFX_goal_generic_construct_civ_factory
+# 		relative_position_id = GGK_focus_naisen_ittai
+# 		x = 5
+# 		y = 1
+# 		cost = 4
 
-		prerequisite = {
-			focus = GGK_focus_naisen_ittai
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_naisen_ittai
+# 		}
 
-		completion_reward = {
-			remove_ideas = GGK_idea_noukou_heishin
-			if = {
-				limit = { has_idea = GGK_idea_heitan_kichika1 }
-				swap_ideas = {
-					remove_idea = GGK_idea_heitan_kichika1
-					add_idea = GGK_idea_heitan_kichika2
-				}
-			}
-			if = {
-				limit = { has_idea = GGK_idea_heitan_kichika2 }
-				swap_ideas = {
-					remove_idea = GGK_idea_heitan_kichika2
-					add_idea = GGK_idea_heitan_kichika3
-				}
-			}
-		}
-	}
+# 		completion_reward = {
+# 			remove_ideas = GGK_idea_noukou_heishin
+# 			if = {
+# 				limit = { has_idea = GGK_idea_heitan_kichika1 }
+# 				swap_ideas = {
+# 					remove_idea = GGK_idea_heitan_kichika1
+# 					add_idea = GGK_idea_heitan_kichika2
+# 				}
+# 			}
+# 			if = {
+# 				limit = { has_idea = GGK_idea_heitan_kichika2 }
+# 				swap_ideas = {
+# 					remove_idea = GGK_idea_heitan_kichika2
+# 					add_idea = GGK_idea_heitan_kichika3
+# 				}
+# 			}
+# 		}
+# 	}
 
-	#흥남 공업단지
-	focus = {
-		id = GGK_focus_kounan_industry
-		icon = GFX_focus_kounan_industry
-		relative_position_id = GGK_focus_noukouheishinseisaku
-		x = -1
-		y = 1
-		cost = 10
+# 	#흥남 공업단지
+# 	focus = {
+# 		id = GGK_focus_kounan_industry
+# 		icon = GFX_focus_kounan_industry
+# 		relative_position_id = GGK_focus_noukouheishinseisaku
+# 		x = -1
+# 		y = 1
+# 		cost = 10
 	
-		prerequisite = {
-			focus = GGK_focus_noukouheishinseisaku
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_noukouheishinseisaku
+# 		}
 	
-		completion_reward = {
-			910 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
+# 		completion_reward = {
+# 			910 = {
+# 				add_extra_state_shared_building_slots = 2
+# 				add_building_construction = {
+# 					type = industrial_complex
+# 					level = 2
+# 					instant_build = yes
+# 				}
+# 			}
+# 		}
 
-		bypass = {
-			has_completed_focus = GGK_focus_jinsen_arsenal
-		}
-	}
+# 		bypass = {
+# 			has_completed_focus = GGK_focus_jinsen_arsenal
+# 		}
+# 	}
 
-	#원산 문평공장
-	focus = {
-		id = GGK_focus_genzan_factory
-		icon = GFX_goal_generic_construct_civ_factory
-		relative_position_id = GGK_focus_kounan_industry
-		x = 0
-		y = 2
-		cost = 5
+# 	#원산 문평공장
+# 	focus = {
+# 		id = GGK_focus_genzan_factory
+# 		icon = GFX_goal_generic_construct_civ_factory
+# 		relative_position_id = GGK_focus_kounan_industry
+# 		x = 0
+# 		y = 2
+# 		cost = 5
 	
-		prerequisite = {
-			focus = GGK_focus_kounan_industry
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_kounan_industry
+# 		}
 	
-		completion_reward = {
-			910 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
+# 		completion_reward = {
+# 			910 = {
+# 				add_extra_state_shared_building_slots = 1
+# 				add_building_construction = {
+# 					type = industrial_complex
+# 					level = 1
+# 					instant_build = yes
+# 				}
+# 			}
+# 		}
 
-		bypass = {
-			has_completed_focus = GGK_focus_jinsen_arsenal
-		}
-	}
+# 		bypass = {
+# 			has_completed_focus = GGK_focus_jinsen_arsenal
+# 		}
+# 	}
 
-	#수풍댐 건설 계획
-	focus = {
-		id = GGK_focus_supung_lake_plan
-		icon = GFX_focus_generic_hydroelectric_energy
-		relative_position_id = GGK_focus_noukouheishinseisaku
-		x = 0
-		y = 2
-		cost = 6
+# 	#수풍댐 건설 계획
+# 	focus = {
+# 		id = GGK_focus_supung_lake_plan
+# 		icon = GFX_focus_generic_hydroelectric_energy
+# 		relative_position_id = GGK_focus_noukouheishinseisaku
+# 		x = 0
+# 		y = 2
+# 		cost = 6
 	
-		prerequisite = {
-			focus = GGK_focus_noukouheishinseisaku
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_noukouheishinseisaku
+# 		}
 	
-		completion_reward = {
-			911 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+# 		completion_reward = {
+# 			911 = {
+# 				add_extra_state_shared_building_slots = 1
+# 				add_building_construction = {
+# 					type = industrial_complex
+# 					level = 1
+# 					instant_build = yes
+# 				}
+# 				add_building_construction = {
+# 					type = infrastructure
+# 					level = 1
+# 					instant_build = yes
+# 				}
+# 			}
+# 		}
+# 	}
 
-	#진해 해군공창
-	focus = {
-		id = GGK_focus_chinkai_naval_dock
-		icon = GFX_goal_generic_construct_naval_dockyard
-		relative_position_id = GGK_focus_noukouheishinseisaku
-		x = 1
-		y = 1
-		cost = 10
+# 	#진해 해군공창
+# 	focus = {
+# 		id = GGK_focus_chinkai_naval_dock
+# 		icon = GFX_goal_generic_construct_naval_dockyard
+# 		relative_position_id = GGK_focus_noukouheishinseisaku
+# 		x = 1
+# 		y = 1
+# 		cost = 10
 	
-		prerequisite = {
-			focus = GGK_focus_noukouheishinseisaku
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_noukouheishinseisaku
+# 		}
 	
-		completion_reward = {
-			917 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+# 		completion_reward = {
+# 			917 = {
+# 				add_extra_state_shared_building_slots = 1
+# 				add_building_construction = {
+# 					type = dockyard
+# 					level = 1
+# 					instant_build = yes
+# 				}
+# 			}
+# 		}
+# 	}
 
-	#인천육군조병창
-	focus = {
-		id = GGK_focus_jinsen_arsenal
-		icon = GFX_focus_jinsen_arsenal
-		relative_position_id = GGK_focus_chinkai_naval_dock
-		x = 0
-		y = 2
-		cost = 10
+# 	#인천육군조병창
+# 	focus = {
+# 		id = GGK_focus_jinsen_arsenal
+# 		icon = GFX_focus_jinsen_arsenal
+# 		relative_position_id = GGK_focus_chinkai_naval_dock
+# 		x = 0
+# 		y = 2
+# 		cost = 10
 	
-		prerequisite = {
-			focus = GGK_focus_chinkai_naval_dock
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_chinkai_naval_dock
+# 		}
 	
-		completion_reward = {
-			525 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+# 		completion_reward = {
+# 			525 = {
+# 				add_extra_state_shared_building_slots = 1
+# 				add_building_construction = {
+# 					type = arms_factory
+# 					level = 1
+# 					instant_build = yes
+# 				}
+# 			}
+# 		}
+# 	}
 
-	#평양제조소
-	focus = {
-		id = GGK_focus_heijo_factory
-		icon = GFX_goal_generic_construct_mil_factory
-		relative_position_id = GGK_focus_jinsen_arsenal
-		x = 0
-		y = 1
-		cost = 5
+# 	#평양제조소
+# 	focus = {
+# 		id = GGK_focus_heijo_factory
+# 		icon = GFX_goal_generic_construct_mil_factory
+# 		relative_position_id = GGK_focus_jinsen_arsenal
+# 		x = 0
+# 		y = 1
+# 		cost = 5
 	
-		prerequisite = {
-			focus = GGK_focus_jinsen_arsenal
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_jinsen_arsenal
+# 		}
 	
-		completion_reward = {
-			912 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+# 		completion_reward = {
+# 			912 = {
+# 				add_extra_state_shared_building_slots = 1
+# 				add_building_construction = {
+# 					type = arms_factory
+# 					level = 1
+# 					instant_build = yes
+# 				}
+# 			}
+# 		}
+# 	}
 
-	#반도 철조망 재정비
-	focus = {
-		id = GGK_focus_reorganize_railway
-		icon = GFX_focus_chosen_tetsudo
-		relative_position_id = GGK_focus_noukouheishinseisaku
-		x = 3
-		y = 1
-		cost = 10
+# 	#반도 철조망 재정비
+# 	focus = {
+# 		id = GGK_focus_reorganize_railway
+# 		icon = GFX_focus_chosen_tetsudo
+# 		relative_position_id = GGK_focus_noukouheishinseisaku
+# 		x = 3
+# 		y = 1
+# 		cost = 10
 	
-		prerequisite = {
-			focus = GGK_focus_noukouheishinseisaku
-		}
+# 		prerequisite = {
+# 			focus = GGK_focus_noukouheishinseisaku
+# 		}
 	
-		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = GGK_chosen_tetsudo_corp
-		}
-	}
+# 		completion_reward = {
+# 			custom_effect_tooltip = available_designer
+# 			show_ideas_tooltip = GGK_chosen_tetsudo_corp
+# 		}
+# 	}
 
-	#경부선 철도 복선화
-	focus = {
-		id = GGK_focus_keifusen_duplication
-		icon = GFX_focus_keifu_double
-		relative_position_id = GGK_focus_reorganize_railway
-		x = 0
-		y = 1
-		cost = 10
+# 	#경부선 철도 복선화
+# 	focus = {
+# 		id = GGK_focus_keifusen_duplication
+# 		icon = GFX_focus_keifu_double
+# 		relative_position_id = GGK_focus_reorganize_railway
+# 		x = 0
+# 		y = 1
+# 		cost = 10
 	
-		prerequisite = {
-			focus = GGK_focus_reorganize_railway
-		}
-	}
+# 		prerequisite = {
+# 			focus = GGK_focus_reorganize_railway
+# 		}
+# 	}
 
 
 
-	# #농공병진정책 확대
-    # focus = {
-	# 	id = GGK_focus_noukou_heisin
-	# 	icon = GFX_goal_generic_construct_civilian
-	# 	relative_position_id = GGK_focus_naisen_yuugou
-	# 	x = 7
-	# 	y = 1
-	# 	cost = 5
+# 	# #농공병진정책 확대
+#     # focus = {
+# 	# 	id = GGK_focus_noukou_heisin
+# 	# 	icon = GFX_goal_generic_construct_civilian
+# 	# 	relative_position_id = GGK_focus_naisen_yuugou
+# 	# 	x = 7
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_naisen_yuugou
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_naisen_yuugou
+# 	# 	}
 
-	# 	completion_reward = {
-	# 		swap_ideas = {
-	# 			remove_idea = GGK_idea_noukou_heishin1
-	# 			add_idea = GGK_idea_noukou_heishin2
-	# 		}
-	# 	}
-	# }
+# 	# 	completion_reward = {
+# 	# 		swap_ideas = {
+# 	# 			remove_idea = GGK_idea_noukou_heishin1
+# 	# 			add_idea = GGK_idea_noukou_heishin2
+# 	# 		}
+# 	# 	}
+# 	# }
 
-	# #남면북양 정책
-    # focus = {
-	# 	id = GGK_focus_nanmen_hokuyou
-	# 	icon = GFX_goal_generic_consumer_goods
-	# 	relative_position_id = GGK_focus_noukou_heisin
-	# 	x = 0
-	# 	y = 2
-	# 	cost = 10
+# 	# #남면북양 정책
+#     # focus = {
+# 	# 	id = GGK_focus_nanmen_hokuyou
+# 	# 	icon = GFX_goal_generic_consumer_goods
+# 	# 	relative_position_id = GGK_focus_noukou_heisin
+# 	# 	x = 0
+# 	# 	y = 2
+# 	# 	cost = 10
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_noukou_heisin
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_noukou_heisin
+# 	# 	}
 
-	# 	completion_reward = {
-	# 		836 = {
-	# 			add_extra_state_shared_building_slots = 1
-	# 			add_building_construction = {
-	# 				type = industrial_complex
-	# 				level = 1
-	# 				instant_build = yes
-	# 			}
-	# 		}
-	# 		837 = {
-	# 			add_extra_state_shared_building_slots = 1
-	# 			add_building_construction = {
-	# 				type = industrial_complex
-	# 				level = 1
-	# 				instant_build = yes
-	# 			}
-	# 		}
-	# 		845 = {
-	# 			add_extra_state_shared_building_slots = 1
-	# 			add_building_construction = {
-	# 				type = industrial_complex
-	# 				level = 1
-	# 				instant_build = yes
-	# 			}
-	# 		}
-	# 	}
-	# }
+# 	# 	completion_reward = {
+# 	# 		836 = {
+# 	# 			add_extra_state_shared_building_slots = 1
+# 	# 			add_building_construction = {
+# 	# 				type = industrial_complex
+# 	# 				level = 1
+# 	# 				instant_build = yes
+# 	# 			}
+# 	# 		}
+# 	# 		837 = {
+# 	# 			add_extra_state_shared_building_slots = 1
+# 	# 			add_building_construction = {
+# 	# 				type = industrial_complex
+# 	# 				level = 1
+# 	# 				instant_build = yes
+# 	# 			}
+# 	# 		}
+# 	# 		845 = {
+# 	# 			add_extra_state_shared_building_slots = 1
+# 	# 			add_building_construction = {
+# 	# 				type = industrial_complex
+# 	# 				level = 1
+# 	# 				instant_build = yes
+# 	# 			}
+# 	# 		}
+# 	# 	}
+# 	# }
 
-	# #정보기관 확대
-    # focus = {
-	# 	id = GGK_focus_expand_intelligence_agency
-	# 	icon = GFX_goal_generic_intelligence_exchange
-	# 	relative_position_id = GGK_focus_naisen_yuugou
-	# 	x = -2
-	# 	y = 1
-	# 	cost = 5
+# 	# #정보기관 확대
+#     # focus = {
+# 	# 	id = GGK_focus_expand_intelligence_agency
+# 	# 	icon = GFX_goal_generic_intelligence_exchange
+# 	# 	relative_position_id = GGK_focus_naisen_yuugou
+# 	# 	x = -2
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_naisen_yuugou
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_naisen_yuugou
+# 	# 	}
 
-	# 	completion_reward = {
+# 	# 	completion_reward = {
 			
-	# 	}
-	# }
+# 	# 	}
+# 	# }
 
-	# #일본어 상용화 정책
-    # focus = {
-	# 	id = GGK_focus_japanese_popularization_policy
-	# 	icon = GFX_focus_generic_military_academy
-	# 	relative_position_id = GGK_focus_naisen_yuugou
-	# 	x = 2
-	# 	y = 1
-	# 	cost = 5
+# 	# #일본어 상용화 정책
+#     # focus = {
+# 	# 	id = GGK_focus_japanese_popularization_policy
+# 	# 	icon = GFX_focus_generic_military_academy
+# 	# 	relative_position_id = GGK_focus_naisen_yuugou
+# 	# 	x = 2
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_naisen_yuugou
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_naisen_yuugou
+# 	# 	}
 
-	# 	completion_reward = {
+# 	# 	completion_reward = {
 			
-	# 	}
-	# }
+# 	# 	}
+# 	# }
 
 	
-	# #농촌진흥운동
-    # focus = {
-	# 	id = GGK_focus_rural_promotion_movement
-	# 	icon = GFX_goal_generic_construction2
-	# 	relative_position_id = GGK_focus_naisen_yuugou
-	# 	x = 5
-	# 	y = 1
-	# 	cost = 5
+# 	# #농촌진흥운동
+#     # focus = {
+# 	# 	id = GGK_focus_rural_promotion_movement
+# 	# 	icon = GFX_goal_generic_construction2
+# 	# 	relative_position_id = GGK_focus_naisen_yuugou
+# 	# 	x = 5
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_naisen_yuugou
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_naisen_yuugou
+# 	# 	}
 
-	# 	completion_reward = {
+# 	# 	completion_reward = {
 			
-	# 	}
-	# }
+# 	# 	}
+# 	# }
 
-	# #텅스텐 광산 확충
-    # focus = {
-	# 	id = GGK_focus_develop_tungsten_deposit
-	# 	icon = GFX_focus_generic_tungsten
-	# 	relative_position_id = GGK_focus_rural_promotion_movement
-	# 	x = -1
-	# 	y = 1
-	# 	cost = 5
+# 	# #텅스텐 광산 확충
+#     # focus = {
+# 	# 	id = GGK_focus_develop_tungsten_deposit
+# 	# 	icon = GFX_focus_generic_tungsten
+# 	# 	relative_position_id = GGK_focus_rural_promotion_movement
+# 	# 	x = -1
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_rural_promotion_movement
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_rural_promotion_movement
+# 	# 	}
 
-	# 	completion_reward = {
+# 	# 	completion_reward = {
 			
-	# 	}
-	# }
+# 	# 	}
+# 	# }
 
-	# #포항 제철소
-    # focus = {
-	# 	id = GGK_focus_pohang_iron_works
-	# 	icon = GFX_focus_generic_steel
-	# 	relative_position_id = GGK_focus_develop_tungsten_deposit
-	# 	x = 0
-	# 	y = 1
-	# 	cost = 5
+# 	# #포항 제철소
+#     # focus = {
+# 	# 	id = GGK_focus_pohang_iron_works
+# 	# 	icon = GFX_focus_generic_steel
+# 	# 	relative_position_id = GGK_focus_develop_tungsten_deposit
+# 	# 	x = 0
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_develop_tungsten_deposit
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_develop_tungsten_deposit
+# 	# 	}
 
-	# 	completion_reward = {
+# 	# 	completion_reward = {
 			
-	# 	}
-	# }
+# 	# 	}
+# 	# }
 
-	# #조선반도 횡단 철도
-    # focus = {
-	# 	id = GGK_focus_korean_peninsula_railway
-	# 	icon = GFX_goal_generic_construct_infrastructure
-	# 	relative_position_id = GGK_focus_rural_promotion_movement
-	# 	x = 1
-	# 	y = 1
-	# 	cost = 5
+# 	# #조선반도 횡단 철도
+#     # focus = {
+# 	# 	id = GGK_focus_korean_peninsula_railway
+# 	# 	icon = GFX_goal_generic_construct_infrastructure
+# 	# 	relative_position_id = GGK_focus_rural_promotion_movement
+# 	# 	x = 1
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_rural_promotion_movement
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_rural_promotion_movement
+# 	# 	}
 
-	# 	completion_reward = {
+# 	# 	completion_reward = {
 			
-	# 	}
-	# }
+# 	# 	}
+# 	# }
 
-	# #연구 예산
-    # focus = {
-	# 	id = GGK_focus_research_spending
-	# 	icon = GFX_focus_research
-	# 	relative_position_id = GGK_focus_korean_peninsula_railway
-	# 	x = 0
-	# 	y = 1
-	# 	cost = 5
+# 	# #연구 예산
+#     # focus = {
+# 	# 	id = GGK_focus_research_spending
+# 	# 	icon = GFX_focus_research
+# 	# 	relative_position_id = GGK_focus_korean_peninsula_railway
+# 	# 	x = 0
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_korean_peninsula_railway
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_korean_peninsula_railway
+# 	# 	}
 
-	# 	completion_reward = {
+# 	# 	completion_reward = {
 			
-	# 	}
-	# }
+# 	# 	}
+# 	# }
 
-	# #조선 내지 편입
-    # focus = {
-	# 	id = GGK_focus_intergrate_chosen
-	# 	icon = GFX_focus_jap_pacific_guardian
-	# 	relative_position_id = GGK_focus_kouminka_seisaku
-	# 	x = 0
-	# 	y = 1
-	# 	cost = 5
+# 	# #조선 내지 편입
+#     # focus = {
+# 	# 	id = GGK_focus_intergrate_chosen
+# 	# 	icon = GFX_focus_jap_pacific_guardian
+# 	# 	relative_position_id = GGK_focus_kouminka_seisaku
+# 	# 	x = 0
+# 	# 	y = 1
+# 	# 	cost = 5
 
-	# 	prerequisite = {
-	# 		focus = GGK_focus_kouminka_seisaku
-	# 	}
+# 	# 	prerequisite = {
+# 	# 		focus = GGK_focus_kouminka_seisaku
+# 	# 	}
 
-	# 	completion_reward = {
+# 	# 	completion_reward = {
 			
-	# 	}
-	# }
-}
+# 	# 	}
+# 	# }
+# }

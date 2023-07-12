@@ -2,8 +2,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "pk_welcome_splash_container"
-		position = { x = 0 y = 0 }
-		size = { width = 750 height = 700 }
+		position = { x = 0 y = 30 }
+		size = { width = 800 height = 800 }
 		moveable = yes
 		orientation = CENTER
 		origo = center
@@ -11,41 +11,188 @@ guiTypes = {
 		background = {
 			name = "pk_logo"
 			spriteType ="GFX_pk_splash_intro"
-			position = { x = -24 y = -70 }
+			position = { x = 0 y = -70 }
 		}
 
-		background = {
-			name = "pk_logo_bg"
-			spriteType = "GFX_pk_splash_intro_box"
-			position = { x = -15 y = 420 }
+		containerWindowType = {
+			name = "splash_bg"
+			position = { x = 0 y = 320 }
+			size = { width = 730 height = 450 }
+			orientation = CENTER_UP
+			origo = center_up
+			clipping = no
+
+			background = { quadTextureSprite = "GFX_tiled_window_pol_goal" }
+
+			containerWindowType = {
+				name = "splash_border"
+				position = { x = 0 y = 4 }
+				size = { width = 720 height = 440 }
+				orientation = CENTER_UP
+				origo = center_up
+				clipping = no
+
+				background = { quadTextureSprite = "GFX_tiled_generic_bg_1" }
+
+				containerWindowType = {
+					name = welcome_splash_tab_button_container
+					position = { x = -315 y = 22 }
+					size = { width = 630 height = 60 }
+					orientation = CENTER_UP
+
+					buttonType = {
+						name = "tab_1"
+						position = { x = 0 y = 0 }
+						quadTextureSprite ="GFX_strategic_air_sort"
+						# buttonText = "KR_welcome_splash_tab_1"
+						buttonText = "간략한 역사"
+						font = "pk_20"
+						clicksound = click_default
+					}
+				}
+
+				containerWindowType = {
+					name = content_bg_bottom_layer
+					position = { x = 0 y = 72 }
+					size = { width = 696 height = 360 }
+					orientation = CENTER_UP
+					origo = center_up
+
+					background = { quadTextureSprite = GFX_tiled_window_thin_border }
+
+					containerWindowType = {
+						name = content_bg_top_layer
+						position = { x = 0 y = 4 }
+						size = { width = 688 height = 352 }
+						orientation = CENTER_UP
+						origo = center_up
+
+						background = { quadTextureSprite = GFX_tiled_generic_bg_1 }
+					}
+				}
+
+				buttonType = {
+					name = "mod_options_button"
+					position = { x = 210 y = 403 }
+					quadTextureSprite ="GFX_main_lobby_button"	
+					buttonText = "확인"
+					buttonFont = "aldrich_24_outline"
+					clicksound = click_default
+					oversound = ui_menu_over
+					shortcut = "ESCAPE"
+				}
+
+				# buttonType = {
+				# 	name = "mod_options_button"
+				# 	position = { x = -120 y = -48 }
+				# 	orientation = center_down
+
+				# 	quadTextureSprite = "GFX_intro_screen_continue_button"
+				# 	buttonText = "mod_options_button_text"
+				# 	buttonFont = "hoi_24header"
+				# 	clicksound = click_default
+				# 	oversound = ui_menu_over
+				# 	shortcut = "c"
+				# }
+			}
 		}
 
-		instantTextboxType = {
-			name = "tab_1_text_header_2"
-			position = { x = 25 y = 447 }
-			font = "aldrich_36_outline"
-			text = "pk_SPLASH_TITLE"
-			maxWidth = 700
-			format = center
+		containerWindowType = {
+			name = splash_country_tab_container
+			position = { x = 55 y = 400 }
+			size = { width = 720 height = 360 }
+			# margin = { left = 16 right = 16 }
+			clipping = yes
+	
+			## backdrop texticon scripted loc textbox
+			containerWindowType = {
+				name = "splash_country_tab_container_bg"
+				size = { width = 172 height = 352 }
+	
+				background = { quadTextureSprite = "GFX_tiled_paper_bg2" }
+	
+				iconType = {
+					name = "opening_screen_poster"
+					# spriteType = "GFX_poster_GER"
+					position = { x = 2 y = 2 }
+				}
+			}
+
+	
+			containerWindowType = {
+				name = "KR_welcome_splash_tab_1_text_container"
+				position = { x = 172 y = 0 }
+				margin = { left = 8 right = 8 }
+	
+				instantTextboxType = {
+					name = "splash_country_tab_header"
+					text = "COUNTRY_FLAG_AND_NAME"
+					position = { x = 0 y = 6 }
+					font = "pk_20"
+					maxWidth = 500
+				}
+	
+				instantTextboxType = {
+					name = "splash_country_tab_content"
+					text = "COUNTRY_INFO_TEXT"
+					position = { x = 0 y = 28 }
+					font = "hoi_18b"
+					maxWidth = 500
+					maxHeight = 290
+					scrollbartype = "standardtext_slider"
+				}
+			}
 		}
 
-		instantTextboxType = {
-			name = "tab_1_cont3_text"
-			position = { x = 43 y= 518 }
-			font = "pk_20"
-			text = "pk_SPLASH_CREDITS"
-			maxWidth = 670
-		}
+		# background = {
+		# 	name = "pk_logo_bg"
+		# 	spriteType = "GFX_pk_splash_intro_box"
+		# 	position = { x = -15 y = 420 }
+		# }
+
+		# instantTextboxType = {
+		# 	name = "tab_1_text_header_2"
+		# 	position = { x = 25 y = 447 }
+		# 	font = "aldrich_36_outline"
+		# 	text = "pk_SPLASH_TITLE"
+		# 	maxWidth = 700
+		# 	format = center
+		# }
+
+		# instantTextboxType = {
+		# 	name = "tab_1_cont3_text"
+		# 	position = { x = 43 y= 518 }
+		# 	font = "pk_20"
+		# 	text = "pk_SPLASH_CREDITS"
+		# 	maxWidth = 670
+		# }
+
+		# buttonType = {
+		# 	name = "mod_options_button"
+		# 	position = { x = 226 y = 658 }
+		# 	quadTextureSprite ="GFX_main_lobby_button"	
+		# 	buttonText = "확인"
+		# 	buttonFont = "aldrich_24_outline"
+		# 	clicksound = click_default
+		# 	oversound = ui_menu_over
+		# 	shortcut = "ESCAPE"
+		# }
+	}
+
+	containerWindowType = {
+		name = "pk_help_button_container"
+		position = { x = -29 y = 34 }
+		orientation = upper_right
 
 		buttonType = {
-			name = "mod_options_button"
-			position = { x = 226 y = 658 }
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "확인"
-			buttonFont = "aldrich_24_outline"
-			clicksound = click_default
+			name = "pk_help_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_help_button"
+			clicksound = click_ok
 			oversound = ui_menu_over
-			shortcut = "ESCAPE"
+			pdx_tooltip = kr_help_title
+			pdx_tooltip_delayed = kr_help_tooltip
+			shortcut = "ctrl+i"
 		}
 	}
 }

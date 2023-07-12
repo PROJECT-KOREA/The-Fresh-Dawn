@@ -1,5 +1,5 @@
 ﻿#수도
-capital = 746
+capital = 612 #746
 
 #전투서열
 oob = "MEN_1936"

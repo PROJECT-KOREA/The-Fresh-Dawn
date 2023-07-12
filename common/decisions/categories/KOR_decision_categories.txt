@@ -29,7 +29,7 @@ KOR_recruit_volunteer_army = {
 	allowed = { original_tag = KOR }
 	visible = {
 		# KOR_woi_in_progress = yes
-		has_completed_focus = KOR_focus_liberation_voulnteer_army
+		# has_completed_focus = KOR_focus_liberation_voulnteer_army
 	}
 	on_map_area = {
 		state = 911
@@ -47,7 +47,7 @@ KOR_guerrilla_warfare = {
 	allowed = { original_tag = KOR }
 	visible = {
 		# KOR_woi_in_progress = yes
-		has_completed_focus = KOR_focus_guerrilla_warfare
+		# has_completed_focus = KOR_focus_guerrilla_warfare
 	}
 	on_map_area = {
 		state = 911

@@ -7,6 +7,7 @@ state = {
 	
 	history = {
 		owner = GGK
+		# owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 		
@@ -22,16 +23,16 @@ state = {
 
 			#해군기지
 			4056 = { naval_base = 2 } #부산
-			13273 = { naval_base = 3 } #마산
+			13276 = { naval_base = 3 } #마산
 		}
 
 		victory_points = { 4056 8 } #부산(후잔)
-		victory_points = { 13273 3 } #마산(바산)
+		victory_points = { 13276 3 } #마산(바산)
 	}
 
 	# resources = { steel = 40 }
 
 	provinces = {
-		1054 4056 10085 12060 13273 13283
+		1054 1081 4056 12060 13276 13277
 	}
 }

@@ -56,20 +56,40 @@ defined_text = {
 
 
 defined_text = {
+	name = GetComFaction
+    text = {
+        trigger = { has_country_flag = KOR_flag_wpk }
+        localization_key = KOR_COM_faction_wpk
+    }
+	text = { localization_key = KOR_communism_party_cpk }
+}
+defined_text = {
+	name = GetRadSocFaction
+    text = {
+        trigger = { has_country_flag = KOR_flag_wpk }
+        localization_key = KOR_RADSOC_faction_wpk
+    }
+	text = { localization_key = KOR_RADSOC_faction_knrp }
+}
+defined_text = {
 	name = GetSocDemFaction
-    # text = {
-    #     trigger = { has_country_flag = KOR_flag_party_allowed }
-    #     localization_key = KOR_n_socialism_party_ppk
-    # }
+    text = {
+        trigger = { has_country_flag = KOR_flag_wpk_split }
+        localization_key = KOR_n_socialism_party_swp
+    }
+    text = {
+        trigger = { has_country_flag = KOR_flag_wpk }
+        localization_key = KOR_SOCDEM_faction_wpk
+    }
 	text = { localization_key = KOR_n_socialism_party_ppk }
 }
 defined_text = {
 	name = GetSocLibFaction
-    # text = {
-    #     trigger = { has_country_flag = KOR_flag_party_allowed }
-    #     localization_key = KOR_cen_faciton_np
-    # }
-	text = { localization_key = KOR_democratic_party_np }
+    text = {
+        trigger = { has_country_flag = KOR_flag_kip_np }
+        localization_key = KOR_SOCLIB_faction_kip
+    }
+	text = { localization_key = KOR_SOCLIB_faction_np }
 }
 defined_text = {
 	name = GetNatLibFaction
@@ -77,14 +97,14 @@ defined_text = {
     #     trigger = { has_country_flag = KOR_flag_party_allowed }
     #     localization_key = KOR_lib_faciton_dpk
     # }
-	text = { localization_key = KOR_NATLIB_faction_name }
+	text = { localization_key = KOR_NATLIB_faction_kdp }
 }
 defined_text = {
 	name = GetLibConFaction
     # text = {
     	# trigger = { has_country_flag = KOR_flag_party_allowed }
     # }
-	text = { localization_key = KOR_democratic_party_dpk }
+	text = { localization_key = KOR_LIBCON_faction_dpk }
 }
 defined_text = {
 	name = GetSocConFaction
@@ -96,10 +116,10 @@ defined_text = {
 }
 defined_text = {
 	name = GetNatConFaction
-    # text = {
-    #     trigger = { has_country_flag = KOR_flag_party_allowed }
-    #     localization_key = KOR_democratic_party_rnc
-    # }
+    text = {
+        trigger = { has_country_flag = KOR_flag_kip_np }
+        localization_key = KOR_NATCON_faction_kip_n
+    }
 	text = { localization_key = KOR_neutrality_party_kip }
 }
 # defined_text = {

@@ -4,8 +4,8 @@ KOR = {
 }
 
 GGK = {
-	color = rgb { 170 110 130 }
-	color_ui = rgb { 170 110 130 }
+	color = rgb { 255 200 175 }
+	color_ui = rgb { 255 200 175 }
 }
 
 PRK = {
@@ -14,18 +14,21 @@ PRK = {
 }
 
 JAP = {
-	color = rgb { 106 46 53 }
-	color_ui = rgb { 106 46 53 }
+	# color = rgb { 255 185 180 }
+	# color_ui = rgb { 255 185 180 }
+	color = rgb { 255 200 190 }
+	color_ui = rgb { 255 185 180 }
 }
 
 MAN = {
-	color = rgb { 238 188 95 }
-	color_ui = rgb { 238 188 95 }
+	color = rgb { 210 120 60 }
+	color_ui = rgb { 180 100 20 }
 }
 
 MEN = {
-	color = rgb { 125 110 70 }
-	color_ui = rgb { 125 110 70 }
+	# color = rgb { 185 255 180 }
+	color = rgb { 150 200 170 }
+	color_ui = rgb { 165 230 132 }
 }
 
 CHI = {
@@ -64,27 +67,25 @@ PRC = {
 }
 
 MON = {
-	color = rgb { 115 15 20 }
+	color = rgb { 120 40 40 }
 	color_ui = rgb { 115 15 20 }
 }
 
 TAN = {
-	color = rgb { 115 15 20 }
+	color = rgb { 120 40 40 }
 	color_ui = rgb { 115 15 20 }
 }
-
-
 # ECA = {
 # 	color = rgb { 170 140 50 }
 # 	color_ui = rgb { 170 140 50 }
 # }
 EHB = {
-	color = rgb { 120 140 160 }
-	color_ui = rgb { 120 140 160 }
+	color = rgb { 125 145 180 }
+	color_ui = rgb { 125 145 180 }
 }
 HPC = {
-	color = rgb { 140 140 140 }
-	color_ui = rgb { 93 181 227 }
+	color = rgb { 125 190 220 }
+	color_ui = rgb { 125 190 220 }
 }
 SHD = {
 	color = rgb { 22 122 204 }
@@ -116,7 +117,6 @@ TNG = {
 }
 
 #reload countrycolors
-
 	GER = {
 		color = HSV { 0.1 0.15 0.4 }
 		color_ui = rgb { 138 155 116 }

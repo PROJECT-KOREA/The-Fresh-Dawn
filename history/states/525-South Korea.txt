@@ -5,6 +5,7 @@ state = {
 	state_category = large_town
 	history = {
 		owner = GGK
+		# owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 		buildings = {
@@ -22,6 +23,6 @@ state = {
 	}
 
 	provinces = {
-		7125 7221 10036 12040 13263 13264 13265 13279 13280 
+		7125 7221 10036 12040 13261 13262 13263 13264 13265 
 	}
 }

@@ -117,8 +117,8 @@ country_event = {
                 ideology = despotism
                 traits = { }
             }
-            add_ideas = HoG_Ono_Rokuichiro
-            load_focus_tree = GGK_Minami
+            # add_ideas = HoG_Ono_Rokuichiro
+            # load_focus_tree = GGK_Minami
         }
     }
 
@@ -132,7 +132,7 @@ country_event = {
                 ideology = despotism
                 traits = { }
             }
-            add_ideas = HoG_Ono_Rokuichiro
+            # add_ideas = HoG_Ono_Rokuichiro
         }
     }
 }

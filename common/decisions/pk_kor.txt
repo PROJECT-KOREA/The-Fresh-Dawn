@@ -364,6 +364,57 @@ KOR_national_reconstruction = {
 	}
 }
 
+# 한국의 정치 현황
+KOR_political_situation = {
+	# 지방정당 조직 강화
+	KOR_natcon_local_party_organization = {
+		icon = generic_nationalism
+		visible = { has_country_flag = KOR_flag_faction_natcon }
+		available = { NOT = { has_country_flag = KOR_flag_political_action } }
+		cost = 20
+		days_remove = 30
+		fire_only_once = yes
+		modifier = {
+			political_power_gain = -0.15
+		}
+		complete_effect = {
+			set_country_flag = KOR_flag_political_action
+			set_country_flag = KOR_flag_natcon_local_party
+		}
+		remove_effect = {
+			clr_country_flag = KOR_flag_political_action
+			custom_effect_tooltip = KOR_natcon_gain_5
+			add_to_variable = { KOR_kip_strength = 5 }
+			# clr_country_flag = KOR_flag_rural_recon
+			# 909 = { add_state_level_1 = yes }
+			# 910 = { add_state_level_1 = yes }
+		}
+	}
+	KOR_natcon_provincial_tour = {
+		icon = infiltrate_state
+		visible = {
+			has_country_flag = KOR_flag_faction_natcon
+			has_country_flag = KOR_flag_natcon_local_party
+		}
+		available = { NOT = { has_country_flag = KOR_flag_political_action } }
+		cost = 30
+		days_remove = 40
+		fire_only_once = yes
+		modifier = {
+			political_power_gain = -0.2
+		}
+		complete_effect = { set_country_flag = KOR_flag_political_action }
+		remove_effect = {
+			clr_country_flag = KOR_flag_political_action
+			custom_effect_tooltip = KOR_natcon_gain_10
+			add_to_variable = { KOR_kip_strength = 10 }
+			# clr_country_flag = KOR_flag_rural_recon
+			# 909 = { add_state_level_1 = yes }
+			# 910 = { add_state_level_1 = yes }
+		}
+	}
+}
+
 # 이념적 갈등
 KOR_ideological_conflict = {
 	# erwerew = {}

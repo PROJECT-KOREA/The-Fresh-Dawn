@@ -2,6 +2,7 @@
 add_namespace = kor_kpg_internal
 add_namespace = kor_kpg_election
 add_namespace = kor_kpg_party
+add_namespace = kor_kpg_faction
 
 ## 내정 이벤트 ##
 	#일본의 평화협정 제안
@@ -24,16 +25,20 @@ add_namespace = kor_kpg_party
 				remove_ideas = KOR_idea_doknip_uiyonggun
 			}
 			if = {
-				limit = { has_idea = KOR_idea_kia_1 }
-				remove_ideas = KOR_idea_kia_1
+				limit = { has_idea = KOR_idea_kia }
+				remove_ideas = KOR_idea_kia
 			}
 			if = {
-				limit = { has_idea = KOR_idea_kia_2 }
-				remove_ideas = KOR_idea_kia_2
+				limit = { has_idea = KOR_idea_kia }
+				remove_ideas = KOR_idea_kia
 			}
 			if = {
-				limit = { has_idea = KOR_hang_il_yugyeok }
-				remove_ideas = KOR_hang_il_yugyeok
+				limit = { has_idea = KOR_idea_hang_il_yugyeok1 }
+				remove_ideas = KOR_idea_hang_il_yugyeok1
+			}
+			if = {
+				limit = { has_idea = KOR_idea_hang_il_yugyeok2 }
+				remove_ideas = KOR_idea_hang_il_yugyeok2
 			}
 			if = {
 				limit = { has_idea = KOR_idea_poc }
@@ -52,12 +57,12 @@ add_namespace = kor_kpg_party
 				remove_ideas = KOR_idea_time_to_revenge
 			}
 			if = {
-				limit = { has_idea = KOR_idea_time_to_revenge }
-				remove_ideas = KOR_idea_time_to_revenge
+				limit = { has_idea = KOR_idea_patriotism_propaganda }
+				remove_ideas = KOR_idea_patriotism_propaganda
 			}
 			if = {
-				limit = { has_idea = KOR_idea_time_to_revenge }
-				remove_ideas = KOR_idea_time_to_revenge
+				limit = { has_idea = KOR_idea_mil_commissar }
+				remove_ideas = KOR_idea_mil_commissar
 			}
 			add_ideas = KOR_idea_scarred_nation1
 			add_ideas = KOR_idea_pro_japanese_collaborators
@@ -96,6 +101,13 @@ add_namespace = kor_kpg_party
 
 		is_triggered_only = yes
 		fire_only_once = yes
+
+		immediate = {
+			country_event = {
+				id = kor_faction.1
+				days = 12
+			}
+		}
 
 		option = {
 			name = kor_kpg_internal.2.a
@@ -436,6 +448,203 @@ add_namespace = kor_kpg_party
 				long_name = KOR_democratic_party_kpp_long 
 				name = KOR_democratic_party_kpp 
 			}
+		}
+	}
+#
+
+## 파벌 이벤트 ##
+#정당 창설을 허용한 임시정부
+	country_event = {
+		id = kor_kpg_faction.1
+		title = kor_kpg_faction.1.t
+		desc = kor_kpg_faction.1.desc
+		picture = GFX_report_event_KOR_kim_koo_speech
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_faction.1.a
+			set_party_name = { 
+				ideology = communism
+				long_name = KOR_communism_party_cpk_long
+				name = KOR_communism_party_cpk
+			}
+			set_party_name = { 
+				ideology = n_socialism
+				long_name = KOR_n_socialism_party_ppk_long
+				name = KOR_n_socialism_party_ppk
+			}
+			set_party_name = { 
+				ideology = democratic
+				long_name = KOR_democratic_party_rnc_long
+				name = KOR_democratic_party_rnc
+			}
+			# set_party_name = { 
+			#     ideology = fascism
+			#     long_name = KOR_fascism_party_ilmin_long
+			#     name = KOR_fascism_party_ilmin
+			# }
+			add_stability = 0.03
+			hidden_effect = {
+				add_country_leader_role = {
+					character = KOR_Syngman_Rhee
+					promote_leader = yes
+					country_leader = {
+						ideology = conservatism
+						traits = {  }
+					}
+				}
+				country_event = {
+					id = kor_kpg_faction.2
+					days = 8
+				}
+			}
+		}
+	}
+
+	#해방 정국의 이념적 갈등
+	country_event = {
+		id = kor_kpg_faction.2
+		title = kor_kpg_faction.2.t
+		desc = kor_kpg_faction.2.desc
+		picture = GFX_report_event_KOR_internal_figure
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_faction.2.a
+			add_ideas = KOR_idea_ideological_conflict
+			unlock_decision_category_tooltip = KOR_political_situation
+			unlock_decision_category_tooltip = KOR_ideological_conflict
+			set_country_flag = kor_kpg_faction
+			hidden_effect = {
+				add_ideas = {
+					KOR_idea_faction_com_notgood
+					KOR_idea_faction_radsoc_normal
+					KOR_idea_faction_socdem_normal
+					KOR_idea_faction_soclib_friendly
+					KOR_idea_faction_natlib_friendly
+					KOR_idea_faction_libcon_normal
+					KOR_idea_faction_soccon_normal
+					KOR_idea_faction_natcon_royal
+					KOR_idea_faction_fas_normal
+				}
+			}
+		}
+	}
+
+	#정치적 세력들의 대립
+	country_event = {
+		id = kor_kpg_faction.3
+		title = kor_kpg_faction.3.t
+		desc = kor_kpg_faction.3.desc
+		picture = GFX_report_event_KOR_kim_koo_syngman_rhee_kim_kyu_sik
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_faction.3.a
+			set_country_flag = KOR_flag_faction_natcon
+		}
+
+		option = {
+			name = kor_kpg_faction.3.b
+			
+		}
+
+		option = {
+			name = kor_kpg_faction.3.c
+			
+		}
+	}
+
+	#임시정부에서 탈퇴한 사회주의 계열
+	country_event = {
+		id = kor_kpg_faction.4
+		title = kor_kpg_faction.4.t
+		desc = kor_kpg_faction.4.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_faction.4.a
+			FAC_set_radsoc_notgood = yes
+		}
+	}
+
+	#임시정부 지지 성명을 발표한 한국민주당
+	country_event = {
+		id = kor_kpg_faction.5
+		title = kor_kpg_faction.5.t
+		desc = kor_kpg_faction.5.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_faction.5.a
+			FAC_set_libcon_friendly = yes
+		}
+	}
+
+	#심화되는 우익 진영 내 갈등
+	country_event = {
+		id = kor_kpg_faction.6
+		title = kor_kpg_faction.6.t
+		desc = kor_kpg_faction.6.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_faction.6.a
+			FAC_set_soccon_notgood = yes
+		}
+	}
+
+	#한독당-국민당 합당 성사
+	country_event = {
+		id = kor_kpg_faction.7
+		title = kor_kpg_faction.7.t
+		desc = kor_kpg_faction.7.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_faction.7.a
+			set_country_flag = KOR_flag_kip_np
+		}
+	}
+
+	#
+	country_event = {
+		id = kor_kpg_faction.99
+		title = kor_kpg_faction.99.t
+		desc = kor_kpg_faction.99.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_faction.99.a
+			set_country_flag = KOR_flag_wpk
+		}
+	}
+	
+	#
+	country_event = {
+		id = kor_kpg_faction.999
+		title = kor_kpg_faction.999.t
+		desc = kor_kpg_faction.999.desc
+		picture = GFX_report_event_KOR_kim_koo_with_kim_wonbong
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_faction.999.a
+			set_country_flag = KOR_flag_wpk_split
 		}
 	}
 #

@@ -160,20 +160,25 @@ KOR_create_units = {
 			prioritize_location = 9918
 		}
 		create_unit = {
-			division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+			division = "division_template = \"독립기갑연대\" start_experience_factor = 0.75 force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
 			owner = KOR
-			prioritize_location = 9918
+			prioritize_location = 912
 		}
-		create_unit = {
-			division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
-			owner = KOR
-			prioritize_location = 9918
-		}
-		create_unit = {
-			division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
-			owner = KOR
-			prioritize_location = 9918
-		}
+		# create_unit = {
+		# 	division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+		# 	owner = KOR
+		# 	prioritize_location = 9918
+		# }
+		# create_unit = {
+		# 	division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+		# 	owner = KOR
+		# 	prioritize_location = 9918
+		# }
+		# create_unit = {
+		# 	division = "division_template = \"독립의용군\"  start_experience_factor = 0.3"
+		# 	owner = KOR
+		# 	prioritize_location = 9918
+		# }
 	}
 	if = {
 		limit = {

@@ -82,8 +82,8 @@ ideas = {
 				}
 			}
 
-			#한국광복군 1
-			KOR_idea_kia_1 = {
+			#한국광복군
+			KOR_idea_kia = {
 				name = KOR_idea_kia
 				picture = independence_army
 				removal_cost = -1
@@ -95,8 +95,21 @@ ideas = {
 				}
 			}
 
-			#한국광복군 2
-			KOR_idea_kia_2 = {
+			#한국광복군 - 정예화
+			KOR_idea_kia_elite = {
+				name = KOR_idea_kia
+				picture = independence_army
+				removal_cost = -1
+				modifier = {
+					army_org_factor = 0.05
+					army_morale_factor = 0.10
+					army_core_attack_factor = 0.10
+					army_core_defence_factor = 0.15
+				}
+			}
+
+			#한국광복군 - 특무대
+			KOR_idea_kia_sou = {
 				name = KOR_idea_kia
 				picture = independence_army
 				removal_cost = -1
@@ -105,6 +118,19 @@ ideas = {
 					army_morale_factor = 0.05
 					army_core_attack_factor = 0.15
 					army_core_defence_factor = 0.15
+				}
+			}
+
+			#한국광복군 - 정예화/특무대
+			KOR_idea_kia_elite_sou = {
+				name = KOR_idea_kia
+				picture = independence_army
+				removal_cost = -1
+				modifier = {
+					army_org_factor = 0.05
+					army_morale_factor = 0.10
+					army_core_attack_factor = 0.15
+					army_core_defence_factor = 0.20
 				}
 			}
 
@@ -215,7 +241,7 @@ ideas = {
 				removal_cost = -1
 				modifier = {
 					industrial_capacity_factory = -0.1
-					line_change_production_efficiency_factor = -0.1
+					line_change_production_efficiency_factor = -0.15
 				}
 				research_bonus = {
 					industry = -0.05
@@ -239,9 +265,9 @@ ideas = {
 		### 독립전쟁 ###
 
 			#항일유격전
-			KOR_hang_il_yugyeok1 = {
-				name = KOR_hang_il_yugyeok
-				picture = generic_volunteer_expedition_bonus
+			KOR_idea_hang_il_yugyeok1 = {
+				name = KOR_idea_hang_il_yugyeok
+				picture = chi_war_of_resistance3
 				allowed = { always = no }
 				removal_cost = -1
 				modifier = {
@@ -253,9 +279,9 @@ ideas = {
 			}
 
 			#항일유격전
-			KOR_hang_il_yugyeok2 = {
-				name = KOR_hang_il_yugyeok
-				picture = generic_volunteer_expedition_bonus
+			KOR_idea_hang_il_yugyeok2 = {
+				name = KOR_idea_hang_il_yugyeok
+				picture = chi_war_of_resistance3
 				allowed = { always = no }
 				removal_cost = -1
 				modifier = {
@@ -341,7 +367,7 @@ ideas = {
 
 			#애국주의 선전
 			KOR_idea_patriotism_propaganda = {
-				picture = chi_war_of_resistance3
+				picture = generic_volunteer_expedition_bonus
 				allowed = { always = no }
 				removal_cost = -1
 				modifier = {
@@ -353,7 +379,7 @@ ideas = {
 
 			#중국 군사고문단
 			KOR_idea_chi_advisor = {
-				picture = chi_war_of_resistance3
+				picture = german_advisors
 				allowed = { always = no }
 				removal_cost = -1
 				modifier = {
@@ -364,7 +390,7 @@ ideas = {
 
 			#군사위원회
 			KOR_idea_mil_committee = {
-				picture = chi_war_of_resistance3
+				picture = general_staff
 				allowed = { always = no }
 				removal_cost = -1
 				modifier = {
@@ -375,7 +401,7 @@ ideas = {
 
 			#군 정치위원
 			KOR_idea_mil_commissar = {
-				picture = general_staff
+				picture = generic_manpower_bonus
 				allowed = { always = no }
 				removal_cost = -1
 				modifier = {

@@ -14,6 +14,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_focus_hokusen_industry"
+		textureFile = "gfx/interface/goals/GGK/focus_hokusen_industry.dds"
+	}
+
+	spriteType = {
 		name = "GFX_focus_jinsen_arsenal"
 		textureFile = "gfx/interface/goals/GGK/focus_jinsen_arsenal.dds"
 	}

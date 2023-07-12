@@ -1,83 +1,83 @@
-scripted_gui = {
-	TNO_opening_button = {
-		parent_window_name = "MapmodesInterface_Ingame"
-		window_name = "TNO_OpeningScreen_OpenButton"
+# scripted_gui = {
+# 	TNO_opening_button = {
+# 		parent_window_name = "MapmodesInterface_Ingame"
+# 		window_name = "TNO_OpeningScreen_OpenButton"
 
-		visible = {
-			NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
-		}
+# 		visible = {
+# 			NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
+# 		}
 
-		effects = {
-			topbar_opening_button_click = {
-				if = {
-					limit = { has_country_flag = TNO_opening_screen_show }
-					clr_country_flag = TNO_opening_screen_show
-				}
-				else = {
-					set_country_flag = TNO_opening_screen_show
-				}
-			}
-		}
-	}
+# 		effects = {
+# 			topbar_opening_button_click = {
+# 				if = {
+# 					limit = { has_country_flag = show_welcome_splash }
+# 					clr_country_flag = show_welcome_splash
+# 				}
+# 				else = {
+# 					set_country_flag = show_welcome_splash
+# 				}
+# 			}
+# 		}
+# 	}
 	
-	TNO_opening_screen_main = {
-		context_type = player_context
-		parent_window_token = top_bar
-		window_name = "TNO_OpeningScreen_Main"
+# 	TNO_opening_screen_main = {
+# 		context_type = player_context
+# 		parent_window_token = top_bar
+# 		window_name = "TNO_OpeningScreen_Main"
 
-		visible = {
-			has_country_flag = TNO_opening_screen_show
-		}
+# 		visible = {
+# 			has_country_flag = TNO_opening_screen_show
+# 		}
 
-		effects = {
-			close_button_click = {
-				clr_country_flag = TNO_opening_screen_show
-			}
-		}
+# 		effects = {
+# 			close_button_click = {
+# 				clr_country_flag = TNO_opening_screen_show
+# 			}
+# 		}
 
-		properties = {
-			TNO_OpeningScreen_PlayerFlag = {
-				image = "[This.GetFlag]"
-			}
+# 		properties = {
+# 			TNO_OpeningScreen_PlayerFlag = {
+# 				image = "[This.GetFlag]"
+# 			}
 			
-			opening_screen_poster1 = {
-				image = "[GET_POSTER1]"
-			}
+# 			opening_screen_poster1 = {
+# 				image = "[GET_POSTER1]"
+# 			}
 			
-			opening_screen_poster2 = {
-				image = "[GET_POSTER2]"
-			}
+# 			opening_screen_poster2 = {
+# 				image = "[GET_POSTER2]"
+# 			}
 			
-			TNO_OpeningScreen_RegionSymbol = {
-				image = "[GET_REGIONALSYMBOL]"
-			}
-		}
-	}
+# 			TNO_OpeningScreen_RegionSymbol = {
+# 				image = "[GET_REGIONALSYMBOL]"
+# 			}
+# 		}
+# 	}
 	
-	# TNO_closing_screen_main = {
-	# 	context_type = player_context
-	# 	parent_window_token = top_bar
-	# 	window_name = "TNO_ClosingScreen_Main"
+# 	# TNO_closing_screen_main = {
+# 	# 	context_type = player_context
+# 	# 	parent_window_token = top_bar
+# 	# 	window_name = "TNO_ClosingScreen_Main"
 
-	# 	visible = {
-	# 		AND = {
-	# 			is_ai = no
-	# 			has_country_flag = TNO_closing_screen_show
-	# 		}
-	# 	}
+# 	# 	visible = {
+# 	# 		AND = {
+# 	# 			is_ai = no
+# 	# 			has_country_flag = TNO_closing_screen_show
+# 	# 		}
+# 	# 	}
 		
-	# 	effects = {
-	# 		TNO_ClosingScreen_CloseButton_click = {
-	# 			clr_country_flag = TNO_closing_screen_show
-	# 		}
-	# 	}
+# 	# 	effects = {
+# 	# 		TNO_ClosingScreen_CloseButton_click = {
+# 	# 			clr_country_flag = TNO_closing_screen_show
+# 	# 		}
+# 	# 	}
 		
-	# 	triggers = {
+# 	# 	triggers = {
 		
-	# 	}
+# 	# 	}
 		
-	# 	properties = {
+# 	# 	properties = {
 		
-	# 	}
-	# }
-}
+# 	# 	}
+# 	# }
+# }

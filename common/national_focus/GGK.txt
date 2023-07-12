@@ -1,0 +1,726 @@
+focus_tree = {
+	id = GGK_Ugaki
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GGK
+		}
+	}
+
+	continuous_focus_position = { x = 20 y = 1100 }
+	# shared_focus = GGK_focus_reform_government
+
+	#총독부 조직 개편
+	focus = {
+		id = GGK_focus_reform_government
+		icon = GFX_focus_reform_government
+		x = 5
+		y = 0
+		cost = 7
+
+		available = {
+			
+		}
+
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+
+    #병참기지화 정책 강화
+    focus = {
+        id = GGK_focus_militarization_of_territory
+        icon = GFX_goal_generic_production2
+        relative_position_id = GGK_focus_reform_government
+        x = -2
+        y = 1
+        cost = 8
+
+        prerequisite = {
+            focus = GGK_focus_reform_government
+        }
+
+        completion_reward = {
+            if = {
+                limit = { has_idea = GGK_idea_heitan_kichika1 }
+                swap_ideas = {
+                    remove_idea = GGK_idea_heitan_kichika1
+                    add_idea = GGK_idea_heitan_kichika2
+                }
+            }
+        }
+    }
+
+    #중화학 공업 육성
+    focus = {
+        id = GGK_focus_heavy_industry
+        icon = GFX_goal_generic_construct_civ_factory
+        relative_position_id = GGK_focus_reform_government
+        x = 0
+        y = 1
+        cost = 8
+
+        prerequisite = {
+            focus = GGK_focus_reform_government
+        }
+
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 1
+                uses = 2
+                category = industry
+            }
+        }
+    }
+
+    #대경성계획
+    focus = {
+        id = GGK_focus_great_keijo_plan
+        icon = GFX_focus_keijo
+        relative_position_id = GGK_focus_reform_government
+        x = 2
+        y = 1
+        cost = 8
+    
+        prerequisite = {
+            focus = GGK_focus_reform_government
+        }
+    
+        completion_reward = {
+            525 = {
+                add_manpower = 25000
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+    
+
+	#내선일체
+    focus = {
+		id = GGK_focus_naisen_ittai
+		icon = GFX_focus_naisen_yuugou
+        relative_position_id = GGK_focus_reform_government
+		x = 0
+		y = 2
+		cost = 10
+
+		available = {
+            # always = no
+            has_country_leader = {
+                character = GGK_Minami_Jiro
+                ruling_only = yes
+            }
+        }
+    
+        prerequisite = {
+            focus = GGK_focus_militarization_of_territory
+            focus = GGK_focus_heavy_industry
+            focus = GGK_focus_great_keijo_plan
+        }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GGK_idea_naisen_yuugou
+				add_idea = GGK_idea_naisen_ittai
+			}
+		}
+	}
+
+    #
+        #민족 말살 통치
+        focus = {
+            id = GGK_focus_minzoku_massatsu
+            icon = GFX_focus_generic_japanese_imperial_glory
+            relative_position_id = GGK_focus_naisen_ittai
+            x = -3
+            y = 1
+            cost = 15
+
+            prerequisite = {
+                focus = GGK_focus_naisen_ittai
+            }
+
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = GGK_idea_bunka_touchi
+                    add_idea = GGK_idea_minzokumassatsu_touchi
+                }
+            }
+        }
+
+        #황민화 정책
+        focus = {
+            id = GGK_focus_kouminka_seisaku
+            icon = GFX_focus_jap_spiritual_mobilization
+            relative_position_id = GGK_focus_minzoku_massatsu
+            x = -2
+            y = 1
+            cost = 15
+
+            prerequisite = {
+                focus = GGK_focus_minzoku_massatsu
+            }
+
+            completion_reward = {
+                
+            }
+        }
+
+        #식민사관 교육
+        focus = {
+            id = GGK_focus_shokumin_shikan
+            icon = GFX_focus_generic_military_academy
+            relative_position_id = GGK_focus_kouminka_seisaku
+            x = -1
+            y = 1
+            cost = 5
+
+            prerequisite = {
+                focus = GGK_focus_kouminka_seisaku
+            }
+
+            completion_reward = {
+                
+            }
+        }
+
+        #창씨개명 의무화
+        focus = {
+            id = GGK_focus_soushikaimei
+            icon = GFX_focus_paper_sign
+            relative_position_id = GGK_focus_kouminka_seisaku
+            x = 0
+            y = 2
+            cost = 5
+
+            prerequisite = {
+                focus = GGK_focus_kouminka_seisaku
+            }
+
+            completion_reward = {
+                
+            }
+        }
+
+        #황국신민서사
+        focus = {
+            id = GGK_focus_oath_of_the_imperial_people
+            icon = GFX_focus_jap_showa_restoration
+            relative_position_id = GGK_focus_kouminka_seisaku
+            x = 1
+            y = 1
+            cost = 5
+
+            prerequisite = {
+                focus = GGK_focus_kouminka_seisaku
+            }
+
+            completion_reward = {
+                
+            }
+        }
+
+        #독립운동 탄압
+        focus = {
+            id = GGK_focus_crack_down_im
+            icon = GFX_focus_eng_move_to_secure_the_dominions
+            relative_position_id = GGK_focus_minzoku_massatsu
+            x = 2
+            y = 1
+            cost = 15
+
+            prerequisite = {
+                focus = GGK_focus_minzoku_massatsu
+            }
+
+            completion_reward = {
+                add_stability = -0.10
+                add_popularity = {
+                    ideology = neutrality
+                    popularity = 0.1
+                }
+            }
+        }
+        
+        #경무국 예산 확대
+        focus = {
+            id = GGK_focus_expand_keimukoku
+            icon = GFX_focus_keimukoku
+            relative_position_id = GGK_focus_crack_down_im
+            x = -1
+            y = 1
+            cost = 15
+
+            prerequisite = {
+                focus = GGK_focus_crack_down_im
+            }
+
+            completion_reward = {
+                
+            }
+        }
+
+        #조선인 밀정 포섭
+        focus = {
+            id = GGK_focus_chosenjin_mittei
+            icon = GFX_focus_secret_agents
+            relative_position_id = GGK_focus_expand_keimukoku
+            x = 0
+            y = 2
+            cost = 15
+
+            prerequisite = {
+                focus = GGK_focus_expand_keimukoku
+            }
+
+            completion_reward = {
+                
+            }
+        }
+
+        #불령단체 해산
+        focus = {
+            id = GGK_focus_breakup_futei_group
+            icon = GFX_focus_spr_crush_the_revolution
+            relative_position_id = GGK_focus_crack_down_im
+            x = 1
+            y = 1
+            cost = 15
+
+            prerequisite = {
+                focus = GGK_focus_crack_down_im
+            }
+
+            completion_reward = {
+                
+            }
+        }
+
+        #언론 탄압
+        focus = {
+            id = GGK_focus_supress_press
+            icon = GFX_goal_generic_political_pressure
+            relative_position_id = GGK_focus_crack_down_im
+            x = 0
+            y = 2
+            cost = 15
+
+            prerequisite = {
+                focus = GGK_focus_crack_down_im
+            }
+
+            completion_reward = {
+                
+            }
+        }
+
+        #국가총동원법
+        focus = {
+            id = GGK_focus_kokka_soudouin_hou
+            icon = GFX_goal_generic_axis_build_infantry
+            relative_position_id = GGK_focus_minzoku_massatsu
+            x = 0
+            y = 1
+            cost = 15
+
+            prerequisite = {
+                focus = GGK_focus_minzoku_massatsu
+            }
+
+            completion_reward = {
+                
+            }
+        }
+    #
+
+    
+	#농공병진정책 폐지
+    focus = {
+		id = GGK_focus_revocate_noukou_heisin_seisaku
+		icon = GFX_goal_generic_construct_civilian
+		relative_position_id = GGK_focus_naisen_ittai
+		x = 3
+		y = 1
+		cost = 15
+
+		prerequisite = {
+			focus = GGK_focus_naisen_ittai
+		}
+
+		completion_reward = {
+			remove_ideas = GGK_idea_noukou_heishin
+            add_political_power = 50
+		}
+	}
+
+	#흥남 공업단지
+	focus = {
+		id = GGK_focus_kounan_industry
+		icon = GFX_focus_kounan_industry
+		relative_position_id = GGK_focus_revocate_noukou_heisin_seisaku
+		x = 0
+		y = 1
+		cost = 10
+
+        available = {
+            controls_province = 13276
+        }
+	
+		prerequisite = {
+			focus = GGK_focus_revocate_noukou_heisin_seisaku
+		}
+	
+		completion_reward = {
+			910 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+            add_tech_bonus = {
+                bonus = 0.5
+                uses = 1
+                category = industry
+            }
+		}
+	}
+
+	#원산 문평공장
+	focus = {
+		id = GGK_focus_genzan_factory
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = GGK_focus_kounan_industry
+		x = -1
+		y = 1
+		cost = 10
+
+        available = {
+            controls_province = 848
+        }
+    	
+		prerequisite = {
+			focus = GGK_focus_kounan_industry
+		}
+	
+		completion_reward = {
+			910 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		bypass = {
+			has_completed_focus = GGK_focus_jinsen_arsenal
+		}
+	}
+
+    #나진부 설치
+    focus = {
+        id = GGK_focus_najin_port
+        icon = GFX_focus_najin
+        relative_position_id = GGK_focus_kounan_industry
+        x = 0
+        y = 2
+        cost = 10
+
+        available = {
+            controls_province = 13275
+        }
+
+        prerequisite = {
+            focus = GGK_focus_kounan_industry
+        }
+    
+        completion_reward = {
+            country_event = { id = ggk_internal.1 }
+            custom_effect_tooltip = najin_tt
+        }
+    }
+
+	#북선공업지대
+	focus = {
+		id = GGK_focus_hokusen_industry
+		icon = GFX_focus_hokusen_industry
+		relative_position_id = GGK_focus_kounan_industry
+		x = 1
+		y = 1
+		cost = 10
+
+        available = {
+            controls_state = 909
+        }
+	
+		prerequisite = {
+			focus = GGK_focus_kounan_industry
+		}
+	
+		completion_reward = {
+			909 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		bypass = {
+			has_completed_focus = GGK_focus_jinsen_arsenal
+		}
+	}
+
+    #진해 해군공창
+    focus = {
+        id = GGK_focus_chinkai_naval_dock
+        icon = GFX_goal_generic_construct_naval_dockyard
+        relative_position_id = GGK_focus_revocate_noukou_heisin_seisaku
+        x = 2
+        y = 1
+        cost = 10
+
+        available = {
+            controls_province = 13273
+        }
+    
+        prerequisite = {
+            focus = GGK_focus_revocate_noukou_heisin_seisaku
+        }
+    
+        completion_reward = {
+            917 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = dockyard
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = naval_base
+                    level = 1
+                    instant_build = yes
+                    province = 13273
+                }
+            }
+        }
+    }
+
+    #인천육군조병창
+    focus = {
+        id = GGK_focus_jinsen_arsenal
+        icon = GFX_focus_guns
+        relative_position_id = GGK_focus_chinkai_naval_dock
+        x = 0
+        y = 2
+        cost = 10
+
+        available = {
+            controls_province = 7221
+        }
+    
+        prerequisite = {
+            focus = GGK_focus_chinkai_naval_dock
+        }
+    
+        completion_reward = {
+            525 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    #평양제조소
+    focus = {
+        id = GGK_focus_heijo_factory
+        icon = GFX_goal_generic_construct_mil_factory
+        relative_position_id = GGK_focus_jinsen_arsenal
+        x = 0
+        y = 1
+        cost = 10
+
+        available = {
+            controls_province = 13277
+        }
+    
+        prerequisite = {
+            focus = GGK_focus_jinsen_arsenal
+        }
+    
+        completion_reward = {
+            912 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+
+    #자원 확보
+    focus = {
+        id = GGK_focus_resource_effort
+        icon = GFX_goal_generic_construction2
+        relative_position_id = GGK_focus_revocate_noukou_heisin_seisaku
+        x = 4
+        y = 1
+        cost = 10
+
+        available = {
+            has_tech = excavation2
+        }
+    
+        prerequisite = {
+            focus = GGK_focus_revocate_noukou_heisin_seisaku
+        }
+    
+        completion_reward = {
+            add_ideas = GGK_idea_mine_expansion
+			unlock_decision_category_tooltip = prospect_for_resources
+        }
+    }
+
+    #영월 상동광산
+    focus = {
+        id = GGK_focus_sangdong_mine
+        icon = GFX_focus_generic_tungsten
+        relative_position_id = GGK_focus_resource_effort
+        x = -1
+        y = 1
+        cost = 10
+
+        available = {
+            controls_state = 527
+        }
+    
+        prerequisite = {
+            focus = GGK_focus_resource_effort
+        }
+    
+        completion_reward = {
+            add_resource = {
+                type = tungsten
+                amount = 12
+                state = 527
+            }
+        }
+    }
+
+    #평양 무연탄광
+    focus = {
+        id = GGK_focus_heijo_mine
+        icon = GFX_focus_generic_aluminum
+        relative_position_id = GGK_focus_resource_effort
+        x = 0
+        y = 2
+        cost = 10
+
+        available = {
+            controls_province = 13277
+        }
+    
+        prerequisite = {
+            focus = GGK_focus_resource_effort
+        }
+    
+        completion_reward = {
+            add_resource = {
+                type = steel #aluminum
+                amount = 10
+                state = 912
+            }
+        }
+    }
+
+    #청진제철소
+    focus = {
+        id = GGK_focus_seisin_steelworks
+        icon = GFX_focus_generic_steel
+        relative_position_id = GGK_focus_resource_effort
+        x = 1
+        y = 1
+        cost = 10
+
+        available = {
+            controls_province = 6822
+        }
+    
+        prerequisite = {
+            focus = GGK_focus_resource_effort
+        }
+    
+        completion_reward = {
+            add_resource = {
+                type = steel
+                amount = 10
+                state = 909
+            }
+        }
+    }
+
+    #반도 철조망 재정비
+    focus = {
+        id = GGK_focus_reorganize_railway
+        icon = GFX_focus_chosen_tetsudo
+        relative_position_id = GGK_focus_revocate_noukou_heisin_seisaku
+        x = 7
+        y = 1
+        cost = 10
+    
+        prerequisite = {
+            focus = GGK_focus_revocate_noukou_heisin_seisaku
+        }
+    
+        completion_reward = {
+            custom_effect_tooltip = available_designer
+            show_ideas_tooltip = GGK_chosen_tetsudo_corp
+        }
+    }
+
+    #경부선 철도 복선화
+    focus = {
+        id = GGK_focus_keifusen_duplication
+        icon = GFX_focus_keifu_double
+        relative_position_id = GGK_focus_reorganize_railway
+        x = 0
+        y = 1
+        cost = 10
+    
+        prerequisite = {
+            focus = GGK_focus_reorganize_railway
+        }
+
+        completion_reward = {
+            build_railway = {
+                level = 1
+                path = { 7125 13279 13265 7204 13269 914 916 4086 13282 13283 4056 }
+            }
+        }
+    }
+}

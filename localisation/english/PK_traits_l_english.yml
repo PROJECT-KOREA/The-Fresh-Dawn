@@ -1,8 +1,16 @@
 ﻿l_english:
+  PK_man_of_the_people_hog:0 "민중의 사람"
+  PK_media_magnate_hog:0 "언론계 거물"
+  PK_great_compromiser_hog:0 "위대한 타협가"
+  PK_political_protege_hog:0 "정치적 추종자"
+
+  PK_gandhi_of_joseon:0 "조선의 간디"
   PK_education_reformer:0 "교육 개혁가"
   PK_samgyun_theorist:0 "삼균주의 이론가"
   PK_pragmatic_statesman:0 "실용적 정치인"
-  PK_media_magnate:0 "언론계 거물"
+  PK_media_magnate:0 "$PK_media_magnate_hog$"
   PK_influential_intellectual:0 "영향력 있는 지식인"
   PK_political_specialist:0 "정치적 전문가"
   PK_brilliant_lawyer:0 "훌륭한 변호사"
+
+  PK_government_sic:0 "행정부"

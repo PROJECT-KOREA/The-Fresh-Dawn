@@ -1,37 +1,37 @@
 bitmapfonts = {
 
 	# Global text colors used in the entire game, for use in loc files ex: "§G Text Text§!" 
-	textcolors = {
-		#Standard colours
-		C = { 50 190 230 }	#Cyan
-		L = { 195 176 145 }	#Light Brown
-		W = { 255 255 255 }	#White
-		B = { 0 0 255 }		#Dark Blue
-		s = { 80 110 240 }
-		G = { 0 159 3 }		#Green
-		R = { 255 50 50 }	#Red
-		b = { 0 0 0 }		#Black
-		g = { 176 176 176 }	#Grey
-		Y = { 255 189 0 }	#Yellow
-		H = { 255 189 0 }	#Yellow
-		T = { 255 255 255 }	#White (duplicate)
-		O = { 255 112 25 }	#Dark orange
-		P = { 230 60 75 }	#Pink
+	# textcolors = {
+	# 	#Standard colours
+	# 	C = { 50 190 230 }	#Cyan
+	# 	L = { 255 190 100 }	#Light Brown
+	# 	W = { 255 255 255 }	#White
+	# 	B = { 0 0 255 }		#Dark Blue
+	# 	s = { 80 110 240 }
+	# 	G = { 0 159 3 }		#Green
+	# 	R = { 255 50 50 }	#Red
+	# 	b = { 0 0 0 }		#Black
+	# 	g = { 176 176 176 }	#Grey
+	# 	Y = { 255 189 0 }	#Yellow
+	# 	H = { 255 189 0 }	#Yellow
+	# 	T = { 255 255 255 }	#White (duplicate)
+	# 	O = { 255 112 25 }	#Dark orange
+	# 	P = { 230 60 75 }	#Pink
 		
-		#Party colours
-		c = { 175 0 0 }		#조선공산당
-		# A = { 190 20 20 }	#연안파 - 현재 사용 안함 
-		d = { 200 10 0 }	#조선민족혁명당
-		r = { 220 40 30 }	#조선인민당
-		y = { 255 190 0 }	#국민당
-		l = { 0 170 210 }	#조선민주당
-		S = { 0 160 120 }	#한국민주당
-		q = { 15 70 150 }	#공화민정회
-		n = { 75 80 110 }	#한국독립당
-		D = { 120 120 120 }	#?
-		M = { 60 40 50 }	#?
-		f = { 85 50 15 }	#파시즘
-	}
+	# 	#Party colours
+	# 	c = { 175 0 0 }		#조선공산당
+	# 	# A = { 190 20 20 }	#연안파 - 현재 사용 안함 
+	# 	d = { 200 10 0 }	#조선민족혁명당
+	# 	r = { 220 40 30 }	#조선인민당
+	# 	y = { 255 190 0 }	#국민당
+	# 	l = { 0 170 210 }	#조선민주당
+	# 	S = { 0 160 120 }	#한국민주당
+	# 	q = { 15 70 150 }	#공화민정회
+	# 	n = { 70 70 135 }	#한국독립당
+	# 	D = { 120 120 120 }	#?
+	# 	M = { 60 40 50 }	#?
+	# 	f = { 85 50 15 }	#파시즘
+	# }
 
 	#맵 폰트 덮어쓰기
 	bitmapfont = {

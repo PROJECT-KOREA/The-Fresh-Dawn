@@ -1,0 +1,127 @@
+# ideas = {
+
+# 	#정부수반
+# 	head_of_gov = {
+
+# 		# #송진우 (군정)
+# 		# HoG_Song_Jinwoo = {
+# 		# 	name = Song_Jinwoo
+# 		# 	picture = minister_KOR_Song_Jinwoo
+# 		# 	allowed = { original_tag = KOR }
+# 		# 	visible = {
+# 		# 		has_completed_focus = KOR_focus_contact_with_internal_group
+# 		# 		NOT = {
+# 		# 			has_country_leader = {
+# 		# 				ruling_only = yes 
+# 		# 				name = "송진우"
+# 		# 			}
+# 		# 		}
+# 		# 	}
+# 		# 	available = { custom_trigger_tooltip = { always = no } }
+# 		# 	traits = { media_magnate hog_trait }
+# 		# }
+
+# 		#안재홍 (군정, 국민위원회)
+# 		HoG_Ahn_Jaehong = {
+# 			name = Ahn_Jaehong
+# 			picture = minister_KOR_Ahn_Jaehong
+# 			allowed = { original_tag = KOR }
+# 			visible = {
+# 				has_completed_focus = KOR_focus_contact_with_internal_group
+# 				NOT = {
+# 					has_country_leader = {
+# 						ruling_only = yes 
+# 						name = "안재홍"
+# 					}
+# 				}
+# 			}
+# 			available = { custom_trigger_tooltip = { always = no } }
+# 			traits = { PK_media_magnate_hog hog_trait }
+# 		}
+
+# 		#여운형 (군정, 국민위원회)
+# 		HoG_Ryuh_Woonhyung = {
+# 			name = Ryuh_Woonhyung
+# 			picture = minister_KOR_Ryuh_Woonhyung
+# 			allowed = { original_tag = KOR }
+# 			visible = {
+# 				has_completed_focus = KOR_focus_contact_with_internal_group
+# 				NOT = {
+# 					has_country_leader = {
+# 						ruling_only = yes 
+# 						name = "여운형"
+# 					}
+# 				}
+# 			}
+# 			available = { custom_trigger_tooltip = { always = no } }
+# 			removal_cost = -1
+# 			traits = { PK_man_of_the_people_hog hog_trait }
+# 		}
+
+# 		#조만식 (군정)
+# 		HoG_Cho_Mansik = {
+# 			name = Cho_Mansik
+# 			picture = minister_KOR_Cho_Mansik
+# 			allowed = { original_tag = KOR }
+# 			visible = {
+# 				has_completed_focus = KOR_focus_contact_with_internal_group
+# 				NOT = {
+# 					has_country_leader = {
+# 						ruling_only = yes 
+# 						name = "조만식"
+# 					}
+# 				}
+# 			}
+# 			available = { custom_trigger_tooltip = { always = no } }
+# 			traits = { PK_great_compromiser_hog hog_trait }
+# 		}
+
+# 		#이윤영 (국민위원회)
+# 		HoG_Lee_Yunyoung = {
+# 			name = Lee_Yunyoung
+# 			picture = minister_KOR_Lee_Yunyoung
+# 			allowed = { original_tag = KOR }
+# 			visible = {
+# 				has_completed_focus = KOR_focus_contact_with_internal_group
+# 				has_country_leader = {
+# 					name = "조만식"
+# 					ruling_only = yes
+# 				}
+# 			}
+# 			available = { custom_trigger_tooltip = { always = no } }
+# 			traits = { PK_political_protege_hog hog_trait }
+# 		}
+
+# 		# #장덕수 (국민위원회)
+# 		# HoG_Chang_Deoksu = {
+# 		# 	name = Chang_Deoksu
+# 		# 	picture = minister_KOR_Chang_Deoksu
+# 		# 	allowed = { original_tag = KOR }
+# 		# 	visible = {
+# 		# 		has_completed_focus = KOR_focus_contact_with_internal_group
+# 		# 		has_country_leader = {
+# 		# 			name = "송진우"
+# 		# 			ruling_only = yes
+# 		# 		}
+# 		# 	}
+# 		# 	available = { custom_trigger_tooltip = { always = no } }
+# 		# 	traits = {
+# 		# 		mild_gentleman
+# 		# 		hog_trait
+# 		# 	}
+# 		# }
+
+# 		#김규식 (임시정부 국무원)
+# 		HoG_Kim_Kyusik = {
+# 			name = Kim_Kyusik
+# 			picture = minister_KOR_Kim_Kyusik
+# 			allowed = { original_tag = KOR }
+# 			visible = { has_country_flag = KOR_flag_kpg }
+# 			available = { custom_trigger_tooltip = { always = no } }
+# 			traits = {
+# 				veteran_politician
+# 				hog_trait
+# 			}
+# 		}
+# 	}
+# }

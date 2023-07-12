@@ -4,7 +4,6 @@ idea_categories = {
 	# multiple ledgers can be defined, in that case will show on all
 	# possible values : army, air, navy, military (shows on all military ledgers), civilian, all (shows up everywhere), hidden (does not show up)
 	
-	
 	hidden_ideas = {
 		hidden = yes
 	
@@ -23,39 +22,46 @@ idea_categories = {
 		ledger = hidden
 	}
 	
-	cabinet = {
-		slot = head_of_gov
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		# slot = security_minister
-		# slot = economy_minister
-		# slot = foreign_minister
-		# slot = intel_minister
-		# slot = head_of_state2
-		
-		cost = 0
-		removal_cost = 0
-
-		ledger = civilian
-	}
-	
-	government = {
+	laws = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		# character_slot = political_advisor
-		# character_slot = political_advisor
-		# character_slot = political_advisor
-		# character_slot = political_advisor
-		# character_slot = political_advisor
 		
 		ledger = civilian
 		
 		cost = 150
 		removal_cost = 0
 	}
+
+	government = {
+		character_slot = second_in_command
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+
+		ledger = civilian
+
+		cost = 150
+		removal_cost = 0
+	}
+	
+	# cabinet = {
+	# 	slot = head_of_gov
+	# 	character_slot = political_advisor
+	# 	character_slot = political_advisor
+	# 	character_slot = political_advisor
+	# 	character_slot = political_advisor
+	# 	# slot = security_minister
+	# 	# slot = economy_minister
+	# 	# slot = foreign_minister
+	# 	# slot = intel_minister
+	# 	# slot = head_of_state2
+		
+	# 	cost = 0
+	# 	removal_cost = 0
+
+	# 	ledger = civilian
+	# }
 	
 	research_production = {
 		slot = tank_manufacturer

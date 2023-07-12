@@ -69,6 +69,9 @@
 	recruit_character = JAP_sanzo_nosaka
 	recruit_character = JAP_hiroshi_oshima
 	recruit_character = JAP_kijuro_shidehara
+
+	recruit_character = JAP_Okada_Keisuke
+	activate_advisor = JAP_Okada_Keisuke_sic
 #
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
@@ -88,7 +91,7 @@ add_ideas = {
 	JAP_duplicate_research_efforts
 	JAP_militarism
 
-	HoG_Okada_Keisuke
+	# HoG_Okada_Keisuke
 	# SM_Goto_Fumio
 	# EM_Takahashi_Korekiyo
 	# FM_Hirota_Koki

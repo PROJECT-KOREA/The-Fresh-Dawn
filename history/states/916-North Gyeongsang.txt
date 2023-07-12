@@ -7,6 +7,7 @@ state = {
 	
 	history = {
 		owner = GGK
+		# owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 		
@@ -24,15 +25,15 @@ state = {
 			air_base = 1
 
 			#해군기지
-			13272 = { naval_base = 1 } #포항(영일)
+			13274 = { naval_base = 1 } #포항(영일)
 		}
 		victory_points = { 4086 5 } #대구(타이큐)
-		victory_points = { 13272 2 } #포항(호코)
+		victory_points = { 13274 2 } #포항(호코)
 	}
 
 	resources = { steel = 12 }
 
 	provinces = {
-		1081 4086 4103 7121 10115 12089 13272 13274 13282
+		4086 4103 7121 10115 12089 13273 13274 13275 13278
 	}
 }

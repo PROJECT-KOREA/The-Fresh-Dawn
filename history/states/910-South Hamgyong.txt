@@ -7,6 +7,7 @@ state = {
 	
 	history = {
 		owner = GGK
+		# owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 
@@ -18,7 +19,7 @@ state = {
 			industrial_complex = 1
 		}
 
-		victory_points = { 13276 5 } #함흥(칸코)
+		victory_points = { 13258 5 } #함흥(칸코)
 		victory_points = { 848 5 } #원산(겐잔)
 	}
 
@@ -28,6 +29,6 @@ state = {
 	}
 	
 	provinces = {
-		848 852 3803 3852 3904 3981 6928 9899 10083 11878 13259 13260 13276
+		848 852 3803 3852 3904 3981 6928 9899 10083 11878 13258
 	}	
 }
