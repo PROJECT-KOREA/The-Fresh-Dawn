@@ -263,60 +263,58 @@ guiTypes = {
 		############################################## buttons on the side
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 43 y = 0 }
-			quadTextureSprite ="GFX_settings_icon"
-			buttonFont = "aldrich_24_outline"
+			position = { x = -10 y = 0 }
+			quadTextureSprite ="GFX_button_94x31"
+			buttonText = "설정"
+			buttonFont = "pk_20"
 			clicksound = click_default
 			oversound = ui_menu_over
 			pdx_tooltip = "setting_tt"
 		}
-		
+		ButtonType = {
+			name = "credits_button"
+			position = {  x = -10 y = 30 }
+			quadTextureSprite ="GFX_button_94x31"
+			buttonText = "크레딧"
+			buttonFont = "pk_20"
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = "credit_tt"
+		}
+		ButtonType = {
+			name = "nudge_button"
+			position = { x = -10 y = 60 }
+			quadTextureSprite ="GFX_button_94x31"
+			buttonText = "Nudge!"
+			buttonFont = "pk_20"
+			pdx_tooltip = "nudge_tt"
+		}		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 43 y = 138 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_CAREER_PROFILE"
-			buttonFont = "hoi_24header"
+			position = { x = -10 y = 100 }
+			quadTextureSprite ="GFX_button_94x31"
+			buttonText = "프로필 전적"
+			buttonFont = "pk_20"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
-		
 		iconType = {
 			name = "career_profile_button_star"
-			position = { x = 43 y = 155 }
+			position = { x = -10 y = 155 }
 			spriteType = "GFX_icon_best_in_career"
 			centerposition = yes
 			orientation = upper_right
 			alwaysTransparent = yes
 		}
-		
 		buttonType = {
 			name = "friends_button"
-			position = { x = 16 y = 178 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_FRIENDS"
-			buttonFont = "hoi_24header"
+			position = { x = -10 y = 130 }
+			quadTextureSprite ="GFX_button_94x31"
+			buttonText = "친구"
+			buttonFont = "pk_20"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
-		ButtonType = {
-			name = "credits_button"
-			position = {  x = 43 y = 40 }
-			quadTextureSprite ="GFX_credits_icon"
-			buttonFont = "aldrich_24_outline"
-			clicksound = click_default
-			oversound = ui_menu_over
-			pdx_tooltip = "credit_tt"
-		}
-
-		ButtonType = {
-			name = "nudge_button"
-			position = { x = 43 y = 80 }
-			quadTextureSprite ="GFX_nudge_icon"
-			buttonFont = "aldrich_24_outline"
-			pdx_tooltip = "nudge_tt"
-		}
-		
 
 		ButtonType = {
 			name = "exit_button"

@@ -6,50 +6,50 @@
  VICTORY_POINTS_12040:0 "카이죠"  #개성
 
  #강원도
- VICTORY_POINTS_13266:0 "순센"  #춘천
+ VICTORY_POINTS_13267:0 "순센"  #춘천
  #VICTORY_POINTS_9936:0 "겐슈"   #원주
  #VICTORY_POINTS_7021:0 "코료"   #강릉
 
  #함경북도
- VICTORY_POINTS_13275:0 "라신" #나진
- VICTORY_POINTS_6822:0 "세이신"   #청진
+ VICTORY_POINTS_13257:0 "라신" #나진
+ VICTORY_POINTS_959:0 "세이신"   #청진
  #VICTORY_POINTS_6922:0 "죠신"   #성진
 
  #함경남도
- VICTORY_POINTS_13276:0 "칸코"   #함흥
+ VICTORY_POINTS_13258:0 "칸코"   #함흥
  VICTORY_POINTS_848:0 "겐잔"    #원산
 
  #평안북도
  VICTORY_POINTS_11835:0 "신기슈"  #신의주
 
  #평안남도
- VICTORY_POINTS_13277:0 "헤이죠"  #평양
- VICTORY_POINTS_13278:0 "진난포"   #남포
+ VICTORY_POINTS_7171:0 "헤이죠"  #평양
+ VICTORY_POINTS_13216:0 "진난포"   #남포
 
  #황해도
  VICTORY_POINTS_1003:0 "카이슈" #해주
 
  #충청북도
- VICTORY_POINTS_13267:0 "세이슈" #청주
+ VICTORY_POINTS_13269:0 "세이슈" #청주
 
  #충청남도
- VICTORY_POINTS_13269:0 "타이덴" #대전
+ VICTORY_POINTS_13270:0 "타이덴" #대전
 
  #경상북도
  VICTORY_POINTS_4086:0 "타이큐" #대구
- VICTORY_POINTS_13272:0 "호코" #영일
+ VICTORY_POINTS_13276:0 "호코" #영일
 
  #경상남도
  VICTORY_POINTS_4056:0 "후잔"    #부산
- VICTORY_POINTS_13273:0 "바산"    #마산
+ VICTORY_POINTS_13279:0 "바산"    #마산
 
  #전라북도
  #VICTORY_POINTS_7175:0 "군산"    #군산
- VICTORY_POINTS_13288:0 "젠슈"   #전주
+ VICTORY_POINTS_13271:0 "젠슈"   #전주
 
  #전라남도
- VICTORY_POINTS_13284:0 "코슈"   #광주
- VICTORY_POINTS_13286:0 "모쿠호" #목포
+ VICTORY_POINTS_13273:0 "코슈"   #광주
+ VICTORY_POINTS_13274:0 "모쿠호" #목포
 
  #제주도
  VICTORY_POINTS_1177:0 "사이슈" #제주

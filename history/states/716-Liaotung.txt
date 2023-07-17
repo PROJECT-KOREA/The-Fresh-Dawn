@@ -1,0 +1,31 @@
+state = {
+	id = 716
+	name = "STATE_716" #랴오둥
+	manpower = 7264620
+
+	state_category = city
+
+	history = {
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			air_base = 5
+		}
+
+		victory_points = {
+			11771 3 
+		}
+	}
+
+	resources = {
+		steel = 36
+	}
+
+	provinces = {
+		836 887 892 916 964 987 3783 3849 3895 4642 6804 6918 9781 9885 11764 11771 11808
+	}
+}

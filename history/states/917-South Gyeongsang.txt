@@ -6,8 +6,8 @@ state = {
 	state_category = large_town
 	
 	history = {
-		owner = GGK
-		# owner = KOR
+		# owner = GGK
+		owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 		
@@ -23,16 +23,16 @@ state = {
 
 			#해군기지
 			4056 = { naval_base = 2 } #부산
-			13276 = { naval_base = 3 } #마산
+			13279 = { naval_base = 3 } #마산
 		}
 
 		victory_points = { 4056 8 } #부산(후잔)
-		victory_points = { 13276 3 } #마산(바산)
+		victory_points = { 13279 3 } #마산(바산)
 	}
 
 	# resources = { steel = 40 }
 
 	provinces = {
-		1054 1081 4056 12060 13276 13277
+		1054 1081 4056 12060 13278 13279
 	}
 }

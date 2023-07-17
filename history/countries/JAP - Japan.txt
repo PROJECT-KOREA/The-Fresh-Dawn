@@ -122,30 +122,30 @@ if = {
 	set_resistance = 5
 	set_garrison_strength = 1.0
 }
-647 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-684 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-633 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-934 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
+# 647 = {
+# 	start_resistance = yes
+# 	set_compliance = 20
+# 	set_resistance = 0
+# 	set_garrison_strength = 1.0
+# }
+# 684 = {
+# 	start_resistance = yes
+# 	set_compliance = 20
+# 	set_resistance = 0
+# 	set_garrison_strength = 1.0
+# }
+# 633 = {
+# 	start_resistance = yes
+# 	set_compliance = 20
+# 	set_resistance = 0
+# 	set_garrison_strength = 1.0
+# }
+# 934 = {
+# 	start_resistance = yes
+# 	set_compliance = 20
+# 	set_resistance = 0
+# 	set_garrison_strength = 1.0
+# }
 
 ### 시작 기술 ###
 	# 기본 #
@@ -335,9 +335,9 @@ set_autonomy = {
 	autonomous_state = autonomy_gaichi
 }
 
-add_opinion_modifier = { target = SIK modifier = hostile_status }	## MODDED
-add_opinion_modifier = { target = PRC modifier = hostile_status }	## MODDED
-add_opinion_modifier = { target = CHI modifier = hostile_status }	## MODDED
+# add_opinion_modifier = { target = SIK modifier = hostile_status }	## MODDED
+# add_opinion_modifier = { target = PRC modifier = hostile_status }	## MODDED
+# add_opinion_modifier = { target = CHI modifier = hostile_status }	## MODDED
 
 set_politics = {
 	ruling_party = neutrality

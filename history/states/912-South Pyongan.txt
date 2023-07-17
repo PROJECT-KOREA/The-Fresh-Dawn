@@ -4,8 +4,8 @@ state = {
 	manpower = 1489000
 	state_category = large_city
 	history = {
-		owner = GGK
-		# owner = KOR
+		# owner = GGK
+		owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 		buildings = {
@@ -15,13 +15,13 @@ state = {
 			air_base = 2 #공군기지
 			
 			#해군기지
-			13260 = { naval_base = 1 } #진남포
+			13261 = { naval_base = 1 } #진남포
 		}
 		victory_points = { 7171 10 } #평양(헤이죠)
-		victory_points = { 13260 2 } #남포(진난포)
+		victory_points = { 13261 2 } #남포(진난포)
 	}
 
 	provinces = {
-		3912 4052 7171 9790 11770 13259 13260
+		3912 4052 7171 9790 11770 13259 13260 13261
 	}	
 }

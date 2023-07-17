@@ -1,6 +1,6 @@
 state = {
 	id = 282
-	name = "STATE_282" # 도쿄
+	name = "STATE_282" # 관동
 	manpower = 14509600
 	state_category = megalopolis
 

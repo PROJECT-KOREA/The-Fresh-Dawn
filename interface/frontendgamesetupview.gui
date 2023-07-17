@@ -642,7 +642,7 @@ guiTypes = {
 			Orientation = "CENTER_DOWN"
 			clicksound = click_close
 			oversound = ui_menu_over
-			shortcut = "ESCAPE"
+			# shortcut = "ESCAPE"
 		}
 
 		ButtonType = {

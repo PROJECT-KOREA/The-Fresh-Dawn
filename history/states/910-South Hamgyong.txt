@@ -6,8 +6,8 @@ state = {
 	state_category = large_town
 	
 	history = {
-		owner = GGK
-		# owner = KOR
+		# owner = GGK
+		owner = KOR
 		add_core_of = KOR
 		add_core_of = GGK
 

@@ -1,0 +1,19 @@
+state = {
+	id = 928
+	name = "STATE_928" # Nenjiang
+	manpower = 2315000
+	state_category = pastoral
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 1588 3 }
+	}
+	provinces = {
+		1588 1645 4506 4592 4649 7526 7582 12485
+	}
+}
+
