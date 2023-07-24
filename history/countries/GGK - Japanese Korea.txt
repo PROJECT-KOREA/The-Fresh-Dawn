@@ -74,15 +74,15 @@ set_technology = {
 	gw_artillery = 1 #포
 }
 
-country_event = {
-	id = ggk_korea.1
-	days = 6
-}
+# country_event = {
+# 	id = ggk_korea.1
+# 	days = 6
+# }
 
-country_event = {
-	id = ggk_cabinet.1
-	days = 216
-}
+# country_event = {
+# 	id = ggk_cabinet.1
+# 	days = 216
+# }
 
 # #레닌주의 - 박헌영
 # create_country_leader = {

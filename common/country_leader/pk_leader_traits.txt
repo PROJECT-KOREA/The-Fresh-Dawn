@@ -1,12 +1,18 @@
 leader_traits = {
 
 	## 지도자 특성 ##
-	#조선의 총독
-	gov_of_chosen = {
-		political_power_factor = 0.02
-		stability_factor = 0.05
-		
-		random = no
+	# 조선의 총독
+		# gov_of_chosen = {
+		# 	political_power_factor = 0.02
+		# 	stability_factor = 0.05
+			
+		# 	random = no
+		# }
+	#
+
+	# 임시정부의 대들보 - 이동녕 #
+	pillar_of_pg = {
+		stability_factor = 0.1
 	}
 
 	#한국광복군 총사령관 - 지청천

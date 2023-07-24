@@ -122,6 +122,76 @@ if = {
 	set_resistance = 5
 	set_garrison_strength = 1.0
 }
+
+#
+	525 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	527 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	909 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	910 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	911 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	912 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	913 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	914 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	915 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	916 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+	917 = {
+		start_resistance = yes
+		set_compliance = 70
+		set_resistance = 0
+		set_garrison_strength = 1.0
+	}
+#
+
 # 647 = {
 # 	start_resistance = yes
 # 	set_compliance = 20
@@ -146,6 +216,12 @@ if = {
 # 	set_resistance = 0
 # 	set_garrison_strength = 1.0
 # }
+
+
+declare_war_on = {
+	target = KOR
+	type = civil_war
+}
 
 ### 시작 기술 ###
 	# 기본 #
@@ -330,10 +406,10 @@ if = {
 		autonomous_state = autonomy_wtt_imperial_protectorate
 	}
 }
-set_autonomy = {
-	target = GGK
-	autonomous_state = autonomy_gaichi
-}
+# set_autonomy = {
+# 	target = GGK
+# 	autonomous_state = autonomy_gaichi
+# }
 
 # add_opinion_modifier = { target = SIK modifier = hostile_status }	## MODDED
 # add_opinion_modifier = { target = PRC modifier = hostile_status }	## MODDED

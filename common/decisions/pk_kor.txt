@@ -1,483 +1,483 @@
-# 독립 선언
-	# KOR_declaration_of_independence_decision = {
+# # 독립 선언
+# 	# KOR_declaration_of_independence_decision = {
 		
-	# 	#독립 선언
-	# 	KOR_declaration_of_independence = {
+# 	# 	#독립 선언
+# 	# 	KOR_declaration_of_independence = {
 
-	# 		icon = generic_independence
+# 	# 		icon = generic_independence
 
-	# 		available = {
-	# 			custom_trigger_tooltip = {
-	# 				tooltip = KOR_declaration_of_independence_required_states_tt
-	# 				owns_state = 525
-	# 				owns_state = 527
-	# 				owns_state = 863
-	# 				owns_state = 864
-	# 				owns_state = 865
-	# 				owns_state = 866
-	# 				owns_state = 867
-	# 				owns_state = 868
-	# 				owns_state = 869
-	# 				owns_state = 870
-	# 			}
-	# 			has_completed_focus = KOR_focus_return_of_kpg
-	# 		}
+# 	# 		available = {
+# 	# 			custom_trigger_tooltip = {
+# 	# 				tooltip = KOR_declaration_of_independence_required_states_tt
+# 	# 				owns_state = 525
+# 	# 				owns_state = 527
+# 	# 				owns_state = 863
+# 	# 				owns_state = 864
+# 	# 				owns_state = 865
+# 	# 				owns_state = 866
+# 	# 				owns_state = 867
+# 	# 				owns_state = 868
+# 	# 				owns_state = 869
+# 	# 				owns_state = 870
+# 	# 			}
+# 	# 			has_completed_focus = KOR_focus_return_of_kpg
+# 	# 		}
 
-	# 		visible = {
-	# 			original_tag = KOR
-	# 			NOT = { has_country_flag = KOR_flag_independence }
-	# 		}
+# 	# 		visible = {
+# 	# 			original_tag = KOR
+# 	# 			NOT = { has_country_flag = KOR_flag_independence }
+# 	# 		}
 			
-	# 		fire_only_once = yes
+# 	# 		fire_only_once = yes
 
-	# 		complete_effect = {
-	# 			add_timed_idea = {
-	# 				idea = KOR_idea_independence
-	# 				days = 1095
-	# 			}
-	# 			news_event = {
-	# 				id = pk_news.1
-	# 				days = 0
-	# 			}
-	# 			set_country_flag = KOR_flag_independence
-	# 		}
-	# 	}
-# }
+# 	# 		complete_effect = {
+# 	# 			add_timed_idea = {
+# 	# 				idea = KOR_idea_independence
+# 	# 				days = 1095
+# 	# 			}
+# 	# 			news_event = {
+# 	# 				id = pk_news.1
+# 	# 				days = 0
+# 	# 			}
+# 	# 			set_country_flag = KOR_flag_independence
+# 	# 		}
+# 	# 	}
+# # }
 
-#국가 재건
-KOR_national_reconstruction = {
+# #국가 재건
+# KOR_national_reconstruction = {
 
-	## 농촌 재건축 운동 ##
-		rural_recon = { visible = { always = no } }
+# 	## 농촌 재건축 운동 ##
+# 		rural_recon = { visible = { always = no } }
 
-		# 관서 #
-		KOR_rural_recon_pyeongan = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 80
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				909 = { add_state_level_1 = yes }
-				910 = { add_state_level_1 = yes }
-			}
-		}
+# 		# 관서 #
+# 		KOR_rural_recon_pyeongan = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 80
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				909 = { add_state_level_1 = yes }
+# 				910 = { add_state_level_1 = yes }
+# 			}
+# 		}
 
-		# 관북 #
-		KOR_rural_recon_hamgyeong = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 80
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				911 = { add_state_level_1 = yes }
-				912 = { add_state_level_1 = yes }
-			}
-		}
+# 		# 관북 #
+# 		KOR_rural_recon_hamgyeong = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 80
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				911 = { add_state_level_1 = yes }
+# 				912 = { add_state_level_1 = yes }
+# 			}
+# 		}
 
-		# 해서 #
-		KOR_rural_recon_hwanghae = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 50
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				913 = { add_state_level_1 = yes }
-			}
-		}
+# 		# 해서 #
+# 		KOR_rural_recon_hwanghae = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 50
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				913 = { add_state_level_1 = yes }
+# 			}
+# 		}
 
-		# 경기 #
-		KOR_rural_recon_gyeonggi = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 80
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				525 = { add_state_level_1 = yes }
-			}
-		}
+# 		# 경기 #
+# 		KOR_rural_recon_gyeonggi = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 80
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				525 = { add_state_level_1 = yes }
+# 			}
+# 		}
 
-		# 관동 #
-		KOR_rural_recon_gangwon = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 60
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				527 = { add_state_level_1 = yes }
-			}
-		}
+# 		# 관동 #
+# 		KOR_rural_recon_gangwon = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 60
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				527 = { add_state_level_1 = yes }
+# 			}
+# 		}
 
-		# 호서 #
-		KOR_rural_recon_chungcheong = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 80
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				914 = { add_state_level_1 = yes }
-				915 = { add_state_level_1 = yes }
-			}
-		}
+# 		# 호서 #
+# 		KOR_rural_recon_chungcheong = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 80
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				914 = { add_state_level_1 = yes }
+# 				915 = { add_state_level_1 = yes }
+# 			}
+# 		}
 
-		# 호남 #
-		KOR_rural_recon_jeolla = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 80
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				918 = { add_state_level_1 = yes }
-				919 = { add_state_level_1 = yes }
-			}
-		}
+# 		# 호남 #
+# 		KOR_rural_recon_jeolla = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 80
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				918 = { add_state_level_1 = yes }
+# 				919 = { add_state_level_1 = yes }
+# 			}
+# 		}
 
-		# 영남 #
-		KOR_rural_recon_gyeongsang = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 80
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				916 = { add_state_level_1 = yes }
-				917 = { add_state_level_1 = yes }
-			}
-		}
+# 		# 영남 #
+# 		KOR_rural_recon_gyeongsang = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 80
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				916 = { add_state_level_1 = yes }
+# 				917 = { add_state_level_1 = yes }
+# 			}
+# 		}
 
-		# 제주 #
-		KOR_rural_recon_jeju = {
-			icon = generic_construction
-			visible = { has_completed_focus = KOR_focus_rural_development }
-			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
-			cost = 35
-			days_remove = 50
-			fire_only_once = yes
-			modifier = {
-				civilian_factory_use = 2
-			}
-			ai_will_do = {
-				factor = 5
-				modifier = {
-					factor = 0
-					num_of_civilian_factories_available_for_projects < 10
-				}
-			}
-			complete_effect = { set_country_flag = KOR_flag_rural_recon }
-			remove_effect = {
-				clr_country_flag = KOR_flag_rural_recon
-				920 = { add_state_level_1 = yes }
-			}
-		}
-	#
+# 		# 제주 #
+# 		KOR_rural_recon_jeju = {
+# 			icon = generic_construction
+# 			visible = { has_completed_focus = KOR_focus_rural_development }
+# 			available = { NOT = { has_country_flag = KOR_flag_rural_recon } }
+# 			cost = 35
+# 			days_remove = 50
+# 			fire_only_once = yes
+# 			modifier = {
+# 				civilian_factory_use = 2
+# 			}
+# 			ai_will_do = {
+# 				factor = 5
+# 				modifier = {
+# 					factor = 0
+# 					num_of_civilian_factories_available_for_projects < 10
+# 				}
+# 			}
+# 			complete_effect = { set_country_flag = KOR_flag_rural_recon }
+# 			remove_effect = {
+# 				clr_country_flag = KOR_flag_rural_recon
+# 				920 = { add_state_level_1 = yes }
+# 			}
+# 		}
+# 	#
 	
-	#빈민구제 정책
-	KOR_poverty_relief_policy = {
-		icon = generic_supplies
-		visible = {
-			has_completed_focus = KOR_focus_poverty_relief_policy
-			OR = {
-				has_idea = KOR_idea_the_poor_1
-				has_idea = KOR_idea_the_poor_2
-				has_idea = KOR_idea_the_poor_3
-				has_idea = KOR_idea_the_poor_4
-			}
-		}
-		cost = 50
-		days_remove = 60
-		modifier = { civilian_factory_use = 2 }
-		remove_effect = {
-			if = {
-				limit = { has_idea = KOR_idea_the_poor_1 }
-				swap_ideas = {
-					remove_idea = KOR_idea_the_poor_1
-					add_idea = KOR_idea_the_poor_2
-				}
-			}
-			else_if = {
-				limit = { has_idea = KOR_idea_the_poor_2 }
-				swap_ideas = {
-					remove_idea = KOR_idea_the_poor_2
-					add_idea = KOR_idea_the_poor_3
-				}
-			}
-			else_if = {
-				limit = { has_idea = KOR_idea_the_poor_3}
-				swap_ideas = {
-					remove_idea = KOR_idea_the_poor_3
-					add_idea = KOR_idea_the_poor_4
-				}
-			}
-			else_if = {
-				limit = { has_idea = KOR_idea_the_poor_3 }
-				remove_ideas = KOR_idea_the_poor_4
-			}
-		}
-	}
-
-	# 문맹 퇴치 운동
-	KOR_illiteracy_eradication_movement = {
-		icon = generic_operation
-		visible = {
-			has_completed_focus = KOR_focus_simple_schools
-			OR = {
-				has_idea = KOR_idea_illiteracy_population_1
-				has_idea = KOR_idea_illiteracy_population_2
-				has_idea = KOR_idea_illiteracy_population_3
-			}
-		}
-		cost = 50
-		days_remove = 60
-		modifier = {
-			civilian_factory_use = 3
-		}
-		remove_effect = {
-			if = {
-				limit = { has_idea = KOR_idea_illiteracy_population_1 }
-				swap_ideas = {
-					remove_idea = KOR_idea_illiteracy_population_1
-					add_idea = KOR_idea_illiteracy_population_2
-				}
-			}
-			else_if = {
-				limit = { has_idea = KOR_idea_illiteracy_population_2 }
-				swap_ideas = {
-					remove_idea = KOR_idea_illiteracy_population_2
-					add_idea = KOR_idea_illiteracy_population_3
-				}
-			}
-			else_if = {
-				limit = { has_idea = KOR_idea_illiteracy_population_3 }
-				remove_ideas = KOR_idea_the_poor_3
-			}
-		}
-	}
-}
-
-# 한국의 정치 현황
-KOR_political_situation = {
-	# 지방정당 조직 강화
-	KOR_natcon_local_party_organization = {
-		icon = generic_nationalism
-		visible = { has_country_flag = KOR_flag_faction_natcon }
-		available = { NOT = { has_country_flag = KOR_flag_political_action } }
-		cost = 20
-		days_remove = 30
-		fire_only_once = yes
-		modifier = {
-			political_power_gain = -0.15
-		}
-		complete_effect = {
-			set_country_flag = KOR_flag_political_action
-			set_country_flag = KOR_flag_natcon_local_party
-		}
-		remove_effect = {
-			clr_country_flag = KOR_flag_political_action
-			custom_effect_tooltip = KOR_natcon_gain_5
-			add_to_variable = { KOR_kip_strength = 5 }
-			# clr_country_flag = KOR_flag_rural_recon
-			# 909 = { add_state_level_1 = yes }
-			# 910 = { add_state_level_1 = yes }
-		}
-	}
-	KOR_natcon_provincial_tour = {
-		icon = infiltrate_state
-		visible = {
-			has_country_flag = KOR_flag_faction_natcon
-			has_country_flag = KOR_flag_natcon_local_party
-		}
-		available = { NOT = { has_country_flag = KOR_flag_political_action } }
-		cost = 30
-		days_remove = 40
-		fire_only_once = yes
-		modifier = {
-			political_power_gain = -0.2
-		}
-		complete_effect = { set_country_flag = KOR_flag_political_action }
-		remove_effect = {
-			clr_country_flag = KOR_flag_political_action
-			custom_effect_tooltip = KOR_natcon_gain_10
-			add_to_variable = { KOR_kip_strength = 10 }
-			# clr_country_flag = KOR_flag_rural_recon
-			# 909 = { add_state_level_1 = yes }
-			# 910 = { add_state_level_1 = yes }
-		}
-	}
-}
-
-# 이념적 갈등
-KOR_ideological_conflict = {
-	# erwerew = {}
-	test_faction_reset = {
-		complete_effect = {
-			FAC_set_com_notgood = yes
-			FAC_set_radsoc_normal = yes
-			FAC_set_socdem_normal = yes
-			FAC_set_soclib_friendly = yes
-			FAC_set_natlib_friendly = yes
-			FAC_set_libcon_normal = yes
-			FAC_set_soccon_normal = yes
-			FAC_set_natcon_royal = yes
-			FAC_set_fas_normal = yes
-		}
-	}
-
-	test_set_com_royal = {
-		complete_effect = {
-			FAC_set_com_royal = yes
-		}
-	}
-
-	test_set_all_royal = {
-		complete_effect = {
-			FAC_set_com_royal = yes
-			FAC_set_radsoc_royal = yes
-			FAC_set_socdem_royal = yes
-			FAC_set_soclib_royal = yes
-			FAC_set_natlib_royal = yes
-			FAC_set_libcon_royal = yes
-			FAC_set_soccon_royal = yes
-			FAC_set_natcon_royal = yes
-			FAC_set_fas_royal = yes
-		}
-	}
-}
-
-
-
-#파시즘의 대두
-# KOR_rise_of_fascism_decision = {
-
-# 	#쿠데타 개시
-# 	KOR_begin_coup = {
-
-# 		icon = generic_tank
-
-# 		available = {
-
-# 		}
-
+# 	#빈민구제 정책
+# 	KOR_poverty_relief_policy = {
+# 		icon = generic_supplies
 # 		visible = {
-
+# 			has_completed_focus = KOR_focus_poverty_relief_policy
+# 			OR = {
+# 				has_idea = KOR_idea_the_poor_1
+# 				has_idea = KOR_idea_the_poor_2
+# 				has_idea = KOR_idea_the_poor_3
+# 				has_idea = KOR_idea_the_poor_4
+# 			}
 # 		}
+# 		cost = 50
+# 		days_remove = 60
+# 		modifier = { civilian_factory_use = 2 }
+# 		remove_effect = {
+# 			if = {
+# 				limit = { has_idea = KOR_idea_the_poor_1 }
+# 				swap_ideas = {
+# 					remove_idea = KOR_idea_the_poor_1
+# 					add_idea = KOR_idea_the_poor_2
+# 				}
+# 			}
+# 			else_if = {
+# 				limit = { has_idea = KOR_idea_the_poor_2 }
+# 				swap_ideas = {
+# 					remove_idea = KOR_idea_the_poor_2
+# 					add_idea = KOR_idea_the_poor_3
+# 				}
+# 			}
+# 			else_if = {
+# 				limit = { has_idea = KOR_idea_the_poor_3}
+# 				swap_ideas = {
+# 					remove_idea = KOR_idea_the_poor_3
+# 					add_idea = KOR_idea_the_poor_4
+# 				}
+# 			}
+# 			else_if = {
+# 				limit = { has_idea = KOR_idea_the_poor_3 }
+# 				remove_ideas = KOR_idea_the_poor_4
+# 			}
+# 		}
+# 	}
 
-# 		fire_only_once = yes
-
-# 		complete_effect = {
-# 			news_event = {
-# 				id = pk_korea_internal_fascism.1
-# 				days = 0
+# 	# 문맹 퇴치 운동
+# 	KOR_illiteracy_eradication_movement = {
+# 		icon = generic_operation
+# 		visible = {
+# 			has_completed_focus = KOR_focus_simple_schools
+# 			OR = {
+# 				has_idea = KOR_idea_illiteracy_population_1
+# 				has_idea = KOR_idea_illiteracy_population_2
+# 				has_idea = KOR_idea_illiteracy_population_3
+# 			}
+# 		}
+# 		cost = 50
+# 		days_remove = 60
+# 		modifier = {
+# 			civilian_factory_use = 3
+# 		}
+# 		remove_effect = {
+# 			if = {
+# 				limit = { has_idea = KOR_idea_illiteracy_population_1 }
+# 				swap_ideas = {
+# 					remove_idea = KOR_idea_illiteracy_population_1
+# 					add_idea = KOR_idea_illiteracy_population_2
+# 				}
+# 			}
+# 			else_if = {
+# 				limit = { has_idea = KOR_idea_illiteracy_population_2 }
+# 				swap_ideas = {
+# 					remove_idea = KOR_idea_illiteracy_population_2
+# 					add_idea = KOR_idea_illiteracy_population_3
+# 				}
+# 			}
+# 			else_if = {
+# 				limit = { has_idea = KOR_idea_illiteracy_population_3 }
+# 				remove_ideas = KOR_idea_the_poor_3
 # 			}
 # 		}
 # 	}
 # }
+
+# # 한국의 정치 현황
+# KOR_political_situation = {
+# 	# 지방정당 조직 강화
+# 	KOR_natcon_local_party_organization = {
+# 		icon = generic_nationalism
+# 		visible = { has_country_flag = KOR_flag_faction_natcon }
+# 		available = { NOT = { has_country_flag = KOR_flag_political_action } }
+# 		cost = 20
+# 		days_remove = 30
+# 		fire_only_once = yes
+# 		modifier = {
+# 			political_power_gain = -0.15
+# 		}
+# 		complete_effect = {
+# 			set_country_flag = KOR_flag_political_action
+# 			set_country_flag = KOR_flag_natcon_local_party
+# 		}
+# 		remove_effect = {
+# 			clr_country_flag = KOR_flag_political_action
+# 			custom_effect_tooltip = KOR_natcon_gain_5
+# 			add_to_variable = { KOR_kip_strength = 5 }
+# 			# clr_country_flag = KOR_flag_rural_recon
+# 			# 909 = { add_state_level_1 = yes }
+# 			# 910 = { add_state_level_1 = yes }
+# 		}
+# 	}
+# 	KOR_natcon_provincial_tour = {
+# 		icon = infiltrate_state
+# 		visible = {
+# 			has_country_flag = KOR_flag_faction_natcon
+# 			has_country_flag = KOR_flag_natcon_local_party
+# 		}
+# 		available = { NOT = { has_country_flag = KOR_flag_political_action } }
+# 		cost = 30
+# 		days_remove = 40
+# 		fire_only_once = yes
+# 		modifier = {
+# 			political_power_gain = -0.2
+# 		}
+# 		complete_effect = { set_country_flag = KOR_flag_political_action }
+# 		remove_effect = {
+# 			clr_country_flag = KOR_flag_political_action
+# 			custom_effect_tooltip = KOR_natcon_gain_10
+# 			add_to_variable = { KOR_kip_strength = 10 }
+# 			# clr_country_flag = KOR_flag_rural_recon
+# 			# 909 = { add_state_level_1 = yes }
+# 			# 910 = { add_state_level_1 = yes }
+# 		}
+# 	}
+# }
+
+# # 이념적 갈등
+# KOR_ideological_conflict = {
+# 	# erwerew = {}
+# 	test_faction_reset = {
+# 		complete_effect = {
+# 			FAC_set_com_notgood = yes
+# 			FAC_set_radsoc_normal = yes
+# 			FAC_set_socdem_normal = yes
+# 			FAC_set_soclib_friendly = yes
+# 			FAC_set_natlib_friendly = yes
+# 			FAC_set_libcon_normal = yes
+# 			FAC_set_soccon_normal = yes
+# 			FAC_set_natcon_royal = yes
+# 			FAC_set_fas_normal = yes
+# 		}
+# 	}
+
+# 	test_set_com_royal = {
+# 		complete_effect = {
+# 			FAC_set_com_royal = yes
+# 		}
+# 	}
+
+# 	test_set_all_royal = {
+# 		complete_effect = {
+# 			FAC_set_com_royal = yes
+# 			FAC_set_radsoc_royal = yes
+# 			FAC_set_socdem_royal = yes
+# 			FAC_set_soclib_royal = yes
+# 			FAC_set_natlib_royal = yes
+# 			FAC_set_libcon_royal = yes
+# 			FAC_set_soccon_royal = yes
+# 			FAC_set_natcon_royal = yes
+# 			FAC_set_fas_royal = yes
+# 		}
+# 	}
+# }
+
+
+
+# #파시즘의 대두
+# # KOR_rise_of_fascism_decision = {
+
+# # 	#쿠데타 개시
+# # 	KOR_begin_coup = {
+
+# # 		icon = generic_tank
+
+# # 		available = {
+
+# # 		}
+
+# # 		visible = {
+
+# # 		}
+
+# # 		fire_only_once = yes
+
+# # 		complete_effect = {
+# # 			news_event = {
+# # 				id = pk_korea_internal_fascism.1
+# # 				days = 0
+# # 			}
+# # 		}
+# # 	}
+# # }

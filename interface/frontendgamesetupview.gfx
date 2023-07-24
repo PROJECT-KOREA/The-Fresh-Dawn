@@ -1,7 +1,4 @@
 spriteTypes = {
-
-
-
 	spriteType = {
 		name = "GFX_country_selection_minor_entry"
 		texturefile = "gfx/interface/country_selection_minor_entry.dds"
@@ -310,5 +307,23 @@ spriteTypes = {
 	spriteType = {
         name = "GFX_spirit_focus"
         texturefile = "gfx/interface/spirit_focus.dds"
+    }
+
+	
+	spriteType = {
+        name = "GFX_cover1"
+        texturefile = "gfx/interface/cover/cover1.dds"
+    }
+	spriteType = {
+        name = "GFX_cover2"
+        texturefile = "gfx/interface/cover/cover2.dds"
+    }
+	spriteType = {
+        name = "GFX_cover3"
+        texturefile = "gfx/interface/cover/cover3.dds"
+    }
+	spriteType = {
+        name = "GFX_cover4"
+        texturefile = "gfx/interface/cover/cover4.dds"
     }
 }

@@ -1,0 +1,375 @@
+focus_tree = {
+	id = KOR_exile
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = KOR
+		}
+	}
+
+	continuous_focus_position = { x = 0 y = 1350 }
+	
+	#독립운동의 마지막 보루
+	focus = {
+		id = KOR_focus_last_bastion_of_im
+		icon = GFX_focus_korean_woi
+		x = 8
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+		cancelable = no
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	#임시정부의 정통성
+	focus = {
+		id = KOR_focus_legitimacy_of_kpg
+		icon = GFX_focus_kpg
+		relative_position_id = KOR_focus_last_bastion_of_im
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_last_bastion_of_im
+		}
+
+		completion_reward = {
+			add_legitimacy = 10
+			add_stability = 0.05
+		}
+	}
+	
+	#민족주의 정당 통합
+	focus = {
+		id = KOR_focus_unite_nationalist_parties
+		icon = GFX_focus_ncr
+		relative_position_id = KOR_focus_legitimacy_of_kpg
+		x = -2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_legitimacy_of_kpg
+		}
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#무장투쟁론
+	focus = {
+		id = KOR_focus_armed_struggle
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		relative_position_id = KOR_focus_unite_nationalist_parties
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_unite_nationalist_parties
+		}
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#국무원 조직 개편
+	focus = {
+		id = KOR_focus_reform_council_of_state
+		icon = GFX_focus_capitol
+		relative_position_id = KOR_focus_legitimacy_of_kpg
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_legitimacy_of_kpg
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			
+		}
+	}
+	
+	#주석제 도입
+	focus = {
+		id = KOR_focus_presidential_system
+		icon = GFX_focus_kim_koo
+		relative_position_id = KOR_focus_reform_council_of_state
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_reform_council_of_state
+		}
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#경무국 특무정보대
+	focus = {
+		id = KOR_focus_special_intel_corps
+		icon = GFX_focus_ideological_conversion
+		relative_position_id = KOR_focus_reform_council_of_state
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_reform_council_of_state
+		}
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#국내 연락망 복원
+	focus = {
+		id = KOR_focus_network_to_mainland
+		icon = GFX_focus_prc_infiltration
+		relative_position_id = KOR_focus_special_intel_corps
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_special_intel_corps
+		}
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#현지 공작원 모집
+	focus = {
+		id = KOR_focus_local_agents
+		icon = GFX_focus_secret_agents
+		relative_position_id = KOR_focus_network_to_mainland
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_network_to_mainland
+		}
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#경무국 특무정보대
+	focus = {
+		id = KOR_focus_search_out_spies
+		icon = GFX_focus_search_out_spies
+		relative_position_id = KOR_focus_special_intel_corps
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_special_intel_corps
+		}
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#중국의 지원 확대
+	focus = {
+		id = KOR_focus_support_from_chi
+		icon = GFX_focus_chi_cooperation_with_the_nationalists
+		relative_position_id = KOR_focus_legitimacy_of_kpg
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = {
+			focus = KOR_focus_legitimacy_of_kpg
+		}
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#전시내각 결성
+	focus = {
+		id = KOR_focus_war_cabinet
+		icon = GFX_focus_generic_parliament
+		relative_position_id = KOR_focus_armed_struggle
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = { focus = KOR_focus_armed_struggle }
+		prerequisite = { focus = KOR_focus_presidential_system }
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#구미외교위원부
+	focus = {
+		id = KOR_focus_occident_diplomacy_committee
+		icon = GFX_goal_generic_major_alliance
+		relative_position_id = KOR_focus_war_cabinet
+		x = -2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = { focus = KOR_focus_war_cabinet }
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#재외동포의 지원
+	focus = {
+		id = KOR_focus_support_from_overseas_korean
+		icon = GFX_focus_generic_concessions
+		relative_position_id = KOR_focus_occident_diplomacy_committee
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = { focus = KOR_focus_occident_diplomacy_committee }
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#한국광복군
+	focus = {
+		id = KOR_focus_kia
+		icon = GFX_focus_kia
+		relative_position_id = KOR_focus_war_cabinet
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = { focus = KOR_focus_war_cabinet }
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#국내정진군
+	focus = {
+		id = KOR_focus_hra
+		icon = GFX_focus_hra
+		relative_position_id = KOR_focus_kia
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = { focus = KOR_focus_kia }
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#국내진공작전 준비
+	focus = {
+		id = KOR_focus_prepare_operation
+		icon = GFX_goal_generic_position_armies
+		relative_position_id = KOR_focus_hra
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = { focus = KOR_focus_hra }
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#건국강령 제정
+	focus = {
+		id = KOR_focus_national_doctrine
+		icon = GFX_focus_generic_treaty
+		relative_position_id = KOR_focus_hra
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = { focus = KOR_focus_hra }
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+	
+	#작전명 "광복"
+	focus = {
+		id = KOR_focus_operation_gwangbok
+		icon = GFX_focus_operation_independence
+		relative_position_id = KOR_focus_prepare_operation
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		prerequisite = { focus = KOR_focus_prepare_operation }
+		prerequisite = { focus = KOR_focus_national_doctrine }
+
+		completion_reward = {
+			# add_political_power = 100
+		}
+	}
+}

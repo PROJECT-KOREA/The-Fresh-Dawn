@@ -1,8 +1,13 @@
 ﻿#수도
 capital = 525
+set_oob = "KOR_1936"
+set_cosmetic_tag = KOR_KPG
 
 #인물 불러오기
-	recruit_character = KOR_KIA_Command
+	recruit_character = KOR_Lee_Dongnyeong
+	recruit_character = KOR_Kim_Koo
+	recruit_character = KOR_Kim_Wonbong
+	# recruit_character = KOR_KIA_Command
 	recruit_character = KOR_Hong_Saik
 	# recruit_character = KOR_Ji_Cheongcheon
 	# recruit_character = KOR_Song_Jinwoo
@@ -32,7 +37,7 @@ capital = 525
 	# recruit_character = KOR_Kim_Wonbong
 	# recruit_character = KOR_Yoon_Seju
 	
-	activate_advisor = KOR_KIA_Command_sic
+	activate_advisor = KOR_Kim_Koo_sic
 #
 
 #안정도
@@ -43,13 +48,16 @@ set_war_support = 0.25
 
 #국민 정신
 add_ideas = {
-	KOR_idea_disorganized_admin1
+	KOR_idea_government_in_exile
+	KOR_idea_kmt_support
 	KOR_idea_firepower_supremacy1
-	KOR_idea_kia
-	KOR_idea_independence_war
-	KOR_idea_illiteracy_population_1
-	KOR_idea_the_poor_1
-	KOR_idea_unstable_industry
+	# KOR_idea_disorganized_admin1
+	# KOR_idea_firepower_supremacy1
+	# KOR_idea_kia
+	# KOR_idea_independence_war
+	# KOR_idea_illiteracy_population_1
+	# KOR_idea_the_poor_1
+	# KOR_idea_unstable_industry
 
 	volunteer_only
 	closed_economy
@@ -98,15 +106,18 @@ set_politics = {
 
 #지지도
 set_popularities = {
-	communism = 0
-	neutrality = 100
+	democratic = 27
+	n_socialism = 3
+	neutrality = 70
 }
 
-set_variable = { KOR_kip_strength = 35 }
-set_variable = { KOR_gmh_strength = 20 }
-set_variable = { KOR_ppk_strength = 25 }
-set_variable = { KOR_np_strength = 10 }
-set_variable = { KOR_kdp_strength = 5 }
+COALITION_add_dem = yes
+
+# set_variable = { KOR_kip_strength = 35 }
+# set_variable = { KOR_gmh_strength = 20 }
+# set_variable = { KOR_ppk_strength = 25 }
+# set_variable = { KOR_np_strength = 10 }
+# set_variable = { KOR_kdp_strength = 5 }
 
 # #지청천
 # create_country_leader = {

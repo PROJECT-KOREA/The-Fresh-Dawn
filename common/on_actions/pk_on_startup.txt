@@ -16,32 +16,35 @@ on_actions = {
 				set_country_flag = show_welcome_splash
 			}
 			#장관 없을 시 공석 적용
-			every_country = {
-			# 	if = {
-			# 		limit = { NOT = { has_idea_with_trait = vice_hos } }
-			# 		add_ideas = HoS2_vacant
-			# 	}
-				# if = {
-				# 	limit = { NOT = { has_idea_with_trait = hog_trait } }
-				# 	add_ideas = HoG_vacant
-				# }
-			# 	if = {
-			# 		limit = { NOT = { has_idea_with_trait = secmin } }
-			# 		add_ideas = SM_vacant
-			# 	}
-			# 	if = {
-			# 		limit = { NOT = { has_idea_with_trait = ecomin } }
-			# 		add_ideas = EM_vacant
-			# 	}
-			# 	if = {
-			# 		limit = { NOT = { has_idea_with_trait = frnmin } }
-			# 		add_ideas = FM_vacant
-			# 	}
-			# 	if = {
-			# 		limit = { NOT = { has_idea_with_trait = intmin } }
-			# 		add_ideas = IM_vacant
-			# 	}
-			}
+				every_country = {
+				# 	if = {
+				# 		limit = { NOT = { has_idea_with_trait = vice_hos } }
+				# 		add_ideas = HoS2_vacant
+				# 	}
+					# if = {
+					# 	limit = { NOT = { has_idea_with_trait = hog_trait } }
+					# 	add_ideas = HoG_vacant
+					# }
+				# 	if = {
+				# 		limit = { NOT = { has_idea_with_trait = secmin } }
+				# 		add_ideas = SM_vacant
+				# 	}
+				# 	if = {
+				# 		limit = { NOT = { has_idea_with_trait = ecomin } }
+				# 		add_ideas = EM_vacant
+				# 	}
+				# 	if = {
+				# 		limit = { NOT = { has_idea_with_trait = frnmin } }
+				# 		add_ideas = FM_vacant
+				# 	}
+				# 	if = {
+				# 		limit = { NOT = { has_idea_with_trait = intmin } }
+				# 		add_ideas = IM_vacant
+				# 	}
+				}
+			#
+
+			KOR = { become_exiled_in = { target = CHI legitimacy = 10 } }
 
 			# GGK = {
 			# 	country_event = {

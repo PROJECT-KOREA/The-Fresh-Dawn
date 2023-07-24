@@ -1,0 +1,4 @@
+﻿focus = {
+	current = "KOR_focus_last_bastion_of_im"
+	progress = 0
+}

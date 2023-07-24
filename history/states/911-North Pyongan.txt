@@ -8,8 +8,10 @@ state = {
 	history = {
 		# owner = GGK
 		owner = KOR
+		controller = JAP
 		add_core_of = KOR
-		add_core_of = GGK
+		add_claim_by = JAP
+		# add_core_of = GGK
 		
 		buildings = {
 			#기반시설

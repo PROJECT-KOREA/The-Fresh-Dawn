@@ -1,6 +1,11 @@
 spriteTypes = {	
 	
   	### 국민정신 ###
+	
+	spriteType = {
+		name = "GFX_idea_support_kmt"
+		texturefile = "gfx/interface/ideas/CHI_support_kmt.dds"
+	}
 
 	# GGK #
 	spriteType = {

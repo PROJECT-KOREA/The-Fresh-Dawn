@@ -14,30 +14,99 @@
 
 characters = {
 	### 국가 지도자 ###
-		## 광복군 지도부 (首/顧) ##
-		KOR_KIA_Command = {
-			name = "한국광복군 지도부"
+		## 이동녕 (首) ##
+		KOR_Lee_Dongnyeong = {
+			name = Lee_Dongnyeong
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/KOR/Portrait_KIA_command.dds"
-					small = "gfx/interface/advisor/KOR/KOR_KIA_command.dds"
+					large = "gfx/leaders/KOR/Portrait_Lee_Dongnyeong.dds"
+					# small = "gfx/interface/advisor/KOR/Portrait_Lee_Dongnyeong.dds"
+				}
+			}
+			country_leader = { # 국가 지도자
+				ideology = oligarchism # 권위민주주의
+				traits = { pillar_of_pg }
+			}
+		}
+
+		## 광복군 지도부 (首/顧) ##
+		# KOR_KIA_Command = {
+		# 	name = "한국광복군 지도부"
+		# 	portraits = {
+		# 		civilian = {
+		# 			large = "gfx/leaders/KOR/Portrait_KIA_command.dds"
+		# 			small = "gfx/interface/advisor/KOR/KOR_KIA_command.dds"
+		# 		}
+		# 	}
+
+		# 	# country_leader = { # 국가 지도자
+		# 	# 	ideology = military_dic # 권위민주주의
+		# 	# 	traits = {  }
+		# 	# }
+		# 	advisor = {
+		# 		slot = second_in_command
+		# 		idea_token = KOR_KIA_Command_sic
+		# 		traits = {
+		# 			# KR_parliament_sic
+		# 			PK_government_sic
+		# 		}
+		# 		cost = 0
+		# 		can_be_fired = no
+		# 	}
+		# }
+		
+		## 김구 (首/顧) ##
+		KOR_Kim_Koo = {
+			name = Kim_Koo
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+					small = "gfx/interface/advisor/KOR/KOR_Kim_Koo.dds"
 				}
 			}
 
-			country_leader = { # 국가 지도자
-				ideology = military_dic # 권위민주주의
-				traits = {  }
+			#지도자 - 국민보수주의
+			country_leader = {
+			    ideology = conservatism
+			    traits = {  }
 			}
 			advisor = {
 				slot = second_in_command
-				idea_token = KOR_KIA_Command_sic
+				idea_token = KOR_Kim_Koo_sic
 				traits = {
 					# KR_parliament_sic
-					PK_government_sic
+					# PK_government_sic
 				}
 				cost = 0
 				can_be_fired = no
 			}
+		}		
+		
+		## 김원봉 (首) ##
+		KOR_Kim_Wonbong = {
+			name = Kim_Wonbong
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/KOR/Portrait_Kim_Wonbong.dds"
+					small = "gfx/interface/ideas/minister/KOR/KOR_Kim_Wonbong.dds"
+				}
+			}
+
+			#지도자 - 사회주의
+			country_leader = {
+			    ideology = n_socialism_ideology
+			    traits = {  }
+			}
+			# advisor = {
+			# 	slot = second_in_command
+			# 	idea_token = KOR_Kim_Koo_sic
+			# 	traits = {
+			# 		# KR_parliament_sic
+			# 		# PK_government_sic
+			# 	}
+			# 	cost = 0
+			# 	can_be_fired = no
+			# }
 		}
 
 		## 홍사익 (首/將/顧) ##

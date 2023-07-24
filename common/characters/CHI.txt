@@ -6,28 +6,29 @@ characters = {
 		portraits = {
 			civilian = { large = "gfx/leaders/CHI/Portrait_Lin_Sen.dds" }
 		}
+		# country_leader = {
+		# 	ideology = despotism
+		# 	traits = {  }
+		# 	expire = "1965.1.1.1"
+		# 	id = -1
+		# }
+	}
+
+	#장제스 - 총사령관
+	CHI_Chiang_Kaishek = {
+		name = CHI_chiang_kaishek
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_Chiang_Kaishek.dds"
+			}
+		}
 		country_leader = {
 			ideology = despotism
-			traits = {  }
+			traits = { generallissimo }
 			expire = "1965.1.1.1"
 			id = -1
 		}
 	}
-
-	# CHI_Chiang_Kaishek = {
-	# 	name = CHI_chiang_kaishek
-	# 	portraits = {
-	# 		civilian = {
-	# 			large = "gfx/leaders/CHI/Portrait_China_Chiang_Kai_Shek.dds"
-	# 		}
-	# 	}
-	# 	country_leader = {
-	# 		ideology = despotism
-	# 		traits = { generallissimo }
-	# 		expire = "1965.1.1.1"
-	# 		id = -1
-	# 	}
-	# }
 	
 	# CHI_zhang_guotao = {
 	# 	name = CHI_zhang_guotao

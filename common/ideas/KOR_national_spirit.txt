@@ -5,6 +5,43 @@ ideas = {
 
 		### 기본 ###
 
+			#망명정부
+			KOR_idea_government_in_exile_1 = {
+				name = KOR_idea_government_in_exile
+				picture = generic_volunteer_expedition_bonus
+				# removal_cost = -1
+				modifier = {
+					political_power_factor = -0.25
+					# political_power_gain = -0.01
+					cannot_call_allies_or_join_wars = 1
+				}
+			}
+
+			#망명정부
+			KOR_idea_government_in_exile_2 = {
+				name = KOR_idea_government_in_exile
+				picture = generic_volunteer_expedition_bonus
+				# removal_cost = -1
+				modifier = {
+					political_power_factor = -0.20
+					# political_power_gain = -0.01
+					cannot_call_allies_or_join_wars = 1
+				}
+			}
+
+			#국민당의 지원
+			KOR_idea_kmt_support = {
+				# name = KOR_idea_government_in_exile
+				picture = support_kmt
+				# removal_cost = -1
+				modifier = {
+					political_power_factor = 0.05
+					# political_power_gain = -0.01
+					# cannot_call_allies_or_join_wars = 1
+				}
+			}
+
+
 			#체계적이지 못한 행정 1
 			KOR_idea_disorganized_admin1 = {
 				name = KOR_idea_disorganized_admin

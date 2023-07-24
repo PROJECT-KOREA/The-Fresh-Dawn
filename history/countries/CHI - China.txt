@@ -22,8 +22,10 @@ if = {
 	}
 }
 
+create_faction = CHI_NG
+
 #인물 로딩
-	recruit_character = CHI_Lin_Sen
+	recruit_character = CHI_Chiang_Kaishek
 	
 	#
 		# recruit_character = CHI_chiang_kaishek

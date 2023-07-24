@@ -5,6 +5,11 @@
 	#############
 
 	## 국민정신 ##
+		KOR_idea_government_in_exile: "망명정부"
+		KOR_idea_government_in_exile_desc: ""
+		KOR_idea_kmt_support: "국민당의 지원"
+		KOR_idea_kmt_support_desc: ""
+
 		KOR_idea_disorganized_admin:0 "체계적이지 못한 행정"
 		KOR_idea_disorganized_admin_desc:0 "현재 우리 정권은 임시적이고 과도기적인 성격이 강하며, 비체계적인 관료 체계를 유지하고 있습니다. 국내의 인재들을 등용하고 행정적 개혁을 실시하여 이를 바로 잡아야 할 것입니다."
 		KOR_idea_firepower_supremacy:0 "화력지상주의"

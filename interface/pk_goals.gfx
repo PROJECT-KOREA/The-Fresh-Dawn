@@ -83,15 +83,15 @@ spriteTypes = {
 	# 	textureFile = "gfx/interface/goals/GGK/focus_korean_independence_movement.dds"
 	# }
 
-	# spriteType = {
-	# 	name = "GFX_focus_search_out_spies"
-	# 	textureFile = "gfx/interface/goals/GGK/focus_search_out_spies.dds"
-	# }
+	spriteType = {
+		name = "GFX_focus_search_out_spies"
+		textureFile = "gfx/interface/goals/GGK/focus_search_out_spies.dds"
+	}
 
-	# spriteType = {
-	# 	name = "GFX_focus_operation_independence"
-	# 	textureFile = "gfx/interface/goals/GGK/focus_operation_independence.dds"
-	# }
+	spriteType = {
+		name = "GFX_focus_operation_independence"
+		textureFile = "gfx/interface/goals/GGK/focus_operation_independence.dds"
+	}
 
 
 	### KOR ###

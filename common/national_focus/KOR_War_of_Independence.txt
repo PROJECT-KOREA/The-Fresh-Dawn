@@ -1,72 +1,72 @@
-focus_tree = {
-	id = KOR_War_of_Independence
+# focus_tree = {
+# 	id = KOR_War_of_Independence
 
-	country = {
-		factor = 0
+# 	country = {
+# 		factor = 0
 		
-		modifier = {
-			add = 10
-			tag = KOR
-		}
-	}
+# 		modifier = {
+# 			add = 10
+# 			tag = KOR
+# 		}
+# 	}
 	
-	continuous_focus_position = { x = 1000 y = 850 }
+# 	continuous_focus_position = { x = 1000 y = 850 }
 
-	#한국 독립전쟁
-		# focus = {
-		# 	id = KOR_focus_korean_war_of_independence
-		# 	icon = GFX_focus_korean_woi
-		# 	x = 8
-		# 	y = 0
-		# 	cost = 5
+# 	#한국 독립전쟁
+# 		# focus = {
+# 		# 	id = KOR_focus_korean_war_of_independence
+# 		# 	icon = GFX_focus_korean_woi
+# 		# 	x = 8
+# 		# 	y = 0
+# 		# 	cost = 5
 
-		# 	available = { }
+# 		# 	available = { }
 
-		# 	completion_reward = {
-		# 		effect_tooltip = {
-		# 			add_ideas = KOR_idea_independence_war_1
-		# 		}
-		# 	}
-	# }
+# 		# 	completion_reward = {
+# 		# 		effect_tooltip = {
+# 		# 			add_ideas = KOR_idea_independence_war_1
+# 		# 		}
+# 		# 	}
+# 	# }
 
-	#광복군사령부 복원
-	focus = {
-		id = KOR_focus_kia_command
-		icon = GFX_focus_mpc
-		x = 3
-		y = 0
-		cost = 2
+# 	#광복군사령부 복원
+# 	focus = {
+# 		id = KOR_focus_kia_command
+# 		icon = GFX_focus_mpc
+# 		x = 3
+# 		y = 0
+# 		cost = 2
 		
-		# prerequisite = { focus = KOR_focus_korean_war_of_independence }
+# 		# prerequisite = { focus = KOR_focus_korean_war_of_independence }
 
-		completion_reward = {
-			# country_event = { id = kor_woi.1 }
-			set_cosmetic_tag = KOR_KIA
-			set_party_name = { 
-				ideology = neutrality 
-				long_name = KOR_neutrality_party_kiac_long
-				name = KOR_neutrality_party_kiac 
-			}
-			add_country_leader_role = {
-				character = KOR_Hong_Saik
-				promote_leader = yes
-				country_leader = {
-					ideology = military_dic
-					traits = { military_governor }
-				}
-			}
-			add_political_power = 50
-			add_stability = 0.05
-			hidden_effect = {
-				# add_ideas = HoG_Ryuh_Woonhyung_kia_mg
-				set_popularities = {
-					communism = 2
-					n_socialism = 3
-					democratic = 1
-					neutrality = 94
-					fascism = 0
-				}
-			}
-		}
-	}
-}
+# 		completion_reward = {
+# 			# country_event = { id = kor_woi.1 }
+# 			set_cosmetic_tag = KOR_KIA
+# 			set_party_name = { 
+# 				ideology = neutrality 
+# 				long_name = KOR_neutrality_party_kiac_long
+# 				name = KOR_neutrality_party_kiac 
+# 			}
+# 			add_country_leader_role = {
+# 				character = KOR_Hong_Saik
+# 				promote_leader = yes
+# 				country_leader = {
+# 					ideology = military_dic
+# 					traits = { military_governor }
+# 				}
+# 			}
+# 			add_political_power = 50
+# 			add_stability = 0.05
+# 			hidden_effect = {
+# 				# add_ideas = HoG_Ryuh_Woonhyung_kia_mg
+# 				set_popularities = {
+# 					communism = 2
+# 					n_socialism = 3
+# 					democratic = 1
+# 					neutrality = 94
+# 					fascism = 0
+# 				}
+# 			}
+# 		}
+# 	}
+# }
