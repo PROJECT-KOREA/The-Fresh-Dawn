@@ -3,4 +3,5 @@ opinion_modifiers = {
     KOR_modifier_rhee_line = { value = -50 }
     KOR_modifier_mutual_defense_treaty = { value = 70 }
     KOR_modifier_sino_korean_ally = { value = 30 }
+    modifier_kpg_kmt_cooperation = { value = 20 }
 }

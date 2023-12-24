@@ -1,4 +1,4 @@
 ﻿focus = {
-	current = "KOR_focus_last_bastion_of_im"
+	current = "KOR_focus_on_the_foreign_soil"
 	progress = 0
 }

@@ -1,0 +1,59 @@
+defined_text = {
+	name = GET_KIA_DECISION_DESC
+	
+	text = {
+		trigger = { has_country_flag = KOR_kia_formed_flag }
+		localization_key = KOR_DECCAT_KIA_desc_2
+	}
+	
+	text = { localization_key = KOR_DECCAT_KIA_desc_1 }
+}
+
+defined_text = {
+	name = GetDisplayMP
+	
+	text = {
+		trigger = { has_manpower > 999 }
+		localization_key = DisplayMP_K
+	}
+	
+	text = { localization_key = DisplayMP }
+}
+
+defined_text = {
+	name = GetKOR_KPG_CHIMILCON_Relations
+	
+	text = {
+		trigger = {
+			check_variable = { KPG_CHI_Relations > 84 }
+		}
+		localization_key = KPG_CHI_Relations_VeryHigh
+	}
+	text = {
+		trigger = {
+			check_variable = { KPG_CHI_Relations < 85 }
+			check_variable = { KPG_CHI_Relations > 54 }
+		}
+		localization_key = KPG_CHI_Relations_High
+	}
+	text = {
+		trigger = {
+			check_variable = { KPG_CHI_Relations < 55 }
+			check_variable = { KPG_CHI_Relations > 34 }
+		}
+		localization_key = KPG_CHI_Relations_Moderate
+	}
+	text = {
+		trigger = {
+			check_variable = { KPG_CHI_Relations < 35 }
+			check_variable = { KPG_CHI_Relations > 19 }
+		}
+		localization_key = KPG_CHI_Relations_Low
+	}
+	text = {
+		trigger = {
+			check_variable = { KPG_CHI_Relations < 20 }
+		}
+		localization_key = KPG_CHI_Relations_VeryLow
+	}
+}

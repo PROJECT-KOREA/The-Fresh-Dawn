@@ -1,9 +1,7 @@
-test = {
+PK_debug = {
 	icon = decision_category_generic
 
-	visible = {
-		is_debug = yes
-	}
+	visible = { is_debug = yes }
 
-	priority = 100
+	priority = 90
 }

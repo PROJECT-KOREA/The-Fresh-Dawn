@@ -1,0 +1,99 @@
+﻿add_namespace = pk_china_mengjiang
+
+# 위원회의 분할을 요구하는 난징 중앙정부 (몽강국)
+country_event = {
+	id = pk_china_mengjiang.1
+	title = pk_china_mengjiang.1.t
+	desc = pk_china_mengjiang.1.d
+	picture = GFX_report_event_chiang_speech
+
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = { # yes
+		name = pk_china_mengjiang.1.a
+		ai_chance = {
+			base = 60
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		effect_tooltip = {
+			SHX = {
+				transfer_state = 621
+				#no need 823
+			}
+		}
+
+		hidden_effect = {
+			SHX = {
+				country_event = {
+					days = 2 id = pk_china_mengjiang.3
+				}
+			}
+		}
+	}
+	# option = { # no
+	# 	name = pk_china_mengjiang.1.b
+	# 	ai_chance = {
+	# 		base = 20
+	# 		modifier = {
+	# 			factor = 0
+	# 			is_historical_focus_on = yes
+	# 		}
+	# 	}
+	# 	CHI = {
+	# 		country_event = { days = 2 id = pk_china_mengjiang.296 }
+	# 	}
+	# 	custom_effect_tooltip = due_to_SHX_stationed_troops_SUI_will_transfer_tt
+	# 	custom_effect_tooltip = this_could_lead_to_war_tt
+	# }
+}
+
+# 백령묘 위원회의 분할 요구 수락 (중국)
+country_event = {
+	id = pk_china_mengjiang.2
+	title = pk_china_mengjiang.2.t
+	desc = pk_china_mengjiang.2.d
+	picture = GFX_report_prince_de
+
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = pk_china_mengjiang.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# 분할된 백령묘 위원회 (to SHX)
+country_event = {
+	id = pk_china_mengjiang.3
+	title = pk_china_mengjiang.3.t
+	desc = pk_china_mengjiang.3.d
+	picture = GFX_report_prince_de
+
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = pk_china_mengjiang.3.a
+		ai_chance = { factor = 100 }
+		SHX = { transfer_state = 621 }
+		hidden_effect = {
+			SHX = {
+				set_cosmetic_tag = SHX_shanxi_suiyuan
+			}
+			# SHX = { drop_cosmetic_tag = yes }
+			CHI = { 
+				country_event = {
+					days = 1
+					id = pk_china_mengjiang.2
+				}
+			}
+		}
+	}
+}

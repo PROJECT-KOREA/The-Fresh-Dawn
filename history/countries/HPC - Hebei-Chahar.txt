@@ -2,7 +2,7 @@
 capital = 608
 
 #전투서열
-oob = "HPC_1936"
+# oob = "HPC_1936"
 
 recruit_character = CHI_Song_Zheyuan
 

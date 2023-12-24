@@ -1,0 +1,1259 @@
+﻿add_namespace = kor_kpg
+add_namespace = kor_kpg_politic
+add_namespace = kor_kpg_propaganda
+add_namespace = kor_kpg_kia
+add_namespace = kor_kpg_kia_hidden
+add_namespace = kor_kpg_hidden
+
+# ## 히든 이벤트 - 국민정부와의 관계 ##
+# 	# 1>2 #
+# 	country_event = {
+# 		id = kor_kpg_hidden.1
+# 		title = kor_kpg_hidden.1.t
+# 		desc = kor_kpg_hidden.1.desc
+# 		hidden = yes
+# 		# is_triggered_only = yes
+# 		trigger = { 
+# 			AND = {
+# 				tag = KOR
+# 				has_idea = KOR_idea_kmt_relation_1
+# 				CHI = {
+# 					has_opinion = {
+# 						target = KOR
+# 						value > 24
+# 					}
+# 				}
+# 			}
+# 		}
+# 		immediate = { log = "[GetDateText]: [Root.GetName]: event kor_kpg_hidden.1" 
+# 			swap_ideas = {
+# 				remove_idea = KOR_idea_kmt_relation_1
+# 				add_idea = KOR_idea_kmt_relation_2
+# 			}
+# 		}
+# 	}
+# 	# 2>3 #
+# 	country_event = {
+# 		id = kor_kpg_hidden.2
+# 		title = kor_kpg_hidden.2.t
+# 		desc = kor_kpg_hidden.2.desc
+# 		hidden = yes
+# 		# is_triggered_only = yes
+# 		trigger = {
+# 			AND = {
+# 				tag = KOR
+# 				has_idea = KOR_idea_kmt_relation_2
+# 				CHI = {
+# 					has_opinion = {
+# 						target = KOR
+# 						value > 49
+# 					}
+# 				}
+# 			}
+# 		}
+# 		immediate = { log = "[GetDateText]: [Root.GetName]: event kor_kpg_hidden.2" 
+# 			swap_ideas = {
+# 				remove_idea = KOR_idea_kmt_relation_2
+# 				add_idea = KOR_idea_kmt_relation_3
+# 			}
+# 		}
+# 	}
+# 	# 3>4 #
+# 	country_event = {
+# 		id = kor_kpg_hidden.3
+# 		title = kor_kpg_hidden.3.t
+# 		desc = kor_kpg_hidden.3.desc
+# 		hidden = yes
+# 		# is_triggered_only = yes
+# 		trigger = {
+# 			AND = {
+# 				tag = KOR
+# 				has_idea = KOR_idea_kmt_relation_3
+# 				CHI = {
+# 					has_opinion = {
+# 						target = KOR
+# 						value > 74
+# 					}
+# 				}
+# 			}
+# 		}
+# 		immediate = { log = "[GetDateText]: [Root.GetName]: event kor_kpg_hidden.3" 
+# 			swap_ideas = {
+# 				remove_idea = KOR_idea_kmt_relation_3
+# 				add_idea = KOR_idea_kmt_relation_4
+# 			}
+# 		}
+# 	}
+# #
+
+
+# 대한민국 18년의 아침 #
+country_event = {
+	id = kor_kpg.1
+	title = kor_kpg.1.t
+	desc = kor_kpg.1.desc
+
+	picture = GFX_event_kor_kpg_1936
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = kor_kpg.1.a
+		add_stability = 0.015
+	}
+}
+
+## 임시정부 내정 ##
+	# 임시의정원 임시회의 개시 #
+	country_event = {
+		id = kor_kpg_politic.1
+		title = kor_kpg_politic.1.t
+		desc = kor_kpg_politic.1.desc
+
+		picture = GFX_event_kor_kim_koo_speech
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.1.a
+			hidden_effect = {
+				country_event = {
+					id = kor_kpg_politic.2
+					days = 14
+				}
+			}
+		}
+	}
+
+	# 당 조직 및 지지기반 확보에 관한 논의 #
+	country_event = {
+		id = kor_kpg_politic.2
+		title = kor_kpg_politic.2.t
+		desc = kor_kpg_politic.2.desc
+
+		picture = GFX_event_kor_kpg_1933
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.2.a
+			effect_tooltip = {
+				unlock_national_focus = KOR_focus_youth_vangurad_group
+			}
+			hidden_effect = {
+				country_event = {
+					id = kor_kpg_politic.3
+					days = 14
+				}
+			}
+		}
+	}
+
+	# 임시정부의 위상 및 지위 회복에 관한 논의 #
+	country_event = {
+		id = kor_kpg_politic.3
+		title = kor_kpg_politic.3.t
+		desc = kor_kpg_politic.3.desc
+
+		picture = GFX_event_kor_kpg_1918_shanghai
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.3.a
+			effect_tooltip = {
+				unlock_national_focus = KOR_focus_propaganda_activities
+			}
+			hidden_effect = {
+				country_event = {
+					id = kor_kpg_politic.4
+					days = 14
+				}
+			}
+		}
+	}
+
+	# 정부 재정 문제에 관한 논의 #
+	country_event = {
+		id = kor_kpg_politic.4
+		title = kor_kpg_politic.4.t
+		desc = kor_kpg_politic.4.desc
+
+		picture = GFX_report_event_generic_read_write
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.4.a
+			effect_tooltip = {
+				unlock_national_focus = KOR_focus_solve_financial_problem
+			}
+		}
+	}
+
+	# 임시회의 해산 #
+	country_event = {
+		id = kor_kpg_politic.5
+		title = kor_kpg_politic.5.t
+		desc = kor_kpg_politic.5.desc
+
+		picture = GFX_report_event_generic_sign_treaty2
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.5.a
+			add_stability = 0.03
+		}
+	}
+
+	# 한국청년전위단 창설 기념식 #
+	country_event = {
+		id = kor_kpg_politic.6
+		title = kor_kpg_politic.6.t
+		desc = kor_kpg_politic.6.desc
+
+		picture = GFX_event_kor_jokcheong
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.6.a
+			
+		}
+	}
+
+	# 무장투쟁 노선의 강화 #
+	country_event = {
+		id = kor_kpg_politic.7
+		title = kor_kpg_politic.7.t
+		desc = kor_kpg_politic.7.desc
+
+		picture = GFX_event_kor_ji_cheongcheon
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.7.a
+			
+		}
+	}
+
+	# 3당 통일회의 개최 #
+	country_event = {
+		id = kor_kpg_politic.8
+		title = kor_kpg_politic.8.t
+		desc = kor_kpg_politic.8.desc
+
+		picture = GFX_report_event_generic_sign_treaty2
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.8.a
+			
+		}
+	}
+
+	# 남목청 사건 #
+	country_event = {
+		id = kor_kpg_politic.9
+		title = kor_kpg_politic.9.t
+		desc = kor_kpg_politic.9.desc
+
+		picture = GFX_event_kor_kip_1940
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.9.a
+			
+		}
+	}
+
+	# 통합 한국독립당 결성 #
+	country_event = {
+		id = kor_kpg_politic.10
+		title = kor_kpg_politic.10.t
+		desc = kor_kpg_politic.10.desc
+
+		picture = GFX_event_kor_kip_1940
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.10.a
+			set_party_name = {
+				ideology = democratic
+				long_name = KOR_democratic_party_kip_long
+				name = KOR_democratic_party_kip
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
+	}
+
+	# 전시내각 출범 #
+	country_event = {
+		id = kor_kpg_politic.11
+		title = kor_kpg_politic.11.t
+		desc = kor_kpg_politic.11.desc
+
+		picture = GFX_event_kor_kim_koo
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.11.a
+			add_country_leader_role = {
+				character = KOR_Kim_Koo
+				promote_leader = yes
+				country_leader = {
+					ideology = oligarchism
+					# expire = "1965.1.1.1"
+					# traits = { war_industrialist }
+				}
+			}
+		}
+	}
+
+	# 개정 임시약헌 공포 #
+	country_event = {
+		id = kor_kpg_politic.12
+		title = kor_kpg_politic.12.t
+		desc = kor_kpg_politic.12.desc
+
+		picture = GFX_report_event_generic_sign_treaty2
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.12.a
+			set_country_flag = kpg_presidential
+			custom_effect_tooltip = KOR_kpg_presidential_tt
+			swap_ideas = {
+				remove_idea = KOR_idea_government_in_exile_2
+				add_idea = KOR_idea_government_in_exile_3
+			}
+		}
+	}
+
+	# ㅁㄴㅇㄹ #
+	country_event = {
+		id = kor_kpg_politic.13
+		title = kor_kpg_politic.13.t
+		desc = kor_kpg_politic.13.desc
+
+		picture = GFX_event_kor_kip_1940
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_politic.13.a
+			
+		}
+	}
+#
+
+## 선전 활동 ##
+	# 군사위원회 출범 #
+	country_event = {
+		id = kor_kpg_propaganda.1
+		title = kor_kpg_propaganda.1.t
+		desc = kor_kpg_propaganda.1.desc
+	
+		picture = GFX_event_kor_cho_seonghwan
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_propaganda.1.a
+			
+		}
+	}
+#
+
+## 한국광복군 ##
+
+	### 히든 이벤트 ###
+		country_event = {
+			id = kor_kpg_kia_hidden.1
+			immediate = { log = "[GetDateText]: [Root.GetName]: event kor_kpg_kia_hidden.1" }
+			title = kor_kpg_kia_hidden.1.t
+			desc = kor_kpg_kia_hidden.1.desc
+			hidden = yes
+		
+			is_triggered_only = yes
+		
+			option = {
+				name = kor_kpg_kia_hidden.1.a
+				randomize_temp_variable = {
+					var = debuff
+					distribution = binomial
+					min = 8
+					max = 11
+				}
+				set_variable = { KPG_CHI_Relations_Debuff = debuff }
+				round_variable = KPG_CHI_Relations_Debuff
+				subtract_from_variable = { KPG_CHI_Relations = KPG_CHI_Relations_Debuff }
+				KOR_ClampCHIRelations = yes
+				country_event = { id = kor_kpg_kia_hidden.1 days = 15 }
+			}
+		
+			option = {
+				name = kor_kpg_kia_hidden.1.b
+				# trigger = {  }
+			}
+		}
+	#
+
+	# 군사위원회 출범 #
+	country_event = {
+		id = kor_kpg_kia.1
+		title = kor_kpg_kia.1.t
+		desc = kor_kpg_kia.1.desc
+	
+		picture = GFX_event_kor_cho_seonghwan
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.1.a
+            # add_ideas = KOR_idea_military_council
+			set_country_flag = KOR_KIA_MSM_flag
+		}
+	}
+
+	# 군사특파단의 중국 파견 #
+	country_event = {
+		id = kor_kpg_kia.2
+		title = kor_kpg_kia.2.t
+		desc = kor_kpg_kia.2.desc
+	
+		picture = GFX_event_kor_kia_hsian
+
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.2.a
+		}
+	}
+
+	# 중국군사위원회의 회답 #
+	country_event = {
+		id = kor_kpg_kia.3
+		title = kor_kpg_kia.3.t
+		desc = kor_kpg_kia.3.desc
+	
+		picture = GFX_report_event_generic_read_write
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.3.a
+            set_country_flag = KOR_KIA_MCM_sent_flag
+			unlock_decision_tooltip = KOR_recruiting_activity
+			unlock_decision_tooltip = KOR_DEC_submit_plan_for_kia
+		}
+	}
+
+	# 성공적인 초모활동 #
+	country_event = {
+		id = kor_kpg_kia.4
+		title = kor_kpg_kia.4.t
+		desc = kor_kpg_kia.4.desc
+	
+		picture = GFX_event_kor_kia_recruit
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.4.a
+		}
+	}
+
+	# 국부군 내 한인 간부 초청 #
+	country_event = {
+		id = kor_kpg_kia.5
+		title = kor_kpg_kia.5.t
+		desc = kor_kpg_kia.5.desc
+	
+		picture = GFX_event_kor_lee_beomseok
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.5.a
+			set_country_flag = KOR_KIA_mil_leader_flag
+			KOR_Kim_Kyeongcheon = {
+				add_corps_commander_role = {
+					traits = {
+						cavalry_leader #기병 지휘관
+						media_personality #유명인
+					}
+					skill = 4
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 3
+					legacy_id = 0
+				}
+			}
+			KOR_Kim_Hong_il = {
+				add_corps_commander_role = {
+					traits = {
+						infantry_leader #보병 지휘관
+						inflexible_strategist #확고한 전략가
+						organizer #조직가
+					}
+					skill = 3
+					attack_skill = 2
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 2
+					# legacy_id = 0
+				}
+			}
+			KOR_Lee_Beomseok = {
+				add_corps_commander_role = {
+					traits = {
+						brilliant_strategist #확고한 전략가
+						cavalry_officer #기병 장교
+						war_hero #전쟁 영웅
+					}
+					skill = 3
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					# legacy_id = 0
+				}
+			}
+		}
+	}
+
+	# 임시정부의 한국광복군 편련계획 대강 제출 #
+	country_event = {
+		id = kor_kpg_kia.6
+		title = kor_kpg_kia.6.t
+		desc = kor_kpg_kia.6.desc
+	
+		picture = GFX_report_event_generic_read_write
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.6.a
+			
+		}
+	}
+
+	# 광복군의 예속을 주장하는 중국 군사위원회 #
+	country_event = {
+		id = kor_kpg_kia.7
+		title = kor_kpg_kia.7.t
+		desc = kor_kpg_kia.7.desc
+	
+		picture = GFX_report_event_military_planning
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.7.a
+		}
+	}
+
+	# 중국군사위원회의 편련계획 대강 반려 #
+	country_event = {
+		id = kor_kpg_kia.8
+		title = kor_kpg_kia.8.t
+		desc = kor_kpg_kia.8.desc
+	
+		picture = GFX_report_event_generic_sign_treaty2
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.8.a
+			set_country_flag = KOR_KIA_plan_rejected
+			unlock_decision_tooltip = KOR_install_kia_command
+		}
+	}
+	
+	# 한국광복군 총사령부 성립 전례식 #
+	country_event = {
+		id = kor_kpg_kia.9
+		title = kor_kpg_kia.9.t
+		desc = kor_kpg_kia.9.desc
+	
+		picture = GFX_event_kor_kia_command
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.9.a
+			add_ideas = KOR_idea_kia_initial
+			army_experience = 20
+		}
+	}
+	
+	# 광복군의 활동을 통제한 중국군사위원회 #
+	country_event = {
+		id = kor_kpg_kia.10
+		title = kor_kpg_kia.10.t
+		desc = kor_kpg_kia.10.desc
+	
+		picture = GFX_report_event_military_planning
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.10.a
+			add_political_power = -20
+			# add_ideas = KOR_idea_kia_initial
+		}
+	}
+	
+	# 중국군사위원회의 광복군 창설 승인 #
+	country_event = {
+		id = kor_kpg_kia.11
+		title = kor_kpg_kia.11.t
+		desc = kor_kpg_kia.11.desc
+	
+		picture = GFX_report_event_generic_sign_treaty2
+	
+		is_triggered_only = yes
+		fire_only_once = yes
+	
+		option = {
+			name = kor_kpg_kia.11.a
+			add_political_power = 30
+			# add_ideas = KOR_idea_kia_initial
+		}
+	}
+#
+
+
+
+
+
+
+# country_event = {
+# 	id = kor_kpg_politic.2
+# 	title = kor_kpg_politic.2.t
+# 	desc = kor_kpg_politic.2.desc
+
+# 	picture = GFX_report_event_KOR_provisional_assembly
+
+# 	is_triggered_only = yes
+# 	fire_only_once = yes
+
+# 	option = {
+# 		name = kor_kpg_politic.2.a
+# 	}
+# }
+
+
+
+
+
+# ### 한국 이벤트 ###
+# add_namespace = kor_kpg_internal
+# add_namespace = kor_kpg_election
+# add_namespace = kor_kpg_party
+
+# ## 내정 이벤트 ##
+# 	#일본의 평화협정 제안
+# 	country_event = {
+# 		id = kor_kpg_internal.1
+# 		title = kor_kpg_internal.1.t
+# 		desc = kor_kpg_internal.1.desc
+
+# 		picture = GFX_report_event_generic_sign_treaty1
+
+# 		is_triggered_only = yes
+# 		fire_only_once = yes
+
+# 		option = {
+# 			name = kor_kpg_internal.1.a
+# 			set_capital = { state = 525 }
+# 			remove_ideas = KOR_idea_independence_war
+# 			if = {
+# 				limit = { has_idea = KOR_idea_doknip_uiyonggun }
+# 				remove_ideas = KOR_idea_doknip_uiyonggun
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_idea_kia_1 }
+# 				remove_ideas = KOR_idea_kia_1
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_idea_kia_2 }
+# 				remove_ideas = KOR_idea_kia_2
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_hang_il_yugyeok }
+# 				remove_ideas = KOR_hang_il_yugyeok
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_idea_poc }
+# 				remove_ideas = KOR_idea_poc
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_idea_local_weapons }
+# 				remove_ideas = KOR_idea_local_weapons
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_idea_war_time_production }
+# 				remove_ideas = KOR_idea_war_time_production
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_idea_time_to_revenge }
+# 				remove_ideas = KOR_idea_time_to_revenge
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_idea_time_to_revenge }
+# 				remove_ideas = KOR_idea_time_to_revenge
+# 			}
+# 			if = {
+# 				limit = { has_idea = KOR_idea_time_to_revenge }
+# 				remove_ideas = KOR_idea_time_to_revenge
+# 			}
+# 			add_ideas = KOR_idea_scarred_nation1
+# 			add_ideas = KOR_idea_pro_japanese_collaborators
+# 			# add_ideas = KOR_idea_ideological_conflict
+# 			hidden_effect = {
+# 				set_global_flag = kor_woi_over
+# 				load_focus_tree = KOR_Provisional_Government
+# 				complete_national_focus = KOR_focus_victory_in_woi
+# 				delete_unit_template_and_units = {
+# 					division_template = "광복의용군"
+# 				}
+# 				add_ideas = {
+# 					civilian_economy
+# 					export_focus
+# 					volunteer_only
+# 				}
+# 				# set_popularities = {
+# 				#     neutrality = 50
+# 				#     democratic = 15
+# 				#     communism = 30
+# 				#     fascism = 5
+# 				# }
+# 				KOR_reset_state_names = yes
+# 				KOR_reset_province_names = yes
+# 			}
+# 		}
+# 	}
+
+# 	#임시정부의 귀환
+# 	country_event = {
+# 		id = kor_kpg_internal.2
+# 		title = kor_kpg_internal.2.t
+# 		desc = kor_kpg_internal.2.desc
+
+# 		picture = GFX_report_event_KOR_return_of_kpg
+
+# 		is_triggered_only = yes
+# 		fire_only_once = yes
+
+# 		option = {
+# 			name = kor_kpg_internal.2.a
+# 			clr_country_flag = KOR_flag_kia_mg
+# 			clr_country_flag = KOR_flag_hnc
+# 			clr_country_flag = KOR_flag_hnc_cenright
+# 			clr_country_flag = KOR_flag_hnc_com
+# 			set_country_flag = KOR_flag_kpg
+# 			set_party_name = { 
+# 				ideology = neutrality
+# 				long_name = KOR_neutrality_party_kpg_long 
+# 				name = KOR_neutrality_party_kpg
+# 			}
+# 			create_country_leader = {
+# 				name = "김구"
+# 				desc = ""
+# 				picture = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+# 				expire = "1965.1.1"
+# 				ideology = oligarchism
+# 				traits = {  }
+# 			}
+# 			COALITION_RESET = yes
+# 			# set_party_name = { 
+# 			#     ideology = national_conservatism
+# 			#     long_name = KOR_national_conservatism_party_kip_long
+# 			#     name = KOR_national_conservatism_party_kip
+# 			# }
+# 			# COALITION_add_natcon = yes
+# 			# COALITION_add_soccon = yes
+# 			# set_party_name = { 
+# 			#     ideology = radical_socialism
+# 			#     long_name = KOR_radical_socialism_party_knrp_long
+# 			#     name = KOR_radical_socialism_party_knrp
+# 			# }
+# 			# COALITION_add_radsoc = yes
+# 			# set_party_name = { 
+# 			#     ideology = auth_socialism
+# 			#     long_name = KOR_auth_socialism_party_kia
+# 			#     name = KOR_auth_socialism_party_kia
+# 			# }
+# 			# COALITION_add_autsoc = yes
+# 			hidden_effect = {
+# 				# set_popularities = {
+# 				#     communism = 2
+# 				#     auth_socialism = 2
+# 				#     radical_socialism = 3
+# 				#     social_democracy = 6
+# 				#     national_liberalism = 5
+# 				#     liberal_conservatism = 6
+# 				#     democratic = 6
+# 				#     national_conservatism = 7
+# 				#     neutrality = 61
+# 				#     fascism = 2
+# 				# }
+# 				add_ideas = {
+# 					# HoS2_vacant
+# 					HoG_Kim_Kyusik
+# 					# SM_Hong_Jin
+# 					# EM_Song_Byeongjo
+# 					# FM_Cho_Soang
+# 					# MM_Ryu_Dongyol
+# 				}
+# 			}
+# 		}
+# 	}
+# #
+
+# #
+# 	# #임시의정원 선거
+# 	# country_event = {
+# 	# 	id = kor_kpg_internal.3
+# 	# 	title = kor_kpg_internal.3.t
+# 	# 	desc = kor_kpg_internal.3.desc
+
+# 	# 	picture = GFX_report_event_KOR_election
+
+# 	# 	is_triggered_only = yes
+# 	# 	fire_only_once = yes
+
+# 	# 	option = {
+# 	# 		name = kor_kpg_internal.3.a
+# 	# 	}
+# 	# }
+
+# 	# #임시헌법 개정
+# 	# country_event = {
+# 	# 	id = kor_kpg_internal.4
+# 	# 	title = kor_kpg_internal.4.t
+# 	# 	desc = kor_kpg_internal.4.desc
+
+# 	# 	picture = GFX_report_event_KOR_jo_soang
+
+# 	# 	is_triggered_only = yes
+# 	# 	fire_only_once = yes
+
+# 	# 	option = {
+# 	# 		name = kor_kpg_internal.4.a
+# 	# 	}
+# 	# }
+
+# 	# #국무원 선거
+# 	# country_event = {
+# 	# 	id = kor_kpg_internal.5
+# 	# 	title = kor_kpg_internal.5.t
+# 	# 	desc = kor_kpg_internal.5.desc
+
+# 	# 	picture = GFX_report_event_KOR_kim_koo_syngman_rhee
+
+# 	# 	is_triggered_only = yes
+# 	# 	fire_only_once = yes
+
+# 	# 	option = {
+# 	# 		name = kor_kpg_internal.5.a
+# 	# 		add_ideas = {
+# 	# 			# HoG_Syngman_Rhee_kpg
+# 	# 			# SM_Ryuh_Woonhyung_kpg
+# 	# 			# EM_Cho_Soang_kpg
+# 	# 			# FM_Kim_Kyusik_kpg
+# 	# 			# MM_Ji_Cheongcheon_kpg
+# 	# 			# KOR_CoA_Lee_Beomseok
+# 	# 		}
+# 	# 	}
+# 	# }
+
+# 	# #국민대표회의 개최
+# 	# country_event = {
+# 	# 	id = kor_kpg_internal.6
+# 	# 	title = kor_kpg_internal.6.t
+# 	# 	desc = kor_kpg_internal.6.desc
+
+# 	# 	picture = GFX_report_event_KOR_kim_koo_syngman_rhee_kim_kyu_sik
+
+# 	# 	is_triggered_only = yes
+# 	# 	fire_only_once = yes
+
+# 	# 	option = {
+# 	# 		name = kor_kpg_internal.6.a
+# 	# 		add_political_power = 100
+# 	# 	}
+# 	# }
+# #
+
+# ## 선거 & 헌법 이벤트
+# 	#임시입법의원 선거
+# 	country_event = {
+# 		id = kor_kpg_election.1
+# 		title = kor_kpg_election.1.t
+# 		desc = kor_kpg_election.1.desc
+
+# 		picture = GFX_report_event_KOR_election
+
+# 		is_triggered_only = yes
+# 		fire_only_once = yes
+
+# 		option = {
+# 			name = kor_kpg_election.1.a
+# 			# unlock_decision_category_tooltip = KOR_constituent_national_assembly_decision
+# 		}
+# 	}
+
+# 	#정치체제를 둘러싼 갈등
+# 	country_event = {
+# 		id = kor_kpg_internal.8
+# 		title = kor_kpg_internal.8.t
+# 		desc = kor_kpg_internal.8.desc
+
+# 		picture = GFX_report_event_election_vote
+
+# 		is_triggered_only = yes
+# 		fire_only_once = yes
+
+# 		option = {
+# 			name = kor_kpg_internal.8.a
+# 			custom_effect_tooltip = kor_kpg_internal.8.a_tt
+# 			set_country_flag = KOR_flag_presidential
+# 			hidden_effect = {
+# 				country_event = {
+# 					id = kor_kpg_internal.9
+# 					days = 1
+# 				}
+# 			}
+# 		}
+
+# 		option = {
+# 			name = kor_kpg_internal.8.b
+# 			custom_effect_tooltip = kor_kpg_internal.8.b_tt
+# 			set_country_flag = KOR_flag_presidential_direct
+# 			hidden_effect = {
+# 				country_event = {
+# 					id = kor_kpg_internal.9
+# 					days = 1
+# 				}
+# 			}
+# 		}
+
+# 		option = {
+# 			name = kor_kpg_internal.8.c
+# 			custom_effect_tooltip = kor_kpg_internal.8.c_tt
+# 			set_country_flag = KOR_flag_parliamentary
+# 			hidden_effect = {
+# 				country_event = {
+# 					id = kor_kpg_internal.10
+# 					days = 1
+# 				}
+# 			}
+# 		}
+# 	}
+
+# 	#대통령제의 승리
+# 	country_event = {
+# 		id = kor_kpg_internal.9
+# 		title = kor_kpg_internal.9.t
+# 		desc = {
+# 			text = kor_kpg_internal.9.desc
+# 			trigger = { has_country_flag = KOR_flag_presidential }
+# 		}
+# 		desc = {
+# 			text = kor_kpg_internal.9.desc_direct
+# 			trigger = { has_country_flag = KOR_flag_presidential_direct }
+# 		}
+
+# 		picture = GFX_report_event_election_vote
+
+# 		is_triggered_only = yes
+# 		fire_only_once = yes
+
+# 		option = {
+# 			name = kor_kpg_internal.9.a
+# 		}
+# 	}
+
+# 	#내각제의 승리
+# 	country_event = {
+# 		id = kor_kpg_internal.10
+# 		title = kor_kpg_internal.10.t
+# 		desc = kor_kpg_internal.10.desc
+
+# 		picture = GFX_report_event_election_vote
+
+# 		is_triggered_only = yes
+# 		fire_only_once = yes
+
+# 		option = {
+# 			name = kor_kpg_internal.10.a
+# 		}
+# 	}
+
+# 	#대한민국 헌법
+# 	country_event = {
+# 		id = kor_kpg_internal.11
+# 		title = kor_kpg_internal.11.t
+# 		desc = kor_kpg_internal.11.desc
+# 		picture = GFX_report_event_election_vote
+
+# 		is_triggered_only = yes
+# 		fire_only_once = yes
+# 		option = {
+# 			name = kor_kpg_internal.11.a
+			
+# 		}
+# 	}
+
+# 	#총선거
+# 	country_event = {
+# 		id = kor_kpg_internal.12
+# 		title = kor_kpg_internal.12.t
+# 		desc = kor_kpg_internal.12.desc_presidential_direct
+# 		desc = {
+# 			text = kor_kpg_internal.12.desc_presidential
+# 			trigger = { has_country_flag = KOR_flag_parliamentary }
+# 		}
+# 		desc = {
+# 			text = kor_kpg_internal.12.desc_parliament
+# 			trigger = { has_country_flag = KOR_flag_parliamentary }
+# 		}
+# 		picture = GFX_report_event_election_vote
+
+# 		is_triggered_only = yes
+# 		fire_only_once = yes
+# 		option = {
+# 			name = kor_kpg_internal.12.a
+# 			hidden_effect = {
+# 				if = {
+# 					limit = { has_country_flag = KOR_flag_presidential_direct }
+# 					country_event = {
+# 						id = kor_kpg_election.1
+# 						days = 1
+# 					}
+# 				}
+# 				if = {
+# 					limit = { has_country_flag = KOR_flag_presidential }
+# 					country_event = {
+# 						id = kor_kpg_election.2
+# 						days = 1
+# 					}
+# 				}
+# 				if = {
+# 					limit = { has_country_flag = KOR_flag_parliamentary }
+# 					country_event = {
+# 						id = kor_kpg_election.3
+# 						days = 1
+# 					}
+# 				}
+# 			}
+# 		}
+	
+
+# 		#한국독립당
+# 		option = {
+# 			name = kor_kpg_internal.12.a
+# 			country_event = { id = kor_kpg_election.1 }
+# 			set_party_name = { 
+# 				ideology = democratic 
+# 				long_name = KOR_democratic_party_kip_long 
+# 				name = KOR_democratic_party_kip 
+# 			}
+# 		}
+
+# 		#공화민정회
+# 		option = {
+# 			name = kor_kpg_internal.12.b
+# 			trigger = { NOT = { has_country_flag = KOR_flag_parliamentary } }
+# 			country_event = { id = kor_kpg_election.2 }
+# 			set_party_name = { 
+# 				ideology = democratic 
+# 				long_name = KOR_democratic_party_rnc_long
+# 				name = KOR_democratic_party_rnc 
+# 			}
+# 		}
+
+# 		#조선인민당
+# 		option = {
+# 			name = kor_kpg_internal.12.c
+# 			trigger = { NOT = { has_country_flag = KOR_flag_presidential } }
+# 			country_event = { id = kor_kpg_election.3 }
+# 			set_party_name = { 
+# 				ideology = democratic 
+# 				long_name = KOR_democratic_party_kpp_long 
+# 				name = KOR_democratic_party_kpp 
+# 			}
+# 		}
+# 	}
+# #
+
+# # #한국독립당의 승리
+# # country_event = {
+# # 	id = kor_kpg_election.1
+# # 	title = kor_kpg_election.1.t
+# # 	desc = kor_kpg_election.1.desc
+# # 	picture = GFX_report_event_election_vote
+
+# # 	is_triggered_only = yes
+# # 	fire_only_once = yes
+
+# # 	option = {
+# # 		name = kor_kpg_election.1.a
+# # 		clr_country_flag = KOR_flag_kpg
+# # 		set_country_flag = KOR_flag_rok
+# # 		set_country_flag = KOR_kip
+# # 		hidden_effect = {
+# # 			add_ideas = { HoG_vacant }
+# # 			# load_focus_tree = KOR_Kim_Koo
+# # 		}
+# # 		# set_politics = {
+# # 		#     ruling_party = national_conservatism
+# # 		#     elections_allowed = yes
+# # 		#     election_frequency = 48
+# # 		# }
+# # 		COALITION_RESET = yes
+# # 	}
+# # }
+
+# # #공화민정회의 승리
+# # country_event = {
+# # 	id = kor_kpg_election.2
+# # 	title = kor_kpg_election.2.t
+# # 	desc = kor_kpg_election.2.desc
+# # 	picture = GFX_report_event_election_vote
+
+# # 	is_triggered_only = yes
+# # 	fire_only_once = yes
+
+# # 	option = {
+# # 		name = kor_kpg_election.2.a
+# # 		clr_country_flag = KOR_flag_kpg
+# # 		set_country_flag = KOR_flag_rok
+# # 		set_country_flag = KOR_rnc
+# # 		set_party_name = { 
+# # 			ideology = democratic 
+# # 			long_name = KOR_democratic_party_rnc_long 
+# # 			name = KOR_democratic_party_rnc
+# # 		}
+# # 		set_politics = { ruling_party = democratic }
+# # 		create_country_leader = {
+# # 			name = "Syngman Rhee"
+# # 			desc = "POLITICS_SYNGMAN_RHEE_DESC"
+# # 			picture = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
+# # 			expire = "1965.1.1"
+# # 			ideology = conservatism
+# # 			traits = {
+
+# # 			}
+# # 		}
+# # 		hidden_effect = {
+# # 			add_ideas = {
+# # 				# HoG_No_One
+# # 				# SM_No_One
+# # 				# EM_No_One
+# # 				# FM_No_One
+# # 				# MM_No_One
+# # 			}
+# # 			# load_focus_tree = KOR_Syngman_Rhee
+# # 		}
+# # 	}
+# # }
+
+# # #조선인민당의 승리
+# # country_event = {
+# # 	id = kor_kpg_election.3
+# # 	title = kor_kpg_election.3.t
+# # 	desc = kor_kpg_election.3.desc
+# # 	picture = GFX_report_event_election_vote
+
+# # 	is_triggered_only = yes
+# # 	fire_only_once = yes
+
+# # 	option = {
+# # 		name = kor_kpg_election.3.a
+# # 		clr_country_flag = KOR_flag_kpg
+# # 		set_country_flag = KOR_flag_rok
+# # 		set_country_flag = KOR_kpp
+# # 		set_party_name = { 
+# # 			ideology = democratic 
+# # 			long_name = KOR_democratic_party_kpp_long 
+# # 			name = KOR_democratic_party_kpp
+# # 		}
+# # 		set_politics = { ruling_party = democratic }
+# # 		# create_country_leader = {
+# # 		#     name = "Lyuh Woonhyung"
+# # 		#     desc = "POLITICS_Ryuh_Woonhyung_DESC"
+# # 		#     picture = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds"
+# # 		#     expire = "1965.1.1"
+# # 		#     ideology = socialism
+# # 		#     traits = {
+
+# # 		#     }
+# # 		# }
+# # 		hidden_effect = {
+# # 			add_ideas = {
+# # 				HoG_No_One
+# # 				SM_No_One
+# # 				EM_No_One
+# # 				FM_No_One
+# # 				# MM_No_One
+# # 			}
+# # 			# load_focus_tree = KOR_Ryuh_Woonhyung
+# # 		}
+# # 	}
+# # }
+
+
+# # #국방경비대 장교단의 군사반란
+# # country_event = {
+# #     id = pk_korea_internal_fascism.1
+# #     title = pk_korea_internal_fascism.1.t
+# #     desc = pk_korea_internal_fascism.1.desc
+# #     picture = GFX_report_event_election_vote
+
+# #     is_triggered_only = yes
+# #     fire_only_once = yes
+
+# #     option = {
+		
+# #     }
+# # }

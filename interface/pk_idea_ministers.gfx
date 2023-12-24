@@ -76,7 +76,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_minister_KOR_Lee_Yunyoung"
 		texturefile = "gfx/interface/ideas/minister/KOR/KOR_Lee_Yunyoung.dds"
-	}	
+	}
 	spriteType = {
 		name = "GFX_idea_minister_KOR_Cho_Soang"
 		texturefile = "gfx/interface/ideas/minister/KOR/KOR_Cho_Soang.dds"

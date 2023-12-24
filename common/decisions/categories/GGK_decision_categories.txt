@@ -1,9 +1,9 @@
-#대한민국 임시정부
-GGK_provisional_government_decision = {
-	icon = kpg
-	picture = GFX_decision_cat_declaration_of_independence
-	visible_when_empty = yes
-	visible = { has_country_flag = GGK_flag_ki_yes }
-	allowed = { original_tag = GGK }
-	priority = { base = 100 }
-}
+# #대한민국 임시정부
+# KOR_DECCAT_KPG = {
+# 	icon = kpg
+# 	picture = GFX_decision_cat_declaration_of_independence
+# 	visible_when_empty = yes
+# 	visible = { has_country_flag = GGK_flag_ki_yes }
+# 	allowed = { original_tag = GGK }
+# 	priority = { base = 100 }
+# }

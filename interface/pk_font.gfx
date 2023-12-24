@@ -84,6 +84,11 @@ bitmapfonts = {
 			color = 0xffffffff
 		}
 		bitmapfont = {
+			name = "hoi_30header"
+			path = "gfx/fonts/aldrich_24_outline"
+			color = 0xffffffff
+		}
+		bitmapfont = {
 			name = "hoi_36header"
 			path = "gfx/fonts/aldrich_36_outline"
 			color = 0xffffffff
@@ -109,6 +114,24 @@ bitmapfonts = {
 		bitmapfont = {
 			name = "ridi_20"
 			path = "gfx/fonts/ridi_20"
+			color = 0xff000000
+		}
+	#
+
+	# 나눔명조 #
+		bitmapfont = {
+			name = "mb19"
+			path = "gfx/fonts/mb19"
+			color = 0xff000000
+		}
+		bitmapfont = {
+			name = "mb21"
+			path = "gfx/fonts/mb21"
+			color = 0xff000000
+		}
+		bitmapfont = {
+			name = "mb25"
+			path = "gfx/fonts/mb25"
 			color = 0xff000000
 		}
 	#

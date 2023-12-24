@@ -23,33 +23,33 @@ defined_text = {
 	text = { localization_key = kpg_president_sc }
 }
 
-#정부수반
-defined_text = {
-	name = kpg_leader_name
+# #지도자
+# defined_text = {
+# 	name = kpg_leader_name
 
-	text = {
-        trigger = { has_country_flag = kpg_kim_koo }
-		localization_key = Kim_Koo
-	}
+# 	text = {
+#         trigger = { has_country_flag = kpg_kim_koo }
+# 		localization_key = Kim_Koo
+# 	}
 
-	#기본 - 정부수반
-	text = { localization_key = yi_dongnyeong }
-}
+# 	#기본 - 정부수반
+# 	text = { localization_key = yi_dongnyeong }
+# }
 
-#정부수반
-defined_text = {
-	name = kpg_party
+# #집권당
+# defined_text = {
+# 	name = kpg_party
 
-	text = {
-        trigger = { has_country_flag = kpg_kip }
-		localization_key = kip
-	}
+# 	text = {
+#         trigger = { has_country_flag = kpg_kip }
+# 		localization_key = kip
+# 	}
 
-	text = {
-        trigger = { has_country_flag = kpg_kim_koo }
-		localization_key = knp
-	}
+# 	text = {
+#         trigger = { has_country_flag = kpg_kim_koo }
+# 		localization_key = knp
+# 	}
 
-	#기본 - 정부수반
-	text = { localization_key = kpg_none }
-}
+# 	#기본 - 정부수반
+# 	text = { localization_key = kpg_none }
+# }

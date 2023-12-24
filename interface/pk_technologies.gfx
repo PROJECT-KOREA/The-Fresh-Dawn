@@ -19,15 +19,15 @@ spriteTypes = {
 	}
 
 
-	SpriteType = {
-		name = "GFX_KOR_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
-	}
+	# SpriteType = {
+	# 	name = "GFX_KOR_motorised_infantry_medium"
+	# 	texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
+	# }
 	
-	SpriteType = {
-		name = "GFX_KOR_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
-	}
+	# SpriteType = {
+	# 	name = "GFX_KOR_motorized_equipment_1_medium"
+	# 	texturefile = "gfx/interface/technologies/usa_motorised_infantry.dds"
+	# }
 
 	SpriteType = {
 		name = "GFX_KOR_armored_car1_medium"

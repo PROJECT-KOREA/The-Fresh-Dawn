@@ -1051,8 +1051,8 @@ KOR = {
 			Seongho Seongmin Sangho Sangwoo Sanghun Sanghyeon Seunghwan Siheon Seongmok Seonggyeong
 			Yeongsu Yeongho Yeongsik Yeonggil Yeongcheol Yeongjin Yeonghun
 			Jeongnam Jeongsik Jeongho Jeonghun Junho Jihun Jaewoo Jaehoon Jeonghwan Junsik Jaesin Junha Junyeop
-			Kiyeong Kicheol Kihoon Kyungyeop Kibeom
-			Hansae Hyeonwoo
+			Kiyeong Kicheol Kihoon Kibeom
+			Hyeonseok Hyeonwoo
 		}
 	}
 	female = {
@@ -1061,7 +1061,7 @@ KOR = {
 			Maria Miyeong Mija
 			Bok'yeong
 			Sunja Sun'ok Soyeong 
-			Yeonghui Yoonmi Yeongju
+			Yeongmi Yeongja Yeongju Yeonghui Yunmi
 			Jeongsuk
 			Heuiyeong Heuiok
 		}
@@ -1069,7 +1069,7 @@ KOR = {
 	surnames = {
 		Kim Lee Park Choi Jeong Cho Kang Yoon Jang Lim Han Shin Oh Seo Song Ahn Hwang Kwon Hong Yu Jeon Ko Yang Moon Son Baek Bae Heo Shim Nam Noh Min Joo Kwak Ha Seong Uhm
 	}
-	callsigns = { Dokkaebi Doksuri Horangi Saja Heukpyo }
+	callsigns = { Dokkaebi Doksuri Horangi Saja Heukpyo Kkachi Biho Baekho }
 }
 
 GGK = {

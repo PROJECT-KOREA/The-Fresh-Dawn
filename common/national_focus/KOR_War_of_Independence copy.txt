@@ -31,7 +31,7 @@
 
 # 	#광복군사령부 복원
 # 	focus = {
-# 		id = KOR_focus_kia_command
+# 		id = KOR_focus_KIA_command
 # 		icon = GFX_focus_mpc
 # 			x = 3
 # 			y = 0
@@ -51,12 +51,12 @@
 # 	focus = {
 # 		id = KOR_focus_provisional_decree
 # 		icon = GFX_focus_generic_treaty
-# 		relative_position_id = KOR_focus_kia_command
+# 		relative_position_id = KOR_focus_KIA_command
 # 		x = -1
 # 		y = 1
 # 		cost = 2
 		
-# 		prerequisite = { focus = KOR_focus_kia_command }
+# 		prerequisite = { focus = KOR_focus_KIA_command }
 
 # 		completion_reward = {
 # 			add_political_power = 50
@@ -234,14 +234,14 @@
 # 	focus = {
 # 		id = KOR_focus_pyeongyang_armory
 # 		icon = GFX_goal_generic_construct_mil_factory
-# 		relative_position_id = KOR_focus_kia_command
+# 		relative_position_id = KOR_focus_KIA_command
 # 		x = 1
 # 		y = 1
 # 		cost = 4
 
 # 		available = { controls_state = 912 }
 		
-# 		prerequisite = { focus = KOR_focus_kia_command }
+# 		prerequisite = { focus = KOR_focus_KIA_command }
 
 # 		completion_reward = {
 # 			912 = {
@@ -260,12 +260,12 @@
 # 	focus = {
 # 		id = KOR_focus_mobilization_order
 # 		icon = GFX_goal_generic_production2
-# 		relative_position_id = KOR_focus_kia_command
+# 		relative_position_id = KOR_focus_KIA_command
 # 		x = 3
 # 		y = 1
 # 		cost = 1
 
-# 		prerequisite = { focus = KOR_focus_kia_command }
+# 		prerequisite = { focus = KOR_focus_KIA_command }
 
 # 		completion_reward = {
 # 			add_ideas = war_economy
@@ -410,7 +410,7 @@
 	
 # 	#한국광복군
 # 	focus = {
-# 		id = KOR_focus_kia
+# 		id = KOR_focus_KIA
 # 		icon = GFX_focus_kia
 # 		x = 12
 # 		y = 0
@@ -430,12 +430,12 @@
 # 	focus = {
 # 		id = KOR_focus_liberation_voulnteer_army
 # 		icon = GFX_focus_volunteers
-# 		relative_position_id = KOR_focus_kia
+# 		relative_position_id = KOR_focus_KIA
 # 		x = -3
 # 		y = 1
 # 		cost = 1
 		
-# 		prerequisite = { focus = KOR_focus_kia }
+# 		prerequisite = { focus = KOR_focus_KIA }
 
 # 		completion_reward = {
 # 			add_ideas = KOR_idea_doknip_uiyonggun
@@ -559,12 +559,12 @@
 # 	focus = {
 # 		id = KOR_focus_special_operation_unit
 # 		icon = GFX_focus_sou
-# 		relative_position_id = KOR_focus_kia
+# 		relative_position_id = KOR_focus_KIA
 # 		x = 0
 # 		y = 1
 # 		cost = 2
 		
-# 		prerequisite = { focus = KOR_focus_kia }
+# 		prerequisite = { focus = KOR_focus_KIA }
 
 # 		completion_reward = {
 # 			if = {
@@ -688,8 +688,8 @@
 # 				category = artillery
 # 			}
 # 			swap_ideas = {
-# 				remove_idea = KOR_idea_firepower_supremacy1
-# 				add_idea = KOR_idea_firepower_supremacy2
+# 				remove_idea = KOR_idea_firepower_supremacy_1
+# 				add_idea = KOR_idea_firepower_supremacy_2
 # 			}
 # 		}
 # 	}
@@ -766,12 +766,12 @@
 # 	focus = {
 # 		id = KOR_focus_restore_military_acedemy
 # 		icon = GFX_focus_military_academy
-# 		relative_position_id = KOR_focus_kia
+# 		relative_position_id = KOR_focus_KIA
 # 		x = 3
 # 		y = 1
 # 		cost = 5
 
-# 		prerequisite = { focus = KOR_focus_kia }
+# 		prerequisite = { focus = KOR_focus_KIA }
 
 # 		completion_reward = {
 # 			add_tech_bonus = {
@@ -941,13 +941,13 @@
 # 	# focus = {
 # 	# 	id = KOR_focus_raid_japanese_armory
 # 	# 	icon = GFX_focus_raid_jap_armory
-# 	# 	relative_position_id = KOR_focus_kia_command
+# 	# 	relative_position_id = KOR_focus_KIA_command
 # 	# 	x = 0
 # 	# 	y = 1
 # 	# 	cost = 1
 		
 # 	# 	prerequisite = {
-# 	# 		focus = KOR_focus_kia_command
+# 	# 		focus = KOR_focus_KIA_command
 # 	# 	}
 
 # 	# 	completion_reward = {

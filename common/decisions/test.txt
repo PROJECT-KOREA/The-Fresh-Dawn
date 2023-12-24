@@ -1,78 +1,166 @@
-test = {
+PK_debug = {
+
+	Debug_KIA_dec_toggle = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			# log = "[GetDateText]: [Root.GetName]: Decision ENG_ShowHide_Pre_ECW"
+			if = {
+				limit = { NOT = { has_country_flag = debug_kia_show } }
+				set_country_flag = debug_kia_show
+			}
+			else = {
+				clr_country_flag = debug_kia_show
+			}
+		}
+	}
+
+	Debug_KIA_MCM_toggle = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			if = {
+				limit = { NOT = { has_country_flag = KOR_KIA_MSM_flag } }
+				set_country_flag = KOR_KIA_MSM_flag
+			}
+			else = {
+				clr_country_flag = KOR_KIA_MSM_flag
+			}
+		}
+	}
+
+	Debug_KIA_MCM_sent_toggle = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			if = {
+				limit = { NOT = { has_country_flag = KOR_KIA_MCM_sent_flag } }
+				set_country_flag = KOR_KIA_MCM_sent_flag
+			}
+			else = {
+				clr_country_flag = KOR_KIA_MCM_sent_flag
+			}
+		}
+	}
+
+	Debug_KIA_plan_rejection_toggle = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			if = {
+				limit = { NOT = { has_country_flag = KOR_KIA_plan_rejected } }
+				set_country_flag = KOR_KIA_plan_rejected
+			}
+			else = {
+				clr_country_flag = KOR_KIA_plan_rejected
+			}
+		}
+	}
+
+	Debug_KIA_set_relations_veryhigh = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			set_variable = { KPG_CHI_Relations = 85 }
+		}
+	}
+
+	Debug_KIA_set_relations_high = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			set_variable = { KPG_CHI_Relations = 55 }
+		}
+	}
+
+	Debug_KIA_set_relations_moderate = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			set_variable = { KPG_CHI_Relations = 35 }
+		}
+	}
+
+	Debug_KIA_set_relations_low = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			set_variable = { KPG_CHI_Relations = 20 }
+		}
+	}
+
+	Debug_KIA_set_relations_verylow = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			set_variable = { KPG_CHI_Relations = 0 }
+		}
+	}
 	
-	korean_provisional_government = {
+	# korean_provisional_government = {
 
-		icon = decision_generic_decision
+	# 	icon = decision_generic_decision
 
-		available = {
-			original_tag = GGK
-		}
+	# 	available = {
+	# 		original_tag = GGK
+	# 	}
 
-		visible = {
-			tag = GGK
-            KOR = { exists = no }
-		}
+	# 	visible = {
+	# 		tag = GGK
+    #         KOR = { exists = no }
+	# 	}
 		
-		fire_only_once = no
+	# 	fire_only_once = no
 
-		complete_effect = {
-			GGK = { release = KOR }
-			GGK = {
-				add_state_core = 909
-				add_state_core = 910
-				add_state_core = 911
-				add_state_core = 912
-				add_state_core = 913
-				add_state_core = 914
-				add_state_core = 915
-				add_state_core = 525
-				add_state_core = 527
-				add_state_core = 916
-				add_state_core = 917
-				add_state_core = 918
-				add_state_core = 919
-				add_state_core = 920
-			}
-			KOR_reset_state_names = yes
-			KOR_reset_province_names = yes
-			KOR = { change_tag_from = GGK }
-		}
-	}
+	# 	complete_effect = {
+	# 		GGK = { release = KOR }
+	# 		GGK = {
+	# 			add_state_core = 909
+	# 			add_state_core = 910
+	# 			add_state_core = 911
+	# 			add_state_core = 912
+	# 			add_state_core = 913
+	# 			add_state_core = 914
+	# 			add_state_core = 915
+	# 			add_state_core = 525
+	# 			add_state_core = 527
+	# 			add_state_core = 916
+	# 			add_state_core = 917
+	# 			add_state_core = 918
+	# 			add_state_core = 919
+	# 			add_state_core = 920
+	# 		}
+	# 		KOR_reset_state_names = yes
+	# 		KOR_reset_province_names = yes
+	# 		KOR = { change_tag_from = GGK }
+	# 	}
+	# }
 
-	government_gerenal_of_korea = {
+	# government_gerenal_of_korea = {
 
-		icon = decision_generic_decision
+	# 	icon = decision_generic_decision
 
-		available = {
-			original_tag = KOR
-		}
+	# 	available = {
+	# 		original_tag = KOR
+	# 	}
 
-		visible = {
-			tag = KOR
-            GGK = { exists = no }
-		}
+	# 	visible = {
+	# 		tag = KOR
+    #         GGK = { exists = no }
+	# 	}
 
-		fire_only_once = no
+	# 	fire_only_once = no
 
-		complete_effect = {
-			KOR = { release = GGK }
-			KOR = {
-				add_state_core = 909
-				add_state_core = 910
-				add_state_core = 911
-				add_state_core = 912
-				add_state_core = 913
-				add_state_core = 914
-				add_state_core = 915
-				add_state_core = 525
-				add_state_core = 527
-				add_state_core = 916
-				add_state_core = 917
-				add_state_core = 918
-				add_state_core = 919
-				add_state_core = 920
-			}
-			GGK = { change_tag_from = KOR }
-		}
-	}
+	# 	complete_effect = {
+	# 		KOR = { release = GGK }
+	# 		KOR = {
+	# 			add_state_core = 909
+	# 			add_state_core = 910
+	# 			add_state_core = 911
+	# 			add_state_core = 912
+	# 			add_state_core = 913
+	# 			add_state_core = 914
+	# 			add_state_core = 915
+	# 			add_state_core = 525
+	# 			add_state_core = 527
+	# 			add_state_core = 916
+	# 			add_state_core = 917
+	# 			add_state_core = 918
+	# 			add_state_core = 919
+	# 			add_state_core = 920
+	# 		}
+	# 		GGK = { change_tag_from = KOR }
+	# 	}
+	# }
 }

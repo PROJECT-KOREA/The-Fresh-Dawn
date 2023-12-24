@@ -300,10 +300,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
 	}
 
-	spriteType = {
-		name = "GFX_idea_slot_second_in_command"
-		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_slot_second_in_command"
+	# 	textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	# }
 
 	spriteType = {
 		name = "GFX_goal_entry_pp_bg"

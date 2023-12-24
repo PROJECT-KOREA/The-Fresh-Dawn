@@ -22,80 +22,88 @@
 
 #This is going to give misleading and ugly tooltips. Making it nice will take effort. TODO_WTT_CD make nice or ignore and remove comment. Easiest solution is just making a custom tooltip that says "5 civilian factories will be converted to military factories" and ignore telling the player the states where it will happen.
 
-KOR_start_woi = {
-	set_global_flag = kor_woi
-	KOR = {
-		transfer_state = 911
-		set_capital = { state = 911 }
-	}
-	911 = {
-		set_state_name = "평안북도"
-		set_province_name = {
-			id = 11835
-			name = "신의주"
-		}
-	}
-	# set_province_controller = 6963
-	# set_province_controller = 906
-	# set_province_controller = 11775
-	KOR = {
-		load_oob = KOR_War_of_Independence
-		KOR_create_units = yes
-		KOR_add_equipments_to_stockplie = yes
-		if = {
-			limit = { has_template = "Hohei Shidan" }
-			delete_unit_template_and_units = { division_template = "Hohei Shidan" }
-		}
-		if = {
-			limit = { has_template = "Hohei Ryodan" }
-			delete_unit_template_and_units = { division_template = "Hohei Ryodan" }
-		}
-		if = {
-			limit = { has_template = "Keibitai" }
-			delete_unit_template_and_units = { division_template = "Keibitai" }
-		}
-		add_political_power = 500
-		if = {
-			limit = { CHI = { has_war_with = JAP } }
-			if = {
-				limit = { CHI = { is_in_faction = yes } }
-				CHI = {
-					set_faction_name = korean_chinese_united_front
-					add_to_faction = KOR
-				}
-				KOR = {
-					add_to_war = { 
-						targeted_alliance = CHI 
-						enemy = JAP 
-						hostility_reason = asked_to_join
-					}
-				}
-				else = {
-					CHI = {
-						create_faction = korean_chinese_united_front
-						add_to_faction = KOR
-					}
-					KOR = {
-						add_to_war = { 
-							targeted_alliance = CHI 
-							enemy = JAP 
-							hostility_reason = asked_to_join
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { CHI = { has_war_with = JAP } } }
-			GGK = {
-				declare_war_on = {
-					target = KOR
-					type = take_core_state
-				}
-			}
-		}
+KOR_ClampCHIRelations = {
+	clamp_variable = {
+		var = KPG_CHI_Relations
+		min = 0
+		max = 100
 	}
 }
+
+# KOR_start_woi = {
+# 	set_global_flag = kor_woi
+# 	KOR = {
+# 		transfer_state = 911
+# 		set_capital = { state = 911 }
+# 	}
+# 	911 = {
+# 		set_state_name = "평안북도"
+# 		set_province_name = {
+# 			id = 11835
+# 			name = "신의주"
+# 		}
+# 	}
+# 	# set_province_controller = 6963
+# 	# set_province_controller = 906
+# 	# set_province_controller = 11775
+# 	KOR = {
+# 		load_oob = KOR_War_of_Independence
+# 		KOR_create_units = yes
+# 		KOR_add_equipments_to_stockplie = yes
+# 		if = {
+# 			limit = { has_template = "Hohei Shidan" }
+# 			delete_unit_template_and_units = { division_template = "Hohei Shidan" }
+# 		}
+# 		if = {
+# 			limit = { has_template = "Hohei Ryodan" }
+# 			delete_unit_template_and_units = { division_template = "Hohei Ryodan" }
+# 		}
+# 		if = {
+# 			limit = { has_template = "Keibitai" }
+# 			delete_unit_template_and_units = { division_template = "Keibitai" }
+# 		}
+# 		add_political_power = 500
+# 		if = {
+# 			limit = { CHI = { has_war_with = JAP } }
+# 			if = {
+# 				limit = { CHI = { is_in_faction = yes } }
+# 				CHI = {
+# 					set_faction_name = korean_chinese_united_front
+# 					add_to_faction = KOR
+# 				}
+# 				KOR = {
+# 					add_to_war = { 
+# 						targeted_alliance = CHI 
+# 						enemy = JAP 
+# 						hostility_reason = asked_to_join
+# 					}
+# 				}
+# 				else = {
+# 					CHI = {
+# 						create_faction = korean_chinese_united_front
+# 						add_to_faction = KOR
+# 					}
+# 					KOR = {
+# 						add_to_war = { 
+# 							targeted_alliance = CHI 
+# 							enemy = JAP 
+# 							hostility_reason = asked_to_join
+# 						}
+# 					}
+# 				}
+# 			}
+# 		}
+# 		if = {
+# 			limit = { NOT = { CHI = { has_war_with = JAP } } }
+# 			GGK = {
+# 				declare_war_on = {
+# 					target = KOR
+# 					type = take_core_state
+# 				}
+# 			}
+# 		}
+# 	}
+# }
 
 KOR_create_units = {
 	911 = {

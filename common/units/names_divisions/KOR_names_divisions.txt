@@ -1,244 +1,268 @@
 ﻿KOR_KIA_01 = {
-	name = "국내정진군 보병사단"
+	name = "한국광복군 보병사단"
 	for_countries = { KOR }
 	can_use = { always = yes }
 	division_types = { "infantry" }
-	fallback_name = "국내정진군 제%d보병사단"
+	fallback_name = "한국광복군 제%d보병사단"
 	ordered =
 	{
-		1 = { "광복군 국내정진군 제%d진" }
+		1 = { "한국광복군 제%d보병사단" }
 	}
 }
 
 KOR_KIA_02 = {
-	name = "대륙전구군 보병사단"
+	name = "한국광복군 기병사단"
 	for_countries = { KOR }
 	can_use = { always = yes }
 	division_types = { "infantry" }
-	fallback_name = "대륙전구군 제%d보병사단"
+	fallback_name = "한국광복군 제%d기병사단"
 	ordered =
 	{
-		1 = { "광복군 대륙전구군 제%d사단" }
+		1 = { "한국광복군 제%d기병사단" }
 	}
 }
 
-KOR_KIA_03 = {
-	name = "기병사단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "cavalry" }
-	fallback_name = "제%d기병사단"
-	# ordered =
-	# {
-	# 	1 = { "광복군 대륙전구군 제%d사단" }
-	# }
-}
+# KOR_KIA_01 = {
+# 	name = "국내정진군 보병사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "infantry" }
+# 	fallback_name = "국내정진군 제%d보병사단"
+# 	ordered =
+# 	{
+# 		1 = { "광복군 국내정진군 제%d진" }
+# 	}
+# }
 
-KOR_IAR_01 = {
-	name = "독립기갑연대"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "cavalry" "light_armor" }
-	fallback_name = "제%d독립기갑연대"
-	# ordered =
-	# {
-	# 	1 = { "광복군 대륙전구군 제%d사단" }
-	# }
-}
+# KOR_KIA_02 = {
+# 	name = "대륙전구군 보병사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "infantry" }
+# 	fallback_name = "대륙전구군 제%d보병사단"
+# 	ordered =
+# 	{
+# 		1 = { "광복군 대륙전구군 제%d사단" }
+# 	}
+# }
 
-KOR_LVA_01 = {
-	name = "독립의용군"
-	for_countries = { KOR }
-	can_use = { KOR_woi_in_progress = yes }
-	division_types = { "infantry" }
-	fallback_name = "독립의용군"
-	ordered =
-	{
-		1 = { "독립의용군" }
-	}
-}
+# KOR_KIA_03 = {
+# 	name = "기병사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "cavalry" }
+# 	fallback_name = "제%d기병사단"
+# 	# ordered =
+# 	# {
+# 	# 	1 = { "광복군 대륙전구군 제%d사단" }
+# 	# }
+# }
 
-KOR_GAR_01 = {
-	name = "향토보병사단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "infantry" }
-	fallback_name = "향토보병사단"
-	ordered =
-	{
-		1 = { "향토보병사단 '한성'" }
-		2 = { "향토보병사단 '경성'" }
-		3 = { "향토보병사단 '서울'" }
-		4 = { "향토보병사단 '개성'" }
-		5 = { "향토보병사단 '인천'" }
-		6 = { "향토보병사단 '수원'" }
-		7 = { "향토보병사단 '춘천'" }
-		8 = { "향토보병사단 '강릉'" }
-		9 = { "향토보병사단 '원주'" }
-		10 = { "향토보병사단 '삼척'" }
-		11 = { "향토보병사단 '대전'" }
-		12 = { "향토보병사단 '회덕'" }
-		13 = { "향토보병사단 '천안'" }
-		14 = { "향토보병사단 '서산'" }
-		15 = { "향토보병사단 '청주'" }
-		16 = { "향토보병사단 '군산'" }
-		17 = { "향토보병사단 '옥구'" }
-		18 = { "향토보병사단 '전주'" }
-		19 = { "향토보병사단 '목포'" }
-		20 = { "향토보병사단 '무안'" }
-		21 = { "향토보병사단 '광주'" }
-		22 = { "향토보병사단 '대구'" }
-		23 = { "향토보병사단 '포항'" }
-		24 = { "향토보병사단 '연일'" }
-		25 = { "향토보병사단 '부산'" }
-		26 = { "향토보병사단 '동래'" }
-		27 = { "향토보병사단 '마산'" }
-		28 = { "향토보병사단 '창원'" }
-		29 = { "향토보병사단 '진주'" }
-		30 = { "향토보병사단 '평양'" }
-		31 = { "향토보병사단 '진남포'" }
-		32 = { "향토보병사단 '남포'" }
-		33 = { "향토보병사단 '신의주'" }
-		34 = { "향토보병사단 '의주'" }
-		35 = { "향토보병사단 '청진'" }
-		36 = { "향토보병사단 '부령'" }
-		37 = { "향토보병사단 '나진'" }
-		38 = { "향토보병사단 '경흥'" }
-		39 = { "향토보병사단 '성진'" }
-		40 = { "향토보병사단 '원산'" }
-		41 = { "향토보병사단 '덕원'" }
-		42 = { "향토보병사단 '함흥'" }
-		43 = { "향토보병사단 '해주'" }
-	}
-}
+# KOR_IAR_01 = {
+# 	name = "독립기갑연대"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "cavalry" "light_armor" }
+# 	fallback_name = "제%d독립기갑연대"
+# 	# ordered =
+# 	# {
+# 	# 	1 = { "광복군 대륙전구군 제%d사단" }
+# 	# }
+# }
 
-KOR_INF_01 = {
-	name = "보병사단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	fallback_name = "보병사단"
-	ordered =
-	{
-		1 = { "제1보병사단 '전진'" }
-		51 = { "제51보병사단 '전승'" }
-		52 = { "제52보병사단 '화살'" }
-		53 = { "제53보병사단 '충렬'" }
-	}
-}
+# KOR_LVA_01 = {
+# 	name = "독립의용군"
+# 	for_countries = { KOR }
+# 	can_use = { KOR_woi_in_progress = yes }
+# 	division_types = { "infantry" }
+# 	fallback_name = "독립의용군"
+# 	ordered =
+# 	{
+# 		1 = { "독립의용군" }
+# 	}
+# }
 
-KOR_MOT_01 = {
-	name = "차량화보병사단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	fallback_name = "차량화보병사단"
-	ordered =
-	{
-		1 = { "차량화보병사단" }
-	}
-}
+# KOR_GAR_01 = {
+# 	name = "향토보병사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "infantry" }
+# 	fallback_name = "향토보병사단"
+# 	ordered =
+# 	{
+# 		1 = { "향토보병사단 '한성'" }
+# 		2 = { "향토보병사단 '경성'" }
+# 		3 = { "향토보병사단 '서울'" }
+# 		4 = { "향토보병사단 '개성'" }
+# 		5 = { "향토보병사단 '인천'" }
+# 		6 = { "향토보병사단 '수원'" }
+# 		7 = { "향토보병사단 '춘천'" }
+# 		8 = { "향토보병사단 '강릉'" }
+# 		9 = { "향토보병사단 '원주'" }
+# 		10 = { "향토보병사단 '삼척'" }
+# 		11 = { "향토보병사단 '대전'" }
+# 		12 = { "향토보병사단 '회덕'" }
+# 		13 = { "향토보병사단 '천안'" }
+# 		14 = { "향토보병사단 '서산'" }
+# 		15 = { "향토보병사단 '청주'" }
+# 		16 = { "향토보병사단 '군산'" }
+# 		17 = { "향토보병사단 '옥구'" }
+# 		18 = { "향토보병사단 '전주'" }
+# 		19 = { "향토보병사단 '목포'" }
+# 		20 = { "향토보병사단 '무안'" }
+# 		21 = { "향토보병사단 '광주'" }
+# 		22 = { "향토보병사단 '대구'" }
+# 		23 = { "향토보병사단 '포항'" }
+# 		24 = { "향토보병사단 '연일'" }
+# 		25 = { "향토보병사단 '부산'" }
+# 		26 = { "향토보병사단 '동래'" }
+# 		27 = { "향토보병사단 '마산'" }
+# 		28 = { "향토보병사단 '창원'" }
+# 		29 = { "향토보병사단 '진주'" }
+# 		30 = { "향토보병사단 '평양'" }
+# 		31 = { "향토보병사단 '진남포'" }
+# 		32 = { "향토보병사단 '남포'" }
+# 		33 = { "향토보병사단 '신의주'" }
+# 		34 = { "향토보병사단 '의주'" }
+# 		35 = { "향토보병사단 '청진'" }
+# 		36 = { "향토보병사단 '부령'" }
+# 		37 = { "향토보병사단 '나진'" }
+# 		38 = { "향토보병사단 '경흥'" }
+# 		39 = { "향토보병사단 '성진'" }
+# 		40 = { "향토보병사단 '원산'" }
+# 		41 = { "향토보병사단 '덕원'" }
+# 		42 = { "향토보병사단 '함흥'" }
+# 		43 = { "향토보병사단 '해주'" }
+# 	}
+# }
 
-KOR_MOT_02 = {
-	name = "차량화보병여단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	fallback_name = "차량화보병여단"
-	ordered =
-	{
-		1 = { "차량화보병여단" }
-	}
-}
+# KOR_INF_01 = {
+# 	name = "보병사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	fallback_name = "보병사단"
+# 	ordered =
+# 	{
+# 		1 = { "제1보병사단 '전진'" }
+# 		51 = { "제51보병사단 '전승'" }
+# 		52 = { "제52보병사단 '화살'" }
+# 		53 = { "제53보병사단 '충렬'" }
+# 	}
+# }
 
-KOR_MEC_01 = {
-	name = "기계화보병사단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	fallback_name = "기계화보병사단"
-	ordered =
-	{
-		1 = { "기계화보병사단" }
-	}
-}
+# KOR_MOT_01 = {
+# 	name = "차량화보병사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	fallback_name = "차량화보병사단"
+# 	ordered =
+# 	{
+# 		1 = { "차량화보병사단" }
+# 	}
+# }
 
-KOR_ARM_01 = {
-	name = "기갑사단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
-	fallback_name = "기갑사단"
-	ordered =
-	{
-		1 = { "기갑사단" }
-	}
-}
+# KOR_MOT_02 = {
+# 	name = "차량화보병여단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	fallback_name = "차량화보병여단"
+# 	ordered =
+# 	{
+# 		1 = { "차량화보병여단" }
+# 	}
+# }
 
-KOR_ARM_02 = {
-	name = "기갑여단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
-	fallback_name = "기갑여단"
-	ordered =
-	{
-		1 = { "기갑여단" }
-	}
-}
+# KOR_MEC_01 = {
+# 	name = "기계화보병사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	fallback_name = "기계화보병사단"
+# 	ordered =
+# 	{
+# 		1 = { "기계화보병사단" }
+# 	}
+# }
 
-KOR_MAR_01 = {
-	name = "해병사단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "marine" }
-	fallback_name = "해병사단"
-	ordered =
-	{
-		1 = { "해병사단" }
-	}
-}
+# KOR_ARM_01 = {
+# 	name = "기갑사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+# 	fallback_name = "기갑사단"
+# 	ordered =
+# 	{
+# 		1 = { "기갑사단" }
+# 	}
+# }
 
-KOR_MAR_02 = {
-	name = "해병여단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "marine" }
-	fallback_name = "해병여단"
-	ordered =
-	{
-		1 = { "해병여단" }
-	}
-}
+# KOR_ARM_02 = {
+# 	name = "기갑여단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+# 	fallback_name = "기갑여단"
+# 	ordered =
+# 	{
+# 		1 = { "기갑여단" }
+# 	}
+# }
 
-KOR_PAR_01 = {
-	name = "공수사단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "paratrooper" }
-	fallback_name = "공수사단"
-	ordered =
-	{
-		1 = { "공수사단" }
-	}
-}
+# KOR_MAR_01 = {
+# 	name = "해병사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "marine" }
+# 	fallback_name = "해병사단"
+# 	ordered =
+# 	{
+# 		1 = { "해병사단" }
+# 	}
+# }
 
-KOR_PAR_02 = {
-	name = "공수여단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "paratrooper" }
-	fallback_name = "공수여단"
-	ordered =
-	{
-		1 = { "공수여단" }
-	}
-}
+# KOR_MAR_02 = {
+# 	name = "해병여단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "marine" }
+# 	fallback_name = "해병여단"
+# 	ordered =
+# 	{
+# 		1 = { "해병여단" }
+# 	}
+# }
 
-KOR_MP_01 = {
-	name = "헌병단"
-	for_countries = { KOR }
-	can_use = { always = yes }
-	division_types = { "cavalry" }
-	fallback_name = "헌병단"
-	ordered =
-	{
-		1 = { "헌병단" }
-	}
-}
+# KOR_PAR_01 = {
+# 	name = "공수사단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "paratrooper" }
+# 	fallback_name = "공수사단"
+# 	ordered =
+# 	{
+# 		1 = { "공수사단" }
+# 	}
+# }
+
+# KOR_PAR_02 = {
+# 	name = "공수여단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "paratrooper" }
+# 	fallback_name = "공수여단"
+# 	ordered =
+# 	{
+# 		1 = { "공수여단" }
+# 	}
+# }
+
+# KOR_MP_01 = {
+# 	name = "헌병단"
+# 	for_countries = { KOR }
+# 	can_use = { always = yes }
+# 	division_types = { "cavalry" }
+# 	fallback_name = "헌병단"
+# 	ordered =
+# 	{
+# 		1 = { "헌병단" }
+# 	}
+# }

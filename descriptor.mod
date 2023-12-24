@@ -6,9 +6,9 @@ tags={
 	"Map"
 }
 dependencies={
-	"Korean Language (Europa)"
+	"Korean Language"
 }
 replace_path="gfx/loadingscreens"
 name="PROJECT KOREA: WAR OF INDEPENDENCE"
-supported_version="1.12.*"
+supported_version="1.13.*"
 remote_file_id="2264494250"

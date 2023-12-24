@@ -31,7 +31,7 @@
 
 # 	#광복군사령부 복원
 # 	focus = {
-# 		id = KOR_focus_kia_command
+# 		id = KOR_focus_KIA_command
 # 		icon = GFX_focus_mpc
 # 		x = 3
 # 		y = 0

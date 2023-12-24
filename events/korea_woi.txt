@@ -1,0 +1,389 @@
+﻿### 한국 이벤트 ###
+add_namespace = kor_woi
+add_namespace = kor_woi_party
+
+# 광복군 군정위원회 수립
+country_event = {
+    id = kor_woi.1
+    title = kor_woi.1.t
+    desc = kor_woi.1.desc
+
+    picture = GFX_report_event_KOR_ji_chengcheon_speech
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.1.a
+        set_country_flag = KOR_flag_kia_mg
+        # add_ideas = HoS2_Hong_Saik2
+        set_party_name = { 
+            ideology = neutrality 
+            long_name = KOR_neutrality_party_kiac_long
+            name = KOR_neutrality_party_kiac 
+        }
+        add_country_leader_role = {
+            character = KOR_Hong_Saik
+            promote_leader = yes
+            country_leader = {
+                ideology = military_dic
+                traits = { military_governor }
+            }
+        }
+        add_political_power = 50
+        add_stability = 0.05
+        # create_country_leader = {
+        #     name = "홍사익"
+        #     desc = Hong_Saik_DESC
+        #     picture = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
+        #     ideology = military_dic
+        #     traits = {
+        #         # kia_vcommander
+        #         military_governor
+        #     }
+        # }
+        hidden_effect = {
+            # add_ideas = HoG_Ryuh_Woonhyung_kia_mg
+            set_popularities = {
+                communism = 2
+                n_socialism = 3
+                democratic = 1
+                neutrality = 94
+                fascism = 0
+            }
+        }
+    }
+}
+
+# 국내 인사와의 협력
+country_event = {
+    id = kor_woi.2
+    title = kor_woi.2.t
+    desc = kor_woi.2.desc
+
+    picture = GFX_report_event_KOR_internal_figure
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.2.a
+        set_party_name = { 
+            ideology = n_socialism
+            long_name = KOR_n_socialism_party_nfa_long
+            name = KOR_n_socialism_party_nfa 
+        }
+        set_party_name = { 
+            ideology = democratic
+            long_name = KOR_democratic_party_nc_long
+            name = KOR_democratic_party_nc 
+        }
+        add_popularity = {
+            ideology = n_socialism
+            popularity = 0.1
+        }
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.1
+        }
+        custom_effect_tooltip = available_political_advisor
+        show_ideas_tooltip = KOR_Song_Jinwoo
+        show_ideas_tooltip = KOR_Ahn_Jaehong
+        show_ideas_tooltip = KOR_Ryuh_Woonhyung
+        show_ideas_tooltip = KOR_Cho_Mansik
+        set_country_flag = KOR_flag_internal_figure
+    }
+}
+
+# 민정장관 임명
+country_event = {
+    id = kor_woi.3
+    title = kor_woi.3.t
+    desc = kor_woi.3.desc
+
+    picture = GFX_report_event_KOR_ryuh_and_song
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.3.a
+        custom_effect_tooltip = ryuh_tt
+        add_ideas = HoG_Ryuh_Woonhyung
+        COALITION_add_soc = yes
+        set_country_flag = civ_adm_r
+        if = {
+            limit = { has_idea = KOR_idea_disorganized_admin1 }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin1
+                add_idea = KOR_idea_disorganized_admin2
+            }
+        }
+        if = {
+            limit = { has_idea = KOR_idea_disorganized_admin2 }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin2
+                add_idea = KOR_idea_disorganized_admin3
+            }
+        }
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.05
+        }
+        set_country_flag = KOR_flag_civil_adm
+    }
+
+    option = {
+        name = kor_woi.3.b
+        custom_effect_tooltip = ahn_tt
+        add_ideas = HoG_Ahn_Jaehong
+        COALITION_add_dem = yes
+        set_country_flag = civ_adm_a
+        if = {
+            limit = { has_idea = KOR_idea_disorganized_admin1 }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin1
+                add_idea = KOR_idea_disorganized_admin2
+            }
+        }
+        if = {
+            limit = { has_idea = KOR_idea_disorganized_admin2 }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin2
+                add_idea = KOR_idea_disorganized_admin3
+            }
+        }
+        set_country_flag = KOR_flag_civil_adm
+    }
+
+    option = {
+        name = kor_woi.3.c
+        set_party_name = { 
+            ideology = democratic
+            long_name = KOR_democratic_party_na_long
+            name = KOR_democratic_party_na 
+        }
+        add_country_leader_role = {
+            character = KOR_Song_Jinwoo
+            promote_leader = yes
+            country_leader = {
+                ideology = conservatism
+                traits = {  }
+            }
+        }
+        custom_effect_tooltip = song_tt
+        add_ideas = HoG_Song_Jinwoo
+        COALITION_add_dem = yes
+        set_country_flag = civ_adm_s
+        if = {
+            limit = { has_idea = KOR_idea_disorganized_admin1 }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin1
+                add_idea = KOR_idea_disorganized_admin2
+            }
+        }
+        if = {
+            limit = { has_idea = KOR_idea_disorganized_admin2 }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin2
+                add_idea = KOR_idea_disorganized_admin3
+            }
+        }
+        set_country_flag = KOR_flag_civil_adm
+    }
+}
+
+# 국민위원회의 출범
+country_event = {
+    id = kor_woi.4
+    title = kor_woi.4.t
+    desc = {
+        text = kor_woi.4.desc_r
+        trigger = { has_country_flag = civ_adm_r }
+    }
+    desc = {
+        text = kor_woi.4.desc_a
+        trigger = { has_country_flag = civ_adm_a }
+    }
+    desc = {
+        text = kor_woi.4.desc_s
+        trigger = { has_country_flag = civ_adm_s }
+    }
+
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = kor_woi.4.a
+        clr_country_flag = KOR_flag_kia_mg
+        set_country_flag = KOR_flag_hnc
+        set_party_name = { 
+            ideology = neutrality 
+            long_name = KOR_neutrality_party_hnc_long
+            name = KOR_neutrality_party_hnc 
+        }
+        # COALITION_RESET = yes
+        if = {
+            limit = { has_country_flag = civ_adm_r }
+            add_country_leader_role = {
+                character = KOR_Ryuh_Woonhyung
+                promote_leader = yes
+                country_leader = {
+                    ideology = oligarchism
+                    traits = {  }
+                }
+            }
+            add_ideas = {
+                HoG_Ahn_Jaehong
+                # SM_Kwon_Taeseok
+                # EM_Cho_Dongho
+                # FM_Chang_Keonsang
+            }
+            # COALITION_add_soclib = yes
+            clr_country_flag = civ_adm_r
+            add_popularity = {
+                ideology = n_socialism
+                popularity = 0.05
+            }
+        }
+        if = {
+            limit = { has_country_flag = civ_adm_a }
+            add_country_leader_role = {
+                character = KOR_Ahn_Jaehong
+                promote_leader = yes
+                country_leader = {
+                    ideology = oligarchism
+                    traits = {  }
+                }
+            }
+            add_ideas = {
+                HoG_Ryuh_Woonhyung
+                # SM_Cho_Byeongok
+                # EM_Cho_Mansik
+                # FM_Choi_Keunwoo
+            }
+            # COALITION_add_socdem = yes
+            clr_country_flag = civ_adm_a
+            add_popularity = {
+                ideology = democratic
+                popularity = 0.05
+            }
+        }
+        if = {
+            limit = { has_country_flag = civ_adm_s }
+            add_country_leader_role = {
+                character = KOR_Song_Jinwoo
+                promote_leader = yes
+                country_leader = {
+                    ideology = oligarchism
+                    traits = {  }
+                }
+            }
+            add_ideas = {
+                HoG_Chang_Deoksu
+                # SM_Kim_Byeongro
+                # EM_Lee_Kyugap
+                # FM_Na_Yongkyun
+            }
+            # COALITION_add_libcon = yes
+            clr_country_flag = civ_adm_s
+            add_popularity = {
+                ideology = democratic
+                popularity = 0.05
+            }
+        }
+        if = {
+            limit = { has_idea = KOR_idea_disorganized_admin2 }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin2
+                add_idea = KOR_idea_disorganized_admin3
+            }
+        }
+        if = {
+            limit = { has_idea = KOR_idea_disorganized_admin3 }
+            swap_ideas = {
+                remove_idea = KOR_idea_disorganized_admin3
+                add_idea = KOR_idea_disorganized_admin4
+            }
+        }
+        # 
+        # add_ideas = HoG_Ryuh_Woonhyung
+        # set_party_name = { 
+        #     ideology = social_democracy 
+        #     long_name = KOR_social_democracy_party_fa_long
+        #     name = KOR_social_democracy_party_fa 
+        # }
+        # # COALITION_add_socdem = yes
+        # add_ideas = HoG_Ahn_Jaehong_hnc
+        # set_party_name = { 
+        #     ideology = national_liberalism
+        #     long_name = KOR_national_liberal_party_nc_long
+        #     name = KOR_national_liberal_party_nc 
+        # }
+        # # COALITION_add_natlib = yes
+        # hidden_effect = {
+        #     set_popularities = {
+        #         communism = 2
+        #         social_democracy = 6
+        #         national_liberalism = 3
+        #         liberal_conservatism = 2
+        #         neutrality = 87
+        #     }
+        # }
+    }
+}
+
+# #국민위원회에 가담한 중도우파 진영
+# country_event = {
+#     id = kor_woi.3
+#     title = kor_woi.3.t
+#     desc = kor_woi.3.desc
+
+#     picture = GFX_report_event_generic_sign_treaty1
+
+#     is_triggered_only = yes
+#     fire_only_once = yes
+
+#     option = {
+#         name = kor_woi.3.a
+#         # COALITION_add_libcon = yes
+#         set_country_flag = KOR_flag_hnc_cenright
+#         custom_effect_tooltip = available_political_advisor
+#         show_ideas_tooltip = KOR_advisor_song_jinwoo
+#         set_party_name = { 
+#             ideology = liberal_conservatism 
+#             long_name = KOR_liberal_conservatism_party_nc_long
+#             name = KOR_liberal_conservatism_party_nc 
+#         }
+#     }
+# }
+
+# #박헌영의 협력 제안
+# country_event = {
+#     id = kor_woi.4
+#     title = kor_woi.4.t
+#     desc = kor_woi.4.desc
+
+#     picture = GFX_report_event_generic_sign_treaty1
+
+#     is_triggered_only = yes
+#     fire_only_once = yes
+
+#     option = {
+#         name = kor_woi.4.a
+#         add_popularity = {
+#             ideology = communism
+#             popularity = 0.05
+#         }
+#         set_party_name = { 
+#             ideology = communism 
+#             long_name = KOR_communism_party_kcg_long
+#             name = KOR_communism_party_kcg 
+#         }
+#         set_country_flag = KOR_flag_hnc_com
+#         custom_effect_tooltip = available_political_advisor
+#         show_ideas_tooltip = KOR_advisor_pak_hon_yong
+#     }
+# }

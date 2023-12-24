@@ -1,0 +1,983 @@
+## 독립! ##
+KOR_DECCAT_independence = {
+}
+
+## 대한민국 임시정부 ##
+KOR_DECCAT_KPG = {
+
+    # 임시정부의 귀환 #
+    KOR_return_of_kpg = {
+        icon = eng_install_government
+        available = {
+            NOT = { has_war_with = JAP }
+            all_core_state = {
+                is_owned_and_controlled_by = KOR
+            }
+        }
+    }
+
+    # 혁명의식 고취 #
+    KOR_inspire_revolutionary_consciousness = {
+        icon = generic_nationalism
+
+        visible = {
+            # original_tag = KOR
+            has_completed_focus = KOR_focus_propaganda_activities
+            # has_idea = KOR_idea_korean_youth_vanguard
+        }
+
+        available = {
+            has_war_support < 0.50
+        #     has_country_flag = GGK_form_hra_flag
+        #     has_country_flag = GGK_national_doctrine_flag
+        }
+
+        days_remove = 140
+
+        custom_cost_trigger = { political_power_growth > 0.25 }
+        custom_cost_text = pp_per_day_025
+
+        modifier = {
+            political_power_gain = -0.25
+            war_support_weekly = 0.005
+        }
+        
+        # fire_only_once = yes
+
+        remove_effect = {
+            # set_country_flag = GGK_prepare_operation_eagle_flag
+            # country_event = { id = ggk_cabinet.1 }
+            # custom_effect_tooltip = GGK_korean_independence_movement_tt
+        }
+    }
+
+    # 정부 활동 선전 #
+    KOR_focus_propaganda_government = {
+        icon = eng_propaganda_campaigns
+
+        visible = {
+            # original_tag = KOR
+            has_completed_focus = KOR_focus_propaganda_activities
+            # has_idea = KOR_idea_korean_youth_vanguard
+        }
+
+        available = {
+            has_stability < 0.7
+        #     has_country_flag = GGK_form_hra_flag
+        #     has_country_flag = GGK_national_doctrine_flag
+        }
+
+        days_remove = 140
+
+        custom_cost_trigger = { political_power_growth > 0.25 }
+        custom_cost_text = pp_per_day_025
+
+        modifier = {
+            political_power_gain = -0.25
+            stability_weekly = 0.005
+        }
+        
+        # fire_only_once = yes
+
+        remove_effect = {
+            # set_country_flag = GGK_prepare_operation_eagle_flag
+            # country_event = { id = ggk_cabinet.1 }
+            # custom_effect_tooltip = GGK_korean_independence_movement_tt
+        }
+    }
+
+    # 청년 전위단원 모집 #
+    KOR_recruit_vanguard_members = {
+        icon = eng_blackshirt_march
+
+        visible = {
+            # original_tag = KOR
+            has_completed_focus = KOR_focus_propaganda_activities
+            has_idea = KOR_idea_korean_youth_vanguard
+        }
+
+        available = {
+            NOT = { has_completed_focus = KOR_focus_KIA }
+        #     has_country_flag = GGK_form_hra_flag
+        #     has_country_flag = GGK_national_doctrine_flag
+        }
+
+        days_remove = 140
+
+        custom_cost_trigger = { political_power_growth > 0.25 }
+        custom_cost_text = pp_per_day_025
+
+        modifier = {
+            political_power_gain = -0.25
+            exiled_government_weekly_manpower = 250
+        }
+        
+        # fire_only_once = yes
+
+        remove_effect = {
+            # set_country_flag = GGK_prepare_operation_eagle_flag
+            # country_event = { id = ggk_cabinet.1 }
+            # custom_effect_tooltip = GGK_korean_independence_movement_tt
+        }
+    }
+}
+
+## 한국광복군 ##
+KOR_DECCAT_KIA = {
+
+    KOR_test_kia = {
+        visible = { is_debug = yes }
+        complete_effect = {
+            division_template = {
+                name = "한국광복군 보병사단"
+                division_names_group = KOR_KIA_01
+                regiments = {
+                    infantry = { x = 0 y = 0 }
+                    infantry = { x = 0 y = 1 }
+                    infantry = { x = 0 y = 2 }
+                    infantry = { x = 1 y = 0 }
+                    infantry = { x = 1 y = 1 }
+                    infantry = { x = 1 y = 2 }
+                    infantry = { x = 2 y = 0 }
+                    infantry = { x = 2 y = 1 }
+                    infantry = { x = 2 y = 2 }
+                    artillery_brigade = { x = 3 y = 0 }
+                    artillery_brigade = { x = 3 y = 1 }
+                }
+                support = {
+                    recon = { x = 0 y = 0 }
+                    engineer = { x = 0 y = 1 }
+                }
+                priority = 1
+            }
+            
+            division_template = {
+                name = "한국광복군 기병사단"
+                division_names_group = KOR_KIA_02
+                regiments = {
+                    cavalry = { x = 0 y = 0 }
+                    cavalry = { x = 0 y = 1 }
+                    cavalry = { x = 0 y = 2 }
+                    cavalry = { x = 1 y = 0 }
+                    cavalry = { x = 1 y = 1 }
+                    cavalry = { x = 1 y = 2 }
+                    cavalry = { x = 2 y = 0 }
+                    cavalry = { x = 2 y = 1 }
+                    cavalry = { x = 2 y = 2 }
+                }
+                support = {
+                    recon = { x = 0 y = 0 }
+                    engineer = { x = 0 y = 1 }
+                }
+                priority = 1
+            }
+            set_technology = {
+                tech_support = 1 #지원 장비
+                tech_engineers = 1 #공병 I
+                tech_recon = 1 #수색 I
+            }
+            613 = {
+                # transfer_state_to = KOR
+                create_unit = {
+                    division = "division_name = { is_name_ordered = yes name_order = 1 } division_template = \"한국광복군 보병사단\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"JAP\" } force_equipment_variants = { support_equipment_1 = { owner = \"USA\" }"
+                    owner = KOR
+                    prioritize_location = 11835
+                }
+                # transfer_state_to = CHI
+            }
+            # add_legitimacy = 50
+        }
+    }
+
+    # 군사특파단 결성 #
+    KOR_DEC_form_military_special_mission = {
+        icon = generic_prepare_civil_war
+        
+        cost = 20
+        days_remove = 20
+
+        remove_effect = {
+            set_country_flag = KOR_KIA_MSM_flag
+            unlock_decision_tooltip = KOR_DEC_request_coop_for_form_kia
+            custom_effect_tooltip = KOR_DEC_form_military_special_mission_tt
+        }
+    }
+
+    # 광복군 창설에 대한 협조 요청 #
+    KOR_DEC_request_coop_for_form_kia = {
+        icon = generic_political_discourse
+        
+        visible = {
+            # original_tag = KOR
+            has_country_flag = KOR_KIA_MSM_flag
+        }
+
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = KOR_DEC_CHIRelationMod_tt
+				check_variable = { KPG_CHI_Relations > 34 }
+			}
+            # has_idea = KOR_idea_military_council
+            # CHI = {
+            #     has_war_with = JAP
+            #     has_opinion = {
+            #         target = KOR
+            #         value > 49
+            #     }
+            # }
+        }
+
+        fire_only_once = yes
+        cost = 50
+        days_remove = 25
+
+        targets = { CHI }
+        target_trigger = {
+            is_exiled_in = CHI
+            # surrender_progress < 0.95
+        }
+
+        # cancel_trigger = {
+        #     CHI = {
+        #         # OR = {
+        #             NOT = { has_war_with = JAP }
+        #             # has_opinion = {
+        #             #     target = KOR
+        #             #     value < 50
+        #             # }
+        #         # }
+        #     }
+        # }
+
+        complete_effect = {
+            hidden_effect = {
+                # set_country_flag = KOR_KIA_MCM_sent_flag
+                country_event = {
+                    id = kor_kpg_kia.2
+                    days = 1
+                }
+            }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = KOR_DEC_request_coop_for_form_kia_tt
+            hidden_effect = {
+                country_event = { id = kor_kpg_kia.3 }
+            }
+        }
+    }
+        
+    # 서안에서의 초모 활동 #
+    KOR_DEC_recruiting_campaigns_in_xian = {
+        icon = eng_propaganda_campaigns
+        
+        visible = {
+            # original_tag = KOR
+            has_country_flag = KOR_KIA_MCM_sent_flag
+        }
+		highlight_states = { highlight_state_targets = { state = 744 } }
+
+        # available = {
+        #     if = {
+        #         limit = { has_country_flag = KOR_kia_formed_flag }
+        #         NOT = { has_country_flag = KOR_kia_controlled }
+        #     }
+        #     # has_idea = KOR_idea_military_council
+        #     # has_country_flag = KOR_KIA_MCM_sent_flag
+        # }
+        
+        # cancel_trigger = {
+        #     if = {
+        #         limit = { has_country_flag = KOR_kia_formed_flag }
+        #         NOT = { has_country_flag = KOR_kia_controlled }
+        #     }
+        # }
+
+        fire_only_once = yes
+        cost = 0
+        days_remove = 70
+
+        custom_cost_trigger = { political_power_growth > 0.25 }
+        custom_cost_text = pp_per_day_025
+
+        modifier = {
+            political_power_gain = -0.25
+            exiled_government_weekly_manpower = 400
+        }
+        
+
+        remove_effect = {
+            country_event = { id = kor_kpg_kia.4 }
+        }
+    }
+
+    # 한국광복군 편련계획 대강 제출 #
+    KOR_DEC_submit_plan_for_kia = {
+        icon = generic_decision
+        
+        visible = {
+            # original_tag = KOR
+            has_country_flag = KOR_KIA_MCM_sent_flag
+        }
+
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = KOR_DEC_CHIRelationMod_tt
+				check_variable = { KPG_CHI_Relations > 34 }
+			}
+        }
+
+        fire_only_once = yes
+        cost = 50
+        days_remove = 20
+
+        targets = { CHI }
+    	target_trigger = {
+    		is_exiled_in = CHI
+    		# surrender_progress < 0.95
+    	}
+
+        # cancel_trigger = {
+        #     CHI = {
+        #         # OR = {
+        #             NOT = { has_war_with = JAP }
+        #             # has_opinion = {
+        #             #     target = KOR
+        #             #     value < 50
+        #             # }
+        #         # }
+        #     }
+        # }
+
+        complete_effect = {
+            # country_event = {
+            #     id = kor_kpg_kia.6
+            #     days = 1
+            # }
+            # hidden_effect = {
+            #     country_event = {
+            #         id = kor_kpg_kia.7
+            #         days = 12
+            #     }
+            # }
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = KOR_DEC_submit_plan_for_kia_tt
+            hidden_effect = {
+                country_event = { id = kor_kpg_kia.8 }
+            }
+        }
+    }
+        
+    # 한인 군사간부 영입 #
+    KOR_DEC_engage_korean_military_leader = {
+        icon = soldierly_discipline
+        
+        visible = {
+            # original_tag = KOR
+            has_country_flag = KOR_KIA_MCM_sent_flag
+        }
+
+        available = {
+            # has_idea = KOR_idea_military_council
+            # has_country_flag = KOR_KIA_MCM_sent_flag
+        }
+
+        fire_only_once = yes
+        cost = 50
+        days_remove = 30
+
+        # custom_cost_trigger = { command_power > 20 }
+        # custom_cost_text = cost_cp_20
+
+        modifier = {
+            # political_power_gain = -0.25
+            # weekly_manpower = 350
+        }
+        
+        complete_effect  = {
+            # hidden_effect = {
+            #     add_command_power = -20
+            # }
+        }
+
+        remove_effect = {
+            country_event = { id = kor_kpg_kia.5 }
+            # set_country_flag = KOR_KIA_mil_leader_flag
+            # army_experience = 20
+        }
+    }
+        
+    # 광복군 총사령부 설치 #
+    KOR_install_kia_command = {
+        icon = kia
+        
+        visible = {
+            # original_tag = KOR
+            # has_country_flag = KOR_KIA_mil_leader_flag
+            has_country_flag = KOR_KIA_plan_rejected
+        }
+
+        available = {
+            has_country_flag = KOR_KIA_mil_leader_flag
+            # has_idea = KOR_idea_military_council
+        }
+
+        fire_only_once = yes
+        cost = 0
+        days_remove = 40
+
+        custom_cost_trigger = { command_power > 20 }
+        custom_cost_text = cost_cp_20
+
+        modifier = {
+            civilian_factory_use = 2
+        }
+
+        
+        complete_effect  = {
+            hidden_effect = {
+                add_command_power = -20
+            }
+        }
+
+        remove_effect = {
+            country_event = { id = kor_kpg_kia.9 }
+            # army_experience = 20
+        }
+    }
+
+    
+
+    # 광복군 지지 캠페인 개시 #
+    KOR_DEC_start_KIA_support_campaign = {
+        icon = eng_propaganda_campaigns
+
+        visible = {
+            has_country_flag = KOR_KIA_MSM_flag
+        }
+
+        cost = 50
+        days_remove = 15
+		days_re_enable = 20
+
+        targets = { CHI }
+        target_trigger = {
+            is_exiled_in = CHI
+            # surrender_progress < 0.95
+        }
+
+        remove_effect = {
+            
+        }
+    }
+
+    # 국민정부 인사에 대한 접촉 #
+    KOR_DEC_KIA_CHI_government = {
+        icon = generic_agreement
+
+        visible = {
+            has_country_flag = KOR_KIA_MSM_flag
+        }
+
+        cost = 80
+        days_remove = 20
+		days_re_enable = 30
+
+        targets = { CHI }
+        target_trigger = {
+            is_exiled_in = CHI
+            # surrender_progress < 0.95
+        }
+
+        remove_effect = {
+            
+        }
+    }
+    
+    
+    #
+        # # 군사위원회 조직 #
+        # KOR_military_council = {
+        #     icon = generic_prepare_civil_war
+            
+        #     # visible = { # original_tag = KOR }
+
+        #     available = {
+        #         KOR_Cho_Seonghwan = { is_hired_as_advisor = yes }
+        #         num_of_available_civilian_factories > 0
+        #     }
+
+        #     fire_only_once = yes
+        #     days_remove = 30
+
+        #     custom_cost_trigger = { command_power > 20 }
+        #     custom_cost_text = cost_cp_20
+            
+        #     modifier = {
+        #         civilian_factory_use = 1
+        #     }
+
+        #     complete_effect  = {
+        #         hidden_effect = {
+        #             add_command_power = -20
+        #             # set_country_flag = KOR_military_council_flag
+        #         }
+        #     }
+
+        #     remove_effect = {
+        #         country_event = { id = kor_kpg_kia.1 }
+        #         # custom_effect_tooltip = blank_tt
+        #     }
+        # }
+
+        # # 국민정부에 군사특파단 파견 #
+        # KOR_DEC_request_coop_for_form_kia = {
+        #     icon = generic_agreement
+            
+        #     visible = {
+        #         # original_tag = KOR
+        #         has_country_flag = KOR_military_council_flag
+        #     }
+
+        #     available = {
+        #         has_idea = KOR_idea_military_council
+        #         CHI = {
+        #             has_war_with = JAP
+        #             has_opinion = {
+        #                 target = KOR
+        #                 value > 49
+        #             }
+        #         }
+        #     }
+
+        #     fire_only_once = yes
+        #     cost = 50
+        #     days_remove = 25
+
+        #     targets = { CHI }
+        # 	target_trigger = {
+        # 		is_exiled_in = CHI
+        # 		# surrender_progress < 0.95
+        # 	}
+
+        #     cancel_trigger = {
+        #         CHI = {
+        #             # OR = {
+        #                 NOT = { has_war_with = JAP }
+        #                 # has_opinion = {
+        #                 #     target = KOR
+        #                 #     value < 50
+        #                 # }
+        #             # }
+        #         }
+        #     }
+
+        #     complete_effect = {
+        #         # hidden_effect = {
+        #         #     set_country_flag = KOR_KIA_MCM_sent_flag
+        #         # }
+        #         country_event = {
+        #             id = kor_kpg_kia.2
+        #             days = 1
+        #         }
+        #     }
+
+        #     remove_effect = {
+        #         custom_effect_tooltip = KOR_DEC_request_coop_for_form_kia_tt
+        #         hidden_effect = {
+        #             country_event = { id = kor_kpg_kia.3 }
+        #         }
+        #     }
+        # }
+        
+        # # # 군사특파단 설치 #
+        #     # KOR_military_correspondents_group = {
+        #     #     icon = generic_political_discourse
+                
+        #     #     visible = {
+        #     #         # original_tag = KOR
+        #     #     }
+
+        #     #     available = {
+        #     #         KOR_Cho_Seonghwan = {
+        #     #             is_hired_as_advisor = yes
+        #     #         }
+        #     #         # has_country_flag = GGK_form_hra_flag
+        #     #         # has_country_flag = GGK_national_doctrine_flag
+        #     #     }
+
+        #     #     # days_remove = 35
+
+        #     #     custom_cost_trigger = { command_power > 20 }
+        #     #     custom_cost_text = cost_cp_20
+
+        #     #     # modifier = {
+        #     #     #     political_power_gain = -0.25
+        #     #     #     war_support_weekly = 0.005
+        #     #     # }
+
+        #     #     # cost = 50
+                
+        #     #     fire_only_once = yes
+
+        #     #     complete_effect = {
+        #     #         custom_effect_tooltip = KOR_military_correspondents_group_tt
+        #     #         set_country_flag = KOR_flag_military_correspondents_group
+        #     #         # country_event = { id = ggk_cabinet.1 }
+        #     #         # custom_effect_tooltip = GGK_korean_independence_movement_tt
+        #     #     }
+        #     # }
+        # #
+        
+        # # 한인 군사간부 영입 #
+        # KOR_DEC_engage_korean_military_leader = {
+        #     icon = soldierly_discipline
+            
+        #     visible = {
+        #         # original_tag = KOR
+        #         has_country_flag = KOR_KIA_MCM_sent_flag
+        #     }
+
+        #     available = {
+        #         # has_idea = KOR_idea_military_council
+        #         # has_country_flag = KOR_KIA_MCM_sent_flag
+        #     }
+
+        #     fire_only_once = yes
+        #     cost = 0
+        #     days_remove = 30
+
+        #     custom_cost_trigger = { command_power > 20 }
+        #     custom_cost_text = cost_cp_20
+
+        #     modifier = {
+        #         # political_power_gain = -0.25
+        #         # weekly_manpower = 350
+        #     }
+            
+        #     complete_effect  = {
+        #         hidden_effect = {
+        #             add_command_power = -20
+        #         }
+        #     }
+
+        #     remove_effect = {
+        #         country_event = { id = kor_kpg_kia.5 }
+        #         # set_country_flag = KOR_KIA_mil_leader_flag
+        #         # army_experience = 20
+        #     }
+        # }
+
+        # # 한국광복군 편련계획 대강 제출 #
+        # KOR_DEC_submit_plan_for_kia = {
+        #     icon = generic_decision
+            
+        #     visible = {
+        #         # original_tag = KOR
+        #         has_country_flag = KOR_KIA_MCM_sent_flag
+        #     }
+
+        #     available = {
+        #         # has_idea = KOR_idea_military_council
+        #         CHI = {
+        #             has_war_with = JAP
+        #             has_opinion = {
+        #                 target = KOR
+        #                 value > 59
+        #             }
+        #         }
+        #     }
+
+        #     fire_only_once = yes
+        #     cost = 50
+        #     days_remove = 20
+
+        #     targets = { CHI }
+        # 	target_trigger = {
+        # 		is_exiled_in = CHI
+        # 		# surrender_progress < 0.95
+        # 	}
+
+        #     cancel_trigger = {
+        #         CHI = {
+        #             # OR = {
+        #                 NOT = { has_war_with = JAP }
+        #                 # has_opinion = {
+        #                 #     target = KOR
+        #                 #     value < 50
+        #                 # }
+        #             # }
+        #         }
+        #     }
+
+        #     complete_effect = {
+        #         country_event = {
+        #             id = kor_kpg_kia.6
+        #             days = 1
+        #         }
+        #         hidden_effect = {
+        #             country_event = {
+        #                 id = kor_kpg_kia.7
+        #                 days = 12
+        #             }
+        #         }
+        #     }
+
+        #     remove_effect = {
+        #         custom_effect_tooltip = KOR_DEC_submit_plan_for_kia_tt
+        #         hidden_effect = {
+        #             country_event = { id = kor_kpg_kia.8 }
+        #         }
+        #     }
+        # }
+        
+        # # 광복군 총사령부 설치 #
+        # KOR_install_kia_command = {
+        #     icon = kia
+            
+        #     visible = {
+        #         # original_tag = KOR
+        #         # has_country_flag = KOR_KIA_mil_leader_flag
+        #         has_country_flag = KOR_KIA_plan_rejected
+        #     }
+
+        #     available = {
+        #         has_country_flag = KOR_KIA_mil_leader_flag
+        #         # has_idea = KOR_idea_military_council
+        #     }
+
+        #     fire_only_once = yes
+        #     cost = 0
+        #     days_remove = 40
+
+        #     custom_cost_trigger = { command_power > 20 }
+        #     custom_cost_text = cost_cp_20
+
+        #     modifier = {
+        #         civilian_factory_use = 1
+        #     }
+
+            
+        #     complete_effect  = {
+        #         hidden_effect = {
+        #             add_command_power = -20
+        #         }
+        #     }
+
+        #     remove_effect = {
+        #         country_event = { id = kor_kpg_kia.9 }
+        #         # army_experience = 20
+        #     }
+        # }
+
+        # # 광복군 창설 인준에 대한 교섭 #
+        # KOR_negotiation_for_approval_of_kia = {
+        #     icon = generic_political_discourse
+
+        #     visible = {
+        #         has_country_flag = KOR_kia_formed_flag
+        #     }        
+
+        #     available = {
+        #         # has_idea = KOR_idea_military_council
+        #         CHI = {
+        #             # has_war_with = JAP
+        #             has_opinion = {
+        #                 target = KOR
+        #                 value > 79
+        #             }
+        #         }
+        #     }
+
+        #     fire_only_once = yes
+        #     cost = 50
+        #     days_remove = 40
+
+        #     targets = { CHI }
+        # 	target_trigger = {
+        # 		is_exiled_in = CHI
+        # 		# surrender_progress < 0.95
+        # 	}
+
+        #     # cancel_trigger = {
+        #     #     CHI = {
+        #     #         # OR = {
+        #     #             NOT = { has_war_with = JAP }
+        #     #             # has_opinion = {
+        #     #             #     target = KOR
+        #     #             #     value < 50
+        #     #             # }
+        #     #         # }
+        #     #     }
+        #     # }
+
+        #     complete_effect = {
+        #         # country_event = {
+        #         #     id = kor_kpg_kia.6
+        #         #     days = 1
+        #         # }
+        #         # hidden_effect = {
+        #         #     country_event = {
+        #         #         id = kor_kpg_kia.7
+        #         #         days = 12
+        #         #     }
+        #         # }
+        #     }
+
+        #     remove_effect = {
+        #         custom_effect_tooltip = KOR_negotiation_for_approval_of_kia_tt
+        #         # hidden_effect = {
+        #         #     country_event = { id = kor_kpg_kia.8 }
+        #         # }
+        #     }
+        # }
+        
+        # # 정규사단 편성 #
+        # KOR_form_regular_divisions = {
+        #     icon = soldierly_discipline
+
+        #     visible = {
+        #         has_country_flag = KOR_kia_formed_flag
+        #     }
+
+        #     available = {
+        #         # has_country_flag = KOR_KIA_mil_leader_flag
+        #         # has_idea = KOR_idea_military_council
+        #     }
+
+        #     fire_only_once = yes
+        #     cost = 50
+        #     days_remove = 35
+
+        #     custom_cost_trigger = { has_army_experience > 19 }
+        #     custom_cost_text = cost_xp_20
+
+        #     modifier = {
+        #         # civilian_factory_use = 1
+        #     }
+
+            
+        #     complete_effect  = {
+        #         hidden_effect = { army_experience = -20 }
+        #     }
+
+        #     remove_effect = {
+        #         custom_effect_tooltip = KOR_form_regular_divisions_tt
+        #         division_template = {
+        #             name = "한국광복군 보병사단"
+        #             division_names_group = KOR_KIA_01
+        #             regiments = {
+        #                 infantry = { x = 0 y = 0 }
+        #                 infantry = { x = 0 y = 1 }
+        #                 infantry = { x = 0 y = 2 }
+        #                 infantry = { x = 1 y = 0 }
+        #                 infantry = { x = 1 y = 1 }
+        #                 infantry = { x = 1 y = 2 }
+        #                 infantry = { x = 2 y = 0 }
+        #                 infantry = { x = 2 y = 1 }
+        #                 infantry = { x = 2 y = 2 }
+        #                 artillery_brigade = { x = 3 y = 0 }
+        #                 artillery_brigade = { x = 3 y = 1 }
+        #             }
+        #             support = {
+        #                 recon = { x = 0 y = 0 }
+        #                 engineer = { x = 0 y = 1 }
+        #             }
+        #             priority = 1
+        #         }
+                
+        #         division_template = {
+        #             name = "한국광복군 기병사단"
+        #             division_names_group = KOR_KIA_02
+        #             regiments = {
+        #                 cavalry = { x = 0 y = 0 }
+        #                 cavalry = { x = 0 y = 1 }
+        #                 cavalry = { x = 0 y = 2 }
+        #                 cavalry = { x = 1 y = 0 }
+        #                 cavalry = { x = 1 y = 1 }
+        #                 cavalry = { x = 1 y = 2 }
+        #                 cavalry = { x = 2 y = 0 }
+        #                 cavalry = { x = 2 y = 1 }
+        #                 cavalry = { x = 2 y = 2 }
+        #             }
+        #             support = {
+        #                 recon = { x = 0 y = 0 }
+        #                 engineer = { x = 0 y = 1 }
+        #             }
+        #             priority = 1
+        #         }
+        #         set_technology = {
+        #             tech_support = 1 #지원 장비
+        #             tech_engineers = 1 #공병 I
+        #             tech_recon = 1 #수색 I
+        #         }
+        #     }
+        # }
+
+        # # 국내정진군 편성 #
+        # KOR_form_hra = {
+
+        # }
+
+        # # 중국제 무기 생산 #
+        # KOR_product_chinese_weapon = {
+        #     icon = generic_industry
+            
+        #     visible = {
+        #         # original_tag = KOR
+        #         has_completed_focus = KOR_focus_secure_ordnances
+        #     }
+
+        #     available = {
+        #         # has_idea = KOR_idea_military_council
+        #         CHI = {
+        #         #     has_war_with = JAP
+        #             has_opinion = {
+        #                 target = KOR
+        #                 value > 59
+        #             }
+        #         }
+        #     }
+
+        #     fire_only_once = yes
+        #     cost = 50
+        #     days_remove = 35
+
+        #     targets = { CHI }
+        #     target_trigger = {
+        #         is_exiled_in = CHI
+        #         # surrender_progress < 0.95
+        #     }
+
+        #     modifier = {
+        #         civilian_factory_use = 2
+        #     }
+
+        #     complete_effect = {
+        #         # country_event = {
+        #         #     id = kor_kpg_kia.6
+        #         #     days = 1
+        #         # }
+        #         # hidden_effect = {
+        #         #     country_event = {
+        #         #         id = kor_kpg_kia.7
+        #         #         days = 12
+        #         #     }
+        #         # }
+        #     }
+
+        #     remove_effect = {
+        #         custom_effect_tooltip = KOR_product_chinese_weapon_tt
+        #         set_technology = { support_weapons = 1 }
+        #         hidden_effect = {
+        #             set_technology = {
+        #                 infantry_weapons = 1
+        #                 infantry_weapons1 = 1
+        #             }
+        #         }
+        #     }
+        # }
+    #
+}

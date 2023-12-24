@@ -23,6 +23,7 @@ if = {
 }
 
 create_faction = CHI_NG
+add_to_faction = KOR
 
 #인물 로딩
 	recruit_character = CHI_Chiang_Kaishek

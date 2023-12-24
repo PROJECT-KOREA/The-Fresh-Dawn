@@ -1,186 +1,186 @@
-#### 작성 요령 ###
-# idea_token  |  인물의 ID 지정 시 사용
-# ledger      |  군 고위 지휘관/이론가의 소속 구분 시 사용 (ex army/navy/air)
-# on_add      |  플레이어가 해당 인물을 임명 시 발생하는 효과
-# on_remove   |  플레이어가 해당 인물을 해임 시 발생하는 효과
-# do_effect   |  인물의 특성이 실제로 효과를 가지는 조건
+# #### 작성 요령 ###
+# # idea_token  |  인물의 ID 지정 시 사용
+# # ledger      |  군 고위 지휘관/이론가의 소속 구분 시 사용 (ex army/navy/air)
+# # on_add      |  플레이어가 해당 인물을 임명 시 발생하는 효과
+# # on_remove   |  플레이어가 해당 인물을 해임 시 발생하는 효과
+# # do_effect   |  인물의 특성이 실제로 효과를 가지는 조건
 
-# 正 -지도자
-# 顧 - 정치 조언가
-# 元/將 - 육군 장성 (원수/대장)
-# 督 - 해군 제독
-# 陸/海/空 - 참모총장 (육/해/공)
-# 參 - 군 고위 지휘관
-# 理 - 이론가
+# # 正 -지도자
+# # 顧 - 정치 조언가
+# # 元/將 - 육군 장성 (원수/대장)
+# # 督 - 해군 제독
+# # 陸/海/空 - 참모총장 (육/해/공)
+# # 參 - 군 고위 지휘관
+# # 理 - 이론가
 
-characters = {
+# characters = {
 
-    ## 지도자 ##
-        # 우가키 카즈시게 (正) #
-        GGK_Ugaki_Kazushige = {
-            name = Ugaki_Kazuhsige
-            portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_ugaki_kazushige.dds" } }
+#     ## 지도자 ##
+#         # 우가키 카즈시게 (正) #
+#         GGK_Ugaki_Kazushige = {
+#             name = Ugaki_Kazuhsige
+#             portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_ugaki_kazushige.dds" } }
 
-            #지도자 - 권위주의
-            country_leader = {
-                ideology = despotism
-                traits = { gov_of_chosen }
-            }
+#             #지도자 - 권위주의
+#             country_leader = {
+#                 ideology = despotism
+#                 traits = { gov_of_chosen }
+#             }
 
-            #지도자 - 파시즘
-            country_leader = {
-                ideology = fascism_ideology
-                traits = { gov_of_chosen }
-            }
-        }
+#             #지도자 - 파시즘
+#             country_leader = {
+#                 ideology = fascism_ideology
+#                 traits = { gov_of_chosen }
+#             }
+#         }
 
-        # 미나미 지로 (正) #
-        GGK_Minami_Jiro = {
-            name = Minami_Jiro
-            portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_Minami_Jiro.dds" } }
+#         # 미나미 지로 (正) #
+#         GGK_Minami_Jiro = {
+#             name = Minami_Jiro
+#             portraits = { civilian = { large = "gfx/leaders/JAP_colony/Portrait_Minami_Jiro.dds" } }
 
-            #지도자 - 파시즘
-            # country_leader = {
-            #     ideology = despotism
-            #     traits = { }
-            # }
-        }
-    #    
+#             #지도자 - 파시즘
+#             # country_leader = {
+#             #     ideology = despotism
+#             #     traits = { }
+#             # }
+#         }
+#     #    
 
-    # 정부수반
-        #이마이다 키요노리 (首)
-        GGK_Imaida_Kiyonori = {
-            name = Imaida_Kiyonori
-            portraits = {
-                civilian = { small = "gfx/interface/advisor/GGK/GGK_Imaida_Kiyonori.dds" }
-            }
+#     # 정부수반
+#         #이마이다 키요노리 (首)
+#         GGK_Imaida_Kiyonori = {
+#             name = Imaida_Kiyonori
+#             portraits = {
+#                 civilian = { small = "gfx/interface/advisor/GGK/GGK_Imaida_Kiyonori.dds" }
+#             }
             
-        	advisor = {
-        		slot = second_in_command
-        		idea_token = GGK_Imaida_Kiyonori_sic
-        		traits  = {
-                    GGK_seimu_soukan
-        			# hog_trait
-        		}
-                cost = 0
-				can_be_fired = no
-        	}
-        }
+#         	advisor = {
+#         		slot = second_in_command
+#         		idea_token = GGK_Imaida_Kiyonori_sic
+#         		traits  = {
+#                     GGK_seimu_soukan
+#         			# hog_trait
+#         		}
+#                 cost = 0
+# 				can_be_fired = no
+#         	}
+#         }
 
-        # 오노 로쿠이치로 (首) #
-        GGK_Ono_Rokuichiro = {
-            name = Ono_Rokuichiro
-            portraits = {
-                civilian = { small = "gfx/interface/advisor/GGK/GGK_Ono_Rokuichiro.dds" }
-            }
+#         # 오노 로쿠이치로 (首) #
+#         GGK_Ono_Rokuichiro = {
+#             name = Ono_Rokuichiro
+#             portraits = {
+#                 civilian = { small = "gfx/interface/advisor/GGK/GGK_Ono_Rokuichiro.dds" }
+#             }
             
-        	advisor = {
-        		slot = second_in_command
-        		idea_token = GGK_Ono_Rokuichiro_sic
-        		traits  = {
-                    GGK_seimu_soukan
-        			# hog_trait
-        		}
-                cost = 0
-				can_be_fired = no
-        	}
-        }
-    #
+#         	advisor = {
+#         		slot = second_in_command
+#         		idea_token = GGK_Ono_Rokuichiro_sic
+#         		traits  = {
+#                     GGK_seimu_soukan
+#         			# hog_trait
+#         		}
+#                 cost = 0
+# 				can_be_fired = no
+#         	}
+#         }
+#     #
 
-    ## 정치 조언가 ##
-        #우시지마 쇼조
-        GGK_Ushijima_Shozo = {
-            name = Ushijima_Shozo
-            portraits = {
-                army = {
-                    small = "gfx/interface/advisor/GGK/GGK_Ushijima_Shozo.dds"
-                }
-            }
-            advisor = {
-                slot = political_advisor
-                idea_token = GGK_Ushijima_Shozo
-                traits = { silent_workhorse }
-            }
-        }
+#     ## 정치 조언가 ##
+#         #우시지마 쇼조
+#         GGK_Ushijima_Shozo = {
+#             name = Ushijima_Shozo
+#             portraits = {
+#                 army = {
+#                     small = "gfx/interface/advisor/GGK/GGK_Ushijima_Shozo.dds"
+#                 }
+#             }
+#             advisor = {
+#                 slot = political_advisor
+#                 idea_token = GGK_Ushijima_Shozo
+#                 traits = { silent_workhorse }
+#             }
+#         }
 
-        #하야시 시게조
-        GGK_Hayashi_Shigezo = {
-            name = Hayashi_Shigezo
-            portraits = {
-                army = {
-                    small = "gfx/interface/advisor/GGK/GGK_Hayashi_shigezo.dds"
-                }
-            }
+#         #하야시 시게조
+#         GGK_Hayashi_Shigezo = {
+#             name = Hayashi_Shigezo
+#             portraits = {
+#                 army = {
+#                     small = "gfx/interface/advisor/GGK/GGK_Hayashi_shigezo.dds"
+#                 }
+#             }
 
-            advisor = {
-                slot = political_advisor
-                idea_token = GGK_Hayashi_Shigezo
-                traits = { financial_expert }
-            }
-        }
-    #
+#             advisor = {
+#                 slot = political_advisor
+#                 idea_token = GGK_Hayashi_Shigezo
+#                 traits = { financial_expert }
+#             }
+#         }
+#     #
 
 
  
-    #### 더미 지도자 ####
-        # 박헌영
-        GGK_Lee_Kwansul = {
-            name = "이관술"
-            portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds" } }
+#     #### 더미 지도자 ####
+#         # 박헌영
+#         GGK_Lee_Kwansul = {
+#             name = "이관술"
+#             portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds" } }
 
-            #지도자
-            country_leader = {
-                ideology = leninism
-                traits = { }
-            }
-        }
+#             #지도자
+#             country_leader = {
+#                 ideology = leninism
+#                 traits = { }
+#             }
+#         }
 
-        #여운형
-        GGK_Ryuh_Woonhyung = {
-            name = Ryuh_Woonhyung
-            portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds" } }
+#         #여운형
+#         GGK_Ryuh_Woonhyung = {
+#             name = Ryuh_Woonhyung
+#             portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds" } }
 
-            #지도자
-            country_leader = {
-                ideology = n_socialism_ideology
-                traits = { }
-            }
-        }
+#             #지도자
+#             country_leader = {
+#                 ideology = n_socialism_ideology
+#                 traits = { }
+#             }
+#         }
 
-        #안창호
-        GGK_Ahn_Changho = {
-            name = Ahn_Changho
-            # portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Ahn_Changho.dds" } }
+#         #안창호
+#         GGK_Ahn_Changho = {
+#             name = Ahn_Changho
+#             # portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Ahn_Changho.dds" } }
 
-            #지도자
-            country_leader = {
-                ideology = conservatism
-                traits = { }
-            }
-        }
+#             #지도자
+#             country_leader = {
+#                 ideology = conservatism
+#                 traits = { }
+#             }
+#         }
 
-        # #이승만
-        # GGK_Song_Jinwoo = {
-        #     name = Song_Jinwoo
-        #     portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" } }
+#         # #이승만
+#         # GGK_Song_Jinwoo = {
+#         #     name = Song_Jinwoo
+#         #     portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds" } }
 
-        #     #지도자
-        #     country_leader = {
-        #         ideology = conservatism
-        #         traits = { }
-        #     }
-        # }
+#         #     #지도자
+#         #     country_leader = {
+#         #         ideology = conservatism
+#         #         traits = { }
+#         #     }
+#         # }
 
-        # #김구
-        # GGK_Kim_Koo = {
-        #     name = Kim_Koo
-        #     portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Kim_Koo.dds" } }
+#         # #김구
+#         # GGK_Kim_Koo = {
+#         #     name = Kim_Koo
+#         #     portraits = { civilian = { large = "gfx/leaders/KOR/Portrait_Kim_Koo.dds" } }
 
-        #     #지도자
-        #     country_leader = {
-        #         ideology = conservatism
-        #         traits = { }
-        #     }
-        # }
-    #
-}
+#         #     #지도자
+#         #     country_leader = {
+#         #         ideology = conservatism
+#         #         traits = { }
+#         #     }
+#         # }
+#     #
+# }

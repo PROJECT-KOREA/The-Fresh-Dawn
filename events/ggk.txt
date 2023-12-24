@@ -1,0 +1,361 @@
+﻿# ### 조선총독부 이벤트 ###
+# add_namespace = ggk_internal
+# add_namespace = ggk_cabinet
+# add_namespace = ggk_party
+
+
+# ### 내정 이벤트 ###
+
+# #나진부 출범
+# country_event = {
+#     id = ggk_internal.1
+#     title = ggk_internal.1.t
+#     desc = ggk_internal.1.desc
+#     picture = GFX_report_event_generic_military_parade
+
+#     is_triggered_only = yes
+#     fire_only_once = yes
+
+#     immediate = {
+#         hidden_effect = {
+#             909 = {
+#                 add_building_construction = {
+#                     type = naval_base
+#                     level = 2
+#                     instant_build = yes
+#                     province = 13275
+#                 }
+#             }
+#             add_victory_points = {
+#                 province = 13275
+#                 value = 2
+#             }
+#         }
+#     }
+
+#     option = {
+#         name = ggk_internal.1.a
+#         hidden_effect = {
+#             909 = {
+#                 add_building_construction = {
+#                     type = naval_base
+#                     level = 2
+#                     instant_build = yes
+#                     province = 13275
+#                 }
+#             }
+#             add_victory_points = {
+#                 province = 13275
+#                 value = 2
+#             }
+#         }
+#         custom_effect_tooltip = najin_tootip
+#     }
+# }
+
+
+# ### 내각 이벤트 ###
+
+# #
+#     # #제6대 경무국장 취임
+#     # country_event = {
+#     #     id = ggk_cabinet.1
+#     #     title = ggk_cabinet.1.t
+#     #     desc = ggk_cabinet.1.desc
+#     #     picture = GFX_report_event_generic_military_parade
+
+#     #     is_triggered_only = yes
+#     #     fire_only_once = yes
+
+#     #     immediate = {
+#     #         hidden_effect = { add_ideas = IM_Tanaka_Takeo }
+#     #     }
+
+#     #     option = {
+#     #         name = ggk_cabinet.1.a
+#     #         effect_tooltip = { add_ideas = IM_Tanaka_Takeo }
+#     #     }
+#     # }
+
+#     # #제8대 내무국장 취임
+#     # country_event = {
+#     #     id = ggk_cabinet.2
+#     #     title = ggk_cabinet.2.t
+#     #     desc = ggk_cabinet.2.desc
+#     #     picture = GFX_report_event_generic_military_parade
+
+#     #     is_triggered_only = yes
+#     #     fire_only_once = yes
+
+#     #     immediate = {
+#     #         hidden_effect = { add_ideas = SM_Otake_Juro }
+#     #     }
+
+#     #     option = {
+#     #         name = ggk_cabinet.2.a
+#     #         effect_tooltip = { add_ideas = SM_Otake_Juro }
+#     #     }
+#     # }
+# #
+
+# #미나미 지로 총독 취임
+# country_event = {
+#     id = ggk_cabinet.1
+#     title = ggk_cabinet.1.t
+#     desc = ggk_cabinet.1.desc
+#     picture = GFX_report_event_generic_military_parade
+
+#     is_triggered_only = yes
+#     fire_only_once = yes
+
+#     immediate = {
+#         hidden_effect = {
+#             create_country_leader = {
+#                 name = "미나미 지로"
+#                 desc = ""
+#                 picture = "gfx/leaders/JAP_colony/Portrait_Minami_Jiro.dds"
+#                 ideology = despotism
+#                 traits = { }
+#             }
+#             add_ideas = HoG_Ono_Rokuichiro
+#             load_focus_tree = GGK_Minami
+#         }
+#     }
+
+#     option = {
+#         name = ggk_cabinet.1.a
+#         effect_tooltip = {
+#             create_country_leader = {
+#                 name = "미나미 지로"
+#                 desc = ""
+#                 picture = "gfx/leaders/JAP_colony/Portrait_Minami_Jiro.dds"
+#                 ideology = despotism
+#                 traits = { }
+#             }
+#             add_ideas = HoG_Ono_Rokuichiro
+#         }
+#     }
+# }
+
+# #
+#     # #제7대 경무국장 취임
+#     # country_event = {
+#     #     id = ggk_cabinet.4
+#     #     title = ggk_cabinet.4.t
+#     #     desc = ggk_cabinet.4.desc
+#     #     picture = GFX_report_event_generic_military_parade
+
+#     #     fire_only_once = yes
+
+#     #     immediate = {
+#     #         hidden_effect = { add_ideas = IM_Tanaka_Takeo }
+#     #     }
+
+#     #     option = {
+#     #         name = ggk_cabinet.4.a
+#     #         effect_tooltip = { add_ideas = IM_Tanaka_Takeo }
+#     #     }
+#     # }
+
+#     # #제5대 재무국장 취임
+#     # country_event = {
+#     #     id = ggk_cabinet.5
+#     #     title = ggk_cabinet.5.t
+#     #     desc = ggk_cabinet.5.desc
+#     #     picture = GFX_report_event_generic_military_parade
+
+#     #     fire_only_once = yes
+        
+#     #     trigger = {
+#     # 		original_tag = GGK
+#     # 		date > 1937.10.29
+#     # 	}
+
+#     #     immediate = {
+#     #         hidden_effect = { add_ideas = EM_Mizuda_Naomasa }
+#     #     }
+
+#     #     option = {
+#     #         name = ggk_cabinet.5.a
+#     #         effect_tooltip = { add_ideas = EM_Mizuda_Naomasa }
+#     #     }
+#     # }
+
+#     # #제9대 내무국장 취임
+#     # country_event = {
+#     #     id = ggk_cabinet.6
+#     #     title = ggk_cabinet.6.t
+#     #     desc = ggk_cabinet.6.desc
+#     #     picture = GFX_report_event_generic_military_parade
+
+#     #     fire_only_once = yes
+        
+#     #     trigger = {
+#     # 		original_tag = GGK
+#     # 		date > 1941.1.24
+#     # 	}
+
+#     #     immediate = {
+#     #         hidden_effect = { add_ideas = SM_Koutaki_Motoi }
+#     #     }
+
+#     #     option = {
+#     #         name = ggk_cabinet.6.a
+#     #         effect_tooltip = { add_ideas = SM_Koutaki_Motoi }
+#     #     }
+#     # }
+
+#     # #제10대 내무국장 취임
+#     # country_event = {
+#     #     id = ggk_cabinet.7
+#     #     title = ggk_cabinet.7.t
+#     #     desc = ggk_cabinet.7.desc
+#     #     picture = GFX_report_event_generic_military_parade
+
+#     #     fire_only_once = yes
+        
+#     #     trigger = {
+#     # 		original_tag = GGK
+#     # 		date > 1941.11.19
+#     # 	}
+
+#     #     immediate = {
+#     #         hidden_effect = { add_ideas = SM_Suzukawa_Toshio }
+#     #     }
+
+#     #     option = {
+#     #         name = ggk_cabinet.7.a
+#     #         effect_tooltip = { add_ideas = SM_Suzukawa_Toshio }
+#     #     }
+#     # }
+# #
+
+# #
+#     # #고이소 구니아키 총독 취임
+#     # country_event = {
+#     #     id = ggk_cabinet.3
+#     #     title = ggk_cabinet.3.t
+#     #     desc = ggk_cabinet.3.desc
+#     #     picture = GFX_report_event_generic_military_parade
+
+#     #     fire_only_once = yes
+        
+#     #     trigger = {
+#     # 		original_tag = GGK
+#     # 		date > 1942.5.28
+#     #         NOT = {
+#     #             OR = {
+#     #                 has_country_leader = {
+#     #                     name = "Kuniaki Koiso"
+#     #                     ruling_only = yes
+#     #                 }
+#     #                 has_country_leader = {
+#     #                     name = "Nobuyuki Abe"
+#     #                     ruling_only = yes
+#     #                 }
+#     #             }
+#     #         }
+#     # 	}
+
+#     #     mean_time_to_happen = {
+#     # 		days = 1
+#     # 	}
+
+#     #     option = {
+#     #         name = ggk_cabinet.3.a
+#     # 		ai_chance = { factor = 100 }
+#     #         create_country_leader = {
+#     #             name = "Kuniaki Koiso"
+#     #             desc = ""
+#     #             picture = "gfx/leaders/JAP_colony/Portrait_Koiso_Kuniaki.dds"
+#     #             expire = "1965.1.1"
+#     #             ideology = fascism_ideology
+#     #             traits = {
+
+#     #             }
+#     #         }
+#     #     }
+#     # }
+
+#     # #아베 노부유키 총독 취임
+#     # country_event = {
+#     #     id = ggk_cabinet.4
+#     #     title = ggk_cabinet.4.t
+#     #     desc = ggk_cabinet.4.desc
+#     #     picture = GFX_report_event_generic_military_parade
+
+#     #     fire_only_once = yes
+        
+#     #     trigger = {
+#     # 		original_tag = GGK
+#     # 		date > 1944.7.23
+#     # 	}
+
+#     #     mean_time_to_happen = {
+#     # 		days = 1
+#     # 	}
+
+#     #     option = {
+#     #         name = ggk_cabinet.4.a
+#     # 		ai_chance = { factor = 100 }
+#     #         create_country_leader = {
+#     #             name = "Nobuyuki Abe"
+#     #             desc = ""
+#     #             picture = "gfx/leaders/JAP_colony/Portrait_Abe_Nobuyuki.dds"
+#     #             expire = "1965.1.1"
+#     #             ideology = fascism_ideology
+#     #             traits = {
+
+#     #             }
+#     #         }
+#     #     }
+#     # }
+# #
+
+
+# ### 정당 결성 이벤트 ###
+
+# #수양동우회 사건
+# country_event = {
+#     id = ggk_party.1
+#     title = ggk_party.1.t
+#     desc = ggk_party.1.desc
+#     picture = GFX_report_event_KOR_kpg_shanghai
+
+#     is_triggered_only = yes
+#     fire_only_once = yes
+
+#     option = {
+#         name = ggk_party.1.a
+#     }
+# }
+
+# #흥업구락부 사건
+# country_event = {
+#     id = ggk_party.2
+#     title = ggk_party.2.t
+#     desc = ggk_party.2.desc
+#     picture = GFX_report_event_KOR_kpg_shanghai
+
+#     is_triggered_only = yes
+#     fire_only_once = yes
+
+#     option = {
+#         name = ggk_party.2.a
+#     }
+# }
+
+# #국민정신총동원조선연맹 결성
+# country_event = {
+#     id = ggk_party.3
+#     title = ggk_party.3.t
+#     desc = ggk_party.3.desc
+#     picture = GFX_report_event_KOR_kpg_shanghai
+
+#     is_triggered_only = yes
+#     fire_only_once = yes
+
+#     option = {
+#         name = ggk_party.3.a
+#     }
+# }

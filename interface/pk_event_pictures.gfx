@@ -1,150 +1,58 @@
 spriteTypes = {
 
-	### Country Event ###
+	### COUNTRY EVENT ###
 
+	## KOR : PROVISIONAL GOVERNMENT ##
 	spriteType = {
-		name = "GFX_report_event_narration"
-		textureFile = "gfx/event_pictures/report_event_narration.dds"
+		name = "GFX_event_kor_cho_seonghwan"
+		textureFile = "gfx/event_pictures/event_kor_cho_seonghwan.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_kpg_shanghai"
-		textureFile = "gfx/event_pictures/report_event_KOR_kpg_shanghai.dds"
+		name = "GFX_event_kor_ji_cheongcheon"
+		textureFile = "gfx/event_pictures/event_kor_ji_cheongcheon.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_kpg_gukmuwon"
-		textureFile = "gfx/event_pictures/report_event_KOR_kpg_gukmuwon.dds"
+		name = "GFX_event_kor_jokcheong"
+		textureFile = "gfx/event_pictures/event_kor_jokcheong.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_kpg_handokdang"
-		textureFile = "gfx/event_pictures/report_event_KOR_kpg_handokdang.dds"
+		name = "GFX_event_kor_kia_command"
+		textureFile = "gfx/event_pictures/event_kor_kia_command.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_search_out_spies"
-		textureFile = "gfx/event_pictures/report_event_KOR_search_out_spies.dds"
+		name = "GFX_event_kor_kia_recruit"
+		textureFile = "gfx/event_pictures/event_kor_kia_recruit.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_kpg_uijeongwon"
-		textureFile = "gfx/event_pictures/report_event_KOR_kpg_uijeongwon.dds"
+		name = "GFX_event_kor_kia_hsian"
+		textureFile = "gfx/event_pictures/event_kor_kia_hsian.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_independence_army2"
-		textureFile = "gfx/event_pictures/report_event_KOR_independence_army2.dds"
+		name = "GFX_event_kor_kim_koo"
+		textureFile = "gfx/event_pictures/event_kor_kim_koo.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_ji_chengcheon_speech"
-		textureFile = "gfx/event_pictures/report_event_KOR_ji_chengcheon_speech.dds"
+		name = "GFX_event_kor_kim_koo_speech"
+		textureFile = "gfx/event_pictures/event_kor_kim_koo_speech.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_internal_figure"
-		textureFile = "gfx/event_pictures/report_event_KOR_internal_figure.dds"
+		name = "GFX_event_kor_kip_1940"
+		textureFile = "gfx/event_pictures/event_kor_kip_1940.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_ryuh_and_song"
-		textureFile = "gfx/event_pictures/report_event_KOR_ryuh_and_song.dds"
+		name = "GFX_event_kor_kpg_1918_shanghai"
+		textureFile = "gfx/event_pictures/event_kor_kpg_1918_shanghai.png"
 	}
-
-
-
-
 	spriteType = {
-		name = "GFX_report_event_KOR_kim_koo_speech"
-		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_speech.dds"
+		name = "GFX_event_kor_kpg_1933"
+		textureFile = "gfx/event_pictures/event_kor_kpg_1933.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_kim_koo_with_kim_wonbong"
-		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_with_kim_wonbong.dds"
+		name = "GFX_event_kor_kpg_1936"
+		textureFile = "gfx/event_pictures/event_kor_kpg_1936.png"
 	}
-
 	spriteType = {
-		name = "GFX_report_event_KOR_provisional_assembly"
-		textureFile = "gfx/event_pictures/report_event_KOR_provisional_assembly.dds"
-	}
-
-	spriteType = {
-		name = "GFX_report_event_KOR_independence_army"
-		textureFile = "gfx/event_pictures/report_event_KOR_independence_army.dds"
-	}
-
-	spriteType = {
-		name = "GFX_report_event_KOR_independence_army2"
-		textureFile = "gfx/event_pictures/report_event_KOR_independence_army2.dds"
-	}
-
-	spriteType = {
-		name = "GFX_report_event_KOR_jo_soang"
-		textureFile = "gfx/event_pictures/report_event_KOR_jo_soang.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_report_event_KOR_return_of_kpg"
-		textureFile = "gfx/event_pictures/report_event_KOR_return_of_kpg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_report_event_KOR_election"
-		textureFile = "gfx/event_pictures/report_event_KOR_election.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_report_event_KOR_kim_koo_syngman_rhee"
-		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_syngman_rhee.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_report_event_KOR_kim_koo_syngman_rhee_kim_kyu_sik"
-		textureFile = "gfx/event_pictures/report_event_KOR_kim_koo_syngman_rhee_kim_kyu_sik.dds"
-	}
-
-	
-	#
-		spriteType = {
-			name = "GFX_report_event_KOR_ryuh_speech"
-			textureFile = "gfx/event_pictures/report_event_KOR_ryuh_speech.dds"
-		}
-		
-		spriteType = {
-			name = "GFX_report_event_KOR_ahn_speech"
-			textureFile = "gfx/event_pictures/report_event_KOR_ahn_speech.dds"
-		}
-		
-		spriteType = {
-			name = "GFX_report_event_KOR_dpk"
-			textureFile = "gfx/event_pictures/report_event_KOR_dpk.dds"
-		}
-	#
-
-
-	
-	spriteType = {
-		name = "GFX_report_event_KOR_national_assembly"
-		textureFile = "gfx/event_pictures/report_event_KOR_national_assembly.dds"
-	}
-
-	
-	spriteType = {
-		name = "GFX_report_event_KOR_cpk"
-		textureFile = "gfx/event_pictures/report_event_KOR_cpk.dds"
-	}
-
-	### News Event ###
-
-	spriteType = {
-		name = "GFX_news_event_kpg_shanghai"
-		textureFile = "gfx/event_pictures/news_event_kpg_shanghai.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_korean_independence"
-		textureFile = "gfx/event_pictures/news_event_korean_independence.dds"
+		name = "GFX_event_kor_lee_beomseok"
+		textureFile = "gfx/event_pictures/event_kor_lee_beomseok.png"
 	}
 }

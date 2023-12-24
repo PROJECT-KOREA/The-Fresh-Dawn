@@ -76,7 +76,7 @@
 
 # #광복군 항공사령부
 # shared_focus = {
-# 	id = KOR_focus_kia_air_corps
+# 	id = KOR_focus_KIA_air_corps
 # 	icon = GFX_focus_air_fighter
 # 	relative_position_id = KOR_focus_reorganize_kia
 # 	x = 2

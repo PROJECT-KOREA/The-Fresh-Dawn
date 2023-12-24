@@ -1,0 +1,19 @@
+state = {
+	id = 951
+	name = "STATE_951" #안둥
+	manpower = 4325000
+	state_category = town
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		800 861 945 3839 3888 3949 3970 6905 6860 6868 6910 6981 9759 9803 9841 9848 9854 9866 11781
+	}
+}

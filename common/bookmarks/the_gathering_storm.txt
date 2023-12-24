@@ -462,7 +462,9 @@ bookmarks = {
 			history = "KOR_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				
+				KOR_idea_government_in_exile_1
+				KOR_idea_kmt_support_1
+				KOR_idea_party_legitimacy_1
 			}
 			focuses = {
 				

@@ -1,3 +1,46 @@
+# # 독립! #
+# KOR_DECCAT_independence = {
+# 	icon = kpg
+# 	visible_when_empty = yes
+# 	visible = {
+#         NOT = { has_country_flag = KOR_gov_established_flag }
+#         always = yes
+#     }
+# 	allowed = { original_tag = KOR }
+# 	priority = { base = 100 }
+# }
+
+# 대한민국 임시정부 #
+KOR_DECCAT_KPG = {
+	icon = kpg
+	picture = GFX_decision_cat_declaration_of_independence
+	visible_when_empty = yes
+	visible = {
+        NOT = { has_country_flag = KOR_gov_established_flag }
+        always = yes
+    }
+	allowed = { original_tag = KOR }
+	priority = { base = 99 }
+}
+
+# 한국광복군 #
+KOR_DECCAT_KIA = {
+	icon = kia
+	picture = GFX_decision_cat_kia
+	# picture = cat_kia #"[This.GET_KIA_DECISION_PIC]"
+	visible_when_empty = yes
+	visible = {
+		OR = {
+			has_completed_focus = KOR_focus_KIA
+			has_country_flag = debug_kia_show
+		}
+        # has_country_flag = GGK_flag_ki_yes
+        # always = yes
+    }
+	allowed = { original_tag = KOR }
+	priority = { base = 98 }
+}
+
 # #한국 독립전쟁
 # KOR_war_of_independence_decision = {
 # 	icon = kpg

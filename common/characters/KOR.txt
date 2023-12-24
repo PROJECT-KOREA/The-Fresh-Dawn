@@ -60,7 +60,7 @@ characters = {
 			name = Kim_Koo
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+					large = "gfx/leaders/KOR/Portrait_Kim_Koo_1935.dds"
 					small = "gfx/interface/advisor/KOR/KOR_Kim_Koo.dds"
 				}
 			}
@@ -70,16 +70,16 @@ characters = {
 			    ideology = conservatism
 			    traits = {  }
 			}
-			advisor = {
-				slot = second_in_command
-				idea_token = KOR_Kim_Koo_sic
-				traits = {
-					# KR_parliament_sic
-					# PK_government_sic
-				}
-				cost = 0
-				can_be_fired = no
-			}
+			# advisor = {
+			# 	slot = second_in_command
+			# 	idea_token = KOR_Kim_Koo_sic
+			# 	traits = {
+			# 		# KR_parliament_sic
+			# 		# PK_government_sic
+			# 	}
+			# 	cost = 0
+			# 	can_be_fired = no
+			# }
 		}		
 		
 		## 김원봉 (首) ##
@@ -108,13 +108,151 @@ characters = {
 			# 	can_be_fired = no
 			# }
 		}
+		
+		## 이승만 (首/顧) ##
+		KOR_Syngman_Rhee = {
+			name = Syngman_Rhee
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
+					small = "gfx/interface/advisor/KOR/KOR_Syngman_Rhee.dds"
+				}
+				# army = { small = "gfx/interface/ideas/minister/KOR/KOR_Syngman_Rhee.dds" }
+			}
+
+			# #지도자 - 사회보수주의
+			# country_leader = {
+			#     ideology = conservatism
+			#     traits = { }
+			# }
+
+			# 정치 고문 #
+			advisor = {
+				slot = political_advisor
+				idea_token = KOR_Syngman_Rhee_advisor
+				available = { tag = KOR }
+				visible = {
+					has_completed_focus = KOR_focus_occident_diplomacy_committee
+				}
+				traits = {
+					# KR_parliament_sic
+					# PK_government_sic
+					smooth_talking_charmer
+				}
+				cost = 150
+				# can_be_fired = no
+			}
+		}
 
 		## 홍사익 (首/將/顧) ##
+		# KOR_Hong_Saik = {
+		# 	name = Hong_Saik
+		# 	portraits = {
+		# 		civilian = { large = "gfx/leaders/KOR/Portrait_Hong_Saik.dds" }
+		# 	}
+
+		# 	#육군 원수 - 광복군 부사령관
+		# 	field_marshal = {
+		# 		traits = {
+		# 			infantry_officer #보병 장교
+		# 			# war_hero #전쟁 영웅
+		# 			# politically_connected #정계와의 연줄
+		# 		}
+		# 		skill = 4
+		# 		attack_skill = 4
+		# 		defense_skill = 2
+		# 		planning_skill = 3
+		# 		logistics_skill = 3
+		# 		legacy_id = 0
+		# 	}
+		# }
+	#
+
+	### 정치 고문 ###
+		## 조성환 (顧) ##
+		KOR_Cho_Seonghwan = {
+			name = Cho_Seonghwan
+			portraits = {
+				civilian = {
+					# large = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+					small = "gfx/interface/advisor/KOR/KOR_Cho_Seonghwan.dds"
+				}
+			}
+
+			# 정치 고문 #
+			advisor = {
+				slot = political_advisor
+				idea_token = KOR_Cho_Seonghwan_advisor
+				available = {
+					has_completed_focus = KOR_focus_military_comittee
+				}
+				traits = {
+					PK_veteran_military_strategist
+					# KR_parliament_sic
+					# PK_government_sic
+				}
+				cost = 150
+				# can_be_fired = no
+			}
+		}	
+	#
+
+	### 육군 장성 ###
+		## 지청천 (將/陸) ##
+		KOR_Ji_Cheongcheon = {
+			name = Ji_Cheongcheon
+			portraits = {
+				civilian = { large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds" }
+				army = {
+					small = "gfx/interface/ideas/minister/KOR/KOR_Ji_Cheongcheon.dds"
+					large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
+				}
+			}
+
+			# #지도자 - 권위민주주의
+			# country_leader = {
+			#     ideology = military_dic
+			#     traits = { kia_commander }
+			# }
+
+			#육군 원수 - 광복군 총사령관
+			field_marshal = {
+				traits = {
+					infantry_officer #보병 장교
+					war_hero #전쟁 영웅
+					politically_connected #정계와의 연줄
+				}
+				skill = 4
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+				legacy_id = 0
+			}
+
+			#육군참모총장
+			# advisor = {
+			# 	slot = army_chief
+			# 	idea_token = KOR_COA_Ji_Cheongcheon
+			# 	allowed = { original_tag = KOR }
+			# 	traits = { army_chief_offensive_3 }
+			# 	cost =  150
+			# 	ai_will_do = { factor = 1.000 }
+			# }
+		}
+
+		## 홍사익 (將/陸) ##
 		KOR_Hong_Saik = {
 			name = Hong_Saik
 			portraits = {
 				civilian = { large = "gfx/leaders/KOR/Portrait_Hong_Saik.dds" }
 			}
+
+			# #지도자 - 권위민주주의
+			# country_leader = {
+			#     ideology = military_dic
+			#     traits = {  }
+			# }
 
 			#육군 원수 - 광복군 부사령관
 			field_marshal = {
@@ -130,6 +268,81 @@ characters = {
 				logistics_skill = 3
 				legacy_id = 0
 			}
+		}
+
+		## 김경천 (將) ##
+		KOR_Kim_Kyeongcheon = {
+			name = Kim_Kyeongcheon
+			portraits = {
+				army = {
+					large = "gfx/leaders/KOR/Portrait_Kim_Kyeongcheon.dds"
+				}
+			}
+
+			#육군 지휘관 - 광복군 대륙전구군사령관 
+			# corps_commander = {
+			# 	traits = {
+			# 		cavalry_leader #기병 지휘관
+			# 		media_personality #유명인
+			# 	}
+			# 	skill = 4
+			# 	attack_skill = 3
+			# 	defense_skill = 3
+			# 	planning_skill = 2
+			# 	logistics_skill = 3
+			# 	legacy_id = 0
+			# }
+		}
+
+		## 김홍일 (將) ##
+		KOR_Kim_Hong_il = {
+			name = Kim_Hong_il
+			portraits = {
+				army = {
+					large = "gfx/leaders/KOR/Portrait_Kim_Hong_il.dds"
+				}
+			}
+
+			#육군 지휘관
+			# corps_commander = {
+			# 	traits = {
+			# 		infantry_leader #보병 지휘관
+			# 		inflexible_strategist #확고한 전략가
+			# 		organizer #조직가
+			# 	}
+			# 	skill = 3
+			# 	attack_skill = 2
+			# 	defense_skill = 3
+			# 	planning_skill = 3
+			# 	logistics_skill = 2
+			# 	legacy_id = 0
+			# }
+		}
+
+		## 이범석 (將) ##
+		KOR_Lee_Beomseok = {
+			name = Lee_Beomseok
+			portraits = {
+				army = {
+					#small = "gfx/interface/ideas/minister/KOR/Lee_Beomseok.dds"
+					large = "gfx/leaders/KOR/Portrait_Lee_Beomseok.dds"
+				}
+			}
+
+			#육군 지휘관 - 광복군 국내정진군사령관
+			# corps_commander = {
+			# 	traits = {
+			# 		brilliant_strategist #확고한 전략가
+			# 		cavalry_officer #기병 장교
+			# 		war_hero #전쟁 영웅
+			# 	}
+			# 	skill = 3
+			# 	attack_skill = 3
+			# 	defense_skill = 2
+			# 	planning_skill = 2
+			# 	logistics_skill = 2
+			# 	legacy_id = 0
+			# }
 		}
 	#
 }

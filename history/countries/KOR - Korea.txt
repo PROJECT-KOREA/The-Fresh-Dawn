@@ -1,15 +1,23 @@
 ﻿#수도
 capital = 525
 set_oob = "KOR_1936"
-set_cosmetic_tag = KOR_KPG
+# set_cosmetic_tag = KOR_KPG
 
 #인물 불러오기
 	recruit_character = KOR_Lee_Dongnyeong
 	recruit_character = KOR_Kim_Koo
 	recruit_character = KOR_Kim_Wonbong
-	# recruit_character = KOR_KIA_Command
+	recruit_character = KOR_Syngman_Rhee
+
+	recruit_character = KOR_Cho_Seonghwan
+
 	recruit_character = KOR_Hong_Saik
-	# recruit_character = KOR_Ji_Cheongcheon
+	recruit_character = KOR_Ji_Cheongcheon
+	recruit_character = KOR_Kim_Kyeongcheon
+	recruit_character = KOR_Kim_Hong_il
+	recruit_character = KOR_Lee_Beomseok
+	
+	# recruit_character = KOR_KIA_Command
 	# recruit_character = KOR_Song_Jinwoo
 	# recruit_character = KOR_Ahn_Jaehong
 	# recruit_character = KOR_Ryuh_Woonhyung
@@ -29,30 +37,29 @@ set_cosmetic_tag = KOR_KPG
 	# recruit_character = KOR_Sin_Ikhee
 	# recruit_character = KOR_Cho_Soang
 
-	# recruit_character = KOR_Kim_Kyeongcheon
-	# recruit_character = KOR_Kim_Hong_il
 	# recruit_character = KOR_Song_Hoseong
 	# recruit_character = KOR_Oh_Kwangseon
-	# recruit_character = KOR_Lee_Beomseok
 	# recruit_character = KOR_Kim_Wonbong
 	# recruit_character = KOR_Yoon_Seju
 	
-	activate_advisor = KOR_Kim_Koo_sic
+	# activate_advisor = KOR_Kim_Koo_sic
 #
 
 #안정도
 set_stability = 0.30
 
 #전쟁 지지도
-set_war_support = 0.25
+set_war_support = 0.27
 
 #국민 정신
 add_ideas = {
-	KOR_idea_government_in_exile
-	KOR_idea_kmt_support
-	KOR_idea_firepower_supremacy1
+	KOR_idea_firepower_supremacy_1
+	KOR_idea_government_in_exile_1
+	KOR_idea_kmt_support_1
+	KOR_idea_party_legitimacy_1
+	KOR_idea_financial_problem_1
 	# KOR_idea_disorganized_admin1
-	# KOR_idea_firepower_supremacy1
+	# KOR_idea_firepower_supremacy_1
 	# KOR_idea_kia
 	# KOR_idea_independence_war
 	# KOR_idea_illiteracy_population_1
@@ -73,12 +80,12 @@ add_ideas = {
 
 #시작 기술
 set_technology = {
-	infantry_weapons = 1 #기초 보병 장비
-	infantry_weapons1 = 1 #보병 장비 I
-	support_weapons = 1 #지원 화기 I
-	motorised_infantry = 1 #차량화보병
+	# infantry_weapons = 1 #기초 보병 장비
+	# infantry_weapons1 = 1 #보병 장비 I
+	# support_weapons = 1 #지원 화기 I
+	# motorised_infantry = 1 #차량화보병
 
-	armored_car1 = 1 #기초 장갑차
+	# armored_car1 = 1 #기초 장갑차
 
 	tech_support = 1 #지원 장비
 	tech_engineers = 1 #공병 I
@@ -88,9 +95,9 @@ set_technology = {
 
 	gw_artillery = 1 #견인포
 
-	superior_firepower = 1 #압도적인 화력
-	sup_delay = 1 #지연
-	mobile_defence = 1 #기동 방어
+	# superior_firepower = 1 #압도적인 화력
+	# sup_delay = 1 #지연
+	# mobile_defence = 1 #기동 방어
 }
 
 #수송선
@@ -106,12 +113,21 @@ set_politics = {
 
 #지지도
 set_popularities = {
-	democratic = 27
-	n_socialism = 3
+	democratic = 24
+	n_socialism = 6
 	neutrality = 70
 }
 
 COALITION_add_dem = yes
+
+add_offsite_building = { type = industrial_complex level = 4 }
+
+country_event = {
+	id = kor_kpg.1
+	hours = 6
+}
+			
+# set_variable = { KPG_CHI_Relations = 44 }
 
 # set_variable = { KOR_kip_strength = 35 }
 # set_variable = { KOR_gmh_strength = 20 }

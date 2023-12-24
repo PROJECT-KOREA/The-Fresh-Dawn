@@ -1,0 +1,57 @@
+﻿### 뉴스 이벤트 ###
+add_namespace = pk_news
+
+#대한민국 임시정부의 정부 수립일 기념식
+news_event = {
+    id = pk_news.1
+    title = pk_news.1.t
+    desc = pk_news.1.desc
+    picture = GFX_news_event_kpg_shanghai
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = { name = pk_news.1.a }
+}
+
+
+#한국의 독립 선언
+news_event = {
+    id = pk_news.2
+    title = pk_news.2.t
+    desc = pk_news.2.desc
+    picture = GFX_news_event_KOR_independence
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_news.2.a
+        trigger = {
+            tag = KOR
+        }
+    }
+
+    option = {
+        name = pk_news.2.b
+        trigger = {
+            NOT = { tag = KOR }
+        }
+    }
+}
+
+#대한민국의 헌법 공포식
+news_event = {
+    id = pk_news.3
+    title = pk_news.3.t
+    desc = pk_news.3.desc
+
+    picture = GFX_news_independence_korea
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = pk_news.3.a
+    }
+}
