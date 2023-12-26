@@ -14,28 +14,28 @@ PK_debug = {
 		}
 	}
 
-	Debug_KIA_MCM_toggle = {
-		ai_will_do = { factor = 0 }
-		complete_effect = {
-			if = {
-				limit = { NOT = { has_country_flag = KOR_KIA_MSM_flag } }
-				set_country_flag = KOR_KIA_MSM_flag
-			}
-			else = {
-				clr_country_flag = KOR_KIA_MSM_flag
-			}
-		}
-	}
+	# Debug_KIA_MSM_toggle = {
+	# 	ai_will_do = { factor = 0 }
+	# 	complete_effect = {
+	# 		if = {
+	# 			limit = { NOT = { has_country_flag = KOR_KIA_MSM_flag } }
+	# 			set_country_flag = KOR_KIA_MSM_flag
+	# 		}
+	# 		else = {
+	# 			clr_country_flag = KOR_KIA_MSM_flag
+	# 		}
+	# 	}
+	# }
 
-	Debug_KIA_MCM_sent_toggle = {
+	Debug_KIA_MSM_sent_toggle = {
 		ai_will_do = { factor = 0 }
 		complete_effect = {
 			if = {
-				limit = { NOT = { has_country_flag = KOR_KIA_MCM_sent_flag } }
-				set_country_flag = KOR_KIA_MCM_sent_flag
+				limit = { NOT = { has_country_flag = KOR_KIA_contingent_sent_flag } }
+				set_country_flag = KOR_KIA_contingent_sent_flag
 			}
 			else = {
-				clr_country_flag = KOR_KIA_MCM_sent_flag
+				clr_country_flag = KOR_KIA_contingent_sent_flag
 			}
 		}
 	}
@@ -49,6 +49,19 @@ PK_debug = {
 			}
 			else = {
 				clr_country_flag = KOR_KIA_plan_rejected
+			}
+		}
+	}
+
+	Debug_KIA_formed_toggle = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			if = {
+				limit = { NOT = { has_country_flag = KOR_kia_formed_flag } }
+				set_country_flag = KOR_kia_formed_flag
+			}
+			else = {
+				clr_country_flag = KOR_kia_formed_flag
 			}
 		}
 	}

@@ -1,8 +1,5 @@
 spriteTypes = {
-
-	
 	### GGK ###
-
 		# spriteType = {
 		# 	name = "GFX_focus_reform_government"
 		# 	textureFile = "gfx/interface/goals/GGK/focus_reform_government.dds"
@@ -92,34 +89,28 @@ spriteTypes = {
 		# 	name = "GFX_focus_operation_independence"
 		# 	textureFile = "gfx/interface/goals/GGK/focus_operation_independence.dds"
 		# }
-	#
-	
+	#	
 
+	spriteType = {
+		name = "GFX_focus_chosoang"
+		textureFile = "gfx/interface/goals/KOR/focus_chosoang.png"
+	}
 	spriteType = {
 		name = "GFX_focus_korean_independence_movement"
-		textureFile = "gfx/interface/goals/GGK/focus_korean_independence_movement.dds"
+		textureFile = "gfx/interface/goals/KOR/focus_korean_independence_movement.dds"
 	}
-
+	spriteType = {
+		name = "GFX_focus_korean_youth_vanguard"
+		textureFile = "gfx/interface/goals/KOR/focus_korean_youth_vanguard.png"
+	}
 	spriteType = {
 		name = "GFX_focus_operation_independence"
-		textureFile = "gfx/interface/goals/GGK/focus_operation_independence.dds"
+		textureFile = "gfx/interface/goals/KOR/focus_operation_independence.dds"
 	}
-
-	spriteType = {
-		name = "GFX_focus_democracy"
-		textureFile = "gfx/interface/goals/KOR/focus_democracy.dds"
-	}
-	spriteType = {
-		name = "GFX_focus_ideology_market_liberal"
-		textureFile = "gfx/interface/goals/ideology_market_liberal.png"
-	}
-
-
-	### KOR ###
-	spriteType = {
-		name = "GFX_focus_youth"
-		textureFile = "gfx/interface/goals/KOR/focus_youth.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_focus_democracy"
+	# 	textureFile = "gfx/interface/goals/KOR/focus_democracy.dds"
+	# }
 	spriteType = {
 		name = "GFX_focus_korean_woi"
 		textureFile = "gfx/interface/goals/KOR/focus_korean_woi.dds"

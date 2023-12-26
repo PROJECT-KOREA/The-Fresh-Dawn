@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_bop_KOR_leftist_side"
+		texturefile = "gfx/interface/bop/KOR_leftist_side.png"
+	}
+	spriteType = {
+		name = "GFX_bop_KOR_leftist_improved_side"
+		texturefile = "gfx/interface/bop/KOR_leftist_improved_side.png"
+	}
+	spriteType = {
+		name = "GFX_bop_KOR_kpg_side"
+		texturefile = "gfx/interface/bop/KOR_kpg_side.png"
+	}
+	spriteType = {
+		name = "GFX_bop_KOR_kpg_improved_side"
+		texturefile = "gfx/interface/bop/KOR_kpg_improved_side.png"
+	}
+}

@@ -467,7 +467,9 @@ bookmarks = {
 				KOR_idea_party_legitimacy_1
 			}
 			focuses = {
-				
+				KOR_focus_last_bastion_of_im
+				KOR_focus_KIA
+				KOR_focus_cross_the_amnok_river
 			}
 		}
 		SHX = {

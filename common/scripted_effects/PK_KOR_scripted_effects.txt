@@ -1,27 +1,69 @@
-#	Example:
-# 
-#	example_effect = {
-#		add_political_power = 66
-#		add_popularity = {
-#			ideology = fascism
-#			popularity = 0.33
-#		}
-#	}
-#
-#
-#	In a script file:
-#
-#	effect = {
-#		example_effect = yes
-#	}
-#
+# 정통성 상승
+PK_KOR_improve_legitimacy = {
+	if = {
+		limit = { has_idea = KOR_idea_party_legitimacy_1 }
+		swap_ideas = {
+			remove_idea = KOR_idea_party_legitimacy_1
+			add_idea = KOR_idea_party_legitimacy_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_idea_party_legitimacy_2 }
+		swap_ideas = {
+			remove_idea = KOR_idea_party_legitimacy_2
+			add_idea = KOR_idea_party_legitimacy_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_idea_party_legitimacy_3 }
+		swap_ideas = {
+			remove_idea = KOR_idea_party_legitimacy_3
+			add_idea = KOR_idea_party_legitimacy_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_idea_party_legitimacy_4 }
+		swap_ideas = {
+			remove_idea = KOR_idea_party_legitimacy_4
+			add_idea = KOR_idea_party_legitimacy_5
+		}
+	}
+}
 
-#####################################
-### emergency_factory_conversion ####
-#####################################
+# 정통성 하락
+PK_KOR_worsen_legitimacy = {
+	if = {
+		limit = { has_idea = KOR_idea_party_legitimacy_5 }
+		swap_ideas = {
+			remove_idea = KOR_idea_party_legitimacy_5
+			add_idea = KOR_idea_party_legitimacy_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_idea_party_legitimacy_4 }
+		swap_ideas = {
+			remove_idea = KOR_idea_party_legitimacy_4
+			add_idea = KOR_idea_party_legitimacy_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_idea_party_legitimacy_3 }
+		swap_ideas = {
+			remove_idea = KOR_idea_party_legitimacy_3
+			add_idea = KOR_idea_party_legitimacy_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = KOR_idea_party_legitimacy_2 }
+		swap_ideas = {
+			remove_idea = KOR_idea_party_legitimacy_2
+			add_idea = KOR_idea_party_legitimacy_1
+		}
+	}
+}
 
-#This is going to give misleading and ugly tooltips. Making it nice will take effort. TODO_WTT_CD make nice or ignore and remove comment. Easiest solution is just making a custom tooltip that says "5 civilian factories will be converted to military factories" and ignore telling the player the states where it will happen.
 
+# 중국 군사위원회와의 관계 변수
 KOR_ClampCHIRelations = {
 	clamp_variable = {
 		var = KPG_CHI_Relations

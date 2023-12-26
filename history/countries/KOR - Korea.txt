@@ -1,12 +1,13 @@
 ﻿#수도
 capital = 525
 set_oob = "KOR_1936"
-# set_cosmetic_tag = KOR_KPG
+set_cosmetic_tag = KOR_KPG
 
 #인물 불러오기
 	recruit_character = KOR_Lee_Dongnyeong
 	recruit_character = KOR_Kim_Koo
 	recruit_character = KOR_Kim_Wonbong
+	recruit_character = KOR_Cho_Soang
 	recruit_character = KOR_Syngman_Rhee
 
 	recruit_character = KOR_Cho_Seonghwan
@@ -113,21 +114,21 @@ set_politics = {
 
 #지지도
 set_popularities = {
-	democratic = 24
-	n_socialism = 6
-	neutrality = 70
+	democratic = 14
+	n_socialism = 20
+	neutrality = 66
 }
 
-COALITION_add_dem = yes
+# COALITION_add_dem = yes
 
-add_offsite_building = { type = industrial_complex level = 4 }
+# add_offsite_building = { type = industrial_complex level = 4 }
 
 country_event = {
 	id = kor_kpg.1
 	hours = 6
 }
 			
-# set_variable = { KPG_CHI_Relations = 44 }
+set_variable = { KPG_CHI_Relations = 44 }
 
 # set_variable = { KOR_kip_strength = 35 }
 # set_variable = { KOR_gmh_strength = 20 }

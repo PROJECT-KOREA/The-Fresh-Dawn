@@ -1,0 +1,704 @@
+﻿# l_english:
+
+# 	#############
+# 	### ideas ###
+# 	#############
+
+# 	## 국민정신 ##
+# 		# KOR_idea_government_in_exile: "망명정부"
+# 		# KOR_idea_government_in_exile_desc: ""
+# 		# KOR_idea_kmt_support: "국민당의 지원"
+# 		# KOR_idea_kmt_support_desc: ""
+
+# 		# KOR_idea_disorganized_admin:0 "체계적이지 못한 행정"
+# 		# KOR_idea_disorganized_admin_desc:0 "현재 우리 정권은 임시적이고 과도기적인 성격이 강하며, 비체계적인 관료 체계를 유지하고 있습니다. 국내의 인재들을 등용하고 행정적 개혁을 실시하여 이를 바로 잡아야 할 것입니다."
+# 		# KOR_idea_firepower_supremacy:0 "화력지상주의"
+# 		# KOR_idea_firepower_supremacy_desc:0 "강력한 화력을 숭상하는 것은 우리 민족의 유구한 전통이며, 이는 지금도 변함없는 사실입니다."
+# 		# KOR_idea_kia:0 "한국광복군"
+# 		# KOR_idea_kia_desc:0 "한국광복군은 일본 제국주의를 저지하고 한반도의 독립을 위해 창설된 대한민국 임시정부의 정식 군대입니다."
+# 		# KOR_idea_independence_war:0 "한국 독립전쟁"
+# 		# KOR_idea_independence_war_desc:0 "마침내 민족 대혈전의 날이 다가왔습니다! 우리는 조국의 해방을 위하여 불굴의 의지로 적과 맞서 싸울 것입니다."
+# 		# KOR_idea_doknip_uiyonggun:0 "독립의용군"
+# 		# KOR_idea_illiteracy_population:0 "문맹 인구"
+# 		# KOR_idea_illiteracy_population_desc:0 "총독부의 한국어 금지 정책과 비합리적인 교육 정책으로 한국인의 문해율은 바닥을 기고 있습니다. 이를 바로잡기 위해서는 값비싼 프로그램이 필요할 것입니다."
+# 		# KOR_idea_the_poor:0 "빈민 문제"
+# 		# KOR_idea_the_poor_desc:0 "애석하게도, 일제의 잔혹한 수탈로 인해 민생은 도탄에 빠져있으며, 인민들의 대부분은 헐벗고 굶주리고 있습니다. 한시라도 빨리 대책을 마련하여 이를 바로 잡아야할 것입니다."
+# 		# KOR_idea_unstable_industry:0 "불안정한 산업"
+# 		# KOR_idea_unstable_industry_desc:0 "일제의 병참기지화 정책으로 한반도의 산업은 기형적인 구조로 변질되고 말았습니다. 이는 장기적으로 우리 산업에 큰 악영향을 미칠 것입니다."
+# 		# KOR_idea_absence_of_weapon_technology:0 "무기 연구기술의 부재"
+# 		# KOR_idea_absence_of_weapon_technology_desc:0 ""
+# 		# KOR_idea_hang_il_yugyeok:0 "항일유격전"
+# 		# KOR_idea_hang_il_yugyeok_desc:0 ""
+# 		# KOR_idea_poc:0 "건국치안대"
+# 		# KOR_idea_poc_desc:0 ""
+# 		# KOR_idea_arms_raided:0 "한반도의 무기 부족"
+# 		# KOR_idea_arms_raided_desc:0 ""
+# 		# KOR_idea_local_weapons:0 "현지산 무기조달"
+# 		# KOR_idea_local_weapons_desc:0 ""
+# 		# KOR_idea_war_time_production:0 "전시 생산 체제"
+# 		# KOR_idea_war_time_production_desc:0 ""
+# 		# KOR_idea_time_to_revenge:0 "복수의 시간"
+# 		# KOR_idea_time_to_revenge_desc:0 ""
+# 		# KOR_idea_patriotism_propaganda:0 "애국주의 선전"
+# 		# KOR_idea_patriotism_propaganda_desc:0 ""
+# 		# KOR_idea_chi_advisor:0 "중국 군사고문단"
+# 		# KOR_idea_chi_advisor_desc:0 ""
+# 		# KOR_idea_mil_committee:0 "군사위원회"
+# 		# KOR_idea_mil_committee_desc:0 ""
+# 		# KOR_idea_mil_commissar:0 "군 정치위원"
+# 		# KOR_idea_mil_commissar_desc:0 ""
+
+# 		# KOR_idea_scarred_nation:0 "만신창이가 된 국가"
+# 		# KOR_idea_scarred_nation_desc:0 ""
+# 		# KOR_idea_pro_japanese_collaborators:0 "친일반민족행위자"
+# 		# KOR_idea_pro_japanese_collaborators_desc:0 ""
+# 		# KOR_idea_ideological_conflict:0 "이념적 갈등"
+# 		# KOR_idea_ideological_conflict_desc:0 ""
+
+# 		# KOR_idea_national_recovery:0 "국가 재건"
+# 		# KOR_idea_national_recovery_desc:0 ""
+# 		# KOR_idea_reborn_kia:0 "재탄생한 광복군"
+# 		# KOR_idea_reborn_kia_desc:0 ""
+# 		# KOR_idea_rok_constitution:0 "대한민국 헌법"
+# 		# KOR_idea_rok_constitution_desc:0 ""
+
+# 		# KOR_idea_independence:0 "대한 독립"
+# 		# KOR_idea_independence_desc:0 "우리는 이에, 우리 한국이 독립국임과 한국인이 자주민임을 선언하노라."
+# 		# KOR_idea_pardoned_pro_japanese_collaborators:0 "사면된 친일반민족행위자"
+# 		# KOR_idea_pardoned_pro_japanese_collaborators_desc:0 ""
+# 		# KOR_idea_forfeit_pjc_property:0 "친일파 재산 몰수"
+# 		# KOR_idea_forfeit_pjc_property_desc:0 ""
+# 		# KOR_idea_political_police:0 "정치경찰"
+# 		# KOR_idea_political_police_desc:0 ""
+# 	#
+
+# #  ## 육군 참모 ##
+# #  KOR_CoA_Ji_Cheongcheon:0 "지청천"
+# #  KOR_CoA_Lee_Beomseok:0 "이범석"
+# #  KOR_CoA_Hong_Saik:0 "홍사익"
+
+# #  ## 공군 참모 ##
+# #  KOR_CAF_Choi_Yongdeok:0 "최용덕"
+
+# #  ## 군 지휘관 ##
+# #  KOR_command_kim_hongil:0 "김홍일"
+# #  KOR_command_kim_kyungcheon:0 "김경천"
+# #  KOR_command_song_hosung:0 "송호성"
+
+# #  ## 정치 조언가 ##
+# #  KOR_advisor_song_jinwoo:0 "송진우"
+# #  KOR_advisor_pak_hon_yong:0 "박헌영"
+
+# #  KOR_advisor_kim_koo:0 "김구"
+# #  KOR_advisor_kim_kyusik:0 "김규식"
+# #  KOR_advisor_kim_wonbong:0 "김원봉"
+# #  KOR_advisor_kim_wonbong_2:0 "김원봉"
+# #  KOR_advisor_song_byungjo:0 "송병조"
+# #  KOR_advisor_shin_ikhi:0 "신익희"
+# #  KOR_advisor_ahn_hosang:0 "안호상"
+# #  KOR_advisor_Ryuh_Woonhyung_2:0 "여운형"
+# #  KOR_advisor_Ryuh_Woonhyung:0 "여운형"
+# #  KOR_advisor_ilhan_new:0 "유일한"
+# #  KOR_advisor_yi_kang:0 "의친왕 이강"
+# #  KOR_advisor_syngman_rhee:0 "이승만"
+# #  KOR_advisor_syngman_rhee_2:0 "이승만"
+# #  KOR_advisor_cho_mansik:0 "조만식"
+# #  KOR_advisor_cho_soang:0 "조소앙"
+# #  KOR_advisor_hong_jin:0 "홍진"
+
+# 	## 정치 조언가 특성 ##
+# #  national_unificationist:0 "국민통일주의자"
+# #  education_torchbearer:0 "교육계몽가"
+# #  determined_diplomatist:0 "철저한 외교주의자"
+# #  dislikes_communism:0 "공산주의 혐오자"
+# #  royal_independence_activist:0 "황족 독립운동가"
+# 	KOR_socialism_sympathizer:0 "사회주의 동조자"
+
+# 	## 군수장비 설계사 ##
+# 	KOR_incheon_arsenal:0 "인천육군조병창"
+# 	KOR_pyongyang_arsenal:0 "평양조병창"
+
+# 	## 산업 업체 ##
+# 	KOR_samsung:0 "삼성상회"
+# 	KOR_toshiba_electric:0 "조선도시바전업"
+
+
+# 	#################
+# 	### decisions ###
+# 	#################
+
+# 	## 한국 독립전쟁 ##
+# 	KOR_war_of_independence_decision:0 "한국 독립전쟁"
+# 	KOR_war_of_independence_decision_desc:0 "마침내 민족 대혈전의 날이 다가왔습니다! 우리는 조국의 해방을 위하여 불굴의 의지로 적과 맞서 싸울 것입니다."
+# 	KOR_raid_japs_armory:0 "일본군 무기고 습격"
+# 	KOR_raid_japs_armory_desc:0 ""
+# 	KOR_uiju_defense_command:0 "의주방어사령부 설치"
+# 	KOR_uiju_defense_command_desc:0 ""
+# 	KOR_stabilize:0 "국내 치안 확보"
+# 	KOR_stabilize_desc:0 ""
+
+# 	## 건국치안대 ##
+# 	KOR_geonguk_chiandae:0 "건국치안대"
+# 	KOR_geonguk_chiandae_desc:0 "전쟁을 효과적으로 수행하기 위해서는 우선 내부 정세가 안정되어야 합니다. 우리가 수복한 영토 내에서 건국치안 활동을 개시하여 치안을 유지하고 해당 지역의 통제권을 완전히 확보하도록 해야할 것입니다."
+# 	KOR_stabilize_hambuk:0 "함경북도에서의 건국치안 활동"
+# 	KOR_stabilize_hamnam:0 "함경남도에서의 건국치안 활동"
+# 	KOR_stabilize_pyeongnam:0 "평안남도에서의 건국치안 활동"
+# 	KOR_stabilize_hwanghae:0 "황해도에서의 건국치안 활동"
+# 	KOR_stabilize_gyeonggi:0 "경기도에서의 건국치안 활동"
+# 	KOR_stabilize_gangwon:0 "강원도에서의 건국치안 활동"
+# 	KOR_stabilize_chungbuk:0 "충청북도에서의 건국치안 활동"
+# 	KOR_stabilize_chungnam:0 "충청남도에서의 건국치안 활동"
+# 	KOR_stabilize_gyeongbuk:0 "경상북도에서의 건국치안 활동"
+# 	KOR_stabilize_gyeongnam:0 "경상남도에서의 건국치안 활동"
+# 	KOR_stabilize_jeonbuk:0 "전라북도에서의 건국치안 활동"
+# 	KOR_stabilize_jeonnam:0 "전라남도에서의 건국치안 활동"
+# 	KOR_disable_poc:0 "건국치안대 해산"
+# 	KOR_disable_poc_desc:0 "국내 정세는 안정되었고, 질서는 제자리를 되찾았습니다. 조국을 위해 헌신한 건국치안대의 이름은 이제 역사 속에 길이 남을 것입니다."
+
+# 	## 의용군 모집 ##
+# 	KOR_recruit_volunteer_army:0 "독립의용군 모집"
+# 	KOR_recruit_volunteer_army_desc:0 "국내진공작전을 성공적으로 완수하기 위해서는 많은 병력이 필요합니다. 국내의 동포들 또한 조국해방이라는 이름 아래 전선에 나갈 수 있도록 독려해야할 것입니다."
+# 	KOR_recruit_volunteer_army_category_name_text:0 "의용군을 모집할 곳을 선택하십시오."
+# 	KOR_recruiting:0 "현재 의용군을 모집 중임"
+# 	KOR_recruit_2_unit:0 "의용군 §G2§!개 부대가 생성됩니다.\n"
+# 	KOR_recruit_3_unit:0 "의용군 §G3§!개 부대가 생성됩니다.\n"
+# 	KOR_recruit_4_unit:0 "의용군 §G4§!개 부대가 생성됩니다.\n"
+# 	KOR_recruit_5_unit:0 "의용군 §G5§!개 부대가 생성됩니다.\n"
+# 	KOR_recruit_6_unit:0 "의용군 §G6§!개 부대가 생성됩니다.\n"
+# 	KOR_recruit_hambuk:0 "함경북도에서 의용군 §G2§!개 부대 모집"
+# 	KOR_recruit_hamnam:0 "함경남도에서 의용군 §G4§!개 부대 모집"
+# 	KOR_recruit_pyeongbuk:0 "평안북도에서 의용군 §G4§!개 부대 모집"
+# 	KOR_recruit_pyeongnam:0 "평안남도에서 의용군 §G3§!개 부대 모집"
+# 	KOR_recruit_hwanghae:0 "황해도에서 의용군 §G4§!개 부대 모집"
+# 	KOR_recruit_gyeonggi:0 "경기도에서 의용군 §G6§!개 부대 모집"
+# 	KOR_recruit_gangwon:0 "강원도에서 의용군 §G3§!개 부대 모집"
+# 	KOR_recruit_chungbuk:0 "충청북도에서 의용군 §G2§!개 부대 모집"
+# 	KOR_recruit_chungnam:0 "충청남도에서 의용군 §G3§!개 부대 모집"
+# 	KOR_recruit_gyeongbuk:0 "경상북도에서 의용군 §G6§!개 부대 모집"
+# 	KOR_recruit_gyeongnam:0 "경상남도에서 의용군 §G5§!개 부대 모집"
+# 	KOR_recruit_jeonbuk:0 "전라북도에서 의용군 §G3§!개 부대 모집"
+# 	KOR_recruit_jeonnam:0 "전라남도에서 의용군 §G6§!개 부대 모집"
+
+# 	## 항일 유격전 ##
+# 	KOR_guerrilla_warfare:0 "항일 유격전"
+# 	KOR_guerrilla_warfare_desc:0 "현재 우리 군의 전력으로는 적군의 공격을 방어하는 것 조차 힘든 상황입니다. 전국 곳곳에 특무공작대를 투입하여 유격전을 개시하면 일본군의 공격을 조금이나마 저지할 수 있을 것입니다."
+# 	KOR_guerrilla_warfare_category_name_text:0 "유격전을 개시할 곳을 선택하십시오."
+# 	KOR_guerrilla_warfare_effect_tt:0 "§g특무공작대§!가 유격전을 개시할 것입니다.\n§G해당 지역으로의 공세가 더 쉬워질 것입니다.§!\n"
+# 	guerrilla_warfare:0 "항일 유격전"
+# 	KOR_guerrilla_hambuk:0 "함경북도에서의 유격전"
+# 	KOR_guerrilla_hamnam:0 "함경남도에서의 유격전"
+# 	KOR_guerrilla_north_pyeongan:0 "평안북도에서의 유격전"
+# 	KOR_guerrilla_pyeongnam:0 "평안남도에서의 유격전"
+# 	KOR_guerrilla_hwanghae:0 "황해도에서의 유격전"
+# 	KOR_guerrilla_gyeonggi:0 "경기도에서의 유격전"
+# 	KOR_guerrilla_gangwon:0 "강원도에서의 유격전"
+# 	KOR_guerrilla_chungbuk:0 "충청북도에서의 유격전"
+# 	KOR_guerrilla_chungnam:0 "충청남도에서의 유격전"
+# 	KOR_guerrilla_gyeongbuk:0 "경상북도에서의 유격전"
+# 	KOR_guerrilla_gyeongnam:0 "경상남도에서의 유격전"
+# 	KOR_guerrilla_jeonbuk:0 "전라북도에서의 유격전"
+# 	KOR_guerrilla_jeonnam:0 "전라남도에서의 유격전"
+
+# 	## 독립 선언 ##
+# 	KOR_declaration_of_independence_decision:0 "독립 선언"
+# 	KOR_declaration_of_independence_decision_desc:0 "우리는 오랜 식민지배와 치열한 독립전쟁을 거쳐 마침내 조국의 해방을 이루어냈습니다. 한국이 자주국가로 발돋움하여 과거의 영광을 되찾기 위해서는 정식으로 독립을 선언해야할 것입니다."
+# 	KOR_declaration_of_independence:0 "독립 선언"
+# 	KOR_declaration_of_independence_required_states_tt:0 "한반도 전역을 지배 중"
+
+# 	## 국가 재건 ##
+# 	KOR_national_reconstruction:0 "국가 재건"
+# 	KOR_national_reconstruction_desc:0 ""
+# 	rural_recon:0 "농촌 재건"
+# 	KOR_rural_recon_pyeongan:0 "관서 지방 농촌 재건"
+# 	KOR_rural_recon_pyeongan_desc:0 ""
+# 	KOR_rural_recon_hamgyeong:0 "관북 지방 농촌 재건"
+# 	KOR_rural_recon_hamgyeong_desc:0 ""
+# 	KOR_rural_recon_hwanghae:0 "해서 지방 농촌 재건"
+# 	KOR_rural_recon_hwanghae_desc:0 ""
+# 	KOR_rural_recon_gyeonggi:0 "경기 지방 농촌 재건"
+# 	KOR_rural_recon_gyeonggi_desc:0 ""
+# 	KOR_rural_recon_gangwon:0 "관동 지방 농촌 재건"
+# 	KOR_rural_recon_gangwon_desc:0 ""
+# 	KOR_rural_recon_chungcheong:0 "호서 지방 농촌 재건"
+# 	KOR_rural_recon_chungcheong_desc:0 ""
+# 	KOR_rural_recon_jeolla:0 "호남 지방 농촌 재건"
+# 	KOR_rural_recon_jeolla_desc:0 ""
+# 	KOR_rural_recon_gyeongsang:0 "영남 지방 농촌 재건"
+# 	KOR_rural_recon_gyeongsang_desc:0 ""
+# 	KOR_rural_recon_jeju:0 "제주 지방 농촌 재건"
+# 	KOR_rural_recon_jeju_desc:0 ""
+# 	KOR_flag_rural_recon:0 "농촌 재건축이 현재 진행 중임"
+# 	KOR_poverty_relief_policy:0 "빈민구제 정책 실행"
+# 	KOR_illiteracy_eradication_movement:0 "문맹 퇴치 운동"
+
+# 	## 한국의 정치 현황 ##
+# 		KOR_political_situation:0 "한국의 정치 현황"
+# 		KOR_political_situation_desc:0 "광복 이후 자유로운 정치 활동이 보장되면서, 한국에는 수많은 정치 세력과 파벌들이 난립하고 있습니다. 임시정부가 과도정권을 이끌어가고 있는 가운데, 이 정치적 싸움에서 승리하는 세력이 앞으로의 국가의 운명을 좌우하게 될 것 입니다.\n\n한국의 정치적 대립은 플레이어가 §n한국독립당§!, §q공화민정회§!, §r조선인민당§!의 주요 정당 중 하나를 선택하여 이들의 지지도를 확보하고, 타 정당을 견제하거나 §y국민당§!, §l조선민주당§! 또는 §S한국민주당§! 등의 세력과 협력하는 형식의 결정을 통해 진행됩니다.\n\n§n한국독립당§!, §q공화민정회§!, §r조선인민당§! 중 가장 많은 지지도를 확보한 정당은 정부 수립의 주도권을 장악하고, 이후 선거를 통해 집권하게 될 것입니다. §y국민당§!, §l조선민주당§!, §S한국민주당§! 등의 세력은 타 정당과 협력하거나 정부 수립 후 연정에 참여하게 될 것입니다.\n\n현재 최대 정치 세력: [KOR.GetFactionLead]\n"
+# 		#\n\n현재 한국의 주요 정당으로는 §n한국독립당§!, §q공화민정회§!, §r조선인민당§! 그리고 §y국민당§!, §S한국민주당§!이 있습니다."
+# 		KOR_kip_plurality_desc:0 "§n한국독립당§!"
+# 		KOR_gmh_plurality_desc:0 "§q공화민정회§!"
+# 		KOR_ppk_plurality_desc:0 "§r조선인민당§!"
+# 		KOR_ppk_kip_equal_desc:0 "§n한국독립당§!과 §r조선인민당§!의 접전"
+# 		KOR_gmh_kip_equal_desc:0 "§n한국독립당§!과 §q공화민정회§!의 접전"
+# 		KOR_gmh_ppk_equal_desc:0 "§q공화민정회§!와 §r조선인민당§!의 접전"
+# 		KOR_everyone_equal_desc:0 "접전"
+
+# 		KOR_flag_political_action:0 "정치적 행동이 진행 중임"
+# 		KOR_natcon_local_party_organization:0 "지방정당 조직 강화"
+# 		KOR_natcon_provincial_tour:0 "지방 순회운동 개시"
+# 		KOR_natcon_gain_5:0 "§n한국독립당§!의 지지도가 약간 §G상승§!할 것입니다."
+# 		KOR_natcon_gain_10:0 "§n한국독립당§!의 지지도가 §G상승§!할 것입니다."
+# 	#
+
+# 	## 이념적 갈등 ##
+# 		KOR_ideological_conflict:0 "이념적 갈등"
+# 		KOR_ideological_conflict_desc:0 "광복 이후 한국의 정치 세력은 또 다시 분열과 대립을 반복하고 있습니다. 이 이념적 갈등이 극단적이고 비참한 결과를 초래하지 않도록 정부의 직접적인 개입이 필요할 것입니다."
+
+# 		pol_icon:0 "£pol_power"
+# 		sta_icon:0 "£stability_icon"
+# 		man_icon:0 "£manpower_icon"
+
+# 		ATTITUDE_TOOLTIP:0 "§Y태도§!는 우리 정부에 대한 각 정당의 태도를 나타냅니다.\n태도가 §G우호적이거나 충성스러운§! 정당은 정치력, 안정도와 인력 보너스를 얻게 될 것입니다.\n태도가 §R좋지 않거나 적대적§!인 정당은 안정도가 감소할 것입니다.\n태도가 §g평범하거나 하찮은§! 정당은 아무런 보너스나 불이익을 주지 않을 것입니다."
+
+# 		communists_text:0 "공산주의 - §L[?party_popularity@communism|%1]§!"
+# 		socialists_text:0 "사회주의 - §L[?party_popularity@n_socialism|%1]§!"
+# 		democrats_text:0 "민주주의 - §L[?party_popularity@democratic|%1]§!"
+# 		neutrality_text:0 "권위주의 - §L[?party_popularity@neutrality|%1]§!"
+# 		fascists_text:0 "파시스트 - §L[?party_popularity@fascism|%1]§!"
+
+# 		# 조선공산당 #
+# 			KOR_COM_faction_wpk:0 "조선노동당 (주류파)"
+# 			KOR_COM_name:0 "§c[ROOT.GetComFaction]§!"
+# 			KOR_COM_name_text:0 "§gㄴ§! $KOR_COM_name$"
+# 			KOR_COM_ati_text:0 "[ROOT.GetComAti]"
+# 			KOR_COM_pol_text:0 "[ROOT.GetComPol]"
+# 			KOR_COM_sta_text:0 "[ROOT.GetComSta]"
+# 			KOR_COM_man_text:0 "[ROOT.GetComMan]"
+# 			KOR_COM_TOOLTIP:0 "§c[ROOT.GetComFaction]§!\n지도자: 박헌영\n이념: §R극좌§!, §R공산주의§!\n태도: [ROOT.GetComAti]"
+# 			KOR_COM_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_com_name:0 "$KOR_COM_name$의 태도 - [ROOT.GetComAti]"
+# 		#
+
+# 		# 권위사회주의 #
+# 			# KOR_AUTSOC_name:0 "§A조선민족혁명당§!"
+# 			# # KOR_AUTSOC_name_long:0 "조선민족혁명당 - 좌파"
+# 			# KOR_AUTSOC_name_text:0 "§gㄴ§! $KOR_AUTSOC_name$"
+# 			# KOR_AUTSOC_ati_text:0 "[ROOT.GetAutSocAti]"
+# 			# KOR_AUTSOC_pol_text:0 "[ROOT.GetAutSocPol]"
+# 			# KOR_AUTSOC_sta_text:0 "[ROOT.GetAutSocSta]"
+# 			# KOR_AUTSOC_man_text:0 "[ROOT.GetAutSocMan]"
+# 			# KOR_AUTSOC_TOOLTIP:0 "§A조선민족혁명당 - 좌파§!\n지도자: §Y김두봉§!\n이념: 좌파, §A권위적 사회주의§!\n태도: [ROOT.GetAutSocAti]"
+# 			# KOR_AUTSOC_TOOLTIP_D:0 ""
+# 		#
+
+# 		# 조선민족혁명당 #
+# 			KOR_RADSOC_faction_knrp:0 "조선민족혁명당"
+# 			KOR_RADSOC_faction_wpk:0 "조선노동당 (약산파)"
+# 			KOR_RADSOC_name:0 "§d[ROOT.GetRadSocFaction]§!"
+# 			KOR_RADSOC_name_text:0 "§gㄴ§! $KOR_RADSOC_name$"
+# 			KOR_RADSOC_ati_text:0 "[ROOT.GetRadSocAti]"
+# 			KOR_RADSOC_pol_text:0 "[ROOT.GetRadSocPol]"
+# 			KOR_RADSOC_sta_text:0 "[ROOT.GetRadSocSta]"
+# 			KOR_RADSOC_man_text:0 "[ROOT.GetRadSocMan]"
+# 			KOR_RADSOC_TOOLTIP:0 "§d[ROOT.GetRadSocFaction]§!\n지도자: 김원봉\n이념: §P좌파§!, §P민주사회주의§!\n태도: [ROOT.GetRadSocAti]"
+# 			KOR_RADSOC_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_radsoc_name:0 "$KOR_RADSOC_name$의 태도 - [ROOT.GetRadSocAti]"
+# 		#
+
+# 		# 조선인민당 #
+# 			KOR_SOCDEM_faction_wpk:0 "조선노동당 (중도파)"
+# 			KOR_SOCDEM_name:0 "§r[ROOT.GetSocDemFaction]§!"
+# 			KOR_SOCDEM_name_text:0 "§gㄴ§! $KOR_SOCDEM_name$"
+# 			KOR_SOCDEM_ati_text:0 "[ROOT.GetSocDemAti]"
+# 			KOR_SOCDEM_pol_text:0 "[ROOT.GetSocDemPol]"
+# 			KOR_SOCDEM_sta_text:0 "[ROOT.GetSocDemSta]"
+# 			KOR_SOCDEM_man_text:0 "[ROOT.GetSocDemMan]"
+# 			KOR_SOCDEM_TOOLTIP:0 "§r[ROOT.GetSocDemFaction]§!\n지도자: 여운형\n이념: §P중도좌파§!, §P사회민주주의§!\n태도: [ROOT.GetSocDemAti]"
+# 			KOR_SOCDEM_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_socdem_name:0 "$KOR_SOCDEM_name$의 태도 - [ROOT.GetSocDemAti]"
+# 		#
+
+# 		# 국민당 #
+# 			KOR_SOCLIB_faction_np:0 "국민당"
+# 			KOR_SOCLIB_faction_kip:0 "한국독립당 (혁신파)"
+# 			KOR_SOCLIB_name:0 "§y[ROOT.GetSocLibFaction]§!"
+# 			KOR_SOCLIB_name_text:0 "§gㄴ§! $KOR_SOCLIB_name$"
+# 			KOR_SOCLIB_ati_text:0 "[ROOT.GetSocLibAti]"
+# 			KOR_SOCLIB_pol_text:0 "[ROOT.GetSocLibPol]"
+# 			KOR_SOCLIB_sta_text:0 "[ROOT.GetSocLibSta]"
+# 			KOR_SOCLIB_man_text:0 "[ROOT.GetSocLibMan]"
+# 			KOR_SOCLIB_TOOLTIP:0 "§y[ROOT.GetSocLibFaction]§!\n지도자: 안재홍\n이념: §C중도우파§!, §Y자유주의§!\n태도: [ROOT.GetSocLibAti]"
+# 			KOR_SOCLIB_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_soclib_name:0 "$KOR_SOCLIB_name$의 태도 - [ROOT.GetSocLibAti]"
+# 		#
+
+# 		# 조선민주당 #
+# 			KOR_NATLIB_faction_kdp:0 "조선민주당"
+# 			KOR_NATLIB_name:0 "§l[ROOT.GetNatLibFaction]§!"
+# 			KOR_NATLIB_name_text:0 "§gㄴ§! $KOR_NATLIB_name$"
+# 			KOR_NATLIB_ati_text:0 "[ROOT.GetNatLibAti]"
+# 			KOR_NATLIB_pol_text:0 "[ROOT.GetNatLibPol]"
+# 			KOR_NATLIB_sta_text:0 "[ROOT.GetNatLibSta]"
+# 			KOR_NATLIB_man_text:0 "[ROOT.GetNatLibMan]"
+# 			KOR_NATLIB_TOOLTIP:0 "§l[ROOT.GetNatLibFaction]§!\n지도자: 조만식\n이념: §C중도우파§!, §L민족주의§!\n태도: [ROOT.GetNatLibAti]"
+# 			KOR_NATLIB_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_natlib_name:0 "$KOR_NATLIB_name$의 태도 - [ROOT.GetNatLibAti]"
+# 		#
+
+# 		# 한국민주당 #
+# 			KOR_LIBCON_faction_dpk:0 "한국민주당"
+# 			KOR_LIBCON_name:0 "§S[ROOT.GetLibConFaction]§!"
+# 			KOR_LIBCON_name_text:0 "§gㄴ§! $KOR_LIBCON_name$"
+# 			KOR_LIBCON_ati_text:0 "[ROOT.GetLibConAti]"
+# 			KOR_LIBCON_pol_text:0 "[ROOT.GetLibConPol]"
+# 			KOR_LIBCON_sta_text:0 "[ROOT.GetLibConSta]"
+# 			KOR_LIBCON_man_text:0 "[ROOT.GetLibConMan]"
+# 			KOR_LIBCON_TOOLTIP:0 "§S[ROOT.GetLibConFaction]§!\n지도자: 송진우\n이념: §s우파§!\n태도: [ROOT.GetLibConAti]"
+# 			KOR_LIBCON_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_libcon_name:0 "$KOR_LIBCON_name$의 태도 - [ROOT.GetLibConAti]"
+# 		#
+
+# 		# 공화민정회 #
+# 			KOR_SOCCON_name:0 "§q[ROOT.GetSocConFaction]§!"
+# 			KOR_SOCCON_name_text:0 "§gㄴ§! $KOR_SOCCON_name$"
+# 			KOR_SOCCON_ati_text:0 "[ROOT.GetSocConAti]"
+# 			KOR_SOCCON_pol_text:0 "[ROOT.GetSocConPol]"
+# 			KOR_SOCCON_sta_text:0 "[ROOT.GetSocConSta]"
+# 			KOR_SOCCON_man_text:0 "[ROOT.GetSocConMan]"
+# 			KOR_SOCCON_TOOLTIP:0 "§q[ROOT.GetSocConFaction]§!\n지도자: 이승만\n이념: §s우파§!, §s보수주의§!\n태도: [ROOT.GetSocConAti]"
+# 			KOR_SOCCON_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_soccon_name:0 "$KOR_SOCCON_name$의 태도 - [ROOT.GetSocConAti]"
+# 		#
+
+# 		# KOR_SOCCON_faction_gen:0 "친이승만 계열"
+# 		# KOR_mor_name_text:0 "§M[ROOT.GetMorFaction]§!"
+# 		# KOR_mor_faciton_gen:0 "군주주의자"
+
+# 		# 한국독립당 #
+# 			KOR_NATCON_faction_kip_n:0 "한국독립당 (국민파)"
+# 			KOR_NATCON_name:0 "§n[ROOT.GetNatConFaction]§!"
+# 			KOR_NATCON_name_text:0 "§gㄴ§! $KOR_NATCON_name$"
+# 			KOR_NATCON_ati_text:0 "[ROOT.GetNatConAti]"
+# 			KOR_NATCON_pol_text:0 "[ROOT.GetNatConPol]"
+# 			KOR_NATCON_sta_text:0 "[ROOT.GetNatConSta]"
+# 			KOR_NATCON_man_text:0 "[ROOT.GetNatConMan]"
+# 			KOR_NATCON_TOOLTIP:0 "§n[ROOT.GetNatConFaction]§!\n지도자 : 김구\n이념 : §s우파§!, §L민족주의§!\n태도 : [ROOT.GetNatConAti]"
+# 			KOR_NATCON_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_natcon_name:0 "$KOR_NATCON_name$의 태도 - [ROOT.GetNatConAti]"
+# 		#
+
+# 		# 파시스트 #
+# 			KOR_FAS_name:0 "§f[ROOT.GetFascistParty]§!"
+# 			KOR_FAS_name_text:0 "§gㄴ§! §f파시즘 - 정당 없음§!"
+# 			KOR_FAS_ati_text:0 "[ROOT.GetFasAti]"
+# 			KOR_FAS_pol_text:0 "[ROOT.GetFasPol]"
+# 			KOR_FAS_sta_text:0 "[ROOT.GetFasSta]"
+# 			KOR_FAS_man_text:0 "[ROOT.GetFasMan]"
+# 			KOR_FAS_TOOLTIP:0 "§n[ROOT.GetFasFaction]§!\n지도자 : 김구\n이념 : §s우파§!, §D빅텐트§!\n태도 : [ROOT.GetFasAti]"
+# 			KOR_FAS_TOOLTIP_D:0 ""
+# 			KOR_idea_faction_fas_name:0 "$KOR_FAS_name$의 태도 - [ROOT.GetFasAti]"
+# 		#
+
+# 		r_royal:0 "§G충성스러움§!"
+# 		r_friendly:0 "§G우호적§!"
+# 		r_normal:0 "§g평범함§!"
+# 		r_petty:0 "§g하찮음§!"
+# 		r_notgood:0 "§R좋지 않음§!"
+# 		r_hostile:0 "§R적대적§!"
+
+# 		no_bonus:0 "§g0%§!"
+# 		bonus_n5:0 "§R-5%§!"
+# 		bonus_n10:0 "§R-10%§!"
+# 		bonus_5:0 "§G+5%§!"
+# 		bonus_10:0 "§G+10%§!"
+# 		bonus_15:0 "§G+15%§!"
+
+# 		FAC_set_com_royal_tt:0 "$KOR_COM_name$의 태도가 $r_royal$으로 변할 것입니다."
+# 		FAC_set_radsoc_royal_tt:0 "$KOR_RADSOC_name$의 태도가 $r_royal$으로 변할 것입니다."
+# 		FAC_set_socdem_royal_tt:0 "$KOR_SOCDEM_name$의 태도가 $r_royal$으로 변할 것입니다."
+# 		FAC_set_soclib_royal_tt:0 "$KOR_SOCLIB_name$의 태도가 $r_royal$으로 변할 것입니다."
+# 		FAC_set_natlib_royal_tt:0 "$KOR_NATLIB_name$의 태도가 $r_royal$으로 변할 것입니다."
+# 		FAC_set_libcon_royal_tt:0 "$KOR_LIBCON_name$의 태도가 $r_royal$으로 변할 것입니다."
+# 		FAC_set_soccon_royal_tt:0 "$KOR_SOCCON_name$의 태도가 $r_royal$으로 변할 것입니다."
+# 		FAC_set_natcon_royal_tt:0 "$KOR_NATCON_name$의 태도가 $r_royal$으로 변할 것입니다."
+# 		FAC_set_fas_royal_tt:0 "$KOR_FAS_name$의 태도가 $r_royal$으로 변할 것입니다."
+
+# 		FAC_set_com_friendly_tt:0 "$KOR_COM_name$의 태도가 $r_friendly$으로 변할 것입니다."
+# 		FAC_set_radsoc_friendly_tt:0 "$KOR_RADSOC_name$의 태도가 $r_friendly$으로 변할 것입니다."
+# 		FAC_set_socdem_friendly_tt:0 "$KOR_SOCDEM_name$의 태도가 $r_friendly$으로 변할 것입니다."
+# 		FAC_set_soclib_friendly_tt:0 "$KOR_SOCLIB_name$의 태도가 $r_friendly$으로 변할 것입니다."
+# 		FAC_set_natlib_friendly_tt:0 "$KOR_NATLIB_name$의 태도가 $r_friendly$으로 변할 것입니다."
+# 		FAC_set_libcon_friendly_tt:0 "$KOR_LIBCON_name$의 태도가 $r_friendly$으로 변할 것입니다."
+# 		FAC_set_soccon_friendly_tt:0 "$KOR_SOCCON_name$의 태도가 $r_friendly$으로 변할 것입니다."
+# 		FAC_set_natcon_friendly_tt:0 "$KOR_NATCON_name$의 태도가 $r_friendly$으로 변할 것입니다."
+# 		FAC_set_fas_friendly_tt:0 "$KOR_FAS_name$의 태도가 $r_friendly$으로 변할 것입니다."
+
+# 		FAC_set_com_normal_tt:0 "$KOR_COM_name$의 태도가 $r_normal$으로 변할 것입니다."
+# 		FAC_set_radsoc_normal_tt:0 "$KOR_RADSOC_name$의 태도가 $r_normal$으로 변할 것입니다."
+# 		FAC_set_socdem_normal_tt:0 "$KOR_SOCDEM_name$의 태도가 $r_normal$으로 변할 것입니다."
+# 		FAC_set_soclib_normal_tt:0 "$KOR_SOCLIB_name$의 태도가 $r_normal$으로 변할 것입니다."
+# 		FAC_set_natlib_normal_tt:0 "$KOR_NATLIB_name$의 태도가 $r_normal$으로 변할 것입니다."
+# 		FAC_set_libcon_normal_tt:0 "$KOR_LIBCON_name$의 태도가 $r_normal$으로 변할 것입니다."
+# 		FAC_set_soccon_normal_tt:0 "$KOR_SOCCON_name$의 태도가 $r_normal$으로 변할 것입니다."
+# 		FAC_set_natcon_normal_tt:0 "$KOR_NATCON_name$의 태도가 $r_normal$으로 변할 것입니다."
+# 		FAC_set_fas_normal_tt:0 "$KOR_FAS_name$의 태도가 $r_normal$으로 변할 것입니다."
+
+# 		FAC_set_com_notgood_tt:0 "$KOR_COM_name$의 태도가 $r_notgood$으로 변할 것입니다."
+# 		FAC_set_radsoc_notgood_tt:0 "$KOR_RADSOC_name$의 태도가 $r_notgood$으로 변할 것입니다."
+# 		FAC_set_socdem_notgood_tt:0 "$KOR_SOCDEM_name$의 태도가 $r_notgood$으로 변할 것입니다."
+# 		FAC_set_soclib_notgood_tt:0 "$KOR_SOCLIB_name$의 태도가 $r_notgood$으로 변할 것입니다."
+# 		FAC_set_natlib_notgood_tt:0 "$KOR_NATLIB_name$의 태도가 $r_notgood$으로 변할 것입니다."
+# 		FAC_set_libcon_notgood_tt:0 "$KOR_LIBCON_name$의 태도가 $r_notgood$으로 변할 것입니다."
+# 		FAC_set_soccon_notgood_tt:0 "$KOR_SOCCON_name$의 태도가 $r_notgood$으로 변할 것입니다."
+# 		FAC_set_natcon_notgood_tt:0 "$KOR_NATCON_name$의 태도가 $r_notgood$으로 변할 것입니다."
+# 		FAC_set_fas_notgood_tt:0 "$KOR_FAS_name$의 태도가 $r_notgood$으로 변할 것입니다."
+
+# 		FAC_set_com_hostile_tt:0 "$KOR_COM_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 		FAC_set_radsoc_hostile_tt:0 "$KOR_RADSOC_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 		FAC_set_socdem_hostile_tt:0 "$KOR_SOCDEM_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 		FAC_set_soclib_hostile_tt:0 "$KOR_SOCLIB_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 		FAC_set_natlib_hostile_tt:0 "$KOR_NATLIB_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 		FAC_set_libcon_hostile_tt:0 "$KOR_LIBCON_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 		FAC_set_soccon_hostile_tt:0 "$KOR_SOCCON_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 		FAC_set_natcon_hostile_tt:0 "$KOR_NATCON_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 		FAC_set_fas_hostile_tt:0 "$KOR_FAS_name$의 태도가 $r_hostile$으로 변할 것입니다."
+# 	#
+
+
+# # \n\n§g공산주의 세력§! - [?party_popularity@communism|%2]\n - §R조선공산당§!\n - §A조선독립동맹§!\n\n§g사회주의 세력§! - [?party_popularity@n_socialism|%2]\n - §d조선민족혁명당§!\n - §r조선인민당§!\n\n§g민주주의 세력§! - ([?party_popularity@democratic|%2])\n - §y국민당§!\n - §l조선민주당§!\n - §S한국민주당§!\n - §q친이승만 계열§!\n\n§g권위주의 세력§! - ([?party_popularity@neutrality|%2])\n - §n한국독립당§!\n\n§g파시스트 세력§! - ([?party_popularity@fascism|%2])\n - §f파시스트§!"
+# 	# KOR_com:0 "§g공산주의 세력§! - [?party_popularity@communism|%2]\n - §R조선공산당§!\n - §A조선독립동맹§!\n\n§g사회주의 세력§! - [?party_popularity@n_socialism|%2]\n - §d조선민족혁명당§!\n - §r조선인민당§!\n\n§g민주주의 세력§! - ([?party_popularity@democratic|%2])\n - §y국민당§!\n - §l조선민주당§!\n - §S한국민주당§!\n - §q친이승만 계열§!\n\n§g권위주의 세력§! - ([?party_popularity@neutrality|%2])\n - §n한국독립당§!\n\n§g파시스트 세력§! - ([?party_popularity@fascism|%2])\n - §f파시스트§!"
+# #  - §Y우리와의 관계§! : §g무관심§!  (£pol_power §G+5%§!)
+# 	# POL_POWER_TOOLTIP:0 "정치력 보너스"
+# 	# KOR_com_faciton_cpk:0 "조선공산당"
+# 	# KOR_cen_faciton_np:0 "국민당"
+
+# 	## 제헌 국회 ##
+# 	KOR_constituent_national_assembly_decision:0 "제헌 국회"
+# 	KOR_constituent_national_assembly_decision_desc:0 ""
+# 	KOR_constitution:0 "헌법 제정"
+# 	KOR_form_government:0 "정부 선출"
+	
+# 	## 대한민국 국회 ##
+# 	KOR_national_assembly_unicameralism_decision:0 "대한민국 국회"
+# 	KOR_national_assembly_bicameralism_decision:0 "대한민국 국회"
+# 	KOR_national_assembly_unicameralism_decision_desc:0 "국회는 국민의 신임을 얻은 대표들로 구성되어 국민의 목소리를 대변한다는 점에서 단순한 입법기관이 아닌 그 이상의 가치를 지니고 있습니다.\n\n§Y국회의원 임기§!: 4년\n§Y집권 여당§!: [ROOT.GetDemocraticParty]"
+# 	KOR_national_assembly_bicameralism_decision_desc:0 "국회는 국민의 신임을 얻은 대표들로 구성되어 국민의 목소리를 대변한다는 점에서 단순한 입법기관이 아닌 그 이상의 가치를 지니고 있습니다.\n\n§Y국회의원 임기§!: 4년\n§Y집권 여당§!: [ROOT.GetDemocraticParty]"
+
+# 	KOR_uni_house_support_header:0 "§Y원내 지지도§!"
+
+# 	KOR_senate_support_amount:0 "§Y[?KOR.senate_support]§! / §G[?KOR.senate_total]§!"
+# 	KOR_senate_support_header:0 "§Y참의원 지지도§!"
+# 	KOR_senate_support_icon:0 "[ROOT.GetSenateSupportDecision]"
+# 	KOR_SENATE_0:0 "£senate_0"
+# 	KOR_SENATE_50:0 "£senate_50"
+# 	KOR_SENATE_100:0 "£senate_100"
+
+# 	KOR_house_support_amount:0 "§Y[?KOR.house_support]§! / §G[?KOR.house_total]§!"
+# 	KOR_house_support_header:0 "§Y민의원 지지도§!"
+# 	KOR_house_support_icon:0 "[ROOT.GetHouseSupportDecision]"
+# 	KOR_HOUSE_0:0 "£house_0"
+# 	KOR_HOUSE_50:0 "£house_50"
+# 	KOR_HOUSE_100:0 "£house_100"
+
+# 	KOR_small_securement_of_support:0 "소규모 지지도 확보"
+# 	KOR_medium_securement_of_support:0 "중규모 지지도 확보"
+# 	KOR_anti_people_of_punishment_act:0 "반민족행위처벌법 제정"
+# 	KOR_act_on_the_organization_of_national_armed_forces:0 "국군조직법 제정"
+# 	KOR_agricultural_land_reform_act:0 "농지개혁법 제정"
+# 	KOR_military_service_act:0 "병역법 제정"
+# 	KOR_second_general_election:0 "제2대 국회의원 선거"
+
+# 	## 파시즘 ##
+# 	KOR_rise_of_fascism_decision:0 "파시즘의 대두"
+# 	KOR_begin_coup:0 "쿠데타 개시"
+
+# 	AIR_WING_NAME_KOR_GENERIC:0 "제$NR$전투비행단"
+
+# 	##################
+# 	###### 내각 ######
+# 	##################
+
+# #  # 이중 지도자 #
+# #  kia_commander:0 "광복군 총사령관"
+# #  kia_vcommander:0 "광복군 부사령관"
+# #  mil_gov:0 "군정장관"
+# #  civ_adm:0 "민정장관"
+# #  hnc_chairman:0 "위원장"
+# #  hnc_vice_chairman:0 "부위원장"
+# #  kpg_president:0 "주석"
+# #  kpg_vice_president:0 "부주석"
+
+# #  # 내무장관 #
+# #  kpg_secmin:0 "내무부장"
+# #  kor_sm:0 "내무부장관"
+
+# #  # 재무장관 #
+# #  kpg_ecomin:0 "재무부장"
+# #  kor_em:0 "재무부장관"
+	
+# #  # 외무장관 #
+# #  kpg_frnmin:0 "외무부장"
+# #  kor_fm:0 "외무부장관"
+	
+# #  # 국방장관 #
+# #  kpg_milmin:0 "군무부장"
+# #  kor_mm:0 "국방부장관"
+
+# #  # 정보장관 #
+# #  #
+
+# #  #### 인물명 ####
+
+# #  # 인물명 #
+# #  kim_koo:0 "김구"
+# #  kim_kyusik:0 "김규식"
+# #  song_byeongjo:0 "송병조"
+# #  Ryuh_Woonhyung:0 "여운형"
+# #  ahn_jaehong:0 "안재홍"
+# #  ryu_dongyol:0 "유동열"
+# #  syngman_rhee:0 "이승만"
+# #  cho_soang:0 "조소앙"
+# #  hong_saik:0 "홍사익"
+# #  hong_jin:0 "홍진"
+
+# #  #### 소속 ####
+# #  kia_mg:0 "§w광복군 군정위원회§!"
+# #  hnc:0 "§w한성국민위원회§!"
+# #  kpg:0 "§g임시정부 국무위원회§!"
+# #  kip:0 "§q한국독립당§!"
+
+# #  #### 특성 ####
+
+
+# #  ###########################
+# #  ##### 내각 개요 시스템 #####
+# #  ###########################
+
+# #  # 내각 타이틀 #
+# #  cabinet_kia_mg:0 "광복군사령부 군정청"
+# #  cabinet_hnc:0 "한성국민위원회"
+# #  cabinet_kpg:0 "임시정부 국무위원회"
+# #  cabinet_kim_koo:0 "김구 행정부"
+# #  cabinet_syngman_rhee:0 "이승만 행정부"
+
+
+# 	### 인물 설명 ###
+# 	ji_cheongcheon_desc:0 ""
+# 	#§L지청천은 조선의 독립운동가 및 군인이다.§!"
+# 	#\n\n§L조선의 국운이 기울어지던 1888년 2월 15일, 지청천은 한성에서 대대로 무관을 배출했던 충주 지씨 가문의 후손인 지재선의 막내아들로 태어났습니다.\n\n다섯 살이 될 무렵에 아버지가 병으로 세상을 떠나면서, 지청천은 홀어머니 밑에서 자라게 되었습니다. 그의 모친인 경주 이씨 부인은 그를 양육함에 있어서 늦은 나이에 얻은 외아들임에도 불구하고 절대로 편애하지 않고, 때로는 자모로 때로는 엄부의 역할을 겸하면서 가장이 없는 어려운 경제적 여건 속에서도 지, 덕, 체 삼육에 고루 마음을 써서 교육하였습니다.\n\n1905년 을사정변 당시 대한제국군 장교들을 중심으로 뭉친 궐기군이 일본군에 맞서 격렬히 저항하는 모습을 보고 군인이 되겠다고 결심한 지청천은, 어머니의 도움을 받아 1908년, 대한제국 육군무관학교에 입교하였습니다. 그러나 이듬해인 1909년, 통감부의 압력으로 무관학교가 폐지되면서 일본 도쿄의 중앙유년학교로 편입하거나 자퇴를 택해야하는 갈림길에 놓이게 되자, '호랑이를 잡으려면 호랑이 굴에 들어가야 한다'는 각오로 동기생들과 함께 일본 유학길에 오르게 되었습니다.\n\n도쿄에서 유학하던 도중 한일합방조약이 체결되면서, 지청천은 함께 유학 중이었던 생도들과 함께 일본 육군사관학교 보병과로 편입되었고, 1914년에 이응준, 홍사익, 김경천 등과 함께 26기생으로 졸업하여 보병소위로 임관하였습니다.\n\n이후 중위로 진급하여 일본군 장교로서 군생활을 이어가던 지청천은 독립군에 가담하기 위해 1919년에 동기였던 김경천과 함께 탈영하여 남만주 삼원보로 망명하였고, 이때 가지고 간 일본군 전술교범과 군용지도 등의 가치와 정규 육군사관학교를 졸업한 능력을 인정받아 신흥무관학교 교성대장이 되어 독립군 간부양성에 진력하였습니다.§!"
+# 	Ryuh_Woonhyung_desc:0 ""
+# 	#§L여운형은 조선의 독립운동가 및 언론인이다.§!"
+# 	ahn_jaehong_desc:0 ""
+# 	#§L안재홍은 조선의 독립운동가 및 언론인이다.§!"
+
+
+# 	############
+# 	### etc. ###
+# 	############
+	
+# 	### 지도자 특성 ###
+# #  kia_commander:0 "한국광복군 총사령관"
+# 	military_governor:0 "군정장관"
+# #  staunch_nationalist:0 "굳건한 민족주의자"
+
+# 	### 스크립티드 트리거 ###
+# 	KOR_woi_in_progress:0 "한국 독립전쟁이 진행 중임"
+
+# 	### 플래그 ###
+# 	kor_woi:0 "한국 독립전쟁이 일어남"
+# 	kor_woi_over:0 "한국 독립전쟁이 끝남"
+# 	KOR_flag_independence:0 "독립선언문이 발표됨"
+# 	KOR_flag_interim_government:0 "과도정부가 수립됨"
+# 	KOR_flag_constitution:0 "헌법이 제정됨"
+# 	KOR_flag_presidential:0 "대통령 간선제와 단원제가 채택됨"
+# 	KOR_flag_presidential_direct:0 "대통령 직선제와 양원제가 채택됨"
+# 	KOR_flag_parliamentary:0 "내각제와 양원제가 채택됨"
+# 	KOR_flag_government_elected:0 "정부가 선출됨"
+# 	KOR_flag_government_formed:0 "정부가 수립됨"
+
+# 	### 평판 모디파이어 ###
+# 	KOR_modifier_rhee_line:0 "평화선 선포"
+# 	KOR_modifier_anti_japan_sentiment:0 "반일정서 강화"
+
+# 	### 보병장비 ###
+# 	KOR_EQUIPMENT_VERSION_1:1 "A1"
+# 	KOR_EQUIPMENT_VERSION_2:1 "A2"
+# 	KOR_EQUIPMENT_VERSION_3:1 "A3"
+# 	KOR_EQUIPMENT_VERSION_4:1 "A4"
+# 	KOR_EQUIPMENT_VERSION_5:1 "A5"
+# 	KOR_EQUIPMENT_VERSION_6:1 "A6"
+# 	KOR_EQUIPMENT_VERSION_7:1 "A7"
+# 	KOR_EQUIPMENT_VERSION_8:1 "A8"
+# 	KOR_EQUIPMENT_VERSION_9:1 "A9"
+# 	KOR_EQUIPMENT_VERSION_10:1 "A9C1"
+# 	KOR_EQUIPMENT_VERSION_11:1 "A9C2"
+# 	KOR_EQUIPMENT_VERSION_12:1 "A9C3"
+# 	KOR_EQUIPMENT_VERSION_13:1 "A9C4"
+# 	KOR_EQUIPMENT_VERSION_14:1 "A9C5"
+# 	KOR_EQUIPMENT_VERSION_15:1 "A9C6"
+# 	KOR_EQUIPMENT_VERSION_16:1 "A9C7"
+
+# 	KOR_support_weapons:0 "24식 중기관총 & 20식 82mm 박격포"
+# 	KOR_support_weapons2:0 "26식 경기관총 & 31식 60mm 박격포"
+# 	KOR_support_weapons3:0 "30식 중기관총 & M1 81mm 박격포"
+# 	KOR_support_weapons4:0 "M1919A6 & M2 4.2인치 박격포"
+
+# 	KOR_infantry_equipment_0:1 "38식 소총"
+# 	KOR_infantry_equipment_0_short:1 "38식"
+# 	KOR_infantry_equipment_1:1 "99식 소총"
+# 	KOR_infantry_equipment_1_short:1 "99식"
+# 	KOR_infantry_equipment_2:0 "중정식 소총"
+# 	KOR_infantry_equipment_2_short:0 "중정식 소총"
+# 	KOR_infantry_equipment_3:0 "대한식 소총"
+# 	KOR_infantry_equipment_3_short:0 "대한식 소총"
+# 	KOR_infantry_at:0 "M1 바주카"
+# 	KOR_infantry_at2:0 "M9 바주카"
+	
+#   KOR_motorized_equipment_1:0 "GMC CCKW"
+
+# 	KOR_mechanized_equipment_1:0 "M2 하프트랙"
+# 	KOR_mechanized_equipment_1_short:0 "M2"
+# 	KOR_mechanized_equipment_2:0 "M3 하프트랙"
+# 	KOR_mechanized_equipment_2_short:0 "M3"
+# 	KOR_mechanized_equipment_3:0 "M5 하프트랙"
+# 	KOR_mechanized_equipment_3_short:0 "M5"
+	
+# 	KOR_amphibious_mechanized_equipment_1:0 "LVT-2"
+#  	# KOR_amphibious_mechanized_equipment_1_short:0 "LVT-2"
+#  	KOR_amphibious_mechanized_equipment_2:0 "LVT-4"
+#  	# KOR_amphibious_mechanized_equipment_2_short:0 "LVT-4"
+
+# 	KOR_gw_armored_car_equipment:0 "경정찰장갑차 Sd.Kfz. 222"
+# 	KOR_gw_armored_car_equipment_short:0 "경정찰장갑차"
+# 	KOR_armored_car_equipment_1:0 "M3 정찰 장갑차"
+# 	KOR_armored_car_equipment_1_short:0 "M3"
+# 	KOR_armored_car_equipment_2:0 "M8 그레이하운드"
+# 	KOR_armored_car_equipment_2_short:0 "M8 LAC"
+# 	KOR_armored_car_at_equipment:0 "M38 울프하운드"
+# 	KOR_armored_car_at_equipment_short:0 "M38"
+
+# 	KOR_artillery_equipment_1:0 "90식 75mm 야포"
+# 	KOR_artillery_equipment_1_short:0 "90식 75mm"
+# 	KOR_artillery_equipment_2:0 "91식 10cm 곡사포"
+# 	KOR_artillery_equipment_2_short:0 "91식 10cm"
+# 	KOR_artillery_equipment_3:0 "155mm M1 곡사포"
+# 	KOR_artillery_equipment_3_short:0 "155mm M1"
+
+# 	KOR_anti_air_equipment_1:0 "96식 25mm 고각기총"
+# 	KOR_anti_air_equipment_1_short:0 "96식 25mm"
+# 	KOR_anti_air_equipment_2:0 "40mm M1 대공포"
+# 	KOR_anti_air_equipment_2_short:0 "40mm M1"
+# 	KOR_anti_air_equipment_3:0 "90mm M1 대공포"
+# 	KOR_anti_air_equipment_3_short:0 "90mm M1"
+
+# 	KOR_anti_tank_equipment_1:0 "94식 37mm 속사포"
+# 	KOR_anti_tank_equipment_1_short:0 "94식 37mm"
+# 	KOR_anti_tank_equipment_2:0 "1식 47mm 속사포"
+# 	KOR_anti_tank_equipment_2_short:0 "1식 47mm"
+# 	KOR_anti_tank_equipment_3:0 "3인치 M5 대전차포"
+# 	KOR_anti_tank_equipment_3_short:0 "3인치 M5"
+
+# 	KOR_rocket_artillery_equipment_1:0 "70mm M8 로켓"
+# 	KOR_rocket_artillery_equipment_1_short:0 "70mm M8"
+# 	KOR_rocket_artillery_equipment_2:0 "90mm M16 로켓"
+# 	KOR_rocket_artillery_equipment_2_short:0 "90mm M16"

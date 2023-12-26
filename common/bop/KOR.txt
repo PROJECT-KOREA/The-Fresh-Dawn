@@ -1,7 +1,7 @@
 KOR_im_power_balance = {
 	initial_value = -0.35
-	left_side = KOR_im_power_balance_leftist 
-	right_side = KOR_im_power_balance_kpg
+	left_side = KOR_leftist_side 
+	right_side = KOR_kpg_side
 	decision_category = KOR_im_power_balance_decisions
 
 	# 중립 상태
@@ -22,7 +22,7 @@ KOR_im_power_balance = {
 	### 좌익 세력
 	side = {
 		id = KOR_leftist_side	
-		icon = GFX_bop_ITA_grand_council_side
+		icon = GFX_bop_KOR_leftist_side
 
 		range = {
 			id = KOR_leftist_low_control_range
@@ -79,10 +79,18 @@ KOR_im_power_balance = {
 				
 			}
 			on_activate = {
-				
+				set_power_balance_gfx = {
+					id = KOR_im_power_balance
+					side = KOR_kpg_side
+					gfx = GFX_bop_KOR_leftist_improved_side
+				}
 			}
 			on_deactivate = {
-				
+				set_power_balance_gfx = {
+					id = KOR_im_power_balance
+					side = KOR_kpg_side
+					gfx = GFX_bop_KOR_leftist_side
+				}
 			}
 		}
 	}
@@ -90,7 +98,7 @@ KOR_im_power_balance = {
 	### 임정
 	side = {
 		id = KOR_kpg_side	
-		icon = GFX_bop_ITA_mussolini_side
+		icon = GFX_bop_KOR_kpg_side
 
 		range = {
 			id = KOR_kpg_low_control_range
@@ -145,18 +153,18 @@ KOR_im_power_balance = {
 				
 			}
 			on_activate = {
-				# set_power_balance_gfx = {
-				# 	id = ITA_power_balance
-				# 	side = ITA_mussolini_side
-				# 	gfx = GFX_bop_ITA_mussolini_improved_side
-				# }
+				set_power_balance_gfx = {
+					id = KOR_im_power_balance
+					side = KOR_kpg_side
+					gfx = GFX_bop_KOR_kpg_improved_side
+				}
 			}
 			on_deactivate = {
-				# set_power_balance_gfx = {
-				# 	id = ITA_power_balance
-				# 	side = ITA_mussolini_side
-				# 	gfx = GFX_bop_ITA_mussolini_side
-				# }
+				set_power_balance_gfx = {
+					id = KOR_im_power_balance
+					side = KOR_kpg_side
+					gfx = GFX_bop_KOR_kpg_side
+				}
 			}
 		}
 	}

@@ -1,4 +1,16 @@
-﻿# l_english:
+﻿l_english:
+ n_socialism:0 "사회주의"
+ n_socialism_noun:0 "사회주의"
+ n_socialism_desc:0 "사회주의 정권"
+
+ n_socialism_ideology:0 "사회주의"
+ n_soc_dem:0 "민주사회주의"
+ n_aut_soc:0 "권위사회주의"
+
+ neutrality:0 "권위주의"
+ neutrality_noun:0 "권위주의"
+ neutrality_desc:0 "권위주의 정권"
+
 # #  communism:0 "공산주의"
 # #  communism_noun:0 "공산주의"
 # #  communism_desc:0 "전체주의 정권"
