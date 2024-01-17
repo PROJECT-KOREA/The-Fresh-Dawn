@@ -69,7 +69,6 @@ ideas = {
 
 			# 당의 정통성 #
 				KOR_idea_party_legitimacy_1 = { # 나락
-					picture = party_legitimacy_1
 					removal_cost = -1
 					modifier = {
 						stability_factor = -0.25
@@ -79,7 +78,6 @@ ideas = {
 					}
 				}
 				KOR_idea_party_legitimacy_2 = { # 약함
-					picture = unknown
 					removal_cost = -1
 					modifier = {
 						stability_factor = -0.20
@@ -89,7 +87,6 @@ ideas = {
 					}
 				}
 				KOR_idea_party_legitimacy_3 = { # 상승 중
-					picture = unknown
 					removal_cost = -1
 					modifier = {
 						stability_factor = -0.15
@@ -99,7 +96,6 @@ ideas = {
 					}
 				}
 				KOR_idea_party_legitimacy_4 = { # 광범위함
-					picture = unknown
 					removal_cost = -1
 					modifier = {
 						stability_factor = -0.1
@@ -108,7 +104,6 @@ ideas = {
 					}
 				}
 				KOR_idea_party_legitimacy_5 = { # 국민정부
-					picture = unknown
 					removal_cost = -1
 					modifier = {
 						stability_factor = 0.10

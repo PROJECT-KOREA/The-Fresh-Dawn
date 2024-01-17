@@ -69,7 +69,7 @@
 # 			portraits = {
 # 				civilian = { large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds" }
 # 				army = {
-# 					small = "gfx/interface/ideas/minister/KOR/KOR_Ji_Cheongcheon.dds"
+# 					small = "gfx/interface/ideas/advisors/KOR/KOR_Ji_Cheongcheon.dds"
 # 					large = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
 # 				}
 # 			}
@@ -141,7 +141,7 @@
 # 			portraits = {
 # 				civilian = {
 # 					large = "gfx/leaders/KOR/Portrait_Song_Jinwoo.dds"
-# 					small = "gfx/interface/ideas/minister/KOR/KOR_Song_Jinwoo.dds"
+# 					small = "gfx/interface/ideas/advisors/KOR/KOR_Song_Jinwoo.dds"
 # 				}
 # 			}
 
@@ -175,7 +175,7 @@
 # 			portraits = {
 # 				civilian = {
 # 					large = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
-# 					small = "gfx/interface/ideas/minister/KOR/KOR_Ahn_Jaehong.dds"
+# 					small = "gfx/interface/ideas/advisors/KOR/KOR_Ahn_Jaehong.dds"
 # 				}
 # 			}
 
@@ -209,7 +209,7 @@
 # 			portraits = {
 # 				civilian = {
 # 					large = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds"
-# 					small = "gfx/interface/ideas/minister/KOR/KOR_Ryuh_Woonhyung.dds"
+# 					small = "gfx/interface/ideas/advisors/KOR/KOR_Ryuh_Woonhyung.dds"
 # 				}
 # 			}
 
@@ -243,7 +243,7 @@
 # 			portraits = {
 # 				civilian = {
 # 					large = "gfx/leaders/KOR/Portrait_Cho_Mansik.dds"
-# 					small = "gfx/interface/ideas/minister/KOR/KOR_Cho_Mansik.dds"
+# 					small = "gfx/interface/ideas/advisors/KOR/KOR_Cho_Mansik.dds"
 # 				}
 # 			}
 
@@ -280,7 +280,7 @@
 # 			portraits = {
 # 				civilian = {
 # 					large = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
-# 					small = "gfx/interface/ideas/minister/KOR/KOR_Kim_Koo.dds"
+# 					small = "gfx/interface/ideas/advisors/KOR/KOR_Kim_Koo.dds"
 # 				}
 # 			}
 
@@ -296,7 +296,7 @@
 # 			name = Pak_Honyong
 # 			portraits = {
 # 				civilian = { large = "gfx/leaders/KOR/Portrait_Pak_Honyong.dds" }
-# 				# army = { small = "gfx/interface/ideas/minister/KOR/Pak_Honyong.dds" }
+# 				# army = { small = "gfx/interface/ideas/advisors/KOR/Pak_Honyong.dds" }
 # 			}
 
 # 			#지도자 - 공산주의
@@ -315,7 +315,7 @@
 # 			name = Syngman_Rhee
 # 			portraits = {
 # 				civilian = { large = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds" }
-# 				# army = { small = "gfx/interface/ideas/minister/KOR/KOR_Syngman_Rhee.dds" }
+# 				# army = { small = "gfx/interface/ideas/advisors/KOR/KOR_Syngman_Rhee.dds" }
 # 			}
 
 # 			# #지도자 - 사회보수주의
@@ -340,7 +340,7 @@
 # 		KOR_Kim_Byeongro = {
 # 			name = Kim_Byeongro
 # 			portraits = {
-# 				civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Kim_Byeongro.dds" }
+# 				civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Kim_Byeongro.dds" }
 # 			}
 
 # 			#정치 조언가
@@ -361,7 +361,7 @@
 # 		KOR_Baek_Namun = {
 # 			name = Baek_Namun
 # 			portraits = {
-# 				civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Baek_Namun.dds" }
+# 				civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Baek_Namun.dds" }
 # 			}
 
 # 			#정치 조언가
@@ -382,7 +382,7 @@
 # 		KOR_Won_Sehun = {
 # 			name = Won_Sehun
 # 			portraits = {
-# 				civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Won_Sehun.dds" }
+# 				civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Won_Sehun.dds" }
 # 			}
 
 # 			#정치 조언가
@@ -403,7 +403,7 @@
 # 		KOR_Chang_Deoksu = {
 # 			name = Chang_Deoksu
 # 			portraits = {
-# 				civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Chang_Deoksu.dds" }
+# 				civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Chang_Deoksu.dds" }
 # 			}
 
 # 			#정치 조언가
@@ -424,7 +424,7 @@
 # 		KOR_Cho_Dongho = {
 # 			name = Cho_Dongho
 # 			portraits = {
-# 				civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Cho_Dongho.dds" }
+# 				civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Cho_Dongho.dds" }
 # 			}
 
 # 			#정치 조언가
@@ -445,7 +445,7 @@
 # 		KOR_Ho_Hon = {
 # 			name = Ho_Hon
 # 			portraits = {
-# 				civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Ho_Hon.dds" }
+# 				civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Ho_Hon.dds" }
 # 			}
 
 # 			#정치 조언가
@@ -467,7 +467,7 @@
 # 			KOR_Kim_Kyusik = {
 # 				name = Kim_Kyusik
 # 				portraits = {
-# 					civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Kim_Kyusik.dds" }
+# 					civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Kim_Kyusik.dds" }
 # 				}
 
 # 				#정치 조언가
@@ -485,7 +485,7 @@
 # 			KOR_Sin_Ikhee = {
 # 				name = Sin_Ikhee
 # 				portraits = {
-# 					civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Sin_Ikhee.dds" }
+# 					civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Sin_Ikhee.dds" }
 # 				}
 
 # 				#정치 조언가
@@ -503,7 +503,7 @@
 # 			KOR_Cho_Soang = {
 # 				name = Cho_Soang
 # 				portraits = {
-# 					civilian = { small = "gfx/interface/ideas/minister/KOR/KOR_Cho_Soang.dds" }
+# 					civilian = { small = "gfx/interface/ideas/advisors/KOR/KOR_Cho_Soang.dds" }
 # 				}
 
 # 				#정치 조언가
@@ -548,7 +548,7 @@
 # 	}
 
 # 	#김홍일 (將)
-# 	KOR_Kim_Hong_il = {
+# 	KOR_Kim_Hongil = {
 # 		name = Kim_Hong_il
 # 		portraits = {
 # 			army = {
@@ -578,7 +578,7 @@
 # 		portraits = {
 # 			# civilian = { large = "gfx/leaders/KOR/Portrait_Song_Hoseong.dds" }
 # 			# army = {
-# 			#     small = "gfx/interface/ideas/minister/KOR/Song_Hoseong.dds"
+# 			#     small = "gfx/interface/ideas/advisors/KOR/Song_Hoseong.dds"
 # 			#     large = "gfx/interface/leaders/KOR/Portrait_Song_Hoseong.dds"
 # 			# }
 # 		}
@@ -603,7 +603,7 @@
 # 		name = Oh_Kwangseon
 # 		portraits = {
 # 			# army = {
-# 			#     small = "gfx/interface/ideas/minister/KOR/Oh_Kwangseon.dds"
+# 			#     small = "gfx/interface/ideas/advisors/KOR/Oh_Kwangseon.dds"
 # 			#     large = "gfx/leaders/KOR/Portrait_Oh_Kwangseon.dds"
 # 			# }
 # 		}
@@ -627,7 +627,7 @@
 # 		name = Lee_Beomseok
 # 		portraits = {
 # 			army = {
-# 				#small = "gfx/interface/ideas/minister/KOR/Lee_Beomseok.dds"
+# 				#small = "gfx/interface/ideas/advisors/KOR/Lee_Beomseok.dds"
 # 				large = "gfx/leaders/KOR/Portrait_Lee_Beomseok.dds"
 # 			}
 # 		}
@@ -678,7 +678,7 @@
 # 		name = Yoon_Seju
 # 		portraits = {
 # 			# army = {
-# 			#     small = "gfx/interface/ideas/minister/KOR/Yoon_Seju.dds"
+# 			#     small = "gfx/interface/ideas/advisors/KOR/Yoon_Seju.dds"
 # 			#     large = "gfx/leaders/KOR/Portrait_Yoon_Seju.dds"
 # 			# }
 # 		}

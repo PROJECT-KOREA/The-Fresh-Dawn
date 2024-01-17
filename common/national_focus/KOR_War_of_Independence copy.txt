@@ -381,9 +381,9 @@
 # 		}
 # 	}
 	
-# 	#중정식 소총
+# 	#현지산 무기 조달
 # 	focus = {
-# 		id = KOR_focus_zhongzheng_rifle
+# 		id = KOR_focus_local_weapons
 # 		icon = GFX_focus_military_equipment
 # 		relative_position_id = KOR_focus_coop_with_kuomin_gov
 # 		x = 1

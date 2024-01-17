@@ -45,6 +45,11 @@ country_event = { # 대한민국 18년의 아침
 
 		option = {
 			name = kor_kpg_focus.2.a
+			add_power_balance_value = {
+				id = KOR_im_power_balance
+				value = 0.05
+				tooltip_side = KOR_kpg_side
+			}
 		}
 	}
 	country_event = { # 구 한독당 인사들과의 만남
@@ -59,6 +64,8 @@ country_event = { # 대한민국 18년의 아침
 
 		option = {
 			name = kor_kpg_focus.3.a
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = KOR_Cho_Soang_advisor
 		}
 	}
 	country_event = { # 국민당-혁명당 간부진 회동
@@ -174,6 +181,7 @@ country_event = { # 대한민국 18년의 아침
 
 		option = {
 			name = kor_kpg_kia.1.a
+			add_ideas = KOR_idea_military_council
 			# add_ideas = KOR_idea_military_council
 			# set_country_flag = KOR_KIA_MSM_flag
 		}
@@ -249,7 +257,7 @@ country_event = { # 대한민국 18년의 아침
 					legacy_id = 0
 				}
 			}
-			KOR_Kim_Hong_il = {
+			KOR_Kim_Hongil = {
 				add_corps_commander_role = {
 					traits = {
 						infantry_leader #보병 지휘관

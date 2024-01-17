@@ -13,14 +13,26 @@
 # 대한민국 임시정부 #
 KOR_DECCAT_KPG = {
 	icon = kpg
-	picture = GFX_decision_cat_declaration_of_independence
+	# picture = GFX_decision_cat_declaration_of_independence
 	visible_when_empty = yes
 	visible = {
         NOT = { has_country_flag = KOR_gov_established_flag }
-        always = yes
+        # always = yes
     }
 	allowed = { original_tag = KOR }
+	scripted_gui = kor_kpg_deccat_ui
 	priority = { base = 99 }
+}
+
+KOR_DECCAT_im_power_balance_decisions = {
+	priority = 12
+	allowed = {
+		original_tag = KOR
+	}
+	
+	visible = {
+		has_completed_focus = KOR_focus_on_the_foreign_soil
+	}
 }
 
 # 선전부 #

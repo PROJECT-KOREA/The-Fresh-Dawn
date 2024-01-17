@@ -15,9 +15,7 @@ KOR_DECCAT_KPG = {
     }
     KOR_government_bond = { # 독립공채 발행 #
         icon = ger_mefo_bills
-        visible = {
-            has_completed_focus = KOR_focus_government_bonds
-        }
+        visible = { has_completed_focus = KOR_focus_government_bond }
 
         cost = 90
 
@@ -32,8 +30,7 @@ KOR_DECCAT_KPG = {
 
 ## 선전부 ##
 KOR_DECCAT_propaganda = {
-    # 혁명의식 고취 #
-    KOR_inspire_revolutionary_consciousness = {
+    KOR_inspire_revolutionary_consciousness = { # 혁명의식 고취
         icon = eng_propaganda_campaigns
         visible = {
             has_completed_focus = KOR_focus_department_of_propaganda
@@ -55,33 +52,7 @@ KOR_DECCAT_propaganda = {
             # custom_effect_tooltip = GGK_korean_independence_movement_tt
         }
     }
-
-    # 정부 활동 선전 #
-    KOR_focus_propaganda_government = {
-        icon = eng_propaganda_campaigns
-        visible = {
-            has_completed_focus = KOR_focus_department_of_propaganda
-        }
-        available = {
-            has_stability < 0.65
-        }
-        days_remove = 90
-        custom_cost_trigger = { political_power_growth > 0.25 }
-        custom_cost_text = pp_per_day_025
-        modifier = {
-            political_power_gain = -0.25
-            stability_weekly = 0.003
-        }        
-        # fire_only_once = yes
-        remove_effect = {
-            # set_country_flag = GGK_prepare_operation_eagle_flag
-            # country_event = { id = ggk_cabinet.1 }
-            # custom_effect_tooltip = GGK_korean_independence_movement_tt
-        }
-    }
-
-    # 청년 전위단원 모집 #
-    KOR_recruit_vanguard_members = {
+    KOR_recruit_vanguard_members = { # 청년전위단원 모집
         icon = eng_propaganda_campaigns
         visible = {
             # original_tag = KOR
@@ -98,7 +69,7 @@ KOR_DECCAT_propaganda = {
         custom_cost_text = pp_per_day_025
         modifier = {
             political_power_gain = -0.25
-            exiled_government_weekly_manpower = 250
+            exiled_government_weekly_manpower = 30
         }        
         # fire_only_once = yes
         remove_effect = {
@@ -111,7 +82,6 @@ KOR_DECCAT_propaganda = {
 
 ## 한국광복군 ##
 KOR_DECCAT_KIA = {
-
     KOR_test_kia = {
         visible = { is_debug = yes }
         complete_effect = {
@@ -322,10 +292,10 @@ KOR_DECCAT_KIA = {
         }
     }
 
-    # 중국제 무기 생산 #
-    KOR_product_chinese_weapon = {
+    # 중국제 무기 구매 #
+    KOR_purchase_chinese_weapon = {
         icon = generic_industry
-        visible = {  has_completed_focus = KOR_focus_secure_ordnances }
+        # visible = { has_completed_focus = KOR_focus_secure_weapons }
         available = {
 			custom_trigger_tooltip = {
 				tooltip = KOR_DEC_CHIRelationMod_tt
@@ -340,13 +310,26 @@ KOR_DECCAT_KIA = {
             is_exiled_in = CHI
         }
         modifier = { civilian_factory_use = 2 }
+        complete_effect = {
+            CHI = { give_market_access = KOR }
+        }
         remove_effect = {
-            custom_effect_tooltip = KOR_product_chinese_weapon_tt
-            set_technology = { support_weapons = 1 }
+            custom_effect_tooltip = KOR_purchase_chinese_weapon_tt
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 1000
+				producer = KOR
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 350
+				producer = KOR
+			}
             hidden_effect = {
                 set_technology = {
                     infantry_weapons = 1
                     infantry_weapons1 = 1
+                    support_weapons = 1
                 }
             }
         }

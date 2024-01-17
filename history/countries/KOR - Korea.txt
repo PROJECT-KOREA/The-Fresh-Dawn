@@ -4,18 +4,19 @@ set_oob = "KOR_1936"
 set_cosmetic_tag = KOR_KPG
 
 #인물 불러오기
+	recruit_character = KOR_None
 	recruit_character = KOR_Lee_Dongnyeong
 	recruit_character = KOR_Kim_Koo
-	recruit_character = KOR_Kim_Wonbong
+	recruit_character = KOR_Cho_Wangu
+	recruit_character = KOR_Song_Byeongjo
+	recruit_character = KOR_Cho_Seonghwan
 	recruit_character = KOR_Cho_Soang
 	recruit_character = KOR_Syngman_Rhee
-
-	recruit_character = KOR_Cho_Seonghwan
-
-	recruit_character = KOR_Hong_Saik
+	recruit_character = KOR_Kim_Wonbong
+	
 	recruit_character = KOR_Ji_Cheongcheon
 	recruit_character = KOR_Kim_Kyeongcheon
-	recruit_character = KOR_Kim_Hong_il
+	recruit_character = KOR_Kim_Hongil
 	recruit_character = KOR_Lee_Beomseok
 	
 	# recruit_character = KOR_KIA_Command
@@ -50,7 +51,7 @@ set_cosmetic_tag = KOR_KPG
 set_stability = 0.30
 
 #전쟁 지지도
-set_war_support = 0.27
+set_war_support = 0.35
 
 #국민 정신
 add_ideas = {

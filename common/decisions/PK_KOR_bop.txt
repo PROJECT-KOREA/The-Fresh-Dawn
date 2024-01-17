@@ -1,0 +1,39 @@
+KOR_DECCAT_im_power_balance_decisions = {
+    KOR_focus_propaganda_government = { # 정부 활동 선전
+        icon = eng_propaganda_campaigns
+        visible = {
+            has_completed_focus = KOR_focus_department_of_propaganda
+        }
+        # available = {
+        #     has_stability < 0.65
+        # }
+        cost = 50
+        days_remove = 70
+        days_re_enable = 50
+        modifier = {
+            power_balance_weekly = 0.005
+        }        
+        # fire_only_once = yes
+        remove_effect = {
+            
+        }
+    }
+    KOR_attack_nrp = {
+        icon = eng_propaganda_campaigns
+        available = {
+            power_balance_value = {
+                id = KOR_im_power_balance
+                value < 0.50
+            }
+        }
+        cost = 75
+        days_re_enable = 50 
+        complete_effect = {
+			add_power_balance_value = {
+				id = KOR_im_power_balance
+				value = 0.05
+				tooltip_side = KOR_kpg_side
+			}
+        }
+    }
+}

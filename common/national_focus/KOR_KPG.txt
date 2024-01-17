@@ -50,7 +50,7 @@ focus_tree = {
 		completion_reward = {
 			# add_stability = 0.05
 			add_popularity = {
-				ideology = democratic
+				ideology = neutrality
 				popularity = 0.075
 			}
 			add_power_balance_value = {
@@ -111,7 +111,7 @@ focus_tree = {
 		relative_position_id = KOR_focus_department_of_propaganda
 		x = 0
 		y = 1
-		cost = 10
+		cost = 15
 
 		available_if_capitulated = yes
 
@@ -205,7 +205,7 @@ focus_tree = {
 		relative_position_id = KOR_focus_KIMOA
 		x = -2
 		y = 1
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -218,17 +218,19 @@ focus_tree = {
 				id = kor_kpg_focus.3
 				hours = 8 
 			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = KOR_Cho_Soang_advisor
 		}
 	}
 	
 	#조선혁명당과의 접선
 	focus = {
 		id = KOR_focus_contact_with_krp
-		icon = GFX_focus_generic_self_management
+		icon = GFX_focus_baeksan
 		relative_position_id = KOR_focus_KIMOA
 		x = 0
 		y = 1
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -247,7 +249,7 @@ focus_tree = {
 	#민족혁명당 견제
 	focus = {
 		id = KOR_focus_check_nrp
-		icon = GFX_focus_broken_red_star
+		icon = GFX_focus_anti_kim_wonbong
 		relative_position_id = KOR_focus_KIMOA
 		x = 2
 		y = 1
@@ -308,7 +310,7 @@ focus_tree = {
 		relative_position_id = KOR_focus_meet_the_cho
 		x = 1
 		y = 1
-		cost = 10
+		cost = 6
 
 		available_if_capitulated = yes
 
@@ -343,6 +345,7 @@ focus_tree = {
 				id = kor_kpg_focus.7
 				hours = 8 
 			}
+			PK_KOR_improve_legitimacy = yes
 		}
 	}
 
@@ -362,23 +365,21 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			unlock_decision_category_tooltip = KOR_DECCAT_KIA
-			add_ideas = KOR_idea_military_council
+			country_event = { id = kor_kpg_kia.1 }
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = KOR_Cho_Seonghwan_advisor
-			hidden_effect = { country_event = { id = kor_kpg_kia.1 } }
-			# add_political_power = 100
+			unlock_decision_category_tooltip = KOR_DECCAT_KIA
 		}
 	}
 	
 	#새로운 한국독립당
 	focus = {
 		id = KOR_focus_new_kip
-		icon = GFX_focus_republic_of_korea
+		icon = GFX_focus_kip
 		relative_position_id = KOR_focus_unification_conference_of_three_parties
 		x = 0
 		y = 1
-		cost = 10
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -388,6 +389,7 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = { id = kor_kpg_focus.8 }
+			PK_KOR_improve_legitimacy = yes
 		}
 	}
 	
@@ -413,7 +415,7 @@ focus_tree = {
 	#대일선전성명서 발표
 	focus = {
 		id = KOR_focus_declaration_of_war_on_jap
-		icon = GFX_goal_generic_major_alliance
+		icon = GFX_focus_anti_japan
 		relative_position_id = KOR_focus_strengthen_presidential_power
 		x = 1
 		y = 1
@@ -427,10 +429,10 @@ focus_tree = {
 		}
 	}
 	
-	#군수물자 확보
+	#무기 확보
 	focus = {
-		id = KOR_focus_secure_ordnances
-		icon = GFX_goal_generic_construct_mil_factory
+		id = KOR_focus_secure_weapons
+		icon = GFX_focus_military_equipment
 		relative_position_id = KOR_focus_KIA
 		x = 0
 		y = 1
@@ -445,8 +447,8 @@ focus_tree = {
 		prerequisite = { focus = KOR_focus_KIA }
 
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 2 }
 			# add_political_power = 100
+			unlock_decision_tooltip = KOR_purchase_chinese_weapon
 		}
 	}
 	
@@ -506,6 +508,7 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = { id = kor_kpg_focus.10 }
+			PK_KOR_improve_legitimacy = yes
 		}
 	}
 	
@@ -513,7 +516,7 @@ focus_tree = {
 	focus = {
 		id = KOR_focus_hra
 		icon = GFX_focus_hra
-		relative_position_id = KOR_focus_secure_ordnances
+		relative_position_id = KOR_focus_secure_weapons
 		x = -1
 		y = 1
 		cost = 10
@@ -525,7 +528,7 @@ focus_tree = {
 			# NOT = { has_country_flag = KOR_kia_controlled }
 		}
 
-		prerequisite = { focus = KOR_focus_secure_ordnances }
+		prerequisite = { focus = KOR_focus_secure_weapons }
 		# prerequisite = { focus = KOR_focus_national_doctrine }
 
 		completion_reward = {
@@ -533,18 +536,18 @@ focus_tree = {
 		}
 	}
 	
-	#중정식 소총
+	#현지산 무기 조달
 	focus = {
-		id = KOR_focus_zhongzheng_rifle
-		icon = GFX_focus_military_equipment
-		relative_position_id = KOR_focus_secure_ordnances
+		id = KOR_focus_local_weapons
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = KOR_focus_secure_weapons
 		x = 1
 		y = 1
 		cost = 4
 		
 		available_if_capitulated = yes
 
-		prerequisite = { focus = KOR_focus_secure_ordnances }
+		prerequisite = { focus = KOR_focus_secure_weapons }
 
 		completion_reward = {
 			# hidden_effect = {
@@ -557,8 +560,10 @@ focus_tree = {
 			# 	type = infantry_equipment
 			# 	amount = 1000
 			# 	producer = KOR
-			# }			
-			unlock_decision_tooltip = KOR_product_chinese_weapon
+			# }
+			add_offsite_building = { type = arms_factory level = 2 }
+			custom_effect_tooltip = available_mio_tt
+			show_mio_tooltip = KOR_KIA_design_bureau_organization
 		}
 	}
 	
@@ -628,7 +633,7 @@ focus_tree = {
 		relative_position_id = KOR_focus_national_doctrine
 		x = 1
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = yes
 
@@ -659,7 +664,7 @@ focus_tree = {
 
 	# 	completion_reward = {
 	# 		add_offsite_building = { type = arms_factory level = 2 }
-	# 		# unlock_decision_tooltip = KOR_product_chinese_weapon
+	# 		# unlock_decision_tooltip = KOR_purchase_chinese_weapon
 	# 		# add_political_power = 100
 	# 	}
 	# }
@@ -1053,9 +1058,9 @@ focus_tree = {
 	# 	}
 	# }
 	
-	# #군수물자 확보
+	# #무기 확보
 	# focus = {
-	# 	id = KOR_focus_secure_ordnances
+	# 	id = KOR_focus_secure_weapons
 	# 	icon = GFX_goal_generic_construct_mil_factory
 	# 	relative_position_id = KOR_focus_KIA
 	# 	x = 3
@@ -1072,7 +1077,7 @@ focus_tree = {
 
 	# 	completion_reward = {
 	# 		add_offsite_building = { type = arms_factory level = 2 }
-	# 		unlock_decision_tooltip = KOR_product_chinese_weapon
+	# 		unlock_decision_tooltip = KOR_purchase_chinese_weapon
 	# 		# add_political_power = 100
 	# 	}
 	# }

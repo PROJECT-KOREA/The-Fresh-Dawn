@@ -1,8 +1,8 @@
 KOR_im_power_balance = {
-	initial_value = -0.35
+	initial_value = -0.40
 	left_side = KOR_leftist_side 
 	right_side = KOR_kpg_side
-	decision_category = KOR_im_power_balance_decisions
+	decision_category = KOR_DECCAT_im_power_balance_decisions
 
 	# 중립 상태
 	range = {

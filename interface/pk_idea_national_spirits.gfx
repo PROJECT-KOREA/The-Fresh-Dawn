@@ -6,10 +6,25 @@ spriteTypes = {
 		name = "GFX_idea_support_kmt"
 		texturefile = "gfx/interface/ideas/CHI_support_kmt.dds"
 	}
-	
 	spriteType = {
-		name = "GFX_idea_party_legitimacy_1"
+		name = "GFX_idea_KOR_idea_party_legitimacy_1"
 		texturefile = "gfx/interface/ideas/KOR/idea_party_legitimacy_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_idea_party_legitimacy_2"
+		texturefile = "gfx/interface/ideas/KOR/idea_party_legitimacy_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_idea_party_legitimacy_3"
+		texturefile = "gfx/interface/ideas/KOR/idea_party_legitimacy_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_idea_party_legitimacy_4"
+		texturefile = "gfx/interface/ideas/KOR/idea_party_legitimacy_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_idea_party_legitimacy_5"
+		texturefile = "gfx/interface/ideas/KOR/idea_party_legitimacy_5.png"
 	}
 
 	# GGK #

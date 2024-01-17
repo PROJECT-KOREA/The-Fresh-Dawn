@@ -92,8 +92,24 @@ spriteTypes = {
 	#	
 
 	spriteType = {
+		name = "GFX_focus_anti_kim_wonbong"
+		textureFile = "gfx/interface/goals/KOR/focus_anti_kim_wonbong.png"
+	}
+	spriteType = {
+		name = "GFX_focus_baeksan"
+		textureFile = "gfx/interface/goals/KOR/focus_baeksan.png"
+	}
+	spriteType = {
 		name = "GFX_focus_chosoang"
 		textureFile = "gfx/interface/goals/KOR/focus_chosoang.png"
+	}
+	spriteType = {
+		name = "GFX_focus_kia"
+		textureFile = "gfx/interface/goals/KOR/focus_kia.png"
+	}
+	spriteType = {
+		name = "GFX_focus_kip"
+		textureFile = "gfx/interface/goals/KOR/focus_kip.png"
 	}
 	spriteType = {
 		name = "GFX_focus_korean_independence_movement"
@@ -271,11 +287,6 @@ spriteTypes = {
 	
 
 	## Military ##
-
-	spriteType = {
-		name = "GFX_focus_kia"
-		textureFile = "gfx/interface/goals/KOR/focus_kia.dds"
-	}
 
 	spriteType = {
 		name = "GFX_focus_air_fighter"

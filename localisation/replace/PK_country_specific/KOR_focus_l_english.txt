@@ -83,9 +83,9 @@
 # 	KOR_modifier_sino_korean_ally:0 "한중동맹"
 # 	KOR_focus_chinese_mil_advisor:0 "중국 군사고문단"
 # 	KOR_focus_chinese_mil_advisor_desc:0 ""
-# 	KOR_focus_zhongzheng_rifle:0 "중정식 소총"
-# 	KOR_focus_zhongzheng_rifle_desc:0 ""
-# 	zhongzheng_rifle_tt:0 "기술 추가: §Y중정식 소총§!."
+# 	KOR_focus_local_weapons:0 "현지산 무기 조달"
+# 	KOR_focus_local_weapons_desc:0 ""
+# 	zhongzheng_rifle_tt:0 "기술 추가: §Y현지산 무기 조달§!."
 
 # 	KOR_focus_KIA:0 "한국광복군"
 # 	KOR_focus_KIA_desc:0 ""

@@ -1,0 +1,7 @@
+scripted_gui = {
+	kor_kpg_deccat_ui = {
+		context_type = decision_category
+		window_name = "kor_kpg_deccat_ui_window"
+	}	
+}
+

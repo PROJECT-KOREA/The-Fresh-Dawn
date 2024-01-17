@@ -1,97 +1,97 @@
-ideas = {
+# ideas = {
 
-	#군수품 설계사
-	materiel_manufacturer = {
-		designer = yes
+# 	#군수품 설계사
+# 	materiel_manufacturer = {
+# 		designer = yes
 		
-		#인천조병창
-		KOR_incheon_arsenal = {
+# 		#인천조병창
+# 		KOR_incheon_arsenal = {
 			
-			allowed = { original_tag = KOR }
-			available = { controls_state = 525 }
+# 			allowed = { original_tag = KOR }
+# 			available = { controls_state = 525 }
 			
-			research_bonus = { infantry_weapons = 0.15 }
+# 			research_bonus = { infantry_weapons = 0.15 }
 			
-			traits = { infantry_equipment_manufacturer }
+# 			traits = { infantry_equipment_manufacturer }
 			
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.15
-					instant = yes
-				}
-			}
-		}
+# 			equipment_bonus = {
+# 				infantry_equipment = {
+# 					build_cost_ic = -0.15
+# 					instant = yes
+# 				}
+# 			}
+# 		}
 
-		#평양조병창
-		KOR_pyongyang_arsenal = {
+# 		#평양조병창
+# 		KOR_pyongyang_arsenal = {
 			
-			allowed = { original_tag = KOR }
-			available = { controls_state = 866 }
+# 			allowed = { original_tag = KOR }
+# 			available = { controls_state = 866 }
 			
-			research_bonus = { artillery = 0.15 }
+# 			research_bonus = { artillery = 0.15 }
 			
-			traits = { artillery_manufacturer }
-		}
-	}
+# 			traits = { artillery_manufacturer }
+# 		}
+# 	}
 
-    #전차 설계사
-	tank_manufacturer = {
+#     #전차 설계사
+# 	tank_manufacturer = {
 		
-	}
+# 	}
 
-	#함선 설계사
-	naval_manufacturer = {
+# 	#함선 설계사
+# 	naval_manufacturer = {
 		
-	}
+# 	}
 
-	#항공기 설계사
-	aircraft_manufacturer = {
+# 	#항공기 설계사
+# 	aircraft_manufacturer = {
 		
-	}
+# 	}
 
-	#산업 업체
-	industrial_concern = {
+# 	#산업 업체
+# 	industrial_concern = {
 
-		# KOR_samsung = {
+# 		# KOR_samsung = {
 			
-		# 	allowed = {
-		# 		original_tag = KOR
-		# 	}
+# 		# 	allowed = {
+# 		# 		original_tag = KOR
+# 		# 	}
 
-		# 	available = {
-		# 		controls_state = 870
-		# 	}
+# 		# 	available = {
+# 		# 		controls_state = 870
+# 		# 	}
 			
-		# 	research_bonus = {
-		# 		industry = 0.15
-		# 	}
+# 		# 	research_bonus = {
+# 		# 		industry = 0.15
+# 		# 	}
 
-		# 	visible = {
-		# 		has_country_flag = kor_woi_over
-		# 	}
+# 		# 	visible = {
+# 		# 		has_country_flag = kor_woi_over
+# 		# 	}
 			
-		# 	traits = { industrial_concern }
-		# }
+# 		# 	traits = { industrial_concern }
+# 		# }
 
-		KOR_toshiba_electric = {
+# 		KOR_toshiba_electric = {
 			
-			allowed = {
-				original_tag = KOR
-			}
+# 			allowed = {
+# 				original_tag = KOR
+# 			}
 
-			available = {
-				controls_state = 525
-			}
+# 			available = {
+# 				controls_state = 525
+# 			}
 
-			visible = {
-				has_country_flag = kor_woi_over
-			}
+# 			visible = {
+# 				has_country_flag = kor_woi_over
+# 			}
 			
-			research_bonus = {
-				electronics = 0.15
-			}
+# 			research_bonus = {
+# 				electronics = 0.15
+# 			}
 			
-			traits = { electronics_concern }
-		}
-	}
-}
+# 			traits = { electronics_concern }
+# 		}
+# 	}
+# }

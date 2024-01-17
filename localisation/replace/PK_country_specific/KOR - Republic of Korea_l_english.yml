@@ -95,10 +95,21 @@
 ######################
 ##### CHARACTERS #####
 ######################
+  KOR_Kim_Kyeongcheon: "김경천"
+  KOR_Kim_Koo: "김구"
+  KOR_Kim_Koo_desc: "§Y출생:§! 1876년 8월 29일, 조선 황해도 해주목"
+  KOR_Kim_Wonbong: "김원봉"
+  KOR_Kim_Hongil: "김홍일"
+  KOR_Song_Byeongjo: "송병조"
   KOR_Lee_Dongnyeong: "이동녕"
   KOR_Lee_Dongnyeong_desc: "§Y출생:§! 1869년 10월 6일, 조선 충청도 목천현"
-  Kim_Koo: "김구"
-  Kim_Koo_desc: "§Y출생:§! 1876년 8월 29일, 조선 황해도 해주목"
+  KOR_Lee_Beomseok: "이범석"
+  KOR_Syngman_Rhee: "이승만"
+  KOR_Cho_Seonghwan: "조성환"
+  KOR_Cho_Soang: "조소앙"
+  KOR_Cho_Wangu: "조완구"
+  KOR_Ji_Cheongcheon: "지청천"
+
 
   ### OLD ###
     # Kang_Kideok: "강기덕"
@@ -127,7 +138,6 @@
     # Lee_Kyugap: "이규갑"
     # Lee_Dongnyeong: "이동녕"
     # Lee_Beomseok: "이범석"
-    Syngman_Rhee: "이승만"
     # Lee_Yunyoung: "이윤영"
     # Chang_Keonsang: "장건상"
     # Chang_Deoksu: "장덕수"
@@ -135,7 +145,6 @@
     # Cho_Dongho: "조동호"
     # Cho_Mansik: "조만식"
     # Cho_Byeongok: "조병옥"
-    Cho_Seonghwan: "조성환"
     # Cho_Soang: "조소앙"
     # Cho_Wangu: "조완구"
     # Ji_Cheongcheon: "지청천"
@@ -146,11 +155,11 @@
   #
 #
 
-#####################
-##### DESIGNERS #####
-#####################
-
-
+###############
+##### MIO #####
+###############
+  KOR_KIA_design_bureau_organization: "광복군 병기설계국"
+#
 
 ############################
 ##### NATIONAL SPIRITS #####
@@ -245,7 +254,7 @@
   KOR_focus_on_the_foreign_soil_desc: ""
   KOR_focus_defense_samgyunjuui: "삼균주의 수호"
   KOR_focus_defense_samgyunjuui_desc: ""
-  KOR_focus_department_of_propaganda: "선전부 확대"
+  KOR_focus_department_of_propaganda: "당 선전부 확대"
   KOR_focus_department_of_propaganda_desc: "\"진실은 반드시 따르는 자가 있고, 정의는 반드시 이루는 날이 있다.\"\n - 도산 안창호"
   KPG_propaganda_tt: "£pol_power §Y정치력§!을 사용하여 §Y각종 혜택§!을 얻는 £decision_icon_small §Y선전 활동 결정§!을 해금합니다."
   # KOR_focus_department_of_propaganda_desc: "현재 사회주의 세력이 장악한 민족혁명당은 임시정부에 대해 불관주의를 고수하며 독자적으로 활동하고 있습니다. 이들의 영향력에 맞서기 위해, 당 기관지를 통해 우리 정부의 활동을 널리 알리는 선전활동을 개시해야 합니다."
@@ -280,8 +289,8 @@
   KOR_focus_occident_diplomacy_committee_desc: "과거 우리 정부의 주요 노선이었던 외교독립론은 사실상 폐기되었지만, 외교적 활동을 완전히 포기한 것은 아닙니다. 빠르게 변화하는 국제정세에 발맞춰 다시금 구미 열강들과의 친선을 도모해야 할 때입니다."
   KOR_focus_declaration_of_war_on_jap: "대일선전성명서 발표"
   KOR_focus_declaration_of_war_on_jap_desc: ""
-  KOR_focus_secure_ordnances: "군수물자 확보"
-  KOR_focus_secure_ordnances_desc: ""
+  KOR_focus_secure_weapons: "무기 확보"
+  KOR_focus_secure_weapons_desc: ""
   KOR_focus_intelligence_bureau_of_the_KIA: "광복군총사령부 정보국"
   KOR_focus_intelligence_bureau_of_the_KIA_desc: ""
   KOR_focus_support_from_overseas_korean: "재외동포의 지원"
@@ -290,9 +299,9 @@
   KOR_focus_national_doctrine_desc: ""
   KOR_focus_hra: "국내정진군 편성"
   KOR_focus_hra_desc: ""
-  KOR_focus_zhongzheng_rifle: "중정식 소총"
-  KOR_focus_zhongzheng_rifle_desc: ""
-  zhongzheng_rifle_tt:0 "기술 추가: §Y중정식 소총§!."
+  KOR_focus_local_weapons: "현지산 무기 조달"
+  KOR_focus_local_weapons_desc: ""
+  zhongzheng_rifle_tt:0 "기술 추가: §Y현지산 무기 조달§!."
   KOR_focus_network_to_mainland: "국내 연락망 복원"
   KOR_focus_network_to_mainland_desc: ""
   KOR_focus_local_agents: "현지 공작원 모집"
@@ -346,8 +355,8 @@
   # KOR_focus_KIA: "한국광복군"
   # KOR_focus_KIA_desc: ""
   # KOR_focus_KIA_tt: "§Y광복군 창설§!과 관련된 결정들을 진행하는 데는 §R오랜 시간이 걸리므로§!, 그동안 다른 중점들을 진행해야 할 것입니다."
-  # KOR_focus_secure_ordnances: "군수물자 확보"
-  # KOR_focus_secure_ordnances_desc: ""
+  # KOR_focus_secure_weapons: "무기 확보"
+  # KOR_focus_secure_weapons_desc: ""
   # KOR_focus_national_doctrine: "건국강령 제정"
   # KOR_focus_national_doctrine_desc: ""
   # KOR_focus_hra: "국내정진군 편성"
@@ -817,7 +826,7 @@
 
 	### 대한민국 임시정부 ###
 	KOR_DECCAT_KPG: "대한민국 임시정부"
-	KOR_DECCAT_KPG_desc: "지난 1919년, 일제의 식민통치를 부인하고 한반도 내외의 항일 독립운동을 주도하기 위한 목적으로 수립된 대한민국 임시정부는 갖은 고난과 역경 속에서도 조국 독립을 위해 투쟁해왔습니다.\n\n비록 지금은 머나먼 이국 땅에 머물러 있지만 언젠가 독립된 조국의 땅을 밟게 되는 날이 올 것을, 우리는 믿어 의심치 않습니다."
+	# KOR_DECCAT_KPG_desc: "지난 1919년, 일제의 식민통치를 부인하고 한반도 내외의 항일 독립운동을 주도하기 위한 목적으로 수립된 대한민국 임시정부는 갖은 고난과 역경 속에서도 조국 독립을 위해 투쟁해왔습니다.\n\n비록 지금은 머나먼 이국 땅에 머물러 있지만 언젠가 독립된 조국의 땅을 밟게 되는 날이 올 것을, 우리는 믿어 의심치 않습니다."
 	# KOR_DECCAT_KPG_desc: "대한민국 임시정부는 일본 제국의 한반도 식민통치를 부인하고 한반도 내외의 항일 독립운동을 주도하기 위한 목적으로 1919년에 상해에서 수립된 망명정부입니다."
 	# kpg_directorial: "집단지도체제"
 	# kpg_presidential: "주석제"
@@ -839,7 +848,7 @@
     KOR_inspire_revolutionary_consciousness_desc: ""
     KOR_focus_propaganda_government: "정부 활동 선전"
     KOR_focus_propaganda_government_desc: ""
-    KOR_recruit_vanguard_members: "청년 전위단원 모집"
+    KOR_recruit_vanguard_members: "청년전위단원 모집"
     KOR_recruit_vanguard_members_desc: ""
   #
 
@@ -894,9 +903,9 @@
     cost_xp_20: "£army_experience §Y20§!"	
     cost_xp_20_blocked: "£army_experience §R20§!"
     cost_xp_20_tooltip: "결정을 내리려면 £army_experience §Y20§!만큼 필요합니다."
-    KOR_product_chinese_weapon: "중국제 무기 생산"
-    KOR_product_chinese_weapon_desc: ""
-    KOR_product_chinese_weapon_tt: "기술 추가: §Y한양 88식 소총§!.\n기술 추가: §Y24식 소총§!."
+    KOR_purchase_chinese_weapon: "중국제 무기 구매"
+    KOR_purchase_chinese_weapon_desc: ""
+    KOR_purchase_chinese_weapon_tt: "기술 추가: §Y한양 88식 소총§!.\n기술 추가: §Y24식 소총§!."
   #
 
 	## 한국 독립전쟁 ##
@@ -1611,14 +1620,14 @@
 	KOR_support_weapons3: "30식 중기관총 & M1 81mm 박격포"
 	KOR_support_weapons4: "M1919A6 & M2 4.2인치 박격포"
 
-	KOR_infantry_equipment_0: "한양 88식 소총"
-	KOR_infantry_equipment_0_short: "한양 88식"
-	KOR_infantry_equipment_1: "장중정 소총"
-	KOR_infantry_equipment_1_short: "중정식"
+	KOR_infantry_equipment_0: "88식 소총"
+	KOR_infantry_equipment_0_short: "88식"
+	KOR_infantry_equipment_1: "24식 소총"
+	KOR_infantry_equipment_1_short: "24식"
 	KOR_infantry_equipment_2: "대한식 소총"
 	KOR_infantry_equipment_2_short: "대한식"
   KOR_infantry_equipment_2_desc: ""
-	KOR_infantry_equipment_3: "한성 24년식 갑형 자동소총"
+	KOR_infantry_equipment_3: "한성 자동소총 갑형"
 	KOR_infantry_equipment_3_short: "한성 자동소총"
 	KOR_infantry_at: "M1 바주카"
 	KOR_infantry_at2: "M9 바주카"
