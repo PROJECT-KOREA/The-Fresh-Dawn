@@ -1,0 +1,193 @@
+defined_text = {
+	name = GetStateCouncilName
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = "임시정부 국무위원회"
+	}
+	text = { localization_key = "임시정부 국무회의" }
+}
+
+defined_text = {
+	name = GetPresidentTitle
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = "국무위원회 주석"
+	}
+	text = { localization_key = "국무회의 주석" }
+}
+defined_text = {
+	name = GetPresidentPortrait
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = GFX_Portrait_Kim_Koo_1935
+	}
+	text = { localization_key = GFX_Portrait_Lee_Dongnyeong }
+}
+defined_text = {
+	name = GetPresidentName
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = KOR_Kim_Koo
+	}
+	text = { localization_key = KOR_Lee_Dongnyeong }
+}
+
+defined_text = {
+	name = GetSecminPortrait
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = GFX_Portrait_Hong_Jin
+	}
+	text = { localization_key = GFX_Portrait_Kim_Koo_1935 }
+}
+defined_text = {
+	name = GetSecminName
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = KOR_Hong_Jin
+	}
+	text = { localization_key = KOR_Kim_Koo }
+}
+
+defined_text = {
+	name = GetForminPortrait
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = GFX_Portrait_Cho_Soang
+	}
+	text = { localization_key = GFX_Portrait_Cho_Wangu }
+}
+defined_text = {
+	name = GetForminName
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = KOR_Cho_Soang
+	}
+	text = { localization_key = KOR_Cho_Wangu }
+}
+
+defined_text = {
+	name = GetEcominPortrait
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = GFX_Portrait_Yi_Siyeong
+	}
+	text = { localization_key = GFX_Portrait_Song_Byeongjo }
+}
+defined_text = {
+	name = GetEcominName
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = KOR_Yi_Siyeong
+	}
+	text = { localization_key = KOR_Song_Byeongjo }
+}
+
+defined_text = {
+	name = GetMilminPortrait
+	text = { localization_key = GFX_Portrait_Cho_Seonghwan }
+}
+defined_text = {
+	name = GetMilminName
+	text = { localization_key = KOR_Cho_Seonghwan }
+}
+
+defined_text = {
+	name = GetJusminPortrait
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = GFX_Portrait_Park_Chanik
+	}
+	text = { localization_key = GFX_Portrait_Yi_Siyeong }
+}
+defined_text = {
+	name = GetJusminName
+	text = {
+		trigger = {
+			tag = KOR
+			has_country_leader = {
+				name = "김구"
+				ruling_only = yes
+			}
+		}
+		localization_key = KOR_Park_Chanik
+	}
+	text = { localization_key = KOR_Yi_Siyeong }
+}
+
+defined_text = {
+	name = GetSecretaryPortrait
+	text = {
+		localization_key = GFX_Portrait_Cha_Liseok
+	}
+}
+defined_text = {
+	name = GetSecretaryName
+	text = { localization_key = KOR_Cha_Liseok }
+}

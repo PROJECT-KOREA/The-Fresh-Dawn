@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_info_icon"
+		texturefile = "gfx/interface/info_icon.png"
+	}
+	spriteType = {
+		name = "GFX_cabinet_minister_bg"
+		texturefile = "gfx/interface/cabinet_minister_bg.png"
+	}
+}

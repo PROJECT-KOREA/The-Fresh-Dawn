@@ -36,7 +36,7 @@ characters = {
 			name = KOR_Kim_Koo
 			portraits = {
 				civilian = {
-					large = "gfx/leaders/KOR/Portrait_Kim_Koo_1935.dds"
+					large = "gfx/leaders/KOR/Portrait_Kim_Koo_1935.png"
 					small = "gfx/interface/advisors/KOR/KOR_Kim_Koo.png"
 				}
 			}

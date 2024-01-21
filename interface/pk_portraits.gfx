@@ -31,73 +31,115 @@ spriteTypes = {
 	#
 		
 	### 대한민국 ###
-		#지청천
-		spriteType = {
-			name = "GFX_Portrait_Ji_Cheongcheon_Army"
-			texturefile = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
+		spriteType = { # 이동녕
+			name = "GFX_Portrait_Lee_Dongnyeong"
+			texturefile = "gfx/leaders/KOR/Portrait_Lee_Dongnyeong.dds"
 		}
-
-		#홍사익
-		spriteType = {
-			name = "GFX_Portrait_Hong_Saik"
-			texturefile = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
+		spriteType = { # 김구
+			name = "GFX_Portrait_Kim_Koo_1935"
+			texturefile = "gfx/leaders/KOR/Portrait_Kim_Koo_1935.png"
 		}
-
-		#김경천
-		spriteType = {
-			name = "GFX_Portrait_Kim_Kyeongcheon"
-			texturefile = "gfx/leaders/KOR/Portrait_Kim_Kyeongcheon.dds"
+		spriteType = { # 조완구
+			name = "GFX_Portrait_Cho_Wangu"
+			texturefile = "gfx/leaders/KOR/Portrait_Cho_Wangu.png"
 		}
-
-		#이범석
-		spriteType = {
-			name = "GFX_Portrait_Lee_Beomseok"
-			texturefile = "gfx/leaders/KOR/Portrait_Lee_Beomseok.dds"
-		}
-		
-		spriteType = {
-			name = "GFX_Portrait_Ryuh_Woonhyung"
-			texturefile = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds"
-		}
-		spriteType = {
-			name = "GFX_Portrait_Kim_Koo"
-			texturefile = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
-		}
-		spriteType = {
-			name = "GFX_Portrait_Ahn_Jaehong"
-			texturefile = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
-		}
-		spriteType = {
-			name = "GFX_Portrait_Chang_Deoksu"
-			texturefile = "gfx/leaders/KOR/Portrait_Chang_Deoksu.dds"
-		}
-		spriteType = {
-			name = "GFX_Portrait_Lee_Yoonyoung"
-			texturefile = "gfx/leaders/KOR/Portrait_Lee_Yoonyoung.dds"
-		}
-		spriteType = {
-			name = "GFX_Portrait_Kim_Kyusik"
-			texturefile = "gfx/leaders/KOR/Portrait_Kim_Kyusik.dds"
-		}
-		spriteType = {
-			name = "GFX_Portrait_Syngman_Rhee"
-			texturefile = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
-		}
-		spriteType = {
-			name = "GFX_Portrait_Hong_Jin"
-			texturefile = "gfx/leaders/KOR/Portrait_Hong_Jin.dds"
-		}
-		spriteType = {
+		spriteType = { # 송병조
 			name = "GFX_Portrait_Song_Byeongjo"
-			texturefile = "gfx/leaders/KOR/Portrait_Song_Byeongjo.dds"
+			texturefile = "gfx/leaders/KOR/Portrait_Song_Byeongjo.png"
 		}
-		spriteType = {
+		spriteType = { # 조성환
+			name = "GFX_Portrait_Cho_Seonghwan"
+			texturefile = "gfx/leaders/KOR/Portrait_Cho_Seonghwan.png"
+		}
+		spriteType = { # 조소앙
 			name = "GFX_Portrait_Cho_Soang"
-			texturefile = "gfx/leaders/KOR/Portrait_Cho_Soang.dds"
+			texturefile = "gfx/leaders/KOR/Portrait_Cho_Soang.png"
 		}
-		spriteType = {
-			name = "GFX_Portrait_Ryu_Dongyol"
-			texturefile = "gfx/leaders/KOR/Portrait_Ryu_Dongyol.dds"
+		spriteType = { # 이시영
+			name = "GFX_Portrait_Yi_Siyeong"
+			texturefile = "gfx/leaders/KOR/Portrait_Yi_Siyeong.png"
 		}
+		spriteType = { # 차리석
+			name = "GFX_Portrait_Cha_Liseok"
+			texturefile = "gfx/leaders/KOR/Portrait_Cha_Liseok.png"
+		}
+		spriteType = { # 박찬익
+			name = "GFX_Portrait_Park_Chanik"
+			texturefile = "gfx/leaders/KOR/Portrait_Park_Chanik.png"
+		}
+		spriteType = { # 홍진
+			name = "GFX_Portrait_Hong_Jin"
+			texturefile = "gfx/leaders/KOR/Portrait_Hong_Jin.png"
+		}
+
+
+		# #지청천
+		# spriteType = {
+		# 	name = "GFX_Portrait_Ji_Cheongcheon_Army"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon_Army.dds"
+		# }
+
+		# #홍사익
+		# spriteType = {
+		# 	name = "GFX_Portrait_Hong_Saik"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Hong_Saik.dds"
+		# }
+
+		# #김경천
+		# spriteType = {
+		# 	name = "GFX_Portrait_Kim_Kyeongcheon"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Kim_Kyeongcheon.dds"
+		# }
+
+		# #이범석
+		# spriteType = {
+		# 	name = "GFX_Portrait_Lee_Beomseok"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Lee_Beomseok.dds"
+		# }
+		
+		# spriteType = {
+		# 	name = "GFX_Portrait_Ryuh_Woonhyung"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Ryuh_Woonhyung.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Kim_Koo"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Ahn_Jaehong"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Ahn_Jaehong.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Chang_Deoksu"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Chang_Deoksu.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Lee_Yoonyoung"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Lee_Yoonyoung.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Kim_Kyusik"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Kim_Kyusik.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Syngman_Rhee"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Hong_Jin"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Hong_Jin.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Song_Byeongjo"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Song_Byeongjo.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Cho_Soang"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Cho_Soang.dds"
+		# }
+		# spriteType = {
+		# 	name = "GFX_Portrait_Ryu_Dongyol"
+		# 	texturefile = "gfx/leaders/KOR/Portrait_Ryu_Dongyol.dds"
+		# }
 	#
 }

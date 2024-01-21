@@ -28,6 +28,26 @@ KOR_DECCAT_KPG = {
     }
 }
 
+KOR_DECCAT_KPG_state_council = {
+    KOR_test_kim_koo = {
+        visible = { is_debug = yes }
+        complete_effect = {
+            # KOR_Kim_Koo = {
+            #     add_country_leader_role = {
+            #         character = KOR_Kim_Koo_leader
+            #         promote_leader = yes
+            #         country_leader = {
+            #             ideology = oligarchism
+            #             # traits = { war_industrialist }
+            #         }
+            #     }
+            # }
+            promote_character = KOR_Kim_Koo
+        }
+    }
+}
+
+
 ## 선전부 ##
 KOR_DECCAT_propaganda = {
     KOR_inspire_revolutionary_consciousness = { # 혁명의식 고취

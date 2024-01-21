@@ -13,15 +13,29 @@
 # 대한민국 임시정부 #
 KOR_DECCAT_KPG = {
 	icon = kpg
-	# picture = GFX_decision_cat_declaration_of_independence
+	picture = GFX_decision_cat_declaration_of_independence
 	visible_when_empty = yes
 	visible = {
         NOT = { has_country_flag = KOR_gov_established_flag }
         # always = yes
     }
 	allowed = { original_tag = KOR }
-	scripted_gui = kor_kpg_deccat_ui
+	# scripted_gui = kor_kpg_deccat_ui
 	priority = { base = 99 }
+}
+
+# 임시정부 국무회의 #
+KOR_DECCAT_KPG_state_council = {
+	icon = kpg
+	picture = GFX_decision_cat_kpg_state_council
+	visible_when_empty = yes
+	visible = {
+        NOT = { has_country_flag = KOR_gov_established_flag }
+        # always = yes
+    }
+	allowed = { original_tag = KOR }
+	scripted_gui = state_council_detail_button
+	priority = { base = 98 }
 }
 
 KOR_DECCAT_im_power_balance_decisions = {
@@ -48,7 +62,7 @@ KOR_DECCAT_propaganda = {
         # always = yes
     }
 	allowed = { original_tag = KOR }
-	priority = { base = 98 }
+	priority = { base = 97 }
 }
 
 # 한국광복군 #
@@ -66,7 +80,7 @@ KOR_DECCAT_KIA = {
         # always = yes
     }
 	allowed = { original_tag = KOR }
-	priority = { base = 97 }
+	priority = { base = 96 }
 }
 
 # #한국 독립전쟁

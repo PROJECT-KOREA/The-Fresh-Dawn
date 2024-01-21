@@ -100,15 +100,19 @@
   KOR_Kim_Koo_desc: "§Y출생:§! 1876년 8월 29일, 조선 황해도 해주목"
   KOR_Kim_Wonbong: "김원봉"
   KOR_Kim_Hongil: "김홍일"
+  KOR_Park_Chanik: "박찬익"
   KOR_Song_Byeongjo: "송병조"
   KOR_Lee_Dongnyeong: "이동녕"
   KOR_Lee_Dongnyeong_desc: "§Y출생:§! 1869년 10월 6일, 조선 충청도 목천현"
   KOR_Lee_Beomseok: "이범석"
   KOR_Syngman_Rhee: "이승만"
+  KOR_Yi_Siyeong: "이시영"
   KOR_Cho_Seonghwan: "조성환"
   KOR_Cho_Soang: "조소앙"
   KOR_Cho_Wangu: "조완구"
   KOR_Ji_Cheongcheon: "지청천"
+  KOR_Cha_Liseok: "차리석"
+  KOR_Hong_Jin: "홍진"
 
 
   ### OLD ###
@@ -826,7 +830,7 @@
 
 	### 대한민국 임시정부 ###
 	KOR_DECCAT_KPG: "대한민국 임시정부"
-	# KOR_DECCAT_KPG_desc: "지난 1919년, 일제의 식민통치를 부인하고 한반도 내외의 항일 독립운동을 주도하기 위한 목적으로 수립된 대한민국 임시정부는 갖은 고난과 역경 속에서도 조국 독립을 위해 투쟁해왔습니다.\n\n비록 지금은 머나먼 이국 땅에 머물러 있지만 언젠가 독립된 조국의 땅을 밟게 되는 날이 올 것을, 우리는 믿어 의심치 않습니다."
+	KOR_DECCAT_KPG_desc: "지난 1919년, 일제의 식민통치를 부인하고 한반도 내외의 항일 독립운동을 주도하기 위한 목적으로 수립된 대한민국 임시정부는 갖은 고난과 역경 속에서도 조국 독립을 위해 투쟁해왔습니다.\n\n비록 지금은 머나먼 이국 땅에 머물러 있지만 언젠가 독립된 조국의 땅을 밟게 되는 날이 올 것을, 우리는 믿어 의심치 않습니다."
 	# KOR_DECCAT_KPG_desc: "대한민국 임시정부는 일본 제국의 한반도 식민통치를 부인하고 한반도 내외의 항일 독립운동을 주도하기 위한 목적으로 1919년에 상해에서 수립된 망명정부입니다."
 	# kpg_directorial: "집단지도체제"
 	# kpg_presidential: "주석제"
@@ -840,6 +844,19 @@
 	KOR_return_of_kpg_desc: ""
   KOR_government_bond: "독립공채 발행"
   KOR_government_bond_desc: ""
+
+  ### 임시정부 국무회의 ###
+  KOR_DECCAT_KPG_state_council: "[KOR.GetStateCouncilName]"
+  kor_kpg_deccat_ui_title: "[KOR.GetStateCouncilName]"
+  president_title: "[KOR.GetPresidentTitle]"
+  president_name: "[KOR.GetPresidentName]"
+  secmin_name: "[KOR.GetSecminName]"
+  formin_name: "[KOR.GetForminName]"
+  ecomin_name: "[KOR.GetEcominName]"
+  milmin_name: "[KOR.GetMilminName]"
+  jusmin_name: "[KOR.GetJusminName]"
+  secretary_name: "[KOR.GetSecretaryName]"
+  state_council_detail_button_tt: "클릭하여 §Y국무회의 개요§! 보기"
 
   ### 선전부 ###
     KOR_DECCAT_propaganda: "선전부"
