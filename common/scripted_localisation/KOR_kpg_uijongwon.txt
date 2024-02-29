@@ -1,0 +1,38 @@
+defined_text = {
+	name = GetSpeakerName
+	text = {
+		trigger = {
+			KOR_Cha_Liseok = {
+				has_character_flag = KOR_flag_uijongwon_speaker
+			}
+		}
+		localization_key = KOR_Cha_Liseok
+	}
+	text = {
+		trigger = {
+			KOR_Song_Byeongjo = {
+				has_character_flag = KOR_flag_uijongwon_speaker
+			}
+		}
+		localization_key = KOR_Song_Byeongjo
+	}
+}
+defined_text = {
+	name = GetDeputySpeakerName
+	text = {
+		trigger = {
+			KOR_Cha_Liseok = {
+				has_character_flag = KOR_flag_uijongwon_deputy_speaker
+			}
+		}
+		localization_key = KOR_Cha_Liseok
+	}
+	text = {
+		trigger = {
+			KOR_Song_Byeongjo = {
+				has_character_flag = KOR_flag_uijongwon_deputy_speaker
+			}
+		}
+		localization_key = KOR_Song_Byeongjo
+	}
+}

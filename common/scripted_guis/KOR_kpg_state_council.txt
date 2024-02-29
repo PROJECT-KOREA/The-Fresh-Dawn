@@ -1,0 +1,45 @@
+scripted_gui = {
+	state_council_detail_button = {
+		context_type = decision_category
+		window_name = "state_council_detail_button_ui"
+
+		ai_check = { always = no }
+
+		effects = {
+			state_council_detail_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_cabinet } }
+					set_country_flag = show_cabinet
+				}
+				else = {
+					clr_country_flag = show_cabinet
+				}
+			}
+		}
+	}
+
+	kor_kpg_deccat_ui = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "kor_kpg_deccat_ui_window"
+
+		ai_check = { always = no }
+
+		visible = {
+			has_country_flag = show_cabinet
+		}
+
+		effects = { close_click = { clr_country_flag = show_cabinet } }
+
+		properties = {
+			president_portrait = { image = "[This.GetPresidentPortrait]" }
+			secmin_portrait = { image = "[This.GetSecminPortrait]" }
+			formin_portrait = { image = "[This.GetForminPortrait]" }
+			ecomin_portrait = { image = "[This.GetEcominPortrait]" }
+			milmin_portrait = { image = "[This.GetMilminPortrait]" }
+			jusmin_portrait = { image = "[This.GetJusminPortrait]" }
+			secretary_portrait = { image = "[This.GetSecretaryPortrait]" }
+		}
+	}
+}
+

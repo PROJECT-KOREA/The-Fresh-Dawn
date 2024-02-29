@@ -1,6 +1,11 @@
 spriteTypes = {
 	#News
 	spriteType = {
+		name = "GFX_uijongwon_deccat_gfx"
+		texturefile = "gfx/texticons/uijongwon.png"
+		# legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_soviet_news"
 		texturefile = "gfx/texticons/soviet_news.dds"
 		legacy_lazy_load = no

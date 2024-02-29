@@ -38,6 +38,20 @@ KOR_DECCAT_KPG_state_council = {
 	priority = { base = 98 }
 }
 
+# 임시의정원 #
+KOR_DECCAT_Uijongwon = {
+	icon = kpg
+	picture = GFX_decision_cat_kpg_uijongwon
+	visible_when_empty = yes
+	visible = {
+        NOT = { has_country_flag = KOR_gov_established_flag }
+        # always = yes
+    }
+	allowed = { original_tag = KOR }
+	# scripted_gui = uijongwon_detail_button
+	priority = { base = 97 }
+}
+
 KOR_DECCAT_im_power_balance_decisions = {
 	priority = 12
 	allowed = {

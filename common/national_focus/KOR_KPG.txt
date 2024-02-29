@@ -11,24 +11,38 @@ focus_tree = {
 
 	continuous_focus_position = { x = 20 y = 1600 }
 	
-	#머나먼 이국 땅에서
+	#선전 활동 강화
 	focus = {
-		id = KOR_focus_on_the_foreign_soil
-		icon = GFX_focus_korean_woi
-		x = 8
+		id = KOR_focus_party_newspaper
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = KOR_focus_on_the_foreign_soil
+		x = 6
 		y = 0
 		cost = 10
 
 		available_if_capitulated = yes
-		# cancelable = no
 
 		completion_reward = {
-			# add_stability = 0.05
-			add_political_power = 75
-			set_power_balance = {
-				id = KOR_im_power_balance
-				set_default = yes
-			}
+			add_political_power = 25
+			# unlock_decision_category_tooltip = KOR _DECCAT_propaganda
+			# custom_effect_tooltip = KPG_propaganda_tt
+		}
+	}
+	
+	#한국국민당청년단
+	focus = {
+		id = KOR_focus_knp_youth_group
+		icon = GFX_focus_korean_youth_vanguard
+		relative_position_id = KOR_focus_on_the_foreign_soil
+		x = 8
+		y = 0
+		cost = 17
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = KOR_idea_korean_youth_vanguard
 		}
 	}
 	
@@ -37,9 +51,9 @@ focus_tree = {
 		id = KOR_focus_defense_samgyunjuui
 		icon = GFX_focus_ideology_market_liberal
 		relative_position_id = KOR_focus_on_the_foreign_soil
-		x = -2
-		y = 1
-		cost = 5
+		x = 10
+		y = 0
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -61,589 +75,614 @@ focus_tree = {
 		}
 	}
 	
-	#선전 활동 강화
+	#임시의정원 회의 소집
 	focus = {
-		id = KOR_focus_department_of_propaganda
-		icon = GFX_goal_generic_propaganda
-		relative_position_id = KOR_focus_on_the_foreign_soil
+		id = KOR_focus_provisional_assembly
+		icon = GFX_focus_kpg
+		relative_position_id = KOR_focus_knp_youth_group
 		x = 0
 		y = 1
-		cost = 5
+		cost = 8
 
 		available_if_capitulated = yes
+		cancelable = no
 
-		prerequisite = {
-			focus = KOR_focus_on_the_foreign_soil
-		}
-
-		completion_reward = {
-			add_political_power = 25
-			unlock_decision_category_tooltip = KOR_DECCAT_propaganda
-			# custom_effect_tooltip = KPG_propaganda_tt
-		}
-	}
-	
-	#한국청년전위단
-	focus = {
-		id = KOR_focus_youth_vangurad_group
-		icon = GFX_focus_korean_youth_vanguard
-		relative_position_id = KOR_focus_on_the_foreign_soil
-		x = 2
-		y = 1
-		cost = 5
-
-		available_if_capitulated = yes
-
-		prerequisite = {
-			focus = KOR_focus_on_the_foreign_soil
-		}
-
-		completion_reward = {
-			add_political_power = -50
-			add_ideas = KOR_idea_korean_youth_vanguard
-		}
-	}
-	
-	#독립운동의 마지막 보루
-	focus = {
-		id = KOR_focus_last_bastion_of_im
-		icon = GFX_focus_victory_in_woi
-		relative_position_id = KOR_focus_department_of_propaganda
-		x = 0
-		y = 1
-		cost = 15
-
-		available_if_capitulated = yes
-
+		prerequisite = { focus = KOR_focus_party_newspaper }
+		prerequisite = { focus = KOR_focus_knp_youth_group }
 		prerequisite = { focus = KOR_focus_defense_samgyunjuui }
-		prerequisite = { focus = KOR_focus_youth_vangurad_group }
-		prerequisite = { focus = KOR_focus_department_of_propaganda }
 
-		completion_reward = {
-			# add_legitimacy = 10
-			add_stability = 0.05
-			PK_KOR_improve_legitimacy = yes
-			# add_power_balance_value = {
-			# 	id = KOR_im_power_balance
-			# 	value = 0.05
-			# 	tooltip_side = KOR_kpg_side
-			# }
-		}
-	}
-	
-	#한국광복운동단체연합회
-	focus = {
-		id = KOR_focus_KIMOA
-		icon = GFX_focus_nrc
-		relative_position_id = KOR_focus_last_bastion_of_im
-		x = -4
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		prerequisite = {
-			focus = KOR_focus_last_bastion_of_im
+		select_effect = {
+			country_event = { id = kor_kpg_politic.1 }
 		}
 
 		completion_reward = {
-			country_event = {
-				id = kor_kpg_focus.2
-				hours = 8 
+			effect_tooltip = {
+				country_event = { id = kor_kpg_politic.1 }
 			}
 		}
 	}
 	
-	#국무원 조직 개편
+	#정부 정통성 주장
 	focus = {
-		id = KOR_focus_reform_council_of_state
-		icon = GFX_focus_generic_parliament
-		relative_position_id = KOR_focus_last_bastion_of_im
+		id = KOR_focus_reestablish_legitimacy
+		icon = GFX_focus_victory_in_woi
+		relative_position_id = KOR_focus_provisional_assembly
 		x = 0
 		y = 1
 		cost = 10
 
 		available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_last_bastion_of_im
-		}
+		prerequisite = { focus = KOR_focus_provisional_assembly }
 
 		completion_reward = {
-			# add_political_power = 50
-			swap_ideas = {
-				remove_idea = KOR_idea_government_in_exile_1
-				add_idea = KOR_idea_government_in_exile_2
-			}
+			add_legitimacy = 10
+			add_stability = 0.15
 		}
 	}
 
-	#독립공채 발행 확대
-	focus = {
-		id = KOR_focus_government_bond
-		icon = GFX_focus_mex_privatisation
-		relative_position_id = KOR_focus_last_bastion_of_im
-		x = 2
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		prerequisite = {
-			focus = KOR_focus_last_bastion_of_im
-		}
-
-		completion_reward = {
-			unlock_decision_tooltip = KOR_government_bond
-		}
-	}
 	
-	#조소앙과의 회담
-	focus = {
-		id = KOR_focus_meet_the_cho
-		icon = GFX_focus_chosoang
-		relative_position_id = KOR_focus_KIMOA
-		x = -2
-		y = 1
-		cost = 5
+	# #머나먼 이국 땅에서
+	# focus = {
+	# 	id = KOR_focus_on_the_foreign_soil
+	# 	icon = GFX_focus_korean_woi
+	# 	x = 8
+	# 	y = 0
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
+	# 	# cancelable = no
 
-		prerequisite = {
-			focus = KOR_focus_KIMOA
-		}
-
-		completion_reward = {
-			country_event = {
-				id = kor_kpg_focus.3
-				hours = 8 
-			}
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = KOR_Cho_Soang_advisor
-		}
-	}
+	# 	completion_reward = {
+	# 		# add_stability = 0.05
+	# 		add_political_power = 75
+	# 		set_power_balance = {
+	# 			id = KOR_im_power_balance
+	# 			set_default = yes
+	# 		}
+	# 	}
+	# }
 	
-	#조선혁명당과의 접선
-	focus = {
-		id = KOR_focus_contact_with_krp
-		icon = GFX_focus_baeksan
-		relative_position_id = KOR_focus_KIMOA
-		x = 0
-		y = 1
-		cost = 5
+	# #독립운동의 마지막 보루
+	# focus = {
+	# 	id = KOR_focus_last_bastion_of_im
+	# 	icon = GFX_focus_victory_in_woi
+	# 	relative_position_id = KOR_focus_department_of_propaganda
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 15
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_KIMOA
-		}
+	# 	prerequisite = { focus = KOR_focus_defense_samgyunjuui }
+	# 	prerequisite = { focus = KOR_focus_youth_vangurad_group }
+	# 	prerequisite = { focus = KOR_focus_department_of_propaganda }
 
-		completion_reward = {
-			country_event = {
-				id = kor_kpg_focus.4
-				hours = 8 
-			}
-		}
-	}
+	# 	completion_reward = {
+	# 		# add_legitimacy = 10
+	# 		add_stability = 0.05
+	# 		PK_KOR_improve_legitimacy = yes
+	# 		# add_power_balance_value = {
+	# 		# 	id = KOR_im_power_balance
+	# 		# 	value = 0.05
+	# 		# 	tooltip_side = KOR_kpg_side
+	# 		# }
+	# 	}
+	# }
 	
-	#민족혁명당 견제
-	focus = {
-		id = KOR_focus_check_nrp
-		icon = GFX_focus_anti_kim_wonbong
-		relative_position_id = KOR_focus_KIMOA
-		x = 2
-		y = 1
-		cost = 10
+	# #한국광복운동단체연합회
+	# focus = {
+	# 	id = KOR_focus_KIMOA
+	# 	icon = GFX_focus_nrc
+	# 	relative_position_id = KOR_focus_last_bastion_of_im
+	# 	x = -4
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_KIMOA
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_last_bastion_of_im
+	# 	}
 
-		completion_reward = {
-			add_popularity = {
-				ideology = n_socialism
-				popularity = -0.1
-			}
-			add_power_balance_value = {
-				id = KOR_im_power_balance
-				value = 0.1
-				tooltip_side = KOR_kpg_side
-			}
-		}
-	}
-
-	#독립운동 3개년 계획
-	focus = {
-		id = KOR_focus_three_years_plan_for_independence
-		icon = GFX_focus_korean_independence_movement
-		relative_position_id = KOR_focus_reform_council_of_state
-		x = 0
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		available = {
-			CHI = { has_war_with = JAP }
-		}
-
-		prerequisite = {
-			focus = KOR_focus_reform_council_of_state
-		}
-
-		completion_reward = {
-			country_event = {
-				id = kor_kpg_focus.5
-				hours = 8 
-			}
-			add_political_power = 120
-			add_war_support = 0.1
-		}
-	}
-
-	#3당 통일회의 개최
-	focus = {
-		id = KOR_focus_unification_conference_of_three_parties
-		icon = GFX_goal_generic_national_unity
-		relative_position_id = KOR_focus_meet_the_cho
-		x = 1
-		y = 1
-		cost = 6
-
-		available_if_capitulated = yes
-
-		prerequisite = { focus = KOR_focus_meet_the_cho }
-		prerequisite = { focus = KOR_focus_contact_with_krp }
-
-		completion_reward = {
-			country_event = {
-				id = kor_kpg_focus.6
-				hours = 8 
-			}
-		}
-	}
+	# 	completion_reward = {
+	# 		country_event = {
+	# 			id = kor_kpg_focus.2
+	# 			hours = 8 
+	# 		}
+	# 	}
+	# }
 	
-	#주석 권한 강화
-	focus = {
-		id = KOR_focus_strengthen_presidential_power
-		icon = GFX_focus_kim_koo
-		relative_position_id = KOR_focus_three_years_plan_for_independence
-		x = -2
-		y = 1
-		cost = 10
+	# #국무원 조직 개편
+	# focus = {
+	# 	id = KOR_focus_reform_council_of_state
+	# 	icon = GFX_focus_generic_parliament
+	# 	relative_position_id = KOR_focus_last_bastion_of_im
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_three_years_plan_for_independence
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_last_bastion_of_im
+	# 	}
 
-		completion_reward = {
-			country_event = {
-				id = kor_kpg_focus.7
-				hours = 8 
-			}
-			PK_KOR_improve_legitimacy = yes
-		}
-	}
+	# 	completion_reward = {
+	# 		# add_political_power = 50
+	# 		swap_ideas = {
+	# 			remove_idea = KOR_idea_government_in_exile_1
+	# 			add_idea = KOR_idea_government_in_exile_2
+	# 		}
+	# 	}
+	# }
 
-	#한국광복군
-	focus = {
-		id = KOR_focus_KIA
-		icon = GFX_focus_kia
-		relative_position_id = KOR_focus_three_years_plan_for_independence
-		x = 2
-		y = 1
-		cost = 10
+	# #독립공채 발행 확대
+	# focus = {
+	# 	id = KOR_focus_government_bond
+	# 	icon = GFX_focus_mex_privatisation
+	# 	relative_position_id = KOR_focus_last_bastion_of_im
+	# 	x = 2
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_three_years_plan_for_independence
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_last_bastion_of_im
+	# 	}
 
-		completion_reward = {
-			country_event = { id = kor_kpg_kia.1 }
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = KOR_Cho_Seonghwan_advisor
-			unlock_decision_category_tooltip = KOR_DECCAT_KIA
-		}
-	}
+	# 	completion_reward = {
+	# 		unlock_decision_tooltip = KOR_government_bond
+	# 	}
+	# }
 	
-	#새로운 한국독립당
-	focus = {
-		id = KOR_focus_new_kip
-		icon = GFX_focus_kip
-		relative_position_id = KOR_focus_unification_conference_of_three_parties
-		x = 0
-		y = 1
-		cost = 7
+	# #조소앙과의 회담
+	# focus = {
+	# 	id = KOR_focus_meet_the_cho
+	# 	icon = GFX_focus_chosoang
+	# 	relative_position_id = KOR_focus_KIMOA
+	# 	x = -2
+	# 	y = 1
+	# 	cost = 5
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_unification_conference_of_three_parties
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_KIMOA
+	# 	}
 
-		completion_reward = {
-			country_event = { id = kor_kpg_focus.8 }
-			PK_KOR_improve_legitimacy = yes
-		}
-	}
+	# 	completion_reward = {
+	# 		country_event = {
+	# 			id = kor_kpg_focus.3
+	# 			hours = 8 
+	# 		}
+	# 		custom_effect_tooltip = available_political_advisor
+	# 		show_ideas_tooltip = KOR_Cho_Soang_advisor
+	# 	}
+	# }
 	
-	#구미외교위원부
-	focus = {
-		id = KOR_focus_occident_diplomacy_committee
-		icon = GFX_goal_generic_major_alliance
-		relative_position_id = KOR_focus_strengthen_presidential_power
-		x = -1
-		y = 1
-		cost = 10
+	# #조선혁명당과의 접선
+	# focus = {
+	# 	id = KOR_focus_contact_with_krp
+	# 	icon = GFX_focus_baeksan
+	# 	relative_position_id = KOR_focus_KIMOA
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 5
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = { focus = KOR_focus_strengthen_presidential_power }
-		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = KOR_Syngman_Rhee_advisor
-			# add_political_power = 100
-		}
-	}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_KIMOA
+	# 	}
+
+	# 	completion_reward = {
+	# 		country_event = {
+	# 			id = kor_kpg_focus.4
+	# 			hours = 8 
+	# 		}
+	# 	}
+	# }
 	
-	#대일선전성명서 발표
-	focus = {
-		id = KOR_focus_declaration_of_war_on_jap
-		icon = GFX_focus_anti_japan
-		relative_position_id = KOR_focus_strengthen_presidential_power
-		x = 1
-		y = 1
-		cost = 10
+	# #민족혁명당 견제
+	# focus = {
+	# 	id = KOR_focus_check_nrp
+	# 	icon = GFX_focus_anti_kim_wonbong
+	# 	relative_position_id = KOR_focus_KIMOA
+	# 	x = 2
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = { focus = KOR_focus_strengthen_presidential_power }
-		completion_reward = {
-			country_event = { id = kor_kpg_focus.9 }
-		}
-	}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_KIMOA
+	# 	}
+
+	# 	completion_reward = {
+	# 		add_popularity = {
+	# 			ideology = n_socialism
+	# 			popularity = -0.1
+	# 		}
+	# 		add_power_balance_value = {
+	# 			id = KOR_im_power_balance
+	# 			value = 0.1
+	# 			tooltip_side = KOR_kpg_side
+	# 		}
+	# 	}
+	# }
+
+	# #독립운동 3개년 계획
+	# focus = {
+	# 	id = KOR_focus_three_years_plan_for_independence
+	# 	icon = GFX_focus_korean_independence_movement
+	# 	relative_position_id = KOR_focus_reform_council_of_state
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
+
+	# 	available_if_capitulated = yes
+
+	# 	available = {
+	# 		CHI = { has_war_with = JAP }
+	# 	}
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_reform_council_of_state
+	# 	}
+
+	# 	completion_reward = {
+	# 		country_event = {
+	# 			id = kor_kpg_focus.5
+	# 			hours = 8 
+	# 		}
+	# 		add_political_power = 120
+	# 		add_war_support = 0.1
+	# 	}
+	# }
+
+	# #3당 통일회의 개최
+	# focus = {
+	# 	id = KOR_focus_unification_conference_of_three_parties
+	# 	icon = GFX_goal_generic_national_unity
+	# 	relative_position_id = KOR_focus_meet_the_cho
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 6
+
+	# 	available_if_capitulated = yes
+
+	# 	prerequisite = { focus = KOR_focus_meet_the_cho }
+	# 	prerequisite = { focus = KOR_focus_contact_with_krp }
+
+	# 	completion_reward = {
+	# 		country_event = {
+	# 			id = kor_kpg_focus.6
+	# 			hours = 8 
+	# 		}
+	# 	}
+	# }
 	
-	#무기 확보
-	focus = {
-		id = KOR_focus_secure_weapons
-		icon = GFX_focus_military_equipment
-		relative_position_id = KOR_focus_KIA
-		x = 0
-		y = 1
-		cost = 10
+	# #주석 권한 강화
+	# focus = {
+	# 	id = KOR_focus_strengthen_presidential_power
+	# 	icon = GFX_focus_kim_koo
+	# 	relative_position_id = KOR_focus_three_years_plan_for_independence
+	# 	x = -2
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		available = {
-			# has_country_flag = KOR_kia_formed_flag
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_three_years_plan_for_independence
+	# 	}
 
-		prerequisite = { focus = KOR_focus_KIA }
+	# 	completion_reward = {
+	# 		country_event = {
+	# 			id = kor_kpg_focus.7
+	# 			hours = 8 
+	# 		}
+	# 		PK_KOR_improve_legitimacy = yes
+	# 	}
+	# }
 
-		completion_reward = {
-			# add_political_power = 100
-			unlock_decision_tooltip = KOR_purchase_chinese_weapon
-		}
-	}
+	# #한국광복군
+	# focus = {
+	# 	id = KOR_focus_KIA
+	# 	icon = GFX_focus_kia
+	# 	relative_position_id = KOR_focus_three_years_plan_for_independence
+	# 	x = 2
+	# 	y = 1
+	# 	cost = 10
+
+	# 	available_if_capitulated = yes
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_three_years_plan_for_independence
+	# 	}
+
+	# 	completion_reward = {
+	# 		country_event = { id = kor_kpg_kia.1 }
+	# 		custom_effect_tooltip = available_political_advisor
+	# 		show_ideas_tooltip = KOR_Cho_Seonghwan_advisor
+	# 		unlock_decision_category_tooltip = KOR_DECCAT_KIA
+	# 	}
+	# }
 	
-	#광복군총사령부 정보국
-	focus = {
-		id = KOR_focus_intelligence_bureau_of_the_KIA
-		icon = GFX_focus_secret_agents
-		relative_position_id = KOR_focus_KIA
-		x = 4
-		y = 1
-		cost = 10
+	# #새로운 한국독립당
+	# focus = {
+	# 	id = KOR_focus_new_kip
+	# 	icon = GFX_focus_kip
+	# 	relative_position_id = KOR_focus_unification_conference_of_three_parties
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 7
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_KIA
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_unification_conference_of_three_parties
+	# 	}
 
-		completion_reward = {
-			add_political_power = -50
-			create_intelligence_agency = {
-				name = "광복군총사령부 정보국"
-				icon = GFX_intelligence_agency_logo_kpg
-			}
-		}
-	}
+	# 	completion_reward = {
+	# 		country_event = { id = kor_kpg_focus.8 }
+	# 		PK_KOR_improve_legitimacy = yes
+	# 	}
+	# }
 	
-	#재외동포의 지원
-	focus = {
-		id = KOR_focus_support_from_overseas_korean
-		icon = GFX_focus_SWI_issue_war_bonds
-		relative_position_id = KOR_focus_occident_diplomacy_committee
-		x = 0
-		y = 1
-		cost = 10
+	# #구미외교위원부
+	# focus = {
+	# 	id = KOR_focus_occident_diplomacy_committee
+	# 	icon = GFX_goal_generic_major_alliance
+	# 	relative_position_id = KOR_focus_strengthen_presidential_power
+	# 	x = -1
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = { focus = KOR_focus_occident_diplomacy_committee }
-		completion_reward = {
-			# add_political_power = 100
-		}
-	}
+	# 	prerequisite = { focus = KOR_focus_strengthen_presidential_power }
+	# 	completion_reward = {
+	# 		custom_effect_tooltip = available_political_advisor
+	# 		show_ideas_tooltip = KOR_Syngman_Rhee_advisor
+	# 		# add_political_power = 100
+	# 	}
+	# }
 	
-	#건국강령 제정
-	focus = {
-		id = KOR_focus_national_doctrine
-		icon = GFX_focus_generic_treaty
-		relative_position_id = KOR_focus_declaration_of_war_on_jap
-		x = 0
-		y = 1
-		cost = 10
+	# #대일선전성명서 발표
+	# focus = {
+	# 	id = KOR_focus_declaration_of_war_on_jap
+	# 	icon = GFX_focus_anti_japan
+	# 	relative_position_id = KOR_focus_strengthen_presidential_power
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = { focus = KOR_focus_declaration_of_war_on_jap }
-
-		completion_reward = {
-			country_event = { id = kor_kpg_focus.10 }
-			PK_KOR_improve_legitimacy = yes
-		}
-	}
+	# 	prerequisite = { focus = KOR_focus_strengthen_presidential_power }
+	# 	completion_reward = {
+	# 		country_event = { id = kor_kpg_focus.9 }
+	# 	}
+	# }
 	
-	#국내정진군 편성
-	focus = {
-		id = KOR_focus_hra
-		icon = GFX_focus_hra
-		relative_position_id = KOR_focus_secure_weapons
-		x = -1
-		y = 1
-		cost = 10
+	# #무기 확보
+	# focus = {
+	# 	id = KOR_focus_secure_weapons
+	# 	icon = GFX_focus_military_equipment
+	# 	relative_position_id = KOR_focus_KIA
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		available = {
-			has_country_flag = KOR_kia_formed_flag
-			# NOT = { has_country_flag = KOR_kia_controlled }
-		}
+	# 	available = {
+	# 		# has_country_flag = KOR_kia_formed_flag
+	# 	}
 
-		prerequisite = { focus = KOR_focus_secure_weapons }
-		# prerequisite = { focus = KOR_focus_national_doctrine }
+	# 	prerequisite = { focus = KOR_focus_KIA }
 
-		completion_reward = {
-			# add_political_power = 100
-		}
-	}
+	# 	completion_reward = {
+	# 		# add_political_power = 100
+	# 		unlock_decision_tooltip = KOR_purchase_chinese_weapon
+	# 	}
+	# }
 	
-	#현지산 무기 조달
-	focus = {
-		id = KOR_focus_local_weapons
-		icon = GFX_goal_generic_construct_mil_factory
-		relative_position_id = KOR_focus_secure_weapons
-		x = 1
-		y = 1
-		cost = 4
+	# #광복군총사령부 정보국
+	# focus = {
+	# 	id = KOR_focus_intelligence_bureau_of_the_KIA
+	# 	icon = GFX_focus_secret_agents
+	# 	relative_position_id = KOR_focus_KIA
+	# 	x = 4
+	# 	y = 1
+	# 	cost = 10
+
+	# 	available_if_capitulated = yes
+
+	# 	prerequisite = {
+	# 		focus = KOR_focus_KIA
+	# 	}
+
+	# 	completion_reward = {
+	# 		add_political_power = -50
+	# 		create_intelligence_agency = {
+	# 			name = "광복군총사령부 정보국"
+	# 			icon = GFX_intelligence_agency_logo_kpg
+	# 		}
+	# 	}
+	# }
+	
+	# #재외동포의 지원
+	# focus = {
+	# 	id = KOR_focus_support_from_overseas_korean
+	# 	icon = GFX_focus_SWI_issue_war_bonds
+	# 	relative_position_id = KOR_focus_occident_diplomacy_committee
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
+
+	# 	available_if_capitulated = yes
+
+	# 	prerequisite = { focus = KOR_focus_occident_diplomacy_committee }
+	# 	completion_reward = {
+	# 		# add_political_power = 100
+	# 	}
+	# }
+	
+	# #건국강령 제정
+	# focus = {
+	# 	id = KOR_focus_national_doctrine
+	# 	icon = GFX_focus_generic_treaty
+	# 	relative_position_id = KOR_focus_declaration_of_war_on_jap
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
+
+	# 	available_if_capitulated = yes
+
+	# 	prerequisite = { focus = KOR_focus_declaration_of_war_on_jap }
+
+	# 	completion_reward = {
+	# 		country_event = { id = kor_kpg_focus.10 }
+	# 		PK_KOR_improve_legitimacy = yes
+	# 	}
+	# }
+	
+	# #국내정진군 편성
+	# focus = {
+	# 	id = KOR_focus_hra
+	# 	icon = GFX_focus_hra
+	# 	relative_position_id = KOR_focus_secure_weapons
+	# 	x = -1
+	# 	y = 1
+	# 	cost = 10
+
+	# 	available_if_capitulated = yes
+
+	# 	available = {
+	# 		has_country_flag = KOR_kia_formed_flag
+	# 		# NOT = { has_country_flag = KOR_kia_controlled }
+	# 	}
+
+	# 	prerequisite = { focus = KOR_focus_secure_weapons }
+	# 	# prerequisite = { focus = KOR_focus_national_doctrine }
+
+	# 	completion_reward = {
+	# 		# add_political_power = 100
+	# 	}
+	# }
+	
+	# #현지산 무기 조달
+	# focus = {
+	# 	id = KOR_focus_local_weapons
+	# 	icon = GFX_goal_generic_construct_mil_factory
+	# 	relative_position_id = KOR_focus_secure_weapons
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 4
 		
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = { focus = KOR_focus_secure_weapons }
+	# 	prerequisite = { focus = KOR_focus_secure_weapons }
 
-		completion_reward = {
-			# hidden_effect = {
-			# 	set_technology = {
-			# 		improved_infantry_weapons = 1
-			# 	}
-			# }
-			# custom_effect_tooltip = zhongzheng_rifle_tt
-			# add_equipment_to_stockpile = {
-			# 	type = infantry_equipment
-			# 	amount = 1000
-			# 	producer = KOR
-			# }
-			add_offsite_building = { type = arms_factory level = 2 }
-			custom_effect_tooltip = available_mio_tt
-			show_mio_tooltip = KOR_KIA_design_bureau_organization
-		}
-	}
+	# 	completion_reward = {
+	# 		# hidden_effect = {
+	# 		# 	set_technology = {
+	# 		# 		improved_infantry_weapons = 1
+	# 		# 	}
+	# 		# }
+	# 		# custom_effect_tooltip = zhongzheng_rifle_tt
+	# 		# add_equipment_to_stockpile = {
+	# 		# 	type = infantry_equipment
+	# 		# 	amount = 1000
+	# 		# 	producer = KOR
+	# 		# }
+	# 		add_offsite_building = { type = arms_factory level = 2 }
+	# 		custom_effect_tooltip = available_mio_tt
+	# 		show_mio_tooltip = KOR_KIA_design_bureau_organization
+	# 	}
+	# }
 	
-	# 국내 연락망 복원
-	focus = {
-		id = KOR_focus_network_to_mainland
-		icon = GFX_goal_generic_position_armies
-		relative_position_id = KOR_focus_intelligence_bureau_of_the_KIA
-		x = -1
-		y = 1
-		cost = 10
+	# # 국내 연락망 복원
+	# focus = {
+	# 	id = KOR_focus_network_to_mainland
+	# 	icon = GFX_goal_generic_position_armies
+	# 	relative_position_id = KOR_focus_intelligence_bureau_of_the_KIA
+	# 	x = -1
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_intelligence_bureau_of_the_KIA
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_intelligence_bureau_of_the_KIA
+	# 	}
 
-		completion_reward = {
-			# add_political_power = 100
-		}
-	}
+	# 	completion_reward = {
+	# 		# add_political_power = 100
+	# 	}
+	# }
 	
-	# 현지 공작원 모집
-	focus = {
-		id = KOR_focus_local_agents
-		icon = GFX_focus_prc_infiltration
-		relative_position_id = KOR_focus_intelligence_bureau_of_the_KIA
-		x = 1
-		y = 1
-		cost = 10
+	# # 현지 공작원 모집
+	# focus = {
+	# 	id = KOR_focus_local_agents
+	# 	icon = GFX_focus_prc_infiltration
+	# 	relative_position_id = KOR_focus_intelligence_bureau_of_the_KIA
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = {
-			focus = KOR_focus_intelligence_bureau_of_the_KIA
-		}
+	# 	prerequisite = {
+	# 		focus = KOR_focus_intelligence_bureau_of_the_KIA
+	# 	}
 
-		completion_reward = {
-			# add_political_power = 100
-		}
-	}
+	# 	completion_reward = {
+	# 		# add_political_power = 100
+	# 	}
+	# }
 	
-	# 국내진공작전 준비
-	focus = {
-		id = KOR_focus_prepare_operation
-		icon = GFX_goal_generic_position_armies
-		relative_position_id = KOR_focus_national_doctrine
-		x = 1
-		y = 1
-		cost = 10
+	# # 국내진공작전 준비
+	# focus = {
+	# 	id = KOR_focus_prepare_operation
+	# 	icon = GFX_goal_generic_position_armies
+	# 	relative_position_id = KOR_focus_national_doctrine
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 10
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = { focus = KOR_focus_national_doctrine }
-		prerequisite = { focus = KOR_focus_hra }
+	# 	prerequisite = { focus = KOR_focus_national_doctrine }
+	# 	prerequisite = { focus = KOR_focus_hra }
 
-		completion_reward = {
-			# add_political_power = 100
-		}
-	}
+	# 	completion_reward = {
+	# 		# add_political_power = 100
+	# 	}
+	# }
 	
-	# 압록강을 건너라
-	focus = {
-		id = KOR_focus_cross_the_amnok_river
-		icon = GFX_focus_operation_independence
-		relative_position_id = KOR_focus_national_doctrine
-		x = 1
-		y = 1
-		cost = 2
+	# # 압록강을 건너라
+	# focus = {
+	# 	id = KOR_focus_cross_the_amnok_river
+	# 	icon = GFX_focus_operation_independence
+	# 	relative_position_id = KOR_focus_national_doctrine
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 2
 
-		available_if_capitulated = yes
+	# 	available_if_capitulated = yes
 
-		prerequisite = { focus = KOR_focus_national_doctrine }
-		prerequisite = { focus = KOR_focus_hra }
+	# 	prerequisite = { focus = KOR_focus_national_doctrine }
+	# 	prerequisite = { focus = KOR_focus_hra }
 
-		completion_reward = {
-			# add_political_power = 100
-		}
-	}
+	# 	completion_reward = {
+	# 		# add_political_power = 100
+	# 	}
+	# }
 	
 	# #한국청년전지공작대
 	# focus = {
@@ -687,33 +726,6 @@ focus_tree = {
 	# 	}
 	# }
 	
-	# #임시의정원 회의 소집
-	# focus = {
-	# 	id = KOR_focus_call_provisional_assembly
-	# 	icon = GFX_focus_kpg
-	# 	relative_position_id = KOR_focus_last_bastion_of_im
-	# 	x = 0
-	# 	y = 1
-	# 	cost = 7
-
-	# 	available_if_capitulated = yes
-	# 	cancelable = no
-
-	# 	prerequisite = {
-	# 		focus = KOR_focus_last_bastion_of_im
-	# 	}
-
-	# 	select_effect = {
-	# 		country_event = { id = kor_kpg_politic.1 }
-	# 	}
-
-	# 	completion_reward = {
-	# 		effect_tooltip = {
-	# 			country_event = { id = kor_kpg_politic.1 }
-	# 		}
-	# 	}
-	# }
-	
 	# #재정 문제 해결
 	# focus = {
 	# 	id = KOR_focus_solve_financial_problem
@@ -736,27 +748,6 @@ focus_tree = {
 	# 		# }
 	# 		# remove_ideas = KOR_idea_financial_problem
 	# 		add_offsite_building = { type = industrial_complex level = 2 }
-	# 	}
-	# }
-	
-	# #정부 정통성 주장
-	# focus = {
-	# 	id = KOR_focus_claim_legitimacy
-	# 	icon = GFX_focus_victory_in_woi
-	# 	relative_position_id = KOR_focus_department_of_propaganda
-	# 	x = 0
-	# 	y = 1
-	# 	cost = 10
-
-	# 	available_if_capitulated = yes
-
-	# 	prerequisite = { focus = KOR_focus_youth_vangurad_group }
-	# 	prerequisite = { focus = KOR_focus_department_of_propaganda }
-	# 	prerequisite = { focus = KOR_focus_solve_financial_problem }
-
-	# 	completion_reward = {
-	# 		add_legitimacy = 10
-	# 		add_stability = 0.15
 	# 	}
 	# }
 	

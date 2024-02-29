@@ -68,7 +68,7 @@ defined_text = {
 		}
 		localization_key = GFX_Portrait_Hong_Jin
 	}
-	text = { localization_key = GFX_Portrait_Kim_Koo_1935 }
+	text = { localization_key = GFX_Portrait_Cho_Wangu }
 }
 defined_text = {
 	name = GetSecminName
@@ -82,7 +82,7 @@ defined_text = {
 		}
 		localization_key = KOR_Hong_Jin
 	}
-	text = { localization_key = KOR_Kim_Koo }
+	text = { localization_key = KOR_Cho_Wangu }
 }
 
 defined_text = {
@@ -97,7 +97,7 @@ defined_text = {
 		}
 		localization_key = GFX_Portrait_Cho_Soang
 	}
-	text = { localization_key = GFX_Portrait_Cho_Wangu }
+	text = { localization_key = GFX_Portrait_Kim_Koo_1935 }
 }
 defined_text = {
 	name = GetForminName
@@ -111,7 +111,7 @@ defined_text = {
 		}
 		localization_key = KOR_Cho_Soang
 	}
-	text = { localization_key = KOR_Cho_Wangu }
+	text = { localization_key = KOR_Kim_Koo }
 }
 
 defined_text = {

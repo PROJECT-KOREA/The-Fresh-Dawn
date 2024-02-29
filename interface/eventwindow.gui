@@ -55,7 +55,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=-2 y=211 }	
+			position = { x=0 y=211 }	
 			size = { width = 581 height = 100 }
 			moveable = yes
 			clipping = no
@@ -201,7 +201,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x = -2 y = 180}	
+			position = { x = 0 y = 180}	
 			size = { width = 581 height = 230 }
 			moveable = yes
 			clipping = no

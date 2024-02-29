@@ -3,7 +3,12 @@ spriteTypes = {
 	### KOR ###
 	spriteType = {
 		name = "GFX_decision_cat_declaration_of_independence"
-		texturefile = "gfx/interface/decisions/decision_cat_declaration_of_independence.dds"
+		texturefile = "gfx/interface/decisions/decision_cat_declaration_of_independence.png"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_kpg_uijongwon"
+		texturefile = "gfx/interface/decisions/decision_cat_kpg_uijongwon.png"
 	}
 
 	spriteType = {

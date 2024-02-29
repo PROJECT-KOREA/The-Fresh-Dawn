@@ -91,6 +91,21 @@ characters = {
 				cost = 150
 			}
 		}
+		KOR_Cha_Liseok = { # 차리석 (顧)
+			name = KOR_Cha_Liseok
+			portraits = {
+				civilian = {
+					small = "gfx/interface/advisors/KOR/KOR_Cha_Liseok.png"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = KOR_Cha_Liseok_advisor
+				# available = { has_completed_focus = KOR_focus_KIA }
+				traits = { # }
+				cost = 150
+			}
+		}
 	#
 	## 원외 ##
 		KOR_Cho_Soang = { # 조소앙 (首/顧)

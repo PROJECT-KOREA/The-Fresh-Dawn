@@ -4,7 +4,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/info_icon.png"
 	}
 	spriteType = {
-		name = "GFX_cabinet_minister_bg"
-		texturefile = "gfx/interface/cabinet_minister_bg.png"
+		name = "GFX_kpg_title_hanja"
+		texturefile = "gfx/interface/kpg/title_hanja.png"
 	}
+	# spriteType = {
+	# 	name = "GFX_cabinet_minister_bg"
+	# 	texturefile = "gfx/interface/cabinet_minister_bg.png"
+	# }
 }

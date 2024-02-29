@@ -10,6 +10,7 @@ set_cosmetic_tag = KOR_KPG
 	recruit_character = KOR_Cho_Wangu
 	recruit_character = KOR_Song_Byeongjo
 	recruit_character = KOR_Cho_Seonghwan
+	recruit_character = KOR_Cha_Liseok
 	recruit_character = KOR_Cho_Soang
 	recruit_character = KOR_Syngman_Rhee
 	recruit_character = KOR_Kim_Wonbong
@@ -19,32 +20,37 @@ set_cosmetic_tag = KOR_KPG
 	recruit_character = KOR_Kim_Hongil
 	recruit_character = KOR_Lee_Beomseok
 	
-	# recruit_character = KOR_KIA_Command
-	# recruit_character = KOR_Song_Jinwoo
-	# recruit_character = KOR_Ahn_Jaehong
-	# recruit_character = KOR_Ryuh_Woonhyung
-	# recruit_character = KOR_Kim_Koo
-	# recruit_character = KOR_Pak_Honyong
-	# recruit_character = KOR_Syngman_Rhee
+	#
+		# recruit_character = KOR_KIA_Command
+		# recruit_character = KOR_Song_Jinwoo
+		# recruit_character = KOR_Ahn_Jaehong
+		# recruit_character = KOR_Ryuh_Woonhyung
+		# recruit_character = KOR_Kim_Koo
+		# recruit_character = KOR_Pak_Honyong
+		# recruit_character = KOR_Syngman_Rhee
 
-	# recruit_character = KOR_Cho_Mansik
-	# recruit_character = KOR_Kim_Byeongro
-	# recruit_character = KOR_Baek_Namun
-	# recruit_character = KOR_Won_Sehun
-	# recruit_character = KOR_Chang_Deoksu
-	# recruit_character = KOR_Cho_Dongho
-	# recruit_character = KOR_Ho_Hon
-	
-	# recruit_character = KOR_Kim_Kyusik
-	# recruit_character = KOR_Sin_Ikhee
-	# recruit_character = KOR_Cho_Soang
+		# recruit_character = KOR_Cho_Mansik
+		# recruit_character = KOR_Kim_Byeongro
+		# recruit_character = KOR_Baek_Namun
+		# recruit_character = KOR_Won_Sehun
+		# recruit_character = KOR_Chang_Deoksu
+		# recruit_character = KOR_Cho_Dongho
+		# recruit_character = KOR_Ho_Hon
+		
+		# recruit_character = KOR_Kim_Kyusik
+		# recruit_character = KOR_Sin_Ikhee
+		# recruit_character = KOR_Cho_Soang
 
-	# recruit_character = KOR_Song_Hoseong
-	# recruit_character = KOR_Oh_Kwangseon
-	# recruit_character = KOR_Kim_Wonbong
-	# recruit_character = KOR_Yoon_Seju
-	
-	# activate_advisor = KOR_Kim_Koo_sic
+		# recruit_character = KOR_Song_Hoseong
+		# recruit_character = KOR_Oh_Kwangseon
+		# recruit_character = KOR_Kim_Wonbong
+		# recruit_character = KOR_Yoon_Seju
+		
+		# activate_advisor = KOR_Kim_Koo_sic
+	#
+
+	KOR_Song_Byeongjo = { set_character_flag = KOR_flag_uijongwon_speaker }
+	KOR_Cha_Liseok = { set_character_flag = KOR_flag_uijongwon_deputy_speaker }
 #
 
 #안정도
@@ -130,6 +136,10 @@ country_event = {
 }
 			
 set_variable = { KPG_CHI_Relations = 44 }
+set_variable = { KPG_uijongwon_seats = 57 }
+set_variable = { KPG_uijongwon_enrolled = 8 }
+set_variable = { KPG_uijongwon_knp = 5 }
+set_variable = { KPG_uijongwon_kip = 3 }
 
 # set_variable = { KOR_kip_strength = 35 }
 # set_variable = { KOR_gmh_strength = 20 }

@@ -55,4 +55,8 @@ spriteTypes = {
 		name = "GFX_event_kor_lee_beomseok"
 		textureFile = "gfx/event_pictures/event_kor_lee_beomseok.png"
 	}
+	spriteType = {
+		name = "GFX_event_kor_song_beyongjo"
+		textureFile = "gfx/event_pictures/event_kor_song_beyongjo.png"
+	}
 }

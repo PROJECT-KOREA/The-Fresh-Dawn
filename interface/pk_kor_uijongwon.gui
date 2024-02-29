@@ -1,0 +1,443 @@
+guiTypes = {
+	### 버튼 ###
+	containerWindowType = {
+		name = "uijongwon_detail_button_ui"
+		position = { x = 0 y = 0 }
+		
+		buttonType = {
+			name = "uijongwon_detail_button"
+			position = { x = 445 y = -45 }
+			spriteType = "GFX_info_icon"
+			pdx_tooltip = "uijongwon_detail_button_tt"
+		}
+		
+		# instantTextboxType = { #직책명
+		# 	name = "cabinet_button_text"
+		# 	position = { x = -17 y = 7 }
+		# 	font = "hoi_18mbs"
+		# 	text = "내각 개요"
+		# 	maxWidth = 155
+		# 	maxHeight = 20
+		# 	format = center
+		# 	vertical_alignment = center
+		# 	allwaystransparent = yes
+		# }
+	}
+
+	# containerWindowType = {
+	# 	name = "kor_kpg_deccat_ui_window"
+	# 	position = { x = 540 y = 79 }
+	# 	size = { width = 1050 height = 400 }
+	# 	fade_time = 200
+	# 	fade_type = linear
+	# 	click_to_front = yes
+	# 	show_sound = menu_open_window
+		
+	# 	background = {
+	# 		name = "Background"
+	# 		quadTextureSprite = "GFX_tiled_plain_bg"
+	# 	}
+
+	# 	instantTextboxType = {
+	# 		name = "title"
+	# 		position = { x = 400 y = 40 }
+	# 		font = "pk_36"
+	# 		text = "kor_kpg_deccat_ui_title"
+	# 		format = center
+	# 		fixedsize = yes
+	# 		maxWidth = 250
+	# 	}		
+
+	# 	iconType = {
+	# 		name ="title_hanja"
+	# 		spriteType = "GFX_kpg_title_hanja"
+	# 		position = { x = 440 y = 80 }
+	# 		allwaystransparent = yes
+	# 	}
+		
+	# 	buttonType = {
+	# 		name = "close"
+	# 		spriteType = "GFX_closebutton"
+	# 		position = { x = 1005 y = 10 }
+	# 		clicksound = click_close
+	# 		pdx_tooltip = "닫기"
+	# 		shortcut = "ESCAPE"
+	# 	}
+
+	# 	containerWindowType = {
+	# 		name = "president_container"
+	# 		position = { x = 40 y = 150 }
+	# 		size = { width = 100% height = 400 }
+
+	# 		instantTextboxType = {
+	# 			name = "president_title"
+	# 			position = { x = 0  y = 0 }
+	# 			font = "pk_18"
+	# 			text = "president_title"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 129
+	# 		}
+			
+	# 		iconType = { # 초상화
+	# 			name = "president_portrait"
+	# 			position = { x = 6 y = 32 }
+	# 			spriteType = "GFX_leader_unknown"
+	# 			scale = 0.75
+	# 		}
+
+	# 		iconType = {
+	# 			name ="president_frame"
+	# 			spriteType = "GFX_pol_leader_frame"
+	# 			position = { x = 0 y = 20 }
+	# 			scale = 0.75
+	# 			allwaystransparent = yes
+	# 		}
+
+	# 		instantTextboxType = {
+	# 			name = "president_name"
+	# 			position = { x = 5  y = 188 }
+	# 			font = "pk_18"
+	# 			text = "president_name"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 120
+	# 		}
+	# 	}
+
+	# 	containerWindowType = {
+	# 		name = "secmin_container"
+	# 		position = { x = 180 y = 150 }
+				
+	# 		instantTextboxType = {
+	# 			name = "secmin_title"
+	# 			position = { x = 0  y = 0 }
+	# 			font = "pk_18"
+	# 			text = "내무부장"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 129
+	# 		}
+		
+	# 		iconType = { # 초상화
+	# 			name = "secmin_portrait"
+	# 			position = { x = 6 y = 32 }
+	# 			spriteType = "GFX_leader_unknown"
+	# 			scale = 0.75
+	# 		}
+
+	# 		iconType = {
+	# 			name = "secmin_frame"
+	# 			spriteType = "GFX_pol_leader_frame"
+	# 			position = { x = 0 y = 20 }
+	# 			scale = 0.75
+	# 			allwaystransparent = yes
+	# 		}
+
+	# 		instantTextboxType = {
+	# 			name = "secmin_name"
+	# 			position = { x = 5  y = 188 }
+	# 			font = "pk_18"
+	# 			text = "secmin_name"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 120
+	# 		}
+			
+	# 		# containerWindowType = {
+	# 		# 	name = "secmin_info_container"
+	# 		# 	position = { x = 124 y = 0 }
+	# 		# 	# size = { width = 105 height = 85 }
+
+	# 		# 	iconType = {
+	# 		# 		name = "secmin_frame"
+	# 		# 		spriteType = "GFX_cabinet_minister_bg"
+	# 		# 		position = { x = 0 y = -2 }
+	# 		# 	}
+				
+	# 		# 	instantTextboxType = {
+	# 		# 		name = "secmin_name"
+	# 		# 		position = { x = 15  y = 9 }
+	# 		# 		font = "pk_18"
+	# 		# 		text = "내무부장"
+	# 		# 		format = center
+	# 		# 		fixedsize = yes
+	# 		# 		maxWidth = 95
+	# 		# 	}
+				
+	# 		# 	instantTextboxType = {
+	# 		# 		name = "secmin_trait"
+	# 		# 		position = { x = 12  y = 88 }
+	# 		# 		font = "pk_18"
+	# 		# 		text = "국민통일주의자"
+	# 		# 		format = center
+	# 		# 		fixedsize = yes
+	# 		# 		maxWidth = 95
+	# 		# 	}
+				
+	# 		# 	instantTextboxType = {
+	# 		# 		name = "secmin_title"
+	# 		# 		position = { x = 12  y = 161 }
+	# 		# 		font = "pk_18"
+	# 		# 		text = "한국독립당"
+	# 		# 		format = center
+	# 		# 		fixedsize = yes
+	# 		# 		maxWidth = 95
+	# 		# 	}
+				
+	# 		# 	# instantTextboxType = {
+	# 		# 	# 	name = "secmin_status"
+	# 		# 	# 	position = { x = 12  y = 161 }
+	# 		# 	# 	font = "pk_18"
+	# 		# 	# 	text = "§G충성스러움§!"
+	# 		# 	# 	format = center
+	# 		# 	# 	fixedsize = yes
+	# 		# 	# 	maxWidth = 95
+	# 		# 	# }
+	# 		# }
+	# 	}
+
+	# 	containerWindowType = {
+	# 		name = "formin_container"
+	# 		position = { x = 320 y = 150 }
+				
+	# 		instantTextboxType = {
+	# 			name = "formin_title"
+	# 			position = { x = 0  y = 0 }
+	# 			font = "pk_18"
+	# 			text = "외무부장"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 129
+	# 		}
+		
+	# 		iconType = { # 초상화
+	# 			name = "formin_portrait"
+	# 			position = { x = 6 y = 32 }
+	# 			spriteType = "GFX_leader_unknown"
+	# 			scale = 0.75
+	# 		}
+
+	# 		iconType = {
+	# 			name = "formin_frame"
+	# 			spriteType = "GFX_pol_leader_frame"
+	# 			position = { x = 0 y = 20 }
+	# 			scale = 0.75
+	# 			allwaystransparent = yes
+	# 		}
+
+	# 		instantTextboxType = {
+	# 			name = "formin_name"
+	# 			position = { x = 5  y = 188 }
+	# 			font = "pk_18"
+	# 			text = "formin_name"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 120
+	# 		}
+	# 	}
+
+	# 	containerWindowType = {
+	# 		name = "ecomin_container"
+	# 		position = { x = 460 y = 150 }
+				
+	# 		instantTextboxType = {
+	# 			name = "ecomin_title"
+	# 			position = { x = 0  y = 0 }
+	# 			font = "pk_18"
+	# 			text = "재무부장"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 129
+	# 		}
+		
+	# 		iconType = { # 초상화
+	# 			name = "ecomin_portrait"
+	# 			position = { x = 6 y = 32 }
+	# 			spriteType = "GFX_leader_unknown"
+	# 			scale = 0.75
+	# 		}
+
+	# 		iconType = {
+	# 			name = "ecomin_frame"
+	# 			spriteType = "GFX_pol_leader_frame"
+	# 			position = { x = 0 y = 20 }
+	# 			scale = 0.75
+	# 			allwaystransparent = yes
+	# 		}
+
+	# 		instantTextboxType = {
+	# 			name = "ecomin_name"
+	# 			position = { x = 5  y = 188 }
+	# 			font = "pk_18"
+	# 			text = "ecomin_name"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 120
+	# 		}
+	# 	}
+
+	# 	containerWindowType = {
+	# 		name = "milmin_container"
+	# 		position = { x = 600 y = 150 }
+				
+	# 		instantTextboxType = {
+	# 			name = "milmin_title"
+	# 			position = { x = 0  y = 0 }
+	# 			font = "pk_18"
+	# 			text = "군무부장"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 129
+	# 		}
+		
+	# 		iconType = { # 초상화
+	# 			name = "milmin_portrait"
+	# 			position = { x = 6 y = 32 }
+	# 			spriteType = "GFX_leader_unknown"
+	# 			scale = 0.75
+	# 		}
+
+	# 		iconType = {
+	# 			name = "milmin_frame"
+	# 			spriteType = "GFX_pol_leader_frame"
+	# 			position = { x = 0 y = 20 }
+	# 			scale = 0.75
+	# 			allwaystransparent = yes
+	# 		}
+
+	# 		instantTextboxType = {
+	# 			name = "milmin_name"
+	# 			position = { x = 5  y = 188 }
+	# 			font = "pk_18"
+	# 			text = "milmin_name"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 120
+	# 		}
+	# 	}
+
+	# 	containerWindowType = {
+	# 		name = "jusmin_container"
+	# 		position = { x = 740 y = 150 }
+				
+	# 		instantTextboxType = {
+	# 			name = "jusmin_title"
+	# 			position = { x = 0  y = 0 }
+	# 			font = "pk_18"
+	# 			text = "법무부장"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 129
+	# 		}
+		
+	# 		iconType = { # 초상화
+	# 			name = "jusmin_portrait"
+	# 			position = { x = 6 y = 32 }
+	# 			spriteType = "GFX_leader_unknown"
+	# 			scale = 0.75
+	# 		}
+
+	# 		iconType = {
+	# 			name = "jusmin_frame"
+	# 			spriteType = "GFX_pol_leader_frame"
+	# 			position = { x = 0 y = 20 }
+	# 			scale = 0.75
+	# 			allwaystransparent = yes
+	# 		}
+
+	# 		instantTextboxType = {
+	# 			name = "jusmin_name"
+	# 			position = { x = 5  y = 188 }
+	# 			font = "pk_18"
+	# 			text = "jusmin_name"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 120
+	# 		}
+	# 	}
+
+	# 	containerWindowType = {
+	# 		name = "secretary_container"
+	# 		position = { x = 880 y = 150 }
+				
+	# 		instantTextboxType = {
+	# 			name = "secretary_title"
+	# 			position = { x = 0  y = 0 }
+	# 			font = "pk_18"
+	# 			text = "국무원비서장"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 129
+	# 		}
+		
+	# 		iconType = { # 초상화
+	# 			name = "secretary_portrait"
+	# 			position = { x = 6 y = 32 }
+	# 			spriteType = "GFX_leader_unknown"
+	# 			scale = 0.75
+	# 		}
+
+	# 		iconType = {
+	# 			name = "secretary_frame"
+	# 			spriteType = "GFX_pol_leader_frame"
+	# 			position = { x = 0 y = 20 }
+	# 			scale = 0.75
+	# 			allwaystransparent = yes
+	# 		}
+
+	# 		instantTextboxType = {
+	# 			name = "secretary_name"
+	# 			position = { x = 5  y = 188 }
+	# 			font = "pk_18"
+	# 			text = "secretary_name"
+	# 			format = center
+	# 			fixedsize = yes
+	# 			maxWidth = 120
+	# 		}
+	# 	}
+	# }
+	
+	# containerWindowType = {
+	# 	name = "kor_kpg_deccat_ui_window"
+	# 	position = { x = 0 y = 0 }
+	# 	size = { width = 100% height = 10 }
+		
+	# 	# containerWindowType = {
+	# 	# 	name = "president_container"
+	# 	# 	position = { x = 0 y = 0 }
+	# 	# 	size = { width = 100% height = 400 }
+
+	# 	# 	instantTextboxType = {
+	# 	# 		name = "president_title"
+	# 	# 		position = { x = 9 y = -5 }
+	# 	# 		font = "pk_22"
+	# 	# 		text = "국무회의 주석"
+	# 	# 		format = center
+	# 	# 		fixedsize = yes
+	# 	# 		maxWidth = 500
+	# 	# 	}
+					
+	# 	# 	containerWindowType = {
+	# 	# 		name = "president_portrait_container"
+	# 	# 		position = { x = 193 y = 30 }
+	# 	# 		# size = { width = 100% height = 100% }
+			
+	# 	# 		iconType = { # 초상화
+	# 	# 			name = "president_portrait"
+	# 	# 			position = { x = 6 y = 11 }
+	# 	# 			spriteType = "GFX_leader_unknown"
+	# 	# 			# scale = 0.75
+	# 	# 		}
+
+	# 	# 		iconType = {
+	# 	# 			name ="president_frame"
+	# 	# 			spriteType = "GFX_pol_leader_frame"
+	# 	# 			position = { x = 0 y = 0 }
+	# 	# 			# scale = 0.75
+	# 	# 			allwaystransparent = yes
+	# 	# 		}
+	# 	# 	}
+	# 	# }
+	# }
+}

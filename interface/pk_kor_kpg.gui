@@ -27,7 +27,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "kor_kpg_deccat_ui_window"
 		position = { x = 540 y = 79 }
-		size = { width = 910 height = 660 }
+		size = { width = 1050 height = 400 }
 		fade_time = 200
 		fade_type = linear
 		click_to_front = yes
@@ -40,18 +40,25 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "title"
-			position = { x = 10 y = 30 }
+			position = { x = 400 y = 40 }
 			font = "pk_36"
 			text = "kor_kpg_deccat_ui_title"
 			format = center
 			fixedsize = yes
-			maxWidth = 890
+			maxWidth = 250
+		}		
+
+		iconType = {
+			name ="title_hanja"
+			spriteType = "GFX_kpg_title_hanja"
+			position = { x = 440 y = 80 }
+			allwaystransparent = yes
 		}
 		
 		buttonType = {
 			name = "close"
 			spriteType = "GFX_closebutton"
-			position = { x = 865 y = 10 }
+			position = { x = 1005 y = 10 }
 			clicksound = click_close
 			pdx_tooltip = "닫기"
 			shortcut = "ESCAPE"
@@ -59,46 +66,48 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "president_container"
-			position = { x = 369 y = 100 }
+			position = { x = 40 y = 150 }
 			size = { width = 100% height = 400 }
 
 			instantTextboxType = {
 				name = "president_title"
 				position = { x = 0  y = 0 }
-				font = "pk_22"
+				font = "pk_18"
 				text = "president_title"
 				format = center
 				fixedsize = yes
-				maxWidth = 172
+				maxWidth = 129
 			}
 			
 			iconType = { # 초상화
 				name = "president_portrait"
-				position = { x = 8 y = 36 }
+				position = { x = 6 y = 32 }
 				spriteType = "GFX_leader_unknown"
+				scale = 0.75
 			}
 
 			iconType = {
 				name ="president_frame"
 				spriteType = "GFX_pol_leader_frame"
-				position = { x = 0 y = 25 }
-				# allwaystransparent = yes
+				position = { x = 0 y = 20 }
+				scale = 0.75
+				allwaystransparent = yes
 			}
 
 			instantTextboxType = {
 				name = "president_name"
-				position = { x = 11  y = 253 }
+				position = { x = 5  y = 188 }
 				font = "pk_18"
 				text = "president_name"
 				format = center
 				fixedsize = yes
-				maxWidth = 150
+				maxWidth = 120
 			}
 		}
 
 		containerWindowType = {
 			name = "secmin_container"
-			position = { x = 40 y = 410 }
+			position = { x = 180 y = 150 }
 				
 			instantTextboxType = {
 				name = "secmin_title"
@@ -190,7 +199,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "formin_container"
-			position = { x = 180 y = 410 }
+			position = { x = 320 y = 150 }
 				
 			instantTextboxType = {
 				name = "formin_title"
@@ -230,7 +239,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "ecomin_container"
-			position = { x = 320 y = 410 }
+			position = { x = 460 y = 150 }
 				
 			instantTextboxType = {
 				name = "ecomin_title"
@@ -270,7 +279,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "milmin_container"
-			position = { x = 460 y = 410 }
+			position = { x = 600 y = 150 }
 				
 			instantTextboxType = {
 				name = "milmin_title"
@@ -310,7 +319,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "jusmin_container"
-			position = { x = 600 y = 410 }
+			position = { x = 740 y = 150 }
 				
 			instantTextboxType = {
 				name = "jusmin_title"
@@ -350,7 +359,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "secretary_container"
-			position = { x = 740 y = 410 }
+			position = { x = 880 y = 150 }
 				
 			instantTextboxType = {
 				name = "secretary_title"

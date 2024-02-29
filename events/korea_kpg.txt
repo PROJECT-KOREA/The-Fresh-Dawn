@@ -1,4 +1,6 @@
 ﻿add_namespace = kor_kpg
+add_namespace = kor_kpg_newspaper
+add_namespace = kor_kpg_hancheong
 add_namespace = kor_kpg_focus
 add_namespace = kor_kpg_kia
 
@@ -17,6 +19,71 @@ country_event = { # 대한민국 18년의 아침
 		add_stability = 0.015
 	}
 }
+
+country_event = { # 의원 보선에 관한 건
+	id = kor_kpg.2
+	title = kor_kpg.2.t
+	desc = kor_kpg.2.desc
+
+	picture = GFX_event_kor_song_beyongjo
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = kor_kpg.2.a
+		# add_stability = 0.015
+	}
+}
+
+country_event = { # 의원 보선에 관한 건
+	id = kor_kpg.3
+	title = kor_kpg.3.t
+	desc = kor_kpg.3.desc
+
+	picture = GFX_event_kor_song_beyongjo
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = kor_kpg.3.a
+		# add_stability = 0.015
+	}
+}
+
+### 한청 ###
+	country_event = {
+		id = kor_kpg_hancheong.11
+		title = kor_kpg_hancheong.11.t
+		desc = kor_kpg_hancheong.11.desc
+
+		picture = GFX_event_kor_kpg_1936
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_hancheong.11.a
+			hidden_effect = { country_event = { id = kor_kpg_hancheong.12 } }
+		}
+		option = { name = kor_kpg_hancheong.11.b }
+	}
+	country_event = {
+		id = kor_kpg_hancheong.12
+		title = kor_kpg_hancheong.12.t
+		desc = kor_kpg_hancheong.12.desc
+
+		picture = GFX_event_kor_kpg_1936
+
+		is_triggered_only = yes
+		fire_only_once = yes
+
+		option = {
+			name = kor_kpg_hancheong.12.b
+		}
+	}	
+#
 
 ### FOCUS ###
 	country_event = { # 머나먼 이국 땅에서

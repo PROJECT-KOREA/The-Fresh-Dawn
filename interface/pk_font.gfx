@@ -121,7 +121,13 @@ bitmapfonts = {
 	# 나눔명조 #
 		bitmapfont = {
 			name = "mb19"
-			path = "gfx/fonts/mb19"
+			fontfiles = {
+				"gfx/fonts/mb19"
+				"gfx/fonts/nt_serif_tc_19_1"
+				"gfx/fonts/nt_serif_tc_19_2"
+				"gfx/fonts/nt_serif_tc_19_3"
+				"gfx/fonts/nt_serif_tc_19_4"
+			}
 			color = 0xff000000
 		}
 		bitmapfont = {
