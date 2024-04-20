@@ -1,6 +1,6 @@
 state = {
-	id = 939
-	name = "STATE_939" #황해도
+	id = 974
+	name = "STATE_974" #황해도
 	manpower = 1640000
 
 	state_category = town

@@ -1,6 +1,6 @@
 state = {
-	id = 938
-	name = "STATE_938" #평안남도
+	id = 973
+	name = "STATE_973" #평안남도
 	manpower = 1489000
 	state_category = large_city
 	history = {
@@ -15,13 +15,13 @@ state = {
 			air_base = 2 #공군기지
 			
 			#해군기지
-			13277 = { naval_base = 1 } #진남포
+			13367 = { naval_base = 1 } #진남포
 		}
 		victory_points = { 7171 10 } #평양(헤이죠)
-		victory_points = { 13277 2 } #남포(진난포)
+		victory_points = { 13367 2 } #남포(진난포)
 	}
 
 	provinces = {
-		3912 4052 7171 9790 11770 13275 13276 13277
+		3912 4052 7171 9790 11770 13365 13366 13367
 	}	
 }

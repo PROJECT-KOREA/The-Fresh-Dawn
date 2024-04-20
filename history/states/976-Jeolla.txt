@@ -1,6 +1,6 @@
 state = {
-	id = 941
-	name = "STATE_941" #전라북도
+	id = 976
+	name = "STATE_976" #전라북도
 	manpower = 4300000
 
 	state_category = town	
@@ -23,12 +23,12 @@ state = {
 		}
 
 		# victory_points = { 7175 10 } #군산(군산)
-		victory_points = { 13287 3 } #전주(젠슈)
-		victory_points = { 13289 5 } #광주(코슈)
-		victory_points = { 13290 2 } #목포(모쿠호)
+		victory_points = { 13377 3 } #전주(젠슈)
+		victory_points = { 13379 5 } #광주(코슈)
+		victory_points = { 13380 2 } #목포(모쿠호)
 	}
 
 	provinces = {
-		1177 4126 10085 10110 11948 12085 13287 13288 13289 13290
+		1177 4126 10085 10110 11948 12085 13377 13378 13379 13380
 	}
 }

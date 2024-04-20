@@ -1,6 +1,6 @@
 state = {
-	id = 936
-	name = "STATE_936" #함경남도
+	id = 971
+	name = "STATE_971" #함경남도
 	manpower = 1700000
 
 	state_category = large_town
@@ -19,7 +19,7 @@ state = {
 			industrial_complex = 1
 		}
 
-		victory_points = { 13274 5 } #함흥(칸코)
+		victory_points = { 13364 5 } #함흥(칸코)
 		victory_points = { 848 5 } #원산(겐잔)
 	}
 
@@ -29,6 +29,6 @@ state = {
 	}
 	
 	provinces = {
-		848 852 3803 3852 3904 3981 6928 9899 10083 11878 13274
+		848 852 3803 3852 3904 3981 6928 9899 10083 11878 13364
 	}	
 }

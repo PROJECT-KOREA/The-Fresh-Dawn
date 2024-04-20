@@ -1,6 +1,6 @@
 state = {
-	id = 945
-	name = "STATE_945" # 미나미 킨키
+	id = 980
+	name = "STATE_980" # 미나미 킨키
 	manpower = 3394000
 	state_category = city
 	history = {

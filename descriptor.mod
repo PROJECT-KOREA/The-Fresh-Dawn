@@ -9,6 +9,6 @@ dependencies={
 	"Korean Language"
 }
 replace_path="gfx/loadingscreens"
-name="PROJECT KOREA: WAR OF INDEPENDENCE"
-supported_version="1.13.*"
+name="PROJECT KOREA: THE FRESH DAWN"
+supported_version="1.14.*"
 remote_file_id="2264494250"
