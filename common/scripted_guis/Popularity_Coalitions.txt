@@ -15,14 +15,38 @@ scripted_gui = {
 			has_government = communism
 		}
 	}
-	CBTS_popularity_gui_soc_icon = {
-		window_name = "popsoc"
+	CBTS_popularity_gui_dem_icon = {
+		window_name = "popdem"
 		context_type = player_context
 		parent_window_token = top_bar
 		visible = {
-			has_government = n_socialism
+			has_government = democratic
 		}
 	}
+	CBTS_popularity_gui_neu_icon = {
+		window_name = "popneu"
+		context_type = player_context
+		parent_window_token = top_bar
+		visible = {
+			has_government = neutrality
+		}
+	}
+	CBTS_popularity_gui_fas_icon = {
+		window_name = "popfas"
+		context_type = player_context
+		parent_window_token = top_bar
+		visible = {
+			has_government = fascism
+		}
+	}
+	# CBTS_popularity_gui_soc_icon = {
+	# 	window_name = "popsoc"
+	# 	context_type = player_context
+	# 	parent_window_token = top_bar
+	# 	visible = {
+	# 		has_government = n_socialism
+	# 	}
+	# }
 	# CBTS_popularity_gui_autsoc_icon = {
 	# 	window_name = "popautsoc"
 	# 	context_type = player_context
@@ -71,14 +95,6 @@ scripted_gui = {
 	# 		has_government = liberal_conservatism
 	# 	}
 	# }
-	CBTS_popularity_gui_dem_icon = {
-		window_name = "popdem"
-		context_type = player_context
-		parent_window_token = top_bar
-		visible = {
-			has_government = democratic
-		}
-	}
 	# CBTS_popularity_gui_natcon_icon = {
 	# 	window_name = "popnatcon"
 	# 	context_type = player_context
@@ -87,14 +103,6 @@ scripted_gui = {
 	# 		has_government = national_conservatism
 	# 	}
 	# }
-	CBTS_popularity_gui_neu_icon = {
-		window_name = "popneu"
-		context_type = player_context
-		parent_window_token = top_bar
-		visible = {
-			has_government = neutrality
-		}
-	}
 	# CBTS_popularity_gui_autdes_icon = {
 	# 	window_name = "popautdes"
 	# 	context_type = player_context
@@ -103,14 +111,6 @@ scripted_gui = {
 	# 		has_government = neutrality
 	# 	}
 	# }
-	CBTS_popularity_gui_fas_icon = {
-		window_name = "popfas"
-		context_type = player_context
-		parent_window_token = top_bar
-		visible = {
-			has_government = fascism
-		}
-	}
 
 
 	CBTS_popularity_gui_com_frame = {

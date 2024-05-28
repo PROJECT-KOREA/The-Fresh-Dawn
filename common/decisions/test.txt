@@ -1,4 +1,25 @@
 PK_debug = {
+	Debug_kpg = {
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			# log = "[GetDateText]: [Root.GetName]: Decision ENG_ShowHide_Pre_ECW"
+			KOR = {
+				transfer_state = 525
+				transfer_state = 527
+				transfer_state = 970
+				transfer_state = 971
+				transfer_state = 972
+				transfer_state = 973
+				transfer_state = 974
+				transfer_state = 975
+				transfer_state = 976
+				transfer_state = 977
+				transfer_state = 978
+			}
+			KOR_reset_state_names = yes
+			KOR_reset_province_names = yes
+		}
+	}
 
 	Debug_KIA_dec_toggle = {
 		ai_will_do = { factor = 0 }

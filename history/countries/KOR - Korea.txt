@@ -122,7 +122,7 @@ set_politics = {
 #지지도
 set_popularities = {
 	democratic = 14
-	n_socialism = 20
+	communism = 20
 	neutrality = 66
 }
 

@@ -15,7 +15,7 @@
 characters = {
 	KOR_None = { # 더미
 		name = "없음"
-		country_leader = { ideology = leninism }
+		# country_leader = { ideology = leninism }
 		country_leader = { ideology = fascism_ideology }
 	}
 	### 임시정부 ###
@@ -28,7 +28,7 @@ characters = {
 				}
 			}
 			country_leader = { # 국가 지도자
-				ideology = oligarchism # 권위민주주의
+				ideology = kpg_collective_leadership # 권위민주주의
 				traits = { pillar_of_pg }
 			}
 		}
@@ -86,7 +86,7 @@ characters = {
 			advisor = {
 				slot = political_advisor
 				idea_token = KOR_Cho_Seonghwan_advisor
-				available = { has_completed_focus = KOR_focus_KIA }
+				# available = { has_completed_focus = KOR_focus_KIA }
 				traits = { veteran_minister }
 				cost = 150
 			}
@@ -102,7 +102,7 @@ characters = {
 				slot = political_advisor
 				idea_token = KOR_Cha_Liseok_advisor
 				# available = { has_completed_focus = KOR_focus_KIA }
-				traits = { # }
+				traits = {}
 				cost = 150
 			}
 		}
@@ -117,13 +117,13 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = liberalism
+				ideology = conservatism
 				traits = {  }
 			}
 			advisor = {
 				slot = political_advisor
 				idea_token = KOR_Cho_Soang_advisor
-				available = { has_completed_focus = KOR_focus_meet_the_cho }
+				# available = { has_completed_focus = KOR_focus_meet_the_cho }
 				traits = { PK_samgyun_theorist }
 				cost = 150
 			}
@@ -139,7 +139,7 @@ characters = {
 			advisor = {
 				slot = political_advisor
 				idea_token = KOR_Syngman_Rhee_advisor
-				available = { has_completed_focus = KOR_focus_occident_diplomacy_committee }
+				# available = { has_completed_focus = KOR_focus_occident_diplomacy_committee }
 				traits = { smooth_talking_charmer }
 				cost = 150
 				# can_be_fired = no
@@ -154,7 +154,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = n_socialism_ideology
+				ideology = left_wing_nationalism
 				traits = {  }
 			}
 			advisor = {
@@ -290,4 +290,5 @@ characters = {
 			# }
 		}
 	#
+	}
 }

@@ -34,16 +34,49 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "popsoc"
+		name = "popdem"
 		position = { x = 175 y = 5 }
 		iconType ={
-			name = "popsoc_icon"
-			spriteType = "GFX_ideology_n_socialism_group"
+			name = "popdem_icon"
+			spriteType = "GFX_ideology_democratic_group"
 			position = { x = 1 y = 2 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.3
 		}
 	}
+	containerWindowType = {
+		name = "popneu"
+		position = { x = 175 y = 5 }
+		iconType ={
+			name = "popneu_icon"
+			spriteType = "GFX_ideology_neutrality_group"
+			position = { x = 1 y = 2 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.3
+		}
+	}
+	containerWindowType = {
+		name = "popfas"
+		position = { x = 175 y = 5 }
+		iconType ={
+			name = "popfas_icon"
+			spriteType = "GFX_ideology_fascism_group"
+			position = { x = 1 y = 2 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.3
+		}
+	}
+	# containerWindowType = {
+	# 	name = "popsoc"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "popsoc_icon"
+	# 		spriteType = "GFX_ideology_n_socialism_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
 	# containerWindowType = {
 	# 	name = "popradsoc"
 	# 	position = { x = 175 y = 5 }
@@ -99,17 +132,6 @@ guiTypes = {
 	# 		scale = 0.3
 	# 	}
 	# }
-	containerWindowType = {
-		name = "popdem"
-		position = { x = 175 y = 5 }
-		iconType ={
-			name = "popdem_icon"
-			spriteType = "GFX_ideology_democratic_group"
-			position = { x = 1 y = 2 }
-			Orientation = "UPPER_LEFT"
-			scale = 0.3
-		}
-	}
 	# containerWindowType = {
 	# 	name = "popnatcon"
 	# 	position = { x = 175 y = 5 }
@@ -121,17 +143,6 @@ guiTypes = {
 	# 		scale = 0.3
 	# 	}
 	# }
-	containerWindowType = {
-		name = "popneu"
-		position = { x = 175 y = 5 }
-		iconType ={
-			name = "popneu_icon"
-			spriteType = "GFX_ideology_neutrality_group"
-			position = { x = 1 y = 2 }
-			Orientation = "UPPER_LEFT"
-			scale = 0.3
-		}
-	}
 	# containerWindowType = {
 	# 	name = "popautdes"
 	# 	position = { x = 175 y = 5 }
@@ -143,15 +154,4 @@ guiTypes = {
 	# 		scale = 0.3
 	# 	}
 	# }
-	containerWindowType = {
-		name = "popfas"
-		position = { x = 175 y = 5 }
-		iconType ={
-			name = "popfas_icon"
-			spriteType = "GFX_ideology_fascism_group"
-			position = { x = 1 y = 2 }
-			Orientation = "UPPER_LEFT"
-			scale = 0.3
-		}
-	}
 }

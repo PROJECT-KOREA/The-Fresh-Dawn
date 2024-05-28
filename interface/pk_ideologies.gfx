@@ -19,10 +19,18 @@ spriteTypes = {
 	}
 
 	#권위주의
-	spriteType = {
-		name = "GFX_ideology_neutrality_group"
-		texturefile = "gfx/interface/ideologies/aut_democracy.dds"
-	}
+		# 권위주의 그룹
+		spriteType = {
+			name = "GFX_ideology_neutrality_group"
+			texturefile = "gfx/interface/ideologies/aut_democracy.dds"
+		}
+		
+		# 대한민국 임시정부
+		spriteType = {
+			name = "GFX_ideology_kpg_collective_leadership"
+			texturefile = "gfx/interface/ideologies/kpg_collective_leadership.png"
+		}
+	#
 
 	#파시즘
 	spriteType = {

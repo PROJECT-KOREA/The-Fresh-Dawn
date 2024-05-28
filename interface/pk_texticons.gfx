@@ -200,217 +200,217 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_bookmark_USA"
-		texturefile = "gfx/texticons/bookmark_USA.dds"
+		texturefile = "gfx/texticons/bookmark_USA.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_ENG"
-		texturefile = "gfx/texticons/bookmark_ENG.dds"
+		texturefile = "gfx/texticons/bookmark_ENG.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_FRA"
-		texturefile = "gfx/texticons/bookmark_FRA.dds"
+		texturefile = "gfx/texticons/bookmark_FRA.png"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_bookmark_GER"
-		texturefile = "gfx/texticons/bookmark_GER.dds"
+		texturefile = "gfx/texticons/bookmark_GER.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_ITA"
-		texturefile = "gfx/texticons/bookmark_ITA.dds"
+		texturefile = "gfx/texticons/bookmark_ITA.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_CHI"
-		texturefile = "gfx/texticons/bookmark_CHI.dds"
+		texturefile = "gfx/texticons/bookmark_CHI.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_JAP"
-		texturefile = "gfx/texticons/bookmark_JAP.dds"
+		texturefile = "gfx/texticons/bookmark_JAP.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_SOV"
-		texturefile = "gfx/texticons/bookmark_SOV.dds"
+		texturefile = "gfx/texticons/bookmark_SOV.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_MEX"
-		texturefile = "gfx/texticons/bookmark_MEX.dds"
+		texturefile = "gfx/texticons/bookmark_MEX.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_CAN"
-		texturefile = "gfx/texticons/bookmark_CAN.dds"
+		texturefile = "gfx/texticons/bookmark_CAN.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_RAJ"
-		texturefile = "gfx/texticons/bookmark_RAJ.dds"
+		texturefile = "gfx/texticons/bookmark_RAJ.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_AST"
-		texturefile = "gfx/texticons/bookmark_AST.dds"
+		texturefile = "gfx/texticons/bookmark_AST.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_NZL"
-		texturefile = "gfx/texticons/bookmark_NZL.dds"
+		texturefile = "gfx/texticons/bookmark_NZL.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_HOL"
-		texturefile = "gfx/texticons/bookmark_HOL.dds"
+		texturefile = "gfx/texticons/bookmark_HOL.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_POL"
-		texturefile = "gfx/texticons/bookmark_POL.dds"
+		texturefile = "gfx/texticons/bookmark_POL.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_CZE"
-		texturefile = "gfx/texticons/bookmark_CZE.dds"
+		texturefile = "gfx/texticons/bookmark_CZE.png"
 		legacy_lazy_load = no
 	}	
 
 	spriteType = {
 		name = "GFX_bookmark_SPR"
-		texturefile = "gfx/texticons/bookmark_SPR.dds"
+		texturefile = "gfx/texticons/bookmark_SPR.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_HUN"
-		texturefile = "gfx/texticons/bookmark_HUN.dds"
+		texturefile = "gfx/texticons/bookmark_HUN.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_ROM"
-		texturefile = "gfx/texticons/bookmark_ROM.dds"
+		texturefile = "gfx/texticons/bookmark_ROM.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_BUL"
-		texturefile = "gfx/texticons/bookmark_BUL.dds"
+		texturefile = "gfx/texticons/bookmark_BUL.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_POR"
-		texturefile = "gfx/texticons/bookmark_POR.dds"
+		texturefile = "gfx/texticons/bookmark_POR.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_SWI"
-		texturefile = "gfx/texticons/bookmark_SWI.dds"
+		texturefile = "gfx/texticons/bookmark_SWI.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_GRE"
-		texturefile = "gfx/texticons/bookmark_GRE.dds"
+		texturefile = "gfx/texticons/bookmark_GRE.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_YUG"
-		texturefile = "gfx/texticons/bookmark_YUG.dds"
+		texturefile = "gfx/texticons/bookmark_YUG.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_ETH"
-		texturefile = "gfx/texticons/bookmark_ETH.dds"
+		texturefile = "gfx/texticons/bookmark_ETH.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_KOR"
-		texturefile = "gfx/texticons/bookmark_KOR.dds"
+		texturefile = "gfx/texticons/bookmark_KOR.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_PRC"
-		texturefile = "gfx/texticons/bookmark_PRC.dds"
+		texturefile = "gfx/texticons/bookmark_PRC.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_SHX"
-		texturefile = "gfx/texticons/bookmark_SHX.dds"
+		texturefile = "gfx/texticons/bookmark_SHX.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_GXC"
-		texturefile = "gfx/texticons/bookmark_GXC.dds"
+		texturefile = "gfx/texticons/bookmark_GXC.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_MAN"
-		texturefile = "gfx/texticons/bookmark_MAN.dds"
+		texturefile = "gfx/texticons/bookmark_MAN.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_EHB"
-		texturefile = "gfx/texticons/bookmark_EHB.dds"
+		texturefile = "gfx/texticons/bookmark_EHB.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_MEN"
-		texturefile = "gfx/texticons/bookmark_MEN.dds"
+		texturefile = "gfx/texticons/bookmark_MEN.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_EST"
-		texturefile = "gfx/texticons/bookmark_EST.dds"
+		texturefile = "gfx/texticons/bookmark_EST.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_LAT"
-		texturefile = "gfx/texticons/bookmark_LAT.dds"
+		texturefile = "gfx/texticons/bookmark_LAT.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_LIT"
-		texturefile = "gfx/texticons/bookmark_LIT.dds"
+		texturefile = "gfx/texticons/bookmark_LIT.png"
 		legacy_lazy_load = no
 	}
 
 	spriteType = {
 		name = "GFX_bookmark_TUR"
-		texturefile = "gfx/texticons/bookmark_TUR.dds"
+		texturefile = "gfx/texticons/bookmark_TUR.png"
 		legacy_lazy_load = no
 	}
 }

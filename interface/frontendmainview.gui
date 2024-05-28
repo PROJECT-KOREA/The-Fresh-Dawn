@@ -33,8 +33,8 @@ guiTypes = {
 		
 		iconType = {
 			name ="frontend_game_logo"
-			spriteType = "GFX_frontend_game_logo"
-			position = { x = -1000 y = 100 }
+			spriteType = "GFX_frontend_dev_logo"
+			position = { x = 50 y = 50 }
 		}
 	}
 
@@ -70,19 +70,13 @@ guiTypes = {
 			quadTextureSprite ="achievements"
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
-
-		iconType = {
-			name ="frontend_dev_logo"
-			spriteType = "GFX_frontend_dev_logo"
-			position = { x = -90 y = 40 }
-		}
 		
-		# iconType =
-		# {
-		# 	name ="pdx_int_logo"
-		# 	spriteType = "GFX_pdx_int_logo"
-		# 	position = { x= 135 y = 15 }
-		# }
+		iconType = {
+			name ="frontend_game_logo"
+			spriteType = "GFX_version"
+			position = { x= -300 y = 100 }
+			pdx_tooltip = version_tooltip
+		}
 	}
 
 	### SINGLE PLAYER MENU
@@ -201,9 +195,30 @@ guiTypes = {
 			position = { x = 83 y = -4 }
 		}
 
+		iconType = {
+			name ="GFX_fronticons_sp"
+			spriteType = "GFX_fronticons_sp"
+			position = { x = 91 y = 8 }
+			pdx_tooltip = singleplay_tooltip
+		}
+
+		iconType = {
+			name ="GFX_fronticons_mp"
+			spriteType = "GFX_fronticons_mp"
+			position = { x = 402 y = 8 }
+			pdx_tooltip = multiplay_tooltip
+		}
+
+		iconType = {
+			name ="GFX_fronticons_end"
+			spriteType = "GFX_fronticons_end"
+			position = { x = 713 y = 8 }
+			pdx_tooltip = exit_tooltip
+		}
+
 		instantTextBoxType = {
 			name ="version_label"
-			position = { x = 510 y = -30 }
+			position = { x = 99999 y = -30 }
 			textureFile = ""
 			font = "aldrich_24_outline_g"
 			borderSize = { x = 0 y = 0 }
@@ -253,10 +268,10 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 		
-		@warn_icon_x = 378
+		@warn_icon_x = 100
 		iconType = {
 			name = "single_player_button_warn"
-			position = { x = @warn_icon_x y = 8 }
+			position = { x = @warn_icon_x y = 500 }
 			spriteType = "GFX_missing_dlc_warning_sign"
 		}
 

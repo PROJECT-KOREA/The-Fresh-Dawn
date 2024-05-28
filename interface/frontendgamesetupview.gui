@@ -837,7 +837,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_leader_unknown"
 			position = { x = 249 y = 497 }
 			scale=0.65
-			rotation=-0.04
 		}
 
 		iconType = {
@@ -845,6 +844,7 @@ guiTypes = {
 			spriteType = "GFX_minor_portrait_overlay"
 			position = { x = 240 y = 488 }
 			scale=0.945
+			rotation = 0.05
 		}
 
 

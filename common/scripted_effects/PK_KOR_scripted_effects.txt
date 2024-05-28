@@ -422,20 +422,17 @@ KOR_add_equipments_to_stockplie = {
 }
 
 KOR_reset_state_names = {
-	909 = { set_state_name = "함경북도" }
-	910 = { set_state_name = "함경남도" }
-	911 = { set_state_name = "평안북도" }
-	912 = { set_state_name = "평안남도" }
-	913 = { set_state_name = "황해도" }
-	525 = { set_state_name = "경기도" }
-	527 = { set_state_name = "강원도" }
-	914 = { set_state_name = "충청북도" }
-	915 = { set_state_name = "충청남도" }
-	916 = { set_state_name = "경상북도" }
-	917 = { set_state_name = "경상남도" }
-	918 = { set_state_name = "전라북도" }
-	919 = { set_state_name = "전라남도" }
-	920 = { set_state_name = "제주도" }
+	525 = { set_state_name = "경기" }
+	527 = { set_state_name = "강원" }
+	970 = { set_state_name = "함북" }
+	971 = { set_state_name = "함남" }
+	972 = { set_state_name = "평북" }
+	973 = { set_state_name = "평남" }
+	974 = { set_state_name = "황해" }
+	975 = { set_state_name = "충청" }
+	976 = { set_state_name = "전라" }
+	977 = { set_state_name = "경북" }
+	978 = { set_state_name = "경남" }
 }
 
 KOR_reset_province_names = {
@@ -492,7 +489,7 @@ KOR_reset_province_names = {
 		name = "진남포"
 	}
 	set_province_name = {
-		id = 13277
+		id = 7171
 		name = "평양"
 	}
 	set_province_name = {

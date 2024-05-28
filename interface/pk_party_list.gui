@@ -28,13 +28,6 @@
 	# @Y_FAS = 292
 	# @Y_FAS1 = 290
 
-	@X_FRAME = 338
-
-	@Y_COM2 = 146
-	@Y_AUTSOC2 = 162
-	@Y_SOCCON2 = 178
-	@Y_AUTDEM2 = 194
-	@Y_FAS2 = 210
 	# @Y_RADSOC2 = 178
 	# @Y_SOCDEM2 = 194
 	# @Y_SOCLIB2 = 210
@@ -526,11 +519,17 @@ guiTypes = {
 		# 		pdx_tooltip = "fas_desc"
 		# 	}
 	# }
+	@X_FRAME = 338
+
+	@Y_COM = 146
+	@Y_DEM = 162
+	@Y_AUT = 178
+	@Y_FAS = 194
 
 	#Frames in countrypoliticsview
 	containerWindowType = {
 		name = "framecom"
-		position = { x = @X_FRAME y = @Y_COM2 }
+		position = { x = @X_FRAME y = @Y_COM }
 		iconType ={
 			name = "framecom_icon"
 			spriteType = "GFX_party_background"
@@ -541,20 +540,8 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "framesoc"
-		position = { x = @X_FRAME y = @Y_AUTSOC2 }
-		iconType ={
-			name = "framesoc_icon"
-			spriteType = "GFX_party_background"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "framesoc_tooltip"
-			scale = 1
-		}
-	}
-	containerWindowType = {
 		name = "framedem"
-		position = { x = @X_FRAME y = @Y_SOCCON2 }
+		position = { x = @X_FRAME y = @Y_DEM }
 		iconType ={
 			name = "framedem_icon"
 			spriteType = "GFX_party_background"
@@ -566,7 +553,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "frameneu"
-		position = { x = @X_FRAME y = @Y_AUTDEM2 }
+		position = { x = @X_FRAME y = @Y_AUT }
 		iconType ={
 			name = "frameautdes_icon"
 			spriteType = "GFX_party_background"
@@ -578,7 +565,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "framefas"
-		position = { x = @X_FRAME y = @Y_FAS2 }
+		position = { x = @X_FRAME y = @Y_FAS }
 		iconType ={
 			name = "framefas_icon"
 			spriteType = "GFX_party_background"
