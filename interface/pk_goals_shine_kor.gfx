@@ -1,10 +1,10 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_focus_korean_youth_vanguard_shine"
-		texturefile = "gfx/interface/goals/KOR/focus_korean_youth_vanguard.png"
+		name = "GFX_focus_knp_youth_shine"
+		texturefile = "gfx/interface/goals/KOR/focus_knp_youth.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KOR/focus_korean_youth_vanguard.png"
+			animationmaskfile = "gfx/interface/goals/KOR/focus_knp_youth.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -17,7 +17,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/KOR/focus_korean_youth_vanguard.png"
+			animationmaskfile = "gfx/interface/goals/KOR/focus_knp_youth.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

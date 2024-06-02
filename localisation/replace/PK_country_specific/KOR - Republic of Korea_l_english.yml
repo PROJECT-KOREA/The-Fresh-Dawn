@@ -157,7 +157,7 @@
 ###############
 ##### MIO #####
 ###############
-  KOR_KIA_design_bureau_organization: "광복군 병기설계국"
+  KOR_KIA_design_bureau_organization: "군사위원회 병기설계국"
 #
 
 ############################
@@ -166,25 +166,25 @@
   KOR_idea_firepower_supremacy: "화력지상주의"
   KOR_idea_firepower_supremacy_desc: "강력한 화력을 숭상하는 것은 우리 민족의 유구한 전통이며, 이는 지금도 변함없는 사실입니다."
   KOR_idea_government_in_exile: "망명정부"
-  KOR_idea_government_in_exile_1_desc: "우리는 일본 제국의 감시와 탄압을 피해 중국에서 임시정부를 조직하여 활동하고 있습니다."
-  KOR_idea_kmt_support_1: "국민정부의 지원"
+  KOR_idea_government_in_exile_1_desc: "우리는 일제의 감시와 탄압을 피해 중국에서 임시정부를 조직하여 활동하고 있습니다."
+  KOR_idea_kmt_support_1: "중국의 재정적 지원"
   KOR_idea_kmt_support_1_desc: ""
-  KOR_idea_party_legitimacy_1: "당의 정통성: §R심각§!"
+  KOR_idea_party_legitimacy_1: "정부 정통성: §R심각§!"
   KOR_idea_party_legitimacy_1_desc: ""
-  KOR_idea_party_legitimacy_2: "당의 정통성: §O약함§!"
+  KOR_idea_party_legitimacy_2: "정부 정통성: §O약함§!"
   KOR_idea_party_legitimacy_2_desc: ""
-  KOR_idea_party_legitimacy_3: "당의 정통성: §n보통§!"
+  KOR_idea_party_legitimacy_3: "정부 정통성: §n보통§!"
   KOR_idea_party_legitimacy_3_desc: ""
-  KOR_idea_party_legitimacy_4: "당의 정통성: §C광범위함§!"
+  KOR_idea_party_legitimacy_4: "정부 정통성: §C광범위함§!"
   KOR_idea_party_legitimacy_4_desc: ""
-  KOR_idea_party_legitimacy_5: "당의 정통성: §G국민정부§!"
+  KOR_idea_party_legitimacy_5: "정부 정통성: §G국민정부§!"
   KOR_idea_party_legitimacy_5_desc: ""
   KOR_idea_financial_problem: "재정 문제"
   KOR_idea_financial_problem_desc: ""
   # KOR_idea_improved_financial_condition: "개선된 재정 상태"
   # KOR_idea_improved_financial_condition_desc: ""
-  KOR_idea_korean_youth_vanguard: "한국청년전위단"
-  KOR_idea_korean_youth_vanguard_desc: ""
+  KOR_idea_kip_youth: "한국국민당청년단"
+  KOR_idea_kip_youth_desc: ""
   KOR_idea_military_council: "군사위원회"
   KOR_idea_military_council_desc: ""
   KOR_idea_disorganized_admin: "체계적이지 못한 행정"

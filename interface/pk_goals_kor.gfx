@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_focus_korean_youth_vanguard"
-		textureFile = "gfx/interface/goals/KOR/focus_korean_youth_vanguard.png"
+		name = "GFX_focus_knp_youth"
+		textureFile = "gfx/interface/goals/KOR/focus_knp_youth.png"
 	}
 
 	spriteType = {

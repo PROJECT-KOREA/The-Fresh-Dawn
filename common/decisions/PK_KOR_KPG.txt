@@ -81,7 +81,7 @@ KOR_DECCAT_propaganda = {
         visible = {
             # original_tag = KOR
             has_completed_focus = KOR_focus_department_of_propaganda
-            has_idea = KOR_idea_korean_youth_vanguard
+            has_idea = KOR_idea_kip_youth
         }
         available = {
             NOT = { has_completed_focus = KOR_focus_KIA }

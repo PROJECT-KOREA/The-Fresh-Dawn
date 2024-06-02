@@ -31,29 +31,28 @@ ideas = {
 					picture = generic_volunteer_expedition_bonus
 					removal_cost = -1
 					modifier = {
-						political_power_factor = -0.2
-						# political_power_gain = -0.01
-						cannot_call_allies_or_join_wars = 1
-					}
-				}
-				KOR_idea_government_in_exile_2 = {
-					name = KOR_idea_government_in_exile
-					picture = generic_volunteer_expedition_bonus
-					removal_cost = -1
-					modifier = {
-						political_power_factor = -0.15
-						cannot_call_allies_or_join_wars = 1
-					}
-				}
-				KOR_idea_government_in_exile_3 = {
-					name = KOR_idea_government_in_exile
-					picture = generic_volunteer_expedition_bonus
-					removal_cost = -1
-					modifier = {
 						political_power_factor = -0.10
 						cannot_call_allies_or_join_wars = 1
 					}
 				}
+				# KOR_idea_government_in_exile_2 = {
+				# 	name = KOR_idea_government_in_exile
+				# 	picture = generic_volunteer_expedition_bonus
+				# 	removal_cost = -1
+				# 	modifier = {
+				# 		political_power_factor = -0.15
+				# 		cannot_call_allies_or_join_wars = 1
+				# 	}
+				# }
+				# KOR_idea_government_in_exile_3 = {
+				# 	name = KOR_idea_government_in_exile
+				# 	picture = generic_volunteer_expedition_bonus
+				# 	removal_cost = -1
+				# 	modifier = {
+				# 		political_power_factor = -0.10
+				# 		cannot_call_allies_or_join_wars = 1
+				# 	}
+				# }
 			#
 
 			# 국민정부의 지원 #
@@ -118,22 +117,22 @@ ideas = {
 					picture = great_depression
 					modifier = {
 						consumer_goods_factor = 0.20
-						stability_factor = -0.10
+						stability_factor = -0.15
 					}
 				}
 				KOR_idea_financial_problem_2 = {
 					name = KOR_idea_financial_problem
 					picture = great_depression
 					modifier = {
-						consumer_goods_factor = 0.05
-						stability_factor = -0.05
+						consumer_goods_factor = 0.10
+						stability_factor = -0.10
 					}
 				}
 			#
 		#
 
 			#한국청년전위단
-			KOR_idea_korean_youth_vanguard = {
+			KOR_idea_kip_youth = {
 				picture = prc_low_popular_support2
 				modifier = {
 					political_power_factor = 0.10
